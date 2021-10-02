@@ -1697,7 +1697,7 @@
             "name": "theme-light",
             "lightTheme": {
                 "default": "#0094CE",
-                "baseColor": "#0094CE",
+                "baseColor": "#32499d",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
                 "edited": true,
                 "reset": false
@@ -1717,11 +1717,11 @@
             "themeState": {
                 "base-color": {
                     "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": false
+                    "value": "#32499d",
+                    "edited": true
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
+                    "value": "#32499d",
                     "edited": false
                 },
                 "page-backgroundColor": {
@@ -1729,11 +1729,11 @@
                     "edited": false
                 },
                 "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
+                    "value": "#333333",
                     "edited": false
                 },
                 "group-textColor": {
-                    "value": "#1bbfff",
+                    "value": "#536cc8",
                     "edited": false
                 },
                 "group-borderColor": {
@@ -1749,7 +1749,7 @@
                     "edited": false
                 },
                 "widget-backgroundColor": {
-                    "value": "#0094ce",
+                    "value": "#32499d",
                     "edited": false
                 },
                 "widget-borderColor": {
@@ -2276,7 +2276,7 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\" aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\" aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos eléctricos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\" aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\" aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\" aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos eléctricos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\" aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -8398,7 +8398,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -8725,7 +8725,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -9388,7 +9388,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -9473,7 +9473,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -11948,7 +11948,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -12666,7 +12666,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -12914,7 +12914,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -13142,7 +13142,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -13843,7 +13843,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -14642,7 +14642,7 @@
         "label": "Confirmar",
         "tooltip": "",
         "color": "",
-        "bgcolor": "",
+        "bgcolor": "#32499d",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -18793,7 +18793,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-DatosMotor-tab\" data-toggle=\"tab\" href=\"#nav-DatosMotor\" role=\"tab\" aria-controls=\"nav-DatosMotor\" aria-selected=\"true\" ng-click=\"send({payload:DatosMotor()})\">Datos de motor</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\" aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y Límites</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosFiltroCable-tab\" data-toggle=\"tab\" href=\"#nav-DatosFiltroCable\" role=\"tab\" aria-controls=\"nav-DatosFiltroCable\" aria-selected=\"false\" ng-click=\"send({payload:DatosFiltroCable()})\">Datos Filtro/Cable</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\" aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n        <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\" role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\" ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.DatosMotor = function() { return \"DatosMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        this.scope.DatosFiltroCable = function() { return \"DatosFiltroCable\"; };\n        \n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-DatosMotor-tab\" data-toggle=\"tab\" href=\"#nav-DatosMotor\" role=\"tab\" aria-controls=\"nav-DatosMotor\" aria-selected=\"true\" ng-click=\"send({payload:DatosMotor()})\">Datos de motor</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\" aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y Límites</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosFiltroCable-tab\" data-toggle=\"tab\" href=\"#nav-DatosFiltroCable\" role=\"tab\" aria-controls=\"nav-DatosFiltroCable\" aria-selected=\"false\" ng-click=\"send({payload:DatosFiltroCable()})\">Datos Filtro/Cable</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\" aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n        <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\" role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\" ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.DatosMotor = function() { return \"DatosMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        this.scope.DatosFiltroCable = function() { return \"DatosFiltroCable\"; };\n        \n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -19062,7 +19062,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-FreqLS-tab\" data-toggle=\"tab\" href=\"#nav-FreqLS\" role=\"tab\" aria-controls=\"nav-FreqLS\" aria-selected=\"true\" ng-click=\"send({payload:FreqLS()})\">Frecuencia LS</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RegVel-tab\" data-toggle=\"tab\" href=\"#nav-RegVel\" role=\"tab\" aria-controls=\"nav-RegVel\" aria-selected=\"false\" ng-click=\"send({payload:RegVel()})\">Reg. Velocidad</a>\n        <a class=\"nav-item nav-link\" id=\"nav-Sintonizacion-tab\" data-toggle=\"tab\" href=\"#nav-Sintonizacion\" role=\"tab\" aria-controls=\"nav-Sintonizacion\" aria-selected=\"false\" ng-click=\"send({payload:Sintonizacion()})\">Sintonización</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.FreqLS = function() { return \"FreqLS\"; };\n        this.scope.RegVel = function() { return \"RegVel\"; };\n        this.scope.Sintonizacion = function() { return \"Sintonizacion\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-FreqLS-tab\" data-toggle=\"tab\" href=\"#nav-FreqLS\" role=\"tab\" aria-controls=\"nav-FreqLS\" aria-selected=\"true\" ng-click=\"send({payload:FreqLS()})\">Frecuencia LS</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RegVel-tab\" data-toggle=\"tab\" href=\"#nav-RegVel\" role=\"tab\" aria-controls=\"nav-RegVel\" aria-selected=\"false\" ng-click=\"send({payload:RegVel()})\">Reg. Velocidad</a>\n        <a class=\"nav-item nav-link\" id=\"nav-Sintonizacion-tab\" data-toggle=\"tab\" href=\"#nav-Sintonizacion\" role=\"tab\" aria-controls=\"nav-Sintonizacion\" aria-selected=\"false\" ng-click=\"send({payload:Sintonizacion()})\">Sintonización</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.FreqLS = function() { return \"FreqLS\"; };\n        this.scope.RegVel = function() { return \"RegVel\"; };\n        this.scope.Sintonizacion = function() { return \"Sintonizacion\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -19296,8 +19296,7 @@
         "wires": [
             [
                 "106ca9e625394352",
-                "f407b78dc23fb32c",
-                "3cf55f6f.ba774"
+                "f407b78dc23fb32c"
             ]
         ]
     },
@@ -19404,7 +19403,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-Datos_Placa-tab\" data-toggle=\"tab\" href=\"#nav-Datos_Placa\" role=\"tab\" aria-controls=\"nav-Datos_Placa\" aria-selected=\"true\" ng-click=\"send({payload:Datos_Placa()})\">Datos de placa</a>\n        <a class=\"nav-item nav-link\" id=\"nav-CurvSat-tab\" data-toggle=\"tab\" href=\"#nav-CurvSat\" role=\"tab\" aria-controls=\"nav-CurvSat\" aria-selected=\"false\" ng-click=\"send({payload:CurvSat()})\">Curvas de saturación</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.Datos_Placa = function() { return \"Datos_Placa\"; };\n        this.scope.CurvSat = function() { return \"CurvSat\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-Datos_Placa-tab\" data-toggle=\"tab\" href=\"#nav-Datos_Placa\" role=\"tab\" aria-controls=\"nav-Datos_Placa\" aria-selected=\"true\" ng-click=\"send({payload:Datos_Placa()})\">Datos de placa</a>\n        <a class=\"nav-item nav-link\" id=\"nav-CurvSat-tab\" data-toggle=\"tab\" href=\"#nav-CurvSat\" role=\"tab\" aria-controls=\"nav-CurvSat\" aria-selected=\"false\" ng-click=\"send({payload:CurvSat()})\">Curvas de saturación</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.Datos_Placa = function() { return \"Datos_Placa\"; };\n        this.scope.CurvSat = function() { return \"CurvSat\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -21100,7 +21099,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\" role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\" ng-click=\"send({payload:PlacaMotor()})\">Placa de motor</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\" aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y Límites</a>\n        <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\" role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\" ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\" aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.PlacaMotor = function() { return \"PlacaMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        \n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\" role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\" ng-click=\"send({payload:PlacaMotor()})\">Placa de motor</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\" aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y Límites</a>\n        <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\" role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\" ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\" aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.PlacaMotor = function() { return \"PlacaMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        \n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -21287,23 +21286,6 @@
                 "58b74f02b3f60b0c"
             ]
         ]
-    },
-    {
-        "id": "3cf55f6f.ba774",
-        "type": "debug",
-        "z": "43b51d90.0b47f4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1060,
-        "y": 1740,
-        "wires": []
     },
     {
         "id": "690d1ecc.0a43",
