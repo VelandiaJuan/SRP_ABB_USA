@@ -321,9 +321,7 @@
             "da5262b2.a8a4e"
         ],
         "x": 14,
-        "y": 39,
-        "w": 1382,
-        "h": 392
+        "y": 39
     },
     {
         "id": "84100b55.2f93f8",
@@ -351,9 +349,7 @@
             "a3a9a0ec.71fdc"
         ],
         "x": 14,
-        "y": 449,
-        "w": 1362,
-        "h": 482
+        "y": 449
     },
     {
         "id": "41340d47.1f5e34",
@@ -382,9 +378,7 @@
             "6a0cde36.cf24c"
         ],
         "x": 14,
-        "y": 949,
-        "w": 1392,
-        "h": 402
+        "y": 949
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -430,7 +424,9 @@
         "z": "2e27dea6.c4c362",
         "name": "Home",
         "style": {
-            "label": true
+            "label": true,
+            "fill": "#7f8faf",
+            "color": "#ffffff"
         },
         "nodes": [
             "e765ca36.69fb98",
@@ -489,9 +485,7 @@
             "389a8a70.699a96"
         ],
         "x": 54,
-        "y": 1399,
-        "w": 1342,
-        "h": 262
+        "y": 1399
     },
     {
         "id": "3cb51855.a66038",
@@ -506,9 +500,7 @@
             "ecf98f3f.4a704"
         ],
         "x": 24,
-        "y": 1919,
-        "w": 232,
-        "h": 82
+        "y": 1919
     },
     {
         "id": "27a0641a.d154dc",
@@ -719,9 +711,7 @@
             "f671968c.586878"
         ],
         "x": 28,
-        "y": 33,
-        "w": 1504,
-        "h": 304
+        "y": 33
     },
     {
         "id": "eed2da25.98fab8",
@@ -738,9 +728,7 @@
             "566c907c.70175"
         ],
         "x": 28,
-        "y": 353,
-        "w": 1264,
-        "h": 574
+        "y": 353
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -784,9 +772,7 @@
             "7c55c2ad.611734"
         ],
         "x": 32,
-        "y": 947,
-        "w": 2696,
-        "h": 1626
+        "y": 947
     },
     {
         "id": "a36b2c72.18618",
@@ -804,9 +790,7 @@
             "80a9920a.43161"
         ],
         "x": 32,
-        "y": 2577,
-        "w": 2626,
-        "h": 866
+        "y": 2577
     },
     {
         "id": "c3a35f81.5c82b8",
@@ -831,9 +815,179 @@
             "ce7b2b4b5784dec1"
         ],
         "x": 34,
-        "y": 3449,
-        "w": 892,
-        "h": 162
+        "y": 3449
+    },
+    {
+        "id": "9b538856.60fb38",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "de8f2e2a.cab36",
+            "37820ee5.859272",
+            "9562fc1.ada0d",
+            "8f26d964.56a778",
+            "8102dc0f.63d08",
+            "45ba8097.f74b1",
+            "8db0f092.83eb9",
+            "febace6d.62f9c",
+            "88dcdbf8.24dc88",
+            "8f48d1f2.ceb62",
+            "8f928b10.7d7368",
+            "b67add6d.8a94a",
+            "bd43bd09.9aab9",
+            "f8f6d7e7.a66d88",
+            "ba2695ff.6d9548",
+            "90b649a5.3b9fa8",
+            "588cbae4.e05ae4",
+            "249b4bda.1f1dd4",
+            "9be46ec.495559",
+            "6faf6e85.a53ad",
+            "ed649516.fdb838",
+            "bc78207d.aabd4",
+            "85d73faa.116d8",
+            "7b1a1485.ef152c",
+            "ecf97624.7b4b68"
+        ],
+        "x": 24,
+        "y": 239
+    },
+    {
+        "id": "deaa6892.b3d988",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "b1830307.ee865",
+            "31895ea6.22f372"
+        ],
+        "x": 14,
+        "y": 13
+    },
+    {
+        "id": "1dd5b051.a95e6",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "Datalogger",
+        "style": {
+            "label": true,
+            "fill": "#ffefbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "4ea7eb06.9f2174",
+            "7e0625da.a5746c",
+            "ccef2ff8.d103a",
+            "4a152bf2.aedbf4",
+            "ac8dba55.436ca8",
+            "b92820bf.a85cd",
+            "53de6e8d.a41ec",
+            "7409201c.daf43",
+            "793ef4d5.ef60dc",
+            "556daeb1.5f8c4",
+            "458b1cd4.6b15f4",
+            "c16175a3.4e3dc8",
+            "6e2e57d6.1acb68",
+            "c0a93ee0.0bece",
+            "bb20b02b.93fbf",
+            "87d327f9.2d5698",
+            "a5965533.262318",
+            "8b735152.e0f1d",
+            "a88b1b0d.338558",
+            "1770e069.fa06e",
+            "a1296c3e.0467d",
+            "7fcfdd93.ac45a4",
+            "15d31797.55bf88",
+            "96675df9.60de8",
+            "65c0afcd.8388",
+            "70eee707.21eb08",
+            "3b3e865c.e649aa",
+            "89541385.7f5a6",
+            "bc74ae1c.8050f",
+            "7d3c0e90.bc175",
+            "64bd474c.8651a8",
+            "c2a083b6.80ece",
+            "e19ab68f.2ca7d8",
+            "7e9f72bb.cc0ccc",
+            "f125f8dc.4fc0e8",
+            "acd83647.191f48",
+            "ac947de3.26a6d",
+            "3300d502.d9f2da",
+            "669ee12e.3c9e4",
+            "bedc0725.f22738",
+            "3c51eaef.2751d6",
+            "e3de11a.525d4f",
+            "2ffd423b.f2a4ae",
+            "4cb76011.15326",
+            "6b7af496.0913bc",
+            "5c0f44f8.2977bc",
+            "b59d2d9c.bc7c8",
+            "a222d060.87b67",
+            "27ab586e.ff3e28",
+            "4c30ceb7.d240a",
+            "4e129740.b3ea78",
+            "a28ff141.b8c37",
+            "b9ed60ab.26f43",
+            "882afa67.5605e8"
+        ],
+        "x": 24,
+        "y": 529
+    },
+    {
+        "id": "f7ed166d.1aa528",
+        "type": "group",
+        "z": "3af652c9.6f9bee",
+        "name": "Usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f3c2e7cf.5ed158",
+            "eb91dac5.690838"
+        ],
+        "x": 18,
+        "y": 13
+    },
+    {
+        "id": "e98dc6a9.24ece8",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "name": "Eventos y Alarmas",
+        "style": {
+            "fill": "#7f8faf",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "890323f.ee684e",
+            "3031a06c.c602b",
+            "36981e1d.3c8802",
+            "b3363f6b.8bce4",
+            "6a170411.dda84c",
+            "3324fa7b.ec6e86",
+            "dcd696d0.332638",
+            "c2e14be8.387158",
+            "c98bd2dc.e9d39",
+            "4a5dd111.e9422",
+            "2f580b82.d69ec4",
+            "1b60e4da.1b605b",
+            "312d9def.84df32"
+        ],
+        "x": 14,
+        "y": 969,
+        "w": 702,
+        "h": 242
     },
     {
         "id": "1306de9a.9ba341",
@@ -1345,9 +1499,7 @@
             "75d2e137.0d658"
         ],
         "x": 54,
-        "y": 59,
-        "w": 1452,
-        "h": 252
+        "y": 59
     },
     {
         "id": "71fd37.e2a532c8",
@@ -1392,9 +1544,7 @@
             "868cefce.6694a"
         ],
         "x": 54,
-        "y": 379,
-        "w": 1212,
-        "h": 362
+        "y": 379
     },
     {
         "id": "566c907c.70175",
@@ -1417,9 +1567,7 @@
             "dc337b1c.735738"
         ],
         "x": 54,
-        "y": 749,
-        "w": 982,
-        "h": 152
+        "y": 749
     },
     {
         "id": "f167459.5f028b8",
@@ -1438,9 +1586,7 @@
             "f68d7eac.63fb98"
         ],
         "x": 58,
-        "y": 973,
-        "w": 1284,
-        "h": 1574
+        "y": 973
     },
     {
         "id": "7c55c2ad.611734",
@@ -1458,9 +1604,7 @@
             "c4bcf1ca.3d67d"
         ],
         "x": 1358,
-        "y": 973,
-        "w": 1344,
-        "h": 1011.5
+        "y": 973
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -1477,9 +1621,7 @@
             "742e267a.cbc27"
         ],
         "x": 58,
-        "y": 2603,
-        "w": 1284,
-        "h": 574
+        "y": 2603
     },
     {
         "id": "80a9920a.43161",
@@ -1511,9 +1653,116 @@
             "7e42111d.6ffa3"
         ],
         "x": 1348,
-        "y": 2603,
-        "w": 1284,
-        "h": 814
+        "y": 2603
+    },
+    {
+        "id": "b1830307.ee865",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "g": "deaa6892.b3d988",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "5d023264.f9da5c",
+            "a11a269b.95a928",
+            "6919572a.996288",
+            "1fc149b0.64f6b6",
+            "2da816b7.b2be9a",
+            "3114e207.ca335e",
+            "b5c74953.41a018",
+            "40d7d388.c79d5c",
+            "2fbf43b6.2f889c",
+            "7f9ef622.6d0448",
+            "a6d197ee.394348",
+            "abfef4e5.b7f448",
+            "c8dda58c.1ca2c8"
+        ],
+        "x": 40,
+        "y": 39
+    },
+    {
+        "id": "31895ea6.22f372",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "g": "deaa6892.b3d988",
+        "name": "",
+        "style": {
+            "fill": "#b797cf",
+            "label": true
+        },
+        "nodes": [
+            "ee7b302e.70f41",
+            "ac3f3ce7.ee3c1",
+            "73b4f064.6e065",
+            "d9650a0e.03ed98",
+            "fdc0f6ae.24f238",
+            "3013b30c.31a45c",
+            "f161b281.6743b",
+            "dafe5a37.3d7818",
+            "8eacc47.e177438",
+            "8493b2ad.8a07f",
+            "78a30fea.3bcb2",
+            "980848c8.d90ec8",
+            "c42f5649.4492d8"
+        ],
+        "x": 950,
+        "y": 39
+    },
+    {
+        "id": "f3c2e7cf.5ed158",
+        "type": "group",
+        "z": "3af652c9.6f9bee",
+        "g": "f7ed166d.1aa528",
+        "name": "Acciones usuario",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "21e4fb07.22d804",
+            "a80677cf.4274c8",
+            "8e762cce.be81",
+            "64ff74e5.f4c53c",
+            "fbd8c1e9.7d493",
+            "be55ea76.ed4478",
+            "723d59b.85ed6a8"
+        ],
+        "x": 44,
+        "y": 243
+    },
+    {
+        "id": "eb91dac5.690838",
+        "type": "group",
+        "z": "3af652c9.6f9bee",
+        "g": "f7ed166d.1aa528",
+        "name": "Acceso a usuarios",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "df6fb5ca.5f8af8",
+            "28cd79fb.3dcae6",
+            "2066be8e.5c6832",
+            "e04fbd1c.98ffe",
+            "2ffa7be0.763644",
+            "a146fd5d.dc194",
+            "be50258c.07bb98",
+            "6e26c35e.a97f8c",
+            "1595def7.d11251",
+            "affdacff.6646c",
+            "51d66341.8ee0fc",
+            "7de51565.2383cc",
+            "3a348318.fe982c",
+            "c30ad6e.2c1c928"
+        ],
+        "x": 44,
+        "y": 39
     },
     {
         "id": "16097ef1.129291",
@@ -2018,9 +2267,7 @@
             "c879d75923fd70c6"
         ],
         "x": 84,
-        "y": 999,
-        "w": 1232,
-        "h": 842
+        "y": 999
     },
     {
         "id": "49c39e.d1336c64",
@@ -2085,9 +2332,7 @@
             "4e381a9b.9c9554"
         ],
         "x": 84,
-        "y": 1849,
-        "w": 1232,
-        "h": 482
+        "y": 1849
     },
     {
         "id": "f68d7eac.63fb98",
@@ -2116,9 +2361,7 @@
             "d1863a1.a519248"
         ],
         "x": 84,
-        "y": 2339,
-        "w": 632,
-        "h": 182
+        "y": 2339
     },
     {
         "id": "d532ac68.2d5408",
@@ -2163,9 +2406,7 @@
             "1b6da6d12918e8a2"
         ],
         "x": 1384,
-        "y": 999,
-        "w": 1292,
-        "h": 412
+        "y": 999
     },
     {
         "id": "c4bcf1ca.3d67d",
@@ -2224,9 +2465,7 @@
             "8fdf8ee9.0bd3d"
         ],
         "x": 1384,
-        "y": 1419,
-        "w": 1292,
-        "h": 539.5
+        "y": 1419
     },
     {
         "id": "742e267a.cbc27",
@@ -2272,9 +2511,7 @@
             "7b0b3baff810e681"
         ],
         "x": 84,
-        "y": 2629,
-        "w": 1232,
-        "h": 522
+        "y": 2629
     },
     {
         "id": "f6e2a6e0.47efb8",
@@ -2311,9 +2548,7 @@
             "bb5e3162.6feb9"
         ],
         "x": 1374,
-        "y": 2629,
-        "w": 1232,
-        "h": 312
+        "y": 2629
     },
     {
         "id": "edfe6c51.d89c68",
@@ -2348,276 +2583,7 @@
             "6f5153fc.5881dc"
         ],
         "x": 1374,
-        "y": 2949,
-        "w": 722,
-        "h": 442
-    },
-    {
-        "id": "9b538856.60fb38",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "name": "",
-        "style": {
-            "fill": "#dbcbe7",
-            "label": true
-        },
-        "nodes": [
-            "de8f2e2a.cab36",
-            "37820ee5.859272",
-            "9562fc1.ada0d",
-            "8f26d964.56a778",
-            "8102dc0f.63d08",
-            "45ba8097.f74b1",
-            "8db0f092.83eb9",
-            "febace6d.62f9c",
-            "88dcdbf8.24dc88",
-            "8f48d1f2.ceb62",
-            "8f928b10.7d7368",
-            "b67add6d.8a94a",
-            "bd43bd09.9aab9",
-            "f8f6d7e7.a66d88",
-            "ba2695ff.6d9548",
-            "90b649a5.3b9fa8",
-            "588cbae4.e05ae4",
-            "249b4bda.1f1dd4",
-            "9be46ec.495559",
-            "6faf6e85.a53ad",
-            "ed649516.fdb838",
-            "bc78207d.aabd4",
-            "85d73faa.116d8",
-            "7b1a1485.ef152c",
-            "ecf97624.7b4b68"
-        ],
-        "x": 24,
-        "y": 239,
-        "w": 2602,
-        "h": 279.5
-    },
-    {
-        "id": "deaa6892.b3d988",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "name": "",
-        "style": {
-            "fill": "#dbcbe7",
-            "label": true
-        },
-        "nodes": [
-            "b1830307.ee865",
-            "31895ea6.22f372"
-        ],
-        "x": 14,
-        "y": 13,
-        "w": 1854,
-        "h": 214
-    },
-    {
-        "id": "b1830307.ee865",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "g": "deaa6892.b3d988",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "5d023264.f9da5c",
-            "a11a269b.95a928",
-            "6919572a.996288",
-            "1fc149b0.64f6b6",
-            "2da816b7.b2be9a",
-            "3114e207.ca335e",
-            "b5c74953.41a018",
-            "40d7d388.c79d5c",
-            "2fbf43b6.2f889c",
-            "7f9ef622.6d0448",
-            "a6d197ee.394348",
-            "abfef4e5.b7f448",
-            "c8dda58c.1ca2c8"
-        ],
-        "x": 40,
-        "y": 39,
-        "w": 902,
-        "h": 162
-    },
-    {
-        "id": "31895ea6.22f372",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "g": "deaa6892.b3d988",
-        "name": "",
-        "style": {
-            "fill": "#b797cf",
-            "label": true
-        },
-        "nodes": [
-            "ee7b302e.70f41",
-            "ac3f3ce7.ee3c1",
-            "73b4f064.6e065",
-            "d9650a0e.03ed98",
-            "fdc0f6ae.24f238",
-            "3013b30c.31a45c",
-            "f161b281.6743b",
-            "dafe5a37.3d7818",
-            "8eacc47.e177438",
-            "8493b2ad.8a07f",
-            "78a30fea.3bcb2",
-            "980848c8.d90ec8",
-            "c42f5649.4492d8"
-        ],
-        "x": 950,
-        "y": 39,
-        "w": 892,
-        "h": 162
-    },
-    {
-        "id": "1dd5b051.a95e6",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "name": "Datalogger",
-        "style": {
-            "label": true,
-            "fill": "#ffefbf",
-            "color": "#000000"
-        },
-        "nodes": [
-            "4ea7eb06.9f2174",
-            "7e0625da.a5746c",
-            "ccef2ff8.d103a",
-            "4a152bf2.aedbf4",
-            "ac8dba55.436ca8",
-            "b92820bf.a85cd",
-            "53de6e8d.a41ec",
-            "7409201c.daf43",
-            "793ef4d5.ef60dc",
-            "556daeb1.5f8c4",
-            "458b1cd4.6b15f4",
-            "c16175a3.4e3dc8",
-            "6e2e57d6.1acb68",
-            "c0a93ee0.0bece",
-            "bb20b02b.93fbf",
-            "87d327f9.2d5698",
-            "a5965533.262318",
-            "8b735152.e0f1d",
-            "a88b1b0d.338558",
-            "1770e069.fa06e",
-            "a1296c3e.0467d",
-            "7fcfdd93.ac45a4",
-            "15d31797.55bf88",
-            "96675df9.60de8",
-            "65c0afcd.8388",
-            "70eee707.21eb08",
-            "3b3e865c.e649aa",
-            "89541385.7f5a6",
-            "bc74ae1c.8050f",
-            "7d3c0e90.bc175",
-            "64bd474c.8651a8",
-            "c2a083b6.80ece",
-            "e19ab68f.2ca7d8",
-            "7e9f72bb.cc0ccc",
-            "f125f8dc.4fc0e8",
-            "acd83647.191f48",
-            "ac947de3.26a6d",
-            "3300d502.d9f2da",
-            "669ee12e.3c9e4",
-            "bedc0725.f22738",
-            "3c51eaef.2751d6",
-            "e3de11a.525d4f",
-            "2ffd423b.f2a4ae",
-            "4cb76011.15326",
-            "6b7af496.0913bc",
-            "5c0f44f8.2977bc",
-            "b59d2d9c.bc7c8",
-            "a222d060.87b67",
-            "27ab586e.ff3e28",
-            "4c30ceb7.d240a",
-            "4e129740.b3ea78",
-            "a28ff141.b8c37",
-            "b9ed60ab.26f43",
-            "882afa67.5605e8"
-        ],
-        "x": 24,
-        "y": 529,
-        "w": 2012,
-        "h": 442
-    },
-    {
-        "id": "f7ed166d.1aa528",
-        "type": "group",
-        "z": "3af652c9.6f9bee",
-        "name": "Usuarios",
-        "style": {
-            "fill": "#ffbfbf",
-            "fill-opacity": "0.5",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "f3c2e7cf.5ed158",
-            "eb91dac5.690838"
-        ],
-        "x": 18,
-        "y": 13,
-        "w": 1364,
-        "h": 770
-    },
-    {
-        "id": "f3c2e7cf.5ed158",
-        "type": "group",
-        "z": "3af652c9.6f9bee",
-        "g": "f7ed166d.1aa528",
-        "name": "Acciones usuario",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "21e4fb07.22d804",
-            "a80677cf.4274c8",
-            "8e762cce.be81",
-            "64ff74e5.f4c53c",
-            "fbd8c1e9.7d493",
-            "be55ea76.ed4478",
-            "723d59b.85ed6a8"
-        ],
-        "x": 44,
-        "y": 243,
-        "w": 928,
-        "h": 514
-    },
-    {
-        "id": "eb91dac5.690838",
-        "type": "group",
-        "z": "3af652c9.6f9bee",
-        "g": "f7ed166d.1aa528",
-        "name": "Acceso a usuarios",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "df6fb5ca.5f8af8",
-            "28cd79fb.3dcae6",
-            "2066be8e.5c6832",
-            "e04fbd1c.98ffe",
-            "2ffa7be0.763644",
-            "a146fd5d.dc194",
-            "be50258c.07bb98",
-            "6e26c35e.a97f8c",
-            "1595def7.d11251",
-            "affdacff.6646c",
-            "51d66341.8ee0fc",
-            "7de51565.2383cc",
-            "3a348318.fe982c",
-            "c30ad6e.2c1c928"
-        ],
-        "x": 44,
-        "y": 39,
-        "w": 1312,
-        "h": 192
+        "y": 2949
     },
     {
         "id": "a80677cf.4274c8",
@@ -2636,9 +2602,7 @@
             "6d40adaa.11d2c4"
         ],
         "x": 574,
-        "y": 609,
-        "w": 242,
-        "h": 122
+        "y": 609
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -2657,9 +2621,7 @@
             "42f85e00.83b314"
         ],
         "x": 574,
-        "y": 269,
-        "w": 172,
-        "h": 162
+        "y": 269
     },
     {
         "id": "be55ea76.ed4478",
@@ -2679,9 +2641,7 @@
             "d1a73825.d89578"
         ],
         "x": 574,
-        "y": 439,
-        "w": 372,
-        "h": 162
+        "y": 439
     },
     {
         "id": "d25d405a.19cff",
@@ -2783,7 +2743,7 @@
         "id": "1ecc5089.33b77f",
         "type": "ui_tab",
         "name": "Principal",
-        "icon": "dashboard",
+        "icon": "fa-home",
         "order": 1,
         "disabled": false,
         "hidden": false
@@ -2882,8 +2842,8 @@
         "id": "fe41bc20.3ab56",
         "type": "ui_tab",
         "name": "Protecciones",
-        "icon": "dashboard",
-        "order": 2,
+        "icon": "fa-shield",
+        "order": 3,
         "disabled": false,
         "hidden": false
     },
@@ -3225,7 +3185,7 @@
         "id": "9d512981.aa8278",
         "type": "ui_tab",
         "name": "Configuración VSD",
-        "icon": "dashboard",
+        "icon": "fa-cogs",
         "order": 5,
         "disabled": false,
         "hidden": false
@@ -3294,8 +3254,8 @@
         "id": "73af030.b87b7fc",
         "type": "ui_tab",
         "name": "Entradas y Salidas",
-        "icon": "dashboard",
-        "order": 11,
+        "icon": "fa-microchip",
+        "order": 4,
         "disabled": false,
         "hidden": false
     },
@@ -3469,8 +3429,8 @@
         "id": "fdffe6bc.86dd78",
         "type": "ui_tab",
         "name": "Eventos y Alarmas",
-        "icon": "fa-file-archive-o",
-        "order": 3,
+        "icon": "fa-calendar",
+        "order": 2,
         "disabled": false,
         "hidden": false
     },
@@ -3594,7 +3554,7 @@
         "type": "ui_tab",
         "name": "Usuario",
         "icon": "fa-user",
-        "order": 4,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -34892,6 +34852,7 @@
         "id": "890323f.ee684e",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "group": "33c417e4.ee9778",
         "name": "Menu Eventos y alarmas",
         "order": 1,
@@ -34902,8 +34863,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 260,
-        "y": 1080,
+        "x": 150,
+        "y": 1090,
         "wires": [
             [
                 "3031a06c.c602b"
@@ -34914,6 +34875,7 @@
         "id": "3031a06c.c602b",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -34937,8 +34899,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 440,
-        "y": 1080,
+        "x": 330,
+        "y": 1090,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -34955,6 +34917,7 @@
         "id": "36981e1d.3c8802",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "",
         "property": "name",
         "propertyType": "msg",
@@ -34968,8 +34931,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 300,
-        "y": 1020,
+        "x": 190,
+        "y": 1030,
         "wires": [
             [
                 "dcd696d0.332638"
@@ -34980,13 +34943,14 @@
         "id": "b3363f6b.8bce4",
         "type": "link in",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "Menú Entradas/Salidas SWCPRO",
         "links": [
             "97407954.a004c8",
             "4372d5a0.d338dc"
         ],
-        "x": 215,
-        "y": 1020,
+        "x": 105,
+        "y": 1030,
         "wires": [
             [
                 "36981e1d.3c8802"
@@ -34997,6 +34961,7 @@
         "id": "6a170411.dda84c",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "group": "ac484374.134ee",
         "name": "Menu Eventos y alarmas",
         "order": 1,
@@ -35007,8 +34972,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 260,
-        "y": 1150,
+        "x": 150,
+        "y": 1160,
         "wires": [
             [
                 "3324fa7b.ec6e86"
@@ -35019,6 +34984,7 @@
         "id": "3324fa7b.ec6e86",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -35037,8 +35003,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 450,
-        "y": 1150,
+        "x": 340,
+        "y": 1160,
         "wires": [
             [
                 "4a5dd111.e9422"
@@ -36080,6 +36046,7 @@
         "id": "dcd696d0.332638",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "usuario",
         "property": "#:(memoryOnly)::UserStatus",
         "propertyType": "global",
@@ -36096,8 +36063,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 430,
-        "y": 1020,
+        "x": 320,
+        "y": 1030,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -36111,6 +36078,7 @@
         "id": "c2e14be8.387158",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "menu usuario",
         "rules": [
             {
@@ -36126,8 +36094,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1000,
+        "x": 510,
+        "y": 1010,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -36138,18 +36106,20 @@
         "id": "c98bd2dc.e9d39",
         "type": "link out",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "Menú Entradas/Salidas SWCPRO",
         "links": [
             "8a17d991.081178"
         ],
-        "x": 785,
-        "y": 1080,
+        "x": 675,
+        "y": 1090,
         "wires": []
     },
     {
         "id": "4a5dd111.e9422",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "menu  no usuario",
         "rules": [
             {
@@ -36165,8 +36135,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 610,
-        "y": 1040,
+        "x": 500,
+        "y": 1050,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -36251,6 +36221,7 @@
         "id": "2f580b82.d69ec4",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "menu usuario",
         "rules": [
             {
@@ -36266,8 +36237,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1080,
+        "x": 510,
+        "y": 1090,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -36278,6 +36249,7 @@
         "id": "1b60e4da.1b605b",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "menu  no usuario",
         "rules": [
             {
@@ -36293,8 +36265,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1160,
+        "x": 510,
+        "y": 1170,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -36305,6 +36277,7 @@
         "id": "312d9def.84df32",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "menu usuario",
         "rules": [
             {
@@ -36320,8 +36293,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 620,
-        "y": 1120,
+        "x": 510,
+        "y": 1130,
         "wires": [
             [
                 "c98bd2dc.e9d39"
