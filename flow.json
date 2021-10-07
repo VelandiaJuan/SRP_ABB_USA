@@ -112,6 +112,13 @@
         "info": ""
     },
     {
+        "id": "ebaf6b5134c2a666",
+        "type": "tab",
+        "label": "Control PID",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -690,9 +697,7 @@
             "aa49b3720341c633"
         ],
         "x": 14,
-        "y": 9,
-        "w": 1572,
-        "h": 492
+        "y": 9
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -763,7 +768,7 @@
         ],
         "x": 14,
         "y": 189,
-        "w": 772,
+        "w": 852,
         "h": 282
     },
     {
@@ -820,9 +825,7 @@
             "47eecc9b022b2242"
         ],
         "x": 24,
-        "y": 529,
-        "w": 1602,
-        "h": 582
+        "y": 529
     },
     {
         "id": "3cb51855.a66038",
@@ -837,9 +840,7 @@
             "ecf98f3f.4a704"
         ],
         "x": 714,
-        "y": 1749,
-        "w": 232,
-        "h": 82
+        "y": 1749
     },
     {
         "id": "27a0641a.d154dc",
@@ -1031,8 +1032,8 @@
             "b5972fd3.3aeb7"
         ],
         "x": 14,
-        "y": 489,
-        "w": 642,
+        "y": 479,
+        "w": 602,
         "h": 202
     },
     {
@@ -1075,8 +1076,8 @@
             "8c4c4846.6ea308"
         ],
         "x": 14,
-        "y": 709,
-        "w": 682,
+        "y": 699,
+        "w": 622,
         "h": 242
     },
     {
@@ -1265,9 +1266,7 @@
             "eb91dac5.690838"
         ],
         "x": 18,
-        "y": 13,
-        "w": 1634,
-        "h": 1120
+        "y": 13
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1366,9 +1365,7 @@
             "ee01b6d1.f76f98"
         ],
         "x": 18,
-        "y": 23,
-        "w": 1464,
-        "h": 664
+        "y": 23
     },
     {
         "id": "48d282d70b9e72c9",
@@ -1618,10 +1615,12 @@
             "5629df50.34e2e",
             "7c306901.d02908",
             "8ccdb23e.cee62",
-            "96dd78cc.aad9d8"
+            "96dd78cc.aad9d8",
+            "c6b036f4d80b1a9a",
+            "652eef7ff30e8029"
         ],
-        "x": 1074,
-        "y": 499
+        "x": 994,
+        "y": 649
     },
     {
         "id": "87fca62744442ad4",
@@ -1791,9 +1790,7 @@
             "8d6f8e22ed531a56"
         ],
         "x": 2004,
-        "y": 49,
-        "w": 492,
-        "h": 402
+        "y": 49
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -1808,9 +1805,7 @@
             "aafad2ba.dcc8b"
         ],
         "x": 2008,
-        "y": 463,
-        "w": 1054,
-        "h": 634
+        "y": 463
     },
     {
         "id": "c483d44b5f6def10",
@@ -1835,9 +1830,7 @@
             "45aad8d3129156ca"
         ],
         "x": 2014,
-        "y": 1109,
-        "w": 472,
-        "h": 442
+        "y": 1109
     },
     {
         "id": "931b0370.afc1b",
@@ -1855,8 +1848,8 @@
             "c9c60e8060e9ce10",
             "52f1e35a6b450a62"
         ],
-        "x": 804,
-        "y": 29,
+        "x": 1384,
+        "y": 19,
         "w": 262,
         "h": 182
     },
@@ -2108,9 +2101,7 @@
             "b9df7528.923398"
         ],
         "x": 28,
-        "y": 23,
-        "w": 2970,
-        "h": 1062
+        "y": 23
     },
     {
         "id": "83483662ea05d247",
@@ -2146,6 +2137,74 @@
         ],
         "x": 28,
         "y": 33
+    },
+    {
+        "id": "c2c81bf2.d0a218",
+        "type": "group",
+        "z": "ebaf6b5134c2a666",
+        "name": "Control PID",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#addb7b"
+        },
+        "nodes": [
+            "afcd8222.ca23b",
+            "cf985e84.c7693"
+        ],
+        "x": 18,
+        "y": 23
+    },
+    {
+        "id": "e1e65313b5eaa836",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7acc47cbe9990f19",
+            "30d70d168bf42655",
+            "eb0d147d1d43c8ac",
+            "99e2af3d95892f16",
+            "5af605a801bc0c3d",
+            "aeb29ded9a6b39dc",
+            "b5c1e33ed75a3eb6",
+            "77dcd918.f8c298"
+        ],
+        "x": 14,
+        "y": 1229,
+        "w": 928,
+        "h": 378
+    },
+    {
+        "id": "77dcd918.f8c298",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
+        "name": "",
+        "style": {
+            "fill": "#7f8faf",
+            "label": true
+        },
+        "nodes": [
+            "ed9802d3.5add5",
+            "1502171f.780179",
+            "4e16b16d.cb9b2",
+            "606a3e77.9d00f",
+            "db83bdec.22c7e",
+            "54a6e602.e31808"
+        ],
+        "x": 294,
+        "y": 1419,
+        "w": 622,
+        "h": 162
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -2222,9 +2281,7 @@
             "3ccbaa0b.2db096"
         ],
         "x": 2034,
-        "y": 859,
-        "w": 1002,
-        "h": 212
+        "y": 859
     },
     {
         "id": "36fa9c99094e8f47",
@@ -2248,9 +2305,7 @@
             "3a1748983f097cb1"
         ],
         "x": 2034,
-        "y": 489,
-        "w": 402,
-        "h": 362
+        "y": 489
     },
     {
         "id": "1306de9a.9ba341",
@@ -2918,9 +2973,7 @@
             "7060d261.ea55cc"
         ],
         "x": 134,
-        "y": 463,
-        "w": 828,
-        "h": 644
+        "y": 463
     },
     {
         "id": "eb91dac5.690838",
@@ -2973,9 +3026,7 @@
             "0fb4056eaba64bf7"
         ],
         "x": 44,
-        "y": 39,
-        "w": 1582,
-        "h": 402
+        "y": 39
     },
     {
         "id": "8ed62712.fe2018",
@@ -3051,9 +3102,7 @@
             "7cc997fc.b5d5b8"
         ],
         "x": 44,
-        "y": 499,
-        "w": 572,
-        "h": 162
+        "y": 499
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -3092,9 +3141,7 @@
             "43ffc14d.a3cac8"
         ],
         "x": 44,
-        "y": 49,
-        "w": 1412,
-        "h": 442
+        "y": 49
     },
     {
         "id": "e2589faa.5b6d2",
@@ -3252,9 +3299,7 @@
             "3b9c1ffbdb77d781"
         ],
         "x": 54,
-        "y": 359,
-        "w": 1832,
-        "h": 700
+        "y": 359
     },
     {
         "id": "7aad629d.de652c",
@@ -3316,9 +3361,7 @@
             "b8c12e8b.715b2"
         ],
         "x": 54,
-        "y": 49,
-        "w": 2762,
-        "h": 302
+        "y": 49
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -3347,9 +3390,7 @@
             "4e19cfd4.3982f"
         ],
         "x": 1894,
-        "y": 439,
-        "w": 1062,
-        "h": 232
+        "y": 439
     },
     {
         "id": "b9df7528.923398",
@@ -3366,9 +3407,7 @@
             "65994a87.9d5eb4"
         ],
         "x": 1898,
-        "y": 683,
-        "w": 1074,
-        "h": 134
+        "y": 683
     },
     {
         "id": "6625e1db09743bc3",
@@ -3549,6 +3588,110 @@
         ],
         "x": 54,
         "y": 359
+    },
+    {
+        "id": "afcd8222.ca23b",
+        "type": "group",
+        "z": "ebaf6b5134c2a666",
+        "g": "c2c81bf2.d0a218",
+        "name": "Habilitar / Deshabilitar PID",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "937ff287.3fa5b",
+            "77550c98.576f84",
+            "5f1d5b77.109174",
+            "ae41290c.649488",
+            "3bbaed96.9213e2",
+            "fd36c4d1.9d5ea8",
+            "da507039.de239",
+            "715302ac.f9f87c",
+            "e5c41a9d.a8b708",
+            "8929022a.7ccf3",
+            "39667d7d.270542",
+            "d06ffec0.71437",
+            "345fe7bb.77c178",
+            "55470563.99950c",
+            "69988bfb01469774",
+            "25037f6e145deee9"
+        ],
+        "x": 44,
+        "y": 649
+    },
+    {
+        "id": "cf985e84.c7693",
+        "type": "group",
+        "z": "ebaf6b5134c2a666",
+        "g": "c2c81bf2.d0a218",
+        "name": "Configuración PID",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "dda02d35.2cecb",
+            "44fdc5e6.85bf0c",
+            "9d734d6a.585f9",
+            "766ff7ed.aba428",
+            "73d662e7.047d5c",
+            "d1f79561.529bc8",
+            "4c96d1b1.d47ce",
+            "859f68e9.1bfb38",
+            "31c4f09e.6de82",
+            "dac5ee0c.60a49",
+            "b2ee364c.f0d8e8",
+            "7c042baf.6c61e4",
+            "e8529ec4.1062b",
+            "6bf8246a.73f65c",
+            "d4218cf0.530c9",
+            "1cdca418.1a28ac",
+            "8f1125c4.daacb8",
+            "2a2f104.a62ccf",
+            "59760e1.297e2f",
+            "35db28d5.6cf898",
+            "3cbda9fc.643276",
+            "5c474c06.fc4eb4",
+            "429c084c.bdb7e8",
+            "61a138bb.1bf0c8",
+            "6f1fc25f.3bf7dc",
+            "4678d40e.8d6dbc",
+            "b9b2071a.501878",
+            "c7b2c342.4724d",
+            "b2f62aea.fc39d8",
+            "4901c762.a51cc8",
+            "dd4ef7f.6489508",
+            "3832b43d.5075cc",
+            "1ceaf72f.47aa79",
+            "2664f246.4ed1ae",
+            "a810eee4.622a1",
+            "5e68509d.103b9",
+            "84515fce.0be5a",
+            "3067f725.56f2f8",
+            "ae17baf7.aa0dd8",
+            "deafd3e9.1a118",
+            "7d4871c0.b9897",
+            "d2b661d8.32601",
+            "45f9d45.fc2d92c",
+            "70d72abf.382ff4",
+            "63f1e3c6.d2a68c",
+            "4c971bbf.6a51f4",
+            "2b5d1711.b6f638",
+            "bb6b8bf2.f42718",
+            "39b2bc9d.88ad84",
+            "24dc3a66.92b236",
+            "1191e655.99fb9a",
+            "ba9a49de.2a6e68",
+            "51d0b33e.8369fc",
+            "d97ed6bd.e7ad18",
+            "0cb5e56ab0b31d03",
+            "d6aaf343fc532b87"
+        ],
+        "x": 44,
+        "y": 49
     },
     {
         "id": "742e267a.cbc27",
@@ -4510,9 +4653,7 @@
             "6d40adaa.11d2c4"
         ],
         "x": 554,
-        "y": 959,
-        "w": 262,
-        "h": 122
+        "y": 959
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -4532,9 +4673,7 @@
             "c1672804cba19e98"
         ],
         "x": 574,
-        "y": 489,
-        "w": 172,
-        "h": 212
+        "y": 489
     },
     {
         "id": "be55ea76.ed4478",
@@ -4555,9 +4694,7 @@
             "41b82348a8ab40a8"
         ],
         "x": 564,
-        "y": 719,
-        "w": 372,
-        "h": 202
+        "y": 719
     },
     {
         "id": "1d477816.993308",
@@ -4636,9 +4773,38 @@
             "f4363e16.f1813"
         ],
         "x": 1924,
-        "y": 709,
-        "w": 1022,
-        "h": 82
+        "y": 709
+    },
+    {
+        "id": "dd4ef7f.6489508",
+        "type": "group",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3afd29ba.46fad6",
+            "ce02b206.111c9",
+            "b4849220.625db",
+            "77182564.24ff4c",
+            "64cd81f4.6692f",
+            "d5ba14a5.0e5e98",
+            "962b19d2.c18838",
+            "8c5351d8.97256",
+            "89f58b9e.9e0d08",
+            "56e71bad.168c34",
+            "248484da4b66af7c",
+            "7af9ff4dabd191fb"
+        ],
+        "x": 1394,
+        "y": 389
     },
     {
         "id": "d25d405a.19cff",
@@ -5669,15 +5835,6 @@
         "height": 1
     },
     {
-        "id": "75429c4103921066",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "4b33f8ea.b34188",
-        "order": 19,
-        "width": "0",
-        "height": "0"
-    },
-    {
         "id": "a78944df1dac6762",
         "type": "ui_spacer",
         "name": "spacer",
@@ -6368,7 +6525,7 @@
         "tab": "df82a9eeeb3d8a7c",
         "order": 3,
         "disp": true,
-        "width": "5",
+        "width": "4",
         "collapse": false
     },
     {
@@ -6406,7 +6563,7 @@
         "type": "ui_group",
         "name": "Habilitar RS",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 7,
+        "order": 6,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6416,7 +6573,7 @@
         "type": "ui_group",
         "name": "Configuración",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 8,
+        "order": 7,
         "disp": true,
         "width": "4",
         "collapse": false
@@ -6426,7 +6583,7 @@
         "type": "ui_group",
         "name": "Tendencia",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 9,
+        "order": 8,
         "disp": true,
         "width": "8",
         "collapse": false
@@ -6436,7 +6593,7 @@
         "type": "ui_group",
         "name": "Control",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 10,
+        "order": 9,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6485,6 +6642,148 @@
         "collapse": false
     },
     {
+        "id": "4f87eabd.cfaf34",
+        "type": "ui_group",
+        "name": "Habilitar/Deshabilitar",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 15,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "86355e50.22f3a",
+        "type": "ui_group",
+        "name": "TendenciaPID",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 12,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "3afcf0f2.7f9b6",
+        "type": "ui_group",
+        "name": "Sintonización",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ec4c58e3.d4cd78",
+        "type": "ui_group",
+        "name": "Límites de Operación",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 13,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "534dbcbb.5aad64",
+        "type": "ui_group",
+        "name": "Reglas de Activación",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 14,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "d1fec051811af2cc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d53fab09c2e470cf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "2540c0d0.abd4d",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "983c822705ee3d99",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "2540c0d0.abd4d",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2f4bb5caedb1453c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "3afcf0f2.7f9b6",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "320ee129640638c3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "534dbcbb.5aad64",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ce7a42782d5e783d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "534dbcbb.5aad64",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "fd29cfb8e7167283",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "534dbcbb.5aad64",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "101d63c2c3beb16e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "4f87eabd.cfaf34",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "eea0ff61.3b5a1",
+        "type": "ui_group",
+        "name": "Navegación PID",
+        "tab": "",
+        "order": 2,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "532df66faefc7a82",
+        "type": "ui_group",
+        "name": "Navbar_PID",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 10,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
         "id": "e765ca36.69fb98",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
@@ -6494,13 +6793,13 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\" aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n        <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\" aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos eléctricos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\" aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 110,
-        "y": 290,
+        "x": 140,
+        "y": 280,
         "wires": [
             [
                 "876da3c9.83763"
@@ -6541,7 +6840,7 @@
         "repair": false,
         "outputs": 4,
         "x": 280,
-        "y": 290,
+        "y": 280,
         "wires": [
             [
                 "3d5528dc.de75d8"
@@ -6577,7 +6876,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
+        "x": 720,
         "y": 350,
         "wires": [
             [
@@ -6636,7 +6935,7 @@
         "links": [
             "4372d5a0.d338dc"
         ],
-        "x": 185,
+        "x": 55,
         "y": 350,
         "wires": [
             [
@@ -7016,7 +7315,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 270,
+        "x": 140,
         "y": 350,
         "wires": [
             [
@@ -7033,7 +7332,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 745,
+        "x": 825,
         "y": 350,
         "wires": []
     },
@@ -7057,7 +7356,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 710,
         "y": 310,
         "wires": [
             [
@@ -7074,7 +7373,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 545,
+        "x": 825,
         "y": 310,
         "wires": []
     },
@@ -7098,7 +7397,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
+        "x": 700,
         "y": 270,
         "wires": [
             [
@@ -7115,7 +7414,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 545,
+        "x": 825,
         "y": 270,
         "wires": []
     },
@@ -7128,7 +7427,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 545,
+        "x": 825,
         "y": 230,
         "wires": []
     },
@@ -7152,7 +7451,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 430,
+        "x": 710,
         "y": 230,
         "wires": [
             [
@@ -7616,7 +7915,7 @@
         "repair": false,
         "outputs": 3,
         "x": 440,
-        "y": 390,
+        "y": 350,
         "wires": [
             [
                 "7b211215.487a7c"
@@ -7649,7 +7948,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
+        "x": 720,
         "y": 390,
         "wires": [
             [
@@ -7666,7 +7965,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 745,
+        "x": 825,
         "y": 390,
         "wires": []
     },
@@ -7690,7 +7989,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
+        "x": 720,
         "y": 430,
         "wires": [
             [
@@ -7707,7 +8006,7 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 745,
+        "x": 825,
         "y": 430,
         "wires": []
     },
@@ -7726,8 +8025,8 @@
             "4a3a2387d414149a",
             "c27cb084a6f62baf"
         ],
-        "x": 295,
-        "y": 390,
+        "x": 235,
+        "y": 370,
         "wires": [
             [
                 "78bacd83.c921b4"
@@ -8712,8 +9011,8 @@
         "g": "ee5753bdd6eedb72",
         "name": "Protecciones",
         "label": "",
-        "tooltip": "Seleccione una protección",
-        "place": "Protecciones",
+        "tooltip": "",
+        "place": "Seleccione una protección",
         "group": "4b33f8ea.b34188",
         "order": 1,
         "width": 5,
@@ -9603,8 +9902,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 1160,
-        "y": 820,
+        "x": 1080,
+        "y": 970,
         "wires": [
             [
                 "b9cf40b5.69993",
@@ -9618,7 +9917,8 @@
                 "2fe2a445.25977c",
                 "6c899679.fb9ed8",
                 "9cbac96.37b2538",
-                "fd740530.6ea6e8"
+                "fd740530.6ea6e8",
+                "c6b036f4d80b1a9a"
             ]
         ]
     },
@@ -10187,7 +10487,8 @@
                 "65d1ab48.e61414",
                 "fd6407f4.3aab98",
                 "2cdd9d25.204662",
-                "f1f2cd06.98ab4"
+                "f1f2cd06.98ab4",
+                "b7c04dbc52f1518e"
             ]
         ]
     },
@@ -10312,8 +10613,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 540,
+        "x": 1280,
+        "y": 690,
         "wires": [
             [
                 "b619d99c.fdf4b8"
@@ -10349,8 +10650,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 590,
+        "x": 1280,
+        "y": 740,
         "wires": [
             [
                 "85089df3.64f3f"
@@ -10386,8 +10687,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 640,
+        "x": 1280,
+        "y": 790,
         "wires": [
             [
                 "d9c1727d.dc991"
@@ -10423,8 +10724,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 690,
+        "x": 1280,
+        "y": 840,
         "wires": [
             [
                 "abcfcbee.604498"
@@ -10460,8 +10761,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 750,
+        "x": 1280,
+        "y": 900,
         "wires": [
             [
                 "ebb37133.902fa"
@@ -10497,8 +10798,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 800,
+        "x": 1280,
+        "y": 950,
         "wires": [
             [
                 "da307934.bf9758"
@@ -10534,8 +10835,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 850,
+        "x": 1280,
+        "y": 1000,
         "wires": [
             [
                 "f66f318f.e1d3c"
@@ -10571,8 +10872,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 900,
+        "x": 1280,
+        "y": 1050,
         "wires": [
             [
                 "7831058.b11adfc"
@@ -10608,8 +10909,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 950,
+        "x": 1280,
+        "y": 1100,
         "wires": [
             [
                 "5629df50.34e2e"
@@ -10645,8 +10946,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 1000,
+        "x": 1280,
+        "y": 1150,
         "wires": [
             [
                 "7c306901.d02908"
@@ -10682,8 +10983,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 1050,
+        "x": 1280,
+        "y": 1200,
         "wires": [
             [
                 "8ccdb23e.cee62"
@@ -10719,8 +11020,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1360,
-        "y": 1100,
+        "x": 1280,
+        "y": 1250,
         "wires": [
             [
                 "96dd78cc.aad9d8"
@@ -10738,8 +11039,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 540,
+        "x": 1410,
+        "y": 690,
         "wires": [
             []
         ]
@@ -10755,8 +11056,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 590,
+        "x": 1410,
+        "y": 740,
         "wires": [
             []
         ]
@@ -10772,8 +11073,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 640,
+        "x": 1410,
+        "y": 790,
         "wires": [
             []
         ]
@@ -10789,8 +11090,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 690,
+        "x": 1410,
+        "y": 840,
         "wires": [
             []
         ]
@@ -10806,8 +11107,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1510,
-        "y": 750,
+        "x": 1430,
+        "y": 900,
         "wires": [
             []
         ]
@@ -10823,8 +11124,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1510,
-        "y": 800,
+        "x": 1430,
+        "y": 950,
         "wires": [
             []
         ]
@@ -10840,8 +11141,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1500,
-        "y": 850,
+        "x": 1420,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -10857,8 +11158,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1510,
-        "y": 900,
+        "x": 1430,
+        "y": 1050,
         "wires": [
             []
         ]
@@ -10874,8 +11175,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 950,
+        "x": 1410,
+        "y": 1100,
         "wires": [
             []
         ]
@@ -10891,8 +11192,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 1000,
+        "x": 1410,
+        "y": 1150,
         "wires": [
             []
         ]
@@ -10908,8 +11209,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 1050,
+        "x": 1410,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -10925,8 +11226,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1490,
-        "y": 1100,
+        "x": 1410,
+        "y": 1250,
         "wires": [
             []
         ]
@@ -11071,7 +11372,8 @@
                 "7a934192.2c198",
                 "e3d1e9c7.edab28",
                 "6b0e8d5f.299684",
-                "58160456.e38f7c"
+                "58160456.e38f7c",
+                "fd21111ca22e29fa"
             ]
         ]
     },
@@ -11413,16 +11715,6 @@
         "layout": "col-center",
         "x": 2080,
         "y": 840,
-        "wires": []
-    },
-    {
-        "id": "feb50e09.5c065",
-        "type": "comment",
-        "z": "9941a439.4b17c8",
-        "name": "Enrutar las variables relacionadas a cada protección con sus unidades",
-        "info": "",
-        "x": 300,
-        "y": 220,
         "wires": []
     },
     {
@@ -22465,7 +22757,8 @@
         "name": "",
         "links": [
             "c8b332bad477e957",
-            "37e10dd1.2d4812"
+            "37e10dd1.2d4812",
+            "d84564ddc8ed83bf"
         ],
         "x": 955,
         "y": 1590,
@@ -24561,8 +24854,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 400,
-        "y": 530,
+        "x": 410,
+        "y": 520,
         "wires": [
             [
                 "6b0e4d29.b19b14"
@@ -24589,8 +24882,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 570,
+        "x": 420,
+        "y": 560,
         "wires": [
             [
                 "6b0e4d29.b19b14"
@@ -24630,8 +24923,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 230,
-        "y": 590,
+        "x": 240,
+        "y": 570,
         "wires": [
             [
                 "d1b70a55.083b88"
@@ -24657,13 +24950,13 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\" role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\" ng-click=\"send({payload:PlacaMotor()})\">Placa de motor</a>\n        <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\" aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y Límites</a>\n        <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\" role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\" ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n        <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\" aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.PlacaMotor = function() { return \"PlacaMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        \n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:PlacaMotor()})\">Placa de motor</a>\n            <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RampsLimits()})\">Rampas y\n                Límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-AjustesRefuerzo-tab\" data-toggle=\"tab\" href=\"#nav-AjustesRefuerzo\"\n                role=\"tab\" aria-controls=\"nav-AjustesRefuerzo\" aria-selected=\"false\"\n                ng-click=\"send({payload:AjustesRefuerzo()})\">Ajuste de Refuerzo</a>\n            <a class=\"nav-item nav-link\" id=\"nav-DatosTX-tab\" data-toggle=\"tab\" href=\"#nav-DatosTX\" role=\"tab\"\n                aria-controls=\"nav-DatosTX\" aria-selected=\"false\" ng-click=\"send({payload:DatosTX()})\">Datos TX</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.PlacaMotor = function() { return \"PlacaMotor\"; };\n        this.scope.RampsLimits = function() { return \"RampsLimits\"; };\n        this.scope.AjustesRefuerzo = function() { return \"AjustesRefuerzo\"; };\n        this.scope.DatosTX = function() { return \"DatosTX\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 100,
-        "y": 590,
+        "x": 110,
+        "y": 570,
         "wires": [
             [
                 "8c735cd0.645ef"
@@ -24690,8 +24983,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 420,
-        "y": 610,
+        "x": 430,
+        "y": 600,
         "wires": [
             [
                 "6b0e4d29.b19b14"
@@ -24716,8 +25009,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 230,
-        "y": 530,
+        "x": 150,
+        "y": 520,
         "wires": [
             [
                 "d1b70a55.083b88"
@@ -24734,8 +25027,8 @@
             "805762db.d27b7",
             "8a17d991.081178"
         ],
-        "x": 615,
-        "y": 650,
+        "x": 575,
+        "y": 640,
         "wires": []
     },
     {
@@ -24747,8 +25040,8 @@
         "links": [
             "19c4a03f21911a68"
         ],
-        "x": 145,
-        "y": 530,
+        "x": 55,
+        "y": 520,
         "wires": [
             [
                 "b4ddbb99.b1d4f8"
@@ -24775,8 +25068,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 380,
-        "y": 650,
+        "x": 390,
+        "y": 640,
         "wires": [
             [
                 "6b0e4d29.b19b14"
@@ -25841,8 +26134,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 310,
-        "y": 810,
+        "x": 250,
+        "y": 800,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -25871,13 +26164,13 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\" ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n        <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n        <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\" role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\" ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n        <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\" role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\" role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 100,
-        "y": 810,
+        "x": 120,
+        "y": 800,
         "wires": [
             [
                 "2499f70f.806ab8"
@@ -25904,8 +26197,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 750,
+        "x": 420,
+        "y": 740,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -25932,8 +26225,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 490,
-        "y": 790,
+        "x": 430,
+        "y": 780,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -25960,8 +26253,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
-        "y": 830,
+        "x": 410,
+        "y": 820,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -25988,8 +26281,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 870,
+        "x": 420,
+        "y": 860,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -26014,8 +26307,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 750,
+        "x": 190,
+        "y": 740,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -26032,8 +26325,8 @@
             "8a17d991.081178",
             "805762db.d27b7"
         ],
-        "x": 655,
-        "y": 830,
+        "x": 595,
+        "y": 820,
         "wires": []
     },
     {
@@ -26046,8 +26339,8 @@
             "97407954.a004c8",
             "4372d5a0.d338dc"
         ],
-        "x": 225,
-        "y": 750,
+        "x": 55,
+        "y": 740,
         "wires": [
             [
                 "5a29608d.08d3"
@@ -33638,8 +33931,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
-        "y": 910,
+        "x": 410,
+        "y": 900,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -36288,7 +36581,7 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\" ng-click=\"send({payload:Eventos()})\">Eventos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n        <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\" role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\" ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -36361,7 +36654,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 190,
+        "x": 140,
         "y": 1030,
         "wires": [
             [
@@ -36379,7 +36672,7 @@
             "97407954.a004c8",
             "4372d5a0.d338dc"
         ],
-        "x": 105,
+        "x": 55,
         "y": 1030,
         "wires": [
             [
@@ -36397,7 +36690,7 @@
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\" ng-click=\"send({payload:Eventos()})\">Eventos</a>\n        <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -37452,7 +37745,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 320,
+        "x": 270,
         "y": 1030,
         "wires": [
             [
@@ -44801,8 +45094,8 @@
         "raw": false,
         "topic": "",
         "name": "Red notif",
-        "x": 960,
-        "y": 120,
+        "x": 1540,
+        "y": 110,
         "wires": []
     },
     {
@@ -44820,8 +45113,8 @@
         "raw": false,
         "topic": "",
         "name": "Green notif",
-        "x": 970,
-        "y": 70,
+        "x": 1550,
+        "y": 60,
         "wires": []
     },
     {
@@ -44837,8 +45130,8 @@
             "b8f6d05216308f2f",
             "5b523df343832e42"
         ],
-        "x": 845,
-        "y": 70,
+        "x": 1425,
+        "y": 60,
         "wires": [
             [
                 "65dbd957.020378"
@@ -44869,8 +45162,8 @@
             "fce9ca29ea26c2ca",
             "7c2016e7007063f4"
         ],
-        "x": 845,
-        "y": 120,
+        "x": 1425,
+        "y": 110,
         "wires": [
             [
                 "230a6662.27d8ea"
@@ -49251,8 +49544,8 @@
         "raw": false,
         "topic": "",
         "name": "Yellow notif",
-        "x": 970,
-        "y": 170,
+        "x": 1550,
+        "y": 160,
         "wires": []
     },
     {
@@ -49269,8 +49562,8 @@
             "86f805b5cb28bb05",
             "aeb76c9ced35d9f4"
         ],
-        "x": 845,
-        "y": 170,
+        "x": 1425,
+        "y": 160,
         "wires": [
             [
                 "c9c60e8060e9ce10"
@@ -54921,8 +55214,8 @@
         "tooltip": "",
         "group": "20076456.83052c",
         "order": 2,
-        "width": "1",
-        "height": "1",
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "",
@@ -54953,8 +55246,8 @@
         "tooltip": "",
         "group": "20076456.83052c",
         "order": 3,
-        "width": "1",
-        "height": "1",
+        "width": 0,
+        "height": 0,
         "passthru": true,
         "decouple": "false",
         "topic": "",
@@ -54985,8 +55278,8 @@
         "tooltip": "",
         "group": "20076456.83052c",
         "order": 4,
-        "width": "1",
-        "height": "1",
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "",
@@ -55017,8 +55310,8 @@
         "tooltip": "",
         "group": "20076456.83052c",
         "order": 5,
-        "width": "1",
-        "height": "1",
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "",
@@ -55677,8 +55970,8 @@
         "name": "",
         "group": "cf893b29.8b0a68",
         "order": 2,
-        "width": "6",
-        "height": "1",
+        "width": 6,
+        "height": 1,
         "passthru": false,
         "label": "Deshabilitar Arranque Automático",
         "tooltip": "",
@@ -55704,8 +55997,8 @@
         "name": "",
         "group": "cf893b29.8b0a68",
         "order": 1,
-        "width": "6",
-        "height": "1",
+        "width": 6,
+        "height": 1,
         "passthru": false,
         "label": "Habilitar Arranque Automático",
         "tooltip": "",
@@ -57487,8 +57780,8 @@
         "name": "",
         "group": "225e345f.a1250c",
         "order": 5,
-        "width": "2",
-        "height": "1",
+        "width": 2,
+        "height": 1,
         "passthru": false,
         "label": "Habilitar",
         "tooltip": "",
@@ -57514,8 +57807,8 @@
         "name": "",
         "group": "225e345f.a1250c",
         "order": 6,
-        "width": "2",
-        "height": "1",
+        "width": 2,
+        "height": 1,
         "passthru": false,
         "label": "Deshabilitar",
         "tooltip": "",
@@ -57650,8 +57943,8 @@
         "name": "",
         "group": "a2ab3a38.4d35e8",
         "order": 1,
-        "width": "8",
-        "height": "4",
+        "width": 8,
+        "height": 4,
         "label": "",
         "chartType": "line",
         "legend": "false",
@@ -57916,7 +58209,7 @@
         "name": "",
         "group": "2540c0d0.abd4d",
         "order": 2,
-        "width": "2",
+        "width": 2,
         "height": 1,
         "passthru": false,
         "label": "Arranque",
@@ -59015,17 +59308,18 @@
         "id": "7acc47cbe9990f19",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "group": "42783be43cc39c58",
         "name": "Menu Otras Funciones de Control",
         "order": 1,
         "width": 12,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <!-- Navigation bar -->\n    <nav>\n      <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n        <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\" ng-click=\"send({payload:Eventos()})\">Arranque Automático</a>\n        <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:Alarmas()})\">Rocking Start</a>\n        <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\" role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\" ng-click=\"send({payload:Datalogger()})\">Control PID</a>\n      </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"ArranqueAuto\"; };\n        this.scope.Alarmas = function() { return \"RockingStart\"; };\n        this.scope.Datalogger = function() { return \"PIDControl\"; };\n    </script>\n    \n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n  </body>\n</html>\n",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Arranque Automático</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Rocking Start</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Control PID</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"ArranqueAuto\"; };\n        this.scope.Alarmas = function() { return \"RockingStart\"; };\n        this.scope.Datalogger = function() { return \"PIDControl\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 170,
+        "x": 280,
         "y": 1330,
         "wires": [
             [
@@ -59037,6 +59331,7 @@
         "id": "30d70d168bf42655",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -59060,7 +59355,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 390,
+        "x": 520,
         "y": 1330,
         "wires": [
             [
@@ -59069,32 +59364,36 @@
             [
                 "b5c1e33ed75a3eb6"
             ],
-            []
+            [
+                "ed9802d3.5add5"
+            ]
         ]
     },
     {
         "id": "eb0d147d1d43c8ac",
         "type": "link out",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "Menú Entradas/Salidas SWCPRO",
         "links": [
             "8a17d991.081178"
         ],
-        "x": 755,
-        "y": 1350,
+        "x": 865,
+        "y": 1330,
         "wires": []
     },
     {
         "id": "99e2af3d95892f16",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "Arranque automático",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_RS\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Control\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar/Deshabilitar\",\t                \"Otras_Funciones_de_Control_Navbar_PID\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -59103,7 +59402,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 590,
+        "x": 700,
         "y": 1280,
         "wires": [
             [
@@ -59115,6 +59414,7 @@
         "id": "5af605a801bc0c3d",
         "type": "switch",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "",
         "property": "name",
         "propertyType": "msg",
@@ -59128,12 +59428,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 260,
-        "y": 1280,
+        "x": 150,
+        "y": 1270,
         "wires": [
             [
-                "99e2af3d95892f16",
-                "86e5bbc434456ece"
+                "99e2af3d95892f16"
             ]
         ]
     },
@@ -59141,13 +59440,14 @@
         "id": "aeb29ded9a6b39dc",
         "type": "link in",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "Menú Entradas/Salidas SWCPRO",
         "links": [
             "97407954.a004c8",
             "4372d5a0.d338dc"
         ],
-        "x": 175,
-        "y": 1280,
+        "x": 55,
+        "y": 1270,
         "wires": [
             [
                 "5af605a801bc0c3d"
@@ -59158,13 +59458,14 @@
         "id": "b5c1e33ed75a3eb6",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "g": "e1e65313b5eaa836",
         "name": "Rocking Start",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_RS\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Control\"]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar/Deshabilitar\",\t                \"Otras_Funciones_de_Control_Navbar_PID\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Control\"]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -59173,7 +59474,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
+        "x": 680,
         "y": 1330,
         "wires": [
             [
@@ -59182,20 +59483,2354 @@
         ]
     },
     {
-        "id": "86e5bbc434456ece",
+        "id": "937ff287.3fa5b",
+        "type": "complete",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "",
+        "scope": [
+            "e5c41a9d.a8b708",
+            "8929022a.7ccf3"
+        ],
+        "uncaught": false,
+        "x": 140,
+        "y": 840,
+        "wires": [
+            [
+                "77550c98.576f84"
+            ]
+        ]
+    },
+    {
+        "id": "77550c98.576f84",
+        "type": "switch",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "",
+        "property": "PID.Enable",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "fd36c4d1.9d5ea8",
+                "3bbaed96.9213e2",
+                "d06ffec0.71437"
+            ],
+            [
+                "5f1d5b77.109174",
+                "ae41290c.649488",
+                "345fe7bb.77c178"
+            ],
+            [
+                "ae41290c.649488",
+                "5f1d5b77.109174",
+                "8929022a.7ccf3"
+            ]
+        ]
+    },
+    {
+        "id": "5f1d5b77.109174",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 810,
+        "wires": [
+            [
+                "715302ac.f9f87c"
+            ]
+        ]
+    },
+    {
+        "id": "ae41290c.649488",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 770,
+        "wires": [
+            [
+                "da507039.de239"
+            ]
+        ]
+    },
+    {
+        "id": "3bbaed96.9213e2",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 730,
+        "wires": [
+            [
+                "715302ac.f9f87c"
+            ]
+        ]
+    },
+    {
+        "id": "fd36c4d1.9d5ea8",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 690,
+        "wires": [
+            [
+                "da507039.de239"
+            ]
+        ]
+    },
+    {
+        "id": "da507039.de239",
+        "type": "ui_button",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "",
+        "group": "4f87eabd.cfaf34",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Habilitar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 630,
+        "y": 730,
+        "wires": [
+            [
+                "e5c41a9d.a8b708"
+            ]
+        ]
+    },
+    {
+        "id": "715302ac.f9f87c",
+        "type": "ui_button",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "",
+        "group": "4f87eabd.cfaf34",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Deshabilitar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 640,
+        "y": 770,
+        "wires": [
+            [
+                "8929022a.7ccf3",
+                "55470563.99950c"
+            ]
+        ]
+    },
+    {
+        "id": "e5c41a9d.a8b708",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Habilitar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Enable",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 800,
+        "wires": [
+            [
+                "69988bfb01469774"
+            ]
+        ]
+    },
+    {
+        "id": "8929022a.7ccf3",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Deshabilitar",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Enable",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 840,
+        "wires": [
+            [
+                "25037f6e145deee9"
+            ]
+        ]
+    },
+    {
+        "id": "39667d7d.270542",
+        "type": "link in",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 195,
+        "y": 800,
+        "wires": [
+            [
+                "77550c98.576f84"
+            ]
+        ]
+    },
+    {
+        "id": "d06ffec0.71437",
+        "type": "link out",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Roking Enable True Link Out",
+        "links": [],
+        "x": 445,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "345fe7bb.77c178",
+        "type": "link out",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Roking Enable False Link Out",
+        "links": [],
+        "x": 445,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "55470563.99950c",
+        "type": "link out",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Roking Start disable reset Link Out",
+        "links": [],
+        "x": 695,
+        "y": 810,
+        "wires": []
+    },
+    {
+        "id": "69988bfb01469774",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Estado Funciones de control",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Funciones_control_activas.PID",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25037f6e145deee9",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "afcd8222.ca23b",
+        "name": "Estado Funciones de control",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Funciones_control_activas.PID",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dda02d35.2cecb",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PID_Kp",
+        "label": "PID Kp",
+        "tooltip": "",
+        "group": "3afcf0f2.7f9b6",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": 300,
+        "topic": "prop_band",
+        "x": 580,
+        "y": 180,
+        "wires": [
+            [
+                "d1f79561.529bc8"
+            ]
+        ]
+    },
+    {
+        "id": "44fdc5e6.85bf0c",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PID_Ti",
+        "label": "PID Ti",
+        "tooltip": "",
+        "group": "3afcf0f2.7f9b6",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": 300,
+        "topic": "t_integral",
+        "x": 570,
+        "y": 220,
+        "wires": [
+            [
+                "d1f79561.529bc8"
+            ]
+        ]
+    },
+    {
+        "id": "9d734d6a.585f9",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PID_Td",
+        "label": "PID Td",
+        "tooltip": "",
+        "group": "3afcf0f2.7f9b6",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": 300,
+        "topic": "t_derivative",
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "d1f79561.529bc8"
+            ]
+        ]
+    },
+    {
+        "id": "766ff7ed.aba428",
+        "type": "PID",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "setpoint": "80",
+        "pb": "100",
+        "ti": "5",
+        "td": "0",
+        "integral_default": "30",
+        "smooth_factor": "0",
+        "max_interval": 600,
+        "enable": "1",
+        "disabled_op": "0",
+        "x": 1390,
+        "y": 240,
+        "wires": [
+            [
+                "73d662e7.047d5c"
+            ]
+        ]
+    },
+    {
+        "id": "73d662e7.047d5c",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Escala y Límites",
+        "func": "var max         = global.get(\"Speed_Control.MaxLimit\")||60;\nvar URef        = global.get(\"Ultima_Referencia\")||0;\nvar DeltaMax    = flow.get(\"PID.Limits.Delta_Hz_Max\")||1;\nvar DeltaMin    = flow.get(\"PID.Limits.Delta_Hz_Min\")||1;\n\nvar MaxHz       = (URef+DeltaMax)*10000;\nvar MinHz       = (URef-DeltaMin)*10000;\n\n//Escala Control PID\nb = [0,max];\nmsg.payload = Escalizar(b,msg.payload)*10000;\n\n//Limites\nif(msg.payload > MaxHz){\n    msg.payload = MaxHz;\n}\nelse if(msg.payload < MinHz){\n    msg.payload = MinHz;\n}\n\nmsg.MaxHz = MaxHz/10000;\nmsg.MinHz = MinHz/10000;\n\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nreturn msg;\n\nfunction Escalizar(b,value){\n    a = [0,1];\n    // Mapeo\n    if(b !== null && typeof b[0] == 'number' && typeof b[1] == 'number' ){\n        var t = b[0] + ((value - a[0])*(b[1] - b[0])) / (a[1]-a[0]);\n        // Saturación\n        if(t > b[1]){    \n            t = b[1];\n        }\n        else if(t < b[0]){ \n            t = b[0];\n        }\n        // Asignar payload\n        return parseFloat(t.toFixed(2));\n    }\n    else {\n        // Asignar payload\n        return 0;\n    }\n}\n\n//Fuente: https://rosettacode.org/wiki/Map_range",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1540,
+        "y": 240,
+        "wires": [
+            [
+                "d4218cf0.530c9",
+                "84515fce.0be5a",
+                "5e68509d.103b9"
+            ]
+        ]
+    },
+    {
+        "id": "d1f79561.529bc8",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PID Config",
+        "func": "Tipo    = flow.get(\"PID.Type\")||null;\n\nif(msg.topic == \"prop_band\" ){\n    if(Tipo == \"Presion\"){\n        flow.set(\"PID.Presion.prop_band\",msg.payload);\n    }\n    else if(Tipo == \"Corriente\"){\n        flow.set(\"PID.Corriente.prop_band\",msg.payload);\n    }\n    return;\n}\nelse if(msg.topic == \"t_integral\" ){\n    if(Tipo == \"Presion\"){\n        flow.set(\"PID.Presion.t_integral\",msg.payload);\n    }\n    else if(Tipo==\"Corriente\"){\n        flow.set(\"PID.Corriente.t_integral\",msg.payload);\n    }\n    return;\n}\nelse if(msg.topic == \"t_derivative\"){\n    if(Tipo == \"Presion\"){\n        flow.set(\"PID.Presion.t_derivative\",msg.payload);\n    }\n    else if(Tipo == \"Corriente\"){\n        flow.set(\"PID.Corriente.t_derivative\",msg.payload);\n    }\n    return;    \n}\nelse if(msg.topic == \"setpoint\"){\n    if(Tipo == \"Presion\"){\n        flow.set(\"PID.Presion.setpoint\",-msg.payload);\n    }\n    else if(Tipo == \"Corriente\"){\n        flow.set(\"PID.Corriente.setpoint\",msg.payload);\n    }\n    return;\n}\n\nif(Tipo == \"Presion\"){\n    msg.prop_band       = flow.get(\"PID.Presion.prop_band\")||0;\n    msg.t_integral      = flow.get(\"PID.Presion.t_integral\")||0;\n    msg.t_derivative    = flow.get(\"PID.Presion.t_derivative\")||0;\n    msg.setpoint        = flow.get(\"PID.Presion.setpoint\")||0;\n}\nelse if(Tipo == \"Corriente\"){\n    msg.prop_band       = flow.get(\"PID.Corriente.prop_band\")||0;\n    msg.t_integral      = flow.get(\"PID.Corriente.t_integral\")||0;\n    msg.t_derivative    = flow.get(\"PID.Corriente.t_derivative\")||0;\n    msg.setpoint        = flow.get(\"PID.Corriente.setpoint\")||0;\n}\n\n//msg.enable              = flow.get(\"PID.Enable\")||false; \nnode.status({fill:\"green\",shape:\"dot\",text:\"Kp: \"+msg.prop_band+\" Ti: \"+msg.t_integral +\" Td: \"+msg.t_derivative+\" Setpoint: \"+msg.setpoint });\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 850,
+        "y": 240,
+        "wires": [
+            [
+                "3067f725.56f2f8"
+            ]
+        ]
+    },
+    {
+        "id": "4c96d1b1.d47ce",
+        "type": "link in",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 195,
+        "y": 200,
+        "wires": [
+            [
+                "dac5ee0c.60a49",
+                "8f1125c4.daacb8",
+                "3832b43d.5075cc",
+                "1ceaf72f.47aa79",
+                "ae17baf7.aa0dd8",
+                "deafd3e9.1a118",
+                "7d4871c0.b9897",
+                "d2b661d8.32601"
+            ]
+        ]
+    },
+    {
+        "id": "859f68e9.1bfb38",
+        "type": "inject",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "8f1125c4.daacb8"
+            ]
+        ]
+    },
+    {
+        "id": "31c4f09e.6de82",
+        "type": "ui_dropdown",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "3afcf0f2.7f9b6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Presión",
+                "value": "Presion",
+                "type": "str"
+            },
+            {
+                "label": "Corriente",
+                "value": "Corriente",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "x": 590,
+        "y": 130,
+        "wires": [
+            [
+                "b2ee364c.f0d8e8"
+            ]
+        ]
+    },
+    {
+        "id": "dac5ee0c.60a49",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Tipo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Type",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 170,
+        "wires": [
+            [
+                "31c4f09e.6de82"
+            ]
+        ]
+    },
+    {
+        "id": "b2ee364c.f0d8e8",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Tipo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Type",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 130,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c042baf.6c61e4",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PV",
+        "func": "var Type        = flow.get(\"PID.Type\")||null;\nvar Sensor      = global.get(\"DownHoleData\",\"memoryOnly\");\nvar Pressure    = Sensor.DHS[\"Presión de entrada\"]||Sensor.AI[\"Presión de entrada\"];\nvar Current     = global.get(\"Motor.Current\",\"memoryOnly\")||0;\n\nnode.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current});\n\nif(Type == \"Presion\"){\n    node.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: \"+Type});\n    msg.payload = num(-Pressure);\n    return msg;\n}\nelse if(Type == \"Corriente\"){\n    node.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: \"+Type});\n    msg.payload = num(Current);\n    return msg\n}\nelse{\n    node.status({fill:\"grey\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: Ninguno\"});\n    return; \n}\n\nfunction num(x) {\n  return parseFloat(x);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 570,
+        "y": 350,
+        "wires": [
+            [
+                "d1f79561.529bc8"
+            ]
+        ]
+    },
+    {
+        "id": "e8529ec4.1062b",
+        "type": "inject",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 380,
+        "y": 350,
+        "wires": [
+            [
+                "7c042baf.6c61e4"
+            ]
+        ]
+    },
+    {
+        "id": "6bf8246a.73f65c",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "setpoint",
+        "label": "Setpoint",
+        "tooltip": "",
+        "group": "3afcf0f2.7f9b6",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": 300,
+        "topic": "setpoint",
+        "x": 580,
+        "y": 300,
+        "wires": [
+            [
+                "d1f79561.529bc8"
+            ]
+        ]
+    },
+    {
+        "id": "d4218cf0.530c9",
+        "type": "switch",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "PID Enabled",
+        "property": "PID.Enable",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1720,
+        "y": 280,
+        "wires": [
+            [
+                "1cdca418.1a28ac",
+                "2b5d1711.b6f638"
+            ]
+        ]
+    },
+    {
+        "id": "1cdca418.1a28ac",
+        "type": "pccc out",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "endpoint": "5a40295d.6caa18",
+        "variable": "PF755T_SpeedReference",
+        "name": "Referencia de velocidad",
+        "x": 1920,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8f1125c4.daacb8",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Config",
+        "func": "Tipo = flow.get(\"PID.Type\")||null;\n\nif(Tipo == \"Presion\"){\n    msg.prop_band       = flow.get(\"PID.Presion.prop_band\")||0;\n    msg.t_integral      = flow.get(\"PID.Presion.t_integral\")||0;\n    msg.t_derivative    = flow.get(\"PID.Presion.t_derivative\")||0;\n    msg.setpoint        = Math.abs(flow.get(\"PID.Presion.setpoint\"))||0;\n}\nelse if(Tipo == \"Corriente\"){\n    msg.prop_band       = flow.get(\"PID.Corriente.prop_band\")||0;\n    msg.t_integral      = flow.get(\"PID.Corriente.t_integral\")||0;\n    msg.t_derivative    = flow.get(\"PID.Corriente.t_derivative\")||0;\n    msg.setpoint        = flow.get(\"PID.Corriente.setpoint\")||0;\n}\n\nnode.status({fill:\"green\",shape:\"dot\",text:\"Kp: \"+msg.prop_band+\" Ti: \"+msg.t_integral +\" Td: \"+msg.t_derivative+\" Setpoint: \"+msg.setpoint });\n\nreturn [\n    MSG(msg.prop_band),\n    MSG(msg.t_integral),\n    MSG(msg.t_derivative),\n    MSG(msg.setpoint)\n];\n\nfunction MSG(X){\n    return { payload: X }\n}",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "dda02d35.2cecb"
+            ],
+            [
+                "44fdc5e6.85bf0c"
+            ],
+            [
+                "9d734d6a.585f9"
+            ],
+            [
+                "6bf8246a.73f65c"
+            ]
+        ]
+    },
+    {
+        "id": "2a2f104.a62ccf",
+        "type": "complete",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "scope": [
+            "b2ee364c.f0d8e8"
+        ],
+        "uncaught": false,
+        "x": 140,
+        "y": 240,
+        "wires": [
+            [
+                "8f1125c4.daacb8",
+                "3832b43d.5075cc",
+                "1ceaf72f.47aa79",
+                "ae17baf7.aa0dd8",
+                "deafd3e9.1a118",
+                "7d4871c0.b9897",
+                "d2b661d8.32601"
+            ]
+        ]
+    },
+    {
+        "id": "59760e1.297e2f",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Type",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 130,
+        "wires": [
+            [
+                "31c4f09e.6de82"
+            ]
+        ]
+    },
+    {
+        "id": "35db28d5.6cf898",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Type",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 90,
+        "wires": [
+            [
+                "31c4f09e.6de82"
+            ]
+        ]
+    },
+    {
+        "id": "3cbda9fc.643276",
+        "type": "switch",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "property": "PID.Enable",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 280,
+        "y": 110,
+        "wires": [
+            [
+                "35db28d5.6cf898"
+            ],
+            [
+                "59760e1.297e2f"
+            ]
+        ]
+    },
+    {
+        "id": "5c474c06.fc4eb4",
+        "type": "complete",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "scope": [
+            "e5c41a9d.a8b708",
+            "8929022a.7ccf3"
+        ],
+        "uncaught": false,
+        "x": 140,
+        "y": 110,
+        "wires": [
+            [
+                "3cbda9fc.643276"
+            ]
+        ]
+    },
+    {
+        "id": "429c084c.bdb7e8",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Δ Max [Hz]",
+        "tooltip": "",
+        "group": "ec4c58e3.d4cd78",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 540,
+        "y": 400,
+        "wires": [
+            [
+                "2664f246.4ed1ae"
+            ]
+        ]
+    },
+    {
+        "id": "61a138bb.1bf0c8",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Δ Min [Hz]",
+        "tooltip": "",
+        "group": "ec4c58e3.d4cd78",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "a810eee4.622a1"
+            ]
+        ]
+    },
+    {
+        "id": "6f1fc25f.3bf7dc",
+        "type": "ui_text",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "group": "ec4c58e3.d4cd78",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "Max",
+        "label": "",
+        "format": "{{msg.payload}} Hz",
+        "layout": "row-spread",
+        "x": 1840,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4678d40e.8d6dbc",
+        "type": "ui_text",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "group": "ec4c58e3.d4cd78",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "Min",
+        "label": "",
+        "format": "{{msg.payload}} Hz",
+        "layout": "row-spread",
+        "x": 1840,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b9b2071a.501878",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Límite en la protección por corriente (H) [%]",
+        "tooltip": "",
+        "group": "534dbcbb.5aad64",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 640,
+        "y": 480,
+        "wires": [
+            [
+                "45f9d45.fc2d92c"
+            ]
+        ]
+    },
+    {
+        "id": "c7b2c342.4724d",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Límite en la protección por vibración (H) [%]",
+        "tooltip": "",
+        "group": "534dbcbb.5aad64",
+        "order": 4,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 640,
+        "y": 520,
+        "wires": [
+            [
+                "70d72abf.382ff4"
+            ]
+        ]
+    },
+    {
+        "id": "b2f62aea.fc39d8",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Límite en la protección por temperatura de motor (H) [%]",
+        "tooltip": "",
+        "group": "534dbcbb.5aad64",
+        "order": 7,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "63f1e3c6.d2a68c"
+            ]
+        ]
+    },
+    {
+        "id": "4901c762.a51cc8",
+        "type": "ui_text_input",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "label": "Banda muerta",
+        "tooltip": "",
+        "group": "534dbcbb.5aad64",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "1",
+        "topic": "",
+        "x": 550,
+        "y": 600,
+        "wires": [
+            [
+                "4c971bbf.6a51f4"
+            ]
+        ]
+    },
+    {
+        "id": "3afd29ba.46fad6",
+        "type": "complete",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "",
+        "scope": [
+            "e5c41a9d.a8b708",
+            "31c4f09e.6de82"
+        ],
+        "uncaught": false,
+        "x": 1510,
+        "y": 530,
+        "wires": [
+            [
+                "ce02b206.111c9"
+            ]
+        ]
+    },
+    {
+        "id": "ce02b206.111c9",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "",
+        "func": "msg.payload={\n    \"data\":[]\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1660,
+        "y": 530,
+        "wires": [
+            [
+                "d5ba14a5.0e5e98"
+            ]
+        ]
+    },
+    {
+        "id": "b4849220.625db",
+        "type": "inject",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "Clear chart on deploy",
+        "props": [
+            {
+                "p": "payload",
+                "v": "{\"data\":[]}",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "topic": "",
+        "payload": "{\"data\":[]}",
+        "payloadType": "json",
+        "x": 1540,
+        "y": 480,
+        "wires": [
+            [
+                "d5ba14a5.0e5e98"
+            ]
+        ]
+    },
+    {
+        "id": "77182564.24ff4c",
+        "type": "inject",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 1490,
+        "y": 430,
+        "wires": [
+            [
+                "64cd81f4.6692f"
+            ]
+        ]
+    },
+    {
+        "id": "64cd81f4.6692f",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "PV Chart",
+        "func": "var Type        = flow.get(\"PID.Type\")||null;\nvar Sensor      = global.get(\"DownHoleData\",\"memoryOnly\");\nvar Pressure    = Sensor.DHS[\"Presión de entrada\"]||Sensor.AI[\"Presión de entrada\"];\nvar Current     = global.get(\"Motor.Current\",\"memoryOnly\")||0;\nvar Psetpoint   = Math.abs(flow.get(\"PID.Presion.setpoint\"))||0;\nvar Csetpoint   = flow.get(\"PID.Corriente.setpoint\")||0;\n\nvar PV = { payload:0 };\nvar setpoint = { payload:0 };\n\nvar Timestamp = Date.now();\n\nnode.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current});\n\nif(Type == \"Presion\"){\n    node.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: \"+Type});\n    PV.payload          = num(-Pressure);\n    PV.topic            = \"Presión\";\n    PV.timestamp        = Timestamp;\n    setpoint.payload    = Psetpoint;\n    setpoint.topic      = \"Setpoint de presión\";\n    setpoint.timestamp  = Timestamp;\n    return [PV,setpoint];\n}\nelse if(Type == \"Corriente\"){\n    node.status({fill:\"green\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: \"+Type});\n    PV.payload          = num(Current);\n    PV.topic            = \"Corriente\";\n    PV.timestamp        = Timestamp;\n    setpoint.payload    = Csetpoint;\n    setpoint.topic      = \"Setpoint de corriente\";\n    setpoint.timestamp  = Timestamp;\n    return [PV,setpoint];\n}\nelse{\n    node.status({fill:\"grey\",shape:\"dot\",text: \"Presión: \"+Pressure+\" Corriente: \"+Current+\" Tipo: Ninguno\"});\n    return; \n}\n\nfunction num(x) {\n  return parseFloat(x);\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1620,
+        "y": 430,
+        "wires": [
+            [
+                "56e71bad.168c34"
+            ],
+            [
+                "56e71bad.168c34"
+            ]
+        ]
+    },
+    {
+        "id": "d5ba14a5.0e5e98",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "Clear",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.data",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1730,
+        "y": 480,
+        "wires": [
+            [
+                "962b19d2.c18838"
+            ]
+        ]
+    },
+    {
+        "id": "962b19d2.c18838",
+        "type": "ui_chart",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "",
+        "group": "86355e50.22f3a",
+        "order": 1,
+        "width": 12,
+        "height": 6,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "5",
+        "removeOlderPoints": "300",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#2ca02c",
+            "#ff7f0e",
+            "#3f2ca0",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "x": 1950,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c5351d8.97256",
+        "type": "link in",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 1455,
+        "y": 570,
+        "wires": [
+            [
+                "89f58b9e.9e0d08"
+            ]
+        ]
+    },
+    {
+        "id": "89f58b9e.9e0d08",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "Pantalla",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Pantalla",
+                "pt": "flow",
+                "to": "Configuración-Tipo_de_control-PID",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 570,
+        "wires": [
+            [
+                "ce02b206.111c9"
+            ]
+        ]
+    },
+    {
+        "id": "56e71bad.168c34",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "Pantalla",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Pantalla",
+                "pt": "flow",
+                "to": "Configuración-Tipo_de_control-PID",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 430,
+        "wires": [
+            [
+                "962b19d2.c18838"
+            ]
+        ]
+    },
+    {
+        "id": "248484da4b66af7c",
+        "type": "catch",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
+        "name": "Errores PV Chart",
+        "scope": [
+            "64cd81f4.6692f"
+        ],
+        "uncaught": false,
+        "x": 1730,
+        "y": 570,
+        "wires": [
+            [
+                "7af9ff4dabd191fb"
+            ]
+        ]
+    },
+    {
+        "id": "7af9ff4dabd191fb",
         "type": "debug",
-        "z": "2e27dea6.c4c362",
+        "z": "ebaf6b5134c2a666",
+        "g": "dd4ef7f.6489508",
         "name": "",
         "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": true,
+        "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "statusVal": "payload",
+        "statusVal": "",
         "statusType": "auto",
-        "x": 900,
-        "y": 1260,
+        "x": 1880,
+        "y": 570,
+        "wires": []
+    },
+    {
+        "id": "3832b43d.5075cc",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMax",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Limits.Delta_Hz_Max",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 400,
+        "wires": [
+            [
+                "429c084c.bdb7e8"
+            ]
+        ]
+    },
+    {
+        "id": "1ceaf72f.47aa79",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Limits.Delta_Hz_Max",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "61a138bb.1bf0c8"
+            ]
+        ]
+    },
+    {
+        "id": "2664f246.4ed1ae",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMax",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Limits.Delta_Hz_Max",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a810eee4.622a1",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMin",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Limits.Delta_Hz_Min",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e68509d.103b9",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "MaxHz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MaxHz",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1710,
+        "y": 200,
+        "wires": [
+            [
+                "6f1fc25f.3bf7dc"
+            ]
+        ]
+    },
+    {
+        "id": "84515fce.0be5a",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "MinHz",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "MinHz",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1700,
+        "y": 240,
+        "wires": [
+            [
+                "4678d40e.8d6dbc"
+            ]
+        ]
+    },
+    {
+        "id": "3067f725.56f2f8",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Banda Muerta + Reglas de activación",
+        "func": "var DHData          = global.get(\"DownHoleData\",\"memoryOnly\")||null;\nvar PIDType         = flow.get(\"PID.Type\")||\"\";\nvar DeadBand        = flow.get(\"PID.Limits.DeadBand\")||0;\n\nvar PIDEnable       = flow.get(\"PID.Enable\")||false;\nvar CEnable         = global.get(\"Protections.Load.H.Setpoint\")||0;\nvar VEnable         = global.get(\"Protections.Vibration.General.H.Setpoint\")||0;\nvar MEnable         = global.get(\"Protections.Motor.Temperature.H.Setpoint\")||0;\n\nvar CEnableLimit    = flow.get(\"PID.Activation.Current\")||0;\nvar VEnableLimit    = flow.get(\"PID.Activation.Vibration\")||0;\nvar MEnableLimit    = flow.get(\"PID.Activation.Temp\")||0;\n\n// Current\nvar Current         = global.get(\"C2S.Output_Current\")||0;\n\n// Vibration\nvar VibrationX      = DHData.DHS[\"Vibración X\"] || DHData.AI[\"Vibración X\"] || 0;\nvar VibrationZ      = DHData.DHS[\"Vibración Z\"] || DHData.AI[\"Vibración Z\"] || 0;\nvar Vibration       = VibrationX >= VibrationZ ? VibrationX:VibrationZ;\n\n// Mtr Temp\nvar MtrTemp         = DHData.DHS[\"Temperatura de motor\"] || DHData.AI[\"Temperatura de motor\"];\n\n//Rules\nvar CEnableRule     = Current   <= CEnable*CEnableLimit/100 ? true:false;\nvar VEnableRule     = Vibration <= VEnable*VEnableLimit/100 ? true:false;\nvar MtrTempRule     = MtrTemp   <= MEnable*MEnableLimit/100 ? true:false;\n\n// Activation Rule\nvar ActivationRule  = PIDEnable && CEnableRule && VEnableRule && MtrTempRule;\n\n// Dead Band Rule\nvar setpoint = 0;   var Min = 0;    var Max = 0;\n\nif(PIDType == \"Corriente\"){\n    setpoint = flow.get(\"PID.Corriente.setpoint\")||0;\n    Min = setpoint - DeadBand;\n    Max = setpoint + DeadBand;\n    if(msg.payload >= Min && msg.payload <= Max ){\n        DeadBandRule = false;\n    }\n    else{\n        DeadBandRule = true;\n    }\n}\nelse if(PIDType == \"Presion\"){\n    setpoint = flow.get(\"PID.Presion.setpoint\")||0;\n    Min = setpoint - DeadBand;\n    Max = setpoint + DeadBand;\n    if(msg.payload >= Min && msg.payload <= Max ){\n        DeadBandRule = false;\n    }\n    else{\n        DeadBandRule = true;\n    }\n}\n\n// Last asingation\nmsg.enable = ActivationRule && DeadBandRule;\nnode.status({fill:\"green\",shape:\"dot\",text:\"PID:\"+PIDEnable+\" Corriente:\"+CEnableRule+\" Vibración:\"+VEnableRule + \" Temp. Mtr:\"+MtrTempRule});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1170,
+        "y": 240,
+        "wires": [
+            [
+                "766ff7ed.aba428"
+            ]
+        ]
+    },
+    {
+        "id": "ae17baf7.aa0dd8",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Corriente",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Activation.Current",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 480,
+        "wires": [
+            [
+                "b9b2071a.501878"
+            ]
+        ]
+    },
+    {
+        "id": "deafd3e9.1a118",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Vibración",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Activation.Vibration",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 520,
+        "wires": [
+            [
+                "c7b2c342.4724d"
+            ]
+        ]
+    },
+    {
+        "id": "7d4871c0.b9897",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Temperatura",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Activation.Temp",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 560,
+        "wires": [
+            [
+                "b2f62aea.fc39d8"
+            ]
+        ]
+    },
+    {
+        "id": "d2b661d8.32601",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMax",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PID.Limits.DeadBand",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 370,
+        "y": 600,
+        "wires": [
+            [
+                "4901c762.a51cc8"
+            ]
+        ]
+    },
+    {
+        "id": "45f9d45.fc2d92c",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Corriente",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Activation.Current",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70d72abf.382ff4",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Vibración",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Activation.Vibration",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63f1e3c6.d2a68c",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Temperatura",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Activation.Temp",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c971bbf.6a51f4",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "DeltaMax",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PID.Limits.DeadBand",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b5d1711.b6f638",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "U. Ref.",
+        "func": "msg.payload = msg.payload/10000;\nglobal.set(\"Ultima_Referencia\",msg.payload);\nreturn msg;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1860,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "bb6b8bf2.f42718",
+        "type": "complete",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "scope": [
+            "45f9d45.fc2d92c",
+            "70d72abf.382ff4",
+            "63f1e3c6.d2a68c",
+            "4c971bbf.6a51f4"
+        ],
+        "uncaught": false,
+        "x": 960,
+        "y": 350,
+        "wires": [
+            [
+                "24dc3a66.92b236",
+                "1191e655.99fb9a",
+                "51d0b33e.8369fc"
+            ]
+        ]
+    },
+    {
+        "id": "39b2bc9d.88ad84",
+        "type": "ui_text",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "group": "534dbcbb.5aad64",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "H Corriente",
+        "label": "",
+        "format": "{{msg.payload}} A",
+        "layout": "row-spread",
+        "x": 1290,
+        "y": 350,
+        "wires": []
+    },
+    {
+        "id": "24dc3a66.92b236",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "H Corriente",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Protections.Load.H.Setpoint",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 350,
+        "wires": [
+            [
+                "39b2bc9d.88ad84"
+            ]
+        ]
+    },
+    {
+        "id": "1191e655.99fb9a",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "H Corriente",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Protections.Vibration.General.H.Setpoint",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 390,
+        "wires": [
+            [
+                "ba9a49de.2a6e68"
+            ]
+        ]
+    },
+    {
+        "id": "ba9a49de.2a6e68",
+        "type": "ui_text",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "group": "534dbcbb.5aad64",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "name": "H Vibración",
+        "label": "",
+        "format": "{{msg.payload}} G",
+        "layout": "row-spread",
+        "x": 1290,
+        "y": 390,
+        "wires": []
+    },
+    {
+        "id": "51d0b33e.8369fc",
+        "type": "change",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "H Corriente",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Protections.Motor.Temperature.H.Setpoint",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 430,
+        "wires": [
+            [
+                "d97ed6bd.e7ad18"
+            ]
+        ]
+    },
+    {
+        "id": "d97ed6bd.e7ad18",
+        "type": "ui_text",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "group": "534dbcbb.5aad64",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "name": "H Temp",
+        "label": "",
+        "format": "{{msg.payload}} ºF",
+        "layout": "row-spread",
+        "x": 1280,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "0cb5e56ab0b31d03",
+        "type": "catch",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "Errores PV",
+        "scope": [
+            "7c042baf.6c61e4"
+        ],
+        "uncaught": false,
+        "x": 840,
+        "y": 280,
+        "wires": [
+            [
+                "d6aaf343fc532b87"
+            ]
+        ]
+    },
+    {
+        "id": "d6aaf343fc532b87",
+        "type": "debug",
+        "z": "ebaf6b5134c2a666",
+        "g": "cf985e84.c7693",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "fd21111ca22e29fa",
+        "type": "ui_switch",
+        "z": "9941a439.4b17c8",
+        "name": "",
+        "label": "Disparo de braker",
+        "tooltip": "",
+        "group": "4b33f8ea.b34188",
+        "order": 19,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 540,
+        "y": 1290,
+        "wires": [
+            [
+                "fc3f919b2e15cdc9"
+            ]
+        ]
+    },
+    {
+        "id": "b7c04dbc52f1518e",
+        "type": "change",
+        "z": "9941a439.4b17c8",
+        "name": "LL Query",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Protections.+++.EN",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "#:(memoryOnly)::proteccionSelec",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 1290,
+        "wires": [
+            [
+                "fd7610f36124f3bf"
+            ]
+        ]
+    },
+    {
+        "id": "fd7610f36124f3bf",
+        "type": "function",
+        "z": "9941a439.4b17c8",
+        "name": "leer",
+        "func": "var leer = global.get(msg.payload)||null;\n\nif(leer != null){\n    msg. payload = leer;\n    msg.enabled = true;\n}\nelse{\n    msg.payload = null;\n    msg.enabled = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1290,
+        "wires": [
+            [
+                "fd21111ca22e29fa"
+            ]
+        ]
+    },
+    {
+        "id": "fc3f919b2e15cdc9",
+        "type": "change",
+        "z": "9941a439.4b17c8",
+        "name": "LL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::EN",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 1290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6b036f4d80b1a9a",
+        "type": "change",
+        "z": "9941a439.4b17c8",
+        "g": "95daead77be77494",
+        "name": "LL Query",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Protections.+++.EN",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "#:(memoryOnly)::proteccionSelec",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 1290,
+        "wires": [
+            [
+                "652eef7ff30e8029"
+            ]
+        ]
+    },
+    {
+        "id": "652eef7ff30e8029",
+        "type": "function",
+        "z": "9941a439.4b17c8",
+        "g": "95daead77be77494",
+        "name": "EN",
+        "func": "var varflujo = \"EN\";\nvar leer = flow.get(varflujo,\"memoryOnly\")||false;\nglobal.set(msg.payload,leer);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 1290,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed9802d3.5add5",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "name": "Sintonización y Límites",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Habilitar_RS\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_TendenciaPID\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Navbar_PID\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 1460,
+        "wires": [
+            [
+                "54a6e602.e31808"
+            ]
+        ]
+    },
+    {
+        "id": "1502171f.780179",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "name": "Reglas de activación",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Habilitar_RS\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Tendencia\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Navbar_PID\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 1500,
+        "wires": [
+            [
+                "54a6e602.e31808"
+            ]
+        ]
+    },
+    {
+        "id": "4e16b16d.cb9b2",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "SintonizacionLimitesOper",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ReglasActivacion",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Tendencia",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 490,
+        "y": 1500,
+        "wires": [
+            [
+                "ed9802d3.5add5"
+            ],
+            [
+                "1502171f.780179"
+            ],
+            [
+                "db83bdec.22c7e"
+            ]
+        ]
+    },
+    {
+        "id": "606a3e77.9d00f",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "group": "532df66faefc7a82",
+        "name": "Menú ",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-SintonizacionLimitesOper-tab\" data-toggle=\"tab\"\n                href=\"#nav-SintonizacionLimitesOper\" role=\"tab\" aria-controls=\"nav-SintonizacionLimitesOper\"\n                aria-selected=\"true\" ng-click=\"send({payload:SintonizacionLimitesOper()})\">Sintonización y límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-ReglasActivacion-tab\" data-toggle=\"tab\" href=\"#nav-ReglasActivacion\"\n                role=\"tab\" aria-controls=\"nav-ReglasActivacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:ReglasActivacion()})\">Reglas de activación</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Tendencia-tab\" data-toggle=\"tab\" href=\"#nav-Tendencia\" role=\"tab\"\n                aria-controls=\"nav-Tendencia\" aria-selected=\"false\" ng-click=\"send({payload:Tendencia()})\">Tendencia</a>\n\n        </div>\n    </nav>\n\n    <script>\n        this.scope.SintonizacionLimitesOper = function() { return \"SintonizacionLimitesOper\"; };\n        this.scope.ReglasActivacion = function() { return \"ReglasActivacion\"; };\n        this.scope.Tendencia = function() { return \"Tendencia\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 370,
+        "y": 1500,
+        "wires": [
+            [
+                "4e16b16d.cb9b2"
+            ]
+        ]
+    },
+    {
+        "id": "db83bdec.22c7e",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "name": "Tendencia",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Habilitar_RS\",\t                \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Tendencia\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Navbar_PID\",\t                \"Otras_Funciones_de_Control_TendenciaPID\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1540,
+        "wires": [
+            [
+                "54a6e602.e31808"
+            ]
+        ]
+    },
+    {
+        "id": "54a6e602.e31808",
+        "type": "link out",
+        "z": "2e27dea6.c4c362",
+        "g": "77dcd918.f8c298",
+        "name": "",
+        "links": [
+            "805762db.d27b7"
+        ],
+        "x": 875,
+        "y": 1540,
         "wires": []
     }
 ]
