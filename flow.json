@@ -1330,7 +1330,9 @@
             "6914a9b4.85f3c"
         ],
         "x": 1884,
-        "y": 239
+        "y": 239,
+        "w": 432,
+        "h": 82
     },
     {
         "id": "9437db38.d604e",
@@ -1354,7 +1356,9 @@
             "03a3b206eac12d39"
         ],
         "x": 1884,
-        "y": 69
+        "y": 69,
+        "w": 1042,
+        "h": 162
     },
     {
         "id": "af8e6105.775618",
@@ -1376,7 +1380,9 @@
             "67ba4794.6cf57"
         ],
         "x": 164,
-        "y": 69
+        "y": 69,
+        "w": 752,
+        "h": 132
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1395,7 +1401,9 @@
             "a7f0f525.ae1878"
         ],
         "x": 164,
-        "y": 209
+        "y": 209,
+        "w": 602,
+        "h": 122
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1425,7 +1433,9 @@
             "1d797f4ca9b83896"
         ],
         "x": 924,
-        "y": 69
+        "y": 69,
+        "w": 952,
+        "h": 322
     },
     {
         "id": "e29eaee41e038edd",
@@ -4950,17 +4960,13 @@
             "color": "#000000"
         },
         "nodes": [
-            "1327190c6426a625",
             "f2d4bbec97371dae",
-            "a690d00dee1078c9",
-            "b1323887b77575a9",
-            "52501268e456d659",
-            "d191d948e6bf7829"
+            "52501268e456d659"
         ],
-        "x": 1184,
-        "y": 1449,
+        "x": 1264,
+        "y": 1689,
         "w": 422,
-        "h": 182
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -5014,6 +5020,34 @@
         "y": 1359,
         "w": 982,
         "h": 292
+    },
+    {
+        "id": "6b3fc99d.7d45d8",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "name": "Diagnóstico de Red SWC",
+        "style": {
+            "fill": "#bfc7d7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "856da30f.2df08",
+            "7342b43f.bedb2c",
+            "df476a8b.883118",
+            "3663f735.969b68",
+            "babc7e0a.35af5",
+            "ef1ec9d.e6ba638",
+            "4933a716.e0ed08",
+            "ccd73af1.690d48",
+            "61e7fdf2ae5b9c9e",
+            "8b49a22469343868",
+            "03894c480a20a7a9"
+        ],
+        "x": 24,
+        "y": 1679,
+        "w": 1222,
+        "h": 202
     },
     {
         "id": "d25d405a.19cff",
@@ -6922,6 +6956,25 @@
         "order": 9,
         "width": 1,
         "height": 1
+    },
+    {
+        "id": "a487b683.29f738",
+        "type": "ui_group",
+        "name": "Diagnóstico de red SWC",
+        "tab": "57cb75a3.2b4fdc",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "57cb75a3.2b4fdc",
+        "type": "ui_tab",
+        "name": "Configuración-Comunicaciones-SWC",
+        "icon": "dashboard",
+        "order": 19,
+        "disabled": false,
+        "hidden": false
     },
     {
         "id": "e765ca36.69fb98",
@@ -42427,7 +42480,9 @@
             "4eafac1d50c909bb",
             "dc288f1ea69df110",
             "30502daf05b7eeda",
-            "1701a25e8d726d0c"
+            "1701a25e8d726d0c",
+            "15819ab4a0dee1bd",
+            "61e7fdf2ae5b9c9e"
         ],
         "x": 335,
         "y": 310,
@@ -64151,32 +64206,6 @@
         ]
     },
     {
-        "id": "1327190c6426a625",
-        "type": "inject",
-        "z": "902fc438.e5d758",
-        "g": "0379aa12b6a49e83",
-        "name": "IP swc",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "192.168.2.11",
-        "payloadType": "str",
-        "x": 1280,
-        "y": 1490,
-        "wires": [
-            [
-                "b1323887b77575a9"
-            ]
-        ]
-    },
-    {
         "id": "f2d4bbec97371dae",
         "type": "inject",
         "z": "902fc438.e5d758",
@@ -64194,64 +64223,12 @@
         "topic": "",
         "payload": "192.168.2.13",
         "payloadType": "str",
-        "x": 1280,
-        "y": 1540,
+        "x": 1360,
+        "y": 1730,
         "wires": [
             [
                 "52501268e456d659"
             ]
-        ]
-    },
-    {
-        "id": "a690d00dee1078c9",
-        "type": "inject",
-        "z": "902fc438.e5d758",
-        "g": "0379aa12b6a49e83",
-        "name": "IP C2S",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "192.168.2.10",
-        "payloadType": "str",
-        "x": 1280,
-        "y": 1590,
-        "wires": [
-            [
-                "d191d948e6bf7829"
-            ]
-        ]
-    },
-    {
-        "id": "b1323887b77575a9",
-        "type": "change",
-        "z": "902fc438.e5d758",
-        "g": "0379aa12b6a49e83",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "CILA_infoIP.SWC",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1490,
-        "wires": [
-            []
         ]
     },
     {
@@ -64274,34 +64251,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1470,
-        "y": 1540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d191d948e6bf7829",
-        "type": "change",
-        "z": "902fc438.e5d758",
-        "g": "0379aa12b6a49e83",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "CILA_infoIP.C2S",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 1590,
+        "x": 1550,
+        "y": 1730,
         "wires": [
             []
         ]
@@ -64312,7 +64263,7 @@
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
         "name": "Info",
-        "func": "var CILA = flow.get(\"CILA_infoIP\") || { 'SWC': \"192.168.2.11\", \"PQA\":\"192.168.2.13\",'C2S':\"192.168.2.10\"};\nmsg.payload = \"Variador: \" + CILA.C2S + \"; SWC: \" + CILA.SWC + \"; PQA: \" + CILA.PQA;\nreturn msg;",
+        "func": "var CILA = flow.get(\"CILA_infoIP\") || {'PQA':\"192.168.2.13\",\"SWC\":{\"IP\":\"192.168.2.11\",'NETMASK':\"255.255.255.0\"}};\nvar C2SIP = global.get(\"C2S.IP\")||\"192.168.2.10\";\n\nmsg.payload = \"Variador: \" + C2SIP + \"; SWC IP: \" + CILA.SWC.IP+ \"; SWC Máscara: \" + CILA.SWC.NETMASK + \"; PQA: \" + CILA.PQA;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -64324,6 +64275,290 @@
             [
                 "3f8e772d5525d94a"
             ]
+        ]
+    },
+    {
+        "id": "856da30f.2df08",
+        "type": "exec",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "command": "ifconfig eth0",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 200,
+        "y": 1730,
+        "wires": [
+            [
+                "babc7e0a.35af5"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7342b43f.bedb2c",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Obtener IP & Netmask",
+        "func": "// Get string complete\nvar str                 = msg.payload;\n\n// Get 'inet' start and end position inside the string\nvar start_of_inet       = str.indexOf('inet')+5;\nvar end_of_inet         = str.indexOf('netmask')-2;\n\n// Get 'netmask' start and end position inside the string\nvar start_of_netmask    = str.indexOf('netmask')+8;\nvar end_of_netmask      = str.indexOf('broadcast')-2;\n\n// Get \"inet\" complete string.\nvar inet                = str.slice(start_of_inet,end_of_inet);\nvar netmask             = str.slice(start_of_netmask,end_of_netmask);\n\nmsg.payload ={\n    \"Ethernet\":inet,\n    \"Netmask\":netmask\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 630,
+        "y": 1720,
+        "wires": [
+            [
+                "df476a8b.883118",
+                "3663f735.969b68"
+            ]
+        ]
+    },
+    {
+        "id": "df476a8b.883118",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Ethernet",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Ethernet",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1720,
+        "wires": [
+            [
+                "8b49a22469343868"
+            ]
+        ]
+    },
+    {
+        "id": "3663f735.969b68",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Netmask",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Netmask",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1760,
+        "wires": [
+            [
+                "03894c480a20a7a9"
+            ]
+        ]
+    },
+    {
+        "id": "babc7e0a.35af5",
+        "type": "switch",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Not null configuration",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "inet",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 1720,
+        "wires": [
+            [
+                "7342b43f.bedb2c"
+            ],
+            [
+                "ef1ec9d.e6ba638"
+            ]
+        ]
+    },
+    {
+        "id": "ef1ec9d.e6ba638",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "null",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Not configured",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 1820,
+        "wires": [
+            [
+                "ccd73af1.690d48",
+                "4933a716.e0ed08"
+            ]
+        ]
+    },
+    {
+        "id": "4933a716.e0ed08",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Netmask",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "No configurado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1840,
+        "wires": [
+            [
+                "03894c480a20a7a9"
+            ]
+        ]
+    },
+    {
+        "id": "ccd73af1.690d48",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "Ethernet",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "No configurado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1800,
+        "wires": [
+            [
+                "8b49a22469343868"
+            ]
+        ]
+    },
+    {
+        "id": "61e7fdf2ae5b9c9e",
+        "type": "link in",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 65,
+        "y": 1730,
+        "wires": [
+            [
+                "856da30f.2df08"
+            ]
+        ]
+    },
+    {
+        "id": "8b49a22469343868",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CILA_infoIP.SWC.IP",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1040,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03894c480a20a7a9",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6b3fc99d.7d45d8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CILA_infoIP.SWC.NETMASK",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1070,
+        "y": 1760,
+        "wires": [
+            []
         ]
     }
 ]
