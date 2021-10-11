@@ -790,8 +790,8 @@
             "492ac1d1.0e276",
             "ecf98f3f.4a704"
         ],
-        "x": 714,
-        "y": 1749,
+        "x": 844,
+        "y": 1439,
         "w": 232,
         "h": 82
     },
@@ -1312,7 +1312,9 @@
             "ee01b6d1.f76f98"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1464,
+        "h": 664
     },
     {
         "id": "48d282d70b9e72c9",
@@ -1451,7 +1453,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1471,7 +1475,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -1502,9 +1508,7 @@
             "1a8c4a3f92c0ded2"
         ],
         "x": 1574,
-        "y": 339,
-        "w": 832,
-        "h": 702
+        "y": 339
     },
     {
         "id": "99671f60976b1d2a",
@@ -1528,9 +1532,7 @@
             "a84bce49f9e89b58"
         ],
         "x": 1544,
-        "y": 29,
-        "w": 992,
-        "h": 212
+        "y": 29
     },
     {
         "id": "95daead77be77494",
@@ -1575,9 +1577,7 @@
             "652eef7ff30e8029"
         ],
         "x": 994,
-        "y": 649,
-        "w": 532,
-        "h": 682
+        "y": 649
     },
     {
         "id": "87fca62744442ad4",
@@ -1616,9 +1616,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 44,
-        "y": 409,
-        "w": 702,
-        "h": 272
+        "y": 409
     },
     {
         "id": "a7f58aaec292b159",
@@ -1661,9 +1659,7 @@
             "30359a42be66cafb"
         ],
         "x": 44,
-        "y": 689,
-        "w": 812,
-        "h": 272
+        "y": 689
     },
     {
         "id": "37b64a70f39dda06",
@@ -1702,9 +1698,7 @@
             "e0a3fe6a.f68a1"
         ],
         "x": 44,
-        "y": 969,
-        "w": 742,
-        "h": 272
+        "y": 969
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -1729,9 +1723,7 @@
             "46e32360.5940dc"
         ],
         "x": 44,
-        "y": 239,
-        "w": 912,
-        "h": 162
+        "y": 239
     },
     {
         "id": "931b0370.afc1b",
@@ -3135,7 +3127,9 @@
             "d22f737e1faaee45"
         ],
         "x": 44,
-        "y": 499
+        "y": 499,
+        "w": 412,
+        "h": 162
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -3174,7 +3168,9 @@
             "43ffc14d.a3cac8"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1412,
+        "h": 442
     },
     {
         "id": "e2589faa.5b6d2",
@@ -3193,7 +3189,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -3213,7 +3211,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "272ed76d.7cce68",
@@ -4939,6 +4939,28 @@
         ],
         "x": 1394,
         "y": 389
+    },
+    {
+        "id": "0379aa12b6a49e83",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "name": "IP info",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "1327190c6426a625",
+            "f2d4bbec97371dae",
+            "a690d00dee1078c9",
+            "b1323887b77575a9",
+            "52501268e456d659",
+            "d191d948e6bf7829"
+        ],
+        "x": 44,
+        "y": 1759,
+        "w": 422,
+        "h": 182
     },
     {
         "id": "d25d405a.19cff",
@@ -7442,8 +7464,8 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "",
-        "x": 600,
-        "y": 1760,
+        "x": 590,
+        "y": 1470,
         "wires": []
     },
     {
@@ -7458,8 +7480,8 @@
         "label": "Rtx: ",
         "format": "  {{msg.payload}}",
         "layout": "row-center",
-        "x": 600,
-        "y": 1860,
+        "x": 590,
+        "y": 1570,
         "wires": []
     },
     {
@@ -7472,8 +7494,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 470,
-        "y": 1910,
+        "x": 460,
+        "y": 1620,
         "wires": [
             [
                 "933f301f.fcef1"
@@ -7496,8 +7518,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 320,
-        "y": 1910,
+        "x": 310,
+        "y": 1620,
         "wires": [
             [
                 "4c8f5a04.095bc4"
@@ -7509,15 +7531,15 @@
         "type": "ui_text",
         "z": "902fc438.e5d758",
         "group": "4f5b8416.cada1c",
-        "order": 4,
+        "order": 5,
         "width": 3,
         "height": 1,
         "name": "clock",
         "label": "",
         "format": "  {{msg.payload}}",
         "layout": "row-right",
-        "x": 600,
-        "y": 1910,
+        "x": 590,
+        "y": 1620,
         "wires": []
     },
     {
@@ -7738,8 +7760,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 1810,
+        "x": 280,
+        "y": 1520,
         "wires": [
             [
                 "2705e4ec.6d650c"
@@ -7808,8 +7830,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 810,
-        "y": 1790,
+        "x": 940,
+        "y": 1480,
         "wires": [
             [
                 "ecf98f3f.4a704"
@@ -7834,8 +7856,8 @@
             "9cc8b89eee5fff72",
             "9e6212a088a3de43"
         ],
-        "x": 905,
-        "y": 1790,
+        "x": 1035,
+        "y": 1480,
         "wires": []
     },
     {
@@ -37223,8 +37245,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 65,
-        "y": 1810,
+        "x": 55,
+        "y": 1520,
         "wires": [
             [
                 "6c6bc8b9.ccf248"
@@ -37248,8 +37270,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 150,
-        "y": 1810,
+        "x": 140,
+        "y": 1520,
         "wires": [
             [
                 "24868425.cac96c",
@@ -37410,8 +37432,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 1810,
+        "x": 450,
+        "y": 1520,
         "wires": [
             [
                 "7358889e25a9730b"
@@ -39053,8 +39075,8 @@
         "links": [
             "f16815630fb5bc06"
         ],
-        "x": 515,
-        "y": 1760,
+        "x": 505,
+        "y": 1470,
         "wires": [
             [
                 "daa89a01.910de8"
@@ -55781,8 +55803,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 1860,
+        "x": 340,
+        "y": 1570,
         "wires": [
             [
                 "9523c57c.c9b468"
@@ -62700,7 +62722,7 @@
         "g": "6202107f.ed9aa",
         "group": "4f5b8416.cada1c",
         "order": 2,
-        "width": 3,
+        "width": "2",
         "height": 1,
         "name": "",
         "label": "Ref: ",
@@ -62723,7 +62745,7 @@
         "format": "<font size=7px> {{msg.payload}}",
         "layout": "col-center",
         "x": 630,
-        "y": 1810,
+        "y": 1520,
         "wires": []
     },
     {
@@ -64005,6 +64027,227 @@
         "wires": [
             [
                 "1deb40a1.1db35f"
+            ]
+        ]
+    },
+    {
+        "id": "deadd391d9a98ab5",
+        "type": "ui_button",
+        "z": "902fc438.e5d758",
+        "name": "Versión",
+        "group": "4f5b8416.cada1c",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "",
+        "tooltip": "",
+        "color": "#000000",
+        "bgcolor": "#e7e9e8",
+        "icon": "fa-television",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 600,
+        "y": 1680,
+        "wires": [
+            [
+                "0de54509db195c49"
+            ]
+        ]
+    },
+    {
+        "id": "3f8e772d5525d94a",
+        "type": "ui_toast",
+        "z": "902fc438.e5d758",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Aceptar",
+        "cancel": "",
+        "raw": false,
+        "topic": "Info IP",
+        "name": "",
+        "x": 900,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1327190c6426a625",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "IP swc",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "192.168.2.11",
+        "payloadType": "str",
+        "x": 140,
+        "y": 1800,
+        "wires": [
+            [
+                "b1323887b77575a9"
+            ]
+        ]
+    },
+    {
+        "id": "f2d4bbec97371dae",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "IP pqa",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "192.168.2.13",
+        "payloadType": "str",
+        "x": 140,
+        "y": 1850,
+        "wires": [
+            [
+                "52501268e456d659"
+            ]
+        ]
+    },
+    {
+        "id": "a690d00dee1078c9",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "IP C2S",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "192.168.2.10",
+        "payloadType": "str",
+        "x": 140,
+        "y": 1900,
+        "wires": [
+            [
+                "d191d948e6bf7829"
+            ]
+        ]
+    },
+    {
+        "id": "b1323887b77575a9",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CILA_infoIP.SWC",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52501268e456d659",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CILA_infoIP.PQA",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1850,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d191d948e6bf7829",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "0379aa12b6a49e83",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CILA_infoIP.C2S",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0de54509db195c49",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "name": "Info",
+        "func": "var CILA = flow.get(\"CILA_infoIP\") || { 'SWC': \"192.168.2.11\", \"PQA\":\"192.168.2.13\",'C2S':\"192.168.2.10\"};\nmsg.payload = \"Variador: \" + CILA.C2S + \"; SWC: \" + CILA.SWC + \"; PQA: \" + CILA.PQA;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 1680,
+        "wires": [
+            [
+                "3f8e772d5525d94a"
             ]
         ]
     }
