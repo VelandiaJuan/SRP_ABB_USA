@@ -790,8 +790,8 @@
             "492ac1d1.0e276",
             "ecf98f3f.4a704"
         ],
-        "x": 844,
-        "y": 1439,
+        "x": 1074,
+        "y": 1169,
         "w": 232,
         "h": 82
     },
@@ -2085,8 +2085,8 @@
             "56e67824752411be",
             "84eb16f681c366e0"
         ],
-        "x": 54,
-        "y": 1159,
+        "x": 1074,
+        "y": 1269,
         "w": 352,
         "h": 82
     },
@@ -4957,10 +4957,63 @@
             "52501268e456d659",
             "d191d948e6bf7829"
         ],
-        "x": 44,
-        "y": 1759,
+        "x": 1184,
+        "y": 1449,
         "w": 422,
         "h": 182
+    },
+    {
+        "id": "9ede9b9e7f6ac7f4",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "name": "Nombre pozo editable",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8751d17310eaf23b",
+            "b00ac783be79f527",
+            "b9e9be80c75ac7c7",
+            "35137a2a22d04d5a",
+            "2f2a2b11810b4fbe",
+            "e8b4e1fd2e2dcd2b",
+            "a0eaac952dc20a15"
+        ],
+        "x": 24,
+        "y": 1169,
+        "w": 782,
+        "h": 182
+    },
+    {
+        "id": "086b9d08c3b68939",
+        "type": "group",
+        "z": "902fc438.e5d758",
+        "name": "Status Bar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "daa89a01.910de8",
+            "9523c57c.c9b468",
+            "4c8f5a04.095bc4",
+            "abd0a82a.ab2348",
+            "933f301f.fcef1",
+            "24868425.cac96c",
+            "9b0b3358.5ac42",
+            "6c6bc8b9.ccf248",
+            "2705e4ec.6d650c",
+            "ea32976ff44ab826",
+            "e3dba22f.3fd21",
+            "7358889e25a9730b",
+            "deadd391d9a98ab5",
+            "3f8e772d5525d94a",
+            "0de54509db195c49"
+        ],
+        "x": 24,
+        "y": 1359,
+        "w": 982,
+        "h": 292
     },
     {
         "id": "d25d405a.19cff",
@@ -7408,6 +7461,7 @@
         "id": "daa89a01.910de8",
         "type": "ui_led",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "group": "4f5b8416.cada1c",
         "order": 1,
         "width": 5,
@@ -7464,14 +7518,15 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "",
-        "x": 590,
-        "y": 1470,
+        "x": 600,
+        "y": 1400,
         "wires": []
     },
     {
         "id": "9523c57c.c9b468",
         "type": "ui_text",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "group": "4f5b8416.cada1c",
         "order": 3,
         "width": 1,
@@ -7480,22 +7535,23 @@
         "label": "Rtx: ",
         "format": "  {{msg.payload}}",
         "layout": "row-center",
-        "x": 590,
-        "y": 1570,
+        "x": 600,
+        "y": 1500,
         "wires": []
     },
     {
         "id": "4c8f5a04.095bc4",
         "type": "function",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "DateTime",
         "func": "// Date and Time Object\nvar DT      = new Date();\n\n// Date\nvar year    = DT.getFullYear();\nvar month   = DT.getMonth()+1;\nvar day     = DT.getDate();\n\n// Time\nvar hours   = DT.getHours();\nvar minutes = DT.getMinutes();  minutes = minutes <= 9 ? \"0\"+minutes : minutes;\nvar seconds = DT.getSeconds();  seconds = seconds <= 9 ? \"0\"+seconds : seconds;\n\n// Payload\nmsg.payload = day+\"/\"+month+\"/\"+year+\" \"+hours+\":\"+minutes+\":\"+seconds;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 460,
-        "y": 1620,
+        "x": 470,
+        "y": 1550,
         "wires": [
             [
                 "933f301f.fcef1"
@@ -7506,6 +7562,7 @@
         "id": "abd0a82a.ab2348",
         "type": "inject",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "",
         "props": [
             {
@@ -7518,8 +7575,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 310,
-        "y": 1620,
+        "x": 320,
+        "y": 1550,
         "wires": [
             [
                 "4c8f5a04.095bc4"
@@ -7530,6 +7587,7 @@
         "id": "933f301f.fcef1",
         "type": "ui_text",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "group": "4f5b8416.cada1c",
         "order": 5,
         "width": 3,
@@ -7538,8 +7596,8 @@
         "label": "",
         "format": "  {{msg.payload}}",
         "layout": "row-right",
-        "x": 590,
-        "y": 1620,
+        "x": 600,
+        "y": 1550,
         "wires": []
     },
     {
@@ -7745,6 +7803,7 @@
         "id": "24868425.cac96c",
         "type": "change",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "retroal ref",
         "rules": [
             {
@@ -7760,8 +7819,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 280,
-        "y": 1520,
+        "x": 290,
+        "y": 1450,
         "wires": [
             [
                 "2705e4ec.6d650c"
@@ -7830,8 +7889,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 940,
-        "y": 1480,
+        "x": 1170,
+        "y": 1210,
         "wires": [
             [
                 "ecf98f3f.4a704"
@@ -7856,8 +7915,8 @@
             "9cc8b89eee5fff72",
             "9e6212a088a3de43"
         ],
-        "x": 1035,
-        "y": 1480,
+        "x": 1265,
+        "y": 1210,
         "wires": []
     },
     {
@@ -37241,12 +37300,13 @@
         "id": "9b0b3358.5ac42",
         "type": "link in",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "",
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 55,
-        "y": 1520,
+        "x": 65,
+        "y": 1450,
         "wires": [
             [
                 "6c6bc8b9.ccf248"
@@ -37257,6 +37317,7 @@
         "id": "6c6bc8b9.ccf248",
         "type": "switch",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "home",
         "property": "#:(memoryOnly)::Navegación.Pantalla",
         "propertyType": "global",
@@ -37270,8 +37331,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 140,
-        "y": 1520,
+        "x": 150,
+        "y": 1450,
         "wires": [
             [
                 "24868425.cac96c",
@@ -37425,6 +37486,7 @@
         "id": "2705e4ec.6d650c",
         "type": "function",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "Data show",
         "func": "var numdec = 1;\nvar unidad = \"Hz\";\nif(typeof msg.payload == 'number' ){\n    msg.payload = parseFloat(msg.payload.toFixed(numdec));\n    return msg;\n}",
         "outputs": 1,
@@ -37432,8 +37494,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 1520,
+        "x": 460,
+        "y": 1450,
         "wires": [
             [
                 "7358889e25a9730b"
@@ -39071,12 +39133,13 @@
         "id": "ea32976ff44ab826",
         "type": "link in",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "Status Drive Link In",
         "links": [
             "f16815630fb5bc06"
         ],
-        "x": 505,
-        "y": 1470,
+        "x": 515,
+        "y": 1400,
         "wires": [
             [
                 "daa89a01.910de8"
@@ -55796,6 +55859,7 @@
         "id": "e3dba22f.3fd21",
         "type": "function",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "Relación de transformación",
         "func": "var MtrCtrl = global.get(\"C2S.Motor_Control.Type\");\nvar Rtx,Rel;\n\nif(MtrCtrl == \"IM\"){\n    Rtx = global.get(\"C2S.IM.TX.Secondary_voltage\") || null;\n}\nelse if(MtrCtrl == \"PMM\"){\n    Rtx = global.get(\"C2S.Motor_Control.PMM.Tension_Secundario\")||null;\n}\nif(Rtx != null){ \n    Rel = Rtx/480;\n}\nelse{\n    Rel=1;\n}\nmsg.payload = Rel.toFixed(2);\nglobal.set(\"C2S.RelTx\", Rel);\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nreturn msg;",
         "outputs": 1,
@@ -55803,8 +55867,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1570,
+        "x": 350,
+        "y": 1500,
         "wires": [
             [
                 "9523c57c.c9b468"
@@ -60916,8 +60980,8 @@
         "endpoint": "e9d237aaf9318e74",
         "variable": "CommandWord",
         "name": "",
-        "x": 300,
-        "y": 1200,
+        "x": 1320,
+        "y": 1310,
         "wires": []
     },
     {
@@ -60938,8 +61002,8 @@
         "topic": "",
         "payload": "0",
         "payloadType": "num",
-        "x": 150,
-        "y": 1200,
+        "x": 1170,
+        "y": 1310,
         "wires": [
             [
                 "56e67824752411be"
@@ -62736,6 +62800,7 @@
         "id": "7358889e25a9730b",
         "type": "ui_text",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "group": "e5ec1549.1923c8",
         "order": 3,
         "width": 3,
@@ -62744,8 +62809,8 @@
         "label": "Frec actual (Hz): ",
         "format": "<font size=7px> {{msg.payload}}",
         "layout": "col-center",
-        "x": 630,
-        "y": 1520,
+        "x": 640,
+        "y": 1450,
         "wires": []
     },
     {
@@ -63482,6 +63547,7 @@
         "id": "8751d17310eaf23b",
         "type": "ui_text_input",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "",
         "label": "Nombre del pozo",
         "tooltip": "",
@@ -63493,8 +63559,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 470,
-        "y": 1300,
+        "x": 450,
+        "y": 1210,
         "wires": [
             [
                 "35137a2a22d04d5a"
@@ -63505,6 +63571,7 @@
         "id": "b00ac783be79f527",
         "type": "ui_text_input",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "",
         "label": "Nombre del pozo",
         "tooltip": "",
@@ -63516,8 +63583,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 470,
-        "y": 1350,
+        "x": 450,
+        "y": 1260,
         "wires": [
             [
                 "35137a2a22d04d5a"
@@ -63528,6 +63595,7 @@
         "id": "b9e9be80c75ac7c7",
         "type": "ui_text_input",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "",
         "label": "Nombre del pozo",
         "tooltip": "",
@@ -63539,8 +63607,8 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 470,
-        "y": 1400,
+        "x": 450,
+        "y": 1310,
         "wires": [
             [
                 "35137a2a22d04d5a"
@@ -63551,6 +63619,7 @@
         "id": "35137a2a22d04d5a",
         "type": "change",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "",
         "rules": [
             {
@@ -63566,8 +63635,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 700,
-        "y": 1350,
+        "x": 680,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -63576,12 +63645,13 @@
         "id": "2f2a2b11810b4fbe",
         "type": "link in",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "",
         "links": [
             "4372d5a0.d338dc"
         ],
-        "x": 85,
-        "y": 1350,
+        "x": 65,
+        "y": 1260,
         "wires": [
             [
                 "e8b4e1fd2e2dcd2b"
@@ -63592,6 +63662,7 @@
         "id": "e8b4e1fd2e2dcd2b",
         "type": "switch",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "home",
         "property": "#:(memoryOnly)::Navegación.Pantalla",
         "propertyType": "global",
@@ -63605,8 +63676,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 170,
-        "y": 1350,
+        "x": 150,
+        "y": 1260,
         "wires": [
             [
                 "a0eaac952dc20a15"
@@ -63617,6 +63688,7 @@
         "id": "a0eaac952dc20a15",
         "type": "change",
         "z": "902fc438.e5d758",
+        "g": "9ede9b9e7f6ac7f4",
         "name": "retroal",
         "rules": [
             {
@@ -63632,8 +63704,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 1350,
+        "x": 270,
+        "y": 1260,
         "wires": [
             [
                 "8751d17310eaf23b",
@@ -64034,6 +64106,7 @@
         "id": "deadd391d9a98ab5",
         "type": "ui_button",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "Versión",
         "group": "4f5b8416.cada1c",
         "order": 4,
@@ -64048,8 +64121,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 600,
-        "y": 1680,
+        "x": 610,
+        "y": 1610,
         "wires": [
             [
                 "0de54509db195c49"
@@ -64060,6 +64133,7 @@
         "id": "3f8e772d5525d94a",
         "type": "ui_toast",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "position": "dialog",
         "displayTime": "3",
         "highlight": "",
@@ -64070,8 +64144,8 @@
         "raw": false,
         "topic": "Info IP",
         "name": "",
-        "x": 900,
-        "y": 1680,
+        "x": 910,
+        "y": 1610,
         "wires": [
             []
         ]
@@ -64094,8 +64168,8 @@
         "topic": "",
         "payload": "192.168.2.11",
         "payloadType": "str",
-        "x": 140,
-        "y": 1800,
+        "x": 1280,
+        "y": 1490,
         "wires": [
             [
                 "b1323887b77575a9"
@@ -64120,8 +64194,8 @@
         "topic": "",
         "payload": "192.168.2.13",
         "payloadType": "str",
-        "x": 140,
-        "y": 1850,
+        "x": 1280,
+        "y": 1540,
         "wires": [
             [
                 "52501268e456d659"
@@ -64146,8 +64220,8 @@
         "topic": "",
         "payload": "192.168.2.10",
         "payloadType": "str",
-        "x": 140,
-        "y": 1900,
+        "x": 1280,
+        "y": 1590,
         "wires": [
             [
                 "d191d948e6bf7829"
@@ -64174,8 +64248,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 1800,
+        "x": 1470,
+        "y": 1490,
         "wires": [
             []
         ]
@@ -64200,8 +64274,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 1850,
+        "x": 1470,
+        "y": 1540,
         "wires": [
             []
         ]
@@ -64226,8 +64300,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
-        "y": 1900,
+        "x": 1470,
+        "y": 1590,
         "wires": [
             []
         ]
@@ -64236,6 +64310,7 @@
         "id": "0de54509db195c49",
         "type": "function",
         "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
         "name": "Info",
         "func": "var CILA = flow.get(\"CILA_infoIP\") || { 'SWC': \"192.168.2.11\", \"PQA\":\"192.168.2.13\",'C2S':\"192.168.2.10\"};\nmsg.payload = \"Variador: \" + CILA.C2S + \"; SWC: \" + CILA.SWC + \"; PQA: \" + CILA.PQA;\nreturn msg;",
         "outputs": 1,
@@ -64243,8 +64318,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
-        "y": 1680,
+        "x": 750,
+        "y": 1610,
         "wires": [
             [
                 "3f8e772d5525d94a"
