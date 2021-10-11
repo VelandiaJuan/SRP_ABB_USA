@@ -2,7 +2,16 @@
     "name": "CILA2S_ESP_Rubiales_Recharged_Ultra",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-finite-statemachine": "1.0.4",
+        "node-red-contrib-modbus": "5.14.0",
+        "node-red-contrib-pccc": "1.0.1",
+        "node-red-contrib-pid": "1.1.7",
+        "node-red-contrib-ui-led": "0.3.3",
+        "node-red-contrib-ui-level": "0.1.38",
+        "node-red-dashboard": "2.29.0",
+        "node-red-node-ui-table": "0.3.8"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
