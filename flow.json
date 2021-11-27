@@ -60612,7 +60612,7 @@
         "z": "e483884bee93bec2",
         "g": "e2e299a6.d3c5c8",
         "name": "Mapa Modbus",
-        "func": "var C2S = global.get('C2S.Implicit', 'memoryOnly') || [];\nvar Np = global.get('C2S.Motor_Control.Nameplate') || [];\nvar LR = global.get('Input.Operation.ControlMode') || [];\nvar SC = global.get('C2S.Speed_Control') || [];\nvar Status = global.get('C2S.Drive_Status', 'memoryOnly') || [];\nvar PQA = global.get('PQA', 'memoryOnly') || [];\nvar DHSelect = global.get('Process_data.DHS.Number') || 0;\nvar DHSData = global.get('Process_data.DHS', 'memoryOnly') || [];\nvar DHSData2 = global.get('Process_data.AI', 'memoryOnly') || [];\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar ProlongedTime = global.get('Control_functions.Prolonged_Reference.Time') ||0\n\nvar MtrVoltage = C2S.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Output_Current / Rtx;\n\n// Vector mapa Modbus\nvar Mapa = [];\n\nMapa[0] = C2S.Output_Frequency * 10;\nMapa[1] = MtrVoltage * 10;\nMapa[2] = C2S.Output_Current * 10;\nMapa[8] = C2S.Output_Power * 10;\nMapa[10] = C2S.Output_Voltage * 10;\nMapa[12] = 1;\nMapa[14] = C2S.Commanded_SpdRef;\nMapa[15] = ProlongedTime;\nMapa[16] = C2S.Bus_DC_Volts;\nMapa[17] = 1;                                        // No se ha definido. Potencia aparente.\nMapa[18] = C2S.Drive_Temp_C;\nMapa[20] = 1;                                        // No se ha definido. Relación TX Elevador.\nMapa[21] = 1;                                        // No se ha definido. Delta Voltaje de caida actual.\nMapa[22] = val(DHSData[\"Vibración X\"]);\nMapa[23] = val(DHSData[\"Vibración Z\"]);\nMapa[24] = 1;                                        // No se ha definido. Vibración bomba lado acople.\nMapa[47] = 1;                                        // No se ha definido. Referencia prolongada.\n\n// Datos placa de motor.\nMapa[3] = MtrCurrent * 10;\n\n// Datos comando Local/Remoto.\nMapa[4] = DHSelect;\n\n// Datos control de velocidad\nMapa[5] = SC.Accel;\nMapa[6] = SC.Decel;\nMapa[9] = SC.MinLimit * 10;\nMapa[11] = SC.MaxLimit * 10;\n\n// Datos estado C2S\nMapa[7] = Status.Active == 1 ? 0 : 1;\nMapa[13] = Status.Actual_dir == 1 ? 1 : 0;\n\n// Datos PQA\n\nPQA!=[]?Mapa[19] =PQA.Real_Time_Parameters.Total_Power_Factor * 100:Mapa[19] =0;\nMapa[25] = 1;\nMapa[26] = 1;\nPQA!=[]?Mapa[27] = PQA.Real_Time_Parameters.Average_Phase_Current * 10:Mapa[27] = 0;\nPQA!=[]?Mapa[28] = PQA.Real_Time_Parameters.Frequency * 10:Mapa[28] = 0;\nPQA!=[]?Mapa[29] = PQA.Real_Time_Parameters.Total_System_Power * 10:Mapa[29] = 0;\nPQA!=[]?Mapa[30] = PQA.Real_Time_Parameters.Total_Apparent_Power * 10:Mapa[30] = 0;\nPQA!=[]?Mapa[31] = PQA.Real_Time_Parameters.Total_Reactive_Power * 10:Mapa[31] = 0;\nPQA!=[]?Mapa[32] = PQA.Real_Time_Parameters.Total_Power_Factor * 100:Mapa[32] = 0;\nPQA!=[]?Mapa[33] = PQA.Real_Time_Parameters.Line_Voltage_1_2 * 10:Mapa[33] = 0;\nPQA!=[]?Mapa[34] = PQA.Real_Time_Parameters.Line_Voltage_2_3 * 10:Mapa[34] = 0;\nPQA!=[]?Mapa[35] = PQA.Real_Time_Parameters.Line_Voltage_3_1 * 10:Mapa[35] = 0;\nPQA!=[]?Mapa[36] = PQA.Real_Time_Parameters.Phase_1_Voltage * 10:Mapa[36] = 0;\nPQA!=[]?Mapa[37] = PQA.Real_Time_Parameters.Phase_2_Voltage * 10:Mapa[37] = 0;\nPQA!=[]?Mapa[38] = PQA.Real_Time_Parameters.Phase_3_Voltage * 10:Mapa[38] = 0;\nPQA!=[]?Mapa[39] = PQA.Real_Time_Parameters.Total_Phase_A_Current * 10:Mapa[39] = 0;\nPQA!=[]?Mapa[40] = PQA.Real_Time_Parameters.Total_Phase_B_Current * 10:Mapa[40] = 0;\nPQA!=[]?Mapa[41] = PQA.Real_Time_Parameters.Total_Phase_C_Current * 10:Mapa[41] = 0;\nPQA!=[]?Mapa[42] = PQA.Real_Time_Parameters.Phase_A_Power * 10:Mapa[42] = 0;\nPQA!=[]?Mapa[43] = PQA.Real_Time_Parameters.Phase_B_Power * 10:Mapa[43] = 0;\nPQA!=[]?Mapa[44] = PQA.Real_Time_Parameters.Phase_C_Power * 10:Mapa[44] = 0;\nPQA!=[]?Mapa[45] = PQA.Harmonics.Power_Quality.THD_Iavg * 10:Mapa[45] = 0;\nPQA!=[]?Mapa[46] = PQA.Harmonics.Power_Quality.THD_avg * 10:Mapa[46] = 0;\n\n// Datos Sensor de fondo\nMapa[47] = DHSData!=[]?DHSData[\"Presión de entrada\"]:0;\nMapa[48] = DHSData!=[]?DHSData[\"Presión de descarga\"]:0;\nMapa[49] = DHSData!=[]?DHSData[\"Temperatura de entrada\"]:0;\nMapa[50] = DHSData!=[]?DHSData[\"Temperatura de descarga\"]:0;\nMapa[51] = DHSData!=[]?DHSData[\"Temperatura de motor\"]:0;\nMapa[52] = DHSData2!=[]?DHSData2[\"Presión de casing\"]:0;\nMapa[53] = DHSData2!=[]?DHSData2[\"Presión de cabeza THP\"]:0;\nMapa[54] = DHSData2!=[]?DHSData2[\"Temperatura de cabeza THT\"]:0;\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < Mapa.length; i += 1) {\n    Mapa[i] = val(Mapa[i]);\n}\n// Escribir Mapa\nmsg.payload = {\n    value: Mapa,\n    'fc': 16,\n    'unitid': 1,\n    'address': 0,\n    'quantity': Mapa.length\n}\nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}\n",
+        "func": "var C2S = global.get('C2S.Implicit', 'memoryOnly') || [];\nvar Np = global.get('C2S.Motor_Control.Nameplate') || [];\nvar LR = global.get('Input.Operation.ControlMode') || [];\nvar SC = global.get('C2S.Speed_Control') || [];\nvar Status = global.get('C2S.Drive_Status', 'memoryOnly') || [];\nvar PQA = global.get('PQA', 'memoryOnly') || [];\nvar DHSelect = global.get('Process_data.DHS.Number') || 0;\nvar DHSData = global.get('Process_data.DHS', 'memoryOnly') || [];\nvar DHSData2 = global.get('Process_data.AI', 'memoryOnly') || [];\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar ProlongedTime = global.get('Control_functions.Prolonged_Reference.Time') ||0;\nvar PID = global.get(\"AuxiliarPIDModbus\", \"memoryOnly\")||[10,10,0,10,0,10,10];\n\nvar MtrVoltage = C2S.Output_Voltage * Rtx;\nvar MtrCurrent = C2S.Output_Current / Rtx;\n\n// Vector mapa Modbus\nvar Mapa = [];\n\nMapa[0] = C2S.Output_Frequency * 10;\nMapa[1] = MtrVoltage * 10;\nMapa[2] = C2S.Output_Current * 10;\nMapa[8] = C2S.Output_Power * 10;\nMapa[10] = C2S.Output_Voltage * 10;\nMapa[12] = 1;\nMapa[14] = C2S.Commanded_SpdRef;\nMapa[15] = ProlongedTime;\nMapa[16] = C2S.Bus_DC_Volts;\nMapa[17] = 1;                                        // No se ha definido. Potencia aparente.\nMapa[18] = C2S.Drive_Temp_C;\nMapa[20] = PID[0];                                        // No se ha definido. Relación TX Elevador.\nMapa[21] = PID[1];                                        // No se ha definido. Delta Voltaje de caida actual.\nMapa[22] = val(DHSData[\"Vibración X\"]);\nMapa[23] = val(DHSData[\"Vibración Z\"]);\nMapa[24] = PID[2];                                        // No se ha definido. Vibración bomba lado acople.\nMapa[47] = 1;                                        // No se ha definido. Referencia prolongada.\n\n// Datos placa de motor.\nMapa[3] = MtrCurrent * 10;\n\n// Datos comando Local/Remoto.\nMapa[4] = DHSelect;\n\n// Datos control de velocidad\nMapa[5] = SC.Accel;\nMapa[6] = SC.Decel;\nMapa[9] = SC.MinLimit * 10;\nMapa[11] = SC.MaxLimit * 10;\n\n// Datos estado C2S\nMapa[7] = Status.Active == 1 ? 0 : 1;\nMapa[13] = Status.Actual_dir == 1 ? 1 : 0;\n\n// Datos PQA\n\nPQA!=[]?Mapa[19] =PQA.Real_Time_Parameters.Total_Power_Factor * 100:Mapa[19] =0;\nMapa[25] = PID[3];\nMapa[26] = PID[4];\nPQA!=[]?Mapa[27] = PQA.Real_Time_Parameters.Average_Phase_Current * 10:Mapa[27] = 0;\nPQA!=[]?Mapa[28] = PQA.Real_Time_Parameters.Frequency * 10:Mapa[28] = 0;\nPQA!=[]?Mapa[29] = PQA.Real_Time_Parameters.Total_System_Power * 10:Mapa[29] = 0;\nPQA!=[]?Mapa[30] = PQA.Real_Time_Parameters.Total_Apparent_Power * 10:Mapa[30] = 0;\nPQA!=[]?Mapa[31] = PQA.Real_Time_Parameters.Total_Reactive_Power * 10:Mapa[31] = 0;\nPQA!=[]?Mapa[32] = PQA.Real_Time_Parameters.Total_Power_Factor * 100:Mapa[32] = 0;\nPQA!=[]?Mapa[33] = PQA.Real_Time_Parameters.Line_Voltage_1_2 * 10:Mapa[33] = 0;\nPQA!=[]?Mapa[34] = PQA.Real_Time_Parameters.Line_Voltage_2_3 * 10:Mapa[34] = 0;\nPQA!=[]?Mapa[35] = PQA.Real_Time_Parameters.Line_Voltage_3_1 * 10:Mapa[35] = 0;\nPQA!=[]?Mapa[36] = PQA.Real_Time_Parameters.Phase_1_Voltage * 10:Mapa[36] = 0;\nPQA!=[]?Mapa[37] = PQA.Real_Time_Parameters.Phase_2_Voltage * 10:Mapa[37] = 0;\nPQA!=[]?Mapa[38] = PQA.Real_Time_Parameters.Phase_3_Voltage * 10:Mapa[38] = 0;\nPQA!=[]?Mapa[39] = PQA.Real_Time_Parameters.Total_Phase_A_Current * 10:Mapa[39] = 0;\nPQA!=[]?Mapa[40] = PQA.Real_Time_Parameters.Total_Phase_B_Current * 10:Mapa[40] = 0;\nPQA!=[]?Mapa[41] = PQA.Real_Time_Parameters.Total_Phase_C_Current * 10:Mapa[41] = 0;\nPQA!=[]?Mapa[42] = PQA.Real_Time_Parameters.Phase_A_Power * 10:Mapa[42] = 0;\nPQA!=[]?Mapa[43] = PQA.Real_Time_Parameters.Phase_B_Power * 10:Mapa[43] = 0;\nPQA!=[]?Mapa[44] = PQA.Real_Time_Parameters.Phase_C_Power * 10:Mapa[44] = 0;\nPQA!=[]?Mapa[45] = PQA.Harmonics.Power_Quality.THD_Iavg * 10:Mapa[45] = 0;\nPQA!=[]?Mapa[46] = PQA.Harmonics.Power_Quality.THD_avg * 10:Mapa[46] = 0;\n\n// Datos Sensor de fondo\nMapa[47] = DHSData!=[]?DHSData[\"Presión de entrada\"]:0;\nMapa[48] = DHSData!=[]?DHSData[\"Presión de descarga\"]:0;\nMapa[49] = DHSData!=[]?DHSData[\"Temperatura de entrada\"]:0;\nMapa[50] = DHSData!=[]?DHSData[\"Temperatura de descarga\"]:0;\nMapa[51] = DHSData!=[]?DHSData[\"Temperatura de motor\"]:0;\nMapa[52] = DHSData2!=[]?DHSData2[\"Presión de casing\"]:0;\nMapa[53] = DHSData2!=[]?DHSData2[\"Presión de cabeza THP\"]:0;\nMapa[54] = DHSData2!=[]?DHSData2[\"Temperatura de cabeza THT\"]:0;\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < Mapa.length; i += 1) {\n    Mapa[i] = val(Mapa[i]);\n}\n// Escribir Mapa\nmsg.payload = {\n    value: Mapa,\n    'fc': 16,\n    'unitid': 1,\n    'address': 0,\n    'quantity': Mapa.length\n}\nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -77255,8 +77255,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 150,
-        "y": 1380,
+        "x": 130,
+        "y": 1470,
         "wires": [
             [
                 "182002c5c4c8544c"
@@ -77298,8 +77298,8 @@
         "links": [
             "8962f3815cdf9c6b"
         ],
-        "x": 55,
-        "y": 1380,
+        "x": 35,
+        "y": 1470,
         "wires": [
             [
                 "13272e1aa760e9ff"
@@ -77329,7 +77329,7 @@
         "type": "function",
         "z": "ebaf6b5134c2a666",
         "name": "Mapa Modbus PID settings",
-        "func": "var PresKP = flow.get(\"PID.Presion.prop_band\") || 1;\nvar PresTI = flow.get(\"PID.Presion.t_integral\") || 0;\nvar PresTD = flow.get(\"PID.Presion.t_derivative\") || 0;\nvar PresSP = Math.abs(flow.get(\"PID.Presion.setpoint\")) || 0;\nvar DeadBand = flow.get(\"PID.Limits.DeadBand\") || 1;\nvar DHzUp = flow.get(\"PID.Limits.Delta_Hz_Max\") || 1;\nvar DHzDo = flow.get(\"PID.Limits.Delta_Hz_Min\") || 1;\n\nvar vector = [\n    PresKP*10,     // 79\n    PresTI*10,     // 80\n    PresTD*10,     // 81\n    PresSP,      // 82\n    DeadBand*10,      // 83\n    DHzUp*10,      // 84\n    DHzDo*10,     // 85\n]\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < vector.length; i += 1) {\n    vector[i] = val(vector[i]);\n}\n\nmsg.payload = {\n    value: vector,\n    'fc': 16,\n    'unitid': 1,\n    'address': 58,\n    'quantity': vector.length\n}\nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
+        "func": "var PresKP = flow.get(\"PID.Presion.prop_band\") || 1;\nvar PresTI = flow.get(\"PID.Presion.t_integral\") || 1;\nvar PresTD = flow.get(\"PID.Presion.t_derivative\") || 0;\nvar PresSP = Math.abs(flow.get(\"PID.Presion.setpoint\")) || 1;\nvar DeadBand = flow.get(\"PID.Limits.DeadBand\") || 0;\nvar DHzUp = flow.get(\"PID.Limits.Delta_Hz_Max\") || 1;\nvar DHzDo = flow.get(\"PID.Limits.Delta_Hz_Min\") || 1;\n\nvar vector = [\n    PresKP*10,     // 79\n    PresTI*10,     // 80\n    PresTD*10,     // 81\n    PresSP,      // 82\n    DeadBand*10,      // 83\n    DHzUp*10,      // 84\n    DHzDo*10,     // 85\n]\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < vector.length; i += 1) {\n    vector[i] = val(vector[i]);\n}\n\nmsg.payload = {\n    value: vector,\n    'fc': 16,\n    'unitid': 1,\n    'address': 58,\n    'quantity': vector.length\n}\nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -77379,8 +77379,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1260,
+        "x": 660,
+        "y": 1350,
         "wires": [
             []
         ]
@@ -77404,8 +77404,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1300,
+        "x": 660,
+        "y": 1390,
         "wires": [
             []
         ]
@@ -77429,8 +77429,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1340,
+        "x": 660,
+        "y": 1430,
         "wires": [
             []
         ]
@@ -77454,8 +77454,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1380,
+        "x": 660,
+        "y": 1470,
         "wires": [
             []
         ]
@@ -77479,8 +77479,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 1420,
+        "x": 670,
+        "y": 1510,
         "wires": [
             []
         ]
@@ -77504,8 +77504,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1460,
+        "x": 660,
+        "y": 1550,
         "wires": [
             []
         ]
@@ -77529,8 +77529,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 1500,
+        "x": 660,
+        "y": 1590,
         "wires": [
             []
         ]
@@ -77547,8 +77547,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1260,
+        "x": 410,
+        "y": 1350,
         "wires": [
             [
                 "a5b3774f1e8834f6"
@@ -77567,8 +77567,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1300,
+        "x": 410,
+        "y": 1390,
         "wires": [
             [
                 "c0e5763530197226"
@@ -77587,8 +77587,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1340,
+        "x": 410,
+        "y": 1430,
         "wires": [
             [
                 "ec1ff568797098fc"
@@ -77607,8 +77607,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1380,
+        "x": 410,
+        "y": 1470,
         "wires": [
             [
                 "ec8671e0cf6f4aed"
@@ -77627,8 +77627,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1420,
+        "x": 410,
+        "y": 1510,
         "wires": [
             [
                 "19405c8af980b119"
@@ -77647,8 +77647,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1460,
+        "x": 410,
+        "y": 1550,
         "wires": [
             [
                 "4cc11f3749f876b3"
@@ -77667,8 +77667,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 430,
-        "y": 1500,
+        "x": 410,
+        "y": 1590,
         "wires": [
             [
                 "7d4280f86ec97de4"
@@ -77703,8 +77703,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 1260,
+        "x": 290,
+        "y": 1350,
         "wires": [
             [
                 "2fec3b77412d3575"
@@ -77728,8 +77728,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 1300,
+        "x": 290,
+        "y": 1390,
         "wires": [
             [
                 "c5bf1ce21ce3026d"
@@ -77753,8 +77753,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 1380,
+        "x": 290,
+        "y": 1470,
         "wires": [
             [
                 "44db27a05bbb98e0"
@@ -77778,8 +77778,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 1460,
+        "x": 290,
+        "y": 1550,
         "wires": [
             [
                 "95a2a921f2084108"
@@ -77803,8 +77803,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 1500,
+        "x": 290,
+        "y": 1590,
         "wires": [
             [
                 "b8c6e192a33c4e3c"
@@ -77822,8 +77822,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1260,
+        "x": 530,
+        "y": 1350,
         "wires": [
             [
                 "9d8e59c75b8dad9c"
@@ -77841,8 +77841,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1300,
+        "x": 530,
+        "y": 1390,
         "wires": [
             [
                 "2066b81e265609a7"
@@ -77860,8 +77860,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1340,
+        "x": 530,
+        "y": 1430,
         "wires": [
             [
                 "cbba88b1bcd66399"
@@ -77879,8 +77879,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1420,
+        "x": 530,
+        "y": 1510,
         "wires": [
             [
                 "cd74b1a4c3f0312e"
@@ -77898,8 +77898,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1460,
+        "x": 530,
+        "y": 1550,
         "wires": [
             [
                 "48df83ca2a151dbe"
@@ -77917,8 +77917,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
-        "y": 1500,
+        "x": 530,
+        "y": 1590,
         "wires": [
             [
                 "5a3bad1003ed0ef0"
@@ -77946,7 +77946,8 @@
         "y": 1210,
         "wires": [
             [
-                "c5e53244e1647fac"
+                "c5e53244e1647fac",
+                "8f8e4f08a759b980"
             ]
         ]
     },
@@ -77974,5 +77975,20 @@
                 "b66745d4547dcf67"
             ]
         ]
+    },
+    {
+        "id": "8f8e4f08a759b980",
+        "type": "function",
+        "z": "ebaf6b5134c2a666",
+        "name": "Save dataPID Modbus",
+        "func": "var PresKP = flow.get(\"PID.Presion.prop_band\") || 1;\nvar PresTI = flow.get(\"PID.Presion.t_integral\") || 1;\nvar PresTD = flow.get(\"PID.Presion.t_derivative\") || 0;\nvar PresSP = Math.abs(flow.get(\"PID.Presion.setpoint\")) || 1;\nvar DeadBand = flow.get(\"PID.Limits.DeadBand\") || 0;\nvar DHzUp = flow.get(\"PID.Limits.Delta_Hz_Max\") || 1;\nvar DHzDo = flow.get(\"PID.Limits.Delta_Hz_Min\") || 1;\n\nvar vector = [\n    PresKP*10,     // 79\n    PresTI*10,     // 80\n    PresTD*10,     // 81\n    PresSP,      // 82\n    DeadBand*10,      // 83\n    DHzUp*10,      // 84\n    DHzDo*10,     // 85\n]\nglobal.set(\"AuxiliarPIDModbus\", vector,\"memoryOnly\");",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1250,
+        "wires": []
     }
 ]
