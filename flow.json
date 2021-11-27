@@ -1089,10 +1089,14 @@
             "8ba4f2c8d51b2c68",
             "9bf850479811451b",
             "a9ea2f32ef0100a8",
-            "6b3d4586f5261369"
+            "6b3d4586f5261369",
+            "e3c16ca3.413fe",
+            "917c8ac6.aa72e8"
         ],
         "x": 84,
-        "y": 239
+        "y": 239,
+        "w": 2762,
+        "h": 232
     },
     {
         "id": "deaa6892.b3d988",
@@ -1108,7 +1112,9 @@
             "31895ea6.22f372"
         ],
         "x": 82,
-        "y": 13
+        "y": 13,
+        "w": 1680,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1177,7 +1183,9 @@
             "882afa67.5605e8"
         ],
         "x": 84,
-        "y": 479
+        "y": 479,
+        "w": 2012,
+        "h": 442
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1195,7 +1203,9 @@
             "eb91dac5.690838"
         ],
         "x": 88,
-        "y": 23
+        "y": 23,
+        "w": 1854,
+        "h": 1130
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -2311,7 +2321,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "c2c81bf2.d0a218",
@@ -3721,7 +3733,9 @@
             "c8dda58c.1ca2c8"
         ],
         "x": 108,
-        "y": 39
+        "y": 39,
+        "w": 808,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -3748,7 +3762,9 @@
             "c42f5649.4492d8"
         ],
         "x": 938,
-        "y": 39
+        "y": 39,
+        "w": 798,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -3772,7 +3788,9 @@
             "b045615539735b86"
         ],
         "x": 114,
-        "y": 453
+        "y": 453,
+        "w": 928,
+        "h": 674
     },
     {
         "id": "eb91dac5.690838",
@@ -3823,10 +3841,17 @@
             "bb4f29c8.aa7e88",
             "64d11fd938e2301c",
             "0fb4056eaba64bf7",
-            "ca6aa931.930ae8"
+            "ca6aa931.930ae8",
+            "84a10c4b.f35cd",
+            "b2f289ce.2f9b78",
+            "e14b4549.f7e448",
+            "deeb99bb.1de168",
+            "f0f6dd30.db5d1"
         ],
         "x": 114,
-        "y": 49
+        "y": 49,
+        "w": 1802,
+        "h": 392
     },
     {
         "id": "8ed62712.fe2018",
@@ -5615,7 +5640,9 @@
             "ecd73acb6f9a9a0a"
         ],
         "x": 614,
-        "y": 899
+        "y": 899,
+        "w": 372,
+        "h": 202
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -5635,7 +5662,9 @@
             "c1672804cba19e98"
         ],
         "x": 614,
-        "y": 479
+        "y": 479,
+        "w": 172,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -5656,7 +5685,9 @@
             "41b82348a8ab40a8"
         ],
         "x": 614,
-        "y": 689
+        "y": 689,
+        "w": 402,
+        "h": 202
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -37922,15 +37953,18 @@
         "wires": [
             [
                 "df254022.5c16c",
-                "64d11fd938e2301c"
+                "64d11fd938e2301c",
+                "e14b4549.f7e448"
             ],
             [
                 "df254022.5c16c",
-                "e7a9267c.452be8"
+                "e7a9267c.452be8",
+                "e14b4549.f7e448"
             ],
             [
                 "df254022.5c16c",
-                "0fb4056eaba64bf7"
+                "0fb4056eaba64bf7",
+                "e14b4549.f7e448"
             ],
             [
                 "ddfe211d.8cb0d"
@@ -43608,7 +43642,9 @@
         "g": "9b538856.60fb38",
         "name": "login",
         "links": [
-            "8a17d991.081178"
+            "8a17d991.081178",
+            "949a1f09.5cd7a",
+            "84a10c4b.f35cd"
         ],
         "x": 1485,
         "y": 370,
@@ -77864,6 +77900,179 @@
         "y": 960,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "e3c16ca3.413fe",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1640,
+        "y": 430,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84a10c4b.f35cd",
+        "type": "link in",
+        "z": "3af652c9.6f9bee",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "links": [
+            "6b3d4586f5261369"
+        ],
+        "x": 1325,
+        "y": 330,
+        "wires": [
+            [
+                "b2f289ce.2f9b78"
+            ]
+        ]
+    },
+    {
+        "id": "b2f289ce.2f9b78",
+        "type": "change",
+        "z": "3af652c9.6f9bee",
+        "g": "eb91dac5.690838",
+        "name": "download",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::download",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1430,
+        "y": 330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e14b4549.f7e448",
+        "type": "switch",
+        "z": "3af652c9.6f9bee",
+        "g": "eb91dac5.690838",
+        "name": "download?",
+        "property": "#:(memoryOnly)::download",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1600,
+        "y": 330,
+        "wires": [
+            [
+                "deeb99bb.1de168",
+                "f0f6dd30.db5d1"
+            ]
+        ]
+    },
+    {
+        "id": "deeb99bb.1de168",
+        "type": "change",
+        "z": "3af652c9.6f9bee",
+        "g": "eb91dac5.690838",
+        "name": "download",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::download",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1740,
+        "y": 370,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0f6dd30.db5d1",
+        "type": "link out",
+        "z": "3af652c9.6f9bee",
+        "g": "eb91dac5.690838",
+        "name": "",
+        "links": [
+            "8fb8cba5.d46188"
+        ],
+        "x": 1705,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "8fb8cba5.d46188",
+        "type": "link in",
+        "z": "e7088c4e.cc6b4",
+        "name": "",
+        "links": [
+            "f0f6dd30.db5d1"
+        ],
+        "x": 717.3463745117188,
+        "y": 291.0104064941406,
+        "wires": [
+            [
+                "917c8ac6.aa72e8"
+            ]
+        ]
+    },
+    {
+        "id": "917c8ac6.aa72e8",
+        "type": "delay",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 820,
+        "y": 290,
+        "wires": [
+            [
+                "8f48d1f2.ceb62"
+            ]
         ]
     }
 ]
