@@ -1290,7 +1290,9 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 239
+        "y": 239,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9437db38.d604e",
@@ -1320,7 +1322,9 @@
             "1fb58a8a.67c8f5"
         ],
         "x": 1884,
-        "y": 69
+        "y": 69,
+        "w": 1382,
+        "h": 212
     },
     {
         "id": "af8e6105.775618",
@@ -1349,7 +1353,9 @@
             "86ad5821826b4199"
         ],
         "x": 14,
-        "y": 69
+        "y": 69,
+        "w": 842,
+        "h": 242
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1369,7 +1375,9 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 449
+        "y": 449,
+        "w": 602,
+        "h": 122
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1404,7 +1412,9 @@
             "30a50f9a4b478ffd"
         ],
         "x": 924,
-        "y": 69
+        "y": 69,
+        "w": 952,
+        "h": 362
     },
     {
         "id": "e29eaee41e038edd",
@@ -67508,7 +67518,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PI.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67540,7 +67550,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PI.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67572,7 +67582,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PI.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67604,7 +67614,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PI.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67755,7 +67765,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PD.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67787,7 +67797,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PD.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67819,7 +67829,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PD.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -67851,7 +67861,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.PD.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68002,7 +68012,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TE.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68034,7 +68044,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TE.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68066,7 +68076,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TE.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68098,7 +68108,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TE.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68249,7 +68259,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TD.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68281,7 +68291,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TD.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68313,7 +68323,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TD.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68345,7 +68355,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TD.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68496,7 +68506,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TM.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68528,7 +68538,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TM.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68560,7 +68570,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TM.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68592,7 +68602,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.TM.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68743,7 +68753,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VX.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68775,7 +68785,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VX.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68807,7 +68817,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VX.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68839,7 +68849,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VX.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -68990,7 +69000,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VZ.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69022,7 +69032,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VZ.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69054,7 +69064,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VZ.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69086,7 +69096,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.VZ.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69237,7 +69247,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.CF.DT",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69269,7 +69279,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.CF.MBS",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69301,7 +69311,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.CF.Reg",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69333,7 +69343,7 @@
                 "p": "payload",
                 "pt": "msg",
                 "to": "DHSPerson.CF.Mul",
-                "tot": "flow"
+                "tot": "global"
             },
             {
                 "t": "delete",
@@ -69459,11 +69469,12 @@
         "type": "function",
         "z": "38e901f121b52acb",
         "name": "save to DHSPerson",
-        "func": "var varname = flow.get(\"DHSPerson.\"+msg.vari+\".\"+msg.field,\"memoryOnly\")||\"-\";\nflow.set(\"DHSPerson.\" + msg.vari + \".\" + msg.field,varname);\nreturn msg;",
+        "func": "var varname = flow.get(\"DHSPerson.\"+msg.vari+\".\"+msg.field,\"memoryOnly\")||\"-\";\nglobal.set(\"DHSPerson.\" + msg.vari + \".\" + msg.field,varname);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1350,
         "y": 720,
         "wires": [
@@ -69825,11 +69836,12 @@
         "z": "38e901f121b52acb",
         "g": "ef81d12e3dd41149",
         "name": "Personalizado",
-        "func": "var mapa = [];\nvar count = 1;\nvar DHSPerson = flow.get(\"DHSPerson\")||[];\nvar label = [\"PI\",\"PD\",\"TE\",\"TD\",\"TM\",\"VX\",\"VZ\",\"CF\"];\nvar name = [\"Presión de entrada\", \"Presión de descarga\", \"Temperatura de entrada\", \"Temperatura de descarga\", \"Temperatura de motor\", \"Vibración X\", \"Vibración Z\", \"Corriente de fuga\"];\nfor (var i=0;i<label.length;i++){\n    if (typeof DHSPerson[label[i]] != 'undefined') mapaModbusDHS(i);\n}\n function mapaModbusDHS(i){\n     if (DHSPerson[label[i]].DT != '-' && DHSPerson[label[i]].MBS != '-' && DHSPerson[label[i]].Mul != '-' && typeof DHSPerson[label[i]].Reg == 'number'){\n         mapa.push({\n             \"No\": count,\n             \"Descripción\": name[i],\n             \"Tipo de dato\": DHSPerson[label[i]].DT,\n             \"Tipo de registro\": DHSPerson[label[i]].MBS,\n             \"Registro\": DHSPerson[label[i]].Reg,\n             \"Multiplicador\": parseFloat(DHSPerson[label[i]].Mul)});\n        count++;\n     }\n }\n\nmsg.payload = mapa;\nreturn msg;",
+        "func": "var mapa = [];\nvar count = 1;\nvar DHSPerson = global.get(\"DHSPerson\")||[];\nvar label = [\"PI\",\"PD\",\"TE\",\"TD\",\"TM\",\"VX\",\"VZ\",\"CF\"];\nvar name = [\"Presión de entrada\", \"Presión de descarga\", \"Temperatura de entrada\", \"Temperatura de descarga\", \"Temperatura de motor\", \"Vibración X\", \"Vibración Z\", \"Corriente de fuga\"];\nfor (var i=0;i<label.length;i++){\n    if (typeof DHSPerson[label[i]] != 'undefined') mapaModbusDHS(i);\n}\n function mapaModbusDHS(i){\n     if (DHSPerson[label[i]].DT != '-' && DHSPerson[label[i]].MBS != '-' && DHSPerson[label[i]].Mul != '-' && typeof DHSPerson[label[i]].Reg == 'number'){\n         mapa.push({\n             \"No\": count,\n             \"Descripción\": name[i],\n             \"Tipo de dato\": DHSPerson[label[i]].DT,\n             \"Tipo de registro\": DHSPerson[label[i]].MBS,\n             \"Registro\": DHSPerson[label[i]].Reg,\n             \"Multiplicador\": parseFloat(DHSPerson[label[i]].Mul)});\n        count++;\n     }\n }\n\nmsg.payload = mapa;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1390,
         "y": 150,
         "wires": [
