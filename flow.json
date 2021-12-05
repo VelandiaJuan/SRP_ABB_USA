@@ -1076,9 +1076,7 @@
             "917c8ac6.aa72e8"
         ],
         "x": 84,
-        "y": 239,
-        "w": 2762,
-        "h": 232
+        "y": 239
     },
     {
         "id": "deaa6892.b3d988",
@@ -1094,9 +1092,7 @@
             "31895ea6.22f372"
         ],
         "x": 82,
-        "y": 13,
-        "w": 1680,
-        "h": 214
+        "y": 13
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1181,9 +1177,7 @@
             "d4815689f3a8cac7"
         ],
         "x": 74,
-        "y": 479,
-        "w": 2322,
-        "h": 512
+        "y": 479
     },
     {
         "id": "f7ed166d.1aa528",
@@ -2318,9 +2312,7 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19,
-        "w": 852,
-        "h": 132
+        "y": 19
     },
     {
         "id": "c2c81bf2.d0a218",
@@ -2645,12 +2637,14 @@
             "8b1a609d64c70224",
             "6ee257d699f817b0",
             "b9964b24b8e04eab",
-            "0b0df3a707795c4a"
+            "0b0df3a707795c4a",
+            "af1e567e54d62d35",
+            "2cbf4228734cf0ab"
         ],
         "x": 1084,
         "y": 339,
         "w": 1122,
-        "h": 222
+        "h": 232
     },
     {
         "id": "c117cee0146ec7e5",
@@ -3743,9 +3737,7 @@
             "c8dda58c.1ca2c8"
         ],
         "x": 108,
-        "y": 39,
-        "w": 808,
-        "h": 162
+        "y": 39
     },
     {
         "id": "31895ea6.22f372",
@@ -3772,9 +3764,7 @@
             "c42f5649.4492d8"
         ],
         "x": 938,
-        "y": 39,
-        "w": 798,
-        "h": 162
+        "y": 39
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -57661,11 +57651,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "Sts Ref",
-        "func": "var Commanded_SpdRef    = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0);\nvar Reference           = global.get(\"Input.Operation.Reference\",\"memoryOnly\")||0;\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
+        "func": "var Commanded_SpdRef    = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0)).toFixed(3));\nvar Reference           = global.get(\"Input.Operation.Reference\",\"memoryOnly\")||0;\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1370,
         "y": 170,
         "wires": [
@@ -60450,7 +60441,7 @@
         "targetType": "msg",
         "statusVal": "payload[50]",
         "statusType": "auto",
-        "x": 830,
+        "x": 870,
         "y": 280,
         "wires": []
     },
@@ -65307,7 +65298,8 @@
         "y": 380,
         "wires": [
             [
-                "c6349afceceaa2b1"
+                "c6349afceceaa2b1",
+                "0b0df3a707795c4a"
             ],
             []
         ]
@@ -65327,7 +65319,7 @@
         "y": 380,
         "wires": [
             [
-                "25370127fccaf364"
+                "2cbf4228734cf0ab"
             ]
         ]
     },
@@ -65355,7 +65347,7 @@
         "wires": [
             [
                 "8b1a609d64c70224",
-                "0b0df3a707795c4a"
+                "af1e567e54d62d35"
             ],
             []
         ]
@@ -78213,7 +78205,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "ref first time",
-        "func": "var ref = global.get(\"C2S.Last_Reference.Value\")||\"none\";\nif (ref == \"none\")global.set(\"C2S.Last_Reference.Value\",msg.payload);\nreturn msg;",
+        "func": "var ref = global.get(\"C2S.Last_Reference.Value\")||\"none\";\nif (ref == \"none\"){global.set(\"C2S.Last_Reference.Value\",msg.payload);\nreturn msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -78222,7 +78214,9 @@
         "x": 1220,
         "y": 130,
         "wires": [
-            []
+            [
+                "623eb47dc08d064b"
+            ]
         ]
     },
     {
@@ -78601,6 +78595,50 @@
             ],
             [
                 "4a152bf2.aedbf4"
+            ]
+        ]
+    },
+    {
+        "id": "af1e567e54d62d35",
+        "type": "debug",
+        "z": "e483884bee93bec2",
+        "g": "f6e30287.8d13d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0]",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1650,
+        "y": 530,
+        "wires": []
+    },
+    {
+        "id": "2cbf4228734cf0ab",
+        "type": "switch",
+        "z": "e483884bee93bec2",
+        "g": "f6e30287.8d13d",
+        "name": ">=20",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "20",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1580,
+        "y": 440,
+        "wires": [
+            [
+                "25370127fccaf364"
             ]
         ]
     }
