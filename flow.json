@@ -1306,7 +1306,9 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 239
+        "y": 239,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9437db38.d604e",
@@ -1336,7 +1338,9 @@
             "1fb58a8a.67c8f5"
         ],
         "x": 1884,
-        "y": 69
+        "y": 19,
+        "w": 1382,
+        "h": 212
     },
     {
         "id": "af8e6105.775618",
@@ -1365,7 +1369,9 @@
             "86ad5821826b4199"
         ],
         "x": 14,
-        "y": 69
+        "y": 69,
+        "w": 842,
+        "h": 242
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1385,7 +1391,9 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 449
+        "y": 469,
+        "w": 602,
+        "h": 122
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1417,10 +1425,14 @@
             "1819ab29e1ba5014",
             "afabcbf0c6679fc1",
             "dd66499222f7a4a7",
-            "30a50f9a4b478ffd"
+            "30a50f9a4b478ffd",
+            "27d05faae193e4da",
+            "2aad8b543010b8e8"
         ],
         "x": 924,
-        "y": 69
+        "y": 19,
+        "w": 952,
+        "h": 442
     },
     {
         "id": "e29eaee41e038edd",
@@ -2126,9 +2138,7 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43,
-        "w": 1684,
-        "h": 714
+        "y": 43
     },
     {
         "id": "08ae5a87c119f624",
@@ -2162,9 +2172,7 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859,
-        "w": 332,
-        "h": 122
+        "y": 859
     },
     {
         "id": "23c99fd.b16886",
@@ -2266,9 +2274,7 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999,
-        "w": 832,
-        "h": 82
+        "y": 999
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2290,9 +2296,7 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 43,
-        "w": 2164,
-        "h": 804
+        "y": 43
     },
     {
         "id": "20a59349.5b554c",
@@ -2432,9 +2436,7 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859,
-        "w": 262,
-        "h": 132
+        "y": 859
     },
     {
         "id": "12a3e534213911db",
@@ -2451,9 +2453,7 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859,
-        "w": 432,
-        "h": 132
+        "y": 859
     },
     {
         "id": "99af8da767a0630e",
@@ -2479,9 +2479,7 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999,
-        "w": 1032,
-        "h": 132
+        "y": 999
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2510,9 +2508,7 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139,
-        "w": 1432,
-        "h": 242
+        "y": 1139
     },
     {
         "id": "1e1760200fc29774",
@@ -2536,9 +2532,7 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769,
-        "w": 882,
-        "h": 232
+        "y": 769
     },
     {
         "id": "e2e299a6.d3c5c8",
@@ -2563,9 +2557,7 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339,
-        "w": 952,
-        "h": 132
+        "y": 339
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2604,9 +2596,7 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569,
-        "w": 1722,
-        "h": 252
+        "y": 569
     },
     {
         "id": "f6e30287.8d13d",
@@ -2644,9 +2634,7 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339,
-        "w": 1122,
-        "h": 232
+        "y": 339
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2693,9 +2681,7 @@
             "f16c8e907b36e129"
         ],
         "x": 94,
-        "y": 69,
-        "w": 2092,
-        "h": 262
+        "y": 69
     },
     {
         "id": "d929d138.3b512",
@@ -4430,9 +4416,7 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69,
-        "w": 1632,
-        "h": 532
+        "y": 69
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4453,9 +4437,7 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609,
-        "w": 732,
-        "h": 122
+        "y": 609
     },
     {
         "id": "afcd8222.ca23b",
@@ -40269,6 +40251,16 @@
                 "label": "Borets Spy-Pro-SPS-1500",
                 "value": "Borets Spy-Pro-SPS-1500",
                 "type": "str"
+            },
+            {
+                "label": "Borets (Screen-Touch)",
+                "value": "BoretsTouch",
+                "type": "str"
+            },
+            {
+                "label": "Spectrum",
+                "value": "Spectrum",
+                "type": "str"
             }
         ],
         "payload": "",
@@ -40445,7 +40437,7 @@
         ],
         "uncaught": false,
         "x": 1020,
-        "y": 490,
+        "y": 510,
         "wires": [
             [
                 "bde8b5e.8ff1e48"
@@ -40473,7 +40465,7 @@
         "to": "",
         "reg": false,
         "x": 1220,
-        "y": 490,
+        "y": 510,
         "wires": [
             [
                 "5500fe6d.2fbd18"
@@ -40492,7 +40484,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1410,
-        "y": 490,
+        "y": 510,
         "wires": []
     },
     {
@@ -40506,7 +40498,7 @@
             "935b56e9d359332d"
         ],
         "x": 1075,
-        "y": 530,
+        "y": 550,
         "wires": [
             [
                 "bde8b5e.8ff1e48"
@@ -40532,7 +40524,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 1200,
-        "y": 530,
+        "y": 550,
         "wires": [
             [
                 "bde8b5e.8ff1e48"
@@ -40559,7 +40551,7 @@
         "topic": "",
         "payloadType": "str",
         "x": 1980,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "d5c6e22e.5913a"
@@ -40578,7 +40570,7 @@
         "initialize": "",
         "finalize": "",
         "x": 2180,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "db2c3fd1.d4b6a"
@@ -40601,7 +40593,7 @@
         "emptyMsgOnFail": true,
         "keepMsgProperties": true,
         "x": 2400,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "30bc82a5.83883e",
@@ -40622,7 +40614,7 @@
         "initialize": "",
         "finalize": "",
         "x": 2580,
-        "y": 110,
+        "y": 60,
         "wires": []
     },
     {
@@ -40645,7 +40637,7 @@
         "repair": false,
         "outputs": 2,
         "x": 2550,
-        "y": 170,
+        "y": 120,
         "wires": [
             [
                 "a6bc5916.f91728",
@@ -40684,7 +40676,7 @@
         "allowColorForValueInMessage": false,
         "name": "",
         "x": 2850,
-        "y": 150,
+        "y": 100,
         "wires": []
     },
     {
@@ -40715,7 +40707,7 @@
         "to": "",
         "reg": false,
         "x": 2700,
-        "y": 150,
+        "y": 100,
         "wires": [
             [
                 "5fde841b.216d14"
@@ -40750,7 +40742,7 @@
         "to": "",
         "reg": false,
         "x": 3160,
-        "y": 200,
+        "y": 150,
         "wires": [
             [
                 "5fde841b.216d14"
@@ -40768,7 +40760,7 @@
         ],
         "uncaught": false,
         "x": 1960,
-        "y": 190,
+        "y": 140,
         "wires": [
             [
                 "03a3b206eac12d39"
@@ -40790,7 +40782,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2100,
-        "y": 190,
+        "y": 140,
         "wires": []
     },
     {
@@ -40799,11 +40791,12 @@
         "z": "38e901f121b52acb",
         "g": "48d282d70b9e72c9",
         "name": "Modbus sensor Number",
-        "func": "\nif      (msg.payload == 'Zenith')                   {msg.payload = 3;}\nelse if (msg.payload == 'Schlumberger')             {msg.payload = 1;}\nelse if (msg.payload == \"GRC Scout\")                {msg.payload = 4;}\nelse if (msg.payload == 'Novomet')                  {msg.payload = 6;}\nelse if (msg.payload == 'Borets')                   {msg.payload = 7;}\nelse if (msg.payload == \"Borets Spy-Pro-SPS-1500\")  {msg.payload = 8;}\nelse if (msg.payload == \"Personalizado\")            {msg.payload = 10; }\nelse                                                {msg.payload = 5;}\n\nglobal.set(\"Process_data.DHS.Number\",msg.payload);\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nreturn msg;",
+        "func": "\nif      (msg.payload == 'Zenith')                   {msg.payload = 3;}\nelse if (msg.payload == 'Schlumberger')             {msg.payload = 1;}\nelse if (msg.payload == \"GRC Scout\")                {msg.payload = 4;}\nelse if (msg.payload == 'Novomet')                  {msg.payload = 6;}\nelse if (msg.payload == 'Borets')                   {msg.payload = 7;}\nelse if (msg.payload == \"Borets Spy-Pro-SPS-1500\")  {msg.payload = 8;}\nelse if (msg.payload == \"Personalizado\")            {msg.payload = 10; }\nelse if (msg.payload == \"BoretsTouch\")            {msg.payload = 11; }\nelse if (msg.payload == \"Spectrum\")            {msg.payload = 12; }\nelse                                                {msg.payload = 5;}\n\nglobal.set(\"Process_data.DHS.Number\",msg.payload);\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload});\nreturn msg;",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2090,
         "y": 280,
         "wires": []
@@ -40883,7 +40876,7 @@
         "outputs": 0,
         "cts": false,
         "x": 1720,
-        "y": 190,
+        "y": 140,
         "wires": []
     },
     {
@@ -40907,7 +40900,7 @@
         "to": "",
         "reg": false,
         "x": 1370,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -40927,7 +40920,7 @@
         ],
         "uncaught": false,
         "x": 1020,
-        "y": 230,
+        "y": 180,
         "wires": [
             [
                 "5278e06818418426"
@@ -40982,13 +40975,23 @@
                 "t": "eq",
                 "v": "Borets Spy-Pro-SPS-1500",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "BoretsTouch",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Spectrum",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 8,
+        "outputs": 10,
         "x": 1180,
-        "y": 230,
+        "y": 180,
         "wires": [
             [
                 "94d4b0f6a1035ffd"
@@ -41013,6 +41016,12 @@
             ],
             [
                 "c46b426ddcba3ca6"
+            ],
+            [
+                "27d05faae193e4da"
+            ],
+            [
+                "2aad8b543010b8e8"
             ]
         ]
     },
@@ -41037,7 +41046,7 @@
         "to": "",
         "reg": false,
         "x": 1360,
-        "y": 190,
+        "y": 140,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41067,7 +41076,7 @@
         "to": "",
         "reg": false,
         "x": 1390,
-        "y": 230,
+        "y": 180,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41096,7 +41105,7 @@
         "to": "",
         "reg": false,
         "x": 1380,
-        "y": 270,
+        "y": 220,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41125,7 +41134,7 @@
         "to": "",
         "reg": false,
         "x": 1370,
-        "y": 310,
+        "y": 260,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41154,7 +41163,7 @@
         "to": "",
         "reg": false,
         "x": 1360,
-        "y": 350,
+        "y": 300,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41183,7 +41192,7 @@
         "to": "",
         "reg": false,
         "x": 1400,
-        "y": 390,
+        "y": 340,
         "wires": [
             [
                 "b52f82cb1a7a7339",
@@ -41201,7 +41210,7 @@
         "action": "obj",
         "pretty": false,
         "x": 1630,
-        "y": 230,
+        "y": 180,
         "wires": [
             [
                 "30f707ecbdeb2452"
@@ -41229,7 +41238,7 @@
         "to": "",
         "reg": false,
         "x": 1780,
-        "y": 230,
+        "y": 180,
         "wires": [
             []
         ]
@@ -41246,7 +41255,7 @@
         "initialize": "",
         "finalize": "",
         "x": 1200,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "94d4b0f6a1035ffd"
@@ -41263,7 +41272,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 1035,
-        "y": 110,
+        "y": 60,
         "wires": [
             [
                 "4f1871a965b65434",
@@ -41292,7 +41301,7 @@
         "to": "",
         "reg": false,
         "x": 1670,
-        "y": 110,
+        "y": 60,
         "wires": [
             []
         ]
@@ -41314,7 +41323,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 1030,
-        "y": 150,
+        "y": 100,
         "wires": [
             [
                 "5278e06818418426"
@@ -60198,7 +60207,7 @@
         ],
         "uncaught": false,
         "x": 1370,
-        "y": 530,
+        "y": 550,
         "wires": [
             []
         ]
@@ -69864,7 +69873,7 @@
         "finalize": "",
         "libs": [],
         "x": 1390,
-        "y": 150,
+        "y": 100,
         "wires": [
             [
                 "dd66499222f7a4a7",
@@ -69896,7 +69905,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 1140,
-        "y": 350,
+        "y": 300,
         "wires": [
             [
                 "4c67ee20325480a3"
@@ -69924,7 +69933,7 @@
         "to": "",
         "reg": false,
         "x": 1720,
-        "y": 360,
+        "y": 310,
         "wires": [
             []
         ]
@@ -69950,7 +69959,7 @@
         "to": "",
         "reg": false,
         "x": 1710,
-        "y": 300,
+        "y": 250,
         "wires": [
             []
         ]
@@ -70003,7 +70012,7 @@
             "935b56e9d359332d"
         ],
         "x": 1075,
-        "y": 280,
+        "y": 230,
         "wires": [
             [
                 "5278e06818418426"
@@ -71093,7 +71102,7 @@
         "to": "",
         "reg": false,
         "x": 2690,
-        "y": 200,
+        "y": 150,
         "wires": [
             [
                 "49f6872d.f357e8"
@@ -71117,7 +71126,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "x": 2700,
-        "y": 240,
+        "y": 190,
         "wires": [
             [
                 "49f6872d.f357e8"
@@ -71143,7 +71152,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 2850,
-        "y": 200,
+        "y": 150,
         "wires": [
             [
                 "0f5155c1229cda5c"
@@ -71169,7 +71178,7 @@
         "repair": false,
         "outputs": 1,
         "x": 3000,
-        "y": 200,
+        "y": 150,
         "wires": [
             [
                 "5b339a75.df7174",
@@ -71198,7 +71207,7 @@
         "to": "",
         "reg": false,
         "x": 2750,
-        "y": 110,
+        "y": 60,
         "wires": [
             []
         ]
@@ -71224,7 +71233,7 @@
         "to": "",
         "reg": false,
         "x": 3150,
-        "y": 240,
+        "y": 190,
         "wires": [
             []
         ]
@@ -78713,6 +78722,64 @@
         "wires": [
             [
                 "623eb47dc08d064b"
+            ]
+        ]
+    },
+    {
+        "id": "27d05faae193e4da",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "g": "ef81d12e3dd41149",
+        "name": "Borets Touch",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"No\":1,\"Descripción\":\"Presión de entrada\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":14,\"Multiplicador\":1},{\"No\":2,\"Descripción\":\"Presión de descarga\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":15,\"Multiplicador\":1},{\"No\":3,\"Descripción\":\"Temperatura de entrada\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":16,\"Multiplicador\":0.1},{\"No\":4,\"Descripción\":\"Temperatura de motor\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":17,\"Multiplicador\":0.1},{\"No\":5,\"Descripción\":\"Vibración X\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":4,\"Multiplicador\":0.001},{\"No\":6,\"Descripción\":\"Vibración Z\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":5,\"Multiplicador\":0.001},{\"No\":7,\"Descripción\":\"Corriente de fuga\",\"Tipo de dato\":\"UINT\",\"Tipo de registro\":\"HR\",\"Registro\":6,\"Multiplicador\":0.01}]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1390,
+        "y": 380,
+        "wires": [
+            [
+                "e8d9bf36189ddebb",
+                "b52f82cb1a7a7339"
+            ]
+        ]
+    },
+    {
+        "id": "2aad8b543010b8e8",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "g": "ef81d12e3dd41149",
+        "name": "Spectrum",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"No\":1,\"Descripción\":\"Presión de entrada\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":8,\"Multiplicador\":0.1},{\"No\":2,\"Descripción\":\"Presión de descarga\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":9,\"Multiplicador\":0.1},{\"No\":3,\"Descripción\":\"Temperatura de entrada\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":10,\"Multiplicador\":0.1},{\"No\":4,\"Descripción\":\"Temperatura de motor\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":11,\"Multiplicador\":0.1},{\"No\":5,\"Descripción\":\"Vibración X\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":5,\"Multiplicador\":0.001},{\"No\":6,\"Descripción\":\"Corriente de fuga\",\"Tipo de dato\":\"INT\",\"Tipo de registro\":\"HR\",\"Registro\":15,\"Multiplicador\":0.1}]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1380,
+        "y": 420,
+        "wires": [
+            [
+                "e8d9bf36189ddebb",
+                "b52f82cb1a7a7339"
             ]
         ]
     }
