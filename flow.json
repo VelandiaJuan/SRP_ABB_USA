@@ -342,11 +342,11 @@
         "category": "VSD",
         "in": [
             {
-                "x": 170,
-                "y": 60,
+                "x": 120,
+                "y": 50,
                 "wires": [
                     {
-                        "id": "eb883084.7d28d"
+                        "id": "e27b11d88be5d114"
                     }
                 ]
             }
@@ -367,11 +367,11 @@
         "color": "#E9967A",
         "icon": "node-red-dashboard/ui_gauge.png",
         "status": {
-            "x": 230,
-            "y": 110,
+            "x": 280,
+            "y": 140,
             "wires": [
                 {
-                    "id": "1fbf295f73cccb97",
+                    "id": "e27b11d88be5d114",
                     "port": 0
                 }
             ]
@@ -1818,7 +1818,8 @@
             "623eb47dc08d064b",
             "820ffd9d.4462a",
             "cca85736.340b98",
-            "fda65d81e947c35c"
+            "fda65d81e947c35c",
+            "f465608052b953d3"
         ],
         "x": 4,
         "y": 9,
@@ -2346,12 +2347,13 @@
             "9bd1e11d.4da77",
             "890cac9f.ef77",
             "1a666ca6835d2d34",
-            "5e9480f01e3c4b75"
+            "5e9480f01e3c4b75",
+            "fd43d65633c388cf"
         ],
         "x": 514,
         "y": 2479,
         "w": 762,
-        "h": 132
+        "h": 182
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -38500,7 +38502,7 @@
         "endpoint": "e9d237aaf9318e74",
         "variable": "PF755T_SpeedReference",
         "name": "",
-        "x": 480,
+        "x": 620,
         "y": 60,
         "wires": []
     },
@@ -38514,7 +38516,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 270,
+        "x": 390,
         "y": 60,
         "wires": [
             [
@@ -73904,7 +73906,8 @@
         "wires": [
             [
                 "eb7ab466.6a90b8",
-                "1a666ca6835d2d34"
+                "1a666ca6835d2d34",
+                "fd43d65633c388cf"
             ]
         ]
     },
@@ -73972,6 +73975,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1170,
         "y": 2570,
         "wires": [
@@ -74001,6 +74005,7 @@
         "z": "902fc438.e5d758",
         "g": "1178951067fce7a4",
         "name": "",
+        "env": [],
         "x": 1060,
         "y": 2520,
         "wires": [
@@ -78639,6 +78644,75 @@
         "wires": [
             [
                 "25370127fccaf364"
+            ]
+        ]
+    },
+    {
+        "id": "fd43d65633c388cf",
+        "type": "debug",
+        "z": "902fc438.e5d758",
+        "g": "1178951067fce7a4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 840,
+        "y": 2620,
+        "wires": []
+    },
+    {
+        "id": "e27b11d88be5d114",
+        "type": "switch",
+        "z": "1fbf295f73cccb97",
+        "name": "number",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 230,
+        "y": 60,
+        "wires": [
+            [
+                "eb883084.7d28d"
+            ]
+        ]
+    },
+    {
+        "id": "f465608052b953d3",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "tracking manual",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "C2S.Last_Reference.Value",
+        "payloadType": "global",
+        "x": 1600,
+        "y": 50,
+        "wires": [
+            [
+                "623eb47dc08d064b"
             ]
         ]
     }
