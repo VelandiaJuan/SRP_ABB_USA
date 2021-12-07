@@ -1306,9 +1306,7 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 239,
-        "w": 342,
-        "h": 82
+        "y": 239
     },
     {
         "id": "9437db38.d604e",
@@ -1338,9 +1336,7 @@
             "1fb58a8a.67c8f5"
         ],
         "x": 1884,
-        "y": 19,
-        "w": 1382,
-        "h": 212
+        "y": 19
     },
     {
         "id": "af8e6105.775618",
@@ -1369,9 +1365,7 @@
             "86ad5821826b4199"
         ],
         "x": 14,
-        "y": 69,
-        "w": 842,
-        "h": 242
+        "y": 69
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1391,9 +1385,7 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 469,
-        "w": 602,
-        "h": 122
+        "y": 469
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1430,9 +1422,7 @@
             "2aad8b543010b8e8"
         ],
         "x": 924,
-        "y": 19,
-        "w": 952,
-        "h": 442
+        "y": 19
     },
     {
         "id": "e29eaee41e038edd",
@@ -65675,11 +65665,12 @@
         "type": "function",
         "z": "1fbf295f73cccb97",
         "name": "Sts Ref",
-        "func": "var Commanded_SpdRef    = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0);\nvar Reference           = msg.payload;\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
+        "func": "var Commanded_SpdRef    = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0)).toFixed(1));\nvar Reference           = parseFloat(msg.payload.toFixed(1));\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 560,
         "y": 140,
         "wires": [
