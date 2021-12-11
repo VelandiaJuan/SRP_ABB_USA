@@ -2001,7 +2001,9 @@
             "e8e6627edafb7e4b"
         ],
         "x": 44,
-        "y": 499
+        "y": 499,
+        "w": 1092,
+        "h": 402
     },
     {
         "id": "7b407017129e2c3f",
@@ -2142,7 +2144,9 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43
+        "y": 43,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "08ae5a87c119f624",
@@ -2176,7 +2180,9 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859
+        "y": 859,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "23c99fd.b16886",
@@ -2278,7 +2284,9 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999
+        "y": 999,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2300,7 +2308,9 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 43
+        "y": 43,
+        "w": 2164,
+        "h": 804
     },
     {
         "id": "20a59349.5b554c",
@@ -2424,7 +2434,9 @@
             "df585b7236ec5055"
         ],
         "x": 44,
-        "y": 29
+        "y": 29,
+        "w": 1392,
+        "h": 462
     },
     {
         "id": "26716b1e0dd96786",
@@ -2440,7 +2452,9 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859
+        "y": 859,
+        "w": 262,
+        "h": 132
     },
     {
         "id": "12a3e534213911db",
@@ -2457,7 +2471,9 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859
+        "y": 859,
+        "w": 432,
+        "h": 132
     },
     {
         "id": "99af8da767a0630e",
@@ -2483,7 +2499,9 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999
+        "y": 999,
+        "w": 1032,
+        "h": 132
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2512,7 +2530,9 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139
+        "y": 1139,
+        "w": 1432,
+        "h": 242
     },
     {
         "id": "1e1760200fc29774",
@@ -2536,7 +2556,9 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769
+        "y": 769,
+        "w": 882,
+        "h": 232
     },
     {
         "id": "562a3cb193226c87",
@@ -2553,7 +2575,9 @@
             "f2171731a54fc371"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "e2e299a6.d3c5c8",
@@ -2578,7 +2602,9 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339
+        "y": 339,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2617,7 +2643,9 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569
+        "y": 569,
+        "w": 1722,
+        "h": 252
     },
     {
         "id": "f6e30287.8d13d",
@@ -2655,7 +2683,9 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339
+        "y": 339,
+        "w": 1122,
+        "h": 232
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2702,7 +2732,9 @@
             "f16c8e907b36e129"
         ],
         "x": 94,
-        "y": 69
+        "y": 69,
+        "w": 2092,
+        "h": 262
     },
     {
         "id": "d929d138.3b512",
@@ -4437,7 +4469,9 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69
+        "y": 69,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4458,7 +4492,9 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609
+        "y": 609,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "afcd8222.ca23b",
@@ -46485,7 +46521,7 @@
         "g": "9bdf522.eba6db",
         "name": "",
         "pauseType": "delay",
-        "timeout": "1",
+        "timeout": "80",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -46494,6 +46530,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "allowrate": false,
         "x": 770,
         "y": 760,
         "wires": [
@@ -74299,11 +74336,12 @@
         "z": "e483884bee93bec2",
         "g": "f6e30287.8d13d",
         "name": "Activefunctions?",
-        "func": "var prolongada = global.get(\"Control_functions.ActiveCF.Prolonged_Reference\",\"memoryOnly\")||false;\nvar escalonado = global.get(\"Control_functions.ActiveCF.Staggered_start\", \"memoryOnly\") || false;\nvar automatico = global.get(\"Control_functions.ActiveCF.AutomaticRestart\", \"memoryOnly\") || false;\nvar PIDccontrol = global.get(\"Control_functions.ActiveCF.PIDController\", \"memoryOnly\") || false;\nvar rocking = global.get(\"Control_functions.ActiveCF.RockingStart\", \"memoryOnly\") || false;\nif (prolongada || escalonado || automatico || PIDccontrol || rocking) msg.failed = \"failed\"; else msg.failed = \"OK\";\n\nreturn msg;",
+        "func": "var prolongada = global.get(\"Control_functions.ActiveCF.Prolonged_Reference\",\"memoryOnly\")||false;\nvar escalonado = global.get(\"Control_functions.ActiveCF.Staggered_start\", \"memoryOnly\") || false;\nvar automatico = global.get(\"Control_functions.ActiveCF.AutomaticRestart\", \"memoryOnly\") || false;\nvar PIDccontrol = global.get(\"Control_functions.ActiveCF.PIDController\", \"memoryOnly\") || false;\nvar rocking = global.get(\"Control_functions.ActiveCF.RockingStart\", \"memoryOnly\") || false;\nif (prolongada || escalonado || automatico || PIDccontrol || rocking) msg.filtro = \"failed\"; else msg.filtro = \"OK\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1730,
         "y": 440,
         "wires": [
