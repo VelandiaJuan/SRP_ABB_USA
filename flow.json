@@ -1195,9 +1195,7 @@
             "eb91dac5.690838"
         ],
         "x": 88,
-        "y": 23,
-        "w": 1854,
-        "h": 1130
+        "y": 23
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1310,7 +1308,9 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 249
+        "y": 249,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9437db38.d604e",
@@ -1342,7 +1342,9 @@
             "069c48acb4bed570"
         ],
         "x": 1884,
-        "y": 19
+        "y": 19,
+        "w": 1382,
+        "h": 222
     },
     {
         "id": "af8e6105.775618",
@@ -1371,7 +1373,9 @@
             "86ad5821826b4199"
         ],
         "x": 14,
-        "y": 69
+        "y": 69,
+        "w": 842,
+        "h": 242
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1391,7 +1395,9 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 469
+        "y": 469,
+        "w": 602,
+        "h": 122
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1428,7 +1434,9 @@
             "2aad8b543010b8e8"
         ],
         "x": 924,
-        "y": 19
+        "y": 19,
+        "w": 952,
+        "h": 442
     },
     {
         "id": "e29eaee41e038edd",
@@ -3790,9 +3798,7 @@
             "f8489c5a6d52f42a"
         ],
         "x": 114,
-        "y": 453,
-        "w": 1018,
-        "h": 674
+        "y": 453
     },
     {
         "id": "eb91dac5.690838",
@@ -3851,9 +3857,7 @@
             "f0f6dd30.db5d1"
         ],
         "x": 114,
-        "y": 49,
-        "w": 1802,
-        "h": 392
+        "y": 49
     },
     {
         "id": "8ed62712.fe2018",
@@ -5638,9 +5642,7 @@
             "cb232372.b3dee"
         ],
         "x": 614,
-        "y": 899,
-        "w": 492,
-        "h": 202
+        "y": 899
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -5660,9 +5662,7 @@
             "c1672804cba19e98"
         ],
         "x": 614,
-        "y": 479,
-        "w": 172,
-        "h": 202
+        "y": 479
     },
     {
         "id": "be55ea76.ed4478",
@@ -5683,9 +5683,7 @@
             "41b82348a8ab40a8"
         ],
         "x": 614,
-        "y": 689,
-        "w": 402,
-        "h": 202
+        "y": 689
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -40591,6 +40589,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2180,
         "y": 60,
         "wires": [
@@ -40630,11 +40629,12 @@
         "z": "38e901f121b52acb",
         "g": "9437db38.d604e",
         "name": "Asingar Datos",
-        "func": "var LostDHDflag = flow.get(\"LostDHDflag\", \"memoryOnly\") || false\nif (msg.payload !== \"\") {\n    var Data = global.get('Process_data.DHS', 'memoryOnly');\n    Data[msg.topic] = parseFloat((msg.payload[0] * msg.factor).toFixed(2));\n    context.set('Data', Data, 'memoryOnly');\n    global.set(\"Process_data.DHS\", Data, 'memoryOnly')\n}\nif (msg.payload == \"\" && LostDHDflag) {\n    var Data = global.get('Process_data.DHS', 'memoryOnly');\n    Data[msg.topic] = 0;\n    context.set('Data', Data, 'memoryOnly');\n    global.set(\"Process_data.DHS\", Data, 'memoryOnly')\n}\n\nreturn;\n",
+        "func": "var LostDHDflag = flow.get(\"LostDHDflag\", \"memoryOnly\") || false\nvar ConvTemp = global.get(\"DHSPerson.TemUnit\")||false;\nif (msg.payload !== \"\") {\n    var Data = global.get('Process_data.DHS', 'memoryOnly');\n    if (ConvTemp && (msg.topic.includes(\"Temperatura\"))) Data[msg.topic] = parseFloat((((msg.payload[0] * msg.factor)*1.8)+32).toFixed(2));\n    else\n    Data[msg.topic] = parseFloat((msg.payload[0] * msg.factor).toFixed(2));\n    context.set('Data', Data, 'memoryOnly');\n    global.set(\"Process_data.DHS\", Data, 'memoryOnly')\n}\nif (msg.payload == \"\" && LostDHDflag) {\n    var Data = global.get('Process_data.DHS', 'memoryOnly');\n    Data[msg.topic] = 0;\n    context.set('Data', Data, 'memoryOnly');\n    global.set(\"Process_data.DHS\", Data, 'memoryOnly')\n}\n\nreturn;\n",
         "outputs": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2580,
         "y": 60,
         "wires": []
@@ -65953,18 +65953,11 @@
         "payloadType": "str",
         "topic": "",
         "x": 900,
-        "y": 670,
+        "y": 750,
         "wires": [
             [
                 "6631fedd826801b0",
-                "ba29dc4297876c96",
-                "8d366f5d44b3ef17",
-                "150f0bc7bdd50580",
-                "8b594665448cd43c",
-                "b2e906025195d38f",
-                "5f466722ad761724",
-                "fed9aee6938492b4",
-                "2dc44ae2c3cbfafa"
+                "b481da70f35d247b"
             ]
         ]
     },
@@ -69521,8 +69514,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1350,
-        "y": 720,
+        "x": 1710,
+        "y": 740,
         "wires": [
             []
         ]
@@ -69546,8 +69539,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 720,
+        "x": 1410,
+        "y": 740,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69576,8 +69569,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 720,
+        "x": 1540,
+        "y": 740,
         "wires": [
             [
                 "897faef686113c51"
@@ -69603,8 +69596,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 760,
+        "x": 1540,
+        "y": 780,
         "wires": [
             [
                 "897faef686113c51"
@@ -69630,8 +69623,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 760,
+        "x": 1410,
+        "y": 780,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69660,8 +69653,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 800,
+        "x": 1540,
+        "y": 820,
         "wires": [
             [
                 "897faef686113c51"
@@ -69687,8 +69680,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1180,
-        "y": 840,
+        "x": 1540,
+        "y": 860,
         "wires": [
             [
                 "897faef686113c51"
@@ -69714,8 +69707,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 800,
+        "x": 1410,
+        "y": 820,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69744,8 +69737,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 840,
+        "x": 1410,
+        "y": 860,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69774,8 +69767,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 880,
+        "x": 1410,
+        "y": 900,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69804,8 +69797,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 920,
+        "x": 1410,
+        "y": 940,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69834,8 +69827,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 960,
+        "x": 1410,
+        "y": 980,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69864,8 +69857,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 1000,
+        "x": 1410,
+        "y": 1020,
         "wires": [
             [
                 "07d98fce7040deec",
@@ -69994,8 +69987,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 1200,
-        "y": 1000,
+        "x": 1560,
+        "y": 1020,
         "wires": [
             [
                 "935b56e9d359332d"
@@ -70013,8 +70006,8 @@
             "22857b642b1f3f54",
             "30a50f9a4b478ffd"
         ],
-        "x": 1295,
-        "y": 1000,
+        "x": 1655,
+        "y": 1020,
         "wires": []
     },
     {
@@ -78934,6 +78927,161 @@
         "wires": [
             [
                 "b045615539735b86"
+            ]
+        ]
+    },
+    {
+        "id": "b481da70f35d247b",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "name": "sel temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Seleccione unidades de temperatura de sensor de fondo (Si son ºC se convertirán a ºF)",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Atención",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 860,
+        "wires": [
+            [
+                "49d404687fdfc7df"
+            ]
+        ]
+    },
+    {
+        "id": "49d404687fdfc7df",
+        "type": "ui_toast",
+        "z": "38e901f121b52acb",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Grados ºF",
+        "cancel": "Grados ºC",
+        "raw": false,
+        "topic": "",
+        "name": "ºC?",
+        "x": 1020,
+        "y": 860,
+        "wires": [
+            [
+                "7960b45b80f2f74e"
+            ]
+        ]
+    },
+    {
+        "id": "56a2caa830913b60",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "name": "ºC",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DHSPerson.TemUnit",
+                "pt": "global",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 890,
+        "wires": [
+            [
+                "ba29dc4297876c96",
+                "8d366f5d44b3ef17",
+                "150f0bc7bdd50580",
+                "8b594665448cd43c",
+                "b2e906025195d38f",
+                "5f466722ad761724",
+                "fed9aee6938492b4",
+                "2dc44ae2c3cbfafa"
+            ]
+        ]
+    },
+    {
+        "id": "7960b45b80f2f74e",
+        "type": "switch",
+        "z": "38e901f121b52acb",
+        "name": "ºC/ºF",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Grados ºF",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1140,
+        "y": 860,
+        "wires": [
+            [
+                "864d50c94790c2d7"
+            ],
+            [
+                "56a2caa830913b60"
+            ]
+        ]
+    },
+    {
+        "id": "864d50c94790c2d7",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "name": "ºF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DHSPerson.TemUnit",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 850,
+        "wires": [
+            [
+                "ba29dc4297876c96",
+                "8d366f5d44b3ef17",
+                "150f0bc7bdd50580",
+                "8b594665448cd43c",
+                "b2e906025195d38f",
+                "5f466722ad761724",
+                "fed9aee6938492b4",
+                "2dc44ae2c3cbfafa"
             ]
         ]
     }
