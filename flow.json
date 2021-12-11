@@ -5764,12 +5764,14 @@
             "6ef36a66a2f5f9eb",
             "f84b1d2c053bb108",
             "e4284fa872b282d4",
-            "97b2eb182dd8a393"
+            "97b2eb182dd8a393",
+            "368d9188a60b7fdd",
+            "a3e0a5db4f30662d"
         ],
         "x": 1894,
         "y": 339,
         "w": 922,
-        "h": 82
+        "h": 132
     },
     {
         "id": "d25d405a.19cff",
@@ -34498,7 +34500,8 @@
             "787d322ad05bb119",
             "783a6580e8c8fde8",
             "7763c3f3.af1d6c",
-            "97b2eb182dd8a393"
+            "97b2eb182dd8a393",
+            "a3e0a5db4f30662d"
         ],
         "x": 355,
         "y": 80,
@@ -43813,7 +43816,8 @@
             "bb5a0d783e5dca2d",
             "4e6fc41b723d16d5",
             "6cac2db8df0d88d3",
-            "7763c3f3.af1d6c"
+            "7763c3f3.af1d6c",
+            "a3e0a5db4f30662d"
         ],
         "x": 1175,
         "y": 230,
@@ -79156,16 +79160,22 @@
         "rules": [
             {
                 "t": "false"
+            },
+            {
+                "t": "true"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
+        "outputs": 2,
         "x": 2410,
         "y": 380,
         "wires": [
             [
                 "f84b1d2c053bb108"
+            ],
+            [
+                "368d9188a60b7fdd"
             ]
         ]
     },
@@ -79199,11 +79209,12 @@
         "z": "38e901f121b52acb",
         "g": "62fac95632266b01",
         "name": "",
-        "func": "msg.payload = \"Falla de comunicación con sensor de fondo\";\nreturn msg;",
+        "func": "msg.payload = \"Falla de comunicación con sensor de fondo\";\nmsg.topic = \"COM\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2680,
         "y": 380,
         "wires": [
@@ -79224,6 +79235,40 @@
         ],
         "x": 2775,
         "y": 380,
+        "wires": []
+    },
+    {
+        "id": "368d9188a60b7fdd",
+        "type": "function",
+        "z": "38e901f121b52acb",
+        "g": "62fac95632266b01",
+        "name": "",
+        "func": "msg.payload = \"Comunicación con sensor de fondo recuperada\";\nmsg.topic = \"COM\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2540,
+        "y": 430,
+        "wires": [
+            [
+                "a3e0a5db4f30662d"
+            ]
+        ]
+    },
+    {
+        "id": "a3e0a5db4f30662d",
+        "type": "link out",
+        "z": "38e901f121b52acb",
+        "g": "62fac95632266b01",
+        "name": "",
+        "links": [
+            "207ea8ce.3dea68",
+            "2da816b7.b2be9a"
+        ],
+        "x": 2645,
+        "y": 430,
         "wires": []
     }
 ]
