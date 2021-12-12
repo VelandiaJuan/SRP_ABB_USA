@@ -1371,12 +1371,12 @@
             "a7d2cd08afbd2e76",
             "86ad5821826b4199",
             "6260bf964a453af8",
-            "f847549da7cff3eb"
+            "0d504168707f17be"
         ],
         "x": 14,
         "y": 69,
         "w": 842,
-        "h": 252
+        "h": 262
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -65930,7 +65930,8 @@
             ],
             [
                 "ff70137391f2b512",
-                "6631fedd826801b0"
+                "6631fedd826801b0",
+                "0d504168707f17be"
             ]
         ]
     },
@@ -79079,32 +79080,6 @@
         ]
     },
     {
-        "id": "f847549da7cff3eb",
-        "type": "inject",
-        "z": "38e901f121b52acb",
-        "g": "af8e6105.775618",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 470,
-        "y": 280,
-        "wires": [
-            [
-                "0a8b43dcb8a55d7f"
-            ]
-        ]
-    },
-    {
         "id": "0f0573bfc77396d5",
         "type": "inject",
         "z": "38e901f121b52acb",
@@ -79270,5 +79245,31 @@
         "x": 2645,
         "y": 430,
         "wires": []
+    },
+    {
+        "id": "0d504168707f17be",
+        "type": "change",
+        "z": "38e901f121b52acb",
+        "g": "af8e6105.775618",
+        "name": "ºF",
+        "rules": [
+            {
+                "t": "set",
+                "p": "DHSPerson.TemUnit",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 290,
+        "wires": [
+            []
+        ]
     }
 ]
