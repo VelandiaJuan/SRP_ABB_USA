@@ -760,7 +760,8 @@
             "628cd5f619b29af6",
             "3b0732a010e2131c",
             "01c5f660785e97d7",
-            "1fba507567d2f877"
+            "1fba507567d2f877",
+            "65c50b2d766f8a54"
         ],
         "x": 34,
         "y": 479,
@@ -2752,7 +2753,8 @@
             "af93f6b34f6ca585",
             "65facb997d933eab",
             "8a633215f5f69823",
-            "f16c8e907b36e129"
+            "f16c8e907b36e129",
+            "1c4082263cd5819b"
         ],
         "x": 94,
         "y": 69,
@@ -43778,7 +43780,8 @@
         "y": 890,
         "wires": [
             [
-                "4283632c186cd676"
+                "4283632c186cd676",
+                "65c50b2d766f8a54"
             ],
             [
                 "824394eb2c1be3fa"
@@ -62599,7 +62602,8 @@
         "y": 270,
         "wires": [
             [
-                "2e3cdd711a03c0ab"
+                "2e3cdd711a03c0ab",
+                "1c4082263cd5819b"
             ],
             [
                 "ef5d21afc5393db0"
@@ -79290,6 +79294,42 @@
             [
                 "0941bfa0e5e19a06"
             ]
+        ]
+    },
+    {
+        "id": "65c50b2d766f8a54",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "fcb3da61.429db8",
+        "name": "clean attemtps",
+        "func": "var max = global.get(\"Control_functions.Automatic_Restart.Attempts.Max\")||5;\nvar act = global.get(\"Control_functions.Automatic_Restart.Attempts.Current_Attempt\") || 0;\nif(max==act)\n    global.set(\"Control_functions.Automatic_Restart.Attempts.Current_Attempt\",0);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2140,
+        "y": 870,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c4082263cd5819b",
+        "type": "function",
+        "z": "e483884bee93bec2",
+        "g": "c117cee0146ec7e5",
+        "name": "clean attemtps",
+        "func": "var max = global.get(\"Control_functions.Automatic_Restart.Attempts.Max\")||5;\nvar act = global.get(\"Control_functions.Automatic_Restart.Attempts.Current_Attempt\") || 0;\nif(max==act)\n    global.set(\"Control_functions.Automatic_Restart.Attempts.Current_Attempt\",0);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 210,
+        "wires": [
+            []
         ]
     }
 ]
