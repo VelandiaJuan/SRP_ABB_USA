@@ -608,7 +608,7 @@
                 "y": 190,
                 "wires": [
                     {
-                        "id": "216d993bc16931d2",
+                        "id": "20a94e1f3f6e8848",
                         "port": 0
                     }
                 ]
@@ -1309,9 +1309,7 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 249,
-        "w": 342,
-        "h": 82
+        "y": 249
     },
     {
         "id": "9437db38.d604e",
@@ -1343,9 +1341,7 @@
             "069c48acb4bed570"
         ],
         "x": 1884,
-        "y": 19,
-        "w": 1382,
-        "h": 222
+        "y": 19
     },
     {
         "id": "af8e6105.775618",
@@ -1374,9 +1370,7 @@
             "6260bf964a453af8"
         ],
         "x": 14,
-        "y": 69,
-        "w": 842,
-        "h": 242
+        "y": 69
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1396,9 +1390,7 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 469,
-        "w": 602,
-        "h": 122
+        "y": 469
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1433,9 +1425,7 @@
             "2aad8b543010b8e8"
         ],
         "x": 924,
-        "y": 19,
-        "w": 952,
-        "h": 442
+        "y": 19
     },
     {
         "id": "e29eaee41e038edd",
@@ -1463,7 +1453,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1483,7 +1475,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "10280aeffc57de7d",
@@ -1682,7 +1676,9 @@
             "8f8a192b.bb2ef8"
         ],
         "x": 28,
-        "y": 43
+        "y": 43,
+        "w": 2924,
+        "h": 1112
     },
     {
         "id": "83483662ea05d247",
@@ -2058,7 +2054,9 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33
+        "y": 33,
+        "w": 1004,
+        "h": 1804
     },
     {
         "id": "b3942c43115e460d",
@@ -2074,7 +2072,9 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1488,
-        "y": 33
+        "y": 33,
+        "w": 1264,
+        "h": 1074
     },
     {
         "id": "0474082dbe49e1c2",
@@ -2141,7 +2141,9 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43
+        "y": 43,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "08ae5a87c119f624",
@@ -2175,7 +2177,9 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859
+        "y": 859,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "23c99fd.b16886",
@@ -2198,6 +2202,8 @@
         ],
         "x": 574,
         "y": 21.5,
+        "w": 552,
+        "h": 217,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2216,7 +2222,9 @@
             "5e35a538.cad0cc"
         ],
         "x": 14,
-        "y": 251.5
+        "y": 251.5,
+        "w": 432,
+        "h": 157
     },
     {
         "id": "8a437085.d2b8",
@@ -2239,6 +2247,8 @@
         ],
         "x": 14,
         "y": 21.5,
+        "w": 552,
+        "h": 217,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2277,7 +2287,9 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999
+        "y": 999,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2299,7 +2311,9 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 43
+        "y": 43,
+        "w": 2164,
+        "h": 804
     },
     {
         "id": "20a59349.5b554c",
@@ -2439,7 +2453,9 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859
+        "y": 859,
+        "w": 262,
+        "h": 132
     },
     {
         "id": "12a3e534213911db",
@@ -2456,7 +2472,9 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859
+        "y": 859,
+        "w": 432,
+        "h": 132
     },
     {
         "id": "99af8da767a0630e",
@@ -2482,7 +2500,9 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999
+        "y": 999,
+        "w": 1032,
+        "h": 132
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2511,7 +2531,9 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139
+        "y": 1139,
+        "w": 1432,
+        "h": 242
     },
     {
         "id": "1e1760200fc29774",
@@ -2535,7 +2557,9 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769
+        "y": 769,
+        "w": 882,
+        "h": 232
     },
     {
         "id": "562a3cb193226c87",
@@ -2552,7 +2576,9 @@
             "f2171731a54fc371"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "62fac95632266b01",
@@ -2574,9 +2600,7 @@
             "a3e0a5db4f30662d"
         ],
         "x": 1894,
-        "y": 339,
-        "w": 922,
-        "h": 132
+        "y": 339
     },
     {
         "id": "e2e299a6.d3c5c8",
@@ -2601,7 +2625,9 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339
+        "y": 339,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2640,7 +2666,9 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569
+        "y": 569,
+        "w": 1722,
+        "h": 252
     },
     {
         "id": "f6e30287.8d13d",
@@ -2678,7 +2706,9 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339
+        "y": 339,
+        "w": 1122,
+        "h": 232
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2725,7 +2755,9 @@
             "f16c8e907b36e129"
         ],
         "x": 94,
-        "y": 69
+        "y": 69,
+        "w": 2092,
+        "h": 262
     },
     {
         "id": "d929d138.3b512",
@@ -2808,7 +2840,9 @@
             "2ed8536c3c3c63ad"
         ],
         "x": 1514,
-        "y": 299
+        "y": 299,
+        "w": 1212,
+        "h": 782
     },
     {
         "id": "99671f60976b1d2a",
@@ -2834,7 +2868,9 @@
             "74dcac6d2f510c53"
         ],
         "x": 1514,
-        "y": 59
+        "y": 59,
+        "w": 992,
+        "h": 172
     },
     {
         "id": "95daead77be77494",
@@ -2880,7 +2916,9 @@
             "652eef7ff30e8029"
         ],
         "x": 384,
-        "y": 1129
+        "y": 1129,
+        "w": 532,
+        "h": 682
     },
     {
         "id": "87fca62744442ad4",
@@ -2916,7 +2954,9 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229
+        "y": 229,
+        "w": 702,
+        "h": 272
     },
     {
         "id": "a7f58aaec292b159",
@@ -2958,7 +2998,9 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509
+        "y": 509,
+        "w": 952,
+        "h": 272
     },
     {
         "id": "37b64a70f39dda06",
@@ -2998,7 +3040,9 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789
+        "y": 789,
+        "w": 812,
+        "h": 322
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -3024,7 +3068,9 @@
             "5bf2a7aa.f590f8"
         ],
         "x": 104,
-        "y": 59
+        "y": 59,
+        "w": 912,
+        "h": 162
     },
     {
         "id": "b079c206d161b62c",
@@ -4018,7 +4064,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -4038,7 +4086,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -4128,7 +4178,9 @@
             "3b031b8.c62abe4"
         ],
         "x": 54,
-        "y": 349
+        "y": 349,
+        "w": 1802,
+        "h": 780
     },
     {
         "id": "7aad629d.de652c",
@@ -4190,7 +4242,9 @@
             "93ed76d69e2674b6"
         ],
         "x": 54,
-        "y": 69
+        "y": 69,
+        "w": 2692,
+        "h": 282
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -4218,7 +4272,9 @@
             "4e19cfd4.3982f"
         ],
         "x": 1864,
-        "y": 359
+        "y": 359,
+        "w": 1062,
+        "h": 232
     },
     {
         "id": "6625e1db09743bc3",
@@ -4460,7 +4516,9 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69
+        "y": 69,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4481,7 +4539,9 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609
+        "y": 609,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "afcd8222.ca23b",
@@ -43685,10 +43745,10 @@
         "x": 1600,
         "y": 890,
         "wires": [
+            [],
             [
                 "d0d71887678a5547"
-            ],
-            []
+            ]
         ]
     },
     {
@@ -51125,9 +51185,10 @@
         "type": "link in",
         "z": "d08f14e12055286a",
         "g": "dad84feb.d4773",
-        "name": "Re Arranque Automático",
+        "name": "Re Arranque Automático main",
         "links": [
-            "ad87cee4.7dbb5"
+            "ad87cee4.7dbb5",
+            "f0a7aa49a0a74635"
         ],
         "x": 95,
         "y": 610,
@@ -51171,7 +51232,7 @@
         "g": "dad84feb.d4773",
         "name": "",
         "pauseType": "delay",
-        "timeout": "0.5",
+        "timeout": "10",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -51180,7 +51241,8 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 620,
+        "allowrate": false,
+        "x": 610,
         "y": 940,
         "wires": [
             [
@@ -56487,6 +56549,7 @@
         "name": "",
         "links": [
             "2da816b7.b2be9a",
+            "b7da3a44.60ff68",
             "cbbbcd1c.7180e"
         ],
         "x": 2685,
@@ -62468,10 +62531,10 @@
         "x": 1790,
         "y": 270,
         "wires": [
+            [],
             [
                 "5d4610f087064296"
-            ],
-            []
+            ]
         ]
     },
     {
@@ -64639,78 +64702,8 @@
         "y": 190,
         "wires": [
             [
-                "e6b8689589569367"
+                "c660d8ba.ec2e48"
             ]
-        ]
-    },
-    {
-        "id": "4f7a0a355a6d4671",
-        "type": "change",
-        "z": "c8b77ff3.ab501",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 190,
-        "wires": [
-            [
-                "0941bfa0e5e19a06"
-            ]
-        ]
-    },
-    {
-        "id": "e6b8689589569367",
-        "type": "change",
-        "z": "c8b77ff3.ab501",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active1",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1860,
-        "y": 190,
-        "wires": [
-            [
-                "216d993bc16931d2"
-            ]
-        ]
-    },
-    {
-        "id": "216d993bc16931d2",
-        "type": "function",
-        "z": "c8b77ff3.ab501",
-        "name": "Arranque/Parada",
-        "func": "var Active0     = flow.get(\"Active0\",'memoryOnly');\nvar Active1     = flow.get(\"Active1\",'memoryOnly');\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif(Arranque && Active0 == 0 && Active0 != Active1){\n    msg.payload =\"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\",true);\n}\n// Arranque fallido\nelse if(Arranque && Active0 == 0 && Active0 == Active1){\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2050,
-        "y": 190,
-        "wires": [
-            []
         ]
     },
     {
@@ -64782,37 +64775,10 @@
         "y": 190,
         "wires": [
             [
-                "4f7a0a355a6d4671"
+                "2264cd4e7e1c1e96"
             ],
             [
-                "73a46152.11ed6"
-            ]
-        ]
-    },
-    {
-        "id": "73a46152.11ed6",
-        "type": "change",
-        "z": "c8b77ff3.ab501",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Active0",
-                "pt": "flow",
-                "to": "#:(memoryOnly)::C2S.Drive_Status.Active",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1420,
-        "y": 230,
-        "wires": [
-            [
-                "db3132d3.18699"
+                "c166035b.91e08"
             ]
         ]
     },
@@ -64853,7 +64819,7 @@
         "y": 230,
         "wires": [
             [
-                "e6b8689589569367"
+                "c660d8ba.ec2e48"
             ]
         ]
     },
@@ -70436,8 +70402,8 @@
         "type": "switch",
         "z": "d08f14e12055286a",
         "g": "dad84feb.d4773",
-        "name": "Accel Done?",
-        "property": "#:(memoryOnly)::C2S.Drive_Status.Accel",
+        "name": "Active?",
+        "property": "#:(memoryOnly)::C2S.Drive_Status.Active",
         "propertyType": "global",
         "rules": [
             {
@@ -70454,7 +70420,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1350,
+        "x": 1340,
         "y": 900,
         "wires": [
             [
@@ -79253,6 +79219,76 @@
         "wires": [
             [
                 "4a152bf2.aedbf4"
+            ]
+        ]
+    },
+    {
+        "id": "c166035b.91e08",
+        "type": "function",
+        "z": "c8b77ff3.ab501",
+        "name": "set Active0",
+        "func": "msg.active0 = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1420,
+        "y": 230,
+        "wires": [
+            [
+                "db3132d3.18699"
+            ]
+        ]
+    },
+    {
+        "id": "c660d8ba.ec2e48",
+        "type": "function",
+        "z": "c8b77ff3.ab501",
+        "name": "set Active1",
+        "func": "msg.active1 = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1860,
+        "y": 190,
+        "wires": [
+            [
+                "20a94e1f3f6e8848"
+            ]
+        ]
+    },
+    {
+        "id": "20a94e1f3f6e8848",
+        "type": "function",
+        "z": "c8b77ff3.ab501",
+        "name": "Arranque/Parada",
+        "func": "var Active0     = msg.active0;\nvar Active1     = msg.active1;\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif(Arranque && Active0 == 0 && Active0 != Active1){\n    msg.payload =\"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\",true);\n}\n// Arranque fallido\nelse if(Arranque && Active0 == 0 && Active0 == Active1){\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 2040,
+        "y": 190,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2264cd4e7e1c1e96",
+        "type": "function",
+        "z": "c8b77ff3.ab501",
+        "name": "set Active0",
+        "func": "msg.active0 = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1420,
+        "y": 190,
+        "wires": [
+            [
+                "0941bfa0e5e19a06"
             ]
         ]
     }
