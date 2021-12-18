@@ -1471,7 +1471,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1491,7 +1493,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "10280aeffc57de7d",
@@ -4035,7 +4039,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -4055,7 +4061,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -7111,33 +7119,6 @@
         "height": 1
     },
     {
-        "id": "cdd878747ec5df24",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bbd73f04.32559",
-        "order": 2,
-        "width": "2",
-        "height": "2"
-    },
-    {
-        "id": "faa82c77ded05d23",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bbd73f04.32559",
-        "order": 5,
-        "width": "2",
-        "height": "2"
-    },
-    {
-        "id": "13225e190d61ae52",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "bbd73f04.32559",
-        "order": 1,
-        "width": "12",
-        "height": 1
-    },
-    {
         "id": "df82a9eeeb3d8a7c",
         "type": "ui_tab",
         "name": "Otras Funciones de Control",
@@ -7609,6 +7590,96 @@
         "disp": false,
         "width": "12",
         "collapse": false
+    },
+    {
+        "id": "4b5a8f5776f16ee5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 1,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b082e80c0aaf3d75",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "afb231f5394578a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "29969290edc60199",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "402eb612fd5d7ffc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fb4a425e0443e833",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "49b56a6d4f4a9a8f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "10a4b733bffe6fec",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "ee6055a6495f5b42",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4a6e96bfabd88c14",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "bbd73f04.32559",
+        "order": 14,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "e765ca36.69fb98",
@@ -41758,8 +41829,8 @@
         "g": "e29eaee41e038edd",
         "group": "bbd73f04.32559",
         "order": 3,
-        "width": "4",
-        "height": "2",
+        "width": 4,
+        "height": 2,
         "name": "Temp. CPU",
         "label": "Temp. CPU",
         "colorHi": "#e60000",
@@ -41799,9 +41870,9 @@
         "z": "4c43e2ae2d9aec48",
         "g": "e29eaee41e038edd",
         "group": "bbd73f04.32559",
-        "order": 4,
-        "width": "4",
-        "height": "2",
+        "order": 5,
+        "width": 4,
+        "height": 2,
         "name": "Freq. CPU",
         "label": "Freq. CPU",
         "colorHi": "#e60000",
@@ -42132,7 +42203,8 @@
             "6ce18e3ca0e6244c",
             "87546f4f362a24f5",
             "d685da5d5bb1ac2b",
-            "9533a235ad8c4ef2"
+            "9533a235ad8c4ef2",
+            "f963e8b3d0b4560f"
         ],
         "x": 335,
         "y": 310,
@@ -77990,7 +78062,7 @@
         "payload": "sudo systemctl restart kiosk",
         "payloadType": "str",
         "x": 530,
-        "y": 280,
+        "y": 510,
         "wires": [
             [
                 "71568f8f.c4daf"
@@ -78009,7 +78081,7 @@
         "oldrc": false,
         "name": "",
         "x": 680,
-        "y": 280,
+        "y": 510,
         "wires": [
             [],
             [],
@@ -79363,6 +79435,136 @@
             [
                 "65c50b2d766f8a54"
             ]
+        ]
+    },
+    {
+        "id": "f963e8b3d0b4560f",
+        "type": "link in",
+        "z": "4c43e2ae2d9aec48",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 455,
+        "y": 300,
+        "wires": [
+            [
+                "7f75bcb4b0ff115c"
+            ]
+        ]
+    },
+    {
+        "id": "7f75bcb4b0ff115c",
+        "type": "function",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Encendidos",
+        "func": "var count = (flow.get(\"counter[0]\")||0)+1;\nvar fecha = date();\nflow.set(\"counter\", [count, fecha]);\nmsg.payload = count + \" veces. Último encendido: \" + fecha;\nreturn msg;\n\nfunction date(){\n    // Date and Time Object\n    var DT = new Date();\n\n    // Date\n    var year = DT.getFullYear();\n    var month = DT.getMonth() + 1;\n    var day = DT.getDate();\n\n    // Time\n    var hours = DT.getHours();\n    var minutes = DT.getMinutes(); minutes = minutes <= 9 ? \"0\" + minutes : minutes;\n    var seconds = DT.getSeconds(); seconds = seconds <= 9 ? \"0\" + seconds : seconds;\n\n    \n    return (day + \"/\" + month + \"/\" + year + \" \" + hours + \":\" + minutes + \":\" + seconds);\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "37b4f5dcfa22eaed"
+            ]
+        ]
+    },
+    {
+        "id": "37b4f5dcfa22eaed",
+        "type": "ui_text",
+        "z": "4c43e2ae2d9aec48",
+        "group": "bbd73f04.32559",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Encendido de SWC-Pro",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 770,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "ac7e51dfce92fbf7",
+        "type": "ui_button",
+        "z": "4c43e2ae2d9aec48",
+        "name": "",
+        "group": "bbd73f04.32559",
+        "order": 13,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Limpiar conteo",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "gray",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 520,
+        "y": 350,
+        "wires": [
+            [
+                "08d4f1a2fd6ce9f2",
+                "4f9ea1fa4c582746"
+            ]
+        ]
+    },
+    {
+        "id": "08d4f1a2fd6ce9f2",
+        "type": "change",
+        "z": "4c43e2ae2d9aec48",
+        "name": "clean",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "----",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 350,
+        "wires": [
+            [
+                "37b4f5dcfa22eaed"
+            ]
+        ]
+    },
+    {
+        "id": "4f9ea1fa4c582746",
+        "type": "change",
+        "z": "4c43e2ae2d9aec48",
+        "name": "delete counter",
+        "rules": [
+            {
+                "t": "set",
+                "p": "counter",
+                "pt": "flow",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 390,
+        "wires": [
+            []
         ]
     }
 ]
