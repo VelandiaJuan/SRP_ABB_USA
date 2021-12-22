@@ -1455,9 +1455,7 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29,
-        "w": 942,
-        "h": 202
+        "y": 29
     },
     {
         "id": "57eba231.4d56dc",
@@ -1477,9 +1475,7 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243,
-        "w": 374,
-        "h": 304
+        "y": 243
     },
     {
         "id": "10280aeffc57de7d",
@@ -1507,7 +1503,9 @@
             "9faabcc1f09b24a8"
         ],
         "x": 1204,
-        "y": 49
+        "y": 49,
+        "w": 812,
+        "h": 262
     },
     {
         "id": "fbbdc4b7.95b5c8",
@@ -1582,7 +1580,9 @@
             "cee6c2c4f89ff3be"
         ],
         "x": 34,
-        "y": 389
+        "y": 389,
+        "w": 1242,
+        "h": 772
     },
     {
         "id": "0382d006bf3e8547",
@@ -1996,7 +1996,9 @@
             "e8e6627edafb7e4b"
         ],
         "x": 44,
-        "y": 499
+        "y": 499,
+        "w": 1092,
+        "h": 402
     },
     {
         "id": "7b407017129e2c3f",
@@ -2035,7 +2037,9 @@
             "ed742163861f3de5"
         ],
         "x": 34,
-        "y": 49
+        "y": 49,
+        "w": 1162,
+        "h": 332
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -2419,7 +2423,9 @@
             "df585b7236ec5055"
         ],
         "x": 44,
-        "y": 29
+        "y": 29,
+        "w": 1392,
+        "h": 462
     },
     {
         "id": "26716b1e0dd96786",
@@ -4015,9 +4021,7 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269,
-        "w": 322,
-        "h": 122
+        "y": 269
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -4037,9 +4041,7 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399,
-        "w": 322,
-        "h": 122
+        "y": 399
     },
     {
         "id": "dad84feb.d4773",
@@ -45302,11 +45304,12 @@
         "z": "18d8f6b717fbdf76",
         "g": "fbbdc4b7.95b5c8",
         "name": "E4",
-        "func": "var Motor_Speed = Math.abs(global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0);\nvar Reference1 = global.get(\"Control_functions.Staggered_start.Reference_1\")||0;\n\nif(Motor_Speed == Reference1){\n    msg.topic = \"Ref V1 Reached\";\n}\nelse{\n    msg.topic = \"Ref V1 Not reached yet\";\n}\nnode.status({fill:\"green\",shape:\"dot\",text:\"Reference : \"+Reference1+\", \"+\"Motor Speed : \"+ Motor_Speed});\nreturn msg;",
+        "func": "var Motor_Speed = Math.abs(global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0);\nMotor_Speed = parseFloat(Motor_Speed.toFixed(1));\nvar Reference1 = global.get(\"Control_functions.Staggered_start.Reference_1\")||0;\n\nif(Motor_Speed == Reference1){\n    msg.topic = \"Ref V1 Reached\";\n}\nelse{\n    msg.topic = \"Ref V1 Not reached yet\";\n}\nnode.status({fill:\"green\",shape:\"dot\",text:\"Reference : \"+Reference1+\", \"+\"Motor Speed : \"+ Motor_Speed});\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 350,
         "y": 790,
         "wires": [
@@ -45562,11 +45565,12 @@
         "z": "18d8f6b717fbdf76",
         "g": "fbbdc4b7.95b5c8",
         "name": "E8",
-        "func": "var Motor_Speed = Math.abs(global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0);\nvar Reference2  = global.get(\"Control_functions.Staggered_start.Reference_2\")||0;\n\nif(Motor_Speed == Reference2){\n    msg.topic = \"Ref V2 Reached\";\n}\nelse{\n    msg.topic = \"Ref V2 Not reached yet\"\n}\nnode.status({fill:\"green\",shape:\"dot\",text:\"Reference : \"+Reference2+\", \"+\"Motor Speed : \"+ Motor_Speed});\nreturn msg;",
+        "func": "var Motor_Speed = Math.abs(global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0);\nMotor_Speed = parseFloat(Motor_Speed.toFixed(1));\nvar Reference2  = global.get(\"Control_functions.Staggered_start.Reference_2\")||0;\n\nif(Motor_Speed == Reference2){\n    msg.topic = \"Ref V2 Reached\";\n}\nelse{\n    msg.topic = \"Ref V2 Not reached yet\"\n}\nnode.status({fill:\"green\",shape:\"dot\",text:\"Reference : \"+Reference2+\", \"+\"Motor Speed : \"+ Motor_Speed});\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 350,
         "y": 1000,
         "wires": [
@@ -46319,11 +46323,12 @@
         "z": "bef159b0eb2cf912",
         "g": "9bdf522.eba6db",
         "name": "VSD_Ref",
-        "func": "// Definitions\nvar PR = global.get(\"Control_functions.Prolonged_Reference\") || null;\nvar Mtr_Speed = global.get('C2S.Implicit.Output_Frequency', 'memoryOnly');\nvar commanded = global.get('C2S.Implicit.Commanded_SpdRef', 'memoryOnly');\nMtr_Speed = Math.abs(Mtr_Speed);\n\nif (PR.Hz == parseFloat(Mtr_Speed.toFixed(6))) {\n    msg.topic = \"Ref Reached\";\n    node.status({ fill: \"green\", shape: \"dot\", text: Mtr_Speed });\n}\nelse {\n    msg.topic = \"Ref Not Reached yet\";\n}\nif ((Mtr_Speed > 0.999999 * PR.Hz) && (commanded > 0.999999 *PR.Hz)) {\n    msg.topic = \"Ref Reached\";\n    node.status({ fill: \"green\", shape: \"dot\", text: Mtr_Speed });\n}\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Hz:\" + PR.Hz + \" MtrSpeed:\" + Mtr_Speed });\n\nreturn msg;\n",
+        "func": "// Definitions\nvar PR = global.get(\"Control_functions.Prolonged_Reference\") || null;\nvar Mtr_Speed = global.get('C2S.Implicit.Output_Frequency', 'memoryOnly');\nvar commanded = global.get('C2S.Implicit.Commanded_SpdRef', 'memoryOnly');\nMtr_Speed = Math.abs(Mtr_Speed);\ncommanded = Math.abs(commanded);\n\nif (PR.Hz == parseFloat(Mtr_Speed.toFixed(6))) {\n    msg.topic = \"Ref Reached\";\n    node.status({ fill: \"green\", shape: \"dot\", text: Mtr_Speed });\n}\nelse {\n    msg.topic = \"Ref Not Reached yet\";\n}\nif ((parseFloat(commanded.toFixed(3))) == PR.Hz) {\n    msg.topic = \"Ref Reached\";\n    node.status({ fill: \"green\", shape: \"dot\", text: Mtr_Speed });\n}\nnode.status({ fill: \"green\", shape: \"dot\", text: \"Hz:\" + PR.Hz + \" MtrSpeed:\" + Mtr_Speed });\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 420,
         "y": 760,
         "wires": [
