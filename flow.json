@@ -119,13 +119,6 @@
         "info": ""
     },
     {
-        "id": "8ba0552a.e27ca8",
-        "type": "tab",
-        "label": "Otro",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -643,7 +636,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -675,7 +670,9 @@
             "236c6c92.d31584"
         ],
         "x": 44,
-        "y": 189
+        "y": 189,
+        "w": 822,
+        "h": 282
     },
     {
         "id": "fcb3da61.429db8",
@@ -972,7 +969,9 @@
             "b5972fd3.3aeb7"
         ],
         "x": 214,
-        "y": 479
+        "y": 479,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "eed2da25.98fab8",
@@ -1012,7 +1011,9 @@
             "8c4c4846.6ea308"
         ],
         "x": 244,
-        "y": 689
+        "y": 689,
+        "w": 622,
+        "h": 242
     },
     {
         "id": "312f680c.5a3b4",
@@ -1221,7 +1222,9 @@
             "312d9def.84df32"
         ],
         "x": 164,
-        "y": 939
+        "y": 939,
+        "w": 702,
+        "h": 242
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1451,7 +1454,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1471,7 +1476,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "10280aeffc57de7d",
@@ -1732,7 +1739,9 @@
             "77dcd918.f8c298"
         ],
         "x": 104,
-        "y": 1189
+        "y": 1189,
+        "w": 762,
+        "h": 308
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2036,9 +2045,7 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33,
-        "w": 1004,
-        "h": 1804
+        "y": 33
     },
     {
         "id": "b3942c43115e460d",
@@ -2054,9 +2061,7 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1488,
-        "y": 33,
-        "w": 1264,
-        "h": 1074
+        "y": 33
     },
     {
         "id": "0474082dbe49e1c2",
@@ -2123,7 +2128,9 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43
+        "y": 43,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "08ae5a87c119f624",
@@ -2139,7 +2146,9 @@
             "d929d138.3b512"
         ],
         "x": 1108,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "482200446b2a6616",
@@ -2157,71 +2166,9 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859
-    },
-    {
-        "id": "23c99fd.b16886",
-        "type": "group",
-        "z": "8ba0552a.e27ca8",
-        "name": "Actualizar librería PowerFlex 755",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "4486e1dc.7b1c6",
-            "17475ea4.e2c431",
-            "699f8e75.52924",
-            "f375ab1b.6713c8",
-            "d057c895.aae998",
-            "daeaa5f3.b6c508",
-            "3b8a4863.32b688",
-            "c099a844.31d128"
-        ],
-        "x": 574,
-        "y": 21.5,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
-    },
-    {
-        "id": "262051d5.79c84e",
-        "type": "group",
-        "z": "8ba0552a.e27ca8",
-        "name": "Cambiar Splash",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "aa3c422d.31446",
-            "4a92f2f5.dac4fc",
-            "6b91a284.15037c",
-            "5e35a538.cad0cc"
-        ],
-        "x": 14,
-        "y": 251.5
-    },
-    {
-        "id": "8a437085.d2b8",
-        "type": "group",
-        "z": "8ba0552a.e27ca8",
-        "name": "Actualizar librería AFE",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "6f9f13ef.fb565c",
-            "73f3cb42.e412c4",
-            "b2068e1d.c9d9",
-            "bf48213c.3548c",
-            "129d922.5d7c86e",
-            "2cd9e470.7e562c",
-            "2dae23d1.de8fec",
-            "849c9546.4f8a58"
-        ],
-        "x": 14,
-        "y": 21.5,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+        "y": 859,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "d2832a63e02932f4",
@@ -2259,7 +2206,9 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999
+        "y": 999,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2281,7 +2230,9 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 33
+        "y": 33,
+        "w": 2164,
+        "h": 814
     },
     {
         "id": "20a59349.5b554c",
@@ -2419,7 +2370,9 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859
+        "y": 859,
+        "w": 262,
+        "h": 132
     },
     {
         "id": "12a3e534213911db",
@@ -2436,7 +2389,9 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859
+        "y": 859,
+        "w": 432,
+        "h": 132
     },
     {
         "id": "99af8da767a0630e",
@@ -2462,7 +2417,9 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999
+        "y": 999,
+        "w": 1032,
+        "h": 132
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2491,7 +2448,9 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139
+        "y": 1139,
+        "w": 1432,
+        "h": 242
     },
     {
         "id": "1e1760200fc29774",
@@ -2515,7 +2474,9 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769
+        "y": 769,
+        "w": 882,
+        "h": 232
     },
     {
         "id": "562a3cb193226c87",
@@ -2532,7 +2493,9 @@
             "f2171731a54fc371"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "62fac95632266b01",
@@ -2579,7 +2542,9 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339
+        "y": 339,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2618,7 +2583,9 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569
+        "y": 569,
+        "w": 1722,
+        "h": 252
     },
     {
         "id": "f6e30287.8d13d",
@@ -2656,7 +2623,9 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339
+        "y": 339,
+        "w": 1122,
+        "h": 232
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2706,7 +2675,9 @@
             "d2f91eb0e1d587bc"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 2092,
+        "h": 272
     },
     {
         "id": "d929d138.3b512",
@@ -2724,7 +2695,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1134,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -2745,7 +2718,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1134,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -2789,9 +2764,7 @@
             "2ed8536c3c3c63ad"
         ],
         "x": 1514,
-        "y": 299,
-        "w": 1212,
-        "h": 782
+        "y": 299
     },
     {
         "id": "99671f60976b1d2a",
@@ -2817,9 +2790,7 @@
             "74dcac6d2f510c53"
         ],
         "x": 1514,
-        "y": 59,
-        "w": 992,
-        "h": 172
+        "y": 59
     },
     {
         "id": "95daead77be77494",
@@ -2865,9 +2836,7 @@
             "652eef7ff30e8029"
         ],
         "x": 384,
-        "y": 1129,
-        "w": 532,
-        "h": 682
+        "y": 1129
     },
     {
         "id": "87fca62744442ad4",
@@ -2903,9 +2872,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229,
-        "w": 702,
-        "h": 272
+        "y": 229
     },
     {
         "id": "a7f58aaec292b159",
@@ -2947,9 +2914,7 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509,
-        "w": 952,
-        "h": 272
+        "y": 509
     },
     {
         "id": "37b64a70f39dda06",
@@ -2989,9 +2954,7 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789,
-        "w": 812,
-        "h": 322
+        "y": 789
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -3018,9 +2981,7 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59,
-        "w": 912,
-        "h": 162
+        "y": 59
     },
     {
         "id": "b079c206d161b62c",
@@ -3115,7 +3076,9 @@
             "54a6e602.e31808"
         ],
         "x": 134,
-        "y": 1309
+        "y": 1309,
+        "w": 622,
+        "h": 162
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -4008,7 +3971,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -4028,7 +3993,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -4458,7 +4425,9 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69
+        "y": 69,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4479,7 +4448,9 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609
+        "y": 609,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "afcd8222.ca23b",
@@ -5768,6 +5739,129 @@
         "y": 459
     },
     {
+        "id": "cdf073be70c458e3",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Actualizar librería PowerFlex 755 Black",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "36f95f70ccf63de1",
+            "20405d20297ca08d",
+            "3539776256db88ec",
+            "f35238f5504731e5",
+            "6c5df1518abcc7e9",
+            "bc05ec2a30e4c881",
+            "a0a010e125181197",
+            "30bd0cb80ad79de5",
+            "7d4643cba6304672"
+        ],
+        "x": 654,
+        "y": 751.5,
+        "w": 652,
+        "h": 307,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "78ef64315cd0ce13",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Reemplazar Images de Inicio del Dashboard ",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8954035d0a8f1631",
+            "e68013d871eac1ad",
+            "b9d51a758c063405",
+            "fb094e793357db7f",
+            "8939ae1589f73827",
+            "2a74d2652ba40313",
+            "eb54458a9f9594a8",
+            "7678f4acbd0db084",
+            "59eca6c2abde58bc",
+            "253e92bec7f97195",
+            "9ba6cd185a117255",
+            "cdfbf8cd5bdab07e",
+            "355c46fbbb336d6d",
+            "6b17f15625324adb",
+            "5a6a33ce45c42196",
+            "bd32ed88482e9c36"
+        ],
+        "x": 54,
+        "y": 1079,
+        "w": 538,
+        "h": 649.5
+    },
+    {
+        "id": "40d3cefab634ddad",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "AFE balck Edition",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "91e55e6983bf455a",
+            "5d824d49885ba783",
+            "fb9e86c361917fd8",
+            "b8d044e75c493a2b",
+            "1902da7dd948937b",
+            "0157dedcb48ab813",
+            "a579cd13d184ebae",
+            "af07bd6da4e63f8f",
+            "8ee841a674a90ec4"
+        ],
+        "x": 54,
+        "y": 751.5,
+        "w": 572,
+        "h": 287,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "605d50dc83a98078",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Cambiar Splash",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8ff160913729fcb1",
+            "510b47c4f9f0e95c",
+            "0855ddfdc4bcf012",
+            "54f95f30bf9a6bbe"
+        ],
+        "x": 654,
+        "y": 1091.5,
+        "w": 432,
+        "h": 157
+    },
+    {
+        "id": "8939ae1589f73827",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "Eliminar las Imagenes",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4f676190d3be32c2",
+            "6202f66fd42f47be",
+            "f8baf859808ea12a",
+            "d381293ba6d9615d"
+        ],
+        "x": 294,
+        "y": 1111.5,
+        "w": 272,
+        "h": 277
+    },
+    {
         "id": "d25d405a.19cff",
         "type": "ui_base",
         "theme": {
@@ -5880,8 +5974,9 @@
         "tab": "1ecc5089.33b77f",
         "order": 2,
         "disp": false,
-        "width": "12",
-        "collapse": false
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e5ec1549.1923c8",
@@ -7651,13 +7746,14 @@
         "group": "764d8ce4.3c81b4",
         "name": "menu home",
         "order": 1,
-        "width": 12,
+        "width": "16",
         "height": 1,
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
+        "className": "",
         "x": 140,
         "y": 280,
         "wires": [
@@ -63099,434 +63195,6 @@
         ]
     },
     {
-        "id": "6f9f13ef.fb565c",
-        "type": "inject",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 130,
-        "y": 70,
-        "wires": [
-            [
-                "73f3cb42.e412c4"
-            ]
-        ]
-    },
-    {
-        "id": "73f3cb42.e412c4",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Eliminar librería PCCC actual",
-        "x": 420,
-        "y": 70,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "b2068e1d.c9d9",
-        "type": "complete",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "name": "",
-        "scope": [
-            "73f3cb42.e412c4"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 110,
-        "wires": [
-            [
-                "bf48213c.3548c"
-            ]
-        ]
-    },
-    {
-        "id": "bf48213c.3548c",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "command": "sudo cp ~/Documents/PCCC/PowerFlex755AFE/nodePCCC.js ~/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reemplazar librería AFE",
-        "x": 430,
-        "y": 130,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "129d922.5d7c86e",
-        "type": "inject",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 130,
-        "y": 150,
-        "wires": [
-            [
-                "bf48213c.3548c"
-            ]
-        ]
-    },
-    {
-        "id": "2cd9e470.7e562c",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "command": "sudo reboot now",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 440,
-        "y": 190,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "2dae23d1.de8fec",
-        "type": "complete",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "name": "",
-        "scope": [
-            "bf48213c.3548c"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 190,
-        "wires": [
-            [
-                "849c9546.4f8a58"
-            ]
-        ]
-    },
-    {
-        "id": "849c9546.4f8a58",
-        "type": "delay",
-        "z": "8ba0552a.e27ca8",
-        "g": "8a437085.d2b8",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 260,
-        "y": 190,
-        "wires": [
-            [
-                "2cd9e470.7e562c"
-            ]
-        ]
-    },
-    {
-        "id": "aa3c422d.31446",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "262051d5.79c84e",
-        "command": "sudo rm /usr/share/plymouth/themes/pix/splash.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Remover Splash actual",
-        "x": 310,
-        "y": 300,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "4a92f2f5.dac4fc",
-        "type": "inject",
-        "z": "8ba0552a.e27ca8",
-        "g": "262051d5.79c84e",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 130,
-        "y": 300,
-        "wires": [
-            [
-                "aa3c422d.31446"
-            ]
-        ]
-    },
-    {
-        "id": "6b91a284.15037c",
-        "type": "complete",
-        "z": "8ba0552a.e27ca8",
-        "g": "262051d5.79c84e",
-        "name": "",
-        "scope": [
-            "aa3c422d.31446"
-        ],
-        "uncaught": false,
-        "x": 110,
-        "y": 360,
-        "wires": [
-            [
-                "5e35a538.cad0cc"
-            ]
-        ]
-    },
-    {
-        "id": "5e35a538.cad0cc",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "262051d5.79c84e",
-        "command": "sudo cp /home/pi/Documents/splash.png /usr/share/plymouth/themes/pix/splash.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Insertar Splash",
-        "x": 280,
-        "y": 360,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "4486e1dc.7b1c6",
-        "type": "inject",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 690,
-        "y": 70,
-        "wires": [
-            [
-                "17475ea4.e2c431"
-            ]
-        ]
-    },
-    {
-        "id": "17475ea4.e2c431",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Eliminar librería PCCC actual",
-        "x": 980,
-        "y": 70,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "699f8e75.52924",
-        "type": "complete",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "name": "",
-        "scope": [
-            "17475ea4.e2c431"
-        ],
-        "uncaught": false,
-        "x": 670,
-        "y": 110,
-        "wires": [
-            [
-                "f375ab1b.6713c8"
-            ]
-        ]
-    },
-    {
-        "id": "f375ab1b.6713c8",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "command": "sudo cp ~/Documents/PCCC/PowerFlex755/nodePCCC.js ~/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reemplazar librería PowerFlex755",
-        "x": 960,
-        "y": 130,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "d057c895.aae998",
-        "type": "inject",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 690,
-        "y": 150,
-        "wires": [
-            [
-                "f375ab1b.6713c8"
-            ]
-        ]
-    },
-    {
-        "id": "daeaa5f3.b6c508",
-        "type": "exec",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "command": "sudo reboot now",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 1000,
-        "y": 190,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "3b8a4863.32b688",
-        "type": "complete",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "name": "",
-        "scope": [
-            "f375ab1b.6713c8"
-        ],
-        "uncaught": false,
-        "x": 670,
-        "y": 190,
-        "wires": [
-            [
-                "c099a844.31d128"
-            ]
-        ]
-    },
-    {
-        "id": "c099a844.31d128",
-        "type": "delay",
-        "z": "8ba0552a.e27ca8",
-        "g": "23c99fd.b16886",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 820,
-        "y": 190,
-        "wires": [
-            [
-                "daeaa5f3.b6c508"
-            ]
-        ]
-    },
-    {
         "id": "9f18333324a3788b",
         "type": "link in",
         "z": "902fc438.e5d758",
@@ -80041,6 +79709,917 @@
             [
                 "cc3a2f05.7f208"
             ]
+        ]
+    },
+    {
+        "id": "36f95f70ccf63de1",
+        "type": "inject",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 770,
+        "y": 800,
+        "wires": [
+            [
+                "20405d20297ca08d"
+            ]
+        ]
+    },
+    {
+        "id": "20405d20297ca08d",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Eliminar librería PCCC actual",
+        "x": 1060,
+        "y": 800,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3539776256db88ec",
+        "type": "complete",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "name": "",
+        "scope": [
+            "20405d20297ca08d"
+        ],
+        "uncaught": false,
+        "x": 750,
+        "y": 840,
+        "wires": [
+            [
+                "f35238f5504731e5",
+                "7d4643cba6304672"
+            ]
+        ]
+    },
+    {
+        "id": "f35238f5504731e5",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/root/nodePCCC.js /root/.node-red/node_modules/nodepccc/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería PowerFlex755 ROOT",
+        "x": 1060,
+        "y": 860,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6c5df1518abcc7e9",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 1160,
+        "y": 1010,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bc05ec2a30e4c881",
+        "type": "complete",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "name": "",
+        "scope": [
+            "f35238f5504731e5"
+        ],
+        "uncaught": false,
+        "x": 750,
+        "y": 1010,
+        "wires": [
+            [
+                "a0a010e125181197"
+            ]
+        ]
+    },
+    {
+        "id": "a0a010e125181197",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 960,
+        "y": 1010,
+        "wires": [
+            [
+                "6c5df1518abcc7e9"
+            ]
+        ]
+    },
+    {
+        "id": "30bd0cb80ad79de5",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/static/nodePCCC.js /home/bcpgrp/node_modules/nodepccc/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería PowerFlex755 homeBCPGR",
+        "x": 1090,
+        "y": 930,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7d4643cba6304672",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "cdf073be70c458e3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 770,
+        "y": 890,
+        "wires": [
+            [
+                "30bd0cb80ad79de5"
+            ]
+        ]
+    },
+    {
+        "id": "8954035d0a8f1631",
+        "type": "inject",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1160,
+        "wires": [
+            [
+                "4f676190d3be32c2",
+                "e68013d871eac1ad"
+            ]
+        ]
+    },
+    {
+        "id": "e68013d871eac1ad",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1220,
+        "wires": [
+            [
+                "6202f66fd42f47be",
+                "b9d51a758c063405"
+            ]
+        ]
+    },
+    {
+        "id": "b9d51a758c063405",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1280,
+        "wires": [
+            [
+                "f8baf859808ea12a",
+                "fb094e793357db7f"
+            ]
+        ]
+    },
+    {
+        "id": "fb094e793357db7f",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1340,
+        "wires": [
+            [
+                "d381293ba6d9615d",
+                "9ba6cd185a117255"
+            ]
+        ]
+    },
+    {
+        "id": "4f676190d3be32c2",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "8939ae1589f73827",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 120 dashboard",
+        "x": 430,
+        "y": 1160,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6202f66fd42f47be",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "8939ae1589f73827",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 192 dashboard",
+        "x": 430,
+        "y": 1220,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f8baf859808ea12a",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "8939ae1589f73827",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 64 dashboard",
+        "x": 420,
+        "y": 1280,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d381293ba6d9615d",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "8939ae1589f73827",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar Index dashboard",
+        "x": 430,
+        "y": 1340,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2a74d2652ba40313",
+        "type": "comment",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "Importante",
+        "info": "Tener Actualizado el folder de configuración.\ny en la ruta /home/bcpgrp/Documents",
+        "x": 160,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "eb54458a9f9594a8",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 120 dashboard",
+        "x": 430,
+        "y": 1440,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7678f4acbd0db084",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 192 dashboard",
+        "x": 430,
+        "y": 1500,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "59eca6c2abde58bc",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 64 dashboard",
+        "x": 430,
+        "y": 1560,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "253e92bec7f97195",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar index dashboard",
+        "x": 440,
+        "y": 1620,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9ba6cd185a117255",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1440,
+        "wires": [
+            [
+                "eb54458a9f9594a8",
+                "cdfbf8cd5bdab07e"
+            ]
+        ]
+    },
+    {
+        "id": "cdfbf8cd5bdab07e",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1500,
+        "wires": [
+            [
+                "7678f4acbd0db084",
+                "355c46fbbb336d6d"
+            ]
+        ]
+    },
+    {
+        "id": "355c46fbbb336d6d",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1560,
+        "wires": [
+            [
+                "59eca6c2abde58bc",
+                "6b17f15625324adb"
+            ]
+        ]
+    },
+    {
+        "id": "6b17f15625324adb",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 170,
+        "y": 1620,
+        "wires": [
+            [
+                "253e92bec7f97195",
+                "5a6a33ce45c42196"
+            ]
+        ]
+    },
+    {
+        "id": "5a6a33ce45c42196",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 160,
+        "y": 1680,
+        "wires": [
+            [
+                "bd32ed88482e9c36"
+            ]
+        ]
+    },
+    {
+        "id": "bd32ed88482e9c36",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 420,
+        "y": 1680,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "91e55e6983bf455a",
+        "type": "inject",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 190,
+        "y": 800,
+        "wires": [
+            [
+                "5d824d49885ba783"
+            ]
+        ]
+    },
+    {
+        "id": "5d824d49885ba783",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "command": "sudo rm /root/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Eliminar librería PCCC actual",
+        "x": 480,
+        "y": 800,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "fb9e86c361917fd8",
+        "type": "complete",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "name": "",
+        "scope": [
+            "5d824d49885ba783"
+        ],
+        "uncaught": false,
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "b8d044e75c493a2b",
+                "8ee841a674a90ec4"
+            ]
+        ]
+    },
+    {
+        "id": "b8d044e75c493a2b",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Modules/nodePCCC.js /home/bcpgrp/node_modules/nodepccc",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería AFE",
+        "x": 430,
+        "y": 860,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1902da7dd948937b",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 480,
+        "y": 990,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0157dedcb48ab813",
+        "type": "complete",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "name": "",
+        "scope": [
+            "b8d044e75c493a2b"
+        ],
+        "uncaught": false,
+        "x": 150,
+        "y": 990,
+        "wires": [
+            [
+                "a579cd13d184ebae"
+            ]
+        ]
+    },
+    {
+        "id": "a579cd13d184ebae",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 300,
+        "y": 990,
+        "wires": [
+            [
+                "1902da7dd948937b"
+            ]
+        ]
+    },
+    {
+        "id": "af07bd6da4e63f8f",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Red/nodePCCC.js /root/.node-red/node_modules/nodepccc",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "reemplazarRoot",
+        "x": 400,
+        "y": 910,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8ee841a674a90ec4",
+        "type": "delay",
+        "z": "4c43e2ae2d9aec48",
+        "g": "40d3cefab634ddad",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 230,
+        "y": 910,
+        "wires": [
+            [
+                "af07bd6da4e63f8f"
+            ]
+        ]
+    },
+    {
+        "id": "8ff160913729fcb1",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "605d50dc83a98078",
+        "command": "sudo rm /usr/share/plymouth/themes/pix/splash.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Remover Splash actual",
+        "x": 950,
+        "y": 1140,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "510b47c4f9f0e95c",
+        "type": "inject",
+        "z": "4c43e2ae2d9aec48",
+        "d": true,
+        "g": "605d50dc83a98078",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 770,
+        "y": 1140,
+        "wires": [
+            [
+                "8ff160913729fcb1"
+            ]
+        ]
+    },
+    {
+        "id": "0855ddfdc4bcf012",
+        "type": "complete",
+        "z": "4c43e2ae2d9aec48",
+        "g": "605d50dc83a98078",
+        "name": "",
+        "scope": [
+            "8ff160913729fcb1"
+        ],
+        "uncaught": false,
+        "x": 750,
+        "y": 1200,
+        "wires": [
+            [
+                "54f95f30bf9a6bbe"
+            ]
+        ]
+    },
+    {
+        "id": "54f95f30bf9a6bbe",
+        "type": "exec",
+        "z": "4c43e2ae2d9aec48",
+        "g": "605d50dc83a98078",
+        "command": "sudo cp /home/pi/Documents/splash.png /usr/share/plymouth/themes/pix/splash.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Insertar Splash",
+        "x": 920,
+        "y": 1200,
+        "wires": [
+            [],
+            [],
+            []
         ]
     }
 ]
