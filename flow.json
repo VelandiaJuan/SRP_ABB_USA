@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "2026898575f7aa56",
+        "type": "tab",
+        "label": "Tendencias",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "18d8f6b717fbdf76",
         "type": "tab",
         "label": "Arranque escalonado",
@@ -636,9 +643,7 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5,
-        "w": 552,
-        "h": 97
+        "y": 11.5
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -670,9 +675,7 @@
             "236c6c92.d31584"
         ],
         "x": 44,
-        "y": 189,
-        "w": 822,
-        "h": 282
+        "y": 189
     },
     {
         "id": "fcb3da61.429db8",
@@ -762,7 +765,9 @@
             "67dc130a552ed9f0"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 472
     },
     {
         "id": "3cb51855.a66038",
@@ -777,8 +782,10 @@
             "492ac1d1.0e276",
             "ecf98f3f.4a704"
         ],
-        "x": 744,
-        "y": 1209
+        "x": 154,
+        "y": 1379,
+        "w": 232,
+        "h": 82
     },
     {
         "id": "27a0641a.d154dc",
@@ -969,9 +976,7 @@
             "b5972fd3.3aeb7"
         ],
         "x": 214,
-        "y": 479,
-        "w": 652,
-        "h": 202
+        "y": 479
     },
     {
         "id": "eed2da25.98fab8",
@@ -1011,9 +1016,7 @@
             "8c4c4846.6ea308"
         ],
         "x": 244,
-        "y": 689,
-        "w": 622,
-        "h": 242
+        "y": 689
     },
     {
         "id": "312f680c.5a3b4",
@@ -1222,9 +1225,7 @@
             "312d9def.84df32"
         ],
         "x": 164,
-        "y": 939,
-        "w": 702,
-        "h": 242
+        "y": 939
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1454,9 +1455,7 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29,
-        "w": 942,
-        "h": 202
+        "y": 29
     },
     {
         "id": "57eba231.4d56dc",
@@ -1476,9 +1475,7 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243,
-        "w": 374,
-        "h": 304
+        "y": 243
     },
     {
         "id": "10280aeffc57de7d",
@@ -1680,7 +1677,9 @@
             "8f8a192b.bb2ef8"
         ],
         "x": 28,
-        "y": 43
+        "y": 43,
+        "w": 2924,
+        "h": 1112
     },
     {
         "id": "83483662ea05d247",
@@ -1739,9 +1738,7 @@
             "77dcd918.f8c298"
         ],
         "x": 104,
-        "y": 1189,
-        "w": 762,
-        "h": 308
+        "y": 1189
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -1756,8 +1753,10 @@
             "56e67824752411be",
             "84eb16f681c366e0"
         ],
-        "x": 384,
-        "y": 1209
+        "x": 34,
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1835,7 +1834,9 @@
             "f465608052b953d3"
         ],
         "x": 4,
-        "y": 9
+        "y": 9,
+        "w": 1782,
+        "h": 472
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1852,7 +1853,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 512,
-        "y": 1363
+        "y": 1363,
+        "w": 1766,
+        "h": 1090
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1867,8 +1870,10 @@
             "52501268e456d659",
             "9f18333324a3788b"
         ],
-        "x": 34,
-        "y": 1209
+        "x": 44,
+        "y": 1479,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1889,7 +1894,9 @@
             "a0eaac952dc20a15"
         ],
         "x": 1504,
-        "y": 1169
+        "y": 1169,
+        "w": 782,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -1903,9 +1910,6 @@
         "nodes": [
             "daa89a01.910de8",
             "9523c57c.c9b468",
-            "4c8f5a04.095bc4",
-            "abd0a82a.ab2348",
-            "933f301f.fcef1",
             "24868425.cac96c",
             "9b0b3358.5ac42",
             "6c6bc8b9.ccf248",
@@ -1918,7 +1922,9 @@
             "0de54509db195c49"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 712,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1943,7 +1949,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959
+        "y": 959,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9bdf522.eba6db",
@@ -2128,9 +2136,7 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43,
-        "w": 1684,
-        "h": 714
+        "y": 43
     },
     {
         "id": "08ae5a87c119f624",
@@ -2146,9 +2152,7 @@
             "d929d138.3b512"
         ],
         "x": 1108,
-        "y": 73,
-        "w": 324,
-        "h": 324
+        "y": 73
     },
     {
         "id": "482200446b2a6616",
@@ -2166,9 +2170,7 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859,
-        "w": 332,
-        "h": 122
+        "y": 859
     },
     {
         "id": "d2832a63e02932f4",
@@ -2206,9 +2208,7 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999,
-        "w": 832,
-        "h": 82
+        "y": 999
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2230,9 +2230,7 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 33,
-        "w": 2164,
-        "h": 814
+        "y": 33
     },
     {
         "id": "20a59349.5b554c",
@@ -2291,7 +2289,9 @@
             "fd43d65633c388cf"
         ],
         "x": 514,
-        "y": 2479
+        "y": 2479,
+        "w": 762,
+        "h": 182
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -2370,9 +2370,7 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859,
-        "w": 262,
-        "h": 132
+        "y": 859
     },
     {
         "id": "12a3e534213911db",
@@ -2389,9 +2387,7 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859,
-        "w": 432,
-        "h": 132
+        "y": 859
     },
     {
         "id": "99af8da767a0630e",
@@ -2417,9 +2413,7 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999,
-        "w": 1032,
-        "h": 132
+        "y": 999
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2448,9 +2442,7 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139,
-        "w": 1432,
-        "h": 242
+        "y": 1139
     },
     {
         "id": "1e1760200fc29774",
@@ -2474,9 +2466,7 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769,
-        "w": 882,
-        "h": 232
+        "y": 769
     },
     {
         "id": "562a3cb193226c87",
@@ -2493,9 +2483,7 @@
             "f2171731a54fc371"
         ],
         "x": 64,
-        "y": 1399,
-        "w": 412,
-        "h": 82
+        "y": 1399
     },
     {
         "id": "62fac95632266b01",
@@ -2520,6 +2508,126 @@
         "y": 339
     },
     {
+        "id": "cdf073be70c458e3",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Actualizar librería PowerFlex 755 Black",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "36f95f70ccf63de1",
+            "20405d20297ca08d",
+            "3539776256db88ec",
+            "f35238f5504731e5",
+            "6c5df1518abcc7e9",
+            "bc05ec2a30e4c881",
+            "a0a010e125181197",
+            "30bd0cb80ad79de5",
+            "7d4643cba6304672"
+        ],
+        "x": 654,
+        "y": 751.5,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "78ef64315cd0ce13",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Reemplazar Images de Inicio del Dashboard ",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8954035d0a8f1631",
+            "e68013d871eac1ad",
+            "b9d51a758c063405",
+            "fb094e793357db7f",
+            "8939ae1589f73827",
+            "2a74d2652ba40313",
+            "eb54458a9f9594a8",
+            "7678f4acbd0db084",
+            "59eca6c2abde58bc",
+            "253e92bec7f97195",
+            "9ba6cd185a117255",
+            "cdfbf8cd5bdab07e",
+            "355c46fbbb336d6d",
+            "6b17f15625324adb",
+            "5a6a33ce45c42196",
+            "bd32ed88482e9c36"
+        ],
+        "x": 54,
+        "y": 1079
+    },
+    {
+        "id": "40d3cefab634ddad",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "AFE balck Edition",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "91e55e6983bf455a",
+            "5d824d49885ba783",
+            "fb9e86c361917fd8",
+            "b8d044e75c493a2b",
+            "1902da7dd948937b",
+            "0157dedcb48ab813",
+            "a579cd13d184ebae",
+            "af07bd6da4e63f8f",
+            "8ee841a674a90ec4"
+        ],
+        "x": 54,
+        "y": 751.5,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "605d50dc83a98078",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "name": "Cambiar Splash",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8ff160913729fcb1",
+            "510b47c4f9f0e95c",
+            "0855ddfdc4bcf012",
+            "54f95f30bf9a6bbe"
+        ],
+        "x": 654,
+        "y": 1091.5
+    },
+    {
+        "id": "5c9801fdee1b9e98",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "name": "Header All Screens ",
+        "style": {
+            "stroke": "#d1d1d1",
+            "label": true,
+            "fill": "#7f8faf",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "ce96fe756e53c0a0",
+            "3fb8bbbc0defe6a6",
+            "f57c6beca1b20786",
+            "e4251ebaa452dc47",
+            "186ee7f203734f85",
+            "7c6ff4da66ac0cc1",
+            "dad6e54bbf3f8ac8",
+            "88dee94e10e8741d",
+            "2302ffda8592e4b4"
+        ],
+        "x": 1104,
+        "y": 419
+    },
+    {
         "id": "e2e299a6.d3c5c8",
         "type": "group",
         "z": "e483884bee93bec2",
@@ -2542,9 +2650,7 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339,
-        "w": 952,
-        "h": 132
+        "y": 339
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2583,9 +2689,7 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569,
-        "w": 1722,
-        "h": 252
+        "y": 569
     },
     {
         "id": "f6e30287.8d13d",
@@ -2623,9 +2727,7 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339,
-        "w": 1122,
-        "h": 232
+        "y": 339
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2675,9 +2777,7 @@
             "d2f91eb0e1d587bc"
         ],
         "x": 94,
-        "y": 59,
-        "w": 2092,
-        "h": 272
+        "y": 59
     },
     {
         "id": "d929d138.3b512",
@@ -2695,9 +2795,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 1134,
-        "y": 99,
-        "w": 272,
-        "h": 82
+        "y": 99
     },
     {
         "id": "931b0370.afc1b",
@@ -2718,9 +2816,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1134,
-        "y": 189,
-        "w": 272,
-        "h": 182
+        "y": 189
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -3011,7 +3107,9 @@
             "6763527e7b721dc6"
         ],
         "x": 544,
-        "y": 1389
+        "y": 1389,
+        "w": 662,
+        "h": 522
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -3028,7 +3126,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 538,
-        "y": 2013
+        "y": 2013,
+        "w": 1714,
+        "h": 414
     },
     {
         "id": "c483d44b5f6def10",
@@ -3056,7 +3156,9 @@
             "0a0df9d8a978db38"
         ],
         "x": 1214,
-        "y": 1389
+        "y": 1389,
+        "w": 642,
+        "h": 442
     },
     {
         "id": "77dcd918.f8c298",
@@ -3076,9 +3178,7 @@
             "54a6e602.e31808"
         ],
         "x": 134,
-        "y": 1309,
-        "w": 622,
-        "h": 162
+        "y": 1309
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -3971,9 +4071,7 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269,
-        "w": 322,
-        "h": 122
+        "y": 269
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -3993,9 +4091,7 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399,
-        "w": 322,
-        "h": 122
+        "y": 399
     },
     {
         "id": "dad84feb.d4773",
@@ -4093,7 +4189,9 @@
             "736d904a50210d65"
         ],
         "x": 54,
-        "y": 349
+        "y": 349,
+        "w": 1802,
+        "h": 780
     },
     {
         "id": "7aad629d.de652c",
@@ -4155,7 +4253,9 @@
             "93ed76d69e2674b6"
         ],
         "x": 54,
-        "y": 69
+        "y": 69,
+        "w": 2692,
+        "h": 282
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -4183,7 +4283,9 @@
             "4e19cfd4.3982f"
         ],
         "x": 1864,
-        "y": 359
+        "y": 359,
+        "w": 1062,
+        "h": 232
     },
     {
         "id": "6625e1db09743bc3",
@@ -4425,9 +4527,7 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69,
-        "w": 1632,
-        "h": 532
+        "y": 69
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4448,9 +4548,7 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609,
-        "w": 732,
-        "h": 122
+        "y": 609
     },
     {
         "id": "afcd8222.ca23b",
@@ -4593,6 +4691,24 @@
         "y": 39
     },
     {
+        "id": "8939ae1589f73827",
+        "type": "group",
+        "z": "4c43e2ae2d9aec48",
+        "g": "78ef64315cd0ce13",
+        "name": "Eliminar las Imagenes",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4f676190d3be32c2",
+            "6202f66fd42f47be",
+            "f8baf859808ea12a",
+            "d381293ba6d9615d"
+        ],
+        "x": 294,
+        "y": 1111.5
+    },
+    {
         "id": "aafad2ba.dcc8b",
         "type": "group",
         "z": "902fc438.e5d758",
@@ -4619,7 +4735,9 @@
             "79fcf2343e22827c"
         ],
         "x": 1224,
-        "y": 2039
+        "y": 2039,
+        "w": 1002,
+        "h": 232
     },
     {
         "id": "36fa9c99094e8f47",
@@ -4645,7 +4763,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 564,
-        "y": 2039
+        "y": 2039,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -5668,7 +5788,8 @@
             "8effe1fe.bacd6",
             "98a9b5d4.5e5608",
             "d1a73825.d89578",
-            "41b82348a8ab40a8"
+            "41b82348a8ab40a8",
+            "8f8a6a475ac5ee0b"
         ],
         "x": 614,
         "y": 689
@@ -5737,129 +5858,6 @@
         ],
         "x": 1394,
         "y": 459
-    },
-    {
-        "id": "cdf073be70c458e3",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Actualizar librería PowerFlex 755 Black",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "36f95f70ccf63de1",
-            "20405d20297ca08d",
-            "3539776256db88ec",
-            "f35238f5504731e5",
-            "6c5df1518abcc7e9",
-            "bc05ec2a30e4c881",
-            "a0a010e125181197",
-            "30bd0cb80ad79de5",
-            "7d4643cba6304672"
-        ],
-        "x": 654,
-        "y": 751.5,
-        "w": 652,
-        "h": 307,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
-    },
-    {
-        "id": "78ef64315cd0ce13",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Reemplazar Images de Inicio del Dashboard ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8954035d0a8f1631",
-            "e68013d871eac1ad",
-            "b9d51a758c063405",
-            "fb094e793357db7f",
-            "8939ae1589f73827",
-            "2a74d2652ba40313",
-            "eb54458a9f9594a8",
-            "7678f4acbd0db084",
-            "59eca6c2abde58bc",
-            "253e92bec7f97195",
-            "9ba6cd185a117255",
-            "cdfbf8cd5bdab07e",
-            "355c46fbbb336d6d",
-            "6b17f15625324adb",
-            "5a6a33ce45c42196",
-            "bd32ed88482e9c36"
-        ],
-        "x": 54,
-        "y": 1079,
-        "w": 538,
-        "h": 649.5
-    },
-    {
-        "id": "40d3cefab634ddad",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "AFE balck Edition",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "91e55e6983bf455a",
-            "5d824d49885ba783",
-            "fb9e86c361917fd8",
-            "b8d044e75c493a2b",
-            "1902da7dd948937b",
-            "0157dedcb48ab813",
-            "a579cd13d184ebae",
-            "af07bd6da4e63f8f",
-            "8ee841a674a90ec4"
-        ],
-        "x": 54,
-        "y": 751.5,
-        "w": 572,
-        "h": 287,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
-    },
-    {
-        "id": "605d50dc83a98078",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Cambiar Splash",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "8ff160913729fcb1",
-            "510b47c4f9f0e95c",
-            "0855ddfdc4bcf012",
-            "54f95f30bf9a6bbe"
-        ],
-        "x": 654,
-        "y": 1091.5,
-        "w": 432,
-        "h": 157
-    },
-    {
-        "id": "8939ae1589f73827",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "Eliminar las Imagenes",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "4f676190d3be32c2",
-            "6202f66fd42f47be",
-            "f8baf859808ea12a",
-            "d381293ba6d9615d"
-        ],
-        "x": 294,
-        "y": 1111.5,
-        "w": 272,
-        "h": 277
     },
     {
         "id": "d25d405a.19cff",
@@ -5959,20 +5957,11 @@
         }
     },
     {
-        "id": "1ecc5089.33b77f",
-        "type": "ui_tab",
-        "name": "Principal",
-        "icon": "fa-home",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "764d8ce4.3c81b4",
         "type": "ui_group",
         "name": "Menu_Bar",
         "tab": "1ecc5089.33b77f",
-        "order": 2,
+        "order": 1,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -5983,7 +5972,7 @@
         "type": "ui_group",
         "name": "Commando_Arranque_Normal",
         "tab": "1ecc5089.33b77f",
-        "order": 3,
+        "order": 2,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -5993,7 +5982,7 @@
         "type": "ui_group",
         "name": "C2S_Data",
         "tab": "1ecc5089.33b77f",
-        "order": 7,
+        "order": 6,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6003,7 +5992,7 @@
         "type": "ui_group",
         "name": "Electric_Data",
         "tab": "1ecc5089.33b77f",
-        "order": 8,
+        "order": 7,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6013,17 +6002,7 @@
         "type": "ui_group",
         "name": "Downhole_Data",
         "tab": "1ecc5089.33b77f",
-        "order": 9,
-        "disp": false,
-        "width": "12",
-        "collapse": false
-    },
-    {
-        "id": "4f5b8416.cada1c",
-        "type": "ui_group",
-        "name": "Status_Bar",
-        "tab": "1ecc5089.33b77f",
-        "order": 10,
+        "order": 8,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6033,7 +6012,7 @@
         "type": "ui_group",
         "name": "comandos_Marcha",
         "tab": "1ecc5089.33b77f",
-        "order": 6,
+        "order": 5,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6043,7 +6022,7 @@
         "type": "ui_group",
         "name": "Commando_Arranque_Escalonado",
         "tab": "1ecc5089.33b77f",
-        "order": 4,
+        "order": 3,
         "disp": false,
         "width": "12",
         "collapse": false
@@ -6053,19 +6032,10 @@
         "type": "ui_group",
         "name": "Commando_Referencia_Prolongada",
         "tab": "1ecc5089.33b77f",
-        "order": 5,
+        "order": 4,
         "disp": false,
         "width": "12",
         "collapse": false
-    },
-    {
-        "id": "fe41bc20.3ab56",
-        "type": "ui_tab",
-        "name": "Protecciones",
-        "icon": "fa-shield",
-        "order": 4,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "4b33f8ea.b34188",
@@ -6248,15 +6218,6 @@
         "collapse": false
     },
     {
-        "id": "9d512981.aa8278",
-        "type": "ui_tab",
-        "name": "Configuración VSD",
-        "icon": "fa-cogs",
-        "order": 6,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "332af29a.076dee",
         "type": "ui_group",
         "name": "Relación de Transformación",
@@ -6305,15 +6266,6 @@
         "disp": false,
         "width": "8",
         "collapse": false
-    },
-    {
-        "id": "73af030.b87b7fc",
-        "type": "ui_tab",
-        "name": "Entradas y Salidas",
-        "icon": "fa-microchip",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "42b2cabf.0c7ea4",
@@ -6384,15 +6336,6 @@
         "disp": false,
         "width": "12",
         "collapse": false
-    },
-    {
-        "id": "fdffe6bc.86dd78",
-        "type": "ui_tab",
-        "name": "Eventos y Alarmas",
-        "icon": "fa-calendar",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "96dbaa88.715ef8",
@@ -6660,15 +6603,6 @@
         "disp": true,
         "width": "9",
         "collapse": false
-    },
-    {
-        "id": "2dbf183f.1f2ed8",
-        "type": "ui_tab",
-        "name": "Sensor de Fondo",
-        "icon": "fa-thermometer-three-quarters",
-        "order": 7,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "bbd73f04.32559",
@@ -7174,15 +7108,6 @@
         "order": 9,
         "width": 4,
         "height": 1
-    },
-    {
-        "id": "df82a9eeeb3d8a7c",
-        "type": "ui_tab",
-        "name": "Otras Funciones de Control",
-        "icon": "fa-play",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
     },
     {
         "id": "78b8f22f.a47d4c",
@@ -7737,6 +7662,158 @@
         "order": 14,
         "width": 1,
         "height": 1
+    },
+    {
+        "id": "4f5b8416.cada1c",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "1ecc5089.33b77f",
+        "order": 10,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ecc5089.33b77f",
+        "type": "ui_tab",
+        "name": "Principal",
+        "icon": "fa-home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fe41bc20.3ab56",
+        "type": "ui_tab",
+        "name": "Protecciones",
+        "icon": "fa-shield",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "9d512981.aa8278",
+        "type": "ui_tab",
+        "name": "Configuración VSD",
+        "icon": "fa-cogs",
+        "order": 7,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "73af030.b87b7fc",
+        "type": "ui_tab",
+        "name": "Entradas y Salidas",
+        "icon": "fa-microchip",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2dbf183f.1f2ed8",
+        "type": "ui_tab",
+        "name": "Sensor de Fondo",
+        "icon": "fa-thermometer-three-quarters",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "df82a9eeeb3d8a7c",
+        "type": "ui_tab",
+        "name": "Otras Funciones de Control",
+        "icon": "fa-play",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "fdffe6bc.86dd78",
+        "type": "ui_tab",
+        "name": "Eventos y Alarmas",
+        "icon": "fa-calendar",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "4194befa15c3251e",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "fe41bc20.3ab56",
+        "order": 3,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "73d37e5b1f2a302a",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "9d512981.aa8278",
+        "order": 19,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "4190699f61725da4",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "73af030.b87b7fc",
+        "order": 15,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ab77be5a0af25d0a",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "2dbf183f.1f2ed8",
+        "order": 4,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "ac27a3905053ab85",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 16,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "004d1834de0cfaf4",
+        "type": "ui_group",
+        "name": "Status_Bar",
+        "tab": "fdffe6bc.86dd78",
+        "order": 9,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "fb98fdb9.b193a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 12
+    },
+    {
+        "id": "13df98319c7579a6",
+        "type": "ui_group",
+        "name": "tendencia",
+        "tab": "1ecc5089.33b77f",
+        "order": 9,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e765ca36.69fb98",
@@ -8361,67 +8438,6 @@
         "wires": []
     },
     {
-        "id": "4c8f5a04.095bc4",
-        "type": "function",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "name": "DateTime",
-        "func": "// Date and Time Object\nvar DT      = new Date();\n\n// Date\nvar year    = DT.getFullYear();\nvar month   = DT.getMonth()+1;\nvar day     = DT.getDate();\n\n// Time\nvar hours   = DT.getHours();\nvar minutes = DT.getMinutes();  minutes = minutes <= 9 ? \"0\"+minutes : minutes;\nvar seconds = DT.getSeconds();  seconds = seconds <= 9 ? \"0\"+seconds : seconds;\n\n// Payload\nmsg.payload = day+\"/\"+month+\"/\"+year+\" \"+hours+\":\"+minutes+\":\"+seconds;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 480,
-        "y": 1120,
-        "wires": [
-            [
-                "933f301f.fcef1"
-            ]
-        ]
-    },
-    {
-        "id": "abd0a82a.ab2348",
-        "type": "inject",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 330,
-        "y": 1120,
-        "wires": [
-            [
-                "4c8f5a04.095bc4"
-            ]
-        ]
-    },
-    {
-        "id": "933f301f.fcef1",
-        "type": "ui_text",
-        "z": "902fc438.e5d758",
-        "g": "086b9d08c3b68939",
-        "group": "4f5b8416.cada1c",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "name": "clock",
-        "label": "",
-        "format": "  {{msg.payload}}",
-        "layout": "row-right",
-        "x": 610,
-        "y": 1120,
-        "wires": []
-    },
-    {
         "id": "da849ce7.0ef51",
         "type": "function",
         "z": "902fc438.e5d758",
@@ -8719,8 +8735,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 840,
-        "y": 1250,
+        "x": 250,
+        "y": 1420,
         "wires": [
             [
                 "ecf98f3f.4a704"
@@ -8752,8 +8768,8 @@
             "ad037575e738b405",
             "365d1eacfdb44888"
         ],
-        "x": 935,
-        "y": 1250,
+        "x": 345,
+        "y": 1420,
         "wires": []
     },
     {
@@ -9201,11 +9217,12 @@
         "order": 4,
         "width": 3,
         "height": "3",
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/slacol.jpg\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Versión: VRC 2.0.0</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/Slacol_bcpgrp.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Versión: VRC 2.0.0</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
+        "className": "",
         "x": 750,
         "y": 800,
         "wires": [
@@ -36977,7 +36994,8 @@
         "y": 730,
         "wires": [
             [
-                "d1a73825.d89578"
+                "d1a73825.d89578",
+                "9913875f5cc5f0f2"
             ]
         ]
     },
@@ -37005,7 +37023,8 @@
         "y": 770,
         "wires": [
             [
-                "d1a73825.d89578"
+                "d1a73825.d89578",
+                "9913875f5cc5f0f2"
             ]
         ]
     },
@@ -37033,7 +37052,8 @@
         "y": 810,
         "wires": [
             [
-                "d1a73825.d89578"
+                "d1a73825.d89578",
+                "9913875f5cc5f0f2"
             ]
         ]
     },
@@ -44243,7 +44263,8 @@
         "y": 850,
         "wires": [
             [
-                "d1a73825.d89578"
+                "d1a73825.d89578",
+                "9913875f5cc5f0f2"
             ]
         ]
     },
@@ -56968,8 +56989,8 @@
         "endpoint": "e9d237aaf9318e74",
         "variable": "CommandWord",
         "name": "",
-        "x": 630,
-        "y": 1250,
+        "x": 280,
+        "y": 1620,
         "wires": []
     },
     {
@@ -56990,8 +57011,8 @@
         "topic": "",
         "payload": "0",
         "payloadType": "num",
-        "x": 480,
-        "y": 1250,
+        "x": 130,
+        "y": 1620,
         "wires": [
             [
                 "56e67824752411be"
@@ -59856,8 +59877,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 240,
-        "y": 1250,
+        "x": 250,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -63203,8 +63224,8 @@
         "links": [
             "05d014b89dc3d90f"
         ],
-        "x": 75,
-        "y": 1250,
+        "x": 85,
+        "y": 1520,
         "wires": [
             [
                 "52501268e456d659"
@@ -80619,6 +80640,411 @@
         "wires": [
             [],
             [],
+            []
+        ]
+    },
+    {
+        "id": "ce96fe756e53c0a0",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "764d8ce4.3c81b4",
+        "name": "Logo / Clock",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://localhost:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        p.text(new Date().toLocaleString());\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 100);\n    });\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 1270,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fb8bbbc0defe6a6",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "4f5b8416.cada1c",
+        "name": "Principal",
+        "order": 2,
+        "width": 1,
+        "height": 1,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1260,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f57c6beca1b20786",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "name": "",
+        "links": [
+            "8f8a6a475ac5ee0b"
+        ],
+        "x": 1145,
+        "y": 500,
+        "wires": [
+            [
+                "3fb8bbbc0defe6a6",
+                "88dee94e10e8741d",
+                "2302ffda8592e4b4",
+                "e4251ebaa452dc47",
+                "186ee7f203734f85",
+                "7c6ff4da66ac0cc1",
+                "dad6e54bbf3f8ac8"
+            ]
+        ]
+    },
+    {
+        "id": "e4251ebaa452dc47",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "4194befa15c3251e",
+        "name": "Protecciones",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1270,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "186ee7f203734f85",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "73d37e5b1f2a302a",
+        "name": "Configuracion vsd",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1290,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c6ff4da66ac0cc1",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "4190699f61725da4",
+        "name": "IO",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1250,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dad6e54bbf3f8ac8",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "ab77be5a0af25d0a",
+        "name": "DHS",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1250,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88dee94e10e8741d",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "ac27a3905053ab85",
+        "name": "Otr. Control",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1270,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2302ffda8592e4b4",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "5c9801fdee1b9e98",
+        "group": "004d1834de0cfaf4",
+        "name": "Eventos y alarmas",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 1290,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9913875f5cc5f0f2",
+        "type": "function",
+        "z": "3af652c9.6f9bee",
+        "name": "",
+        "func": "var user=msg.payload;\nvar name_pozo = global.get(\"Input.Pozo\")||\"NaN\";\n\nmsg.payload = name_pozo + \"/ /\" +user;\nnode.status({fill:\"red\",shape:\"ring\",text:msg.payload});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 860,
+        "wires": [
+            [
+                "8f8a6a475ac5ee0b"
+            ]
+        ]
+    },
+    {
+        "id": "8f8a6a475ac5ee0b",
+        "type": "link out",
+        "z": "3af652c9.6f9bee",
+        "g": "be55ea76.ed4478",
+        "name": "Usuario actual",
+        "links": [
+            "31c11db01979b2fc",
+            "f57c6beca1b20786"
+        ],
+        "x": 995,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "825a31a31582b84f",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "Trends",
+        "func": "var requestTrend = flow.get(\"trends\",\"memoryOnly\")||{};\nvar SRP = global.get(\"SRP\", \"memoryOnly\") || {};\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\",\"memoryOnly\")||null;\n\nif (datos==null){\n    datos = {   //Datos de suministro de agua\n                'srpposicion': [{ \"x\": time, \"y\": SRP.SRPPosition||0 }],\n                'motorcorriente': [{ \"x\": time, \"y\": SRP.MotorCurrent||0 }],\n                'cargabarra': [{ \"x\": time, \"y\": SRP.PolishRodLoad||0 }],\n                'bombadesplazam': [{ \"x\": time, \"y\": SRP.PumpDesplacement||0 }],\n                'bombacarga': [{ \"x\": time, \"y\": SRP.PumpLoad||0 }],\n                'pip': [{ \"x\": time, \"y\": SRP.PIP||0 }],\n                'porcentajellenado': [{ \"x\": time, \"y\": SRP.PumpFillPercent||0 }],\n                'submergencia': [{ \"x\": time, \"y\": SRP.Submergence||0 }],\n                'nivelfluidodinamico': [{ \"x\": time, \"y\": SRP.DynamicFluidLevel||0 }],\n            };\n}\nelse{\n    if (datos.srpposicion.length > 59) {\n        datos.srpposicion.shift();\n        datos.motorcorriente.shift();\n        datos.cargabarra.shift();\n        datos.bombadesplazam.shift();\n        datos.bombacarga.shift();\n        datos.pip.shift();\n        datos.porcentajellenado.shift();\n        datos.submergencia.shift();\n        datos.nivelfluidodinamico.shift();\n    }\n        \n\n    datos.srpposicion.push({ \"x\": time, \"y\": SRP.SRPPosition || 0 });\n    datos.motorcorriente.push({ \"x\": time, \"y\": SRP.MotorCurrent || 0 });\n    datos.cargabarra.push({ \"x\": time, \"y\": SRP.PolishRodLoad || 0 });\n    datos.bombadesplazam.push({ \"x\": time, \"y\": SRP.PumpDesplacement || 0 });\n    datos.bombacarga.push({ \"x\": time, \"y\": SRP.PumpLoad || 0 });\n    datos.pip.push({ \"x\": time, \"y\": SRP.PIP || 0 });\n    datos.porcentajellenado.push({ \"x\": time, \"y\": SRP.PumpFillPercent || 0 });\n    datos.submergencia.push({ \"x\": time, \"y\": SRP.Submergence || 0 });\n    datos.nivelfluidodinamico.push({ \"x\": time, \"y\": SRP.DynamicFluidLevel || 0 });\n}\n\ncontext.set(\"trend\",datos,\"memoryOnly\");\n\nvar series = [];\n\nif (requestTrend.SRPPosition == true) series.push(\"SRP Position (in)\");\nif (requestTrend.MotorCurrent == true) series.push(\"Motor Current (A)\");\nif (requestTrend.PolishRodLoad == true) series.push(\"Rod Load (K.lb)\");\nif (requestTrend.PumpDesplacement == true) series.push(\"Pump Desplacement (in)\");\nif (requestTrend.PumpLoad == true) series.push(\"Pump Load (K.lb)\");\nif (requestTrend.PIP == true) series.push(\"PIP (psi)\");\nif (requestTrend.PumpFillPercent == true) series.push(\"Pump Fill Percent (%)\");\nif (requestTrend.Submergence == true) series.push(\"Submergence (ft)\");\nif (requestTrend.DynamicFluidLevel == true) series.push(\"Dynamic Fluid Level (ft)\");\n\n\n\nvar data = [];\n\nif (requestTrend.SRPPosition == true) data.push(datos.srpposicion);\nif (requestTrend.MotorCurrent == true) data.push(datos.motorcorriente);\nif (requestTrend.PolishRodLoad == true) data.push(datos.cargabarra);\nif (requestTrend.PumpDesplacement == true) data.push(datos.bombadesplazam);\nif (requestTrend.PumpLoad == true) data.push(datos.bombacarga);\nif (requestTrend.PIP == true) data.push(datos.pip);\nif (requestTrend.PumpFillPercent == true) data.push(datos.porcentajellenado);\nif (requestTrend.Submergence == true) data.push(datos.submergencia);\nif (requestTrend.DynamicFluidLevel == true) data.push(datos.nivelfluidodinamico);\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "360dcafc238d706c",
+        "type": "inject",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 300,
+        "wires": [
+            [
+                "825a31a31582b84f"
+            ]
+        ]
+    },
+    {
+        "id": "1c4e319074fb108b",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "request",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] ==\"SRPPosition\") request.SRPPosition=true;\n    if (msg.payload[i] == \"MotorCurrent\") request.MotorCurrent=true;\n    if (msg.payload[i] == \"PolishRodLoad\") request.PolishRodLoad = true;\n    if (msg.payload[i] == \"PumpDesplacement\") request.PumpDesplacement = true;\n    if (msg.payload[i] == \"PumpLoad\") request.PumpLoad = true;\n    if (msg.payload[i] == \"PumpLoad\") request.PumpLoad = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PumpFillPercent\") request.PumpFillPercent = true;\n    if (msg.payload[i] == \"Submergence\") request.Submergence = true;\n    if (msg.payload[i] == \"DynamicFluidLevel\") request.DynamicFluidLevel = true;\n}\nmsg.payload = request;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "f55bcf1b9afa8eaa"
+            ]
+        ]
+    },
+    {
+        "id": "f55bcf1b9afa8eaa",
+        "type": "change",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::trends",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c94ceb6cbbb8cd1",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1720,
+        "wires": [
+            [
+                "83023dd30811818a"
+            ]
+        ]
+    },
+    {
+        "id": "83023dd30811818a",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "name": "Trends",
+        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.Output_Frequency\", \"memoryOnly\"))).toFixed(3));\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\",\"memoryOnly\")||null;\n\nif (datos==null){\n    datos = {   //Datos de suministro de agua\n                'ref': [{ \"x\": time, \"y\": REF }],\n                'speed': [{ \"x\": time, \"y\": SPEED }]\n            };\n}\nelse{\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n        \n\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\",datos,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + REF + \" Hz\");\nseries.push(\"Frecuencia de salida \" + SPEED + \" Hz\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 1720,
+        "wires": [
+            [
+                "7841d296e32be02e"
+            ]
+        ]
+    },
+    {
+        "id": "7841d296e32be02e",
+        "type": "ui_chart",
+        "z": "902fc438.e5d758",
+        "name": "",
+        "group": "13df98319c7579a6",
+        "order": 0,
+        "width": "16",
+        "height": "5",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#420d5e",
+            "#16700f",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 390,
+        "y": 1720,
+        "wires": [
             []
         ]
     }
