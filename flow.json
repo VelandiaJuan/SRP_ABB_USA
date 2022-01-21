@@ -6274,8 +6274,9 @@
         "tab": "1ecc5089.33b77f",
         "order": 5,
         "disp": false,
-        "width": "12",
-        "collapse": false
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "d4113fd9.a0bfc",
@@ -9006,6 +9007,17 @@
         "className": ""
     },
     {
+        "id": "aa291819959667d9",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 4,
+        "width": "3",
+        "height": "2",
+        "className": ""
+    },
+    {
         "id": "e765ca36.69fb98",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
@@ -10363,9 +10375,9 @@
         "g": "fcb3da61.429db8",
         "group": "f7aa27b.6c2ded8",
         "name": "LOGO",
-        "order": 4,
-        "width": 3,
-        "height": "2",
+        "order": 5,
+        "width": "4",
+        "height": "3",
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/Slacol_bcpgrp.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Versión: VRC 2.0.0</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -63868,7 +63880,7 @@
         "z": "902fc438.e5d758",
         "g": "fcb3da61.429db8",
         "group": "f7aa27b.6c2ded8",
-        "order": 9,
+        "order": 10,
         "width": "8",
         "height": "1",
         "name": "Estado funciones de control",
@@ -84224,7 +84236,7 @@
         "z": "902fc438.e5d758",
         "g": "fcb3da61.429db8",
         "group": "f7aa27b.6c2ded8",
-        "order": 9,
+        "order": 11,
         "width": "4",
         "height": "1",
         "name": "Estado funciones de control",
