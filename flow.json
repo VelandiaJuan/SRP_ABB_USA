@@ -72,7 +72,7 @@
     {
         "id": "e7088c4e.cc6b4",
         "type": "tab",
-        "label": "Eventos y Alarmas",
+        "label": "Eventos y Datalog",
         "disabled": false,
         "info": ""
     },
@@ -122,6 +122,13 @@
         "id": "e483884bee93bec2",
         "type": "tab",
         "label": "Modbus",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ccc87b2ae62e974a",
+        "type": "tab",
+        "label": "Eventos PQA",
         "disabled": false,
         "info": ""
     },
@@ -698,7 +705,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -738,7 +747,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -829,7 +840,9 @@
             "7328b1fd6e58fbd8"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 472
     },
     {
         "id": "3cb51855.a66038",
@@ -845,7 +858,9 @@
             "ecf98f3f.4a704"
         ],
         "x": 154,
-        "y": 1379
+        "y": 1379,
+        "w": 232,
+        "h": 82
     },
     {
         "id": "27a0641a.d154dc",
@@ -1038,7 +1053,9 @@
             "e0ebe56beee379ef"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1085,7 +1102,9 @@
             "cae90cc36eb53039"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1147,7 +1166,9 @@
             "917c8ac6.aa72e8"
         ],
         "x": 84,
-        "y": 239
+        "y": 239,
+        "w": 2802,
+        "h": 232
     },
     {
         "id": "deaa6892.b3d988",
@@ -1163,7 +1184,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1249,7 +1272,9 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1267,7 +1292,9 @@
             "eb91dac5.690838"
         ],
         "x": 88,
-        "y": 53
+        "y": 53,
+        "w": 1764,
+        "h": 1100
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1294,10 +1321,15 @@
             "f0d5aa40cd56628f",
             "ec06c2c2ff2f48b5",
             "f57c522aea6111e7",
-            "a7b76a6f68de8ef5"
+            "a7b76a6f68de8ef5",
+            "529deff5ef6dbaa8",
+            "80d606957859a016",
+            "cd2627ac2843f441"
         ],
         "x": 14,
-        "y": 1159
+        "y": 1079,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1366,9 +1398,7 @@
             "48e8b39099139f6e"
         ],
         "x": 1884,
-        "y": 249,
-        "w": 342,
-        "h": 82
+        "y": 249
     },
     {
         "id": "9437db38.d604e",
@@ -1398,9 +1428,7 @@
             "1fb58a8a.67c8f5"
         ],
         "x": 1884,
-        "y": 19,
-        "w": 1382,
-        "h": 212
+        "y": 19
     },
     {
         "id": "af8e6105.775618",
@@ -1428,9 +1456,7 @@
             "2069ef42c04cbfaf"
         ],
         "x": 134,
-        "y": 69,
-        "w": 722,
-        "h": 242
+        "y": 69
     },
     {
         "id": "d84d4fbe.ee6ce",
@@ -1450,9 +1476,7 @@
             "ba68c6c472e8f1c8"
         ],
         "x": 924,
-        "y": 469,
-        "w": 602,
-        "h": 122
+        "y": 469
     },
     {
         "id": "ef81d12e3dd41149",
@@ -1487,9 +1511,7 @@
             "2aad8b543010b8e8"
         ],
         "x": 924,
-        "y": 19,
-        "w": 952,
-        "h": 442
+        "y": 19
     },
     {
         "id": "e29eaee41e038edd",
@@ -1805,7 +1827,9 @@
             "bf383a9670894a6e"
         ],
         "x": 14,
-        "y": 1399
+        "y": 1399,
+        "w": 1568,
+        "h": 428
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -1821,7 +1845,9 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1899,7 +1925,9 @@
             "f465608052b953d3"
         ],
         "x": 4,
-        "y": 9
+        "y": 9,
+        "w": 1782,
+        "h": 472
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1916,7 +1944,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373
+        "y": 1373,
+        "w": 1950,
+        "h": 1090
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1932,7 +1962,9 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479
+        "y": 1479,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1954,7 +1986,9 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169
+        "y": 1169,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -1980,7 +2014,9 @@
             "0de54509db195c49"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 712,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -2005,7 +2041,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959
+        "y": 959,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9bdf522.eba6db",
@@ -2187,9 +2225,7 @@
             "f52d84f3.4970f8"
         ],
         "x": 2458,
-        "y": 43,
-        "w": 1684,
-        "h": 714
+        "y": 43
     },
     {
         "id": "08ae5a87c119f624",
@@ -2205,7 +2241,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "482200446b2a6616",
@@ -2223,9 +2261,7 @@
             "76db56cf8aa9c664"
         ],
         "x": 84,
-        "y": 859,
-        "w": 332,
-        "h": 122
+        "y": 859
     },
     {
         "id": "b45a4400.43489",
@@ -2247,9 +2283,7 @@
             "adb11e12e96f0a22"
         ],
         "x": 1114,
-        "y": 999,
-        "w": 832,
-        "h": 82
+        "y": 999
     },
     {
         "id": "9a19e63e2b7f231e",
@@ -2271,9 +2305,7 @@
             "f6e30287.8d13d"
         ],
         "x": 68,
-        "y": 33,
-        "w": 2164,
-        "h": 814
+        "y": 33
     },
     {
         "id": "20a59349.5b554c",
@@ -2294,7 +2326,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "c2c81bf2.d0a218",
@@ -2332,7 +2366,9 @@
             "fd43d65633c388cf"
         ],
         "x": 514,
-        "y": 2479
+        "y": 2479,
+        "w": 762,
+        "h": 182
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -2411,9 +2447,7 @@
             "575cba8bd41cb933"
         ],
         "x": 1274,
-        "y": 859,
-        "w": 262,
-        "h": 132
+        "y": 859
     },
     {
         "id": "12a3e534213911db",
@@ -2430,9 +2464,7 @@
             "3154c6b4c8cc66ad"
         ],
         "x": 634,
-        "y": 859,
-        "w": 432,
-        "h": 132
+        "y": 859
     },
     {
         "id": "99af8da767a0630e",
@@ -2458,9 +2490,7 @@
             "e636353ca8ba18cc"
         ],
         "x": 64,
-        "y": 999,
-        "w": 1032,
-        "h": 132
+        "y": 999
     },
     {
         "id": "2875fa33518b9c8b",
@@ -2489,9 +2519,7 @@
             "3e9fe9ba4feeebbd"
         ],
         "x": 64,
-        "y": 1139,
-        "w": 1432,
-        "h": 242
+        "y": 1139
     },
     {
         "id": "1e1760200fc29774",
@@ -2515,9 +2543,7 @@
             "8962f3815cdf9c6b"
         ],
         "x": 2464,
-        "y": 769,
-        "w": 882,
-        "h": 232
+        "y": 769
     },
     {
         "id": "562a3cb193226c87",
@@ -2534,9 +2560,7 @@
             "f2171731a54fc371"
         ],
         "x": 64,
-        "y": 1399,
-        "w": 412,
-        "h": 82
+        "y": 1399
     },
     {
         "id": "62fac95632266b01",
@@ -2558,9 +2582,7 @@
             "a3e0a5db4f30662d"
         ],
         "x": 1894,
-        "y": 339,
-        "w": 922,
-        "h": 132
+        "y": 339
     },
     {
         "id": "cdf073be70c458e3",
@@ -2680,7 +2702,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2700,7 +2724,9 @@
             "1e4c38d8f7ca3147"
         ],
         "x": 14,
-        "y": 1679
+        "y": 1679,
+        "w": 532,
+        "h": 142
     },
     {
         "id": "38940f8.c9c27f",
@@ -2718,9 +2744,73 @@
             "ead83bdf05616014"
         ],
         "x": 18,
-        "y": 23,
-        "w": 1464,
-        "h": 1114
+        "y": 23
+    },
+    {
+        "id": "6ce8e77fdd3e0883",
+        "type": "group",
+        "z": "38e901f121b52acb",
+        "name": "Reconectar sensor de fondo",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "23f92de5ec381106",
+            "5a5c7bbde1986cca"
+        ],
+        "x": 2234,
+        "y": 239
+    },
+    {
+        "id": "14f2aa5a616905b0",
+        "type": "group",
+        "z": "2858ae04397c7488",
+        "name": "Reconexión PQA",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "d6617fe34e1242e1",
+            "98c32ee0a85b9ad7"
+        ],
+        "x": 474,
+        "y": 1039
+    },
+    {
+        "id": "a73c3da33ecbc290",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "Adquisición de eventos SAG y SWELL de PQA",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b12eba6fd0e17d1b",
+            "1643986494e61d09",
+            "1c0275c34f3f9e2d",
+            "be1dcb53f06bb73c",
+            "5d0d0564b7be518e",
+            "1d092dec161ff8be",
+            "fa5e45a53a5caf5e",
+            "bab297d8e38d1fcc",
+            "490a325563bb2b0f",
+            "8cdf9e74dbd5c0c5",
+            "e48317a5283cbf0a",
+            "d30eebef31591926",
+            "00d05a309c7c6ed1",
+            "09f6acfa5e5cc6f3",
+            "a26de32e2dcd2d22",
+            "8cf1c791b0b47299",
+            "dbce895a0f6ce0d4",
+            "7d85f80cc3c27c5f"
+        ],
+        "x": 84,
+        "y": 999,
+        "w": 1272,
+        "h": 322
     },
     {
         "id": "e2e299a6.d3c5c8",
@@ -2745,9 +2835,7 @@
             "97dbb46e.15a998"
         ],
         "x": 94,
-        "y": 339,
-        "w": 952,
-        "h": 132
+        "y": 339
     },
     {
         "id": "e52ecc43.c86a5",
@@ -2786,9 +2874,7 @@
             "2dd8e878a937af2c"
         ],
         "x": 94,
-        "y": 569,
-        "w": 1722,
-        "h": 252
+        "y": 569
     },
     {
         "id": "f6e30287.8d13d",
@@ -2826,9 +2912,7 @@
             "2cbf4228734cf0ab"
         ],
         "x": 1084,
-        "y": 339,
-        "w": 1122,
-        "h": 232
+        "y": 339
     },
     {
         "id": "c117cee0146ec7e5",
@@ -2878,9 +2962,7 @@
             "d2f91eb0e1d587bc"
         ],
         "x": 94,
-        "y": 59,
-        "w": 2092,
-        "h": 272
+        "y": 59
     },
     {
         "id": "d929d138.3b512",
@@ -2898,7 +2980,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -2919,7 +3003,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -3213,7 +3299,9 @@
             "c4507372adf32737"
         ],
         "x": 594,
-        "y": 1399
+        "y": 1399,
+        "w": 672,
+        "h": 522
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -3230,7 +3318,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 598,
-        "y": 2013
+        "y": 2013,
+        "w": 1894,
+        "h": 424
     },
     {
         "id": "c483d44b5f6def10",
@@ -3259,7 +3349,9 @@
             "8f8ff381bd9d2c1f"
         ],
         "x": 1274,
-        "y": 1399
+        "y": 1399,
+        "w": 752,
+        "h": 442
     },
     {
         "id": "77dcd918.f8c298",
@@ -3286,7 +3378,9 @@
             "16bbbec3a6d114f6"
         ],
         "x": 534,
-        "y": 1599
+        "y": 1599,
+        "w": 1022,
+        "h": 202
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -3981,7 +4075,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -4006,7 +4102,9 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -4031,7 +4129,9 @@
             "f8489c5a6d52f42a"
         ],
         "x": 114,
-        "y": 453
+        "y": 453,
+        "w": 1178,
+        "h": 674
     },
     {
         "id": "eb91dac5.690838",
@@ -4081,7 +4181,9 @@
             "e067a1921f82df48"
         ],
         "x": 114,
-        "y": 79
+        "y": 79,
+        "w": 1712,
+        "h": 362
     },
     {
         "id": "8ed62712.fe2018",
@@ -4612,9 +4714,7 @@
             "46aa199a15d83484"
         ],
         "x": 2484,
-        "y": 69,
-        "w": 1632,
-        "h": 532
+        "y": 69
     },
     {
         "id": "f52d84f3.4970f8",
@@ -4635,9 +4735,7 @@
             "596ac22c.7d379c"
         ],
         "x": 2484,
-        "y": 609,
-        "w": 732,
-        "h": 122
+        "y": 609
     },
     {
         "id": "afcd8222.ca23b",
@@ -4815,9 +4913,7 @@
             "d22f737e1faaee45"
         ],
         "x": 44,
-        "y": 949,
-        "w": 412,
-        "h": 162
+        "y": 949
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -4878,9 +4974,7 @@
             "20a33011be6557f7"
         ],
         "x": 44,
-        "y": 49,
-        "w": 1412,
-        "h": 882
+        "y": 49
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -4911,7 +5005,9 @@
             "c8a0d32e8d573a65"
         ],
         "x": 1214,
-        "y": 2039
+        "y": 2039,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "36fa9c99094e8f47",
@@ -4937,7 +5033,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 624,
-        "y": 2049
+        "y": 2049,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -5922,7 +6020,9 @@
             "cb232372.b3dee"
         ],
         "x": 614,
-        "y": 899
+        "y": 899,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -5942,7 +6042,9 @@
             "c1672804cba19e98"
         ],
         "x": 614,
-        "y": 479
+        "y": 479,
+        "w": 172,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -5965,7 +6067,9 @@
             "a1956d7f8e9c73a6"
         ],
         "x": 614,
-        "y": 689
+        "y": 689,
+        "w": 422,
+        "h": 212
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -6032,42 +6136,6 @@
         ],
         "x": 1394,
         "y": 459
-    },
-    {
-        "id": "6ce8e77fdd3e0883",
-        "type": "group",
-        "z": "38e901f121b52acb",
-        "name": "Reconectar sensor de fondo",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "23f92de5ec381106",
-            "5a5c7bbde1986cca"
-        ],
-        "x": 2234,
-        "y": 239,
-        "w": 412,
-        "h": 82
-    },
-    {
-        "id": "14f2aa5a616905b0",
-        "type": "group",
-        "z": "2858ae04397c7488",
-        "name": "Reconexión PQA",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "d6617fe34e1242e1",
-            "98c32ee0a85b9ad7"
-        ],
-        "x": 474,
-        "y": 1039,
-        "w": 412,
-        "h": 82
     },
     {
         "id": "d25d405a.19cff",
@@ -6562,7 +6630,7 @@
         "type": "ui_group",
         "name": "Memorias USB",
         "tab": "fdffe6bc.86dd78",
-        "order": 5,
+        "order": 7,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -6573,7 +6641,7 @@
         "type": "ui_group",
         "name": "Eventos",
         "tab": "fdffe6bc.86dd78",
-        "order": 3,
+        "order": 2,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -6584,7 +6652,7 @@
         "type": "ui_group",
         "name": "Alarmas",
         "tab": "fdffe6bc.86dd78",
-        "order": 4,
+        "order": 3,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -6595,7 +6663,7 @@
         "type": "ui_group",
         "name": "Buttons",
         "tab": "fdffe6bc.86dd78",
-        "order": 7,
+        "order": 5,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -6606,7 +6674,7 @@
         "type": "ui_group",
         "name": "Settings",
         "tab": "fdffe6bc.86dd78",
-        "order": 6,
+        "order": 4,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -6907,33 +6975,14 @@
         "height": 1
     },
     {
-        "id": "58acc246fa5492e9",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "a41af5be.52be18",
-        "order": 5,
-        "width": "2",
-        "height": 1,
-        "className": ""
-    },
-    {
-        "id": "103a1a7a19916034",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "b006ff9.8805c",
-        "order": 1,
-        "width": "4",
-        "height": 1,
-        "className": ""
-    },
-    {
         "id": "65db6bee60684518",
         "type": "ui_spacer",
         "name": "spacer",
         "group": "b006ff9.8805c",
         "order": 4,
-        "width": 2,
-        "height": 1
+        "width": "4",
+        "height": 1,
+        "className": ""
     },
     {
         "id": "2a3f8c77015e1a1e",
@@ -7933,7 +7982,7 @@
     {
         "id": "fdffe6bc.86dd78",
         "type": "ui_tab",
-        "name": "Eventos y Alarmas",
+        "name": "Eventos y Datalog",
         "icon": "fa-calendar",
         "order": 3,
         "disabled": false,
@@ -8264,7 +8313,7 @@
         "name": "spacer",
         "group": "a41af5be.52be18",
         "order": 1,
-        "width": "2",
+        "width": "16",
         "height": 1,
         "className": ""
     },
@@ -8274,8 +8323,8 @@
         "z": "2e27dea6.c4c362",
         "name": "spacer",
         "group": "a41af5be.52be18",
-        "order": 4,
-        "width": "2",
+        "order": 6,
+        "width": "1",
         "height": 1,
         "className": ""
     },
@@ -9008,6 +9057,92 @@
         "disp": false,
         "width": "16",
         "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7fa35bf98b5f5da3",
+        "type": "ui_spacer",
+        "z": "ccc87b2ae62e974a",
+        "name": "spacer",
+        "group": "91f407cc.9e95a8",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7f5e432fab5591a1",
+        "type": "ui_spacer",
+        "z": "ccc87b2ae62e974a",
+        "name": "spacer",
+        "group": "91f407cc.9e95a8",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "16075f62385b0cbe",
+        "type": "ui_spacer",
+        "z": "ccc87b2ae62e974a",
+        "name": "spacer",
+        "group": "a41af5be.52be18",
+        "order": 2,
+        "width": "1",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "c43fc71ac6ab6ee1",
+        "type": "ui_spacer",
+        "z": "ccc87b2ae62e974a",
+        "name": "spacer",
+        "group": "b006ff9.8805c",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "8892d1928c971e18",
+        "type": "ui_spacer",
+        "z": "ccc87b2ae62e974a",
+        "name": "spacer",
+        "group": "28071d5867c9d354",
+        "order": 6,
+        "width": "9",
+        "height": "2",
+        "className": ""
+    },
+    {
+        "id": "5506d219e1b48a22",
+        "type": "ui_group",
+        "name": "PQAevents",
+        "tab": "fdffe6bc.86dd78",
+        "order": 6,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c80ba27e4370eea1",
+        "type": "ui_spacer",
+        "z": "e7088c4e.cc6b4",
+        "name": "spacer",
+        "group": "5506d219e1b48a22",
+        "order": 4,
+        "width": "4",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "2587eb2bae31a097",
+        "type": "ui_spacer",
+        "z": "e7088c4e.cc6b4",
+        "name": "spacer",
+        "group": "5506d219e1b48a22",
+        "order": 6,
+        "width": "1",
+        "height": 1,
         "className": ""
     },
     {
@@ -36220,7 +36355,7 @@
         "tooltip": "",
         "place": "Seleccione",
         "group": "a41af5be.52be18",
-        "order": 3,
+        "order": 4,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -36262,13 +36397,16 @@
         "label": "Tasa de muestreo",
         "tooltip": "",
         "group": "a41af5be.52be18",
-        "order": 2,
-        "width": 6,
+        "order": 3,
+        "width": "3",
         "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": "0",
         "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 660,
         "y": 840,
         "wires": [
@@ -36980,8 +37118,8 @@
         "tooltip": "",
         "place": "Seleccione",
         "group": "a41af5be.52be18",
-        "order": 6,
-        "width": 6,
+        "order": 5,
+        "width": "5",
         "height": 1,
         "passthru": true,
         "multiple": false,
@@ -37004,6 +37142,8 @@
         ],
         "payload": "",
         "topic": "",
+        "topicType": "str",
+        "className": "",
         "x": 1110,
         "y": 560,
         "wires": [
@@ -37408,14 +37548,14 @@
         "order": 1,
         "width": "16",
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
         "x": 530,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "3031a06c.c602b",
@@ -37446,13 +37586,18 @@
                 "t": "eq",
                 "v": "Datalogger",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "PQA",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 4,
         "x": 710,
-        "y": 1260,
+        "y": 1200,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -37462,6 +37607,9 @@
             ],
             [
                 "dcd696d0.332638"
+            ],
+            [
+                "cd2627ac2843f441"
             ]
         ]
     },
@@ -38447,7 +38595,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Alarmas_Alarmas\",\t                \"Eventos_y_Alarmas_Settings\",\t                \"Eventos_y_Alarmas_Buttons\"],\t       \"show\":[ \"Eventos_y_Alarmas_Nav_Bar_User\",\t                \"Eventos_y_Alarmas_Eventos\",\t                \"Eventos_y_Alarmas_Memorias_USB\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Datalog_Alarmas\",\t                \"Eventos_y_Datalog_Settings\",\t                \"Eventos_y_Datalog_PQAevents\",\t                \"Eventos_y_Datalog_Buttons\"],\t       \"show\":[ \"Eventos_y_Datalog_Nav_Bar_User\",\t                \"Eventos_y_Datalog_Eventos\",\t                \"Eventos_y_Datalog_Memorias_USB\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -38457,7 +38605,7 @@
         "to": "",
         "reg": false,
         "x": 1040,
-        "y": 1220,
+        "y": 1140,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -38477,7 +38625,7 @@
             "320aa1af1a983da1"
         ],
         "x": 1215,
-        "y": 1260,
+        "y": 1180,
         "wires": []
     },
     {
@@ -38491,7 +38639,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Alarmas_Eventos\",\t                \"Eventos_y_Alarmas_Settings\",\t                \"Eventos_y_Alarmas_Buttons\"],\t       \"show\":[ \"Eventos_y_Alarmas_Nav_Bar_User\",\t                \"Eventos_y_Alarmas_Alarmas\",\t                \"Eventos_y_Alarmas_Memorias_USB\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Datalog_Eventos\",\t                \"Eventos_y_Datalog_Settings\",\t                \"Eventos_y_Datalog_PQAevents\",\t                \"Eventos_y_Datalog_Buttons\"],\t       \"show\":[ \"Eventos_y_Datalog_Nav_Bar_User\",\t                \"Eventos_y_Datalog_Alarmas\",\t                \"Eventos_y_Datalog_Memorias_USB\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -38501,7 +38649,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -38519,7 +38667,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Alarmas_Eventos\",\t                \"Eventos_y_Alarmas_Alarmas\",\t                \"Eventos_y_Alarmas_Memorias_USB\"\t                ],\t       \"show\":[ \"Eventos_y_Alarmas_Nav_Bar_User\",\t                \"Eventos_y_Alarmas_Settings\",\t                \"Eventos_y_Alarmas_Buttons\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Datalog_Eventos\",\t                \"Eventos_y_Datalog_Alarmas\",\t                \"Eventos_y_Datalog_Memorias_USB\",\t                \"Eventos_y_Datalog_PQAevents\"\t                ],\t       \"show\":[ \"Eventos_y_Datalog_Nav_Bar_User\",\t                \"Eventos_y_Datalog_Settings\",\t                \"Eventos_y_Datalog_Buttons\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -38529,7 +38677,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1300,
+        "y": 1220,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -77430,8 +77578,8 @@
         "g": "1dd5b051.a95e6",
         "name": "",
         "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "minutes",
+        "timeout": "4",
+        "timeoutUnits": "hours",
         "rate": "1",
         "nbRateUnits": "1",
         "rateUnits": "second",
@@ -77439,6 +77587,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "allowrate": false,
         "x": 920,
         "y": 800,
         "wires": [
@@ -80650,7 +80799,7 @@
         "repair": false,
         "outputs": 2,
         "x": 840,
-        "y": 1280,
+        "y": 1200,
         "wires": [
             [
                 "312d9def.84df32"
@@ -80688,7 +80837,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 1340,
+        "y": 1260,
         "wires": [
             [
                 "25a8d0d2661ecaf2"
@@ -80705,7 +80854,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1115,
-        "y": 1340,
+        "y": 1260,
         "wires": []
     },
     {
@@ -80726,7 +80875,7 @@
         "drop": false,
         "allowrate": false,
         "x": 110,
-        "y": 1200,
+        "y": 1120,
         "wires": [
             [
                 "b9261a31b4bbd186"
@@ -80756,13 +80905,18 @@
                 "t": "eq",
                 "v": "Datalogger",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "PQA",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 4,
         "x": 90,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "35a52a0820bebc23"
@@ -80772,6 +80926,9 @@
             ],
             [
                 "ec06c2c2ff2f48b5"
+            ],
+            [
+                "529deff5ef6dbaa8"
             ]
         ]
     },
@@ -80785,10 +80942,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "890323f.ee684e"
@@ -80822,10 +80979,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1300,
+        "y": 1220,
         "wires": [
             [
                 "890323f.ee684e"
@@ -80842,10 +80999,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1340,
+        "y": 1260,
         "wires": [
             [
                 "f57c522aea6111e7"
@@ -80871,7 +81028,7 @@
         "repair": false,
         "outputs": 1,
         "x": 400,
-        "y": 1340,
+        "y": 1260,
         "wires": [
             [
                 "890323f.ee684e"
@@ -80921,13 +81078,14 @@
         "id": "80d606957859a016",
         "type": "link in",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "",
         "links": [
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
-        "x": 800.0130004882812,
-        "y": 1196.0103759765625,
+        "x": 855,
+        "y": 1120,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -82716,7 +82874,7 @@
         "type": "function",
         "z": "902fc438.e5d758",
         "name": "Iniciar sesión",
-        "func": "var active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\nvar user = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\ncount<5?count++:count=1;\ncontext.set(\"count\", count, \"memoryOnly\");\nif((active==0)&&(user==0)&&(count>2))\n    msg.payload = \"Iniciar sesión para operar\";\nelse\n    msg.payload = \"\";\nreturn msg;\n",
+        "func": "var active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\nvar user = global.get(\"UserStatus\", \"memoryOnly\") || 0;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\ncount<5?count++:count=1;\ncontext.set(\"count\", count, \"memoryOnly\");\nif((active==0)&&(user==0)&&(count>2))\n    msg.payload = \"Iniciar sesión para operar\";\nelse if ((active == 1) && (user == 0) && (count > 2))\n    msg.payload = \"Iniciar sesión para cambiar referencia\";\nelse\n    msg.payload = \"\";\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -84124,7 +84282,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Alarmas\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84151,7 +84309,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Alarmas\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t         \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t         \"Otras_Funciones_de_Control\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84178,7 +84336,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Alarmas\",\t        \"Tendencias\",\t         \"Otras_Funciones_de_Control\",\t        \"Usuario\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t         \"Otras_Funciones_de_Control\",\t        \"Usuario\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84205,7 +84363,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Alarmas\",\t        \"Tendencias\",\t        \"Usuario\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Usuario\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84391,7 +84549,9 @@
             "d5ba2ecbce42ca80",
             "55b01149d3480808",
             "3210e2130b238f3d",
-            "44ea48cb2ca745c9"
+            "44ea48cb2ca745c9",
+            "dbce895a0f6ce0d4",
+            "a35fe3447df55cee"
         ],
         "x": 1635,
         "y": 620,
@@ -84401,7 +84561,7 @@
         "id": "b63822f42aec0cf5",
         "type": "change",
         "z": "2e27dea6.c4c362",
-        "name": "home",
+        "name": "to home",
         "rules": [
             {
                 "t": "set",
@@ -84416,7 +84576,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2090,
+        "x": 2100,
         "y": 640,
         "wires": [
             [
@@ -84607,7 +84767,7 @@
             "20fa6985602b85a3"
         ],
         "x": 255,
-        "y": 1200,
+        "y": 1120,
         "wires": [
             [
                 "35a52a0820bebc23",
@@ -85600,6 +85760,622 @@
         "wires": [
             [
                 "98c32ee0a85b9ad7"
+            ]
+        ]
+    },
+    {
+        "id": "529deff5ef6dbaa8",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 260,
+        "y": 1300,
+        "wires": [
+            [
+                "890323f.ee684e"
+            ]
+        ]
+    },
+    {
+        "id": "cd2627ac2843f441",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
+        "name": "menu usuario",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Eventos_y_Datalog_Eventos\",\t                \"Eventos_y_Datalog_Alarmas\",\t                \"Eventos_y_Datalog_Settings\",\t                \"Eventos_y_Datalog_Buttons\",\t                \"Eventos_y_Datalog_Memorias_USB\"\t                ],\t       \"show\":[ \"Eventos_y_Datalog_Nav_Bar_User\",\t                \"Eventos_y_Datalog_PQAevents\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 1300,
+        "wires": [
+            [
+                "c98bd2dc.e9d39"
+            ]
+        ]
+    },
+    {
+        "id": "b12eba6fd0e17d1b",
+        "type": "modbus-flex-getter",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "PQA Modbus TCP",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "ae58460d.12c698",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 550,
+        "y": 1200,
+        "wires": [
+            [
+                "1c0275c34f3f9e2d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "1643986494e61d09",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "Lectura PQA",
+        "func": "//Lee desde la direcion 8CFDH hasta la 8D07H\n//Tres parametros y Ocho datos del evento\nmsg.topic = \"LecturaPQA\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 36093, \n                    'quantity': 11\n    }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1200,
+        "wires": [
+            [
+                "b12eba6fd0e17d1b"
+            ]
+        ]
+    },
+    {
+        "id": "1c0275c34f3f9e2d",
+        "type": "switch",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "LecturaPQA",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "LecturaPQA",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 1200,
+        "wires": [
+            [
+                "1d092dec161ff8be"
+            ]
+        ]
+    },
+    {
+        "id": "be1dcb53f06bb73c",
+        "type": "ui_table",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "group": "5506d219e1b48a22",
+        "name": "Principal",
+        "order": 5,
+        "width": "16",
+        "height": "9",
+        "columns": [
+            {
+                "field": "ID",
+                "title": "ID.",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "StartingGroup",
+                "title": "Evento PQA",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Fecha",
+                "title": "Fecha",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Hora",
+                "title": "Hora",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Milisegundos",
+                "title": "Duración  (ms)",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "VSagVSwell",
+                "title": "Tipo",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "EstadoC2S",
+                "title": "Estado del C2S",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1270,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "5d0d0564b7be518e",
+        "type": "ui_table",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "group": "5506d219e1b48a22",
+        "name": "Resumen",
+        "order": 7,
+        "width": "4",
+        "height": "2",
+        "columns": [
+            {
+                "field": "Cant_Sag",
+                "title": "No. Sag",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "Cant_Swell",
+                "title": "No. Swell",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1270,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "1d092dec161ff8be",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "Eventos PQA",
+        "func": "//Declaración de variables \nvar lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || 0;\nvar lastEventflag = flow.get(\"lastEventflag\", \"memoryOnly\") || false;\nvar IDPQAEvents = global.get(\"PQAEvents.ID\") || 0; //ID del ultimo evento guardado\nvar PQAEvents = global.get(\"PQAEvents.data\") || []; //Array de aventos guardados\nvar EstadoC2S = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0; // Muestra el estado del C2S\n\n//Adquisicion de los datos de un evento\nvar Uint8 = new Uint8Array(6);\nvar NewestEvent = msg.payload[0];\nvar StartingGroup = msg.payload[1];\nvar Timestamp1 = msg.payload[3];\nvar Timestamp2 = msg.payload[4];\nvar Timestamp3 = msg.payload[5];\nvar Timestamp4 = msg.payload[6];\nvar VSagVSwell = msg.payload[7];\nvar RatedValue = msg.payload[8];\nvar Threshold = msg.payload[9];\nvar HalfCycle = msg.payload[10];\n\n//Corrimiento de datos\nUint8[0] = Timestamp1; //Month\nUint8[1] = Timestamp1 >> 8;\nUint8[2] = Timestamp2; //Hora\nUint8[3] = Timestamp2 >> 8; //Day\nUint8[4] = Timestamp3;  //Second\nUint8[5] = Timestamp3 >> 8; //Minute\n\nvar VSagVSwell1 = \"\";\n//Define Power Sag o Power Swell\nif (Threshold <= 100 ){\n     VSagVSwell1 = \"Voltaje Sag\";\n} else {\n    VSagVSwell1 = \"Voltaje Swell\";\n}\n\n//Formato de Timestamp\nvar year = Uint8[1] + 2000;\nif (Uint8[0] < 10) { // Para el mes\n    var Month = '0' + Uint8[0];\n} else { Month = Uint8[0]; }\nif (Uint8[3] < 10) { // Para el día\n    var Day = '0' + Uint8[3];\n} else {Day = Uint8[3];}\nif (Uint8[2] < 10) { // Para la Hora\n    var Hora = '0' + Uint8[2];\n} else { Hora = Uint8[2]; }\nif (Uint8[5] < 10) { // Para los Minutos\n    var Minute = '0' + Uint8[5];\n} else { Minute = Uint8[5]; }\nif (Uint8[4] < 10) { // Para los Segundos\n    var Second = '0' + Uint8[4];\n} else { Second = Uint8[4]; }\n\n\n//Data del evento consultado - estructura\nvar dataEvento = {\n    \"ID\":  null,\n    \"NewestEvent\": NewestEvent,\n    \"StartingGroup\": StartingGroup,\n    \"Fecha\": year + \"/\" + Month + \"/\" + Day,\n    \"Hora\": Hora + \":\" + Minute + \":\" + Second,\n    \"Milisegundos\": Timestamp4,\n    \"VSagVSwell\": VSagVSwell1,\n    \"RatedValue\": RatedValue,\n    \"Threshold\": Threshold,\n    \"HalfCycle\": HalfCycle,\n    \"EstadoC2S\": EstadoC2S == 1 ? \"Activo\" : \"Detenido\"\n};\n\n//Adquisición de los eventos en el array PQAEvents \nflow.set(\"NewestEvent\", NewestEvent, \"memoryOnly\");\nif (lastEvent == 0 && !lastEventflag) { flow.set(\"lastEventflag\", true,\"memoryOnly\"); lastEvent = NewestEvent; flow.set(\"lastEvent\", lastEvent, \"memoryOnly\");}\nif (lastEvent > NewestEvent) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (NewestEvent - lastEvent > 50) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (lastEvent != NewestEvent) { // Si hay un evento nuevo....\n    if ((lastEvent + 1) == StartingGroup) {\n        dataEvento.ID = IDPQAEvents + 1\n        PQAEvents.unshift( dataEvento);\n        if (PQAEvents.length == 501) PQAEvents.pop(); //Limita la cantidad de eventos registrados \n        global.set(\"PQAEvents.data\", PQAEvents);\n        global.set(\"PQAEvents.ID\", IDPQAEvents + 1);\n        flow.set(\"lastEvent\", lastEvent+1, \"memoryOnly\");\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "//context.set(\"m\", 0, \"memoryOnly\");\n\n\n//context.set(\"EventoGuardado\", [], \"memoryOnly\");\n\n// Code added here will be run once\n// whenever the node is started.\n",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 1200,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "fa5e45a53a5caf5e",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "EscrituraPQA",
+        "func": "var lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || null;\n\n//Lee la dirección del StartingGroup (8CFEH)\nmsg.payload = {\n    value: [lastEvent + 1],\n    'fc': 16,\n    'unitid': 5,\n    'address': 36094,\n    'quantity': 1\n}\nif (lastEvent != null)\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1280,
+        "wires": [
+            [
+                "bab297d8e38d1fcc"
+            ]
+        ]
+    },
+    {
+        "id": "bab297d8e38d1fcc",
+        "type": "modbus-flex-write",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "PQA Modbus TCP",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "server": "ae58460d.12c698",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 540,
+        "y": 1280,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "490a325563bb2b0f",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 1280,
+        "wires": [
+            [
+                "1643986494e61d09",
+                "fa5e45a53a5caf5e"
+            ]
+        ]
+    },
+    {
+        "id": "8cdf9e74dbd5c0c5",
+        "type": "ui_dropdown",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "tiempo",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccionar periodo de tiempo",
+        "group": "5506d219e1b48a22",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Todos los eventos",
+                "value": "all",
+                "type": "str"
+            },
+            {
+                "label": "Últimas 24 horas",
+                "value": "lastday",
+                "type": "str"
+            },
+            {
+                "label": "Última semana",
+                "value": "lastweek",
+                "type": "str"
+            },
+            {
+                "label": "Último mes",
+                "value": "lastmonth",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 690,
+        "y": 1040,
+        "wires": [
+            [
+                "e48317a5283cbf0a"
+            ]
+        ]
+    },
+    {
+        "id": "e48317a5283cbf0a",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::eventsviewer.time",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 1040,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "d30eebef31591926",
+        "type": "ui_dropdown",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "estado cila",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccionar estado de CILA",
+        "group": "5506d219e1b48a22",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Todos",
+                "value": "all",
+                "type": "str"
+            },
+            {
+                "label": "CILA2S operativo",
+                "value": "active",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 670,
+        "y": 1100,
+        "wires": [
+            [
+                "00d05a309c7c6ed1"
+            ]
+        ]
+    },
+    {
+        "id": "00d05a309c7c6ed1",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::eventsviewer.status",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1100,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "09f6acfa5e5cc6f3",
+        "type": "ui_dropdown",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "evento",
+        "label": "",
+        "tooltip": "",
+        "place": "Seleccionar tipo de evento",
+        "group": "5506d219e1b48a22",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Todos los eventos",
+                "value": "all",
+                "type": "str"
+            },
+            {
+                "label": "Power SAG",
+                "value": "powsag",
+                "type": "str"
+            },
+            {
+                "label": "Power SWELL",
+                "value": "powswell",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 690,
+        "y": 1160,
+        "wires": [
+            [
+                "a26de32e2dcd2d22"
+            ]
+        ]
+    },
+    {
+        "id": "a26de32e2dcd2d22",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::eventsviewer.type",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 1160,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "8cf1c791b0b47299",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "a tabla",
+        "func": "var selectorestado = flow.get(\"eventsviewer.status\",\"memoryOnly\")||\"all\";\nvar selectortiempo = flow.get(\"eventsviewer.time\", \"memoryOnly\") || \"all\";\nvar selectortipo = flow.get(\"eventsviewer.type\", \"memoryOnly\") || \"all\";\nvar eventos = JSON.parse(JSON.stringify(global.get(\"PQAEvents.data\") || null)); \nvar count = [0,0];\n//obtiene el objeto PQAEvents y lo convierte en un  objeto nuevo para que las modificaciones no afeten  el objeto original \nvar retorno;\nvar payload1 = [];\n\nretorno = filtrarportiempo(selectortiempo, eventos);\nretorno = filtrarporestado(selectorestado,retorno);\nretorno = filtrarportipo(selectortipo, retorno);\npayload1 = retorno;\n\nfunction filtrarportiempo(selectortiempo, eventos){\n    var i, a=[], aux,flag;\n    var DT = new Date(); // Instancia que representa un único momento en el tiempo (ms)\n    var date = new Date(eventos[0].Fecha + \",\" + eventos[0].Hora);\n    aux = (DT.getTime() - date.getTime()) / (1000 * 60 * 60 * 24);//(1000*60*60*24);\n\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if(selectortiempo == \"all\") flag=true;\n        else{\n            var date = new Date(eventos[i].Fecha + \",\" + eventos[i].Hora);\n            aux = (DT.getTime() - date.getTime())/(1000*60*60*24);\n        }\n        if (selectortiempo == \"lastday\" && aux <= 1) flag = true;\n        if (selectortiempo == \"lastweek\" && aux <= 7) flag = true;\n        if (selectortiempo == \"lastmonth\" && aux <= 30) flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}\n\nfunction filtrarporestado(selectorestado, eventos){\n    var i; var a = [];var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectorestado == \"all\") flag = true;\n        if (selectorestado == \"active\" && eventos[i].EstadoC2S==\"Activo\") flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n\n}\n\nfunction filtrarportipo(selectortipo, eventos){\n    var i; var a = []; var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectortipo == \"all\") flag = true;\n        if (selectortipo == \"powsag\" && eventos[i].VSagVSwell != \"Voltaje Swell\") flag = true;\n        if (selectortipo == \"powswell\" && eventos[i].VSagVSwell == \"Voltaje Swell\") flag = true;\n        if (flag && eventos[i].VSagVSwell != \"Voltaje Swell\") count[0] ++;\n        if (flag && eventos[i].VSagVSwell == \"Voltaje Swell\") count[1] ++;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}\n\nmsg = [{ \"payload\": payload1 }, { \"payload\": [{\"Cant_Sag\": count[0], \"Cant_Swell\": count[1]}]}];\n\nreturn msg;",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1200,
+        "wires": [
+            [
+                "be1dcb53f06bb73c"
+            ],
+            [
+                "5d0d0564b7be518e"
+            ]
+        ]
+    },
+    {
+        "id": "dbce895a0f6ce0d4",
+        "type": "link in",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "links": [
+            "e28cc76463d5d568",
+            "c4e5b48a61ef3ffd"
+        ],
+        "x": 315,
+        "y": 1100,
+        "wires": [
+            [
+                "7d85f80cc3c27c5f"
+            ]
+        ]
+    },
+    {
+        "id": "7d85f80cc3c27c5f",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "all",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 1100,
+        "wires": [
+            [
+                "8cdf9e74dbd5c0c5",
+                "d30eebef31591926",
+                "09f6acfa5e5cc6f3"
             ]
         ]
     }
