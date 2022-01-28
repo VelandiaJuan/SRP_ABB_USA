@@ -133,6 +133,13 @@
         "info": ""
     },
     {
+        "id": "7af521b51c8e6a51",
+        "type": "tab",
+        "label": "AVAS",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -705,7 +712,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -745,7 +754,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1045,7 +1056,9 @@
             "e0ebe56beee379ef"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1092,7 +1105,9 @@
             "cae90cc36eb53039"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1288,7 +1303,9 @@
             "eb91dac5.690838"
         ],
         "x": 88,
-        "y": 53
+        "y": 53,
+        "w": 1764,
+        "h": 1100
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -1321,7 +1338,9 @@
             "cd2627ac2843f441"
         ],
         "x": 14,
-        "y": 1079
+        "y": 1079,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1531,7 +1550,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1551,7 +1572,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "10280aeffc57de7d",
@@ -1819,7 +1842,9 @@
             "bf383a9670894a6e"
         ],
         "x": 14,
-        "y": 1399
+        "y": 1399,
+        "w": 1568,
+        "h": 428
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2217,7 +2242,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "482200446b2a6616",
@@ -2578,6 +2605,8 @@
         ],
         "x": 654,
         "y": 751.5,
+        "w": 652,
+        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2607,7 +2636,9 @@
             "bd32ed88482e9c36"
         ],
         "x": 54,
-        "y": 1079
+        "y": 1079,
+        "w": 538,
+        "h": 649.5
     },
     {
         "id": "40d3cefab634ddad",
@@ -2631,6 +2662,8 @@
         ],
         "x": 54,
         "y": 751.5,
+        "w": 572,
+        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2649,7 +2682,9 @@
             "54f95f30bf9a6bbe"
         ],
         "x": 654,
-        "y": 1091.5
+        "y": 1091.5,
+        "w": 432,
+        "h": 157
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -2674,7 +2709,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -3071,7 +3108,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3092,7 +3131,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -3459,7 +3500,9 @@
             "16bbbec3a6d114f6"
         ],
         "x": 534,
-        "y": 1599
+        "y": 1599,
+        "w": 1022,
+        "h": 202
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -4208,7 +4251,9 @@
             "f8489c5a6d52f42a"
         ],
         "x": 114,
-        "y": 453
+        "y": 453,
+        "w": 1178,
+        "h": 674
     },
     {
         "id": "eb91dac5.690838",
@@ -4258,7 +4303,9 @@
             "e067a1921f82df48"
         ],
         "x": 114,
-        "y": 79
+        "y": 79,
+        "w": 1712,
+        "h": 362
     },
     {
         "id": "8ed62712.fe2018",
@@ -4337,7 +4384,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -4357,7 +4406,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -4968,7 +5019,9 @@
             "d381293ba6d9615d"
         ],
         "x": 294,
-        "y": 1111.5
+        "y": 1111.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "70a63b74.44894c",
@@ -6091,7 +6144,9 @@
             "cb232372.b3dee"
         ],
         "x": 614,
-        "y": 899
+        "y": 899,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -6111,7 +6166,9 @@
             "c1672804cba19e98"
         ],
         "x": 614,
-        "y": 479
+        "y": 479,
+        "w": 172,
+        "h": 202
     },
     {
         "id": "be55ea76.ed4478",
@@ -6134,7 +6191,9 @@
             "a1956d7f8e9c73a6"
         ],
         "x": 614,
-        "y": 689
+        "y": 689,
+        "w": 422,
+        "h": 212
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -6201,6 +6260,194 @@
         ],
         "x": 1394,
         "y": 459
+    },
+    {
+        "id": "de313b37d3ca86b4",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "name": "Datos para Sensorless",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8e77e45481f2ce74",
+            "1f5b91745cf74c06",
+            "11282e89dc9749a9",
+            "a850b4c0d60fb314",
+            "a651d20b61d8eae1",
+            "92af29b43d98cf42",
+            "bb0e848bf8df0746",
+            "57b0e7b8b4128b6d",
+            "477274a152d422ef",
+            "60c53a5b248e3c83",
+            "968e4e27382ad46b",
+            "73514f96913027d0",
+            "7ef0d7fd20e90152",
+            "f4c2848e1a087910",
+            "88efa1935790c033",
+            "a940c34393a3c21f",
+            "be0ea5dc9ccd2372",
+            "a615ab4f97d0df6c",
+            "e14265ab1a2c8731",
+            "b90c6c88f56765e9",
+            "e2cab74926656de7",
+            "44e2d32a5618e21f"
+        ],
+        "x": 374,
+        "y": 1079,
+        "w": 892,
+        "h": 482
+    },
+    {
+        "id": "e9acf894c223c544",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "name": "Avas IPR ",
+        "style": {
+            "fill": "#b797cf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "13e56b225a4f7262",
+            "65f9fd69cd644489",
+            "209a7e73d606bd63",
+            "df1d97613cf01d63",
+            "92c275e98763b20b",
+            "61a0e01d8198af31",
+            "1d7f7e08aa6be572",
+            "81040b9d06e8a4cf"
+        ],
+        "x": 14,
+        "y": 13,
+        "w": 1198,
+        "h": 994
+    },
+    {
+        "id": "61a0e01d8198af31",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "Gráfica IPR",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#dbcbe7"
+        },
+        "nodes": [
+            "024222d619f069a9",
+            "cc10fc546ecf17a2",
+            "e58bbd637487099d",
+            "81e868e2dc43d637",
+            "fee026c23d97c1b7",
+            "e6fb7f8fce8d014a"
+        ],
+        "x": 374,
+        "y": 859,
+        "w": 712,
+        "h": 122
+    },
+    {
+        "id": "df1d97613cf01d63",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "Estado mecanico",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "9c3a14196b83240f",
+            "c07b8fbacd53c32d",
+            "8c563a0cfe8efb1f",
+            "ec35b7307e4c1490",
+            "7e0250bc4c718e16",
+            "b4299e0a9fa3bb6f",
+            "e5c810643b40337b",
+            "ff18b4648c621a74"
+        ],
+        "x": 354,
+        "y": 39,
+        "w": 812,
+        "h": 202
+    },
+    {
+        "id": "92c275e98763b20b",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "Propiedades de flujo",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7806a2e04be44a09",
+            "d5c2fdb13a35e0df",
+            "9042c080dc5671d1",
+            "db2a2f73872e3f21",
+            "a29fc34c4378e8bb",
+            "34a6674d0381ec15"
+        ],
+        "x": 354,
+        "y": 259,
+        "w": 832,
+        "h": 162
+    },
+    {
+        "id": "81040b9d06e8a4cf",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "Pruebas de produccion",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "14bcf7fb6dabf77e",
+            "b55f7f014ffe2d47",
+            "fc9581d79bb51d53",
+            "ffec73d93b66549c",
+            "9e055d7583437201",
+            "753ff1f519f5a74c",
+            "00e206d0e7ead86d",
+            "12caa31633404674"
+        ],
+        "x": 354,
+        "y": 439,
+        "w": 832,
+        "h": 202
+    },
+    {
+        "id": "1d7f7e08aa6be572",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "Datos gráfica IPR",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "87baf888d3cb86d4",
+            "17c98ce1d5f32e3c",
+            "abe91eb5b09be054",
+            "3dc5b308a908c905",
+            "bd8ba4215a00bc0c",
+            "874fe8b7b2726764"
+        ],
+        "x": 354,
+        "y": 659,
+        "w": 772,
+        "h": 162
     },
     {
         "id": "d25d405a.19cff",
@@ -6771,7 +7018,7 @@
         "type": "ui_tab",
         "name": "Usuario",
         "icon": "fa-user",
-        "order": 10,
+        "order": 11,
         "disabled": false,
         "hidden": false
     },
@@ -6981,7 +7228,7 @@
         "type": "ui_tab",
         "name": "SWC",
         "icon": "fa-television",
-        "order": 8,
+        "order": 9,
         "disabled": false,
         "hidden": false
     },
@@ -8004,7 +8251,7 @@
         "type": "ui_tab",
         "name": "Protecciones",
         "icon": "fa-shield",
-        "order": 5,
+        "order": 6,
         "disabled": false,
         "hidden": false
     },
@@ -8013,7 +8260,7 @@
         "type": "ui_tab",
         "name": "Configuración VSD",
         "icon": "fa-cogs",
-        "order": 7,
+        "order": 8,
         "disabled": false,
         "hidden": false
     },
@@ -8022,7 +8269,7 @@
         "type": "ui_tab",
         "name": "Entradas y Salidas",
         "icon": "fa-microchip",
-        "order": 6,
+        "order": 7,
         "disabled": false,
         "hidden": false
     },
@@ -8031,7 +8278,7 @@
         "type": "ui_tab",
         "name": "Sensor de Fondo",
         "icon": "fa-thermometer-three-quarters",
-        "order": 9,
+        "order": 10,
         "disabled": false,
         "hidden": false
     },
@@ -8096,13 +8343,6 @@
         "width": "16",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "fb98fdb9.b193a",
-        "type": "ui_tab",
-        "name": "Home",
-        "icon": "dashboard",
-        "order": 11
     },
     {
         "id": "13df98319c7579a6",
@@ -9301,6 +9541,283 @@
         "height": 1
     },
     {
+        "id": "eb4189681357c221",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "8276e64d.c16508",
+        "order": 3,
+        "width": "12",
+        "height": "4"
+    },
+    {
+        "id": "a147a441e4501b29",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "38898609.fe288a",
+        "order": 2,
+        "width": "7",
+        "height": "4"
+    },
+    {
+        "id": "6f626a33ebbf9f27",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "4b33f8ea.b34188",
+        "order": 20,
+        "width": "5",
+        "height": "4"
+    },
+    {
+        "id": "3b2c064edad4c19d",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "f44449b952264214",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ddfcac5c31a9b7ac",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "f44449b952264214",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5e130139af2b6ae",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "f44449b952264214",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "143c22dddb4bff1c",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "f44449b952264214",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a98cec9a8dceac9f",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "c88a78ac91c87880",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3c27564a5eeb4659",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "c88a78ac91c87880",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "79ebbf94dfd83969",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "c88a78ac91c87880",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9247c124c89ad6fd",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "c88a78ac91c87880",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d3098a611a3ec789",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "45f961811da830f5",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f4f4df242166e0f3",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "45f961811da830f5",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "21aa54510e964db8",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "45f961811da830f5",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "eae3deff7a73e0fc",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "2d31d65cb3154f18",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d09cda24d1a59b01",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "2d31d65cb3154f18",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "304c037f07711b10",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "2d31d65cb3154f18",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "41827642fef75e8f",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "7f71cf7415a9a522",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "227ab2732f98bbdb",
+        "type": "ui_tab",
+        "name": "AVAS®",
+        "icon": "fa-laptop",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "02dda30351a34cce",
+        "type": "ui_group",
+        "name": "Estado mecánico",
+        "tab": "227ab2732f98bbdb",
+        "order": 1,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "97db202e2e66e6c5",
+        "type": "ui_group",
+        "name": "Propiedades de flujo",
+        "tab": "227ab2732f98bbdb",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d51e5858af3d175d",
+        "type": "ui_group",
+        "name": "Pruebas de producción",
+        "tab": "227ab2732f98bbdb",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c7f5396abbccd01",
+        "type": "ui_group",
+        "name": "Datos de instalación",
+        "tab": "227ab2732f98bbdb",
+        "order": 4,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "89e12b591528cad3",
+        "type": "ui_group",
+        "name": "Gráfica IPR",
+        "tab": "227ab2732f98bbdb",
+        "order": 5,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c16981372038961a",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "89e12b591528cad3",
+        "order": 5,
+        "width": "10",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "a5274f2740ad0d41",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "8c7f5396abbccd01",
+        "order": 15,
+        "width": "8",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "32b7864ad3ff6c2e",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "8c7f5396abbccd01",
+        "order": 16,
+        "width": "10",
+        "height": 1,
+        "className": ""
+    },
+    {
         "id": "e765ca36.69fb98",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
@@ -10212,7 +10729,8 @@
             "66c4a9b8.ae31f8",
             "e65ba7a271b6d8d4",
             "ad037575e738b405",
-            "365d1eacfdb44888"
+            "365d1eacfdb44888",
+            "9a3fe8f4e8cd6366"
         ],
         "x": 345,
         "y": 1420,
@@ -42453,7 +42971,8 @@
             "bbac1abcf840bd8f",
             "82902d07cb7c62e8",
             "a7d2cd08afbd2e76",
-            "fc47cb5558e17f7a"
+            "fc47cb5558e17f7a",
+            "11fab97f0376f949"
         ],
         "x": 95,
         "y": 440,
@@ -84413,7 +84932,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS®\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84440,7 +84959,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t         \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Usuario\",\t        \"Sensor_de_Fondo\",\t        \"AVAS®\",\t         \"Otras_Funciones_de_Control\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84467,7 +84986,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t         \"Otras_Funciones_de_Control\",\t        \"Usuario\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t         \"Otras_Funciones_de_Control\",\t         \"AVAS®\",\t        \"Usuario\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84494,7 +85013,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"Usuario\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Otras_Funciones_de_Control\"],\t    \"show\":\t        [\"Principal\",\t        \"Eventos_y_Datalog\",\t        \"Tendencias\",\t        \"AVAS®\",\t        \"Usuario\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -84564,7 +85083,8 @@
         "y": 740,
         "wires": [
             [
-                "e5dfc59c6c25db4e"
+                "e5dfc59c6c25db4e",
+                "54fca041998ebf96"
             ]
         ]
     },
@@ -84682,7 +85202,8 @@
             "3210e2130b238f3d",
             "44ea48cb2ca745c9",
             "dbce895a0f6ce0d4",
-            "a35fe3447df55cee"
+            "a35fe3447df55cee",
+            "6092027b3ec84b2c"
         ],
         "x": 1635,
         "y": 620,
@@ -87943,20 +88464,6 @@
         ]
     },
     {
-        "id": "0a7acbe98cc27eb5",
-        "type": "link in",
-        "z": "4c43e2ae2d9aec48",
-        "name": "",
-        "links": [
-            "97407954.a004c8"
-        ],
-        "x": 625,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "51e2ba8e9d633518",
         "type": "link in",
         "z": "e7088c4e.cc6b4",
@@ -89585,6 +90092,1915 @@
         "wires": [
             [
                 "f053a3ef63abbf05"
+            ]
+        ]
+    },
+    {
+        "id": "9c3a14196b83240f",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "label": "PMP [ft]",
+        "tooltip": "",
+        "group": "02dda30351a34cce",
+        "order": 7,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 440,
+        "y": 80,
+        "wires": [
+            [
+                "7e0250bc4c718e16"
+            ]
+        ]
+    },
+    {
+        "id": "c07b8fbacd53c32d",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "label": "Profundidad de descarga [ft]",
+        "tooltip": "",
+        "group": "02dda30351a34cce",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "b4299e0a9fa3bb6f"
+            ]
+        ]
+    },
+    {
+        "id": "8c563a0cfe8efb1f",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "label": "Profundidad de sensor [ft]",
+        "tooltip": "",
+        "group": "02dda30351a34cce",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "e5c810643b40337b"
+            ]
+        ]
+    },
+    {
+        "id": "ec35b7307e4c1490",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "label": "Profundidad de Entrada [ft]",
+        "tooltip": "",
+        "group": "02dda30351a34cce",
+        "order": 5,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "ff18b4648c621a74"
+            ]
+        ]
+    },
+    {
+        "id": "7806a2e04be44a09",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "label": "API",
+        "tooltip": "",
+        "group": "97db202e2e66e6c5",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "db2a2f73872e3f21"
+            ]
+        ]
+    },
+    {
+        "id": "d5c2fdb13a35e0df",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "label": "Temperatura de fondo [ºF]",
+        "tooltip": "",
+        "group": "97db202e2e66e6c5",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "a29fc34c4378e8bb"
+            ]
+        ]
+    },
+    {
+        "id": "9042c080dc5671d1",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "label": "Densidad del agua [ρ]",
+        "tooltip": "",
+        "group": "97db202e2e66e6c5",
+        "order": 5,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "34a6674d0381ec15"
+            ]
+        ]
+    },
+    {
+        "id": "14bcf7fb6dabf77e",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "label": "PWF Prueba [psi]",
+        "tooltip": "",
+        "group": "d51e5858af3d175d",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "9e055d7583437201"
+            ]
+        ]
+    },
+    {
+        "id": "b55f7f014ffe2d47",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "label": "BSW Prueba [%]",
+        "tooltip": "",
+        "group": "d51e5858af3d175d",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 470,
+        "y": 520,
+        "wires": [
+            [
+                "753ff1f519f5a74c"
+            ]
+        ]
+    },
+    {
+        "id": "fc9581d79bb51d53",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "label": "Q Prueba [BPD]",
+        "tooltip": "",
+        "group": "d51e5858af3d175d",
+        "order": 5,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 460,
+        "y": 560,
+        "wires": [
+            [
+                "00e206d0e7ead86d"
+            ]
+        ]
+    },
+    {
+        "id": "ffec73d93b66549c",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "label": "Velocidad de prueba [Hz]",
+        "tooltip": "",
+        "group": "d51e5858af3d175d",
+        "order": 7,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "12caa31633404674"
+            ]
+        ]
+    },
+    {
+        "id": "87baf888d3cb86d4",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "label": "Presión de yacimiento [psi]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 1,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 700,
+        "wires": [
+            [
+                "3dc5b308a908c905"
+            ]
+        ]
+    },
+    {
+        "id": "17c98ce1d5f32e3c",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "label": "PWF Crítica [psi]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 2,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 470,
+        "y": 740,
+        "wires": [
+            [
+                "bd8ba4215a00bc0c"
+            ]
+        ]
+    },
+    {
+        "id": "abe91eb5b09be054",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "label": "Presión de Burbuja [psi]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 3,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 490,
+        "y": 780,
+        "wires": [
+            [
+                "874fe8b7b2726764"
+            ]
+        ]
+    },
+    {
+        "id": "7e0250bc4c718e16",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.ESTADO_MECANICO.PMP",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4299e0a9fa3bb6f",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.ESTADO_MECANICO.Profundidad_de_descarga",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5c810643b40337b",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.ESTADO_MECANICO.Profundidad_de_sensor",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff18b4648c621a74",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "df1d97613cf01d63",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.ESTADO_MECANICO.Profundidad_de_entrada",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db2a2f73872e3f21",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PROPIEDADES_DE_FLUIDO.API",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a29fc34c4378e8bb",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34a6674d0381ec15",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "92c275e98763b20b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e055d7583437201",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "753ff1f519f5a74c",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PRUEBA_DE_PRODUCCION.BSW_Prueba",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "00e206d0e7ead86d",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12caa31633404674",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "81040b9d06e8a4cf",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3dc5b308a908c905",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_IPR.Presion_de_yacimiento",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd8ba4215a00bc0c",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_IPR.PWF_Critica",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 850,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "874fe8b7b2726764",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "1d7f7e08aa6be572",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_IPR.Presion_de_burbuja",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65f9fd69cd644489",
+        "type": "link in",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "",
+        "links": [
+            "54fca041998ebf96",
+            "ad87cee4.7dbb5"
+        ],
+        "x": 155,
+        "y": 420,
+        "wires": [
+            [
+                "13e56b225a4f7262"
+            ]
+        ]
+    },
+    {
+        "id": "209a7e73d606bd63",
+        "type": "inject",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 110,
+        "y": 380,
+        "wires": [
+            [
+                "13e56b225a4f7262"
+            ]
+        ]
+    },
+    {
+        "id": "024222d619f069a9",
+        "type": "ui_template",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "group": "89e12b591528cad3",
+        "name": "",
+        "order": 1,
+        "width": "16",
+        "height": "10",
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1000,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc10fc546ecf17a2",
+        "type": "inject",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 470,
+        "y": 940,
+        "wires": [
+            [
+                "81e868e2dc43d637"
+            ]
+        ]
+    },
+    {
+        "id": "e58bbd637487099d",
+        "type": "template",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "name": "Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <div class=\"disable-select\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center\" style=\"background-color:#fcfcfc;\">\n                <div class=\"co-12\">{{{chart}}}</div>\n            </div>\n        </div>\n    </div>\n  </body>\n  <script src=\"http://localhost:1880/apexcharts/dist/apexcharts.js\"></script>\n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "output": "str",
+        "x": 860,
+        "y": 900,
+        "wires": [
+            [
+                "024222d619f069a9"
+            ]
+        ]
+    },
+    {
+        "id": "81e868e2dc43d637",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "name": "",
+        "func": "/* Declaración de datos \nAPI         = 30;   \nPy          = 3000; //psi \nPb          = 1200;  //psi\nPcrit       = 1050; // psi\nPwf_P       = 750;  //psi \nQ_p         = 2300; //BPD\nBSW         = 98;   //%\nT_fluido    = 160;  // °F\nDens_Agua   = 8.33; //ppg \nProf_Intake = 4000; //ft  Profundidad de la bomba \nProf_Sensor = 4030; //ft  Profundidad del sensor de fondo\nPMP         = 4500; //FT\nPIP_Sensor  = 750; //psi\nPCasing     = 0;   //psi\n*/\nvar Analog = global.get(\"DownHoleData\",\"memoryOnly\")||[];\n\n// ESTADO MECANICO\nvar PMP             = global.get(\"IWOC.ESTADO_MECANICO.PMP\")||4500; //Presión del tubo \nvar Prof_Discharge  = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_descarga\")||0;\nvar Prof_Sensor     = global.get(\"IWOC.ESTADO_MECANICO.Prof_Sensor\")||4030;\nvar Prof_Intake     = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_entrada\")||4000;\n\n// PROPIEDADES DE FLUIDO\nvar API             = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.API\")||30;\nvar T_fluido        = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo\")||160;\nvar Dens_Agua       = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua\")||8.33;\n\n// PRUEBA DE PRODUCCION\nvar Pwf_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba\")||750;\nvar BSW             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.BSW_Prueba\")||98; //Relación Agua-Petroleo\nvar Q_p             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba\")||2300;\nvar Vel_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba\")||0;\n\n// DATOS PARA IPR\nvar Py              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_yacimiento\")||2500;\nvar Pcrit           = global.get(\"IWOC.DATOS_PARA_IPR.PWF_Critica\")||1050;\nvar Pb              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_burbuja\")||1200;\n\n//var PIP_Sensor      = Analog.DHS[\"Presión de entrada\"]||Analog.AI[\"Presión de entrada\"];\nvar PIP_Sensor = 750; //psi / Presión de la entrada de la bomba \nvar PCasing         = 0;\n\nvar AxisX = [];\nvar AxisY = [];\n/*\n    Paso No. 1: Se halla Gradiente de Presión corregido por \n    temperatura y %BSW a partir de la Gravedad Específica (GE)\n    del crudo usando gravedad API del crudo.\n*/\n\nvar GE = 141.5/(131.5 + API); //Corrección de la Gravedad Especifica del crudo\n\n/*\n    Paso No. 2: Hallar valores de alfa y beta según la gravedad \n    específica (GE) siguiendo lo que indica la tabla abajo:\n*/\n\nif(GE<0.63){\n    var Alfa = 0.00097;\n    var Beta = -0.0000004;\n}\nelse if((GE<0.78) && (GE>=0.63)){\n    var Alfa = (0.00097+(GE-0.63))*((0.00075-0.00097)/(0.78-0.63));\n    var Beta = (0.0000004 + (GE-0.63))*(0.0000004/(0.78-0.63));\n}\nelse if((GE<0.85)&&(GE>=0.78)){\n    var Alfa = (0.00075+(GE-0.75))*((0.00068-0.00075)/(0.85-0.78));\n    var Beta = (0 + (GE-0.75))*(0.0000001/(0.85-0.78));\n}   \nelse if((GE<0.95)&&(GE>=0.85)){\n    var Alfa = (0.00068+(GE-0.85))*((0.00066-0.00068)/(0.95-0.85));\n    var Beta = (0.0000001 + (GE-0.85))*((0.0000001-0.0000003)/(0.95-0.85));\n}   \nelse if(GE>=0.95){\n    var Alfa = 0.00066;\n    var Beta = -0.0000003;\n}\n\n//GE_o  = Gravedad específica de aceite ajustada \nvar GE_o = GE - (Alfa*(T_fluido-60)) + (Beta*Math.pow((T_fluido-60), 2)); // Temperatura de fondo - Temperatura ambiente (60°) \n\n/*\n    Paso No. 3: Hallar el Gradiente de presión corregido\n*/\nvar Grv_TFondoBSW = (((100 - BSW) / 100) * GE_o) + ((BSW / 100) * (Dens_Agua / 8.345)) \nvar VP = 0.433 * Grv_TFondoBSW // Gradiente de presión\n\n\n/*\n    Paso No. 4: Cálculo de PIP en iWOC según tres escenarios\n    \n    •\tEscenario No. 1: Cálculo de Variables en Función del Sensor de Fondo\n\n        Cálculo de PIP, PWF y Sumergencia líquida cuando la Fuente de Medición es un sensor de fondo.\n*/\n\n    var PIP_real    = PIP_Sensor + ((Prof_Intake - Prof_Sensor)*VP);\n    var Pwf         = PIP_Sensor + ((PMP - Prof_Sensor)*VP);\n    var Sum_Liq     = (PIP_real- PCasing)/ VP;\n\n/*\n    Paso No. 5: Cálculo de Caudales\n*/    \n/* Yacimiento Subsaturado*/\nif(Py>Pb){\n    if(Pwf>Pb){\n        var IP = Q_p/(Py-Pwf_P);\n        //node.send()\n    }\n    else{\n        IP = Q_p/(Py - Pb + (Pb/1.8)*(1-(0.2*(Pwf/Pb))-0.8*(Math.pow((Pwf/Pb),2))))\n    }\n    \n    var Qb      = IP * (Py - Pb);\n    var Qmax    = Qb + (IP*Pb/1.8);\n    var N       = 80;\n    \n    for (var i = 80; i >= 0;i--){\n        var Pwf_G = (Py*i/N);\n        if(Pwf_G>Pb){\n            var Qg = IP *(Py- Pwf_G);\n        }\n        else{       \n            Qg = Qb + (Qmax - Qb) * (1 - (0.2 * (Pwf_G / Pb)) - (0.8 * ((Pwf_G / Pb) * (Pwf_G / Pb))));\n        }\n        AxisX.push(Qg);\n        AxisY.push(Pwf_G);\n    }\n    /*\n        Cálculo Caudal actual Qo\n    */\n    if(Pwf>Pb){\n        var Q0 = IP *(Py- Pwf);    \n    }\n    else{       \n        var Q0 = Qb + (Qmax - Qb) * (1 - (0.2 * (Pwf / Pb)) - (0.8 * ((Pwf / Pb) * (Pwf / Pb))));\n    }\n}\n\n\nmsg.payload = {\n    'AxisX' : AxisX,\n    'AxisY' : AxisY,\n    'Pcrit' : Pcrit,\n    'Q0'    : Q0,\n    'Pwf'   : Pwf\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 900,
+        "wires": [
+            [
+                "fee026c23d97c1b7"
+            ]
+        ]
+    },
+    {
+        "id": "fee026c23d97c1b7",
+        "type": "template",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "name": "IPR Chart",
+        "field": "chart",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div id=\"chart\"></div>\n<script>\n    var options = {\n            series:[{\n                name: \"Presión de fondo fluyente (PWF)\",\n                data: [{{payload.AxisY}}]\n            }],\n            chart:{\n                height: 330,\n                width: 720,\n                type: 'line',\n                id: 'areachart-2',\n                toolbar:{\n                    show: false\n                },\n                animations:{\n                    enabled: false\n                }\n            },\n            annotations:{\n                yaxis:[\n                    {\n                        y: {{payload.Pcrit}},\n                        borderColor: '#c71e1e',\n                        label:{\n                            borderColor:'#c71e1e',\n                            position: 'left',\n                            position: 'top',\n                            offsetX: 90,\n                            offsetY: 0,                        \n                            style: {\n                                color:'#fff',\n                                background:'#000000',\n                                fontSize: '14px',\n                            },\n                            text:'Pc: ' + ({{payload.Pcrit}}).toFixed(2) + ' psi',\n                        }\n                    }, \n                    {\n                        y: {{payload.Pwf}},\n                        borderColor: '#c71e1e',\n                        label: {\n                            borderColor: '#c71e1e',\n                            offsetX: 0,\n                            offsetY: 15,\n                            style:{\n                                color: '#fff',\n                                background: '#000000',\n                                fontSize: '14px',\n                            },\n                            text: 'Pwf: ' + ({{payload.Pwf}}).toFixed(2) + ' psi',\n                        }\n                    }\n                ],\n                xaxis:[\n                    {\n                        x: {{payload.Q0}},\n                        strokeDashArray: 0,\n                        borderColor: '#775DD0',\n                        label:{\n                            borderColor: '#775DD0',\n                            style:{\n                                color: '#fff',\n                                background: '#775DD0',\n                                fontSize: '14px',\n                            },\n                            text: 'Caudal: ' + ({{payload.Q0}}).toFixed(0) + ' BPD' \n                        }\n                    }\n                ],\n                points:[{\n                    x: {{payload.Q0}},\n                    y: {{payload.Pwf}},\n                    marker: {\n                        size: 5,\n                        fillColor: '#32499d',\n                        strokeColor: '#2b2b2b',\n                        radius: 2,\n                        cssClass: 'apexcharts-custom-class'\n                    },\n                    label:{\n                        borderColor: '#2b2b2b',\n                        offsetX: -17,\n                        offsetY: 40,                        \n                        style:{\n                            color: '#fff',\n                            background: '#2b2b2b',\n                            fontSize: '14px',\n                        },\n                        text: 'Q'\n                    }\n                }]\n            },\n            tooltip:{\n                enabled: true\n            },\n            dataLabels:{\n                enabled: false\n            },\n            stroke:{\n                curve: 'straight',\n                width: [3]\n            },\n            grid:{\n                padding:{\n                    right: 30,\n                    left: 20\n                }\n            },\n            //title:{\n            //    text: 'Gráfica IPR',\n            //    align: 'center'\n            //},\n            colors: [\"#c71e1e\"],\n            xaxis:{\n                type: 'numeric',\n                show: true,\n                categories: [{{payload.AxisX}}],\n                title:{\n                    text:\"Caudal [BPD]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                }\n            },\n            yaxis:{\n                title: {\n                    text: \"Presión [psi]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                },\n            }            \n    };\n    \n    var chart = new ApexCharts(document.querySelector(\"#chart\"), options);\n    chart.render();\n</script>\n",
+        "output": "str",
+        "x": 720,
+        "y": 900,
+        "wires": [
+            [
+                "e58bbd637487099d"
+            ]
+        ]
+    },
+    {
+        "id": "13e56b225a4f7262",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "g": "e9acf894c223c544",
+        "name": "",
+        "func": "/* Declaración de datos \nAPI         = 13.8;  \nBSW         = 96.29; \nPy          = 1110,14; //psi\nPb          = 130;  //psi\nPcrit       = 1050; // psi\nPwf_P       = 750;  //psi \nQ_p         = 2300; //BPD\nBSW         = 98;   //%\nT_fluido    = 150;  // °F\nDens_Agua   = 8.33; //ppg \nProf_Intake = 2586.73; //ft\nProf_Sensor = 4030; //ft\nPMP         = 4500; //FT\nPIP_Sensor  = 750; //psi\nPCasing     = 0;   //psi\n*/\n\n// ESTADO MECANICO\nvar PMP             = global.get(\"IWOC.ESTADO_MECANICO.PMP\") || 2842; //Punto medio de perforados \nvar Prof_Discharge  = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_descarga\")||0;\nvar Prof_Sensor     = global.get(\"IWOC.ESTADO_MECANICO.Prof_Sensor\")||2842;\nvar Prof_Intake     = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_entrada\")||2586.73;\n\n// PROPIEDADES DE FLUIDO\nvar API             = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.API\")||13.8;\nvar T_fluido        = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo\")||150;\nvar Dens_Agua       = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua\")||8.33;\n\n// PRUEBA DE PRODUCCION\nvar Pwf_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba\")||750;\nvar BSW             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.BSW_Prueba\")||96.29;\nvar Q_p             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba\")||2300;\nvar Vel_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba\")||0;\n\n// DATOS PARA IPR\nvar Py              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_yacimiento\")||1110.14;\nvar Pcrit           = global.get(\"IWOC.DATOS_PARA_IPR.PWF_Critica\")||1050;\nvar Pb              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_burbuja\")||130;\n\n//DATOS PARA SENSORLESS\nvar qo          = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Aceite\") || 132;\nvar qw          = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Agua\") || 3422;\nvar GE_w        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_especifica_del_agua\") || 1;\nvar U_ref       = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_referencia\") || 60; //Frecuencia de referencia(Hz)\nvar N_etapas    = global.get(\"IWOC.DATOS_PARA_SENSORLESS.N_etapas\") || 400;\nvar diam        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Diametro_de_tuberia\") || 0.25;\nvar THP         = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Presion_en_el_tubing\") || 175;\nvar l1          = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_del_tubing\") || 2556.73; //Longitud del tubing por encima de la bomba\nvar lcable      = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_cable\") || 2753.94;\nvar POT_Placa   = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Potencia_de_la_placa\") || 1776;\nvar N_sellos    = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Num_sellos\") || 2;\nvar GE_g        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_Especifica_Gas\") || 0;\n\nreturn [\n    MSG(PMP), \n    MSG(Prof_Discharge), \n    MSG(Prof_Sensor), \n    MSG(Prof_Intake), \n    MSG(API),\n    MSG(T_fluido),\n    MSG(Dens_Agua),\n    MSG(Pwf_P),\n    MSG(BSW),\n    MSG(Q_p),\n    MSG(Vel_P),\n    MSG(Py),\n    MSG(Pcrit),\n    MSG(Pb),\n    MSG(qo),\n    MSG(qw),\n    MSG(GE_w),\n    MSG(U_ref),\n    MSG(N_etapas),\n    MSG(diam),\n    MSG(THP),\n    MSG(l1),\n    MSG(lcable),\n    MSG(POT_Placa),\n    MSG(N_sellos)\n];\n\nfunction MSG(X){\n    return { payload: X, enabled: (global.get(\"UserStatus\",\"memoryOnly\")||0)>0?true:false }\n}",
+        "outputs": 25,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 400,
+        "wires": [
+            [
+                "9c3a14196b83240f"
+            ],
+            [
+                "c07b8fbacd53c32d"
+            ],
+            [
+                "8c563a0cfe8efb1f"
+            ],
+            [
+                "ec35b7307e4c1490"
+            ],
+            [
+                "7806a2e04be44a09"
+            ],
+            [
+                "d5c2fdb13a35e0df"
+            ],
+            [
+                "9042c080dc5671d1"
+            ],
+            [
+                "14bcf7fb6dabf77e"
+            ],
+            [
+                "b55f7f014ffe2d47"
+            ],
+            [
+                "fc9581d79bb51d53"
+            ],
+            [
+                "ffec73d93b66549c"
+            ],
+            [
+                "87baf888d3cb86d4"
+            ],
+            [
+                "17c98ce1d5f32e3c"
+            ],
+            [
+                "abe91eb5b09be054"
+            ],
+            [
+                "8e77e45481f2ce74"
+            ],
+            [
+                "11282e89dc9749a9"
+            ],
+            [
+                "a651d20b61d8eae1"
+            ],
+            [
+                "bb0e848bf8df0746"
+            ],
+            [
+                "477274a152d422ef"
+            ],
+            [
+                "968e4e27382ad46b"
+            ],
+            [
+                "73514f96913027d0"
+            ],
+            [
+                "7ef0d7fd20e90152"
+            ],
+            [
+                "a940c34393a3c21f"
+            ],
+            [
+                "a615ab4f97d0df6c"
+            ],
+            [
+                "e14265ab1a2c8731"
+            ]
+        ]
+    },
+    {
+        "id": "e2cab74926656de7",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Diametro_de_tuberia",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44e2d32a5618e21f",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Potencia_de_la_placa",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71afc427dc4e32a5",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "name": "Calculos SensorLess",
+        "func": "var Analog = global.get(\"DownHoleData\",\"memoryOnly\")||[];\n\n//Variables electricas \nvar frec            = global.get(\"C2S.Implicit.Output_Frequency\", \"memoryOnly\") || 0; // Frecuencia de trabajo\nvar V_motor         = global.get(\"C2S.Implicit.Output_Voltage\", \"memoryOnly\")|| 0; // Voltaje de salida del variador\nvar A_motor         = global.get(\"C2S.Implicit.Output_Current\", \"memoryOnly\") || 0; //Corriente de salida del variaador\nvar FP              = global.get(\"C2S.Implicit.Power_Factor\", \"memoryOnly\") || 0;// Factor de potencia\n\n// ESTADO MECANICO\nvar PMP             = global.get(\"IWOC.ESTADO_MECANICO.PMP\")||2842; //Punto medio de perforados \nvar Prof_Discharge  = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_descarga\")||0;\nvar Prof_Sensor     = global.get(\"IWOC.ESTADO_MECANICO.Prof_Sensor\")||2842;\nvar Prof_Intake     = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_entrada\")||2586.73;\n\n// PROPIEDADES DE FLUIDO\nvar API             = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.API\")||13.8;\nvar T_fluido        = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo\")||150;\nvar Dens_Agua       = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua\")||8.33;\n\n// PRUEBA DE PRODUCCION\nvar Pwf_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba\")||750;\nvar Q_p             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba\")||2300;\nvar Vel_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba\")||0;\n\n// DATOS PARA IPR\nvar Py = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_yacimiento\") || 1110.14;\nvar Pcrit           = global.get(\"IWOC.DATOS_PARA_IPR.PWF_Critica\")||1050;\nvar Pb              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_burbuja\")||130;\n\n//DATOS PARA SENSORLESS\nvar qo              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Aceite\") || 132;\nvar qw              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Agua\") || 3422;\nvar GE_w            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_especifica_del_agua\") || 1;\n//var frec            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_trabajo\") || 55; // Frecuencia de trabajo (Hz)\nvar U_ref           = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_referencia\") || 60; //Frecuencia de referencia(Hz)\nvar N_etapas        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.N_etapas\") ||  400; \nvar diam            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Diametro_de_tuberia\") || 0.25; \nvar THP             = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Presion_en_el_tubing\") || 175; \nvar l1              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_del_tubing\") || 2556.73; //Longitud del tubing por encima de la bomba\n//var V_motor         = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Voltaje_motor\") || 1303;\n//var A_motor         = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Corriente_motor\") || 42.8; \nvar lcable          = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_cable\") || 2753.94;\n//var FP              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Factor_potencia\") || 0.95;\nvar POT_Placa       = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Potencia_de_la_placa\") || 1776;\nvar N_sellos        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Num_sellos\") || 2;\nvar GE_g            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_Especifica_Gas\") || 0;\nvar Fac_compres     = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Factor_Compresibilidad\") || 0;\n\nvar PIP_Sensor      = 750; //psi / Presión de la entrada de la bomba \nvar PCasing         = 0.1; //Presión en el Casing \n\n/*\n    Paso No. 1: Se halla Gradiente de Presión corregido por \n    temperatura y %BSW a partir de la Gravedad Específica (GE)\n    del crudo usando gravedad API del crudo.\n*/\n\nvar GE = (141.5) / (131.5 + (API)); //Corrección de la Gravedad Especifica del crudo\n\n/*\n    Paso No. 2: Hallar valores de alfa y beta según la gravedad \n    específica (GE) siguiendo lo que indica la tabla abajo:\n*/\n\nif(GE<0.63){\n    var Alfa = 0.00097;\n    var Beta = -0.0000004;\n}\nelse if((GE<0.78) && (GE>=0.63)){\n    var Alfa = 0.00097+(GE-0.63)*((0.00075-0.00097)/(0.78-0.63));\n    var Beta = 0.0000004 + (GE-0.63)*(0.0000004/(0.78-0.63));\n}\nelse if((GE<0.85)&&(GE>=0.78)){\n    var Alfa = 0.00075+(GE-0.75)*((0.00068-0.00075)/(0.85-0.78));\n    var Beta = 0 + (GE-0.75)*(0.0000001/(0.85-0.78));\n}   \nelse if((GE<0.95)&&(GE>=0.85)){\n    var Alfa = 0.00068 + (GE-0.85) * ((0.00066 - 0.00068)/(0.95-0.85));\n    var Beta = 0.0000001 + (GE-0.85)*((0.0000001-0.0000003)/(0.95-0.85));\n}   \nelse if(GE>=0.95){\n    var Alfa = 0.00066;\n    var Beta = -0.0000003;\n}\n\n//GE_o  = Gravedad específica de aceite ajustada \nvar GE_o = GE - (Alfa * (T_fluido - 60)) + (Beta * Math.pow((T_fluido - 60), 2)); // Temperatura de fondo - Temperatura ambiente (60°)\n\n/*\n    Paso No. 3: Hallar el Gradiente de presión corregido\n*/\n//var Grv_TFondoBSW = (((100 - BSW) / 100) * GE_o) + ((BSW / 100) * (Dens_Agua / 8.345)) \n//var VP = 0.433 * Grv_TFondoBSW // Gradiente de presión\n\n//---------------------------------------------------------------------------------------------------------------------\n//CALCULO DE GAS\n\n/*\n    Paso No. 4: Calculo de la Gravedad Especifica del gas \n*/\n\n\nGE_g = 0.00091 * (T_fluido + 460) - (0.0125 * API);\n\n/*\n    Paso No. 5: Se calcula el RS y GOR con la ecuación de Standing\n                GOR = Relación gas – aceite (SCF/STB)\n                RS =  Relación gas disuelto – aceite (SCF/STB)\n*/\n\nvar GOR = GE_g * Math.pow(((Py / 18) * ((Math.pow(10, (0.0125 * API)) / Math.pow(10, (0.00091 * T_fluido))))),1.2048);\nvar RS = GE_g * (Math.pow((Pb / (18 * (Math.pow(10, GE_g)))), 1.2048));\n\n/*\n    Paso No. 6: Se determinan los factores volumétricos.\n                Bo = Factor volumétrico de aceite (Bbl/STB)\n                Bg = Factor volumétrico de gas (ft3/SCF)\n                Fac_compres  = Factor de compresibilidad\n*/\nvar Bo = 0.972 + 0.000147 * (Math.pow((RS * (Math.pow((GE_g / GE_o), 0.5)) + 1.75 * (parseInt(T_fluido))), 1.175));\n\n\n    //Factor de comprensibilidad \nvar a = -0.000720704;\nvar b =  0.008654874;\nvar c = -0.009919065;\nvar d = -0.124590401;\nvar e =  1;\nvar P_pc = 677 + (15 * GE_g) - (37.5 * (Math.pow(GE_g,2))) // Presión pseudocrítica\n\nFac_compres = a * (Math.pow(((Py + 14.7) / (P_pc* GE_g)),4)) + b * (Math.pow(((Py + 14.7) / (P_pc * GE_g)), 3)) + c * (Math.pow(((Py + 14.7) / (P_pc * GE_g)), 2)) + d * ((Py + 14.7) / (P_pc * GE_g)) + e;\n\nvar Bg = 5.04 * Fac_compres * ((parseInt(T_fluido) + 460)/Py);\n\n/*\n    Paso No. 7: Se calculan los volúmenes de gas total, gas en solución y gas libre\n                V_Tg = Volumen de gas total\n                V_Sg = Volumen de gas en solución \n                V_Fg = Volumen de gas libre \n*/\nvar V_Tg = qo * (GOR/1000);\nvar V_Sg = qo * (RS / 1000);\nvar V_Fg = V_Tg - V_Sg ; \n\n/*\n    Paso No. 8: Se calculan los demás volúmenes(aceite, gas, agua y total)\n                Vo_int = Volumen de aceite en fondo (Bbl)\n                Vg = Volumen de gas libre en fondo (ft3)\n                Vw = Volumen de agua (Bbl)\n                Vt = Volumen total de fluidos (Bbl)\n                BSW = Relación Petroleo - Agua\n                qt = Caudal total\n*/\nvar Vo_int = qo * Bo;\nvar Vg = V_Fg * Bg;\nvar qt = (parseInt(qo) + parseInt(qw));\nvar BSW = (parseInt(qw) / qt) ;\nvar Vw = qt * BSW\nvar Vt = Vo_int + Vg + Vw; \n\n/*\n    Paso No. 9: Cálculo de la masa total de fluido, GE de la mezcla y densidad\n                TMPF = Masa total de los fluidos (lb)\n                GE_mix = Gravedad específica de la mezcla\n                dens_mix = Densidad de la mezcla (ppg)                \n*/\nvar TMPF = (qo * GE_o + qt * BSW * GE_w)* 62.4 * 5.6146 + (GOR * qo * GE_g * 0.0752); // GE_w gravedad especifica del agua\nvar GE_mix = TMPF / (Vt * 5.6146 * 62.44);\nvar dens_mix = GE_mix * 62.4 ; \n\n/*\n    Paso No. 10: Cálculo de la viscosidad. Se utilizan una de las tres correlaciones dependiendo del API del crudo\n                Egbogah-Ng\n                Beggs - Robinson\n                Kartoatmodjo - Schmidt\n*/\nif ((API >= 5) && (API < 16)) {\n    var z = 0;\n    var y = 2.06492 - (0.0179 * API) - (0.70226 * (Math.log10(T_fluido)));\n    var x = Math.pow(10, y);\n    var visc = (Math.pow(10, x)) - 1;\n} else if ((API >= 16) && (API < 40)) {\n    var z = 3.0324 - (0.02023 * API);\n    var y = Math.pow(10, z);\n    var x = y * Math.pow((T_fluido), (-1.163));\n    var visc = (Math.pow(10, x)) - 1;\n} else if ((API >= 40) && (API <= 59)) {\n    var z = 0;\n    var y = 0;\n    var x = (5.7526 * (Math.log10(T_fluido))) - 26.9718;\n    var visc = (16) * (Math.pow(10, 8)) * (Math.pow(T_fluido, -2.8177)) * (Math.pow((Math.log10(API)), x));\n}\n\n var visc1 = visc / 1000;\n\n/*\n    Paso No. 11: Corrección con viscosidad (la viscosidad debe ingresarse en cp/1000)\n*/\nvar Cq = 1 - 2.6266 * visc1 + 6.0032 * (Math.pow(visc1, 2)) - 6.8104 * (Math.pow(visc1, 3)) + 2.7944 * (Math.pow(visc1 , 4));\nvar Ch = 1 - 0.03 * visc1;\nvar Cp = 1 + 3.9042 * visc1 - 9.9306 * (Math.pow(visc1, 2)) + 11.091 * (Math.pow(visc1, 3)) - 4.4376 * (Math.pow(visc1 , 4));\n\n/*\n    Paso No. 12: Calculo de caudales. Para el cálculo se necesita hacer una corrección del caudal total a partir del Uqaj\n                qt = Caudal total\n                qo = Caudal de aceite (Bbl/d)\n                qw = Caudal de agua (Bbl/d)\n                qxo = Caudal total (m3/d)\n                frec = Frecuencia de trabajo (Hz)\n                U_ref = Frecuencia de referencia (Hz)\n                U_qaj = Frecuencia ajustada (Hz)\n                q_xxo = Caudal total ajustado (m3/d)\n                \n*/\nvar qxo = qt * 0.159;\nvar U_qaj = frec / U_ref;\nvar q_xxo = qxo * U_qaj; \n\n/*\n    Paso No. 13: Se calcula un HEADo EFFo y POWERo(curvas características de la bomba) \n                HEAD_o = Head inicial\n                EFF_o = Eficiencia inicial\n                POWER_o = Potencia inicial\n                HEAD = Head ajustado\n                POWER = Potencia ajustada\n                q_xx = Caudal total ajustado\n*/\nvar HEAD_o = -1 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) + 8 * (Math.pow(10, 6)) * (Math.pow(q_xxo, 2)) - 0.0059 * q_xxo + 13.481;\nvar EFF_o = -8 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) - 7 * (Math.pow(10, 6)) * (Math.pow(q_xxo, 2)) + 0.14 * q_xxo + 6.6216;\nvar POWER_o = 6 * (Math.pow(10, 13)) * (Math.pow(q_xxo, 4)) - 2 * (Math.pow(10, 9)) * (Math.pow(q_xxo, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 0.0004 * q_xxo + 0.9563;\n\nvar HEAD = HEAD_o * (Math.pow(U_qaj , 2)) * 3.28 * N_etapas;\nvar q_xx = q_xxo / (0.159);\nvar POWER = POWER_o * (Math.pow(U_qaj , 3)) * N_etapas;\n\n/*\n    Paso No. 14: Se calcula el caudal y la eficiencia de la bomba\n                q_xov = Caudal total ajustado con la viscosidad\n                EF_bomba = Eficiencia de la bomba corregida vicosidad\n*/\nvar q_xov = (qt / Cq) * U_qaj;\nvar EF_bomba = (Math.pow((frec / 60), 2)) * (((-5 * (Math.pow(10, -14)) * (Math.pow(q_xov, 4))) + (7 * (Math.pow(10, -10)) * (Math.pow(q_xov, 3))) - (5 * (Math.pow(10, -6)) * (Math.pow(q_xov, 2))) + ((0.23 * q_xov) - (0.1628)))/100);\n\n/*\n    Paso No. 15: Se calculan las áreas transversales de los tubos\n                Area = Área de la tubería por encima de la bomba\n                diam = Diametro de la tubería encima de la bomba\n*/\nvar Area = 3.1416 * ((Math.pow(diam , 2)) / 4);  \n\n/*\n    Paso No. 16: Se convierte la viscosidad a unidades del sistema inglés\n*/\nvar viscO = visc * (0.00067197); \n\n/*\n    Paso No. 17: Velocidad del fluido, caudal (m3/s) y velocidad (ft/sec)\n                Vf = Velocidad del fluido (m/s)\n                q_fm = Caudal total en m3/s\n                V_fm = Velocidad del fluido en ft/s\n*/\nvar vf = (5.615 / (3600 * 24)) * (qt / Area);\nvar q_fm = parseInt(qt) / 543439.6505;\nvar V_fm = q_xx * (5.615 / 86400) / Area; \n\n/*\n    Paso No. 18: Calculo del número de Reynols y factor de fricción\n                re = Número de Reynols\n                F_fric = Factor de fricción\n*/\nvar re = diam * V_fm * (dens_mix / viscO);\nvar F_fric = 64 / re;\n\n/*\n    Paso No. 19: Calculo del gradiente de presión\n*/\nvar VP = 0.433 * GE_mix;\n\n/*\n    Paso No. 20: Se convierte la presión en cabeza a ft con el gradiente y se estiman las pérdidas por fricción y gravitacional\n                 THP_ft = Equivalencia en ft de la presión del tubing\n                 p_fric = Pérdidas generadas por fricción\n                 p_grav = Pérdidas por gravedad\n                 l1 = Longitud del tubing por encima de la bomba\n                 TDHH = Levantamiento en ft ajustado fricción\n*/\nvar THP_ft = THP / VP;\nvar p_fric = (F_fric * dens_mix * ((Math.pow(V_fm, 2))/(2*32.2*diam))) / 144;\nvar p_grav = dens_mix / 144; \nvar Caida_presion = (p_fric + p_grav) * l1;\nvar TDHH = (THP + Caida_presion) / VP;\n\n/*\n    Paso No. 21: CALCULOS ELECTRICOS\n                POT_SUT = Potencia del SUT (Hp)\n                POT_Cable = Potencia del clable (Hp)\n                V_motor = Voltaje\n                A_motor\t= Corriente\n                FP = Factor de potencia\n                p_VoltCable = Pérdida en voltios en el cable\n                p_Cable = Pérdidas en el cable (Hp)\n*/\nvar POT_SUT = 1.73 * V_motor * A_motor * (FP / 745.6);\nvar POT_Cable = (V_motor - (15 / 1000) * (lcable)) * A_motor * 1.73 * (FP / 745.69);\nvar p_VoltCable = Prof_Sensor * 0.01;\nvar p_Cable = POT_SUT - POT_Cable;\n\n/*\n    Paso No. 22: CALCULOS ELECTRICOS. Se calcula el porcentaje de carga, caudal ajustado y la eficiencia\n                porc_car = Porcentaje de carga\n                EF = Eficiencia calculada \n*/\nvar porc_car = (POT_Cable / POT_Placa) * 100;\nvar EF = (-8 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) - 7 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 0.14  * (q_xxo) + 6.6216) / 100 ;\n//var EF = 0.3273; \n\n/*\n    Paso No. 23: CALCULOS ELECTRICOS.\n                EF_motor = Eficiencia del motor\n                POT_motor = Potencia del motor  \n                p_motor = Pérdida del motor\n                POT_sello = Potencia en el sello\n                N_sellos = Número de sellos\n                p_sello = Pérdida en el sello\n                POT_bomba = Potencia en la bomba\n                p_bomba = Pérdida en la bomba\n                POT_real = Potencia real a partir de las pérdidas\n                POT_realC = Potencia real calculada (Para graficar)\n                POT_RCaj = Potencia real calculada ajustada frecuencia\n*/\nvar EF_motor = (-2 * (Math.pow(10, -7)) * (Math.pow(porc_car, 4)) + 1 * (Math.pow(10, -4)) * (Math.pow(porc_car, 3)) - 0.0187 * (Math.pow(porc_car, 2)) + 1.4594 * (porc_car) + 38.618 ) / 100;\nvar POT_motor = POT_Cable * EF_motor;\nvar p_motor = POT_Cable - POT_motor;\nvar POT_sello = POT_motor - (4 * N_sellos);\nvar p_sello = POT_motor - POT_sello;\nvar POT_bomba = POT_sello * EF;\nvar p_bomba = POT_sello - POT_bomba;\nvar POT_real = POT_SUT - (p_Cable + p_motor + p_sello + p_bomba);\nvar POT_realC = 6 * (Math.pow(10, -13)) * (Math.pow(q_xxo, 4)) - 2 * (Math.pow(10, -9)) * (Math.pow(q_xxo, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 4 * (Math.pow(10, -4)) * (q_xxo) + 0.9563;\nvar POT_RCaj = POT_realC * (Math.pow(U_qaj, 3)) * N_etapas;\n\n/*\n    Paso No. 24: VARIABLES INFERIDAD POR POTENCIA\n                v_PIP = Levantamiento del fluido a partir de la potencia\n                v_PIPa = Levantamiento del fluido a partir de la potencia ajustado frecuencia\n                PIP_inf = Presión en la bomba inferida\n                PIP_infc = Presión en la bomba inferida calculada\n*/\nvar v_PIP = POT_real * (136000 / q_xx);\nvar v_PIPa = POT_RCaj * (136000 / q_xx);\nvar PIP_inf = (TDHH - v_PIP) * VP;\nvar PIP_infc = (HEAD - v_PIP) * VP;\n\n/*\n    Paso No. 25: VARIABLES INFERIDAD POR POTENCIA. Se calcula la sumergencia, nivel de fluido y la pwf inferidas y el error\n                S_inf = Sumergencia de la bomba inferida\n                NFD_inf = Nivel de fluido inferido\n                h_intk = Profundidad de la bomba\n                Pwf_inf = Presión de fondo fluyente inferida\n                Porc_PIP_IPR \n                Porc_PIP_POT\n*/\nvar S_inf = (PIP_inf - PCasing) / VP;\nvar NFD_inf = Prof_Intake - S_inf ;\nvar Pwf_inf = PIP_inf + (PMP - Prof_Intake) * VP;\n//var Porc_PIP_IPR = (PI)\n//var Porc_PIP_POT = \n\n/*\n    Paso No. 26: VARIABLES INFERIDAD POR POTENCIA. Levantamiento efectivo del yacimiento\n                He = Levantamiento efectivo del yacimiento\n*/\nvar He = Pwf_inf / VP ;\n\n/*\n    Paso No. 27: VARIABLES INFERIDAD POR POTENCIA. Nivel dinámico desde la superficie\n                Lneto = Nivel dinámico (levantamiento neto)\n                HD = Sumergencia de la bomba\n*/\nvar Lneto = PMP - He;\nvar HD = Prof_Intake - Lneto;\n\n/*\n    Paso No. 28: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM\n                Ct = 120 - constante para tuberías nuevas o 90 para viejas\n                ff = 0,0150\n                F = Factor Hazen William\n                FR = Fricción calculada\n                P_desc = Presión de descarga\n                TDH = Levantamiento neto total\n*/\nvar ct = 120; \nvar F = (2.083 * (Math.pow((100 / ct), 1.85)) * (Math.pow((q_xx / 34.5), 1.85))) / (Math.pow((diam * 12), 4.8655));\nvar FR = F * (l1 / 1000);\nvar P_desc = THP /VP ; \nvar TDH = Lneto + FR + P_desc\n\n/*\n    Paso No. 29: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM. \n                PIP con IPR          \n*/\n//var PIP_IPR = Pwf_P - (VP * (PMP - Prof_Intake));\n\n/*\n    Paso No. 30: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                PIP sin IPR\n*/\n//var PIP_sin_IPR = THP + (* hb + GE_g * 0.433 * (PMP - hb));\n\n/*\n    Paso No. 31: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                POT_pump = Potencia de la bomba calculada (kW)\n*/\nvar POT_pump = (V_motor * A_motor * EF_motor * 1.73 * FP) / 1000;\n\n/*\n    Paso No. 32: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM. \n                Curva de potencia\n*/\nvar POT_c = 2 * (Math.pow(10, -14)) * (Math.pow(qt, 4)) - 4 * (Math.pow(10, -10)) * (Math.pow(qt, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(qt, 2)) + 0.0018 * qt + 49.04;\n\n/*\n    Paso No. 33: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                Eficiencia, head dinamico y carga dinámica\n*/\nvar EFF = (Math.pow((frec / 60), 2)) * (-5 * (Math.pow(10, -14)) * (Math.pow(qt, 4)) + 7 * (Math.pow(10, -10)) * (Math.pow(qt, 3)) - 5 * (Math.pow(10, -6)) * (Math.pow(qt, 2)) + 0.023 * (qt) - 0.1628);\nvar Qt = qt * Bo;\nvar HEAD_din = (Math.pow((frec / 60), 2)) * (-7 * (Math.pow(10, -13)) * (Math.pow(Qt, 4)) + 8 * (Math.pow(10, -9)) * (Math.pow(Qt, 3)) - 3 * (Math.pow(10, -5)) * (Math.pow(Qt, 2)) - 0.0187 * Qt + 1792);\nvar Ho = (Math.pow((frec / 60), 2)) * (-7 * (Math.pow(10, -13)) * (Math.pow(q_xov, 4)) + 8 * (Math.pow(10, -9)) * (Math.pow(q_xov, 3)) - 3 * (Math.pow(10, -5)) * (Math.pow(q_xov, 2)) - 0.0187 * q_xov + 1792);\n\n\n//Data de los Resultados\nvar resultados = {\n    \"(V_motor)Voltaje de salida M\": V_motor,\n    \"(A_motor)Corriente de salida M\": A_motor,\n    \"(FP)Factor de epotencia de M\": FP,\n    \"(frec)Frecuencia de trabajo\": frec,\n    \"(GE_g)GE del Gas\": GE_g,\n    \"(T_fluido)Temperatura de Yacimiento\": T_fluido,\n    \"API\": API,\n    \"(GOR) Relación gas-aceite\": GOR,\n    \"(RS)Relación gasdisuelto-aceite\": RS,\n    \"(Pb)Presion de burbuja\": Pb,\n    \"(GE)Gravedad espeifica del aceite\": GE,\n    \"Alfa\": Alfa,\n    \"Beta\":Beta,\n    \"(GE_o)Gravedad específica de aceite ajustada\": GE_o,\n    \"(Bo)Factor volumétrico de aceite\": Bo,\n    \"(P_pc)Presión pseudocrítica\": P_pc,\n    \"(Fac_compres)Factor de compresibilidad\": Fac_compres,\n    \"(Bg)Factor volumétrico de gas\": Bg,\n    \"(qo)Caudal_de_Aceite\": qo,\n    \"(V_Tg)Volumen de gas total\": V_Tg,\n    \"(V_Sg)Volumen de gas en solución\": V_Sg,\n    \"(V_Fg) Volumen de gas libre\": V_Fg,\n    \"(Vo_int)Volumen de aceite en fondo\": Vo_int,\n    \"(Vg)Volumen de gas libre en fondo\": Vg,\n    \"(qt)Caudal total\": qt,\n    \"(BSW)Relación Petroleo - Agua\": BSW,\n    \"(Vw)Volumen de agua\": Vw,\n    \"(Vt)Volumen total de fluido\": Vt,\n    \"(TMPF)Masa total de los fluido\": TMPF,\n    \"(GE_mix)Gravedad específica de la mezcla\": GE_mix,\n    \"(dens_mix)Densidad de la mezcla\": dens_mix,\n    \"(GE_w)gravedad especifica del agua\": GE_w,\n    \"(x)\": x,\n    \"(y)\": y,\n    \"(z)\": z,\n    \"(visc)Viscosidad del crudo\": visc,\n    \"(Cq)\": Cq,\n    \"(Ch)\": Ch,\n    \"(Cp)\": Cp,\n    \"(qxo)Caudal total (m3/d)\": qxo,\n    \"(U_ref)Frecuencia de referencia\": U_ref,\n    \"(U_qaj)Frecuencia ajustada\": U_qaj,\n    \"(q_xxo)Caudal total ajustado (m3/d)\": q_xxo,\n    \"(HEAD_o)Head inicial\": HEAD_o,\n    \"(EFF_o)Eficiencia inicial\": EFF_o,\n    \"(POWER_o)Potencia inicial\": POWER_o,\n    \"(HEAD)Head ajustado\": HEAD,\n    \"(q_xx)Caudal total ajustado\": q_xx,\n    \"(POWER)Potencia ajustada\": POWER,\n    \"(q_xov)Caudal total ajustado con la viscosidad\": q_xov,\n    \"(EF_bomba)Eficiencia de la bomba corregida vicosidad\": EF_bomba,\n    \"(Area)Área de la tubería por encima de la bomba\": Area,\n    \"(viscO)Viscosidad del crudo (lbf/ft-s)\": viscO,\n    \"(vf)Velocidad del fluid\": vf,\n    \"(q_fm)Caudal total en m3/s\": q_fm,\n    \"(V_fm)Velocidad del fluido en ft/s\": V_fm,\n    \"(re)Número de Reynols\": re,\n    \"(F_fric)Factor de fricción\": F_fric,\n    \"(VP) Gradiente de Presión\": VP,\n    \"(THP_ft)Equivalencia en ft de la presión del tubing\": THP_ft,\n    \"(p_fric)Pérdidas generadas por fricción\": p_fric,\n    \"(p_grav)Pérdidas por gravedad\": p_grav,\n    \"(Caida_presion)\": Caida_presion,\n    \"(TDHH)Levantamiento en ft ajustado fricción\": TDHH,\n    \"(POT_SUT)Potencia del SUT\": POT_SUT,\n    \"(POT_Cable)Potencia del clable\": POT_Cable,\n    \"(p_VoltCable)\": p_VoltCable,\n    \"(p_Cable) Perdidas en el cable\": p_Cable,\n    \"(porc_car)\": porc_car,\n    \"(EF)Eficiencia calculada \": EF,\n    \"EF_motor(Eficiencia del motor)\": EF_motor, \n    \"(POT_motor)Potencia del motor\": POT_motor,\n    \"(p_motor)Pérdida del motor\": p_motor,\n    \"(POT_sello)Potencia en el sello\": POT_sello,\n    \"(p_sello)Pérdida en el sello\": p_sello,\n    \"(POT_bomba)Potencia en la bomba\": POT_bomba,\n    \"(p_bomba)Pérdida en la bomba\": p_bomba,\n    \"(POT_real)Potencia real a partir de las pérdidas\": POT_real,\n    \"(POT_realC)Potencia real calculada \": POT_realC,\n    \"(POT_RCaj)Potencia real calculada ajustada frecuencia\": POT_RCaj,\n    \"(v_PIP)Levantamiento del fluido a partir de la potencia \": v_PIP,\n    \"(v_PIPa)Levantamiento del fluido a partir de la potencia ajustado frecuencuencia\": v_PIPa,\n    \"(PIP_inf)Presión en la bomba inferida\": PIP_inf,\n    \"(PIP_infc)Presión en la bomba inferida calculada\": PIP_infc,\n    \"(S_inf)Sumergencia de la bomba inferida\": S_inf,\n    \"(NFD_inf)Nivel de fluido inferido\": NFD_inf,\n    \"(Pwf_inf)Presión de fondo fluyente inferida\": Pwf_inf,\n    \"(He)Levantamiento efectivo del yacimiento\": He,\n    \"(Lneto)Nivel dinámico (levantamiento neto)\": Lneto,\n    \"(HD)Sumergencia de la bomba\": HD,\n    \"(F)Factor Hazen William\": F,\n    \"(FR)Fricción calculada\": FR,\n    \"(P_desc)Presión de descarga\": P_desc,\n    \"(TDH)Levantamiento neto total\": TDH,\n    \"(POT_pump)Potencia de la bomba calculad\": POT_pump,\n    \"(POT_c)Curva de potencia\": POT_c,\n    \"(EFF)\": EFF,\n    \"(Qt)\": Qt,\n    \"(HEAD_din)head dinamico\": HEAD_din,\n    \"(Ho)carga dinámica\": Ho,\n    \"(EF_motor)Eficiencia del motor\": EF_motor,\n};\ncontext.set(\"resultados\", resultados, \"memoryOnly\");\ncontext.set(\"frec\", frec, \"memoryOnly\");\ncontext.set(\"V_motor\", V_motor, \"memoryOnly\");\ncontext.set(\"A_motor\", A_motor, \"memoryOnly\");\ncontext.set(\"FP\", FP, \"memoryOnly\");\n\nreturn [\n    MSG(PIP_inf),\n    MSG(NFD_inf),\n    MSG(S_inf),\n    MSG(q_xov)\n];\n\nfunction MSG(X) {\n    return { payload: X }\n}",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 1720,
+        "wires": [
+            [
+                "7d0fb5e1b5d85914"
+            ],
+            [
+                "9d7807bc3969807d"
+            ],
+            [
+                "f4f95fc766314268"
+            ],
+            [
+                "560d12e1fedae98e"
+            ]
+        ]
+    },
+    {
+        "id": "7d0fb5e1b5d85914",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SENSORLESS.PIP_inferida",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d7807bc3969807d",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SENSORLESS.Nivel_de_fluido_inferido",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4f95fc766314268",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SENSORLESS.Sumergencia_inferida",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "560d12e1fedae98e",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SENSORLESS.Caudal_ajustado_con_la_viscosidad",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1050,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e77e45481f2ce74",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Caudal de Aceite [BBL/d]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 4,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 510,
+        "y": 1120,
+        "wires": [
+            [
+                "1f5b91745cf74c06"
+            ]
+        ]
+    },
+    {
+        "id": "1f5b91745cf74c06",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Aceite",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11282e89dc9749a9",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Caudal de Agua [BBL/d]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 5,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 510,
+        "y": 1160,
+        "wires": [
+            [
+                "a850b4c0d60fb314"
+            ]
+        ]
+    },
+    {
+        "id": "a850b4c0d60fb314",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Agua",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a651d20b61d8eae1",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Gravedad especifica del agua",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 6,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 530,
+        "y": 1200,
+        "wires": [
+            [
+                "92af29b43d98cf42"
+            ]
+        ]
+    },
+    {
+        "id": "92af29b43d98cf42",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Gravedad_especifica_del_agua",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb0e848bf8df0746",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Frecuencia de referencia [Hz]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 7,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 530,
+        "y": 1240,
+        "wires": [
+            [
+                "57b0e7b8b4128b6d"
+            ]
+        ]
+    },
+    {
+        "id": "57b0e7b8b4128b6d",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_referencia",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "477274a152d422ef",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "N° de etapas",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 8,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 470,
+        "y": 1280,
+        "wires": [
+            [
+                "60c53a5b248e3c83"
+            ]
+        ]
+    },
+    {
+        "id": "60c53a5b248e3c83",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.N_etapas",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "968e4e27382ad46b",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Diametro de tuberia [ft]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 9,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 1320,
+        "wires": [
+            [
+                "e2cab74926656de7"
+            ]
+        ]
+    },
+    {
+        "id": "73514f96913027d0",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Presion en el tubing [psi]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 10,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 510,
+        "y": 1360,
+        "wires": [
+            [
+                "f4c2848e1a087910"
+            ]
+        ]
+    },
+    {
+        "id": "7ef0d7fd20e90152",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Longitud del tubing [ft]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 11,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 1400,
+        "wires": [
+            [
+                "88efa1935790c033"
+            ]
+        ]
+    },
+    {
+        "id": "f4c2848e1a087910",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Presion_en_el_tubing",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88efa1935790c033",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Longitud_del_tubing",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 1400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a940c34393a3c21f",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Longitud del cable [ft]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 12,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 500,
+        "y": 1440,
+        "wires": [
+            [
+                "be0ea5dc9ccd2372"
+            ]
+        ]
+    },
+    {
+        "id": "be0ea5dc9ccd2372",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Longitud_cable",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a615ab4f97d0df6c",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "Potencia de la Placa [V]",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 13,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 510,
+        "y": 1480,
+        "wires": [
+            [
+                "44e2d32a5618e21f"
+            ]
+        ]
+    },
+    {
+        "id": "e14265ab1a2c8731",
+        "type": "ui_text_input",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "label": "N° Sellos",
+        "tooltip": "",
+        "group": "8c7f5396abbccd01",
+        "order": 14,
+        "width": "4",
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 460,
+        "y": 1520,
+        "wires": [
+            [
+                "b90c6c88f56765e9"
+            ]
+        ]
+    },
+    {
+        "id": "b90c6c88f56765e9",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "de313b37d3ca86b4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "IWOC.DATOS_PARA_SENSORLESS.Num_sellos",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "254d7e43d4da949b",
+        "type": "ui_button",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "group": "89e12b591528cad3",
+        "order": 15,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Volver",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1960,
+        "wires": [
+            [
+                "6808c817415805b5"
+            ]
+        ]
+    },
+    {
+        "id": "0ebc59faa17f71f7",
+        "type": "ui_button",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "group": "8c7f5396abbccd01",
+        "order": 17,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Ver gráfica IPR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 200,
+        "y": 1920,
+        "wires": [
+            [
+                "8afe9a4a74d1ad72",
+                "406a7ba5773d9ccb"
+            ]
+        ]
+    },
+    {
+        "id": "54fca041998ebf96",
+        "type": "link out",
+        "z": "2e27dea6.c4c362",
+        "name": "cambio de usuario",
+        "links": [
+            "65f9fd69cd644489"
+        ],
+        "x": 1685,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "6092027b3ec84b2c",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "links": [
+            "e28cc76463d5d568",
+            "c4e5b48a61ef3ffd"
+        ],
+        "x": 255,
+        "y": 2020,
+        "wires": [
+            [
+                "6808c817415805b5"
+            ]
+        ]
+    },
+    {
+        "id": "6808c817415805b5",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "name": "Datos",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"AVAS®_Gráfica_IPR\"],\t       \"show\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "Navegación.AVAS",
+                "pt": "global",
+                "to": "settings",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 1960,
+        "wires": [
+            [
+                "11fab97f0376f949"
+            ]
+        ]
+    },
+    {
+        "id": "8afe9a4a74d1ad72",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "name": "IPR",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"AVAS®_Gráfica_IPR\"],\t       \"hide\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "Navegación.AVAS",
+                "pt": "global",
+                "to": "IPR",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 1920,
+        "wires": [
+            [
+                "11fab97f0376f949"
+            ]
+        ]
+    },
+    {
+        "id": "11fab97f0376f949",
+        "type": "link out",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "links": [
+            "805762db.d27b7"
+        ],
+        "x": 515,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "406a7ba5773d9ccb",
+        "type": "link out",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "links": [
+            "cfb560564fd78c85",
+            "e6fb7f8fce8d014a"
+        ],
+        "x": 325,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "e6fb7f8fce8d014a",
+        "type": "link in",
+        "z": "7af521b51c8e6a51",
+        "g": "61a0e01d8198af31",
+        "name": "",
+        "links": [
+            "406a7ba5773d9ccb"
+        ],
+        "x": 415,
+        "y": 900,
+        "wires": [
+            [
+                "81e868e2dc43d637"
+            ]
+        ]
+    },
+    {
+        "id": "9a3fe8f4e8cd6366",
+        "type": "link in",
+        "z": "7af521b51c8e6a51",
+        "name": "",
+        "links": [
+            "ecf98f3f.4a704"
+        ],
+        "x": 475,
+        "y": 1720,
+        "wires": [
+            [
+                "71afc427dc4e32a5"
             ]
         ]
     }
