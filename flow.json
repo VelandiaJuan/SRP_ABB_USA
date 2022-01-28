@@ -1150,13 +1150,21 @@
             "9bf850479811451b",
             "a9ea2f32ef0100a8",
             "6b3d4586f5261369",
-            "e3c16ca3.413fe",
-            "917c8ac6.aa72e8"
+            "917c8ac6.aa72e8",
+            "0fd3e2e27d9d0b07",
+            "b2f24c7fe6177738",
+            "627e721583dda1c1",
+            "501877860b9d3fc8",
+            "8c3a98707b868c5f",
+            "864a29df26985766",
+            "0fddcf4a071bf7c0",
+            "f3617af339d8b6d7",
+            "fc4ece5efd45fece"
         ],
         "x": 84,
-        "y": 239,
-        "w": 2802,
-        "h": 232
+        "y": 231.5,
+        "w": 3462,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -6183,7 +6191,11 @@
             "9cc6dcc0a22ca5be",
             "e2ae23cedd8d79b2",
             "dd86e7bfc458132d",
-            "65668775670971ab"
+            "65668775670971ab",
+            "5c5a57034b3ebcb6",
+            "b46ed58666d05868",
+            "4bb927bdead6c4f4",
+            "58db1d6c09803d7d"
         ],
         "x": 1394,
         "y": 1019,
@@ -35680,10 +35692,10 @@
         "wires": [
             [
                 "6faf6e85.a53ad",
-                "ed649516.fdb838"
+                "0fd3e2e27d9d0b07"
             ],
             [
-                "ed649516.fdb838"
+                "0fd3e2e27d9d0b07"
             ]
         ]
     },
@@ -35705,13 +35717,13 @@
         "type": "change",
         "z": "e7088c4e.cc6b4",
         "g": "9b538856.60fb38",
-        "name": "Datalogger",
+        "name": "Smart Datalogger®",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea descargar los archivos de Datalogger?",
+                "to": "¿Desea descargar los archivos de Smart Datalogger®?",
                 "tot": "str"
             },
             {
@@ -35727,11 +35739,11 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1870,
-        "y": 330,
+        "x": 1950,
+        "y": 340,
         "wires": [
             [
-                "bc78207d.aabd4"
+                "864a29df26985766"
             ]
         ]
     },
@@ -35750,8 +35762,8 @@
         "raw": false,
         "topic": "",
         "name": "Descargar Datalogger",
-        "x": 2060,
-        "y": 330,
+        "x": 2720,
+        "y": 380,
         "wires": [
             [
                 "85d73faa.116d8"
@@ -35781,8 +35793,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2230,
-        "y": 330,
+        "x": 2890,
+        "y": 380,
         "wires": [
             [
                 "ecf97624.7b4b68"
@@ -35803,8 +35815,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 2660,
-        "y": 330,
+        "x": 3320,
+        "y": 380,
         "wires": [
             [],
             [],
@@ -35840,8 +35852,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2370,
-        "y": 330,
+        "x": 3030,
+        "y": 380,
         "wires": [
             [
                 "7b1a1485.ef152c"
@@ -77287,32 +77299,6 @@
         ]
     },
     {
-        "id": "e3c16ca3.413fe",
-        "type": "change",
-        "z": "e7088c4e.cc6b4",
-        "g": "9b538856.60fb38",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1640,
-        "y": 430,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "84a10c4b.f35cd",
         "type": "link in",
         "z": "3af652c9.6f9bee",
@@ -89238,5 +89224,367 @@
         "x": 1840,
         "y": 1060,
         "wires": []
+    },
+    {
+        "id": "0fd3e2e27d9d0b07",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "SAG y SWELL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "¿Desea descargar el archivo de eventos eléctricos SAG y SWELL??",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Dispositivo USB encontrado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1700,
+        "y": 420,
+        "wires": [
+            [
+                "b2f24c7fe6177738"
+            ]
+        ]
+    },
+    {
+        "id": "b2f24c7fe6177738",
+        "type": "ui_toast",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "SI",
+        "cancel": "NO",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Descargar SmartDatalogger",
+        "x": 1920,
+        "y": 420,
+        "wires": [
+            [
+                "627e721583dda1c1"
+            ]
+        ]
+    },
+    {
+        "id": "627e721583dda1c1",
+        "type": "switch",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "SI",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "NO",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2110,
+        "y": 420,
+        "wires": [
+            [
+                "501877860b9d3fc8",
+                "ed649516.fdb838"
+            ],
+            [
+                "ed649516.fdb838"
+            ]
+        ]
+    },
+    {
+        "id": "501877860b9d3fc8",
+        "type": "link out",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "links": [
+            "2799609cfcd2c122",
+            "5c5a57034b3ebcb6"
+        ],
+        "x": 2235,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8c3a98707b868c5f",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "Datalogger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "¿Desea descargar los archivos de Datalogger?",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Dispositivo USB encontrado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2530,
+        "y": 380,
+        "wires": [
+            [
+                "bc78207d.aabd4"
+            ]
+        ]
+    },
+    {
+        "id": "864a29df26985766",
+        "type": "ui_toast",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "SI",
+        "cancel": "NO",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Descargar SmartDatalogger®",
+        "x": 2190,
+        "y": 340,
+        "wires": [
+            [
+                "0fddcf4a071bf7c0"
+            ]
+        ]
+    },
+    {
+        "id": "5c5a57034b3ebcb6",
+        "type": "link in",
+        "z": "e7088c4e.cc6b4",
+        "g": "ef99c8bf39cb12ee",
+        "name": "",
+        "links": [
+            "501877860b9d3fc8"
+        ],
+        "x": 2515,
+        "y": 2040,
+        "wires": [
+            [
+                "b46ed58666d05868"
+            ]
+        ]
+    },
+    {
+        "id": "b46ed58666d05868",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "ef99c8bf39cb12ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PQAEvents.data",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "+++/PQA/PQAevents.csv",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "USB_Drive",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2640,
+        "y": 2040,
+        "wires": [
+            [
+                "4bb927bdead6c4f4"
+            ]
+        ]
+    },
+    {
+        "id": "4bb927bdead6c4f4",
+        "type": "csv",
+        "z": "e7088c4e.cc6b4",
+        "g": "ef99c8bf39cb12ee",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "no,fecha,hora,alarma",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 2790,
+        "y": 2040,
+        "wires": [
+            [
+                "58db1d6c09803d7d"
+            ]
+        ]
+    },
+    {
+        "id": "58db1d6c09803d7d",
+        "type": "file",
+        "z": "e7088c4e.cc6b4",
+        "g": "ef99c8bf39cb12ee",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 2910,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fddcf4a071bf7c0",
+        "type": "switch",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "SI",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "NO",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2390,
+        "y": 340,
+        "wires": [
+            [
+                "f3617af339d8b6d7",
+                "8c3a98707b868c5f"
+            ],
+            [
+                "8c3a98707b868c5f"
+            ]
+        ]
+    },
+    {
+        "id": "f3617af339d8b6d7",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "CP Directory",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "+++/SmartDatalogger",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "USB_Drive",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2530,
+        "y": 280,
+        "wires": [
+            [
+                "fc4ece5efd45fece"
+            ]
+        ]
+    },
+    {
+        "id": "fc4ece5efd45fece",
+        "type": "exec",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "command": "sudo cp -R /home/bcpgrp/node_modules/SmartDatalogger ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 2830,
+        "y": 280,
+        "wires": [
+            [],
+            [],
+            []
+        ]
     }
 ]
