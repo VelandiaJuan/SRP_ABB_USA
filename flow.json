@@ -2773,12 +2773,135 @@
             "a26de32e2dcd2d22",
             "8cf1c791b0b47299",
             "dbce895a0f6ce0d4",
-            "7d85f80cc3c27c5f"
+            "7d85f80cc3c27c5f",
+            "74580d7aefe3b448",
+            "f053a3ef63abbf05",
+            "4ae0bb1a2ebb141b",
+            "ee89b458b55779ef"
         ],
         "x": 84,
         "y": 999,
         "w": 1272,
-        "h": 322
+        "h": 402
+    },
+    {
+        "id": "ef99c8bf39cb12ee",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "Datalogger inteligente",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4d34d9c39ea9ded2",
+            "d38e41d42749671a",
+            "969d8fb4a4d15631",
+            "97c807c1cde7d7ad",
+            "054ce8d4b4d3feaa",
+            "f721ad059ebe8c87",
+            "7e23e60415c042ca",
+            "99c66c0d456be274",
+            "7f68e60b6bcca236",
+            "3e1b13e612db7827",
+            "dac1d568dc8320ef",
+            "fe70b631c41feb58",
+            "f23a659cd0a28f68",
+            "45ea2f3b7b0db088",
+            "185362389c4ba49c",
+            "aa0c6f2f1857c988",
+            "9f928098844fc95b",
+            "f4b48211bb151221",
+            "f122345c94f70dd6",
+            "07425a23aa5a0f54",
+            "71f2a010dbe92ca0",
+            "32a1993d1a97aa54",
+            "7b25eaf1bbcded8c",
+            "367ccf51e2a0b6a6",
+            "16afa1f5f7dc62c6",
+            "92681599211b5c1a",
+            "f23be6785e9ef561",
+            "92a3ced62fe1792f",
+            "35829a65d3583713",
+            "4a9f332cf0866f31",
+            "0ee3bd6b8995e671",
+            "f0241497e5ab15d9",
+            "1e62621c23af5836",
+            "e9e2cd19031e3496",
+            "4081874fcc1e456f",
+            "bd2caffeba935272",
+            "575e2c87503e8e40",
+            "a2c7905d2fd47522",
+            "b62ae7ee359ad1c8",
+            "41dcf4bd9dbee179",
+            "73cfbcfce264d0b2",
+            "47fd7e4516cca7ea",
+            "80db24a4bf6da7a1",
+            "dc02777dd42d3b3c",
+            "c9ada558c6cd767a",
+            "2db8861f9036d4b5",
+            "d6cc6a14211fbb52",
+            "f81c5469551cda8f",
+            "6a66df72dcc45e12",
+            "450b7d6a02c8f87a",
+            "7ae6c01eed40c021",
+            "35804c8cf6abb4b4",
+            "0ddb0b7d6b3ad0ea",
+            "51e2ba8e9d633518",
+            "907554900c736361",
+            "2503fbac96a3adb4",
+            "9880e17fc566d4a0",
+            "2dcdcbefc82e8eee",
+            "ddcc2b539ae52a88",
+            "4f42a07c80b4d5bc",
+            "78802ee4ab2d7860",
+            "079f9b945da9d33a",
+            "4f21f696a5414e2a",
+            "a7d327324e0d9817",
+            "fb821b484a78cf1d",
+            "e886da873e0ee6a0",
+            "8c1d7db85d4d9264",
+            "49c5e6d960779b36",
+            "5da98c90313abc58",
+            "bc3666a5f87878f4",
+            "70cc72ed49d03464",
+            "a0c2e815c0d9e4d4",
+            "dc748c8ba6c06c76",
+            "c45fd7bb53fd598e",
+            "3a5768aeb6cdd348",
+            "2f31be3d5d542ff6",
+            "3c2754ab7c4da092",
+            "328f2a1a633d116e",
+            "6a59c2215811b08b",
+            "74eb7f10c4cccd95",
+            "fb752468a5e98b48",
+            "b552ad2437f71beb",
+            "3120732a7cdecb8c",
+            "f6ef5c936a2f64f1",
+            "624db792d9278081",
+            "38dfb44b87844fdf",
+            "85de4bfdecc8488f",
+            "5d0bec7de83934b7",
+            "8957fbfe4d116bbd",
+            "f736a5abb72e972f",
+            "281862cc6ff52331",
+            "388a0627e7b6f7c9",
+            "9efbbc4fce014bcb",
+            "68f331b06f4142f2",
+            "4555b569a677dcaf",
+            "a411cc3e683eabea",
+            "f70dbb20e18055b9",
+            "9de3a38ace1638b8",
+            "c43eb4c44df0964c",
+            "9cc6dcc0a22ca5be",
+            "e2ae23cedd8d79b2",
+            "dd86e7bfc458132d",
+            "65668775670971ab"
+        ],
+        "x": 1394,
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "e2e299a6.d3c5c8",
@@ -6078,129 +6201,6 @@
         ],
         "x": 1394,
         "y": 459
-    },
-    {
-        "id": "ef99c8bf39cb12ee",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "name": "Datalogger inteligente",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "4d34d9c39ea9ded2",
-            "d38e41d42749671a",
-            "969d8fb4a4d15631",
-            "97c807c1cde7d7ad",
-            "054ce8d4b4d3feaa",
-            "f721ad059ebe8c87",
-            "7e23e60415c042ca",
-            "99c66c0d456be274",
-            "7f68e60b6bcca236",
-            "3e1b13e612db7827",
-            "dac1d568dc8320ef",
-            "fe70b631c41feb58",
-            "f23a659cd0a28f68",
-            "45ea2f3b7b0db088",
-            "185362389c4ba49c",
-            "aa0c6f2f1857c988",
-            "9f928098844fc95b",
-            "f4b48211bb151221",
-            "f122345c94f70dd6",
-            "07425a23aa5a0f54",
-            "71f2a010dbe92ca0",
-            "32a1993d1a97aa54",
-            "7b25eaf1bbcded8c",
-            "367ccf51e2a0b6a6",
-            "16afa1f5f7dc62c6",
-            "92681599211b5c1a",
-            "f23be6785e9ef561",
-            "92a3ced62fe1792f",
-            "35829a65d3583713",
-            "4a9f332cf0866f31",
-            "0ee3bd6b8995e671",
-            "f0241497e5ab15d9",
-            "1e62621c23af5836",
-            "e9e2cd19031e3496",
-            "4081874fcc1e456f",
-            "bd2caffeba935272",
-            "575e2c87503e8e40",
-            "a2c7905d2fd47522",
-            "b62ae7ee359ad1c8",
-            "41dcf4bd9dbee179",
-            "73cfbcfce264d0b2",
-            "47fd7e4516cca7ea",
-            "80db24a4bf6da7a1",
-            "dc02777dd42d3b3c",
-            "c9ada558c6cd767a",
-            "2db8861f9036d4b5",
-            "d6cc6a14211fbb52",
-            "f81c5469551cda8f",
-            "6a66df72dcc45e12",
-            "450b7d6a02c8f87a",
-            "7ae6c01eed40c021",
-            "35804c8cf6abb4b4",
-            "0ddb0b7d6b3ad0ea",
-            "51e2ba8e9d633518",
-            "907554900c736361",
-            "2503fbac96a3adb4",
-            "9880e17fc566d4a0",
-            "2dcdcbefc82e8eee",
-            "ddcc2b539ae52a88",
-            "4f42a07c80b4d5bc",
-            "78802ee4ab2d7860",
-            "079f9b945da9d33a",
-            "4f21f696a5414e2a",
-            "a7d327324e0d9817",
-            "fb821b484a78cf1d",
-            "e886da873e0ee6a0",
-            "8c1d7db85d4d9264",
-            "49c5e6d960779b36",
-            "5da98c90313abc58",
-            "bc3666a5f87878f4",
-            "70cc72ed49d03464",
-            "a0c2e815c0d9e4d4",
-            "dc748c8ba6c06c76",
-            "c45fd7bb53fd598e",
-            "3a5768aeb6cdd348",
-            "2f31be3d5d542ff6",
-            "3c2754ab7c4da092",
-            "328f2a1a633d116e",
-            "6a59c2215811b08b",
-            "74eb7f10c4cccd95",
-            "fb752468a5e98b48",
-            "b552ad2437f71beb",
-            "3120732a7cdecb8c",
-            "f6ef5c936a2f64f1",
-            "624db792d9278081",
-            "38dfb44b87844fdf",
-            "85de4bfdecc8488f",
-            "5d0bec7de83934b7",
-            "8957fbfe4d116bbd",
-            "f736a5abb72e972f",
-            "281862cc6ff52331",
-            "388a0627e7b6f7c9",
-            "9efbbc4fce014bcb",
-            "68f331b06f4142f2",
-            "4555b569a677dcaf",
-            "a411cc3e683eabea",
-            "f70dbb20e18055b9",
-            "9de3a38ace1638b8",
-            "c43eb4c44df0964c",
-            "9cc6dcc0a22ca5be",
-            "e2ae23cedd8d79b2",
-            "dd86e7bfc458132d",
-            "65668775670971ab",
-            "5c5a57034b3ebcb6",
-            "b46ed58666d05868",
-            "4bb927bdead6c4f4",
-            "58db1d6c09803d7d"
-        ],
-        "x": 1394,
-        "y": 1019,
-        "w": 1992,
-        "h": 1102
     },
     {
         "id": "d25d405a.19cff",
@@ -89327,7 +89327,8 @@
         "name": "",
         "links": [
             "2799609cfcd2c122",
-            "5c5a57034b3ebcb6"
+            "5c5a57034b3ebcb6",
+            "74580d7aefe3b448"
         ],
         "x": 2235,
         "y": 420,
@@ -89390,108 +89391,6 @@
             [
                 "0fddcf4a071bf7c0"
             ]
-        ]
-    },
-    {
-        "id": "5c5a57034b3ebcb6",
-        "type": "link in",
-        "z": "e7088c4e.cc6b4",
-        "g": "ef99c8bf39cb12ee",
-        "name": "",
-        "links": [
-            "501877860b9d3fc8"
-        ],
-        "x": 2515,
-        "y": 2040,
-        "wires": [
-            [
-                "b46ed58666d05868"
-            ]
-        ]
-    },
-    {
-        "id": "b46ed58666d05868",
-        "type": "change",
-        "z": "e7088c4e.cc6b4",
-        "g": "ef99c8bf39cb12ee",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PQAEvents.data",
-                "tot": "global"
-            },
-            {
-                "t": "set",
-                "p": "filename",
-                "pt": "msg",
-                "to": "+++/PQA/PQAevents.csv",
-                "tot": "str"
-            },
-            {
-                "t": "change",
-                "p": "filename",
-                "pt": "msg",
-                "from": "+++",
-                "fromt": "str",
-                "to": "USB_Drive",
-                "tot": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2640,
-        "y": 2040,
-        "wires": [
-            [
-                "4bb927bdead6c4f4"
-            ]
-        ]
-    },
-    {
-        "id": "4bb927bdead6c4f4",
-        "type": "csv",
-        "z": "e7088c4e.cc6b4",
-        "g": "ef99c8bf39cb12ee",
-        "name": "",
-        "sep": ",",
-        "hdrin": "",
-        "hdrout": "none",
-        "multi": "one",
-        "ret": "\\n",
-        "temp": "no,fecha,hora,alarma",
-        "skip": "0",
-        "strings": true,
-        "include_empty_strings": "",
-        "include_null_values": "",
-        "x": 2790,
-        "y": 2040,
-        "wires": [
-            [
-                "58db1d6c09803d7d"
-            ]
-        ]
-    },
-    {
-        "id": "58db1d6c09803d7d",
-        "type": "file",
-        "z": "e7088c4e.cc6b4",
-        "g": "ef99c8bf39cb12ee",
-        "name": "",
-        "filename": "",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 2910,
-        "y": 2040,
-        "wires": [
-            []
         ]
     },
     {
@@ -89585,6 +89484,108 @@
             [],
             [],
             []
+        ]
+    },
+    {
+        "id": "ee89b458b55779ef",
+        "type": "file",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 730,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ae0bb1a2ebb141b",
+        "type": "csv",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "no,fecha,hora,alarma",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 1360,
+        "wires": [
+            [
+                "ee89b458b55779ef"
+            ]
+        ]
+    },
+    {
+        "id": "f053a3ef63abbf05",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PQAEvents.data",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "filename",
+                "pt": "msg",
+                "to": "+++/PQA/PQAevents.csv",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "USB_Drive",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 1360,
+        "wires": [
+            [
+                "4ae0bb1a2ebb141b"
+            ]
+        ]
+    },
+    {
+        "id": "74580d7aefe3b448",
+        "type": "link in",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "links": [
+            "501877860b9d3fc8"
+        ],
+        "x": 315,
+        "y": 1360,
+        "wires": [
+            [
+                "f053a3ef63abbf05"
+            ]
         ]
     }
 ]
