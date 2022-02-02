@@ -1181,7 +1181,9 @@
             "fc4ece5efd45fece"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3462,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1197,7 +1199,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1283,7 +1287,9 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -2349,7 +2355,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "c2c81bf2.d0a218",
@@ -2766,7 +2774,9 @@
             "ead83bdf05616014"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1464,
+        "h": 1114
     },
     {
         "id": "6ce8e77fdd3e0883",
@@ -2800,7 +2810,9 @@
             "98c32ee0a85b9ad7"
         ],
         "x": 474,
-        "y": 1039
+        "y": 1039,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "a73c3da33ecbc290",
@@ -2836,7 +2848,9 @@
             "ee89b458b55779ef"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2953,7 +2967,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "de313b37d3ca86b4",
@@ -2989,8 +3005,8 @@
             "e2cab74926656de7",
             "44e2d32a5618e21f"
         ],
-        "x": 374,
-        "y": 1079,
+        "x": 14,
+        "y": 1019,
         "w": 892,
         "h": 482
     },
@@ -4303,7 +4319,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -4328,7 +4346,9 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5133,7 +5153,9 @@
             "d22f737e1faaee45"
         ],
         "x": 44,
-        "y": 949
+        "y": 949,
+        "w": 412,
+        "h": 162
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -5194,7 +5216,9 @@
             "20a33011be6557f7"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1412,
+        "h": 882
     },
     {
         "id": "61a0e01d8198af31",
@@ -6474,6 +6498,63 @@
         ],
         "x": 1394,
         "y": 459
+    },
+    {
+        "id": "bb085715e2738a9c",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "name": "Asignación de datos",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "71afc427dc4e32a5",
+            "7d0fb5e1b5d85914",
+            "9d7807bc3969807d",
+            "f4f95fc766314268",
+            "560d12e1fedae98e",
+            "9a3fe8f4e8cd6366"
+        ],
+        "x": 14,
+        "y": 1519,
+        "w": 872,
+        "h": 202
+    },
+    {
+        "id": "5dc71a84bf12ae23",
+        "type": "group",
+        "z": "7af521b51c8e6a51",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c8c0bcb1ebd9fe87",
+            "68a2367b68a2d36b",
+            "74b76e998626d493",
+            "8b6c1f1de90514c9",
+            "3232c7cbd0e96a18",
+            "8f3bb3f83df36820",
+            "9760d6fc054dbb32",
+            "658aee5f55fd0840",
+            "485f8467108ee0df",
+            "cf63e264fc5ccf5c",
+            "da666b63953f842e",
+            "b3903684adce0c4c",
+            "9359569d1a0d28db",
+            "f2cbfa42b06d2425",
+            "43cd392ac81ac6ca"
+        ],
+        "x": 1234,
+        "y": 19,
+        "w": 932,
+        "h": 282
     },
     {
         "id": "d25d405a.19cff",
@@ -9702,7 +9783,7 @@
         "type": "ui_group",
         "name": "Estado mecánico",
         "tab": "227ab2732f98bbdb",
-        "order": 1,
+        "order": 2,
         "disp": true,
         "width": "16",
         "collapse": false,
@@ -9713,7 +9794,7 @@
         "type": "ui_group",
         "name": "Propiedades de flujo",
         "tab": "227ab2732f98bbdb",
-        "order": 2,
+        "order": 3,
         "disp": true,
         "width": "16",
         "collapse": false,
@@ -9724,7 +9805,7 @@
         "type": "ui_group",
         "name": "Pruebas de producción",
         "tab": "227ab2732f98bbdb",
-        "order": 3,
+        "order": 4,
         "disp": true,
         "width": "16",
         "collapse": false,
@@ -9735,7 +9816,7 @@
         "type": "ui_group",
         "name": "Datos de instalación",
         "tab": "227ab2732f98bbdb",
-        "order": 4,
+        "order": 5,
         "disp": true,
         "width": "16",
         "collapse": false,
@@ -9746,7 +9827,7 @@
         "type": "ui_group",
         "name": "Gráfica IPR",
         "tab": "227ab2732f98bbdb",
-        "order": 5,
+        "order": 6,
         "disp": true,
         "width": "16",
         "collapse": false,
@@ -9904,6 +9985,39 @@
         "order": 6,
         "width": 1,
         "height": 1
+    },
+    {
+        "id": "737fcab07a3aa4b4",
+        "type": "ui_group",
+        "name": "Nav_bar",
+        "tab": "227ab2732f98bbdb",
+        "order": 1,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3eee573de2d0980e",
+        "type": "ui_group",
+        "name": "Amperimetric",
+        "tab": "227ab2732f98bbdb",
+        "order": 7,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a39e6048e5caa3d",
+        "type": "ui_spacer",
+        "z": "7af521b51c8e6a51",
+        "name": "spacer",
+        "group": "3eee573de2d0980e",
+        "order": 4,
+        "width": "2",
+        "height": "6",
+        "className": ""
     },
     {
         "id": "e765ca36.69fb98",
@@ -10835,7 +10949,8 @@
             "e65ba7a271b6d8d4",
             "ad037575e738b405",
             "365d1eacfdb44888",
-            "9a3fe8f4e8cd6366"
+            "9a3fe8f4e8cd6366",
+            "9760d6fc054dbb32"
         ],
         "x": 345,
         "y": 1420,
@@ -85340,7 +85455,8 @@
             "44ea48cb2ca745c9",
             "dbce895a0f6ce0d4",
             "a35fe3447df55cee",
-            "6092027b3ec84b2c"
+            "6092027b3ec84b2c",
+            "485f8467108ee0df"
         ],
         "x": 1635,
         "y": 620,
@@ -91212,8 +91328,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1320,
+        "x": 570,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -91238,8 +91354,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1480,
+        "x": 570,
+        "y": 1420,
         "wires": [
             []
         ]
@@ -91248,6 +91364,7 @@
         "id": "71afc427dc4e32a5",
         "type": "function",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "Calculos SensorLess",
         "func": "var Analog = global.get(\"DownHoleData\",\"memoryOnly\")||[];\n\n//Variables electricas \nvar frec            = global.get(\"C2S.Implicit.Output_Frequency\", \"memoryOnly\") || 0; // Frecuencia de trabajo\nvar V_motor         = global.get(\"C2S.Implicit.Output_Voltage\", \"memoryOnly\")|| 0; // Voltaje de salida del variador\nvar A_motor         = global.get(\"C2S.Implicit.Output_Current\", \"memoryOnly\") || 0; //Corriente de salida del variaador\nvar FP              = global.get(\"C2S.Implicit.Power_Factor\", \"memoryOnly\") || 0;// Factor de potencia\n\n// ESTADO MECANICO\nvar PMP             = global.get(\"IWOC.ESTADO_MECANICO.PMP\")||2842; //Punto medio de perforados \nvar Prof_Discharge  = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_descarga\")||0;\nvar Prof_Sensor     = global.get(\"IWOC.ESTADO_MECANICO.Prof_Sensor\")||2842;\nvar Prof_Intake     = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_entrada\")||2586.73;\n\n// PROPIEDADES DE FLUIDO\nvar API             = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.API\")||13.8;\nvar T_fluido        = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo\")||150;\nvar Dens_Agua       = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua\")||8.33;\n\n// PRUEBA DE PRODUCCION\nvar Pwf_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba\")||750;\nvar Q_p             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba\")||2300;\nvar Vel_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba\")||0;\n\n// DATOS PARA IPR\nvar Py = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_yacimiento\") || 1110.14;\nvar Pcrit           = global.get(\"IWOC.DATOS_PARA_IPR.PWF_Critica\")||1050;\nvar Pb              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_burbuja\")||130;\n\n//DATOS PARA SENSORLESS\nvar qo              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Aceite\") || 132;\nvar qw              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Caudal_de_Agua\") || 3422;\nvar GE_w            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_especifica_del_agua\") || 1;\n//var frec            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_trabajo\") || 55; // Frecuencia de trabajo (Hz)\nvar U_ref           = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Frecuencia_de_referencia\") || 60; //Frecuencia de referencia(Hz)\nvar N_etapas        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.N_etapas\") ||  400; \nvar diam            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Diametro_de_tuberia\") || 0.25; \nvar THP             = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Presion_en_el_tubing\") || 175; \nvar l1              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_del_tubing\") || 2556.73; //Longitud del tubing por encima de la bomba\n//var V_motor         = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Voltaje_motor\") || 1303;\n//var A_motor         = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Corriente_motor\") || 42.8; \nvar lcable          = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Longitud_cable\") || 2753.94;\n//var FP              = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Factor_potencia\") || 0.95;\nvar POT_Placa       = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Potencia_de_la_placa\") || 1776;\nvar N_sellos        = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Num_sellos\") || 2;\nvar GE_g            = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Gravedad_Especifica_Gas\") || 0;\nvar Fac_compres     = global.get(\"IWOC.DATOS_PARA_SENSORLESS.Factor_Compresibilidad\") || 0;\n\nvar PIP_Sensor      = 750; //psi / Presión de la entrada de la bomba \nvar PCasing         = 0.1; //Presión en el Casing \n\n/*\n    Paso No. 1: Se halla Gradiente de Presión corregido por \n    temperatura y %BSW a partir de la Gravedad Específica (GE)\n    del crudo usando gravedad API del crudo.\n*/\n\nvar GE = (141.5) / (131.5 + (API)); //Corrección de la Gravedad Especifica del crudo\n\n/*\n    Paso No. 2: Hallar valores de alfa y beta según la gravedad \n    específica (GE) siguiendo lo que indica la tabla abajo:\n*/\n\nif(GE<0.63){\n    var Alfa = 0.00097;\n    var Beta = -0.0000004;\n}\nelse if((GE<0.78) && (GE>=0.63)){\n    var Alfa = 0.00097+(GE-0.63)*((0.00075-0.00097)/(0.78-0.63));\n    var Beta = 0.0000004 + (GE-0.63)*(0.0000004/(0.78-0.63));\n}\nelse if((GE<0.85)&&(GE>=0.78)){\n    var Alfa = 0.00075+(GE-0.75)*((0.00068-0.00075)/(0.85-0.78));\n    var Beta = 0 + (GE-0.75)*(0.0000001/(0.85-0.78));\n}   \nelse if((GE<0.95)&&(GE>=0.85)){\n    var Alfa = 0.00068 + (GE-0.85) * ((0.00066 - 0.00068)/(0.95-0.85));\n    var Beta = 0.0000001 + (GE-0.85)*((0.0000001-0.0000003)/(0.95-0.85));\n}   \nelse if(GE>=0.95){\n    var Alfa = 0.00066;\n    var Beta = -0.0000003;\n}\n\n//GE_o  = Gravedad específica de aceite ajustada \nvar GE_o = GE - (Alfa * (T_fluido - 60)) + (Beta * Math.pow((T_fluido - 60), 2)); // Temperatura de fondo - Temperatura ambiente (60°)\n\n/*\n    Paso No. 3: Hallar el Gradiente de presión corregido\n*/\n//var Grv_TFondoBSW = (((100 - BSW) / 100) * GE_o) + ((BSW / 100) * (Dens_Agua / 8.345)) \n//var VP = 0.433 * Grv_TFondoBSW // Gradiente de presión\n\n//---------------------------------------------------------------------------------------------------------------------\n//CALCULO DE GAS\n\n/*\n    Paso No. 4: Calculo de la Gravedad Especifica del gas \n*/\n\n\nGE_g = 0.00091 * (T_fluido + 460) - (0.0125 * API);\n\n/*\n    Paso No. 5: Se calcula el RS y GOR con la ecuación de Standing\n                GOR = Relación gas – aceite (SCF/STB)\n                RS =  Relación gas disuelto – aceite (SCF/STB)\n*/\n\nvar GOR = GE_g * Math.pow(((Py / 18) * ((Math.pow(10, (0.0125 * API)) / Math.pow(10, (0.00091 * T_fluido))))),1.2048);\nvar RS = GE_g * (Math.pow((Pb / (18 * (Math.pow(10, GE_g)))), 1.2048));\n\n/*\n    Paso No. 6: Se determinan los factores volumétricos.\n                Bo = Factor volumétrico de aceite (Bbl/STB)\n                Bg = Factor volumétrico de gas (ft3/SCF)\n                Fac_compres  = Factor de compresibilidad\n*/\nvar Bo = 0.972 + 0.000147 * (Math.pow((RS * (Math.pow((GE_g / GE_o), 0.5)) + 1.75 * (parseInt(T_fluido))), 1.175));\n\n\n    //Factor de comprensibilidad \nvar a = -0.000720704;\nvar b =  0.008654874;\nvar c = -0.009919065;\nvar d = -0.124590401;\nvar e =  1;\nvar P_pc = 677 + (15 * GE_g) - (37.5 * (Math.pow(GE_g,2))) // Presión pseudocrítica\n\nFac_compres = a * (Math.pow(((Py + 14.7) / (P_pc* GE_g)),4)) + b * (Math.pow(((Py + 14.7) / (P_pc * GE_g)), 3)) + c * (Math.pow(((Py + 14.7) / (P_pc * GE_g)), 2)) + d * ((Py + 14.7) / (P_pc * GE_g)) + e;\n\nvar Bg = 5.04 * Fac_compres * ((parseInt(T_fluido) + 460)/Py);\n\n/*\n    Paso No. 7: Se calculan los volúmenes de gas total, gas en solución y gas libre\n                V_Tg = Volumen de gas total\n                V_Sg = Volumen de gas en solución \n                V_Fg = Volumen de gas libre \n*/\nvar V_Tg = qo * (GOR/1000);\nvar V_Sg = qo * (RS / 1000);\nvar V_Fg = V_Tg - V_Sg ; \n\n/*\n    Paso No. 8: Se calculan los demás volúmenes(aceite, gas, agua y total)\n                Vo_int = Volumen de aceite en fondo (Bbl)\n                Vg = Volumen de gas libre en fondo (ft3)\n                Vw = Volumen de agua (Bbl)\n                Vt = Volumen total de fluidos (Bbl)\n                BSW = Relación Petroleo - Agua\n                qt = Caudal total\n*/\nvar Vo_int = qo * Bo;\nvar Vg = V_Fg * Bg;\nvar qt = (parseInt(qo) + parseInt(qw));\nvar BSW = (parseInt(qw) / qt) ;\nvar Vw = qt * BSW\nvar Vt = Vo_int + Vg + Vw; \n\n/*\n    Paso No. 9: Cálculo de la masa total de fluido, GE de la mezcla y densidad\n                TMPF = Masa total de los fluidos (lb)\n                GE_mix = Gravedad específica de la mezcla\n                dens_mix = Densidad de la mezcla (ppg)                \n*/\nvar TMPF = (qo * GE_o + qt * BSW * GE_w)* 62.4 * 5.6146 + (GOR * qo * GE_g * 0.0752); // GE_w gravedad especifica del agua\nvar GE_mix = TMPF / (Vt * 5.6146 * 62.44);\nvar dens_mix = GE_mix * 62.4 ; \n\n/*\n    Paso No. 10: Cálculo de la viscosidad. Se utilizan una de las tres correlaciones dependiendo del API del crudo\n                Egbogah-Ng\n                Beggs - Robinson\n                Kartoatmodjo - Schmidt\n*/\nif ((API >= 5) && (API < 16)) {\n    var z = 0;\n    var y = 2.06492 - (0.0179 * API) - (0.70226 * (Math.log10(T_fluido)));\n    var x = Math.pow(10, y);\n    var visc = (Math.pow(10, x)) - 1;\n} else if ((API >= 16) && (API < 40)) {\n    var z = 3.0324 - (0.02023 * API);\n    var y = Math.pow(10, z);\n    var x = y * Math.pow((T_fluido), (-1.163));\n    var visc = (Math.pow(10, x)) - 1;\n} else if ((API >= 40) && (API <= 59)) {\n    var z = 0;\n    var y = 0;\n    var x = (5.7526 * (Math.log10(T_fluido))) - 26.9718;\n    var visc = (16) * (Math.pow(10, 8)) * (Math.pow(T_fluido, -2.8177)) * (Math.pow((Math.log10(API)), x));\n}\n\n var visc1 = visc / 1000;\n\n/*\n    Paso No. 11: Corrección con viscosidad (la viscosidad debe ingresarse en cp/1000)\n*/\nvar Cq = 1 - 2.6266 * visc1 + 6.0032 * (Math.pow(visc1, 2)) - 6.8104 * (Math.pow(visc1, 3)) + 2.7944 * (Math.pow(visc1 , 4));\nvar Ch = 1 - 0.03 * visc1;\nvar Cp = 1 + 3.9042 * visc1 - 9.9306 * (Math.pow(visc1, 2)) + 11.091 * (Math.pow(visc1, 3)) - 4.4376 * (Math.pow(visc1 , 4));\n\n/*\n    Paso No. 12: Calculo de caudales. Para el cálculo se necesita hacer una corrección del caudal total a partir del Uqaj\n                qt = Caudal total\n                qo = Caudal de aceite (Bbl/d)\n                qw = Caudal de agua (Bbl/d)\n                qxo = Caudal total (m3/d)\n                frec = Frecuencia de trabajo (Hz)\n                U_ref = Frecuencia de referencia (Hz)\n                U_qaj = Frecuencia ajustada (Hz)\n                q_xxo = Caudal total ajustado (m3/d)\n                \n*/\nvar qxo = qt * 0.159;\nvar U_qaj = frec / U_ref;\nvar q_xxo = qxo * U_qaj; \n\n/*\n    Paso No. 13: Se calcula un HEADo EFFo y POWERo(curvas características de la bomba) \n                HEAD_o = Head inicial\n                EFF_o = Eficiencia inicial\n                POWER_o = Potencia inicial\n                HEAD = Head ajustado\n                POWER = Potencia ajustada\n                q_xx = Caudal total ajustado\n*/\nvar HEAD_o = -1 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) + 8 * (Math.pow(10, 6)) * (Math.pow(q_xxo, 2)) - 0.0059 * q_xxo + 13.481;\nvar EFF_o = -8 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) - 7 * (Math.pow(10, 6)) * (Math.pow(q_xxo, 2)) + 0.14 * q_xxo + 6.6216;\nvar POWER_o = 6 * (Math.pow(10, 13)) * (Math.pow(q_xxo, 4)) - 2 * (Math.pow(10, 9)) * (Math.pow(q_xxo, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 0.0004 * q_xxo + 0.9563;\n\nvar HEAD = HEAD_o * (Math.pow(U_qaj , 2)) * 3.28 * N_etapas;\nvar q_xx = q_xxo / (0.159);\nvar POWER = POWER_o * (Math.pow(U_qaj , 3)) * N_etapas;\n\n/*\n    Paso No. 14: Se calcula el caudal y la eficiencia de la bomba\n                q_xov = Caudal total ajustado con la viscosidad\n                EF_bomba = Eficiencia de la bomba corregida vicosidad\n*/\nvar q_xov = (qt / Cq) * U_qaj;\nvar EF_bomba = (Math.pow((frec / 60), 2)) * (((-5 * (Math.pow(10, -14)) * (Math.pow(q_xov, 4))) + (7 * (Math.pow(10, -10)) * (Math.pow(q_xov, 3))) - (5 * (Math.pow(10, -6)) * (Math.pow(q_xov, 2))) + ((0.23 * q_xov) - (0.1628)))/100);\n\n/*\n    Paso No. 15: Se calculan las áreas transversales de los tubos\n                Area = Área de la tubería por encima de la bomba\n                diam = Diametro de la tubería encima de la bomba\n*/\nvar Area = 3.1416 * ((Math.pow(diam , 2)) / 4);  \n\n/*\n    Paso No. 16: Se convierte la viscosidad a unidades del sistema inglés\n*/\nvar viscO = visc * (0.00067197); \n\n/*\n    Paso No. 17: Velocidad del fluido, caudal (m3/s) y velocidad (ft/sec)\n                Vf = Velocidad del fluido (m/s)\n                q_fm = Caudal total en m3/s\n                V_fm = Velocidad del fluido en ft/s\n*/\nvar vf = (5.615 / (3600 * 24)) * (qt / Area);\nvar q_fm = parseInt(qt) / 543439.6505;\nvar V_fm = q_xx * (5.615 / 86400) / Area; \n\n/*\n    Paso No. 18: Calculo del número de Reynols y factor de fricción\n                re = Número de Reynols\n                F_fric = Factor de fricción\n*/\nvar re = diam * V_fm * (dens_mix / viscO);\nvar F_fric = 64 / re;\n\n/*\n    Paso No. 19: Calculo del gradiente de presión\n*/\nvar VP = 0.433 * GE_mix;\n\n/*\n    Paso No. 20: Se convierte la presión en cabeza a ft con el gradiente y se estiman las pérdidas por fricción y gravitacional\n                 THP_ft = Equivalencia en ft de la presión del tubing\n                 p_fric = Pérdidas generadas por fricción\n                 p_grav = Pérdidas por gravedad\n                 l1 = Longitud del tubing por encima de la bomba\n                 TDHH = Levantamiento en ft ajustado fricción\n*/\nvar THP_ft = THP / VP;\nvar p_fric = (F_fric * dens_mix * ((Math.pow(V_fm, 2))/(2*32.2*diam))) / 144;\nvar p_grav = dens_mix / 144; \nvar Caida_presion = (p_fric + p_grav) * l1;\nvar TDHH = (THP + Caida_presion) / VP;\n\n/*\n    Paso No. 21: CALCULOS ELECTRICOS\n                POT_SUT = Potencia del SUT (Hp)\n                POT_Cable = Potencia del clable (Hp)\n                V_motor = Voltaje\n                A_motor\t= Corriente\n                FP = Factor de potencia\n                p_VoltCable = Pérdida en voltios en el cable\n                p_Cable = Pérdidas en el cable (Hp)\n*/\nvar POT_SUT = 1.73 * V_motor * A_motor * (FP / 745.6);\nvar POT_Cable = (V_motor - (15 / 1000) * (lcable)) * A_motor * 1.73 * (FP / 745.69);\nvar p_VoltCable = Prof_Sensor * 0.01;\nvar p_Cable = POT_SUT - POT_Cable;\n\n/*\n    Paso No. 22: CALCULOS ELECTRICOS. Se calcula el porcentaje de carga, caudal ajustado y la eficiencia\n                porc_car = Porcentaje de carga\n                EF = Eficiencia calculada \n*/\nvar porc_car = (POT_Cable / POT_Placa) * 100;\nvar EF = (-8 * (Math.pow(10, -8)) * (Math.pow(q_xxo, 3)) - 7 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 0.14  * (q_xxo) + 6.6216) / 100 ;\n//var EF = 0.3273; \n\n/*\n    Paso No. 23: CALCULOS ELECTRICOS.\n                EF_motor = Eficiencia del motor\n                POT_motor = Potencia del motor  \n                p_motor = Pérdida del motor\n                POT_sello = Potencia en el sello\n                N_sellos = Número de sellos\n                p_sello = Pérdida en el sello\n                POT_bomba = Potencia en la bomba\n                p_bomba = Pérdida en la bomba\n                POT_real = Potencia real a partir de las pérdidas\n                POT_realC = Potencia real calculada (Para graficar)\n                POT_RCaj = Potencia real calculada ajustada frecuencia\n*/\nvar EF_motor = (-2 * (Math.pow(10, -7)) * (Math.pow(porc_car, 4)) + 1 * (Math.pow(10, -4)) * (Math.pow(porc_car, 3)) - 0.0187 * (Math.pow(porc_car, 2)) + 1.4594 * (porc_car) + 38.618 ) / 100;\nvar POT_motor = POT_Cable * EF_motor;\nvar p_motor = POT_Cable - POT_motor;\nvar POT_sello = POT_motor - (4 * N_sellos);\nvar p_sello = POT_motor - POT_sello;\nvar POT_bomba = POT_sello * EF;\nvar p_bomba = POT_sello - POT_bomba;\nvar POT_real = POT_SUT - (p_Cable + p_motor + p_sello + p_bomba);\nvar POT_realC = 6 * (Math.pow(10, -13)) * (Math.pow(q_xxo, 4)) - 2 * (Math.pow(10, -9)) * (Math.pow(q_xxo, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(q_xxo, 2)) + 4 * (Math.pow(10, -4)) * (q_xxo) + 0.9563;\nvar POT_RCaj = POT_realC * (Math.pow(U_qaj, 3)) * N_etapas;\n\n/*\n    Paso No. 24: VARIABLES INFERIDAD POR POTENCIA\n                v_PIP = Levantamiento del fluido a partir de la potencia\n                v_PIPa = Levantamiento del fluido a partir de la potencia ajustado frecuencia\n                PIP_inf = Presión en la bomba inferida\n                PIP_infc = Presión en la bomba inferida calculada\n*/\nvar v_PIP = POT_real * (136000 / q_xx);\nvar v_PIPa = POT_RCaj * (136000 / q_xx);\nvar PIP_inf = (TDHH - v_PIP) * VP;\nvar PIP_infc = (HEAD - v_PIP) * VP;\n\n/*\n    Paso No. 25: VARIABLES INFERIDAD POR POTENCIA. Se calcula la sumergencia, nivel de fluido y la pwf inferidas y el error\n                S_inf = Sumergencia de la bomba inferida\n                NFD_inf = Nivel de fluido inferido\n                h_intk = Profundidad de la bomba\n                Pwf_inf = Presión de fondo fluyente inferida\n                Porc_PIP_IPR \n                Porc_PIP_POT\n*/\nvar S_inf = (PIP_inf - PCasing) / VP;\nvar NFD_inf = Prof_Intake - S_inf ;\nvar Pwf_inf = PIP_inf + (PMP - Prof_Intake) * VP;\n//var Porc_PIP_IPR = (PI)\n//var Porc_PIP_POT = \n\n/*\n    Paso No. 26: VARIABLES INFERIDAD POR POTENCIA. Levantamiento efectivo del yacimiento\n                He = Levantamiento efectivo del yacimiento\n*/\nvar He = Pwf_inf / VP ;\n\n/*\n    Paso No. 27: VARIABLES INFERIDAD POR POTENCIA. Nivel dinámico desde la superficie\n                Lneto = Nivel dinámico (levantamiento neto)\n                HD = Sumergencia de la bomba\n*/\nvar Lneto = PMP - He;\nvar HD = Prof_Intake - Lneto;\n\n/*\n    Paso No. 28: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM\n                Ct = 120 - constante para tuberías nuevas o 90 para viejas\n                ff = 0,0150\n                F = Factor Hazen William\n                FR = Fricción calculada\n                P_desc = Presión de descarga\n                TDH = Levantamiento neto total\n*/\nvar ct = 120; \nvar F = (2.083 * (Math.pow((100 / ct), 1.85)) * (Math.pow((q_xx / 34.5), 1.85))) / (Math.pow((diam * 12), 4.8655));\nvar FR = F * (l1 / 1000);\nvar P_desc = THP /VP ; \nvar TDH = Lneto + FR + P_desc\n\n/*\n    Paso No. 29: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM. \n                PIP con IPR          \n*/\n//var PIP_IPR = Pwf_P - (VP * (PMP - Prof_Intake));\n\n/*\n    Paso No. 30: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                PIP sin IPR\n*/\n//var PIP_sin_IPR = THP + (* hb + GE_g * 0.433 * (PMP - hb));\n\n/*\n    Paso No. 31: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                POT_pump = Potencia de la bomba calculada (kW)\n*/\nvar POT_pump = (V_motor * A_motor * EF_motor * 1.73 * FP) / 1000;\n\n/*\n    Paso No. 32: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM. \n                Curva de potencia\n*/\nvar POT_c = 2 * (Math.pow(10, -14)) * (Math.pow(qt, 4)) - 4 * (Math.pow(10, -10)) * (Math.pow(qt, 3)) + 2 * (Math.pow(10, -6)) * (Math.pow(qt, 2)) + 0.0018 * qt + 49.04;\n\n/*\n    Paso No. 33: CALCULO DE FRICCIÓN SEGÚN HAZEN WILLIAM.\n                Eficiencia, head dinamico y carga dinámica\n*/\nvar EFF = (Math.pow((frec / 60), 2)) * (-5 * (Math.pow(10, -14)) * (Math.pow(qt, 4)) + 7 * (Math.pow(10, -10)) * (Math.pow(qt, 3)) - 5 * (Math.pow(10, -6)) * (Math.pow(qt, 2)) + 0.023 * (qt) - 0.1628);\nvar Qt = qt * Bo;\nvar HEAD_din = (Math.pow((frec / 60), 2)) * (-7 * (Math.pow(10, -13)) * (Math.pow(Qt, 4)) + 8 * (Math.pow(10, -9)) * (Math.pow(Qt, 3)) - 3 * (Math.pow(10, -5)) * (Math.pow(Qt, 2)) - 0.0187 * Qt + 1792);\nvar Ho = (Math.pow((frec / 60), 2)) * (-7 * (Math.pow(10, -13)) * (Math.pow(q_xov, 4)) + 8 * (Math.pow(10, -9)) * (Math.pow(q_xov, 3)) - 3 * (Math.pow(10, -5)) * (Math.pow(q_xov, 2)) - 0.0187 * q_xov + 1792);\n\n\n//Data de los Resultados\nvar resultados = {\n    \"(V_motor)Voltaje de salida M\": V_motor,\n    \"(A_motor)Corriente de salida M\": A_motor,\n    \"(FP)Factor de epotencia de M\": FP,\n    \"(frec)Frecuencia de trabajo\": frec,\n    \"(GE_g)GE del Gas\": GE_g,\n    \"(T_fluido)Temperatura de Yacimiento\": T_fluido,\n    \"API\": API,\n    \"(GOR) Relación gas-aceite\": GOR,\n    \"(RS)Relación gasdisuelto-aceite\": RS,\n    \"(Pb)Presion de burbuja\": Pb,\n    \"(GE)Gravedad espeifica del aceite\": GE,\n    \"Alfa\": Alfa,\n    \"Beta\":Beta,\n    \"(GE_o)Gravedad específica de aceite ajustada\": GE_o,\n    \"(Bo)Factor volumétrico de aceite\": Bo,\n    \"(P_pc)Presión pseudocrítica\": P_pc,\n    \"(Fac_compres)Factor de compresibilidad\": Fac_compres,\n    \"(Bg)Factor volumétrico de gas\": Bg,\n    \"(qo)Caudal_de_Aceite\": qo,\n    \"(V_Tg)Volumen de gas total\": V_Tg,\n    \"(V_Sg)Volumen de gas en solución\": V_Sg,\n    \"(V_Fg) Volumen de gas libre\": V_Fg,\n    \"(Vo_int)Volumen de aceite en fondo\": Vo_int,\n    \"(Vg)Volumen de gas libre en fondo\": Vg,\n    \"(qt)Caudal total\": qt,\n    \"(BSW)Relación Petroleo - Agua\": BSW,\n    \"(Vw)Volumen de agua\": Vw,\n    \"(Vt)Volumen total de fluido\": Vt,\n    \"(TMPF)Masa total de los fluido\": TMPF,\n    \"(GE_mix)Gravedad específica de la mezcla\": GE_mix,\n    \"(dens_mix)Densidad de la mezcla\": dens_mix,\n    \"(GE_w)gravedad especifica del agua\": GE_w,\n    \"(x)\": x,\n    \"(y)\": y,\n    \"(z)\": z,\n    \"(visc)Viscosidad del crudo\": visc,\n    \"(Cq)\": Cq,\n    \"(Ch)\": Ch,\n    \"(Cp)\": Cp,\n    \"(qxo)Caudal total (m3/d)\": qxo,\n    \"(U_ref)Frecuencia de referencia\": U_ref,\n    \"(U_qaj)Frecuencia ajustada\": U_qaj,\n    \"(q_xxo)Caudal total ajustado (m3/d)\": q_xxo,\n    \"(HEAD_o)Head inicial\": HEAD_o,\n    \"(EFF_o)Eficiencia inicial\": EFF_o,\n    \"(POWER_o)Potencia inicial\": POWER_o,\n    \"(HEAD)Head ajustado\": HEAD,\n    \"(q_xx)Caudal total ajustado\": q_xx,\n    \"(POWER)Potencia ajustada\": POWER,\n    \"(q_xov)Caudal total ajustado con la viscosidad\": q_xov,\n    \"(EF_bomba)Eficiencia de la bomba corregida vicosidad\": EF_bomba,\n    \"(Area)Área de la tubería por encima de la bomba\": Area,\n    \"(viscO)Viscosidad del crudo (lbf/ft-s)\": viscO,\n    \"(vf)Velocidad del fluid\": vf,\n    \"(q_fm)Caudal total en m3/s\": q_fm,\n    \"(V_fm)Velocidad del fluido en ft/s\": V_fm,\n    \"(re)Número de Reynols\": re,\n    \"(F_fric)Factor de fricción\": F_fric,\n    \"(VP) Gradiente de Presión\": VP,\n    \"(THP_ft)Equivalencia en ft de la presión del tubing\": THP_ft,\n    \"(p_fric)Pérdidas generadas por fricción\": p_fric,\n    \"(p_grav)Pérdidas por gravedad\": p_grav,\n    \"(Caida_presion)\": Caida_presion,\n    \"(TDHH)Levantamiento en ft ajustado fricción\": TDHH,\n    \"(POT_SUT)Potencia del SUT\": POT_SUT,\n    \"(POT_Cable)Potencia del clable\": POT_Cable,\n    \"(p_VoltCable)\": p_VoltCable,\n    \"(p_Cable) Perdidas en el cable\": p_Cable,\n    \"(porc_car)\": porc_car,\n    \"(EF)Eficiencia calculada \": EF,\n    \"EF_motor(Eficiencia del motor)\": EF_motor, \n    \"(POT_motor)Potencia del motor\": POT_motor,\n    \"(p_motor)Pérdida del motor\": p_motor,\n    \"(POT_sello)Potencia en el sello\": POT_sello,\n    \"(p_sello)Pérdida en el sello\": p_sello,\n    \"(POT_bomba)Potencia en la bomba\": POT_bomba,\n    \"(p_bomba)Pérdida en la bomba\": p_bomba,\n    \"(POT_real)Potencia real a partir de las pérdidas\": POT_real,\n    \"(POT_realC)Potencia real calculada \": POT_realC,\n    \"(POT_RCaj)Potencia real calculada ajustada frecuencia\": POT_RCaj,\n    \"(v_PIP)Levantamiento del fluido a partir de la potencia \": v_PIP,\n    \"(v_PIPa)Levantamiento del fluido a partir de la potencia ajustado frecuencuencia\": v_PIPa,\n    \"(PIP_inf)Presión en la bomba inferida\": PIP_inf,\n    \"(PIP_infc)Presión en la bomba inferida calculada\": PIP_infc,\n    \"(S_inf)Sumergencia de la bomba inferida\": S_inf,\n    \"(NFD_inf)Nivel de fluido inferido\": NFD_inf,\n    \"(Pwf_inf)Presión de fondo fluyente inferida\": Pwf_inf,\n    \"(He)Levantamiento efectivo del yacimiento\": He,\n    \"(Lneto)Nivel dinámico (levantamiento neto)\": Lneto,\n    \"(HD)Sumergencia de la bomba\": HD,\n    \"(F)Factor Hazen William\": F,\n    \"(FR)Fricción calculada\": FR,\n    \"(P_desc)Presión de descarga\": P_desc,\n    \"(TDH)Levantamiento neto total\": TDH,\n    \"(POT_pump)Potencia de la bomba calculad\": POT_pump,\n    \"(POT_c)Curva de potencia\": POT_c,\n    \"(EFF)\": EFF,\n    \"(Qt)\": Qt,\n    \"(HEAD_din)head dinamico\": HEAD_din,\n    \"(Ho)carga dinámica\": Ho,\n    \"(EF_motor)Eficiencia del motor\": EF_motor,\n};\ncontext.set(\"resultados\", resultados, \"memoryOnly\");\ncontext.set(\"frec\", frec, \"memoryOnly\");\ncontext.set(\"V_motor\", V_motor, \"memoryOnly\");\ncontext.set(\"A_motor\", A_motor, \"memoryOnly\");\ncontext.set(\"FP\", FP, \"memoryOnly\");\n\nreturn [\n    MSG(PIP_inf),\n    MSG(NFD_inf),\n    MSG(S_inf),\n    MSG(q_xov)\n];\n\nfunction MSG(X) {\n    return { payload: !isNaN(X)? X:0 }\n}",
         "outputs": 4,
@@ -91255,8 +91372,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
-        "y": 1720,
+        "x": 200,
+        "y": 1620,
         "wires": [
             [
                 "7d0fb5e1b5d85914"
@@ -91276,6 +91393,7 @@
         "id": "7d0fb5e1b5d85914",
         "type": "change",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "",
         "rules": [
             {
@@ -91291,8 +91409,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 970,
-        "y": 1660,
+        "x": 550,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -91301,6 +91419,7 @@
         "id": "9d7807bc3969807d",
         "type": "change",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "",
         "rules": [
             {
@@ -91316,8 +91435,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1010,
-        "y": 1700,
+        "x": 590,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -91326,6 +91445,7 @@
         "id": "f4f95fc766314268",
         "type": "change",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "",
         "rules": [
             {
@@ -91341,8 +91461,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 1740,
+        "x": 580,
+        "y": 1640,
         "wires": [
             []
         ]
@@ -91351,6 +91471,7 @@
         "id": "560d12e1fedae98e",
         "type": "change",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "",
         "rules": [
             {
@@ -91366,8 +91487,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 1780,
+        "x": 630,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -91391,8 +91512,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 510,
-        "y": 1120,
+        "x": 150,
+        "y": 1060,
         "wires": [
             [
                 "1f5b91745cf74c06"
@@ -91419,8 +91540,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1120,
+        "x": 560,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -91444,8 +91565,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 510,
-        "y": 1160,
+        "x": 150,
+        "y": 1100,
         "wires": [
             [
                 "a850b4c0d60fb314"
@@ -91472,8 +91593,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1160,
+        "x": 560,
+        "y": 1100,
         "wires": [
             []
         ]
@@ -91497,8 +91618,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 530,
-        "y": 1200,
+        "x": 170,
+        "y": 1140,
         "wires": [
             [
                 "92af29b43d98cf42"
@@ -91525,8 +91646,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
-        "y": 1200,
+        "x": 600,
+        "y": 1140,
         "wires": [
             []
         ]
@@ -91550,8 +91671,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 530,
-        "y": 1240,
+        "x": 170,
+        "y": 1180,
         "wires": [
             [
                 "57b0e7b8b4128b6d"
@@ -91578,8 +91699,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 950,
-        "y": 1240,
+        "x": 590,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -91603,8 +91724,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 470,
-        "y": 1280,
+        "x": 110,
+        "y": 1220,
         "wires": [
             [
                 "60c53a5b248e3c83"
@@ -91631,8 +91752,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1280,
+        "x": 540,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -91656,8 +91777,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 500,
-        "y": 1320,
+        "x": 140,
+        "y": 1260,
         "wires": [
             [
                 "e2cab74926656de7"
@@ -91683,8 +91804,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 510,
-        "y": 1360,
+        "x": 150,
+        "y": 1300,
         "wires": [
             [
                 "f4c2848e1a087910"
@@ -91710,8 +91831,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 500,
-        "y": 1400,
+        "x": 140,
+        "y": 1340,
         "wires": [
             [
                 "88efa1935790c033"
@@ -91738,8 +91859,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1360,
+        "x": 570,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -91764,8 +91885,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1400,
+        "x": 570,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -91789,8 +91910,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 500,
-        "y": 1440,
+        "x": 140,
+        "y": 1380,
         "wires": [
             [
                 "be0ea5dc9ccd2372"
@@ -91817,8 +91938,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 1440,
+        "x": 550,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -91842,8 +91963,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 510,
-        "y": 1480,
+        "x": 150,
+        "y": 1420,
         "wires": [
             [
                 "44e2d32a5618e21f"
@@ -91869,8 +91990,8 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 460,
-        "y": 1520,
+        "x": 100,
+        "y": 1460,
         "wires": [
             [
                 "b90c6c88f56765e9"
@@ -91897,67 +92018,10 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 900,
-        "y": 1520,
+        "x": 540,
+        "y": 1460,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "254d7e43d4da949b",
-        "type": "ui_button",
-        "z": "2e27dea6.c4c362",
-        "name": "",
-        "group": "89e12b591528cad3",
-        "order": 15,
-        "width": "4",
-        "height": "1",
-        "passthru": false,
-        "label": "Volver",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 170,
-        "y": 1960,
-        "wires": [
-            [
-                "6808c817415805b5"
-            ]
-        ]
-    },
-    {
-        "id": "0ebc59faa17f71f7",
-        "type": "ui_button",
-        "z": "2e27dea6.c4c362",
-        "name": "",
-        "group": "8c7f5396abbccd01",
-        "order": 17,
-        "width": "4",
-        "height": "1",
-        "passthru": false,
-        "label": "Ver gráfica IPR",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 200,
-        "y": 1920,
-        "wires": [
-            [
-                "8afe9a4a74d1ad72",
-                "406a7ba5773d9ccb"
-            ]
         ]
     },
     {
@@ -91981,11 +92045,13 @@
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
-        "x": 255,
-        "y": 2020,
+        "x": 175,
+        "y": 1900,
         "wires": [
             [
-                "6808c817415805b5"
+                "fa77251f4acf86e9",
+                "6808c817415805b5",
+                "51f4057d56abcca9"
             ]
         ]
     },
@@ -91993,20 +92059,20 @@
         "id": "6808c817415805b5",
         "type": "change",
         "z": "2e27dea6.c4c362",
-        "name": "Datos",
+        "name": "Amperimetric",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"AVAS®_Gráfica_IPR\"],\t       \"show\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"AVAS®_Nav_bar\",\t                \"AVAS®_Amperimetric\"\t                ],\t       \"hide\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Gráfica_IPR\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
                 "tot": "jsonata"
             },
             {
                 "t": "set",
-                "p": "Navegación.AVAS",
+                "p": "#:(memoryOnly)::Navegación.AVAS",
                 "pt": "global",
-                "to": "settings",
+                "to": "Amperimetric",
                 "tot": "str"
             }
         ],
@@ -92015,7 +92081,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
+        "x": 1010,
         "y": 1960,
         "wires": [
             [
@@ -92033,12 +92099,12 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"AVAS®_Gráfica_IPR\"],\t       \"hide\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"AVAS®_Nav_bar\",\t                \"AVAS®_Gráfica_IPR\"],\t       \"hide\":[ \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Amperimetric\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
                 "tot": "jsonata"
             },
             {
                 "t": "set",
-                "p": "Navegación.AVAS",
+                "p": "#:(memoryOnly)::Navegación.AVAS",
                 "pt": "global",
                 "to": "IPR",
                 "tot": "str"
@@ -92049,8 +92115,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 410,
-        "y": 1920,
+        "x": 1010,
+        "y": 2000,
         "wires": [
             [
                 "11fab97f0376f949"
@@ -92065,20 +92131,19 @@
         "links": [
             "805762db.d27b7"
         ],
-        "x": 515,
-        "y": 1940,
+        "x": 1115,
+        "y": 2020,
         "wires": []
     },
     {
         "id": "406a7ba5773d9ccb",
         "type": "link out",
         "z": "2e27dea6.c4c362",
-        "name": "",
+        "name": "refresh IPR chart",
         "links": [
-            "cfb560564fd78c85",
             "e6fb7f8fce8d014a"
         ],
-        "x": 325,
+        "x": 1035,
         "y": 1880,
         "wires": []
     },
@@ -92103,12 +92168,13 @@
         "id": "9a3fe8f4e8cd6366",
         "type": "link in",
         "z": "7af521b51c8e6a51",
+        "g": "bb085715e2738a9c",
         "name": "",
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 475,
-        "y": 1720,
+        "x": 55,
+        "y": 1620,
         "wires": [
             [
                 "71afc427dc4e32a5"
@@ -92312,6 +92378,710 @@
         "wires": [
             [
                 "1d84d1358359ba1d"
+            ]
+        ]
+    },
+    {
+        "id": "c8c0bcb1ebd9fe87",
+        "type": "ui_chart",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "group": "3eee573de2d0980e",
+        "order": 5,
+        "width": "14",
+        "height": "5",
+        "label": "Carta Amperimétrica (A)",
+        "chartType": "radar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#498500",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2030,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68a2367b68a2d36b",
+        "type": "ui_dropdown",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "label": "Selecione Rango",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "3eee573de2d0980e",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Amperimetrica diaria",
+                "value": "dataday",
+                "type": "str"
+            },
+            {
+                "label": "Amperimetrica semanal",
+                "value": "dataweek",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1590,
+        "y": 220,
+        "wires": [
+            [
+                "74b76e998626d493",
+                "43cd392ac81ac6ca"
+            ]
+        ]
+    },
+    {
+        "id": "74b76e998626d493",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "amperimetric.Type",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1820,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b6c1f1de90514c9",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "Data show",
+        "func": "var Output_Frequency    = global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0;\nvar Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MtrCurrent = Output_Current / Rtx;\n\nreturn[\n    { payload: catcherror(Output_Frequency,3)+ \" \" + \"Hz\"},\n    { payload: catcherror(MtrCurrent,1) + \" \" + \"A\" },\n]\n\nfunction catcherror(variable,dec){\n    return parseFloat(variable.toFixed(dec));\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1770,
+        "y": 180,
+        "wires": [
+            [
+                "8f3bb3f83df36820"
+            ],
+            [
+                "3232c7cbd0e96a18"
+            ]
+        ],
+        "outputLabels": [
+            "Output_Frequency",
+            "SpeedPercentage"
+        ]
+    },
+    {
+        "id": "3232c7cbd0e96a18",
+        "type": "ui_level",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "group": "3eee573de2d0980e",
+        "order": 2,
+        "width": "4",
+        "height": 2,
+        "name": "Corriente de Motor",
+        "label": "Corriente de Motor",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "500",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "A",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 2010,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8f3bb3f83df36820",
+        "type": "ui_level",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "group": "3eee573de2d0980e",
+        "order": 3,
+        "width": "4",
+        "height": 2,
+        "name": "Velocidad",
+        "label": "Velocidad",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "60",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Hz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1980,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ef6f5dbe7f4cd2c4",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "group": "737fcab07a3aa4b4",
+        "name": "Menu Otras Funciones de Control",
+        "order": 1,
+        "width": "16",
+        "height": 1,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:cartaamp()})\">Carta Amperimétrica</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:IPR()})\">Gráfica IPR</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:settings()})\">Ajustes AVAS®</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.cartaamp = function() { return \"amp\"; };\n        this.scope.IPR = function() { return \"ipr\"; };\n        this.scope.settings = function() { return \"setting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 2000,
+        "wires": [
+            [
+                "e33c3c8fcee6b4e5",
+                "d367510aebdb1da8"
+            ]
+        ]
+    },
+    {
+        "id": "fa77251f4acf86e9",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:cartaamp()})\">Carta Amperimétrica</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:IPR()})\">Gráfica IPR</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:settings()})\">Ajustes AVAS®</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.cartaamp = function() { return \"amp\"; };\n        this.scope.IPR = function() { return \"ipr\"; };\n        this.scope.settings = function() { return \"setting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 1960,
+        "wires": [
+            [
+                "ef6f5dbe7f4cd2c4"
+            ]
+        ]
+    },
+    {
+        "id": "2cc0c1e13cc6bac2",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:cartaamp()})\">Carta Amperimétrica</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:IPR()})\">Gráfica IPR</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:settings()})\">Ajustes AVAS®</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.cartaamp = function() { return \"amp\"; };\n        this.scope.IPR = function() { return \"ipr\"; };\n        this.scope.settings = function() { return \"setting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 2000,
+        "wires": [
+            [
+                "ef6f5dbe7f4cd2c4"
+            ]
+        ]
+    },
+    {
+        "id": "70ced0f1e569b444",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:cartaamp()})\">Carta Amperimétrica</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:IPR()})\">Gráfica IPR</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:settings()})\">Ajustes AVAS®</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.cartaamp = function() { return \"amp\"; };\n        this.scope.IPR = function() { return \"ipr\"; };\n        this.scope.settings = function() { return \"setting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 2040,
+        "wires": [
+            [
+                "ef6f5dbe7f4cd2c4"
+            ]
+        ]
+    },
+    {
+        "id": "e33c3c8fcee6b4e5",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "amp",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ipr",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "setting",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 820,
+        "y": 2000,
+        "wires": [
+            [
+                "6808c817415805b5"
+            ],
+            [
+                "406a7ba5773d9ccb",
+                "8afe9a4a74d1ad72"
+            ],
+            [
+                "0209ea53035b3ac1"
+            ]
+        ]
+    },
+    {
+        "id": "0209ea53035b3ac1",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "name": "Settings",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"AVAS®_Amperimetric\",\t                \"AVAS®_Gráfica_IPR\"],\t       \"show\":[ \"AVAS®_Nav_bar\",\t                \"AVAS®_Estado_mecánico\",\t                \"AVAS®_Propiedades_de_flujo\",\t                \"AVAS®_Pruebas_de_producción\",\t                \"AVAS®_Datos_de_instalación\"]\t   }\t}",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Navegación.AVAS",
+                "pt": "global",
+                "to": "Settings",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2040,
+        "wires": [
+            [
+                "11fab97f0376f949"
+            ]
+        ]
+    },
+    {
+        "id": "d367510aebdb1da8",
+        "type": "delay",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 130,
+        "y": 1940,
+        "wires": [
+            [
+                "03c975b20ec14562"
+            ]
+        ]
+    },
+    {
+        "id": "03c975b20ec14562",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "amp",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "ipr",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "setting",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 110,
+        "y": 2000,
+        "wires": [
+            [
+                "fa77251f4acf86e9"
+            ],
+            [
+                "2cc0c1e13cc6bac2"
+            ],
+            [
+                "70ced0f1e569b444"
+            ]
+        ]
+    },
+    {
+        "id": "9760d6fc054dbb32",
+        "type": "link in",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "links": [
+            "ecf98f3f.4a704"
+        ],
+        "x": 1615,
+        "y": 180,
+        "wires": [
+            [
+                "8b6c1f1de90514c9"
+            ]
+        ]
+    },
+    {
+        "id": "cf63e264fc5ccf5c",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "getting data",
+        "func": "var i;\nvar datad = flow.get(\"amperimetric.dataday.data\")||null;\nvar datadlabel = flow.get(\"amperimetric.dataday.label\") || null;\nvar datawlabel = flow.get(\"amperimetric.dataweek.label\") || null;\nvar dataw = flow.get(\"amperimetric.dataweek.data\") || null;\nvar Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MtrCurrent = parseFloat((Output_Current / Rtx).toFixed(1));\nvar pos;\nif(datad==null){\n    datad=[null];\n    datad [239] = null;\n    datadlabel = [null];\n    datadlabel[239] = null;\n    flow.set(\"amperimetric.dataday.data\",datad);\n    for(i=0;i<datadlabel.length;i++){\n        if((i==0)||(i % 10 ==0)){\n            datadlabel[i]= (i/10)<10?\"0\"+(i/10)+\":00\":(i/10)+\":00\";\n        }\n        else datadlabel[i]=\"\";\n    }\n    flow.set(\"amperimetric.dataday.label\", datadlabel);\n}\nelse{\n    pos = ampSetValue()\n    if(pos!=-1){\n        datad[pos] = MtrCurrent;\n        flow.set(\"amperimetric.dataday.data\", datad);\n    }\n    if (((pos % 7 == 0) || (pos == 0)) && (dataw == null)) { flow.set(\"amperimetric.dataweek.data\", [MtrCurrent]); flow.set(\"amperimetric.dataweek.label\", [\"-168 h\"])}\n    if (((pos % 7 == 0) || (pos == 0)) && (dataw != null)){\n        dataw.push(MtrCurrent);\n        if (datawlabel.length<240){\n            if (datawlabel.length % 30 == 0) datawlabel.push(\"-\" + (168 - ((datawlabel.length/30)*21))+\" h\");\n            else datawlabel.push(\"\");\n            flow.set(\"amperimetric.dataweek.label\", datawlabel)\n        }\n        if(dataw.length==241) dataw.shift();\n        if (datawlabel.length == 241) datawlabel.shift();\n        flow.set(\"amperimetric.dataweek.data\", dataw);\n    }\n}\nfunction ampSetValue(){\n    var aux;\n    var DT = new Date();\n    var h = DT.getHours();\n    var m = DT.getMinutes();\n    if(m==0 && h==0)aux=0;\n    m % 6 ==0 ? aux = ((h*60+m)/6):aux = -1;\n    return aux;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da666b63953f842e",
+        "type": "inject",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 1330,
+        "y": 100,
+        "wires": [
+            [
+                "cf63e264fc5ccf5c",
+                "9359569d1a0d28db"
+            ]
+        ]
+    },
+    {
+        "id": "485f8467108ee0df",
+        "type": "link in",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "links": [
+            "e28cc76463d5d568",
+            "c4e5b48a61ef3ffd"
+        ],
+        "x": 1275,
+        "y": 220,
+        "wires": [
+            [
+                "658aee5f55fd0840",
+                "b3903684adce0c4c"
+            ]
+        ]
+    },
+    {
+        "id": "658aee5f55fd0840",
+        "type": "change",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "amperimetric.Type",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1400,
+        "y": 220,
+        "wires": [
+            [
+                "68a2367b68a2d36b"
+            ]
+        ]
+    },
+    {
+        "id": "b3903684adce0c4c",
+        "type": "function",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "to chart",
+        "func": "var time = flow.get(\"amperimetric.Type\") ||\"dataday\";\nvar data = flow.get(\"amperimetric.\"+time+\".data\") || [];\nvar labels = flow.get(\"amperimetric.\" + time + \".label\") || [];\n\nvar radarchart = [{\n    \"labels\": labels,\n    \"series\": \"\",\n    \"data\": [data]\n}];\n\nmsg.payload = radarchart;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 80,
+        "wires": [
+            [
+                "c8c0bcb1ebd9fe87"
+            ]
+        ]
+    },
+    {
+        "id": "9359569d1a0d28db",
+        "type": "switch",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "AVAS?",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "AVAS®",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1450,
+        "y": 80,
+        "wires": [
+            [
+                "f2cbfa42b06d2425"
+            ]
+        ]
+    },
+    {
+        "id": "f2cbfa42b06d2425",
+        "type": "switch",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "AVAS?",
+        "property": "#:(memoryOnly)::Navegación.AVAS",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "amp",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1590,
+        "y": 80,
+        "wires": [
+            [
+                "b3903684adce0c4c"
+            ]
+        ]
+    },
+    {
+        "id": "51f4057d56abcca9",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "amp",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 2120,
+        "wires": [
+            [
+                "9cd63dc1d6f5eeb2"
+            ]
+        ]
+    },
+    {
+        "id": "9cd63dc1d6f5eeb2",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Navegación.AVAS",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43cd392ac81ac6ca",
+        "type": "delay",
+        "z": "7af521b51c8e6a51",
+        "g": "5dc71a84bf12ae23",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1770,
+        "y": 260,
+        "wires": [
+            [
+                "b3903684adce0c4c"
             ]
         ]
     }
