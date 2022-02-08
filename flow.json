@@ -2200,11 +2200,13 @@
             "240c0e57d6509511",
             "6ebf0d6d774f637a",
             "6f4c1103115e8942",
-            "5fe807f47d2920cc"
+            "5fe807f47d2920cc",
+            "45454b3be0a6bf43",
+            "e25199718b76fb2e"
         ],
         "x": 4,
         "y": -1,
-        "w": 1882,
+        "w": 1982,
         "h": 482
     },
     {
@@ -59122,7 +59124,7 @@
             [
                 "eb59ebb6.a7e4b8",
                 "623eb47dc08d064b",
-                "5fe807f47d2920cc"
+                "45454b3be0a6bf43"
             ],
             [
                 "51500f5e.edf25"
@@ -105577,7 +105579,7 @@
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
         "name": "Data show Ref",
-        "func": "var numdec = 1;\nvar unidad = \"spm\";\nvar spm = global.get(\"C2S.Implicit.spmActual\",\"memoryOnly\")||0\ncontext.set(\"spm\", spm, \"memoryOnly\")\nif (typeof spm == 'number') {\n    msg.payload = parseFloat(spm.toFixed(numdec));\n    context.set(\"ms\", msg.payload, \"memoryOnly\")\n    node.status({fill:\"green\",shape:\"ring\",text:msg.payload});\n    return msg;\n}",
+        "func": "var numdec = 1;\nvar unidad = \"spm\";\nvar spm = global.get(\"C2S.Last_Reference.ValueSpm\")||0\ncontext.set(\"spm\", spm, \"memoryOnly\")\nif (typeof spm == 'number') {\n    msg.payload = parseFloat(spm.toFixed(numdec));\n    context.set(\"ms\", msg.payload, \"memoryOnly\")\n    node.status({fill:\"green\",shape:\"ring\",text:msg.payload});\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -105618,8 +105620,76 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1730,
-        "y": 100,
+        "x": 1870,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "45454b3be0a6bf43",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "Ultima Referencia",
+        "rules": [
+            {
+                "t": "set",
+                "p": "C2S.Last_Reference.Value",
+                "pt": "global",
+                "to": "#:(memoryOnly)::Input.Operation.Reference",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "C2S.Last_Reference.ValueSpm",
+                "pt": "global",
+                "to": "#:(memoryOnly)::Input.Operation.spm",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "C2S.Last_Reference.Source",
+                "pt": "global",
+                "to": "Operación normal",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1670,
+        "y": 240,
+        "wires": [
+            [
+                "e25199718b76fb2e"
+            ]
+        ]
+    },
+    {
+        "id": "e25199718b76fb2e",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "Tracking Reference",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "C2S.Last_Reference.Value",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1870,
+        "y": 240,
         "wires": [
             []
         ]
