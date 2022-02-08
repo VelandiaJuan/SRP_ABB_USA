@@ -168,6 +168,13 @@
         "info": ""
     },
     {
+        "id": "8ba0552a.e27ca8",
+        "type": "tab",
+        "label": "Librería",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -813,6 +820,42 @@
         "color": "#DDAA99"
     },
     {
+        "id": "222e9a8dc8f57193",
+        "type": "subflow",
+        "name": "ConversionSPM",
+        "info": "",
+        "category": "conversion",
+        "in": [
+            {
+                "x": 40,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "478982728f47abd2"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 360,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "478982728f47abd2",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {
+            "module": "ConversionSPM",
+            "type": "conversion"
+        },
+        "color": "#DDAA99"
+    },
+    {
         "id": "1d0c3cb2.7129f3",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -827,9 +870,7 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5,
-        "w": 552,
-        "h": 97
+        "y": 11.5
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -869,9 +910,7 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119,
-        "w": 1182,
-        "h": 322
+        "y": 119
     },
     {
         "id": "fcb3da61.429db8",
@@ -963,7 +1002,9 @@
             "326325a2bd2ea956"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 472
     },
     {
         "id": "3cb51855.a66038",
@@ -980,7 +1021,9 @@
             "25837d82b2979b05"
         ],
         "x": 134,
-        "y": 1339
+        "y": 1339,
+        "w": 252,
+        "h": 122
     },
     {
         "id": "27a0641a.d154dc",
@@ -1174,9 +1217,7 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459,
-        "w": 922,
-        "h": 182
+        "y": 459
     },
     {
         "id": "eed2da25.98fab8",
@@ -1223,9 +1264,7 @@
             "cae90cc36eb53039"
         ],
         "x": 54,
-        "y": 719,
-        "w": 882,
-        "h": 322
+        "y": 719
     },
     {
         "id": "312f680c.5a3b4",
@@ -1448,9 +1487,7 @@
             "cd2627ac2843f441"
         ],
         "x": 14,
-        "y": 1079,
-        "w": 1242,
-        "h": 262
+        "y": 1079
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1662,7 +1699,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1682,7 +1721,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "10280aeffc57de7d",
@@ -1968,9 +2009,7 @@
             "bf383a9670894a6e"
         ],
         "x": 14,
-        "y": 1399,
-        "w": 1568,
-        "h": 428
+        "y": 1399
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -1986,7 +2025,9 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1999,7 +2040,6 @@
         },
         "nodes": [
             "d69d4857.ada828",
-            "b5761987.f38488",
             "7def9f62.495c9",
             "7c7e0f85.16d55",
             "b8ccca4f.5b80d8",
@@ -2061,10 +2101,18 @@
             "820ffd9d.4462a",
             "cca85736.340b98",
             "fda65d81e947c35c",
-            "f465608052b953d3"
+            "f465608052b953d3",
+            "8d434edf9bd913e2",
+            "a60ba637963ad5a7",
+            "4bc8056a8d8aa493",
+            "240c0e57d6509511",
+            "6ebf0d6d774f637a",
+            "6f4c1103115e8942"
         ],
         "x": 4,
-        "y": 9
+        "y": -1,
+        "w": 1882,
+        "h": 482
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -2081,7 +2129,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373
+        "y": 1373,
+        "w": 1970,
+        "h": 1600
     },
     {
         "id": "0379aa12b6a49e83",
@@ -2097,7 +2147,9 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479
+        "y": 1479,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -2119,7 +2171,9 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169
+        "y": 1169,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -2146,7 +2200,9 @@
             "cf15dfa9acf0c78c"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 712,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -2171,7 +2227,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959
+        "y": 959,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9bdf522.eba6db",
@@ -2369,9 +2427,7 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73,
-        "w": 324,
-        "h": 324
+        "y": 73
     },
     {
         "id": "482200446b2a6616",
@@ -2492,7 +2548,9 @@
             "fd43d65633c388cf"
         ],
         "x": 534,
-        "y": 2999
+        "y": 2999,
+        "w": 762,
+        "h": 182
     },
     {
         "id": "3a4b00b6e7d09e3a",
@@ -2709,101 +2767,6 @@
         "y": 339
     },
     {
-        "id": "cdf073be70c458e3",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Actualizar librería PowerFlex 755 Black",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "36f95f70ccf63de1",
-            "20405d20297ca08d",
-            "3539776256db88ec",
-            "f35238f5504731e5",
-            "6c5df1518abcc7e9",
-            "bc05ec2a30e4c881",
-            "a0a010e125181197",
-            "30bd0cb80ad79de5",
-            "7d4643cba6304672"
-        ],
-        "x": 654,
-        "y": 751.5,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
-    },
-    {
-        "id": "78ef64315cd0ce13",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Reemplazar Images de Inicio del Dashboard ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8954035d0a8f1631",
-            "e68013d871eac1ad",
-            "b9d51a758c063405",
-            "fb094e793357db7f",
-            "8939ae1589f73827",
-            "2a74d2652ba40313",
-            "eb54458a9f9594a8",
-            "7678f4acbd0db084",
-            "59eca6c2abde58bc",
-            "253e92bec7f97195",
-            "9ba6cd185a117255",
-            "cdfbf8cd5bdab07e",
-            "355c46fbbb336d6d",
-            "6b17f15625324adb",
-            "5a6a33ce45c42196",
-            "bd32ed88482e9c36"
-        ],
-        "x": 54,
-        "y": 1079
-    },
-    {
-        "id": "40d3cefab634ddad",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "AFE balck Edition",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "91e55e6983bf455a",
-            "5d824d49885ba783",
-            "fb9e86c361917fd8",
-            "b8d044e75c493a2b",
-            "1902da7dd948937b",
-            "0157dedcb48ab813",
-            "a579cd13d184ebae",
-            "af07bd6da4e63f8f",
-            "8ee841a674a90ec4"
-        ],
-        "x": 54,
-        "y": 751.5,
-        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
-    },
-    {
-        "id": "605d50dc83a98078",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "name": "Cambiar Splash",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "8ff160913729fcb1",
-            "510b47c4f9f0e95c",
-            "0855ddfdc4bcf012",
-            "54f95f30bf9a6bbe"
-        ],
-        "x": 654,
-        "y": 1091.5
-    },
-    {
         "id": "5c9801fdee1b9e98",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -2826,9 +2789,7 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459,
-        "w": 312,
-        "h": 402
+        "y": 459
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2847,7 +2808,9 @@
             "d6ca01c917296363"
         ],
         "x": 14,
-        "y": 1679
+        "y": 1679,
+        "w": 532,
+        "h": 142
     },
     {
         "id": "38940f8.c9c27f",
@@ -3087,9 +3050,7 @@
             "44e2d32a5618e21f"
         ],
         "x": 14,
-        "y": 1059,
-        "w": 892,
-        "h": 482
+        "y": 1059
     },
     {
         "id": "e9acf894c223c544",
@@ -3112,9 +3073,7 @@
             "81040b9d06e8a4cf"
         ],
         "x": 14,
-        "y": 13,
-        "w": 1258,
-        "h": 1034
+        "y": 13
     },
     {
         "id": "bb085715e2738a9c",
@@ -3134,9 +3093,7 @@
             "9a3fe8f4e8cd6366"
         ],
         "x": 14,
-        "y": 1559,
-        "w": 872,
-        "h": 202
+        "y": 1559
     },
     {
         "id": "5dc71a84bf12ae23",
@@ -3173,9 +3130,7 @@
             "b506833eadd068ed"
         ],
         "x": 1294,
-        "y": 19,
-        "w": 1372,
-        "h": 242
+        "y": 19
     },
     {
         "id": "936eab7d97be78af",
@@ -3270,9 +3225,7 @@
             "ff83bad55c73ba02"
         ],
         "x": 64,
-        "y": 59,
-        "w": 1328,
-        "h": 562
+        "y": 59
     },
     {
         "id": "56a92b2a688064b3",
@@ -3299,9 +3252,7 @@
             "950ba8d14ba2185d"
         ],
         "x": -6,
-        "y": 2159,
-        "w": 982,
-        "h": 242
+        "y": 2159
     },
     {
         "id": "69cbede8f851191a",
@@ -3322,9 +3273,7 @@
             "a1c5e02a9d683eb4"
         ],
         "x": 94,
-        "y": 2459,
-        "w": 582,
-        "h": 182
+        "y": 2459
     },
     {
         "id": "a29dc858ae62d58f",
@@ -3510,9 +3459,7 @@
             "bbd14a02c90c8979"
         ],
         "x": 594,
-        "y": 159,
-        "w": 512,
-        "h": 242
+        "y": 159
     },
     {
         "id": "854b667853465d2b",
@@ -3530,9 +3477,7 @@
             "9ab20d05e2553884"
         ],
         "x": 34,
-        "y": 159,
-        "w": 482,
-        "h": 142
+        "y": 159
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -3561,9 +3506,7 @@
             "d0f5dfd40edd6ea0"
         ],
         "x": 14,
-        "y": 419,
-        "w": 632,
-        "h": 422
+        "y": 419
     },
     {
         "id": "9d4d96338ab627d0",
@@ -3584,9 +3527,7 @@
             "883ee81095c908e3"
         ],
         "x": 14,
-        "y": 859,
-        "w": 632,
-        "h": 122
+        "y": 859
     },
     {
         "id": "9648249e35aead30",
@@ -3605,9 +3546,7 @@
             "82cfd5182a05fe8d"
         ],
         "x": 24,
-        "y": 1019,
-        "w": 642,
-        "h": 82
+        "y": 1019
     },
     {
         "id": "d5ab7ccd2eaf9c7e",
@@ -3914,9 +3853,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99,
-        "w": 272,
-        "h": 82
+        "y": 99
     },
     {
         "id": "931b0370.afc1b",
@@ -3937,9 +3874,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189,
-        "w": 272,
-        "h": 182
+        "y": 189
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4242,7 +4177,9 @@
             "9708fb7ce60bdd70"
         ],
         "x": 594,
-        "y": 1399
+        "y": 1399,
+        "w": 772,
+        "h": 702
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4259,7 +4196,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 618,
-        "y": 2533
+        "y": 2533,
+        "w": 1894,
+        "h": 414
     },
     {
         "id": "c483d44b5f6def10",
@@ -4307,7 +4246,9 @@
             "90fdc4810e9cd514"
         ],
         "x": 1454,
-        "y": 1419
+        "y": 1419,
+        "w": 932,
+        "h": 942
     },
     {
         "id": "77dcd918.f8c298",
@@ -4334,9 +4275,7 @@
             "16bbbec3a6d114f6"
         ],
         "x": 534,
-        "y": 1599,
-        "w": 1022,
-        "h": 202
+        "y": 1599
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5218,7 +5157,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -5238,7 +5179,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -5836,24 +5779,6 @@
         "y": 39
     },
     {
-        "id": "8939ae1589f73827",
-        "type": "group",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "Eliminar las Imagenes",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "4f676190d3be32c2",
-            "6202f66fd42f47be",
-            "f8baf859808ea12a",
-            "d381293ba6d9615d"
-        ],
-        "x": 294,
-        "y": 1111.5
-    },
-    {
         "id": "70a63b74.44894c",
         "type": "group",
         "z": "2858ae04397c7488",
@@ -5961,9 +5886,7 @@
             "bb9476c101821117"
         ],
         "x": 384,
-        "y": 839,
-        "w": 862,
-        "h": 182
+        "y": 839
     },
     {
         "id": "df1d97613cf01d63",
@@ -5987,9 +5910,7 @@
             "ff18b4648c621a74"
         ],
         "x": 354,
-        "y": 39,
-        "w": 812,
-        "h": 202
+        "y": 39
     },
     {
         "id": "92c275e98763b20b",
@@ -6011,9 +5932,7 @@
             "34a6674d0381ec15"
         ],
         "x": 354,
-        "y": 259,
-        "w": 832,
-        "h": 162
+        "y": 259
     },
     {
         "id": "81040b9d06e8a4cf",
@@ -6037,9 +5956,7 @@
             "12caa31633404674"
         ],
         "x": 354,
-        "y": 439,
-        "w": 832,
-        "h": 202
+        "y": 439
     },
     {
         "id": "1d7f7e08aa6be572",
@@ -6061,9 +5978,7 @@
             "874fe8b7b2726764"
         ],
         "x": 354,
-        "y": 659,
-        "w": 772,
-        "h": 162
+        "y": 659
     },
     {
         "id": "1112a5e0c336769a",
@@ -6091,9 +6006,7 @@
             "e25446d909349bd1"
         ],
         "x": 714,
-        "y": 119,
-        "w": 652,
-        "h": 202
+        "y": 119
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -6125,7 +6038,9 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 1234,
-        "y": 2679
+        "y": 2679,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "36fa9c99094e8f47",
@@ -6151,7 +6066,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 644,
-        "y": 2559
+        "y": 2559,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -7250,6 +7167,129 @@
         ],
         "x": 1394,
         "y": 459
+    },
+    {
+        "id": "224caf14924e867c",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "name": "Actualizar librería PowerFlex 755 Black",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "092b9c7c130dee8e",
+            "d12c5670cd474484",
+            "d6507a14d7997c53",
+            "2ba47757115da461",
+            "e61e0d52375f403f",
+            "773d388249299e46",
+            "4004597dd29d06e4",
+            "aec099feab5eb9ea",
+            "8c2c9457b8fbf94c"
+        ],
+        "x": 734,
+        "y": 51.5,
+        "w": 652,
+        "h": 307,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "2282018314ee7576",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "name": "Reemplazar Images de Inicio del Dashboard ",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ccb6f10d6c8566a3",
+            "61931b0384cfca67",
+            "a56341092d74dd48",
+            "c733a1aa977c67a7",
+            "cacd646bcfbdbb4d",
+            "3b72bc49809933f3",
+            "33025713e95850ab",
+            "fde3563bd759beb6",
+            "7ab9425b5516ccbe",
+            "7b05a6d416986637",
+            "f62465a51a146bc8",
+            "800b6a8d81724146",
+            "5ebc9eaa4819dff0",
+            "23a64f852c94d82b",
+            "e5f9ddcd6e4f11fe",
+            "0832a6b33e1f520c"
+        ],
+        "x": 134,
+        "y": 379,
+        "w": 538,
+        "h": 649.5
+    },
+    {
+        "id": "23c99fd.b16886",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "name": "AFE balck Edition",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4486e1dc.7b1c6",
+            "17475ea4.e2c431",
+            "699f8e75.52924",
+            "f375ab1b.6713c8",
+            "daeaa5f3.b6c508",
+            "3b8a4863.32b688",
+            "c099a844.31d128",
+            "690d3aa836885133",
+            "694d26dc55259ece"
+        ],
+        "x": 134,
+        "y": 51.5,
+        "w": 572,
+        "h": 287,
+        "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
+    },
+    {
+        "id": "262051d5.79c84e",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "name": "Cambiar Splash",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "aa3c422d.31446",
+            "4a92f2f5.dac4fc",
+            "6b91a284.15037c",
+            "5e35a538.cad0cc"
+        ],
+        "x": 734,
+        "y": 391.5,
+        "w": 432,
+        "h": 157
+    },
+    {
+        "id": "cacd646bcfbdbb4d",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "Eliminar las Imagenes",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b845abf3cb6387ac",
+            "dd07e29916b7db6c",
+            "d11d9c8160729e7c",
+            "351eccb8791a5abd"
+        ],
+        "x": 374,
+        "y": 411.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "d25d405a.19cff",
@@ -8645,60 +8685,6 @@
         "className": ""
     },
     {
-        "id": "2bc37396131d90ff",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b474f4f8714ff047",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ca5a2ceb7cac24dc",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "eb80d482996c46c7",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "023e5000b6b8367e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "067da5f1dfa51a71",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "474271dc.04fa9",
-        "order": 11,
-        "width": 6,
-        "height": 1
-    },
-    {
         "id": "a07f6b49ca906c9b",
         "type": "ui_spacer",
         "name": "spacer",
@@ -10035,17 +10021,6 @@
         "className": ""
     },
     {
-        "id": "aa291819959667d9",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 4,
-        "width": "3",
-        "height": "2",
-        "className": ""
-    },
-    {
         "id": "3dfc6e9db716aab8",
         "type": "ui_tab",
         "name": "Tendencias",
@@ -10510,126 +10485,6 @@
         "className": ""
     },
     {
-        "id": "7010e8a9247227c4",
-        "type": "ui_spacer",
-        "z": "2e27dea6.c4c362",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 12,
-        "width": "2",
-        "height": 1,
-        "className": ""
-    },
-    {
-        "id": "997d37017b7f8871",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 1,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "3575e8ed35356cd6",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 5,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "a6bdb4426be252d1",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 11,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "3b76e849b93702bc",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 1,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "ae2e7941001f6d12",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 4,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "5e4fd30156655673",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 6,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "d8f08a1906326b98",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 1,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "5cbd53ea5702a74d",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 4,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "dc3682c86990052f",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 7,
-        "width": 1,
-        "height": "3",
-        "className": ""
-    },
-    {
-        "id": "9c68d89bd7ed3ea1",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "737fcab07a3aa4b4",
         "type": "ui_group",
         "name": "Nav_bar",
@@ -10717,16 +10572,6 @@
         "order": 5,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "c826a906d21939e3",
-        "type": "ui_spacer",
-        "z": "f08f78f1e5892037",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 2,
-        "width": 1,
-        "height": 1
     },
     {
         "id": "d063f13f9026fee1",
@@ -11231,14 +11076,444 @@
         "collapse": false
     },
     {
+        "id": "8048cf8606a37e2e",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b26bfec0a3e1b8c3",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "54012b7a0b8a2c34",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6a7f71e044fd2ef7",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ffe02329f2345f2",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "579331b406800ec6",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cdcd07b376cdf771",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "326985af1e55891a",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a92871ef97e9c5f4",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c0016571508f1520",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "07c208481b0dbd0b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ebc48771f655d5c7",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "722e2474a9e98d05",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1fa065627b93fa7e",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "22bdb43961c39d45",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d1ccc0da16171f5c",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9d1db0953c188be0",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9cd60fa2abbf6df9",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f1a785d565c0fb5a",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "564e5d7ba9eb2e4a",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "06929962ee7ea8ac",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2cb0302732730ce8",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "245e7c546582fb74",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d627a746f0809a48",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5eba9a68a5f438a8",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8a2d16d0fad5374d",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "236daaab09a689ac",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5cca872741e835f7",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 18,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c52768e982026118",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "36709efede787014",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2eaea585b0c50267",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9e562c5032cd5023",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "df0150bbd856c3e7",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b4bfbd0357f6ba6d",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "474271dc.04fa9",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a166f1638862867b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ac0d0d1dd6ce4a0b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5fec36c79de89a23",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c7639d62aa9acd23",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63af51441a19ba6f",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d7c8ece9080fe8cd",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "60c2e2004a0a11de",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5621b7bccda63393",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6c311417edcec3dc",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "4f5b8416.cada1c",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
         "id": "e765ca36.69fb98",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
         "g": "82fde41a.c6f8d8",
         "group": "764d8ce4.3c81b4",
         "name": "menu home",
-        "order": 1,
-        "width": "16",
+        "order": 2,
+        "width": 16,
         "height": 1,
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\"\n                aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comandos\n                C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": false,
@@ -11807,7 +12082,7 @@
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
         "group": "4f5b8416.cada1c",
-        "order": 3,
+        "order": 4,
         "width": 1,
         "height": 1,
         "name": "",
@@ -12586,8 +12861,8 @@
         "group": "f7aa27b.6c2ded8",
         "name": "LOGO",
         "order": 5,
-        "width": "4",
-        "height": "3",
+        "width": 4,
+        "height": 3,
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/Slacol_bcpgrp.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Versión: VRC 2.0.0</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -45106,7 +45381,7 @@
         "name": "",
         "group": "474271dc.04fa9",
         "order": 2,
-        "width": "10",
+        "width": 10,
         "height": 6,
         "label": "{{msg.label}}",
         "chartType": "bar",
@@ -46229,7 +46504,7 @@
         "g": "7b407017129e2c3f",
         "group": "d4113fd9.a0bfc",
         "order": 3,
-        "width": "6",
+        "width": 6,
         "height": 1,
         "name": "titulo arranque",
         "label": "",
@@ -46263,8 +46538,8 @@
         "g": "10280aeffc57de7d",
         "name": "Normal",
         "group": "d4113fd9.a0bfc",
-        "order": 10,
-        "width": "3",
+        "order": 12,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Op. Normal",
@@ -46292,8 +46567,8 @@
         "g": "10280aeffc57de7d",
         "name": "Prolongada",
         "group": "d4113fd9.a0bfc",
-        "order": 15,
-        "width": "3",
+        "order": 19,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Ref. Prolong",
@@ -46379,7 +46654,7 @@
         "label": "Rampa 1 (s)",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
-        "order": 7,
+        "order": 8,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -46406,7 +46681,7 @@
         "label": "Referencia 1 (Hz)",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
-        "order": 11,
+        "order": 15,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -46433,7 +46708,7 @@
         "label": "Espera (s)",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
-        "order": 8,
+        "order": 9,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -46460,7 +46735,7 @@
         "label": "Rampa 2 (s)",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
-        "order": 9,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -46487,7 +46762,7 @@
         "label": "Referencia 2 (Hz)",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
-        "order": 13,
+        "order": 17,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -46511,7 +46786,7 @@
         "z": "18d8f6b717fbdf76",
         "g": "10280aeffc57de7d",
         "group": "d4113fd9.a0bfc",
-        "order": 12,
+        "order": 16,
         "width": 3,
         "height": 1,
         "name": "",
@@ -58539,10 +58814,10 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "",
-        "label": "Referencia (Hz)",
+        "label": "Referencia (spm)",
         "tooltip": "",
         "group": "e5ec1549.1923c8",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -58552,38 +58827,13 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 810,
+        "x": 820,
         "y": 130,
         "wires": [
             [
-                "b5761987.f38488"
+                "4bc8056a8d8aa493",
+                "6ebf0d6d774f637a"
             ]
-        ]
-    },
-    {
-        "id": "b5761987.f38488",
-        "type": "change",
-        "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
-        "name": "ref",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Input.Operation.Reference",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 960,
-        "y": 130,
-        "wires": [
-            []
         ]
     },
     {
@@ -58593,7 +58843,7 @@
         "g": "6202107f.ed9aa",
         "name": "",
         "group": "e5ec1549.1923c8",
-        "order": 8,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -58624,7 +58874,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "#:(memoryOnly)::Input.Operation.Reference",
+                "to": "#:(memoryOnly)::Input.Operation.spm",
                 "tot": "global"
             }
         ],
@@ -58637,7 +58887,8 @@
         "y": 170,
         "wires": [
             [
-                "b8ccca4f.5b80d8"
+                "b8ccca4f.5b80d8",
+                "240c0e57d6509511"
             ]
         ]
     },
@@ -58652,19 +58903,19 @@
         "rules": [
             {
                 "t": "gt",
-                "v": "C2S.Speed_Control.MaxLimit",
+                "v": "C2S.Speed_Control.MaxLimitSPM",
                 "vt": "global"
             },
             {
                 "t": "lt",
-                "v": "C2S.Speed_Control.MinLimit",
+                "v": "C2S.Speed_Control.MinLimitSPM",
                 "vt": "global"
             },
             {
                 "t": "btwn",
-                "v": "C2S.Speed_Control.MinLimit",
+                "v": "C2S.Speed_Control.MaxLimitSPM",
                 "vt": "global",
-                "v2": "C2S.Speed_Control.MaxLimit",
+                "v2": "C2S.Speed_Control.MinLimitSPM",
                 "v2t": "global"
             }
         ],
@@ -58682,8 +58933,8 @@
             ],
             [
                 "c1cf35bd.94c428",
-                "7d229a445e26240e",
-                "fda65d81e947c35c"
+                "fda65d81e947c35c",
+                "6f4c1103115e8942"
             ]
         ]
     },
@@ -58698,6 +58949,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1250,
         "y": 90,
         "wires": [
@@ -58712,11 +58964,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "Ref OK",
-        "func": "var sentidogiro = global.get(\"C2S.Drive_Status.Command_dir\",\"memoryOnly\")||0;\nmsg.payload = \"Cambio de referencia a \"+ Math.abs(msg.payload) + \" Hz\";\nmsg.topic = \"Referencia\";\nreturn msg;",
+        "func": "var sentidogiro = global.get(\"C2S.Drive_Status.Command_dir\", \"memoryOnly\") || 0;\nvar spm = global.get(\"C2S.Implicit.spm\", \"memoryOnly\") || 0;\nvar refMotor = global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\");\nmsg.payload = \"Cambio de referencia a \" + Math.abs(parseFloat(spm.toFixed(2))) + \"spm, Velocidad Motor:\" + Math.abs(parseFloat((refMotor).toFixed(2))) + \"Hz\";\nmsg.topic = \"Referencia\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1650,
         "y": 150,
         "wires": [
@@ -58845,7 +59098,7 @@
         "g": "6202107f.ed9aa",
         "name": "",
         "group": "e5ec1549.1923c8",
-        "order": 12,
+        "order": 16,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -58914,7 +59167,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "group": "e5ec1549.1923c8",
-        "order": 13,
+        "order": 17,
         "width": 2,
         "height": 1,
         "name": "",
@@ -59013,14 +59266,14 @@
         "g": "6202107f.ed9aa",
         "group": "e5ec1549.1923c8",
         "order": 3,
-        "width": "3",
+        "width": 3,
         "height": 1,
         "name": "titulo arranque",
         "label": "",
         "format": "",
         "layout": "row-left",
-        "x": 1230,
-        "y": 50,
+        "x": 1380,
+        "y": 40,
         "wires": []
     },
     {
@@ -59036,8 +59289,8 @@
         "label": "",
         "format": "<font size = 4px> Otras Funciones",
         "layout": "col-center",
-        "x": 1410,
-        "y": 50,
+        "x": 1560,
+        "y": 60,
         "wires": []
     },
     {
@@ -59064,7 +59317,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "group": "e5ec1549.1923c8",
-        "order": 14,
+        "order": 18,
         "width": 2,
         "height": 1,
         "name": "",
@@ -59082,8 +59335,8 @@
         "g": "6202107f.ed9aa",
         "name": "Escalonado",
         "group": "e5ec1549.1923c8",
-        "order": 10,
-        "width": "3",
+        "order": 13,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Arr. escalon",
@@ -59111,8 +59364,8 @@
         "g": "6202107f.ed9aa",
         "name": "Ref prolongada",
         "group": "e5ec1549.1923c8",
-        "order": 16,
-        "width": "3",
+        "order": 21,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Ref. Prolong",
@@ -59449,8 +59702,8 @@
         "g": "6202107f.ed9aa",
         "name": "",
         "env": [],
-        "x": 1230,
-        "y": 210,
+        "x": 1420,
+        "y": 220,
         "wires": [
             []
         ]
@@ -59461,11 +59714,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "Sts Ref",
-        "func": "var Commanded_SpdRef    = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0)).toFixed(3));\nvar Reference           = global.get(\"Input.Operation.Reference\",\"memoryOnly\")||0;\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
+        "func": "var Commanded_SpdRef = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\") || 0);\nvar Reference = global.get(\"Input.Operation.Reference\", \"memoryOnly\") || 0;\n\nReference = parseFloat(Reference.toFixed(2));\nCommanded_SpdRef = parseFloat(Commanded_SpdRef.toFixed(2));\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\")\ncontext.set(\"Reference\", Reference, \"memoryOnly\")\nif (Commanded_SpdRef == Reference)\n    msg.verify = 1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1370,
         "y": 170,
         "wires": [
@@ -60103,7 +60357,7 @@
         "g": "6202107f.ed9aa",
         "group": "4f5b8416.cada1c",
         "order": 2,
-        "width": "2",
+        "width": 2,
         "height": 1,
         "name": "",
         "label": "Ref: ",
@@ -60838,8 +61092,8 @@
         "tooltip": "",
         "group": "e5ec1549.1923c8",
         "order": 2,
-        "width": "3",
-        "height": "1",
+        "width": 3,
+        "height": 1,
         "passthru": true,
         "mode": "text",
         "delay": 300,
@@ -60862,8 +61116,8 @@
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
         "order": 2,
-        "width": "3",
-        "height": "1",
+        "width": 3,
+        "height": 1,
         "passthru": true,
         "mode": "text",
         "delay": 300,
@@ -60886,8 +61140,8 @@
         "tooltip": "",
         "group": "2d559537.720c4a",
         "order": 2,
-        "width": "3",
-        "height": "1",
+        "width": 3,
+        "height": 1,
         "passthru": true,
         "mode": "text",
         "delay": 300,
@@ -61294,9 +61548,9 @@
         "g": "086b9d08c3b68939",
         "name": "Versión",
         "group": "4f5b8416.cada1c",
-        "order": 4,
-        "width": "1",
-        "height": "1",
+        "order": 5,
+        "width": 1,
+        "height": 1,
         "passthru": false,
         "label": "",
         "tooltip": "",
@@ -64791,9 +65045,9 @@
         "z": "902fc438.e5d758",
         "g": "fcb3da61.429db8",
         "group": "f7aa27b.6c2ded8",
-        "order": 10,
-        "width": "8",
-        "height": "1",
+        "order": 11,
+        "width": 8,
+        "height": 1,
         "name": "Estado funciones de control",
         "label": "",
         "format": "<font size= 5px><font color = green>{{msg.payload}}",
@@ -71280,8 +71534,8 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 10,
-        "width": "4",
+        "order": 11,
+        "width": 4,
         "height": 2,
         "name": "",
         "label": "Runtime",
@@ -71298,8 +71552,8 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 11,
-        "width": "4",
+        "order": 12,
+        "width": 4,
         "height": 2,
         "name": "",
         "label": "Último código falla",
@@ -75553,7 +75807,7 @@
         "g": "3a4b00b6e7d09e3a",
         "group": "2d559537.720c4a",
         "order": 3,
-        "width": "6",
+        "width": 6,
         "height": 1,
         "name": "titulo referencia",
         "label": "",
@@ -75587,8 +75841,8 @@
         "g": "3a4b00b6e7d09e3a",
         "name": "Normal",
         "group": "2d559537.720c4a",
-        "order": 13,
-        "width": "3",
+        "order": 14,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Op. Normal",
@@ -75616,8 +75870,8 @@
         "g": "3a4b00b6e7d09e3a",
         "name": "Escalonado",
         "group": "2d559537.720c4a",
-        "order": 16,
-        "width": "3",
+        "order": 19,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "label": "<font size = 2px>Arr. escalon",
@@ -75852,7 +76106,7 @@
         "z": "bef159b0eb2cf912",
         "g": "3a4b00b6e7d09e3a",
         "group": "2d559537.720c4a",
-        "order": 14,
+        "order": 17,
         "width": 7,
         "height": 1,
         "name": "",
@@ -79170,11 +79424,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "ref first time",
-        "func": "var ref = global.get(\"C2S.Last_Reference.Value\")||\"none\";\nif (ref == \"none\"){global.set(\"C2S.Last_Reference.Value\",msg.payload);\nreturn msg;\n}",
+        "func": "var ref = global.get(\"C2S.Last_Reference.Value\")||\"none\";\nif (ref == \"none\"){\n    // global.set(\"C2S.Last_Reference.Value\",msg.payload);\n    msg.payload = ref;\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1220,
         "y": 130,
         "wires": [
@@ -79662,8 +79917,8 @@
         "topic": "",
         "payload": "C2S.Last_Reference.Value",
         "payloadType": "global",
-        "x": 1600,
-        "y": 50,
+        "x": 1780,
+        "y": 60,
         "wires": [
             [
                 "623eb47dc08d064b"
@@ -80702,924 +80957,13 @@
         ]
     },
     {
-        "id": "36f95f70ccf63de1",
-        "type": "inject",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 770,
-        "y": 800,
-        "wires": [
-            [
-                "20405d20297ca08d"
-            ]
-        ]
-    },
-    {
-        "id": "20405d20297ca08d",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Eliminar librería PCCC actual",
-        "x": 1060,
-        "y": 800,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "3539776256db88ec",
-        "type": "complete",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "name": "",
-        "scope": [
-            "20405d20297ca08d"
-        ],
-        "uncaught": false,
-        "x": 750,
-        "y": 840,
-        "wires": [
-            [
-                "f35238f5504731e5",
-                "7d4643cba6304672"
-            ]
-        ]
-    },
-    {
-        "id": "f35238f5504731e5",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/root/nodePCCC.js /root/.node-red/node_modules/nodepccc/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Reemplazar librería PowerFlex755 ROOT",
-        "x": 1060,
-        "y": 860,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "6c5df1518abcc7e9",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "command": "sudo reboot now",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 1160,
-        "y": 1010,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "bc05ec2a30e4c881",
-        "type": "complete",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "name": "",
-        "scope": [
-            "f35238f5504731e5"
-        ],
-        "uncaught": false,
-        "x": 750,
-        "y": 1010,
-        "wires": [
-            [
-                "a0a010e125181197"
-            ]
-        ]
-    },
-    {
-        "id": "a0a010e125181197",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 960,
-        "y": 1010,
-        "wires": [
-            [
-                "6c5df1518abcc7e9"
-            ]
-        ]
-    },
-    {
-        "id": "30bd0cb80ad79de5",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/static/nodePCCC.js /home/bcpgrp/node_modules/nodepccc/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Reemplazar librería PowerFlex755 homeBCPGR",
-        "x": 1090,
-        "y": 930,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "7d4643cba6304672",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "cdf073be70c458e3",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 770,
-        "y": 890,
-        "wires": [
-            [
-                "30bd0cb80ad79de5"
-            ]
-        ]
-    },
-    {
-        "id": "8954035d0a8f1631",
-        "type": "inject",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 160,
-        "y": 1160,
-        "wires": [
-            [
-                "4f676190d3be32c2",
-                "e68013d871eac1ad"
-            ]
-        ]
-    },
-    {
-        "id": "e68013d871eac1ad",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1220,
-        "wires": [
-            [
-                "6202f66fd42f47be",
-                "b9d51a758c063405"
-            ]
-        ]
-    },
-    {
-        "id": "b9d51a758c063405",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1280,
-        "wires": [
-            [
-                "f8baf859808ea12a",
-                "fb094e793357db7f"
-            ]
-        ]
-    },
-    {
-        "id": "fb094e793357db7f",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1340,
-        "wires": [
-            [
-                "d381293ba6d9615d",
-                "9ba6cd185a117255"
-            ]
-        ]
-    },
-    {
-        "id": "4f676190d3be32c2",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "8939ae1589f73827",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 120 dashboard",
-        "x": 430,
-        "y": 1160,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "6202f66fd42f47be",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "8939ae1589f73827",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 192 dashboard",
-        "x": 430,
-        "y": 1220,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "f8baf859808ea12a",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "8939ae1589f73827",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar 64 dashboard",
-        "x": 420,
-        "y": 1280,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "d381293ba6d9615d",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "8939ae1589f73827",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "eliminar Index dashboard",
-        "x": 430,
-        "y": 1340,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "2a74d2652ba40313",
-        "type": "comment",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "Importante",
-        "info": "Tener Actualizado el folder de configuración.\ny en la ruta /home/bcpgrp/Documents",
-        "x": 160,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "eb54458a9f9594a8",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "adicionar 120 dashboard",
-        "x": 430,
-        "y": 1440,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "7678f4acbd0db084",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "adicionar 192 dashboard",
-        "x": 430,
-        "y": 1500,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "59eca6c2abde58bc",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "adicionar 64 dashboard",
-        "x": 430,
-        "y": 1560,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "253e92bec7f97195",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "adicionar index dashboard",
-        "x": 440,
-        "y": 1620,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "9ba6cd185a117255",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1440,
-        "wires": [
-            [
-                "eb54458a9f9594a8",
-                "cdfbf8cd5bdab07e"
-            ]
-        ]
-    },
-    {
-        "id": "cdfbf8cd5bdab07e",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1500,
-        "wires": [
-            [
-                "7678f4acbd0db084",
-                "355c46fbbb336d6d"
-            ]
-        ]
-    },
-    {
-        "id": "355c46fbbb336d6d",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1560,
-        "wires": [
-            [
-                "59eca6c2abde58bc",
-                "6b17f15625324adb"
-            ]
-        ]
-    },
-    {
-        "id": "6b17f15625324adb",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 170,
-        "y": 1620,
-        "wires": [
-            [
-                "253e92bec7f97195",
-                "5a6a33ce45c42196"
-            ]
-        ]
-    },
-    {
-        "id": "5a6a33ce45c42196",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 160,
-        "y": 1680,
-        "wires": [
-            [
-                "bd32ed88482e9c36"
-            ]
-        ]
-    },
-    {
-        "id": "bd32ed88482e9c36",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "78ef64315cd0ce13",
-        "command": "sudo reboot now",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 420,
-        "y": 1680,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "91e55e6983bf455a",
-        "type": "inject",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 190,
-        "y": 800,
-        "wires": [
-            [
-                "5d824d49885ba783"
-            ]
-        ]
-    },
-    {
-        "id": "5d824d49885ba783",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "command": "sudo rm /root/.node-red/node_modules/nodepccc/nodePCCC.js",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Eliminar librería PCCC actual",
-        "x": 480,
-        "y": 800,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "fb9e86c361917fd8",
-        "type": "complete",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "name": "",
-        "scope": [
-            "5d824d49885ba783"
-        ],
-        "uncaught": false,
-        "x": 170,
-        "y": 840,
-        "wires": [
-            [
-                "b8d044e75c493a2b",
-                "8ee841a674a90ec4"
-            ]
-        ]
-    },
-    {
-        "id": "b8d044e75c493a2b",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Modules/nodePCCC.js /home/bcpgrp/node_modules/nodepccc",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "Reemplazar librería AFE",
-        "x": 430,
-        "y": 860,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "1902da7dd948937b",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "command": "sudo reboot now",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 480,
-        "y": 990,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "0157dedcb48ab813",
-        "type": "complete",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "name": "",
-        "scope": [
-            "b8d044e75c493a2b"
-        ],
-        "uncaught": false,
-        "x": 150,
-        "y": 990,
-        "wires": [
-            [
-                "a579cd13d184ebae"
-            ]
-        ]
-    },
-    {
-        "id": "a579cd13d184ebae",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 300,
-        "y": 990,
-        "wires": [
-            [
-                "1902da7dd948937b"
-            ]
-        ]
-    },
-    {
-        "id": "af07bd6da4e63f8f",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Red/nodePCCC.js /root/.node-red/node_modules/nodepccc",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "reemplazarRoot",
-        "x": 400,
-        "y": 910,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "8ee841a674a90ec4",
-        "type": "delay",
-        "z": "4c43e2ae2d9aec48",
-        "g": "40d3cefab634ddad",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 230,
-        "y": 910,
-        "wires": [
-            [
-                "af07bd6da4e63f8f"
-            ]
-        ]
-    },
-    {
-        "id": "8ff160913729fcb1",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "605d50dc83a98078",
-        "command": "sudo rm /usr/share/plymouth/themes/pix/splash.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Remover Splash actual",
-        "x": 950,
-        "y": 1140,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "510b47c4f9f0e95c",
-        "type": "inject",
-        "z": "4c43e2ae2d9aec48",
-        "d": true,
-        "g": "605d50dc83a98078",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 770,
-        "y": 1140,
-        "wires": [
-            [
-                "8ff160913729fcb1"
-            ]
-        ]
-    },
-    {
-        "id": "0855ddfdc4bcf012",
-        "type": "complete",
-        "z": "4c43e2ae2d9aec48",
-        "g": "605d50dc83a98078",
-        "name": "",
-        "scope": [
-            "8ff160913729fcb1"
-        ],
-        "uncaught": false,
-        "x": 750,
-        "y": 1200,
-        "wires": [
-            [
-                "54f95f30bf9a6bbe"
-            ]
-        ]
-    },
-    {
-        "id": "54f95f30bf9a6bbe",
-        "type": "exec",
-        "z": "4c43e2ae2d9aec48",
-        "g": "605d50dc83a98078",
-        "command": "sudo cp /home/pi/Documents/splash.png /usr/share/plymouth/themes/pix/splash.png",
-        "addpay": false,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "oldrc": false,
-        "name": "Insertar Splash",
-        "x": 920,
-        "y": 1200,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
         "id": "ce96fe756e53c0a0",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
         "g": "5c9801fdee1b9e98",
         "group": "764d8ce4.3c81b4",
         "name": "Logo / Clock",
-        "order": 0,
+        "order": 1,
         "width": 0,
         "height": 0,
         "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://localhost:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        p.text(new Date().toLocaleString());\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 100);\n    });\n</script>",
@@ -81641,7 +80985,7 @@
         "g": "5c9801fdee1b9e98",
         "group": "4f5b8416.cada1c",
         "name": "Principal",
-        "order": 2,
+        "order": 3,
         "width": 1,
         "height": 1,
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
@@ -81979,9 +81323,9 @@
         "g": "a55fe2f884c89e71",
         "name": "",
         "group": "13df98319c7579a6",
-        "order": 0,
-        "width": "16",
-        "height": "5",
+        "order": 1,
+        "width": 16,
+        "height": 5,
         "label": "",
         "chartType": "line",
         "legend": "true",
@@ -84640,9 +83984,9 @@
         "z": "902fc438.e5d758",
         "g": "fcb3da61.429db8",
         "group": "f7aa27b.6c2ded8",
-        "order": 11,
-        "width": "4",
-        "height": "1",
+        "order": 12,
+        "width": 4,
+        "height": 1,
         "name": "Estado funciones de control",
         "label": "",
         "format": "<font size= 3px><font color = red>{{msg.payload}}",
@@ -93105,9 +92449,9 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 11,
-        "width": "0",
-        "height": "0",
+        "order": 15,
+        "width": 0,
+        "height": 0,
         "name": "TItulo Sensorless",
         "label": "",
         "format": "<font size =4px> Datos Sensorless®",
@@ -94785,7 +94129,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 1,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Frecuencia Salida",
         "label": "Frecuencia Salida",
@@ -94848,7 +94192,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 2,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Porcentaje Velocidad",
         "label": "Porcentaje Velocidad",
@@ -94891,7 +94235,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 3,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Factor Potencia",
         "label": "Factor de Potencia",
@@ -94934,7 +94278,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 4,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Corriente Salida",
         "label": "Corriente Salida",
@@ -95029,7 +94373,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 5,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Bus DC",
         "label": "Bus DC",
@@ -95092,7 +94436,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 6,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Tensión Motor",
         "label": "Tensión Motor",
@@ -95155,7 +94499,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 7,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Potencia",
         "label": "Potencia",
@@ -95218,7 +94562,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 8,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Tensión Salida",
         "label": "Tensión Salida",
@@ -95301,7 +94645,7 @@
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
         "order": 9,
-        "width": "4",
+        "width": 4,
         "height": 2,
         "name": "Corriente Motor",
         "label": "Corriente Motor",
@@ -95418,8 +94762,8 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 9,
-        "width": "4",
+        "order": 10,
+        "width": 4,
         "height": 2,
         "name": "Temp. Drive",
         "label": "Temp. Drive",
@@ -95462,7 +94806,7 @@
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
         "order": 1,
-        "width": "3",
+        "width": 3,
         "height": 2,
         "name": "Presión Entrada",
         "label": "Presión Entrada",
@@ -95525,7 +94869,7 @@
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
         "order": 2,
-        "width": "3",
+        "width": 3,
         "height": 2,
         "name": "Presión Descarga",
         "label": "Presión Descarga",
@@ -95588,7 +94932,7 @@
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
         "order": 3,
-        "width": "3",
+        "width": 3,
         "height": 2,
         "name": "Temp. Entrada",
         "label": "Temp. Entrada",
@@ -95651,7 +94995,7 @@
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
         "order": 4,
-        "width": "3",
+        "width": 3,
         "height": 2,
         "name": "Temp. Descarga",
         "label": "Temp. Descarga",
@@ -95714,7 +95058,7 @@
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
         "order": 5,
-        "width": "3",
+        "width": 3,
         "height": 2,
         "name": "Temp. Motor",
         "label": "Temp. Motor",
@@ -95776,8 +95120,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 6,
-        "width": "3",
+        "order": 8,
+        "width": 3,
         "height": 2,
         "name": "Vibración X",
         "label": "Vibración X",
@@ -95819,8 +95163,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 7,
-        "width": "3",
+        "order": 9,
+        "width": 3,
         "height": 2,
         "name": "Vibración Z",
         "label": "Vibración Z",
@@ -95902,8 +95246,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 8,
-        "width": "3",
+        "order": 10,
+        "width": 3,
         "height": 2,
         "name": "Corriente Fuga",
         "label": "Corriente Fuga",
@@ -95985,8 +95329,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 9,
-        "width": "3",
+        "order": 11,
+        "width": 3,
         "height": 2,
         "name": "Presión THP",
         "label": "Presión THP",
@@ -96028,8 +95372,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 10,
-        "width": "3",
+        "order": 12,
+        "width": 3,
         "height": 2,
         "name": "Temp. THT",
         "label": "Temp. THT",
@@ -96091,8 +95435,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 13,
-        "width": "3",
+        "order": 17,
+        "width": 3,
         "height": 2,
         "name": "Presión entrada",
         "label": "Presión entrada",
@@ -96154,8 +95498,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 14,
-        "width": "3",
+        "order": 18,
+        "width": 3,
         "height": 2,
         "name": "Nivel Fluido Dinámico",
         "label": "Nivel Fluido Dinámico",
@@ -96217,8 +95561,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 15,
-        "width": "3",
+        "order": 19,
+        "width": 3,
         "height": 2,
         "name": "Sumergencia",
         "label": "Sumergencia",
@@ -96280,8 +95624,8 @@
         "z": "902fc438.e5d758",
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 16,
-        "width": "3",
+        "order": 20,
+        "width": 3,
         "height": 2,
         "name": "Caudal",
         "label": "Caudal",
@@ -104114,6 +103458,1038 @@
         "wires": [
             [
                 "0bf02e140da3357d"
+            ]
+        ]
+    },
+    {
+        "id": "478982728f47abd2",
+        "type": "function",
+        "z": "222e9a8dc8f57193",
+        "name": "conversionHz",
+        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\")||0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\")||0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\")||0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\")||0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\")||0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"relSRP1\", relSRP1, \"memoryOnly\");\ncontext.set(\"relSRP2\", relSRP2, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor!= 0){\n    node.status({fill:\"green\",shape:\"dot\",text:\"Configurado\"});\n    var relSRP1 = spm*PoleaGrande*RGB*HertzMotor;\n    var relSRP2 = RPM*PoleaPequena\n    if(relSRP2 != 0){//ejecute si la relacion de SRP2 está correcta\n        var hz = relSRP1/relSRP2;\n        hz = parseFloat(hz.toFixed(4));//redondeo a 4 cifras\n        msg.payload = hz;\n        context.set(\"hz\", hz, \"memoryOnly\");\n        // setea la variable global\n        global.set(\"Input.Operation.Reference\", hz, \"memoryOnly\");\n        global.set(\"C2S.Last_Reference.Value\", hz, \"memoryOnly\");\n        global.set(\"Input.Operation.spm\", spm, \"memoryOnly\");\n        return msg;\n    }\n\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoConfigurado\"});\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4bc8056a8d8aa493",
+        "type": "delay",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 880,
+        "y": 40,
+        "wires": [
+            [
+                "a60ba637963ad5a7"
+            ]
+        ]
+    },
+    {
+        "id": "a60ba637963ad5a7",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "AlarmaSPM",
+        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && (HertzMotor != 0) && PoleaPequena != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n} else {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n    msg.payload = \"Ingrese a Configuración VSD Datos del Motor para Configurar\";\n    msg.topic = \"Caja SRP no Configurada\";\n    return msg\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 40,
+        "wires": [
+            [
+                "8d434edf9bd913e2"
+            ]
+        ]
+    },
+    {
+        "id": "8d434edf9bd913e2",
+        "type": "ui_toast",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "CajaNoConfig",
+        "x": 1200,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "240c0e57d6509511",
+        "type": "debug",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6ebf0d6d774f637a",
+        "type": "subflow:222e9a8dc8f57193",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "",
+        "x": 1040,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f4c1103115e8942",
+        "type": "subflow:222e9a8dc8f57193",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "",
+        "x": 1220,
+        "y": 220,
+        "wires": [
+            [
+                "7d229a445e26240e"
+            ]
+        ]
+    },
+    {
+        "id": "4486e1dc.7b1c6",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "17475ea4.e2c431"
+            ]
+        ]
+    },
+    {
+        "id": "17475ea4.e2c431",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "command": "sudo rm /root/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Eliminar librería PCCC actual",
+        "x": 560,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "699f8e75.52924",
+        "type": "complete",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "name": "",
+        "scope": [
+            "17475ea4.e2c431"
+        ],
+        "uncaught": false,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "f375ab1b.6713c8",
+                "694d26dc55259ece"
+            ]
+        ]
+    },
+    {
+        "id": "f375ab1b.6713c8",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Modules/nodePCCC.js /home/bcpgrp/node_modules/nodepccc",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería AFE",
+        "x": 510,
+        "y": 160,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "daeaa5f3.b6c508",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 560,
+        "y": 290,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3b8a4863.32b688",
+        "type": "complete",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "name": "",
+        "scope": [
+            "f375ab1b.6713c8"
+        ],
+        "uncaught": false,
+        "x": 230,
+        "y": 290,
+        "wires": [
+            [
+                "c099a844.31d128"
+            ]
+        ]
+    },
+    {
+        "id": "c099a844.31d128",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 380,
+        "y": 290,
+        "wires": [
+            [
+                "daeaa5f3.b6c508"
+            ]
+        ]
+    },
+    {
+        "id": "aa3c422d.31446",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "262051d5.79c84e",
+        "command": "sudo rm /usr/share/plymouth/themes/pix/splash.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Remover Splash actual",
+        "x": 1030,
+        "y": 440,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4a92f2f5.dac4fc",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "d": true,
+        "g": "262051d5.79c84e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 850,
+        "y": 440,
+        "wires": [
+            [
+                "aa3c422d.31446"
+            ]
+        ]
+    },
+    {
+        "id": "6b91a284.15037c",
+        "type": "complete",
+        "z": "8ba0552a.e27ca8",
+        "g": "262051d5.79c84e",
+        "name": "",
+        "scope": [
+            "aa3c422d.31446"
+        ],
+        "uncaught": false,
+        "x": 830,
+        "y": 500,
+        "wires": [
+            [
+                "5e35a538.cad0cc"
+            ]
+        ]
+    },
+    {
+        "id": "5e35a538.cad0cc",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "262051d5.79c84e",
+        "command": "sudo cp /home/pi/Documents/splash.png /usr/share/plymouth/themes/pix/splash.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Insertar Splash",
+        "x": 1000,
+        "y": 500,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "690d3aa836885133",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Red/nodePCCC.js /root/.node-red/node_modules/nodepccc",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "reemplazarRoot",
+        "x": 480,
+        "y": 210,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "694d26dc55259ece",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "23c99fd.b16886",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 310,
+        "y": 210,
+        "wires": [
+            [
+                "690d3aa836885133"
+            ]
+        ]
+    },
+    {
+        "id": "ccb6f10d6c8566a3",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 230,
+        "y": 460,
+        "wires": [
+            [
+                "b845abf3cb6387ac",
+                "61931b0384cfca67"
+            ]
+        ]
+    },
+    {
+        "id": "61931b0384cfca67",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 520,
+        "wires": [
+            [
+                "dd07e29916b7db6c",
+                "a56341092d74dd48"
+            ]
+        ]
+    },
+    {
+        "id": "a56341092d74dd48",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "d11d9c8160729e7c",
+                "c733a1aa977c67a7"
+            ]
+        ]
+    },
+    {
+        "id": "c733a1aa977c67a7",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 640,
+        "wires": [
+            [
+                "351eccb8791a5abd",
+                "f62465a51a146bc8"
+            ]
+        ]
+    },
+    {
+        "id": "b845abf3cb6387ac",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "cacd646bcfbdbb4d",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 120 dashboard",
+        "x": 510,
+        "y": 460,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "dd07e29916b7db6c",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "cacd646bcfbdbb4d",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 192 dashboard",
+        "x": 510,
+        "y": 520,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d11d9c8160729e7c",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "cacd646bcfbdbb4d",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar 64 dashboard",
+        "x": 500,
+        "y": 580,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "351eccb8791a5abd",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "cacd646bcfbdbb4d",
+        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "eliminar Index dashboard",
+        "x": 510,
+        "y": 640,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3b72bc49809933f3",
+        "type": "comment",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "Importante",
+        "info": "Tener Actualizado el folder de configuración.\ny en la ruta /home/bcpgrp/Documents",
+        "x": 240,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "33025713e95850ab",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 120 dashboard",
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "fde3563bd759beb6",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 192 dashboard",
+        "x": 510,
+        "y": 800,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7ab9425b5516ccbe",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar 64 dashboard",
+        "x": 510,
+        "y": 860,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7b05a6d416986637",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "adicionar index dashboard",
+        "x": 520,
+        "y": 920,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f62465a51a146bc8",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 740,
+        "wires": [
+            [
+                "33025713e95850ab",
+                "800b6a8d81724146"
+            ]
+        ]
+    },
+    {
+        "id": "800b6a8d81724146",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 800,
+        "wires": [
+            [
+                "fde3563bd759beb6",
+                "5ebc9eaa4819dff0"
+            ]
+        ]
+    },
+    {
+        "id": "5ebc9eaa4819dff0",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 860,
+        "wires": [
+            [
+                "7ab9425b5516ccbe",
+                "23a64f852c94d82b"
+            ]
+        ]
+    },
+    {
+        "id": "23a64f852c94d82b",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 250,
+        "y": 920,
+        "wires": [
+            [
+                "7b05a6d416986637",
+                "e5f9ddcd6e4f11fe"
+            ]
+        ]
+    },
+    {
+        "id": "e5f9ddcd6e4f11fe",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 240,
+        "y": 980,
+        "wires": [
+            [
+                "0832a6b33e1f520c"
+            ]
+        ]
+    },
+    {
+        "id": "0832a6b33e1f520c",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "2282018314ee7576",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 500,
+        "y": 980,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "092b9c7c130dee8e",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 850,
+        "y": 100,
+        "wires": [
+            [
+                "d12c5670cd474484"
+            ]
+        ]
+    },
+    {
+        "id": "d12c5670cd474484",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Eliminar librería PCCC actual",
+        "x": 1140,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d6507a14d7997c53",
+        "type": "complete",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "name": "",
+        "scope": [
+            "d12c5670cd474484"
+        ],
+        "uncaught": false,
+        "x": 830,
+        "y": 140,
+        "wires": [
+            [
+                "2ba47757115da461",
+                "8c2c9457b8fbf94c"
+            ]
+        ]
+    },
+    {
+        "id": "2ba47757115da461",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/root/nodePCCC.js /root/.node-red/node_modules/nodepccc/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería PowerFlex755 ROOT",
+        "x": 1140,
+        "y": 160,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e61e0d52375f403f",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 1240,
+        "y": 310,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "773d388249299e46",
+        "type": "complete",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "name": "",
+        "scope": [
+            "2ba47757115da461"
+        ],
+        "uncaught": false,
+        "x": 830,
+        "y": 310,
+        "wires": [
+            [
+                "4004597dd29d06e4"
+            ]
+        ]
+    },
+    {
+        "id": "4004597dd29d06e4",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1040,
+        "y": 310,
+        "wires": [
+            [
+                "e61e0d52375f403f"
+            ]
+        ]
+    },
+    {
+        "id": "aec099feab5eb9ea",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/static/nodePCCC.js /home/bcpgrp/node_modules/nodepccc/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reemplazar librería PowerFlex755 homeBCPGR",
+        "x": 1170,
+        "y": 230,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8c2c9457b8fbf94c",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "224caf14924e867c",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 850,
+        "y": 190,
+        "wires": [
+            [
+                "aec099feab5eb9ea"
             ]
         ]
     }
