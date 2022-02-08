@@ -705,7 +705,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -745,7 +747,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1064,10 +1068,13 @@
             "228eb994177c4301",
             "980eb62d2bc87e1c",
             "fa907c59507b08c4",
-            "e0ebe56beee379ef"
+            "e0ebe56beee379ef",
+            "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1116,7 +1123,9 @@
             "cae90cc36eb53039"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1341,7 +1350,9 @@
             "cd2627ac2843f441"
         ],
         "x": 14,
-        "y": 1079
+        "y": 1079,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1871,7 +1882,9 @@
             "bf383a9670894a6e"
         ],
         "x": 14,
-        "y": 1399
+        "y": 1399,
+        "w": 1568,
+        "h": 428
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -2290,7 +2303,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "482200446b2a6616",
@@ -2765,7 +2780,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -3292,7 +3309,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3313,7 +3332,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -3714,7 +3735,9 @@
             "16bbbec3a6d114f6"
         ],
         "x": 534,
-        "y": 1599
+        "y": 1599,
+        "w": 1022,
+        "h": 202
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -6719,6 +6742,34 @@
         "y": 4179,
         "w": 1052,
         "h": 422
+    },
+    {
+        "id": "b41ee12005a32e8e",
+        "type": "group",
+        "z": "43b51d90.0b47f4",
+        "name": "Configuración Caja Reductora",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8c883beecb073f29",
+            "f00d56fe45dfd7e6",
+            "eed8fecdae2e657d",
+            "32bc047cbfe5209f",
+            "f35627cd1cfa7f47",
+            "b9f0543b020f09e6",
+            "7c41ad0f41e86a32",
+            "1531a70dc9391c98",
+            "03837bc80d795dbf",
+            "744ca6c9d01302bb",
+            "14c39db2aa8e8711",
+            "c2e616ae555eda40",
+            "0a8b8a1414acb20f"
+        ],
+        "x": 54,
+        "y": 3179,
+        "w": 1072,
+        "h": 162
     },
     {
         "id": "d25d405a.19cff",
@@ -10156,6 +10207,16 @@
         "reconnectOnTimeout": true,
         "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "02cbe3fdab13693b",
+        "type": "ui_group",
+        "name": "CajaReductora",
+        "tab": "9d512981.aa8278",
+        "order": 18,
+        "disp": true,
+        "width": "12",
+        "collapse": false
     },
     {
         "id": "e765ca36.69fb98",
@@ -27376,7 +27437,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_VSD_Voltios_Hertz\",\t                \"Configuración_VSD_Rampa_prolongada\",\t                \"Configuración_VSD_Relación_de_Transformación\",\t                \"Configuración_VSD_Control_de_motor\"],\t                \t       \"show\":[ \"Configuración_VSD_Placa_de_motor\",\t                \"Configuración_VSD_Rampas\",\t                \"Configuración_VSD_Límites\",\t                \"Configuración_VSD_Nav-tab\"]\t       \t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_VSD_Voltios_Hertz\",\t                \"Configuración_VSD_Rampa_prolongada\",\t                \"Configuración_VSD_Relación_de_Transformación\",\t                \"Configuración_VSD_CajaReductora\",\t                \"Configuración_VSD_Control_de_motor\"],\t                \t       \"show\":[ \"Configuración_VSD_Placa_de_motor\",\t                \"Configuración_VSD_Rampas\",\t                \"Configuración_VSD_Límites\",\t                \"Configuración_VSD_Nav-tab\"]\t       \t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -27411,11 +27472,16 @@
                 "t": "eq",
                 "v": "RefuerzoTx",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CajaReductora",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 2,
+        "outputs": 3,
         "x": 510,
         "y": 570,
         "wires": [
@@ -27424,6 +27490,9 @@
             ],
             [
                 "4b5ddde8.f05d24"
+            ],
+            [
+                "c1e4f00f3ccb67bc"
             ]
         ]
     },
@@ -27437,7 +27506,7 @@
         "order": 2,
         "width": "16",
         "height": "1",
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n            <a class=\"nav-item nav-link\" id=\"nav-CajaReductora-tab\" data-toggle=\"tab\" href=\"#nav-CajaReductora\" role=\"tab\"\n                aria-controls=\"nav-CajaReductora\" aria-selected=\"false\" ng-click=\"send({payload:CajaReductora()})\">Caja Reductora</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        this.scope.CajaReductora = function() { return \"CajaReductora\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
@@ -27463,7 +27532,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_VSD_Rampas\",\t                \"Configuración_VSD_Placa_de_motor\",\t                \"Configuración_VSD_Límites\",\t                \"Configuración_VSD_Rampa_prolongada\",\t                \"Configuración_VSD_Control_de_motor\",\t                \"Configuración_VSD_Nav-tab\"],\t       \"show\":[ \"Configuración_VSD_Voltios_Hertz\",\t                \"Configuración_VSD_Relación_de_Transformación\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_VSD_Rampas\",\t                \"Configuración_VSD_Placa_de_motor\",\t                \"Configuración_VSD_Límites\",\t                \"Configuración_VSD_Rampa_prolongada\",\t                \"Configuración_VSD_Control_de_motor\",\t                \"Configuración_VSD_CajaReductora\",\t                \"Configuración_VSD_Nav-tab\"],\t       \"show\":[ \"Configuración_VSD_Voltios_Hertz\",\t                \"Configuración_VSD_Relación_de_Transformación\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -27473,7 +27542,7 @@
         "to": "",
         "reg": false,
         "x": 700,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "6b0e4d29.b19b14"
@@ -43197,7 +43266,8 @@
             "9533a235ad8c4ef2",
             "f963e8b3d0b4560f",
             "be0449b35707404e",
-            "fa8ed427a4d7aea2"
+            "fa8ed427a4d7aea2",
+            "744ca6c9d01302bb"
         ],
         "x": 335,
         "y": 310,
@@ -81925,7 +81995,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n            <a class=\"nav-item nav-link\" id=\"nav-CajaReductora-tab\" data-toggle=\"tab\" href=\"#nav-CajaReductora\" role=\"tab\"\n                aria-controls=\"nav-CajaReductora\" aria-selected=\"false\" ng-click=\"send({payload:CajaReductora()})\">Caja Reductora</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        this.scope.CajaReductora = function() { return \"CajaReductora\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 540,
@@ -81988,7 +82058,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link  active\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-PlacaMotor-tab\" data-toggle=\"tab\" href=\"#nav-PlacaMotor\"\n                role=\"tab\" aria-controls=\"nav-PlacaMotor\" aria-selected=\"true\"\n                ng-click=\"send({payload:Motor()})\">Motor, rampas y límites</a>\n            <a class=\"nav-item nav-link  active\" id=\"nav-RampsLimits-tab\" data-toggle=\"tab\" href=\"#nav-RampsLimits\" role=\"tab\"\n                aria-controls=\"nav-RampsLimits\" aria-selected=\"false\" ng-click=\"send({payload:RefuerzoTx()})\">Refuerzo y transformador</a>\n            <a class=\"nav-item nav-link\" id=\"nav-CajaReductora-tab\" data-toggle=\"tab\" href=\"#nav-CajaReductora\" role=\"tab\"\n                aria-controls=\"nav-CajaReductora\" aria-selected=\"false\" ng-click=\"send({payload:CajaReductora()})\">Caja Reductora</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Motor = function() { return \"MotorVelocidad\"; };\n        this.scope.RefuerzoTx = function() { return \"RefuerzoTx\"; };\n        this.scope.CajaReductora = function() { return \"CajaReductora\"; };\n        \n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 580,
@@ -95671,6 +95741,363 @@
         "wires": [
             [
                 "2c02e2ef212817a8"
+            ]
+        ]
+    },
+    {
+        "id": "8c883beecb073f29",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "RGB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "C2S.Motor_Control.Nameplate.RGB",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 190,
+        "y": 3300,
+        "wires": [
+            [
+                "03837bc80d795dbf"
+            ]
+        ]
+    },
+    {
+        "id": "f00d56fe45dfd7e6",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "RGB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "C2S.Motor_Control.Nameplate.RGB",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 3300,
+        "wires": [
+            [
+                "c2e616ae555eda40"
+            ]
+        ]
+    },
+    {
+        "id": "eed8fecdae2e657d",
+        "type": "ui_text_input",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "",
+        "label": "Diámetro Polea Grande",
+        "tooltip": "",
+        "group": "02cbe3fdab13693b",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 430,
+        "y": 3220,
+        "wires": [
+            [
+                "1531a70dc9391c98"
+            ]
+        ]
+    },
+    {
+        "id": "32bc047cbfe5209f",
+        "type": "ui_text_input",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "",
+        "label": "Diámetro Polea Pequeña",
+        "tooltip": "",
+        "group": "02cbe3fdab13693b",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 430,
+        "y": 3260,
+        "wires": [
+            [
+                "f35627cd1cfa7f47"
+            ]
+        ]
+    },
+    {
+        "id": "f35627cd1cfa7f47",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "PoleaPequena",
+        "rules": [
+            {
+                "t": "set",
+                "p": "C2S.Motor_Control.Nameplate.PoleaPequena",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 3260,
+        "wires": [
+            [
+                "c2e616ae555eda40"
+            ]
+        ]
+    },
+    {
+        "id": "b9f0543b020f09e6",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "PoleaGrande",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "C2S.Motor_Control.Nameplate.PoleaGrande",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 3220,
+        "wires": [
+            [
+                "eed8fecdae2e657d"
+            ]
+        ]
+    },
+    {
+        "id": "7c41ad0f41e86a32",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "PoleaPequena",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "C2S.Motor_Control.Nameplate.PoleaPequena",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 220,
+        "y": 3260,
+        "wires": [
+            [
+                "32bc047cbfe5209f"
+            ]
+        ]
+    },
+    {
+        "id": "1531a70dc9391c98",
+        "type": "change",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "PoleaGrande",
+        "rules": [
+            {
+                "t": "set",
+                "p": "C2S.Motor_Control.Nameplate.PoleaGrande",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 3220,
+        "wires": [
+            [
+                "c2e616ae555eda40"
+            ]
+        ]
+    },
+    {
+        "id": "03837bc80d795dbf",
+        "type": "ui_text_input",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "",
+        "label": "RGB[Relación Gear]",
+        "tooltip": "",
+        "group": "02cbe3fdab13693b",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 420,
+        "y": 3300,
+        "wires": [
+            [
+                "f00d56fe45dfd7e6"
+            ]
+        ]
+    },
+    {
+        "id": "744ca6c9d01302bb",
+        "type": "link in",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 95,
+        "y": 3260,
+        "wires": [
+            [
+                "8c883beecb073f29",
+                "b9f0543b020f09e6",
+                "7c41ad0f41e86a32"
+            ]
+        ]
+    },
+    {
+        "id": "14c39db2aa8e8711",
+        "type": "ui_text",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "group": "02cbe3fdab13693b",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Relación Total",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "x": 1020,
+        "y": 3260,
+        "wires": []
+    },
+    {
+        "id": "c2e616ae555eda40",
+        "type": "function",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "relaciónTotal",
+        "func": "var PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\")||0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\")||0;//relación del gear box\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\")||0;\nif((PoleaGrande != 0) && (RGB != 0) && (PoleaPequena != 0) ){\n    var totalRelacion = PoleaGrande/(PoleaPequena/RGB);\n    totalRelacion = parseFloat(totalRelacion.toFixed(1));\n    context.set(\"totalRelacion\",totalRelacion,\"memoryOnly\");\n    msg.payload = totalRelacion;\n\n    // guarde la variable global de relación\n    global.set(\"C2S.Motor_Control.Nameplate.totalRelacion\",totalRelacion);\n    node.status({fill:\"green\",shape:\"dot\",text:\"Configurado\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoConfigurado\"});\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 3260,
+        "wires": [
+            [
+                "14c39db2aa8e8711"
+            ]
+        ]
+    },
+    {
+        "id": "0a8b8a1414acb20f",
+        "type": "inject",
+        "z": "43b51d90.0b47f4",
+        "g": "b41ee12005a32e8e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 840,
+        "y": 3220,
+        "wires": [
+            [
+                "c2e616ae555eda40"
+            ]
+        ]
+    },
+    {
+        "id": "c1e4f00f3ccb67bc",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "d689e3de.7d569",
+        "name": "CajaReductora",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Configuración_VSD_Rampas\",\t                \"Configuración_VSD_Placa_de_motor\",\t                \"Configuración_VSD_Límites\",\t                \"Configuración_VSD_Rampa_prolongada\",\t                \"Configuración_VSD_Control_de_motor\",\t                \"Configuración_VSD_Voltios_Hertz\",\t                \"Configuración_VSD_Relación_de_Transformación\",\t                \"Configuración_VSD_Nav-tab\"],\t       \"show\":[ \"Configuración_VSD_CajaReductora\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 600,
+        "wires": [
+            [
+                "6b0e4d29.b19b14"
             ]
         ]
     }
