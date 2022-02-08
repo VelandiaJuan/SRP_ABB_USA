@@ -1,7 +1,7 @@
-CILA2S_ESP_AFE_SIERRACOL
+CILA2S_SRP_SierraCol
 ===================================
+-Juan Pablo Velandia
+Basada en ESP-CILA2S_SRP_SierraCol
+https://github.com/BCP-Group/15_2SRP_AFE_SierraCol.git
 
 ### About
-
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
