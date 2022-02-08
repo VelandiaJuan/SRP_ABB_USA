@@ -3265,6 +3265,506 @@
         "y": 3179
     },
     {
+        "id": "6c6732761a2613b5",
+        "type": "group",
+        "z": "f08f78f1e5892037",
+        "name": "Interfaz Grafica Propiedades Sarta",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "96a0db69365db42c",
+            "0a9c1250941292a9",
+            "036736e96b3cf5d5",
+            "9502af6540a09397",
+            "f06113857db7c713",
+            "b5d17c2c285bed8f",
+            "d6dfa4c09d44edeb",
+            "7247099ec1945e1e",
+            "6cab9abe97ffc657",
+            "989d5cfdc435febf",
+            "44c74582fd34edd0",
+            "9f334e9689c6521d",
+            "7ad7df9f83927007",
+            "8f3c14c5cc07112c",
+            "4d7ffaf1b7b94f9c",
+            "af548f8ab182c8a4",
+            "71dce0659dc33da9",
+            "941c42e964a7526d",
+            "4c43476f.e5a758",
+            "1112a5e0c336769a",
+            "ff83bad55c73ba02"
+        ],
+        "x": 64,
+        "y": 59
+    },
+    {
+        "id": "56a92b2a688064b3",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegacion Sartas",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7f58bafb234d04c9",
+            "219b52896a3bc0c3",
+            "7b495ef4bbce99f7",
+            "571b4cb30ff6bd65",
+            "93908b95eb15daba",
+            "dc10ee8417e2d926",
+            "c2ab1be8f01b7d58",
+            "610f87e6c3ac9ed0"
+        ],
+        "x": 74,
+        "y": 2199,
+        "w": 582,
+        "h": 182
+    },
+    {
+        "id": "69cbede8f851191a",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegacion Dinagramas",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "32808ce842cb8f72",
+            "f258f142685365f9",
+            "10d0df396dc90c03",
+            "fe33e19e6f3ad930",
+            "b3c56d84218b82e9",
+            "97362283dcbb7395",
+            "24cbb0c1657e1589",
+            "a1c5e02a9d683eb4"
+        ],
+        "x": 74,
+        "y": 2399,
+        "w": 582,
+        "h": 182
+    },
+    {
+        "id": "a29dc858ae62d58f",
+        "type": "group",
+        "z": "6278f7e7f20ddc7d",
+        "name": "Confirmar Datos de Configuracion SRP",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a8d022ed20b061f9",
+            "91b2784f93f468b9",
+            "f61acb3281458831",
+            "827ab83ae2c78ad2",
+            "4ced36f0f13b7bb9",
+            "d1f54575177f2e57",
+            "79c8fd5ea0a7f8cd",
+            "8b747d190ebff0b2"
+        ],
+        "x": 34,
+        "y": 439
+    },
+    {
+        "id": "93b8284ca58599b2",
+        "type": "group",
+        "z": "6278f7e7f20ddc7d",
+        "name": "Adquision datos de la unidad de bombeo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "36d47c1baf16eadc",
+            "cde211deb28f6bed",
+            "de3161fb18eb7d79",
+            "1d725debadffb46d",
+            "5db66f5b60da77ea",
+            "fb7eab19ddad7e6e",
+            "9c9a324973206a61",
+            "48cb0fa85922cb7b",
+            "495dd699cb4052d8",
+            "854ce32ea1b5afc8",
+            "1306ba5c4c7bcc52",
+            "fa157a68217c39cd",
+            "7ad17a6371ef812b",
+            "155305bb3c1378e6",
+            "5ed97706ae066277",
+            "c48671c015ff393d"
+        ],
+        "x": 794,
+        "y": 479
+    },
+    {
+        "id": "cae36d29c5f8f5f1",
+        "type": "group",
+        "z": "6278f7e7f20ddc7d",
+        "name": "Adquisión de Datos de Instalación",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ec242348a51029a6",
+            "5f0bb9f1e0119991",
+            "8fa3259854a3cbcd",
+            "1078ae10a317774d",
+            "a2a4d12b5d11c700",
+            "3726e3fccd9462d5",
+            "e695355b9e32b218",
+            "e2419e408c8a7668",
+            "80e019ab8f8149e8",
+            "f3108ce20db66c79",
+            "adaae1b6a39a1d7e",
+            "c967f958cd8bdfb7",
+            "05a3da5da05a6074",
+            "0587dab757af8216",
+            "7272dab73cde0eab"
+        ],
+        "x": 34,
+        "y": 39
+    },
+    {
+        "id": "9bddfef0b0857da0",
+        "type": "group",
+        "z": "6278f7e7f20ddc7d",
+        "name": "Adquision de produccion Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d15c9873acaa7a5a",
+            "1a95f9772998f85b",
+            "e04df775f9112cfa",
+            "329b040ad0147b73",
+            "51b9fdba441d36b6",
+            "d7d48cf3a4dde0e5",
+            "4ce75a492476ae17",
+            "2789ad8eda712c18",
+            "e93fa5e49c25b892",
+            "76e92771251ba430",
+            "3e15e467a40d88f7",
+            "951dd9076fa62aea",
+            "dd4b874c564be096",
+            "48399d05d546249b",
+            "3a3d15df3519e181",
+            "a20e87743bb7a4fe",
+            "9404675ff21528fd",
+            "f3be5ce759a4a80f",
+            "bd2109e7b422682a",
+            "d9756d5c2fdbe14c"
+        ],
+        "x": 854,
+        "y": 39
+    },
+    {
+        "id": "67a422f5076a03ee",
+        "type": "group",
+        "z": "b368eb771541cd7f",
+        "name": "Geometria SRP Adquisión Data",
+        "style": {
+            "stroke": "#999999",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true
+        },
+        "nodes": [
+            "b4539185fb0ed29c",
+            "6beb986644fd85c9",
+            "d0000719b53a7a2e",
+            "dc9dec37ee85de21",
+            "a1c831b7e90e22ff",
+            "e921a2fdc3c59c6c",
+            "39c025cfd924d890",
+            "feb2500f598af26b",
+            "0867564e255cf141",
+            "8459b3906d74937a",
+            "bcbc178529974542",
+            "86fc24861fc10aec",
+            "da09bd4c407c4879",
+            "1ac77a51ce28dc09",
+            "ae6d79c692edb1b3",
+            "c76052ebdaa1c89f",
+            "a6eada0644843ecf",
+            "5ad2031a8a072ecf",
+            "4ea4752526705df9",
+            "302111413eaa1c5e",
+            "7e0d4a9b48d34e79",
+            "79f86b9972bfcd80",
+            "343c34ac79b7a658",
+            "48fafa6b2605673b",
+            "5cd1fb77c9bc162f",
+            "a7f1ced49f661635",
+            "6b6f660a01296c98",
+            "e3fea7b19ee5bea0",
+            "9323de8b6d7ca929",
+            "305da8bc7276e8b4",
+            "a9c77bf176fd0376",
+            "6e17766beb28a8c1",
+            "35a420bf34c17eac",
+            "a6a22dd37b39aff2",
+            "a2a2df81154e9740",
+            "56abbddc993e4f47",
+            "72026d71504e7a74",
+            "58fc26aba318c49c",
+            "32ce26c0d0b04f77"
+        ],
+        "x": 34,
+        "y": 19
+    },
+    {
+        "id": "54bb46e073aa1e2e",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Datos DHSSensorLess",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "843e250256d34d87",
+            "2ef2aff836428e70",
+            "b6564175707f7414",
+            "28957741ff430c98",
+            "7ee866165d8eaa56",
+            "f295c7967245792a",
+            "bbd14a02c90c8979"
+        ],
+        "x": 594,
+        "y": 159,
+        "w": 512,
+        "h": 242
+    },
+    {
+        "id": "854b667853465d2b",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Imagen DHSSensorLess",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fe1a9bde13dab923",
+            "57d96f9647eeba77",
+            "832a31d3f59bf4df",
+            "381f2e27385db5e4",
+            "9ab20d05e2553884"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 482,
+        "h": 142
+    },
+    {
+        "id": "a063560e4a0a3bf1",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Calculos Para Dinagramas de Fondo [Ecuación de Onda]",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#000000",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "5ef9f1c757b3c525",
+            "78dececd724e88a8",
+            "9380591e68aa6cfd",
+            "1c4e8fcfe6a3e2e8",
+            "1d26662def25323f",
+            "e0439a824aa40693",
+            "519724ca0bae0425",
+            "de1bafacc719791d",
+            "7a6ff18321a03c6d",
+            "1b31503325926827",
+            "144b8abb78491883",
+            "b8210abad06fb15e",
+            "d0f5dfd40edd6ea0"
+        ],
+        "x": 14,
+        "y": 419,
+        "w": 632,
+        "h": 422
+    },
+    {
+        "id": "9d4d96338ab627d0",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Dinagrama de Fondo2D",
+        "style": {
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "65d6f38a052e2fb5",
+            "6eaf6a1933c0c45b",
+            "6749a4e697c2d46c",
+            "05d96036920b3247",
+            "067c35d016f6c30c",
+            "883ee81095c908e3"
+        ],
+        "x": 14,
+        "y": 859,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "9648249e35aead30",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Dinagrama de Superficie2D",
+        "style": {
+            "fill": "#ffC000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "31c115f2ca699261",
+            "305dc890db8b5ec3",
+            "01cf9b61f66c1ef5",
+            "82cfd5182a05fe8d"
+        ],
+        "x": 24,
+        "y": 1019,
+        "w": 642,
+        "h": 82
+    },
+    {
+        "id": "d5ab7ccd2eaf9c7e",
+        "type": "group",
+        "z": "1890b8e955d8f8fa",
+        "name": "Tendencia Principal",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9d5ab93e68875cf4",
+            "e058166bb272c1b4",
+            "ea9f83cfaae149a6",
+            "d2c079af5901e54c"
+        ],
+        "x": 174,
+        "y": 1319
+    },
+    {
+        "id": "a0b84f94a6510eee",
+        "type": "group",
+        "z": "1890b8e955d8f8fa",
+        "name": "ADQUISICIÓN TIEMPO",
+        "style": {
+            "stroke": "#3f93cf",
+            "label": true,
+            "color": "#bfdbef"
+        },
+        "nodes": [
+            "e8b8423b9c4c6e08",
+            "5f3e1c612d3d4d12",
+            "c969c7cacbbff852",
+            "eb4dfe7adadd8f34",
+            "2e1d777e859bed3d",
+            "6e1f6fa9633b3d1f",
+            "2109bbab6075bb12",
+            "c28da4d63169b436",
+            "633d69e85cd4273d",
+            "73e4e1467a78a7bb",
+            "4c056e6caf7acffe",
+            "344a1d24134f522b",
+            "923d63f441f43f13",
+            "eaf4b2085acff39e"
+        ],
+        "x": 134,
+        "y": 459
+    },
+    {
+        "id": "3caf0dee72fc2047",
+        "type": "group",
+        "z": "1890b8e955d8f8fa",
+        "name": "habilitar y notificaciones",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "156287dbdde7759f",
+            "dc5431853d568cc5",
+            "24332fdbcbeb5e8d",
+            "9bf20a3cfce9fae1",
+            "eaaaccf524f27cd3",
+            "b972240fa3c146c4",
+            "8676f151870d6dd1",
+            "c82c938cd7e28fae",
+            "abf83d7b7058ada8",
+            "2edb376b1401ac97",
+            "872c0292870c3d55",
+            "4c2bf44c8e1d1fb9",
+            "b11065b3e2970783",
+            "258d1e598d71b09d",
+            "9dac8d865abda724",
+            "5e99aadeec08ef39",
+            "cd39cc92c052f90b",
+            "941b04b909291975"
+        ],
+        "x": 714,
+        "y": 1319
+    },
+    {
+        "id": "1f2682bef5794306",
+        "type": "group",
+        "z": "1890b8e955d8f8fa",
+        "name": "Actualización de Datos",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b37f86580848e10b",
+            "265746b1eeaca5fd",
+            "5332bed331397338",
+            "f78646b26f8246e0",
+            "25d0f4f9cc0cbbc0",
+            "4f627b07415ef96e",
+            "c3a8183221d9fafe",
+            "c153e4fdd9ce3c18",
+            "ae26d5eef96a6990",
+            "937aca96cc86906c",
+            "eee0b070f76590b2"
+        ],
+        "x": 154,
+        "y": 179
+    },
+    {
+        "id": "6604db9c5e9f2794",
+        "type": "group",
+        "z": "1890b8e955d8f8fa",
+        "name": "Logica Control",
+        "style": {
+            "fill": "#000000",
+            "label": true,
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "7468830a5595288e",
+            "dfb2d8dab3143b0d",
+            "4834ceceae06a274",
+            "a3cb09a8f3941aba",
+            "ceaf6c43578a56ea",
+            "cba380e0e52cd32b",
+            "994ebb3d980c43bd",
+            "846c2e0e5cd8fad9",
+            "1551d461961f629a",
+            "a238e44da1043fc8",
+            "fd237aae6448ebac",
+            "9ec6d52462cf9447",
+            "50866dbb9fc505f2",
+            "8ce32e6d89bb8bd5",
+            "5ab55f15839c8b62",
+            "b03e0ac1537edae8",
+            "603028515e6a66ba",
+            "b9dcf539def2f220",
+            "8c7c947326ff02b5",
+            "7819bb96d43a4d64",
+            "b64a18e24f00a0e2"
+        ],
+        "x": 174,
+        "y": 779
+    },
+    {
         "id": "e2e299a6.d3c5c8",
         "type": "group",
         "z": "e483884bee93bec2",
@@ -5586,6 +6086,34 @@
         "y": 659
     },
     {
+        "id": "1112a5e0c336769a",
+        "type": "group",
+        "z": "f08f78f1e5892037",
+        "g": "6c6732761a2613b5",
+        "name": "Guardar y Eliminar Sarta",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "label-position": "n",
+            "color": "#ffffff",
+            "fill": "#000000"
+        },
+        "nodes": [
+            "0f3bd1b3c0dba716",
+            "f06b7450276d4474",
+            "30dda140ac7f22a6",
+            "91bcd26b8c353463",
+            "a765a6d464c4d688",
+            "11c07b25881dd37c",
+            "715a788e41e6b141",
+            "094cc2932f6a6569",
+            "bea780155e3ae62b",
+            "e25446d909349bd1"
+        ],
+        "x": 714,
+        "y": 119
+    },
+    {
         "id": "aafad2ba.dcc8b",
         "type": "group",
         "z": "902fc438.e5d758",
@@ -6744,558 +7272,6 @@
         ],
         "x": 1394,
         "y": 459
-    },
-    {
-        "id": "6c6732761a2613b5",
-        "type": "group",
-        "z": "f08f78f1e5892037",
-        "name": "Interfaz Grafica Propiedades Sarta",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "96a0db69365db42c",
-            "0a9c1250941292a9",
-            "036736e96b3cf5d5",
-            "9502af6540a09397",
-            "f06113857db7c713",
-            "b5d17c2c285bed8f",
-            "d6dfa4c09d44edeb",
-            "7247099ec1945e1e",
-            "6cab9abe97ffc657",
-            "989d5cfdc435febf",
-            "44c74582fd34edd0",
-            "9f334e9689c6521d",
-            "7ad7df9f83927007",
-            "8f3c14c5cc07112c",
-            "4d7ffaf1b7b94f9c",
-            "af548f8ab182c8a4",
-            "71dce0659dc33da9",
-            "941c42e964a7526d",
-            "4c43476f.e5a758",
-            "1112a5e0c336769a",
-            "ff83bad55c73ba02"
-        ],
-        "x": 64,
-        "y": 59,
-        "w": 1328,
-        "h": 562
-    },
-    {
-        "id": "1112a5e0c336769a",
-        "type": "group",
-        "z": "f08f78f1e5892037",
-        "g": "6c6732761a2613b5",
-        "name": "Guardar y Eliminar Sarta",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "label-position": "n",
-            "color": "#ffffff",
-            "fill": "#000000"
-        },
-        "nodes": [
-            "0f3bd1b3c0dba716",
-            "f06b7450276d4474",
-            "30dda140ac7f22a6",
-            "91bcd26b8c353463",
-            "a765a6d464c4d688",
-            "11c07b25881dd37c",
-            "715a788e41e6b141",
-            "094cc2932f6a6569",
-            "bea780155e3ae62b",
-            "e25446d909349bd1"
-        ],
-        "x": 714,
-        "y": 119,
-        "w": 652,
-        "h": 202
-    },
-    {
-        "id": "56a92b2a688064b3",
-        "type": "group",
-        "z": "2e27dea6.c4c362",
-        "name": "Navegacion Sartas",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "7f58bafb234d04c9",
-            "219b52896a3bc0c3",
-            "7b495ef4bbce99f7",
-            "571b4cb30ff6bd65",
-            "93908b95eb15daba",
-            "dc10ee8417e2d926",
-            "c2ab1be8f01b7d58",
-            "610f87e6c3ac9ed0"
-        ],
-        "x": 74,
-        "y": 2199,
-        "w": 582,
-        "h": 182
-    },
-    {
-        "id": "69cbede8f851191a",
-        "type": "group",
-        "z": "2e27dea6.c4c362",
-        "name": "Navegacion Dinagramas",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "32808ce842cb8f72",
-            "f258f142685365f9",
-            "10d0df396dc90c03",
-            "fe33e19e6f3ad930",
-            "b3c56d84218b82e9",
-            "97362283dcbb7395",
-            "24cbb0c1657e1589",
-            "a1c5e02a9d683eb4"
-        ],
-        "x": 74,
-        "y": 2399,
-        "w": 582,
-        "h": 182
-    },
-    {
-        "id": "a29dc858ae62d58f",
-        "type": "group",
-        "z": "6278f7e7f20ddc7d",
-        "name": "Confirmar Datos de Configuracion SRP",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "a8d022ed20b061f9",
-            "91b2784f93f468b9",
-            "f61acb3281458831",
-            "827ab83ae2c78ad2",
-            "4ced36f0f13b7bb9",
-            "d1f54575177f2e57",
-            "79c8fd5ea0a7f8cd",
-            "8b747d190ebff0b2"
-        ],
-        "x": 34,
-        "y": 439,
-        "w": 532,
-        "h": 222
-    },
-    {
-        "id": "93b8284ca58599b2",
-        "type": "group",
-        "z": "6278f7e7f20ddc7d",
-        "name": "Adquision datos de la unidad de bombeo",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "36d47c1baf16eadc",
-            "cde211deb28f6bed",
-            "de3161fb18eb7d79",
-            "1d725debadffb46d",
-            "5db66f5b60da77ea",
-            "fb7eab19ddad7e6e",
-            "9c9a324973206a61",
-            "48cb0fa85922cb7b",
-            "495dd699cb4052d8",
-            "854ce32ea1b5afc8",
-            "1306ba5c4c7bcc52",
-            "fa157a68217c39cd",
-            "7ad17a6371ef812b",
-            "155305bb3c1378e6",
-            "5ed97706ae066277",
-            "c48671c015ff393d"
-        ],
-        "x": 794,
-        "y": 479,
-        "w": 792,
-        "h": 322
-    },
-    {
-        "id": "cae36d29c5f8f5f1",
-        "type": "group",
-        "z": "6278f7e7f20ddc7d",
-        "name": "Adquisión de Datos de Instalación",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ec242348a51029a6",
-            "5f0bb9f1e0119991",
-            "8fa3259854a3cbcd",
-            "1078ae10a317774d",
-            "a2a4d12b5d11c700",
-            "3726e3fccd9462d5",
-            "e695355b9e32b218",
-            "e2419e408c8a7668",
-            "80e019ab8f8149e8",
-            "f3108ce20db66c79",
-            "adaae1b6a39a1d7e",
-            "c967f958cd8bdfb7",
-            "05a3da5da05a6074",
-            "0587dab757af8216",
-            "7272dab73cde0eab"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 772,
-        "h": 382
-    },
-    {
-        "id": "9bddfef0b0857da0",
-        "type": "group",
-        "z": "6278f7e7f20ddc7d",
-        "name": "Adquision de produccion Data",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d15c9873acaa7a5a",
-            "1a95f9772998f85b",
-            "e04df775f9112cfa",
-            "329b040ad0147b73",
-            "51b9fdba441d36b6",
-            "d7d48cf3a4dde0e5",
-            "4ce75a492476ae17",
-            "2789ad8eda712c18",
-            "e93fa5e49c25b892",
-            "76e92771251ba430",
-            "3e15e467a40d88f7",
-            "951dd9076fa62aea",
-            "dd4b874c564be096",
-            "48399d05d546249b",
-            "3a3d15df3519e181",
-            "a20e87743bb7a4fe",
-            "9404675ff21528fd",
-            "f3be5ce759a4a80f",
-            "bd2109e7b422682a",
-            "d9756d5c2fdbe14c"
-        ],
-        "x": 854,
-        "y": 39,
-        "w": 872,
-        "h": 402
-    },
-    {
-        "id": "67a422f5076a03ee",
-        "type": "group",
-        "z": "b368eb771541cd7f",
-        "name": "Geometria SRP Adquisión Data",
-        "style": {
-            "stroke": "#999999",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true
-        },
-        "nodes": [
-            "b4539185fb0ed29c",
-            "6beb986644fd85c9",
-            "d0000719b53a7a2e",
-            "dc9dec37ee85de21",
-            "a1c831b7e90e22ff",
-            "e921a2fdc3c59c6c",
-            "39c025cfd924d890",
-            "feb2500f598af26b",
-            "0867564e255cf141",
-            "8459b3906d74937a",
-            "bcbc178529974542",
-            "86fc24861fc10aec",
-            "da09bd4c407c4879",
-            "1ac77a51ce28dc09",
-            "ae6d79c692edb1b3",
-            "c76052ebdaa1c89f",
-            "a6eada0644843ecf",
-            "5ad2031a8a072ecf",
-            "4ea4752526705df9",
-            "302111413eaa1c5e",
-            "7e0d4a9b48d34e79",
-            "79f86b9972bfcd80",
-            "343c34ac79b7a658",
-            "48fafa6b2605673b",
-            "5cd1fb77c9bc162f",
-            "a7f1ced49f661635",
-            "6b6f660a01296c98",
-            "e3fea7b19ee5bea0",
-            "9323de8b6d7ca929",
-            "305da8bc7276e8b4",
-            "a9c77bf176fd0376",
-            "6e17766beb28a8c1",
-            "35a420bf34c17eac",
-            "a6a22dd37b39aff2",
-            "a2a2df81154e9740",
-            "56abbddc993e4f47",
-            "72026d71504e7a74",
-            "58fc26aba318c49c",
-            "32ce26c0d0b04f77"
-        ],
-        "x": 34,
-        "y": 19,
-        "w": 1572,
-        "h": 562
-    },
-    {
-        "id": "54bb46e073aa1e2e",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Datos DHSSensorLess",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "843e250256d34d87",
-            "2ef2aff836428e70",
-            "b6564175707f7414",
-            "28957741ff430c98",
-            "7ee866165d8eaa56",
-            "f295c7967245792a",
-            "bbd14a02c90c8979"
-        ],
-        "x": 594,
-        "y": 159,
-        "w": 512,
-        "h": 242
-    },
-    {
-        "id": "854b667853465d2b",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Imagen DHSSensorLess",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fe1a9bde13dab923",
-            "57d96f9647eeba77",
-            "832a31d3f59bf4df",
-            "381f2e27385db5e4",
-            "9ab20d05e2553884"
-        ],
-        "x": 34,
-        "y": 159,
-        "w": 482,
-        "h": 142
-    },
-    {
-        "id": "a063560e4a0a3bf1",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Calculos Para Dinagramas de Fondo [Ecuación de Onda]",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#000000",
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "5ef9f1c757b3c525",
-            "78dececd724e88a8",
-            "9380591e68aa6cfd",
-            "1c4e8fcfe6a3e2e8",
-            "1d26662def25323f",
-            "e0439a824aa40693",
-            "519724ca0bae0425",
-            "de1bafacc719791d",
-            "7a6ff18321a03c6d",
-            "1b31503325926827",
-            "144b8abb78491883",
-            "b8210abad06fb15e",
-            "d0f5dfd40edd6ea0"
-        ],
-        "x": 14,
-        "y": 419,
-        "w": 632,
-        "h": 422
-    },
-    {
-        "id": "9d4d96338ab627d0",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Dinagrama de Fondo2D",
-        "style": {
-            "fill": "#000000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "65d6f38a052e2fb5",
-            "6eaf6a1933c0c45b",
-            "6749a4e697c2d46c",
-            "4040a91ad2f6935f",
-            "05d96036920b3247",
-            "067c35d016f6c30c"
-        ],
-        "x": 14,
-        "y": 859,
-        "w": 652,
-        "h": 122
-    },
-    {
-        "id": "9648249e35aead30",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Dinagrama de Superficie2D",
-        "style": {
-            "fill": "#ffC000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "7e856988dab94127",
-            "31c115f2ca699261",
-            "305dc890db8b5ec3",
-            "01cf9b61f66c1ef5"
-        ],
-        "x": 24,
-        "y": 1019,
-        "w": 682,
-        "h": 82
-    },
-    {
-        "id": "d5ab7ccd2eaf9c7e",
-        "type": "group",
-        "z": "1890b8e955d8f8fa",
-        "name": "Tendencia Principal",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "9d5ab93e68875cf4",
-            "e058166bb272c1b4",
-            "ea9f83cfaae149a6",
-            "d2c079af5901e54c"
-        ],
-        "x": 174,
-        "y": 1319,
-        "w": 492,
-        "h": 122
-    },
-    {
-        "id": "a0b84f94a6510eee",
-        "type": "group",
-        "z": "1890b8e955d8f8fa",
-        "name": "ADQUISICIÓN TIEMPO",
-        "style": {
-            "stroke": "#3f93cf",
-            "label": true,
-            "color": "#bfdbef"
-        },
-        "nodes": [
-            "e8b8423b9c4c6e08",
-            "5f3e1c612d3d4d12",
-            "c969c7cacbbff852",
-            "eb4dfe7adadd8f34",
-            "2e1d777e859bed3d",
-            "6e1f6fa9633b3d1f",
-            "2109bbab6075bb12",
-            "c28da4d63169b436",
-            "633d69e85cd4273d",
-            "73e4e1467a78a7bb",
-            "4c056e6caf7acffe",
-            "344a1d24134f522b",
-            "923d63f441f43f13",
-            "eaf4b2085acff39e"
-        ],
-        "x": 134,
-        "y": 459,
-        "w": 1092,
-        "h": 282
-    },
-    {
-        "id": "3caf0dee72fc2047",
-        "type": "group",
-        "z": "1890b8e955d8f8fa",
-        "name": "habilitar y notificaciones",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "156287dbdde7759f",
-            "dc5431853d568cc5",
-            "24332fdbcbeb5e8d",
-            "9bf20a3cfce9fae1",
-            "eaaaccf524f27cd3",
-            "b972240fa3c146c4",
-            "8676f151870d6dd1",
-            "c82c938cd7e28fae",
-            "abf83d7b7058ada8",
-            "2edb376b1401ac97",
-            "872c0292870c3d55",
-            "4c2bf44c8e1d1fb9",
-            "b11065b3e2970783",
-            "258d1e598d71b09d",
-            "9dac8d865abda724",
-            "5e99aadeec08ef39",
-            "cd39cc92c052f90b",
-            "941b04b909291975"
-        ],
-        "x": 714,
-        "y": 1319,
-        "w": 1432,
-        "h": 322
-    },
-    {
-        "id": "1f2682bef5794306",
-        "type": "group",
-        "z": "1890b8e955d8f8fa",
-        "name": "Actualización de Datos",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "b37f86580848e10b",
-            "265746b1eeaca5fd",
-            "5332bed331397338",
-            "f78646b26f8246e0",
-            "25d0f4f9cc0cbbc0",
-            "4f627b07415ef96e",
-            "c3a8183221d9fafe",
-            "c153e4fdd9ce3c18",
-            "ae26d5eef96a6990",
-            "937aca96cc86906c",
-            "eee0b070f76590b2"
-        ],
-        "x": 154,
-        "y": 179,
-        "w": 1392,
-        "h": 162
-    },
-    {
-        "id": "6604db9c5e9f2794",
-        "type": "group",
-        "z": "1890b8e955d8f8fa",
-        "name": "Logica Control",
-        "style": {
-            "fill": "#000000",
-            "label": true,
-            "color": "#ffffff"
-        },
-        "nodes": [
-            "7468830a5595288e",
-            "dfb2d8dab3143b0d",
-            "4834ceceae06a274",
-            "a3cb09a8f3941aba",
-            "ceaf6c43578a56ea",
-            "cba380e0e52cd32b",
-            "994ebb3d980c43bd",
-            "846c2e0e5cd8fad9",
-            "1551d461961f629a",
-            "a238e44da1043fc8",
-            "fd237aae6448ebac",
-            "9ec6d52462cf9447",
-            "50866dbb9fc505f2",
-            "8ce32e6d89bb8bd5",
-            "5ab55f15839c8b62",
-            "b03e0ac1537edae8",
-            "603028515e6a66ba",
-            "b9dcf539def2f220",
-            "8c7c947326ff02b5",
-            "7819bb96d43a4d64",
-            "b64a18e24f00a0e2"
-        ],
-        "x": 174,
-        "y": 779,
-        "w": 1142,
-        "h": 482
     },
     {
         "id": "d25d405a.19cff",
@@ -101436,7 +101412,7 @@
         "y": 900,
         "wires": [
             [
-                "4040a91ad2f6935f"
+                "883ee81095c908e3"
             ]
         ]
     },
@@ -101458,27 +101434,6 @@
             [
                 "6eaf6a1933c0c45b"
             ]
-        ]
-    },
-    {
-        "id": "4040a91ad2f6935f",
-        "type": "ui_template",
-        "z": "6a1ef6a7aef873a7",
-        "g": "9d4d96338ab627d0",
-        "group": "f2a62c0d6f10d2b7",
-        "name": "Downhole",
-        "order": 1,
-        "width": 12,
-        "height": "11",
-        "format": "<div ng-bind-html=\"msg.payload\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 580,
-        "y": 900,
-        "wires": [
-            []
         ]
     },
     {
@@ -101511,13 +101466,13 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Fondo',\n                    autosize: false,\n                    width: 720,\n                    height: 520,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Superficie',\n                    autosize: false,\n                    width: 720,\n                    height: 520,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 430,
         "y": 1060,
         "wires": [
             [
-                "7e856988dab94127"
+                "82cfd5182a05fe8d"
             ]
         ]
     },
@@ -101568,27 +101523,6 @@
             [
                 "305dc890db8b5ec3"
             ]
-        ]
-    },
-    {
-        "id": "7e856988dab94127",
-        "type": "ui_template",
-        "z": "6a1ef6a7aef873a7",
-        "g": "9648249e35aead30",
-        "group": "ded8f6853f86499e",
-        "name": "Surface",
-        "order": 1,
-        "width": 12,
-        "height": "11",
-        "format": "<div ng-bind-html=\"msg.payload\"></div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 620,
-        "y": 1060,
-        "wires": [
-            []
         ]
     },
     {
@@ -104010,5 +103944,49 @@
         "x": 1415,
         "y": 760,
         "wires": []
+    },
+    {
+        "id": "883ee81095c908e3",
+        "type": "ui_template",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9d4d96338ab627d0",
+        "group": "ded8f6853f86499e",
+        "name": "Downhole",
+        "order": 1,
+        "width": 12,
+        "height": "11",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 560,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "82cfd5182a05fe8d",
+        "type": "ui_template",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9648249e35aead30",
+        "group": "f2a62c0d6f10d2b7",
+        "name": "Surface",
+        "order": 1,
+        "width": 12,
+        "height": "11",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 580,
+        "y": 1060,
+        "wires": [
+            []
+        ]
     }
 ]
