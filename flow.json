@@ -845,7 +845,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -885,7 +887,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -977,9 +981,7 @@
             "f1f7bfacfe0754bf"
         ],
         "x": 34,
-        "y": 479,
-        "w": 2312,
-        "h": 472
+        "y": 479
     },
     {
         "id": "3cb51855.a66038",
@@ -1195,7 +1197,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1244,7 +1248,9 @@
             "cae90cc36eb53039"
         ],
         "x": 54,
-        "y": 719
+        "y": 719,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1469,7 +1475,9 @@
             "cd2627ac2843f441"
         ],
         "x": 14,
-        "y": 1079
+        "y": 1079,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1721,9 +1729,7 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579,
-        "w": 352,
-        "h": 82
+        "y": 1579
     },
     {
         "id": "6202107f.ed9aa",
@@ -1801,9 +1807,7 @@
             "e25199718b76fb2e"
         ],
         "x": 4,
-        "y": -1,
-        "w": 1982,
-        "h": 402
+        "y": -1
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1820,9 +1824,7 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373,
-        "w": 1970,
-        "h": 1600
+        "y": 1373
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1838,9 +1840,7 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479,
-        "w": 342,
-        "h": 82
+        "y": 1479
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1862,9 +1862,7 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169,
-        "w": 852,
-        "h": 182
+        "y": 1169
     },
     {
         "id": "086b9d08c3b68939",
@@ -1891,9 +1889,7 @@
             "f9ef677b4ad63e67"
         ],
         "x": 34,
-        "y": 959,
-        "w": 732,
-        "h": 242
+        "y": 959
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1918,9 +1914,7 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959,
-        "w": 1192,
-        "h": 202
+        "y": 959
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -2019,7 +2013,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2061,9 +2057,7 @@
             "fd43d65633c388cf"
         ],
         "x": 534,
-        "y": 2999,
-        "w": 752,
-        "h": 182
+        "y": 2999
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -2088,7 +2082,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2107,9 +2103,7 @@
             "d6ca01c917296363"
         ],
         "x": 14,
-        "y": 1679,
-        "w": 532,
-        "h": 142
+        "y": 1679
     },
     {
         "id": "38940f8.c9c27f",
@@ -2418,8 +2412,10 @@
             "bfec0e288d418c7f",
             "950ba8d14ba2185d"
         ],
-        "x": 114,
-        "y": 2179
+        "x": 14,
+        "y": 1359,
+        "w": 982,
+        "h": 242
     },
     {
         "id": "69cbede8f851191a",
@@ -2436,10 +2432,14 @@
             "fe33e19e6f3ad930",
             "b3c56d84218b82e9",
             "97362283dcbb7395",
-            "f2a0e0ca6b96b376"
+            "f2a0e0ca6b96b376",
+            "952d3fda01cda076",
+            "0a6bd128b70aea2c"
         ],
-        "x": 114,
-        "y": 2439
+        "x": 14,
+        "y": 1619,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2658,13 +2658,10 @@
             "fe1a9bde13dab923",
             "57d96f9647eeba77",
             "832a31d3f59bf4df",
-            "381f2e27385db5e4",
-            "9ab20d05e2553884"
+            "381f2e27385db5e4"
         ],
         "x": 34,
-        "y": 159,
-        "w": 482,
-        "h": 142
+        "y": 159
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -3221,9 +3218,7 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 1334,
-        "y": 2999,
-        "w": 752,
-        "h": 202
+        "y": 2999
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -3245,7 +3240,9 @@
             "86e001aa20e6699c"
         ],
         "x": 114,
-        "y": 2599
+        "y": 2599,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3765,7 +3762,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3786,7 +3785,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4089,9 +4090,7 @@
             "9708fb7ce60bdd70"
         ],
         "x": 594,
-        "y": 1399,
-        "w": 772,
-        "h": 702
+        "y": 1399
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4108,9 +4107,7 @@
             "aafad2ba.dcc8b"
         ],
         "x": 618,
-        "y": 2533,
-        "w": 1894,
-        "h": 414
+        "y": 2533
     },
     {
         "id": "c483d44b5f6def10",
@@ -4158,9 +4155,7 @@
             "90fdc4810e9cd514"
         ],
         "x": 1454,
-        "y": 1419,
-        "w": 932,
-        "h": 942
+        "y": 1419
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5740,9 +5735,7 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 1234,
-        "y": 2679,
-        "w": 1252,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5768,9 +5761,7 @@
             "7578d16bf9d408ae"
         ],
         "x": 644,
-        "y": 2559,
-        "w": 572,
-        "h": 362
+        "y": 2559
     },
     {
         "id": "742e267a.cbc27",
@@ -9065,66 +9056,6 @@
         "disp": false,
         "width": "16",
         "collapse": false
-    },
-    {
-        "id": "47f405423989f5cf",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 7,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "292c934d081babc1",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "cac5020233c144cf",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 9,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "71bf778b7d6026ca",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 10,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "dd5e7683b2ad5d1f",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 11,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "8a85ce776a495969",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "d5793763aabf18e4",
-        "order": 12,
-        "width": 12,
-        "height": 1
     },
     {
         "id": "45c80dc1acd07ad1",
@@ -31281,7 +31212,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "[{\"Parámetro\":27,\"Descripción\":\"Motor NP Hz\",\"Valor\":120},{\"Parámetro\":28,\"Descripción\":\"Motor NP RPM\",\"Valor\":3600},{\"Parámetro\":30,\"Descripción\":\"Motor NP Power\",\"Valor\":185},{\"Parámetro\":31,\"Descripción\":\"Motor Poles\",\"Valor\":4},{\"Parámetro\":2010,\"Descripción\":\"Mtr NL Voltage\",\"Valor\":3010},{\"Parámetro\":2011,\"Descripción\":\"Mtr FL Voltage\",\"Valor\":3270},{\"Parámetro\":2012,\"Descripción\":\"MtrNormalDutyAmp\",\"Valor\":36.9},{\"Parámetro\":2013,\"Descripción\":\"Stator Resistance\",\"Valor\":2},{\"Parámetro\":2014,\"Descripción\":\"Total kgm2\",\"Valor\":0.1},{\"Parámetro\":2015,\"Descripción\":\"Ld No Load\",\"Valor\":39},{\"Parámetro\":2016,\"Descripción\":\"Lq No Load\",\"Valor\":36},{\"Parámetro\":2017,\"Descripción\":\"Mtr Efficiency\",\"Valor\":92.4},{\"Parámetro\":2020,\"Descripción\":\"Ld Sat 10 Pcnt\",\"Valor\":93},{\"Parámetro\":2021,\"Descripción\":\"Ld Sat 25 Pcnt\",\"Valor\":91},{\"Parámetro\":2022,\"Descripción\":\"Ld Sat 50 Pcnt\",\"Valor\":85},{\"Parámetro\":2023,\"Descripción\":\"Ld Sat 100 Pcnt\",\"Valor\":72},{\"Parámetro\":2024,\"Descripción\":\"Ld Sat 150 Pcnt\",\"Valor\":71},{\"Parámetro\":2025,\"Descripción\":\"Lq Sat 10 Pcnt\",\"Valor\":93},{\"Parámetro\":2026,\"Descripción\":\"Lq Sat 25 Pcnt\",\"Valor\":91},{\"Parámetro\":2027,\"Descripción\":\"Lq Sat 50 Pcnt\",\"Valor\":85},{\"Parámetro\":2028,\"Descripción\":\"Lq Sat 100 Pcnt\",\"Valor\":72},{\"Parámetro\":2029,\"Descripción\":\"Lq Sat 150 Pcnt\",\"Valor\":71}]",
+                "to": "[{\"Parámetro\":27,\"Descripción\":\"Motor NP Hz\",\"Valor\":120},{\"Parámetro\":28,\"Descripción\":\"Motor NP RPM\",\"Valor\":3600},{\"Parámetro\":30,\"Descripción\":\"Motor NP Power\",\"Valor\":185},{\"Par��metro\":31,\"Descripción\":\"Motor Poles\",\"Valor\":4},{\"Parámetro\":2010,\"Descripción\":\"Mtr NL Voltage\",\"Valor\":3010},{\"Parámetro\":2011,\"Descripción\":\"Mtr FL Voltage\",\"Valor\":3270},{\"Parámetro\":2012,\"Descripción\":\"MtrNormalDutyAmp\",\"Valor\":36.9},{\"Parámetro\":2013,\"Descripción\":\"Stator Resistance\",\"Valor\":2},{\"Parámetro\":2014,\"Descripción\":\"Total kgm2\",\"Valor\":0.1},{\"Parámetro\":2015,\"Descripción\":\"Ld No Load\",\"Valor\":39},{\"Parámetro\":2016,\"Descripción\":\"Lq No Load\",\"Valor\":36},{\"Parámetro\":2017,\"Descripción\":\"Mtr Efficiency\",\"Valor\":92.4},{\"Parámetro\":2020,\"Descripción\":\"Ld Sat 10 Pcnt\",\"Valor\":93},{\"Parámetro\":2021,\"Descripción\":\"Ld Sat 25 Pcnt\",\"Valor\":91},{\"Parámetro\":2022,\"Descripción\":\"Ld Sat 50 Pcnt\",\"Valor\":85},{\"Parámetro\":2023,\"Descripción\":\"Ld Sat 100 Pcnt\",\"Valor\":72},{\"Parámetro\":2024,\"Descripción\":\"Ld Sat 150 Pcnt\",\"Valor\":71},{\"Parámetro\":2025,\"Descripción\":\"Lq Sat 10 Pcnt\",\"Valor\":93},{\"Parámetro\":2026,\"Descripción\":\"Lq Sat 25 Pcnt\",\"Valor\":91},{\"Parámetro\":2027,\"Descripción\":\"Lq Sat 50 Pcnt\",\"Valor\":85},{\"Parámetro\":2028,\"Descripción\":\"Lq Sat 100 Pcnt\",\"Valor\":72},{\"Parámetro\":2029,\"Descripción\":\"Lq Sat 150 Pcnt\",\"Valor\":71}]",
                 "tot": "json"
             }
         ],
@@ -66796,11 +66727,12 @@
         "order": 1,
         "width": 16,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 420,
         "y": 840,
         "wires": [
@@ -66940,6 +66872,7 @@
         "id": "8c4c4846.6ea308",
         "type": "change",
         "z": "2e27dea6.c4c362",
+        "d": true,
         "g": "9132da2c.b8c6b8",
         "name": "Filtro armónicos",
         "rules": [
@@ -68114,7 +68047,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 840,
@@ -68235,7 +68168,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 880,
@@ -68255,7 +68188,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 920,
@@ -68269,13 +68202,14 @@
         "id": "de4f39a85d994607",
         "type": "template",
         "z": "2e27dea6.c4c362",
+        "d": true,
         "g": "9132da2c.b8c6b8",
         "name": "",
         "field": "template",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <!--<a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 960,
@@ -68295,7 +68229,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
         "y": 1000,
@@ -69071,8 +69005,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 610,
-        "y": 2280,
+        "x": 510,
+        "y": 1460,
         "wires": [
             [
                 "219b52896a3bc0c3",
@@ -69109,8 +69043,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 770,
-        "y": 2280,
+        "x": 670,
+        "y": 1460,
         "wires": [
             [
                 "571b4cb30ff6bd65"
@@ -69133,8 +69067,8 @@
             "8a17d991.081178",
             "805762db.d27b7"
         ],
-        "x": 1055,
-        "y": 2280,
+        "x": 955,
+        "y": 1460,
         "wires": []
     },
     {
@@ -69157,8 +69091,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 2240,
+        "x": 810,
+        "y": 1420,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69185,8 +69119,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 2280,
+        "x": 820,
+        "y": 1460,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69213,8 +69147,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 2320,
+        "x": 830,
+        "y": 1500,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69236,8 +69170,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 210,
-        "y": 2520,
+        "x": 110,
+        "y": 1700,
         "wires": [
             [
                 "f258f142685365f9"
@@ -69272,8 +69206,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 350,
-        "y": 2520,
+        "x": 250,
+        "y": 1700,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -69296,8 +69230,8 @@
             "8a17d991.081178",
             "805762db.d27b7"
         ],
-        "x": 635,
-        "y": 2520,
+        "x": 535,
+        "y": 1700,
         "wires": []
     },
     {
@@ -69320,8 +69254,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 500,
-        "y": 2520,
+        "x": 400,
+        "y": 1700,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -69348,8 +69282,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 500,
-        "y": 2480,
+        "x": 400,
+        "y": 1660,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -69376,8 +69310,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
-        "y": 2560,
+        "x": 420,
+        "y": 1740,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -69396,8 +69330,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"true\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 440,
-        "y": 2240,
+        "x": 340,
+        "y": 1420,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -69416,8 +69350,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"true\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 440,
-        "y": 2280,
+        "x": 340,
+        "y": 1460,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -69436,8 +69370,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"true\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 440,
-        "y": 2320,
+        "x": 340,
+        "y": 1500,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -69472,8 +69406,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 290,
-        "y": 2280,
+        "x": 190,
+        "y": 1460,
         "wires": [
             [
                 "50227f25c7f235d6"
@@ -69503,8 +69437,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 750,
-        "y": 2340,
+        "x": 650,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -69523,8 +69457,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 780,
-        "y": 2380,
+        "x": 680,
+        "y": 1560,
         "wires": []
     },
     {
@@ -69536,8 +69470,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 155,
-        "y": 2220,
+        "x": 55,
+        "y": 1400,
         "wires": [
             [
                 "950ba8d14ba2185d"
@@ -69564,8 +69498,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 270,
-        "y": 2220,
+        "x": 170,
+        "y": 1400,
         "wires": [
             [
                 "0bf02e140da3357d"
@@ -69581,8 +69515,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 355,
-        "y": 2480,
+        "x": 255,
+        "y": 1660,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -81102,14 +81036,12 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS1.png\" style=\"width:40%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS1.png\" style=\"width:75%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 300,
         "y": 200,
         "wires": [
-            [
-                "9ab20d05e2553884"
-            ]
+            []
         ]
     },
     {
@@ -81122,33 +81054,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS2.png\" style=\"width:40%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS2.png\" style=\"width:75%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 300,
         "y": 260,
-        "wires": [
-            [
-                "9ab20d05e2553884"
-            ]
-        ]
-    },
-    {
-        "id": "9ab20d05e2553884",
-        "type": "ui_template",
-        "z": "6a1ef6a7aef873a7",
-        "g": "854b667853465d2b",
-        "group": "d5793763aabf18e4",
-        "name": "Imagen",
-        "order": 1,
-        "width": 4,
-        "height": 9,
-        "format": "",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 430,
-        "y": 220,
         "wires": [
             []
         ]
@@ -81160,8 +81069,8 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "d5793763aabf18e4",
-        "order": 5,
-        "width": 4,
+        "order": 4,
+        "width": 3,
         "height": 3,
         "gtype": "donut",
         "title": "PIP",
@@ -81176,6 +81085,7 @@
         ],
         "seg1": "",
         "seg2": "",
+        "className": "",
         "x": 950,
         "y": 240,
         "wires": []
@@ -81187,11 +81097,11 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "d5793763aabf18e4",
-        "order": 3,
+        "order": 8,
         "width": 4,
         "height": 3,
         "gtype": "wave",
-        "title": "Fillage",
+        "title": "Llenado",
         "label": "%",
         "format": "{{value}}",
         "min": 0,
@@ -81203,7 +81113,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 950,
+        "className": "",
+        "x": 960,
         "y": 200,
         "wires": []
     },
@@ -81214,11 +81125,11 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "d5793763aabf18e4",
-        "order": 4,
-        "width": 4,
+        "order": 6,
+        "width": 3,
         "height": 3,
         "gtype": "donut",
-        "title": "Dynamic Fluid Lv.",
+        "title": "Nivel de Fluido Dinámico",
         "label": "ft",
         "format": "{{value}}",
         "min": 0,
@@ -81230,7 +81141,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 990,
+        "className": "",
+        "x": 1010,
         "y": 320,
         "wires": []
     },
@@ -81241,11 +81153,11 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "d5793763aabf18e4",
-        "order": 6,
-        "width": 4,
+        "order": 5,
+        "width": 3,
         "height": 3,
         "gtype": "donut",
-        "title": "Submergence",
+        "title": "Sumergencia",
         "label": "ft",
         "format": "{{value}}",
         "min": 0,
@@ -81257,7 +81169,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 980,
+        "className": "",
+        "x": 970,
         "y": 360,
         "wires": []
     },
@@ -81268,8 +81181,8 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "d5793763aabf18e4",
-        "order": 2,
-        "width": 4,
+        "order": 3,
+        "width": 3,
         "height": 3,
         "gtype": "donut",
         "title": "HT (TVD)",
@@ -92520,5 +92433,115 @@
                 "10641359ee0468c8"
             ]
         ]
+    },
+    {
+        "id": "d6cc2976c55eb6e4",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ce63f51b1726a2d",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "db673ba8e17a2233",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ac04177489da9b0f",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3792a822a092087f",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1530c3ac891dacdb",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "37da0cba434d3d6f",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "d5793763aabf18e4",
+        "order": 14,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "952d3fda01cda076",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "69cbede8f851191a",
+        "group": "d5793763aabf18e4",
+        "name": "Logo Slacol Sierracol",
+        "order": 1,
+        "width": 10,
+        "height": 11,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/balancin_bcpg.png\" style=\"width:90%;\">\n            </div>\n        </div>\n    </div>\n    <!--<div class=\"container align-self-center\">-->\n    <!--    <div class=\"row justify-content-center\">-->\n    <!--        <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>-->\n    <!--    </div>-->\n    <!--</div>-->\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 140,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a6bd128b70aea2c",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "g": "69cbede8f851191a",
+        "group": "d5793763aabf18e4",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}variables de fondo calculadas",
+        "layout": "row-center",
+        "className": "",
+        "x": 420,
+        "y": 1780,
+        "wires": []
     }
 ]
