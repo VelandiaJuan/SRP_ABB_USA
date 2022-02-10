@@ -977,7 +977,9 @@
             "f1f7bfacfe0754bf"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 472
     },
     {
         "id": "3cb51855.a66038",
@@ -994,7 +996,9 @@
             "25837d82b2979b05"
         ],
         "x": 134,
-        "y": 1339
+        "y": 1339,
+        "w": 252,
+        "h": 122
     },
     {
         "id": "27a0641a.d154dc",
@@ -1704,7 +1708,9 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1782,7 +1788,9 @@
             "e25199718b76fb2e"
         ],
         "x": 4,
-        "y": -1
+        "y": -1,
+        "w": 1982,
+        "h": 402
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1799,7 +1807,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373
+        "y": 1373,
+        "w": 1970,
+        "h": 1600
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1815,7 +1825,9 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479
+        "y": 1479,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1837,7 +1849,9 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169
+        "y": 1169,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -1864,7 +1878,9 @@
             "f9ef677b4ad63e67"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 732,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1889,7 +1905,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959
+        "y": 959,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -2030,7 +2048,9 @@
             "fd43d65633c388cf"
         ],
         "x": 534,
-        "y": 2999
+        "y": 2999,
+        "w": 752,
+        "h": 182
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -2074,7 +2094,9 @@
             "d6ca01c917296363"
         ],
         "x": 14,
-        "y": 1679
+        "y": 1679,
+        "w": 532,
+        "h": 142
     },
     {
         "id": "38940f8.c9c27f",
@@ -2577,12 +2599,15 @@
             "d59238ffb0c8c6e3",
             "e71da190463b03f0",
             "dc35b556a91126e8",
-            "344291236bedd89a"
+            "344291236bedd89a",
+            "de9a9517a0e9e896",
+            "3723baa250250308",
+            "6f4b63ae903a9148"
         ],
         "x": 34,
         "y": 19,
         "w": 1392,
-        "h": 562
+        "h": 622
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2602,9 +2627,7 @@
             "bbd14a02c90c8979"
         ],
         "x": 594,
-        "y": 159,
-        "w": 512,
-        "h": 242
+        "y": 159
     },
     {
         "id": "854b667853465d2b",
@@ -2622,9 +2645,7 @@
             "9ab20d05e2553884"
         ],
         "x": 34,
-        "y": 159,
-        "w": 482,
-        "h": 142
+        "y": 159
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2653,9 +2674,7 @@
             "d0f5dfd40edd6ea0"
         ],
         "x": 14,
-        "y": 419,
-        "w": 632,
-        "h": 422
+        "y": 419
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2676,9 +2695,7 @@
             "883ee81095c908e3"
         ],
         "x": 14,
-        "y": 859,
-        "w": 632,
-        "h": 122
+        "y": 859
     },
     {
         "id": "9648249e35aead30",
@@ -2697,9 +2714,7 @@
             "82cfd5182a05fe8d"
         ],
         "x": 24,
-        "y": 1019,
-        "w": 642,
-        "h": 82
+        "y": 1019
     },
     {
         "id": "a0b84f94a6510eee",
@@ -2848,8 +2863,6 @@
         ],
         "x": 734,
         "y": 51.5,
-        "w": 642,
-        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2879,9 +2892,7 @@
             "0832a6b33e1f520c"
         ],
         "x": 134,
-        "y": 379,
-        "w": 538,
-        "h": 649.5
+        "y": 379
     },
     {
         "id": "23c99fd.b16886",
@@ -2905,8 +2916,6 @@
         ],
         "x": 134,
         "y": 51.5,
-        "w": 572,
-        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2925,9 +2934,7 @@
             "5e35a538.cad0cc"
         ],
         "x": 734,
-        "y": 391.5,
-        "w": 422,
-        "h": 157
+        "y": 391.5
     },
     {
         "id": "9f31a30ba7ed7f3e",
@@ -3185,7 +3192,9 @@
             "5b5cdeca57169758"
         ],
         "x": 1334,
-        "y": 2999
+        "y": 2999,
+        "w": 552,
+        "h": 202
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -4052,7 +4061,9 @@
             "9708fb7ce60bdd70"
         ],
         "x": 594,
-        "y": 1399
+        "y": 1399,
+        "w": 772,
+        "h": 702
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4069,7 +4080,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 618,
-        "y": 2533
+        "y": 2533,
+        "w": 1894,
+        "h": 414
     },
     {
         "id": "c483d44b5f6def10",
@@ -4117,7 +4130,9 @@
             "90fdc4810e9cd514"
         ],
         "x": 1454,
-        "y": 1419
+        "y": 1419,
+        "w": 932,
+        "h": 942
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5372,9 +5387,7 @@
             "351eccb8791a5abd"
         ],
         "x": 374,
-        "y": 411.5,
-        "w": 272,
-        "h": 277
+        "y": 411.5
     },
     {
         "id": "4e3c5a17481ed180",
@@ -5686,7 +5699,9 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 1234,
-        "y": 2679
+        "y": 2679,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5712,7 +5727,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 644,
-        "y": 2559
+        "y": 2559,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -92208,7 +92225,8 @@
         "wires": [
             [
                 "3bba9f750299596c",
-                "4bedc8e4c0dcbce5"
+                "4bedc8e4c0dcbce5",
+                "6f4b63ae903a9148"
             ]
         ]
     },
@@ -92313,6 +92331,13 @@
                 "pt": "global",
                 "to": "FuenteCalculo",
                 "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "GeometriaSucket.CW",
+                "pt": "global",
+                "to": "CW",
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -92364,7 +92389,7 @@
         "z": "b368eb771541cd7f",
         "g": "67a422f5076a03ee",
         "name": "geometriaSensorLess",
-        "func": "var Tipo = global.get(\"GeometriaSucket.tablaGeometria.Tipo\");\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\");\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")); \nvar I = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.I\"));\nvar H = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.H\"));\nvar G = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.G\"));\nvar C = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar P = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.P\"));\nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\nvar K = 0, fi = 0,tetha_topk = 0,tetha_top = 0, theta = [],beta = [],Y_bt = 0, Y_tt = 0 ;\nvar J = [],Y = [],alpha = [], s_pr = [];\n\n// creacion del vector de angulo de 0 a 2*pi\nvar paso = (2*Math.PI)/Nmuestras;\ntheta[0] = 0;\nfor (let i = 1; i < Nmuestras; i++) {\n    theta[i] = theta[i - 1] + paso;\n}\n\nswitch (Tipo) {\n    case \"CONVENCIONAL\":\n        // ecuación 9\n        K = Math.sqrt(Math.pow(I,2)+ Math.pow((H-G),2));\n        // ecuacion 10 \n        fi = Math.atan(1/(H-G));\n        // ecuacion 11 \n        tetha_topk = Math.acos((Math.pow(K,2) + Math.pow((R+P),2) - Math.pow(C,2))/(2*K*(R+P)));\n        // ecuacion 12\n        tetha_top = fi - tetha_topk;\n        node.status({fill:\"blue\",shape:\"ring\",text:\"Convensional\"});\n        if(fi > tetha_topk){//condicion ecuacion 13\n            tetha_top = fi + tetha_topk;\n        }\n        // ecuacion 14\n        for (let i = 0; i < theta.length; i++) {\n            beta[i] = Math.acos((Math.pow(C,2) + Math.pow(P,2) - Math.pow(R,2) -Math.pow(K,2) + (2*R*K*Math.cos(theta[i] - fi))     )/(2*C*P))\n        }\n        // ecuacion 15\n        Y_bt = Math.acos(( Math.pow(C,2) + Math.pow(K,2) - Math.pow((P+R),2) )/(2*C*K));\n        // ecuacion 16\n        Y_tt = Math.acos(( Math.pow(C,2) + Math.pow(K,2) - Math.pow((P-R),2) )/(2*C*K));\n        for (let i = 0; i < beta.length; i++) {\n            // ecuacion 17\n            J[i] = Math.sqrt( Math.pow(C,2) + Math.pow(P,2) - (2*C*Math.cos(beta[i])));\n            // ecuacion 18 consultar si en el seno es J\n            Y[i] = Math.cos((Math.pow(C, 2) + Math.pow(J[i], 2) - Math.pow(P, 2)) / (2 * C * J[i])) - Math.sin((theta[i] - fi)/(J[i]));\n            // ecuacion 19\n            alpha[i] = beta[i] + Y[i] - (theta[i] - fi);\n            // ecuacion 20\n            s_pr[i] = A * (Y_bt - Y[i]);\n        }\n\n\n        break;\n    case \"MARK II\":\n        node.status({ fill: \"blue\", shape: \"ring\", text: \"MARK II\" });\n\n        break;\n\n\n\n    default:\n        // default convensional en caso tal\n}\n\n\n// variables de monitoreo\ncontext.set(\"Tipo\",Tipo,\"memoryOnly\");\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"K\", K, \"memoryOnly\");\ncontext.set(\"I\", I, \"memoryOnly\");\ncontext.set(\"H\", H, \"memoryOnly\");\ncontext.set(\"G\", G, \"memoryOnly\");\ncontext.set(\"C\", C, \"memoryOnly\");\ncontext.set(\"fi\", fi, \"memoryOnly\");\ncontext.set(\"tetha_topk\", tetha_topk, \"memoryOnly\");\ncontext.set(\"tetha_top\", tetha_top, \"memoryOnly\");\ncontext.set(\"theta\", theta, \"memoryOnly\");\ncontext.set(\"beta\", beta, \"memoryOnly\");\ncontext.set(\"Y_bt\", Y_bt, \"memoryOnly\");\ncontext.set(\"Y_tt\", Y_tt, \"memoryOnly\");\ncontext.set(\"J\", J, \"memoryOnly\");\ncontext.set(\"Y\", Y, \"memoryOnly\");\ncontext.set(\"alpha\", alpha, \"memoryOnly\");\ncontext.set(\"s_pr\", s_pr, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var Tipo = global.get(\"GeometriaSucket.tablaGeometria.Tipo\");\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\");\nvar CW = global.get(\"GeometriaSucket.CW\")||-1;\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")); \nvar I = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.I\"));\nvar H = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.H\"));\nvar G = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.G\"));\nvar C = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar P = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.P\"));\nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\nvar K = 0, PHIt = 0,THETAktopt = 0,tetha_top = 0, theta = [],beta = [],Y_bt = 0, Y_tt = 0 ;\nvar J = [],Y = [],alpha = [], s_pr = [];\n\n// validación\nA = 55;C = 48;I = 48;P = 57;H = 96;G = 41.5;R = 18\n// creacion del vector de angulo de 0 a 2*pi\nvar paso = (2*Math.PI)/Nmuestras;\ntheta[0] = 0;\nfor (let i = 1; i < Nmuestras; i++) {\n    theta[i] = theta[i - 1] + paso;\n}\n\nswitch (Tipo) {\n    case \"CONVENCIONAL\":\n        // ecuación 9\n        K = Math.sqrt(Math.pow(I,2)+ Math.pow((H-G),2));\n        // ecuacion 10 \n        PHIt = Math.atan(1/(H-G));\n        // ecuacion 11 \n        THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((R+P),2) - Math.pow(C,2))/(2*K*(R+P)));\n        // ecuacion 12\n        tetha_top = PHIt - THETAktopt;\n        node.status({fill:\"red\",shape:\"ring\",text:\"Convensional\"});\n        if(PHIt > THETAktopt){//condicion ecuacion 13\n            tetha_top = PHIt + THETAktopt;\n        }\n        // ecuacion 14\n        for (let i = 0; i < theta.length; i++) {\n            beta[i] = Math.acos((Math.pow(C,2) + Math.pow(P,2) - Math.pow(R,2) -Math.pow(K,2) + (2*R*K*Math.cos(theta[i] - PHIt))     )/(2*C*P))\n        }\n        // ecuacion 15\n        Y_bt = Math.acos(( Math.pow(C,2) + Math.pow(K,2) - Math.pow((P+R),2) )/(2*C*K));\n        // ecuacion 16\n        Y_tt = Math.acos(( Math.pow(C,2) + Math.pow(K,2) - Math.pow((P-R),2) )/(2*C*K));\n        for (let i = 0; i < beta.length; i++) {\n            // ecuacion 17\n            J[i] = Math.sqrt( Math.pow(C,2) + Math.pow(P,2) - (2*C*Math.cos(beta[i])));\n            // ecuacion 18 consultar si en el seno es J\n            Y[i] = Math.cos((Math.pow(C, 2) + Math.pow(J[i], 2) - Math.pow(P, 2)) / (2 * C * J[i])) - Math.sin((theta[i] - PHIt)/(J[i]));\n            // ecuacion 19\n            alpha[i] = beta[i] + Y[i] - (theta[i] - PHIt);\n            // ecuacion 20\n            s_pr[i] = A * (Y_bt - Y[i]);\n        }\n\n\n        break;\n    case \"MARK II\":\n        \n\n        break;\n\n\n\n    default:\n        // default convensional en caso tal\n}\n\n\n// variables de monitoreo\ncontext.set(\"Tipo\",Tipo,\"memoryOnly\");\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"K\", K, \"memoryOnly\");\ncontext.set(\"I\", I, \"memoryOnly\");\ncontext.set(\"H\", H, \"memoryOnly\");\ncontext.set(\"G\", G, \"memoryOnly\");\ncontext.set(\"C\", C, \"memoryOnly\");\ncontext.set(\"PHIt\", PHIt, \"memoryOnly\");\ncontext.set(\"THETAktopt\", THETAktopt, \"memoryOnly\");\ncontext.set(\"tetha_top\", tetha_top, \"memoryOnly\");\ncontext.set(\"theta\", theta, \"memoryOnly\");\ncontext.set(\"beta\", beta, \"memoryOnly\");\ncontext.set(\"Y_bt\", Y_bt, \"memoryOnly\");\ncontext.set(\"Y_tt\", Y_tt, \"memoryOnly\");\ncontext.set(\"J\", J, \"memoryOnly\");\ncontext.set(\"Y\", Y, \"memoryOnly\");\ncontext.set(\"alpha\", alpha, \"memoryOnly\");\ncontext.set(\"s_pr\", s_pr, \"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -92372,6 +92397,95 @@
         "libs": [],
         "x": 990,
         "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de9a9517a0e9e896",
+        "type": "ui_dropdown",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e5360c10debc8116",
+        "order": 19,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Anti horario",
+                "value": "-1",
+                "type": "str"
+            },
+            {
+                "label": "Horario",
+                "value": "1",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "x": 820,
+        "y": 600,
+        "wires": [
+            [
+                "3723baa250250308"
+            ]
+        ]
+    },
+    {
+        "id": "3723baa250250308",
+        "type": "change",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "CW",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f4b63ae903a9148",
+        "type": "change",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "GeometriaSucket.CW",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 600,
         "wires": [
             []
         ]
