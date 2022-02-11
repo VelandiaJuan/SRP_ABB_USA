@@ -2587,7 +2587,9 @@
             "26b658d4f2db62cf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1792,
+        "h": 602
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -9292,326 +9294,6 @@
         "collapse": false
     },
     {
-        "id": "d6511364f9eae45f",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 10,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "4b638252cb4d32e5",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 13,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "f613f3a295b74927",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8a554eaafb24b1ad",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 16,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "0312ff4552ae7cfd",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "74ef0a74fb9e39d0",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 18,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "a0fb2e7d8104c216",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 19,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "466d76665b6fb6d0",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 20,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "41d9ebac304a4584",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 21,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "a7518a7bc3eb2209",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 22,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8791b97c78a2bcd6",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 23,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "367565ae1f7122e4",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "5c8fd8d2309d8da7",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 22,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "24dbd83e06f07d28",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 24,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "9f74e81389341799",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 25,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "eb05e60305ea6360",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 27,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "55f987897e765785",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ec2326a68962042e",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "25b8b57e39ca0929",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "fe02c84122f9eca8",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "416cb2212a3037c6",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dbf524544c1ba630",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "23ef5ec3b7dc60a0",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 20,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "121fc5a2bcd6e8fe",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 22,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "d540903a54a5708f",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 23,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "93cb150c6595f9f7",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 25,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6d70b8f5e95ee299",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 26,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "67f0c6d05e9cd352",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f26f5baa80f83fb5",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 29,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "97c45d40182df50a",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 30,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "2445daf938095fa5",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 31,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "2a54b07c089d31cd",
-        "type": "ui_spacer",
-        "z": "b368eb771541cd7f",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 32,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "1681776bc92ac3ef",
         "type": "ui_group",
         "name": "Estado de entradas analógicas",
@@ -11079,6 +10761,276 @@
         "group": "5e71a9d14c810b9f",
         "order": 28,
         "width": 2,
+        "height": 1
+    },
+    {
+        "id": "24eb95149a2047e8",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "83be39af67abc03e",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d35cbaa8eb091e2a",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4de14f9964b8af5f",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bb42586a206446ae",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8bfc24c08218aca5",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5842461ad6dcfadd",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f4eea586336c6d13",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e2c3a81f31a9c80b",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1d269082cccbbf6c",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f969cd5c5c37f7ad",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a75df824f897eb8b",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "fe4e81d0a5ee687c",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 22,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "831a1c26fe45062a",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 24,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c0fd4ae917dd61b2",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 25,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "18dd02e03b1efde0",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 27,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "a26a1d4addc11de5",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9b50ad8a820f1e09",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "aa26b207155651b8",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfa11fab1f2f5597",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "99cab4e969dd4b0c",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "abfccc98bcd1553c",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7b07b9d7e63dbbc3",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "39ebb7a913e2ad72",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 23,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c21c0378c6716c84",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 24,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "97698ba5cf9ef3a1",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 25,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "946cd542937588a2",
+        "type": "ui_spacer",
+        "z": "b368eb771541cd7f",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 27,
+        "width": 3,
         "height": 1
     },
     {
@@ -79421,8 +79373,8 @@
         "g": "67a422f5076a03ee",
         "group": "e5360c10debc8116",
         "name": "",
-        "order": 27,
-        "width": 12,
+        "order": 28,
+        "width": 16,
         "height": 3,
         "columns": [
             {
@@ -79543,7 +79495,7 @@
         "g": "67a422f5076a03ee",
         "name": "",
         "group": "e5360c10debc8116",
-        "order": 21,
+        "order": 22,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -80128,8 +80080,8 @@
         "z": "b368eb771541cd7f",
         "g": "67a422f5076a03ee",
         "group": "e5360c10debc8116",
-        "order": 24,
-        "width": 12,
+        "order": 26,
+        "width": 9,
         "height": 1,
         "name": "infoLabelGeometria",
         "label": "<font size=4px>Seleccione la geometria en la tabla",
@@ -80167,7 +80119,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket.png\" style=\"width:55%;height = 100%\" ><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 30px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket.png\" style=\"width:90%;height = 100%\" ><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 30px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 1500,
         "y": 160,
@@ -80187,7 +80139,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket1.png\" style=\"width:50%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket1.png\" style=\"width:90%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 1480,
         "y": 200,
@@ -80206,7 +80158,7 @@
         "name": "imagen Geometry",
         "order": 1,
         "width": 7,
-        "height": 6,
+        "height": 7,
         "format": "<div ng-bind-html=\"msg.payload|trusted\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -80545,7 +80497,7 @@
         "tooltip": "",
         "place": "Select option",
         "group": "e5360c10debc8116",
-        "order": 19,
+        "order": 20,
         "width": 3,
         "height": 1,
         "passthru": true,
