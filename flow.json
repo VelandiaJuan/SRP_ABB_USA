@@ -915,7 +915,6 @@
             "81e9aa1f.0a9c58",
             "a29bf048.6ceca",
             "34cf5b75.27eb74",
-            "389a8a70.699a96",
             "501b4196.e2e16",
             "83065c59.d13dc",
             "26677beb.cdb794",
@@ -977,7 +976,9 @@
             "f1f7bfacfe0754bf"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 472
     },
     {
         "id": "3cb51855.a66038",
@@ -997,7 +998,9 @@
             "1a154fa903ebee99"
         ],
         "x": 134,
-        "y": 1299
+        "y": 1299,
+        "w": 252,
+        "h": 162
     },
     {
         "id": "27a0641a.d154dc",
@@ -1717,7 +1720,9 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579
+        "y": 1579,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1795,7 +1800,9 @@
             "e25199718b76fb2e"
         ],
         "x": 4,
-        "y": -1
+        "y": -1,
+        "w": 1982,
+        "h": 402
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1812,7 +1819,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373
+        "y": 1373,
+        "w": 1970,
+        "h": 1600
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1828,7 +1837,9 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479
+        "y": 1479,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1850,7 +1861,9 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169
+        "y": 1169,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -1877,7 +1890,9 @@
             "f9ef677b4ad63e67"
         ],
         "x": 34,
-        "y": 959
+        "y": 959,
+        "w": 732,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1902,7 +1917,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959
+        "y": 959,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -2043,7 +2060,9 @@
             "fd43d65633c388cf"
         ],
         "x": 534,
-        "y": 2999
+        "y": 2999,
+        "w": 752,
+        "h": 182
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -2087,7 +2106,9 @@
             "d6ca01c917296363"
         ],
         "x": 14,
-        "y": 1679
+        "y": 1679,
+        "w": 532,
+        "h": 142
     },
     {
         "id": "38940f8.c9c27f",
@@ -2275,44 +2296,6 @@
         ],
         "x": 1394,
         "y": 1019
-    },
-    {
-        "id": "936eab7d97be78af",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "LEER, ESCRIBIR PLC A.D",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f88ee0328a8f5964",
-            "138266be848cd64a",
-            "6afa3775f2be0e4d",
-            "3af54985e9349f2c",
-            "8dc4ac2430aa44fc",
-            "0ad7006f65f3d19b",
-            "7397d1cb1a9a2fa0",
-            "c30c78cc60db84f8",
-            "6b2ab85fc1f64252",
-            "bba3aa277bcf1444",
-            "e0ebb1532663774a",
-            "8be993bf3ba4ae30",
-            "eb02c5e2d4135d47",
-            "f04f801e0bd8ff6a",
-            "9adbbbd6b997667e",
-            "d4216d9506b296f0",
-            "58193979505252cc",
-            "2800358056b8906c",
-            "b2f03b978904c38e",
-            "2c02e2ef212817a8",
-            "5770bf05578643c0",
-            "68435ab01b882ddc",
-            "4c2af6e68e88b459"
-        ],
-        "x": 674,
-        "y": 4179,
-        "w": 1052,
-        "h": 462
     },
     {
         "id": "b41ee12005a32e8e",
@@ -2604,9 +2587,7 @@
             "26b658d4f2db62cf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1792,
-        "h": 602
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2626,9 +2607,7 @@
             "bbd14a02c90c8979"
         ],
         "x": 734,
-        "y": 139,
-        "w": 552,
-        "h": 242
+        "y": 139
     },
     {
         "id": "854b667853465d2b",
@@ -2645,9 +2624,7 @@
             "381f2e27385db5e4"
         ],
         "x": 34,
-        "y": 159,
-        "w": 342,
-        "h": 142
+        "y": 159
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2677,9 +2654,7 @@
             "d3280befce20327a"
         ],
         "x": 734,
-        "y": 399,
-        "w": 642,
-        "h": 422
+        "y": 399
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2698,9 +2673,7 @@
             "75830853385c5165"
         ],
         "x": 34,
-        "y": 319,
-        "w": 472,
-        "h": 82
+        "y": 319
     },
     {
         "id": "9648249e35aead30",
@@ -2719,9 +2692,7 @@
             "b5183e9f40b17918"
         ],
         "x": 34,
-        "y": 419,
-        "w": 502,
-        "h": 82
+        "y": 419
     },
     {
         "id": "a0b84f94a6510eee",
@@ -2750,7 +2721,9 @@
             "eaf4b2085acff39e"
         ],
         "x": 134,
-        "y": 459
+        "y": 459,
+        "w": 1092,
+        "h": 282
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2780,7 +2753,9 @@
             "941b04b909291975"
         ],
         "x": 714,
-        "y": 1319
+        "y": 1319,
+        "w": 1432,
+        "h": 262
     },
     {
         "id": "1f2682bef5794306",
@@ -2804,7 +2779,9 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179
+        "y": 179,
+        "w": 1392,
+        "h": 162
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2845,7 +2822,9 @@
             "bc0cf6ab99f49325"
         ],
         "x": 174,
-        "y": 779
+        "y": 779,
+        "w": 1462,
+        "h": 482
     },
     {
         "id": "224caf14924e867c",
@@ -3203,7 +3182,9 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 1334,
-        "y": 2999
+        "y": 2999,
+        "w": 752,
+        "h": 202
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -3436,9 +3417,7 @@
             "0f89a807e4e5fb98"
         ],
         "x": 1354,
-        "y": 159,
-        "w": 1272,
-        "h": 242
+        "y": 159
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3480,9 +3459,7 @@
             "d381f5089d6b205d"
         ],
         "x": 114,
-        "y": 219,
-        "w": 1182,
-        "h": 382
+        "y": 219
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3521,9 +3498,7 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659,
-        "w": 792,
-        "h": 442
+        "y": 659
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3544,9 +3519,7 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 819,
-        "w": 912,
-        "h": 122
+        "y": 819
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3572,9 +3545,7 @@
             "98fb21d5d974b2bd"
         ],
         "x": 1354,
-        "y": 579,
-        "w": 1042,
-        "h": 222
+        "y": 579
     },
     {
         "id": "357c29994d5a0df9",
@@ -3590,9 +3561,7 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479,
-        "w": 532,
-        "h": 82
+        "y": 479
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -3715,8 +3684,8 @@
             "9efb78b22c0da38d",
             "026014a59dd66541",
             "a5632d70de0ee4a1",
-            "89262bcdaa3c45dd",
-            "447646cc29839d7a"
+            "447646cc29839d7a",
+            "ceaf62643a5502e3"
         ],
         "x": 134,
         "y": 179,
@@ -3771,9 +3740,7 @@
             "4f41825f992c561d"
         ],
         "x": 34,
-        "y": 519,
-        "w": 682,
-        "h": 202
+        "y": 519
     },
     {
         "id": "d929d138.3b512",
@@ -4115,7 +4082,9 @@
             "9708fb7ce60bdd70"
         ],
         "x": 594,
-        "y": 1399
+        "y": 1399,
+        "w": 772,
+        "h": 702
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4132,7 +4101,9 @@
             "aafad2ba.dcc8b"
         ],
         "x": 618,
-        "y": 2533
+        "y": 2533,
+        "w": 1894,
+        "h": 414
     },
     {
         "id": "c483d44b5f6def10",
@@ -4180,7 +4151,9 @@
             "90fdc4810e9cd514"
         ],
         "x": 1454,
-        "y": 1419
+        "y": 1419,
+        "w": 932,
+        "h": 942
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5764,7 +5737,9 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 1234,
-        "y": 2679
+        "y": 2679,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5790,7 +5765,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 644,
-        "y": 2559
+        "y": 2559,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -6656,7 +6633,7 @@
         ],
         "x": 94,
         "y": 2559,
-        "w": 902,
+        "w": 892,
         "h": 182
     },
     {
@@ -6883,6 +6860,47 @@
         "y": 1199,
         "w": 532,
         "h": 222
+    },
+    {
+        "id": "936eab7d97be78af",
+        "type": "group",
+        "z": "7a89175c.90f6a8",
+        "name": "LEER, ESCRIBIR PLC A.D",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f88ee0328a8f5964",
+            "138266be848cd64a",
+            "6afa3775f2be0e4d",
+            "3af54985e9349f2c",
+            "8dc4ac2430aa44fc",
+            "0ad7006f65f3d19b",
+            "7397d1cb1a9a2fa0",
+            "c30c78cc60db84f8",
+            "6b2ab85fc1f64252",
+            "bba3aa277bcf1444",
+            "e0ebb1532663774a",
+            "8be993bf3ba4ae30",
+            "eb02c5e2d4135d47",
+            "f04f801e0bd8ff6a",
+            "9adbbbd6b997667e",
+            "d4216d9506b296f0",
+            "58193979505252cc",
+            "2800358056b8906c",
+            "b2f03b978904c38e",
+            "2c02e2ef212817a8",
+            "68435ab01b882ddc",
+            "fc1f8adf6e76ec16",
+            "6cd0a63c89a7c4c9",
+            "cc8b7898b9cd9268",
+            "2a84764569d97d25",
+            "8f986b7d4964155b"
+        ],
+        "x": 674,
+        "y": 4179,
+        "w": 1052,
+        "h": 462
     },
     {
         "id": "d25d405a.19cff",
@@ -9274,716 +9292,6 @@
         "collapse": false
     },
     {
-        "id": "cbc866903c4f1b04",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cbb32416295db918",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b06440c071e19825",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e83bb375eecf6d1b",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dbd47fca071ee155",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "cf893b29.8b0a68",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "02ec34392cb1cd61",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "cf893b29.8b0a68",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ab7778d2a022b9f8",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "166ddfe930760c1b",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 3,
-        "width": 13,
-        "height": 1
-    },
-    {
-        "id": "89bbe1e6b6085233",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 4,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "4bb007ac60007305",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "2cd4640971705cf2",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "506a3e288cf1b3ce",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d82c881f3e38a6ec",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 11,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "e3e9b2382ca210e3",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 13,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "1f7e6cc1e38d7175",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 15,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "f9ae7d4c2e335c4d",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "acf0dfdaece2c2e3",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "efef3ab93555c1d7",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 19,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "a900c038600569a3",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 20,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "c70fc78b754e6966",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 22,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "69e39e2c6e9dea5f",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 23,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c6f27e89e6dd0812",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "2e0068a3ddf8d98f",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 26,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "2989d485afc5c8d4",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b08fd45f37814723",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "11c139393707950c",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "c6c7b077c878430b",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 4,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "03c46e64e7368248",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "cddde33182b60059",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "873a26bd8f2d1a25",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 10,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "064b3e623c887f87",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "fea895a1e7190501",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d414669d0e5fea29",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 16,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "db10118f22692205",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 18,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "676140286dc80222",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 20,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "4ef684a2d408e0f8",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 22,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "94d39c47bc18d229",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 23,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "b88ac945d531eb08",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "86bddd8e6483e096",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 26,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "164e62b5d4830b74",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bb8ed0addc58ef7e",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "5db1044b152cad70",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 3,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "913a2658858c8b25",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "2dc884827830d53e",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 6,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "d2257350587f962c",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "45ebd01efefd5053",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "2ff53657238e9527",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 12,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "f94446cb39f97741",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 13,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "cdf90abfe9576843",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 14,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "797614cdf2cb808e",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 16,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "2d5b0f7088ff05f0",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 17,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "7d338e87a0e5bf52",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "0082ead2d4bf225d",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 19,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "4e8fc0e8b3050a97",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 20,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "e0e0b318172b2f6e",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 22,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f4277ac87dad8166",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "64535505c8f36673",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "4b25664a0c9ef2e4",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 3,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "6e211ce997e60fa0",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "834afbc180c1503a",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 6,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "bb564bb2d7308a7d",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "86b186b15ef1c55e",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "e3313c12015cd1c1",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 12,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c764a67d71d5ed43",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "6c35559cbff6c9ac",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 16,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d24024a07074ec74",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "2aece9f06632e485",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 19,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "fd027ebe809afc10",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 23,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "b38b3a35c8167163",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "bacf9abdad3f7c6a",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 26,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e211ed2eec8bae4f",
-        "type": "ui_spacer",
-        "z": "a245c1e1476b1e2d",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "d6511364f9eae45f",
         "type": "ui_spacer",
         "z": "b368eb771541cd7f",
@@ -10784,216 +10092,6 @@
         "height": 1
     },
     {
-        "id": "e0cb3d3cd2a03855",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "45e01fea9958a387",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "67f6665cd7cbaa91",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 14,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "c07de83a7abf6d6d",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "81aa8eced286c361",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3cb7b7817ac28a75",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "fe6f0700ed7e148a",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "158494f8f65836c6",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "f4f7a03706e3d29b",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6e00229edbaf8a29",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "6ee568a45104be5d",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "474271dc.04fa9",
-        "order": 11,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "f97d18096daa4981",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "a60702c8d6897ff4",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f8954dfc6804b251",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1a684e60c8cdab0c",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "eb6967db7552ae47",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d2da398fce955ffd",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "b66bb4f7dffbb5a4",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 22,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "c2f3a0cbafc74cf9",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 23,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "b9f2473e6178554f",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ae2d284b6fdf1ab9",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "4f5b8416.cada1c",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "d6cc2976c55eb6e4",
         "type": "ui_spacer",
         "z": "6a1ef6a7aef873a7",
@@ -11061,6 +10159,926 @@
         "group": "d5793763aabf18e4",
         "order": 14,
         "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b74d2d196a34559e",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c5a3e960ab0609c",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0162c40dd304c4b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c29fa189c0811c37",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b2b4ea59c6c90d29",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a239baac90721275",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "39a6d55deca9da2d",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d742972d570e9616",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "138c3fa8d9262be3",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c7b10e2e61e6e67e",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "274576eea5231de9",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "474271dc.04fa9",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "8c8b840a9eb4efaa",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "d8c3b46385f0883d",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "19bc716abb36db1c",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d9de7b7a0210c590",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "934ba759453e52d2",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ae1a9c85b614aae",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d00eda84febf1798",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "892420ba8d346f50",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bb6d9c54aab89e95",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8b7631c300b7e1b9",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "4f5b8416.cada1c",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "084f8687725c0763",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aa7f5c755bc655f2",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1069118d58482f62",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "186e5afb1284302f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "675563f42d4963e7",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0a288b1833a8fb14",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5450a08f30c0e4ea",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "4fa5e5a443361d44",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 3,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "d7274307785ee59f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 4,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "d57fdeeae72d5e2a",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "325ff2459b4ef57e",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b7e9128a1154508b",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "79bdd928656121ff",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 11,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "e2e10be9f279eb9c",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "29dc9a157859c309",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 15,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "c741880159f83214",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "df9228eeeced9bbd",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 18,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "e2e7d1aeb2a52295",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 19,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "29f9efeb14a8b730",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 20,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "9cd5f21c14f28747",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 22,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "587e630722c2308c",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 23,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "457f036d4ed44cf4",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 24,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "583ef8f8087cdc84",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 26,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "21d5900426208105",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "444fe912263ee471",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "21d9ef9eb06490d3",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "c5204b3828ed1b69",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 4,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "6e13da9195579e84",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f61adc949ddbd940",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5368f6541bfe7a59",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 10,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "59dc9605aff42bf7",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cd8373e8bd9cd831",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "19e30de9c0d31aca",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 16,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "737ebc718ee66ed4",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 18,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "9d59cc82cb848b7a",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 20,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "58aebb1da3a9b0f0",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 22,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "15a70c98ae34bcc4",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 23,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "0b204b7c38697199",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 24,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "fad090704bea4c7f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 26,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "7c1091bb161dc0eb",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfdd4e440dc7aee3",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "a24e21a957c10833",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "39a738d521eb526c",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "217e910c10b30985",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 6,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "fe269ad11d175a21",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1743461f5cde48eb",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "97b7054f4438e1fc",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 12,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "aafebf7627eac4d7",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 13,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "80c6927a227f4376",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 14,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "da219314f73336d5",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5be9ea920f7938e1",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 17,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "7c322b0089ec30d4",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 18,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "baba632a00a8437f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 19,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "24d9d098074d9c1a",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 20,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "789cbe3779e2cab2",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "619fcb7f7ae5cc16",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e617efab6526ef58",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "af5925fc7445752d",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "270381c1f77842ef",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6f54324150e7deba",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 6,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "770770100ce984b8",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c77ee9f1bbc66a8f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a21fb22f3ec93448",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 12,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "5198e589c397515c",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d082e6cd1078346c",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c9780f53e529a326",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 18,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "fe527e225921c46f",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 19,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "965c116f4b0e5c84",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 23,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "a1dbfc50d2bb1434",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 24,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "83d96da169b3412b",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 26,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5267bf816d60a9c0",
+        "type": "ui_spacer",
+        "z": "f628d2416976df44",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 28,
+        "width": 2,
         "height": 1
     },
     {
@@ -14061,28 +14079,6 @@
             [
                 "f0a1193a68ccf552"
             ]
-        ]
-    },
-    {
-        "id": "389a8a70.699a96",
-        "type": "ui_template",
-        "z": "902fc438.e5d758",
-        "g": "fcb3da61.429db8",
-        "group": "f7aa27b.6c2ded8",
-        "name": "LOGO",
-        "order": 4,
-        "width": 7,
-        "height": 3,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/Slacol_Sierracol.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <!--<div class=\"container align-self-center\">-->\n    <!--    <div class=\"row justify-content-center\">-->\n    <!--        <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>-->\n    <!--    </div>-->\n    <!--</div>-->\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 750,
-        "y": 800,
-        "wires": [
-            []
         ]
     },
     {
@@ -20172,9 +20168,10 @@
             "39cb4db31856a1a8",
             "40789bf189790af7",
             "603028515e6a66ba",
-            "9efb78b22c0da38d",
             "f6c697ae2b11e298",
-            "8f5d5b7c326c1df2"
+            "8f5d5b7c326c1df2",
+            "2a84764569d97d25",
+            "9efb78b22c0da38d"
         ],
         "x": 335,
         "y": 1380,
@@ -56781,430 +56778,6 @@
         ]
     },
     {
-        "id": "f88ee0328a8f5964",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Lectura Holding Register",
-        "func": "msg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address' : 0,\n    'quantity': 32\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1110,
-        "y": 4240,
-        "wires": [
-            [
-                "c30c78cc60db84f8"
-            ]
-        ]
-    },
-    {
-        "id": "138266be848cd64a",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Salidas Digitales",
-        "func": "var ES = flow.get('ES') || null;\n\n// Arreglo de Canales CUBLOC\n// var Data    = { \n//     32:false, 33:false, 34:false, 35:false, \n//     36:false, 37:false, 38:false, 39:false, \n//     40:false, 41:false, 42:false, 43:false\n// };\nvar Data    = { \n    32:false, 33:false, 34:false, 35:false, \n    36:false, 37:false, 38:false, 39:false\n};\n\n// Obtener llaves del objeto Data\nvar Canal = Object.keys(Data);\n// Declaración del string con \nvar canalmsg;\n\n//Objeto con las funciones del CILA2S\nvar FuncionC2S = {\n    \"CILA2S en marcha\": global.get(\"IO.Functions.DO['CILA2S en marcha']\", 'memoryOnly') || false,\n    \"Falla general\": global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false,\n    \"Disparo breaker módulo ESD\": global.get(\"IO.Functions.DO['Disparo breaker módulo ESD']\", 'memoryOnly') || false,\n    \"Cierre motorizado SDT\": global.get(\"IO.Functions.DO['Cierre motorizado SDT']\", 'memoryOnly') || false,\n    \"Apertura motorizado SDT\": global.get(\"IO.Functions.DO['Apertura motorizado SDT']\", 'memoryOnly') || false,\n    \"Bypass filtro de armónicos\": global.get(\"IO.Functions.DO.HF.Status\", 'memoryOnly') || false,\n    \"Simulación\": false\n}\n\n// Llaves del vector FuncionesC2S\nvar Keys = Object.keys(FuncionC2S);\n\n// Para cada canal de salida\nfor(var i=0; i <Canal.length; i++){\n    canalmsg ='Canal'+ Canal[i];\n    // Si la configuración del canal está declarada\n    if(typeof ES.SD[canalmsg] != 'undefined'){\n        // Para cada llave del vector FuncionesC2S que coincida con la configuración del canal\n        for(var j=0; j<Keys.length; j++){\n            if(ES.SD[canalmsg].Funcion == Keys[j]){\n                // Asignar el valor contenido en el vector de funciones al canal de salida\n                Data[Canal[i]] = ES.SD[canalmsg].Tipo == \"NO\" ? FuncionC2S[Keys[j]]:!FuncionC2S[Keys[j]];\n                //Ternario para escribir datos al PLC, el acepta 1 o 0 no booleano\n                //Es un Holding Register \n                //Data[Canal[i]] == true ? 1 : 0;\n\n            } \n        }\n    }\n    Data[Canal[i]] = Data[Canal[i]] == true ? 1 : 0;\n}\n\n// Asignar variable con los valores a escribir  (Se puede eliminar al asignar directamente).\nvar values = Object.values(Data);\ncontext.set(\"values\", values,'memoryOnly');\ncontext.set(\"Data\", Data, 'memoryOnly');\ncontext.set(\"Functions\", FuncionC2S, 'memoryOnly');\n// Escribir datos en el Cubloc\nmsg.payload = {\n    value: values,\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 8\n}\n\n// Retorno del mensaje\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 4300,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ],
-        "inputLabels": [
-            "Activar función"
-        ],
-        "outputLabels": [
-            "Canal32"
-        ]
-    },
-    {
-        "id": "6afa3775f2be0e4d",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Erroes escritura PLC",
-        "scope": [
-            "138266be848cd64a",
-            "bba3aa277bcf1444"
-        ],
-        "uncaught": false,
-        "x": 790,
-        "y": 4600,
-        "wires": [
-            [
-                "0ad7006f65f3d19b"
-            ]
-        ]
-    },
-    {
-        "id": "3af54985e9349f2c",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Errores lectura PLC",
-        "scope": [
-            "c30c78cc60db84f8"
-        ],
-        "uncaught": false,
-        "x": 790,
-        "y": 4560,
-        "wires": [
-            [
-                "8dc4ac2430aa44fc"
-            ]
-        ]
-    },
-    {
-        "id": "8dc4ac2430aa44fc",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 4560,
-        "wires": []
-    },
-    {
-        "id": "0ad7006f65f3d19b",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 4600,
-        "wires": []
-    },
-    {
-        "id": "7397d1cb1a9a2fa0",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "testSalidaDigital",
-        "func": "msg.payload = {\n    value: [1],\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 1\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1420,
-        "y": 4460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c30c78cc60db84f8",
-        "type": "modbus-flex-getter",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Leer PLC",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "logIOActivities": false,
-        "server": "df1da3d9e58a326e",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1320,
-        "y": 4240,
-        "wires": [
-            [],
-            [
-                "6b2ab85fc1f64252",
-                "9adbbbd6b997667e",
-                "2800358056b8906c"
-            ]
-        ]
-    },
-    {
-        "id": "6b2ab85fc1f64252",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Interpretar Entradas-Salidas PLC",
-        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\")\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1560,
-        "y": 4220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bba3aa277bcf1444",
-        "type": "modbus-flex-write",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Escribir PLC",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "server": "df1da3d9e58a326e",
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1310,
-        "y": 4300,
-        "wires": [
-            [],
-            []
-        ]
-    },
-    {
-        "id": "e0ebb1532663774a",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Leery Escribir PLC",
-        "links": [
-            "1a154fa903ebee99"
-        ],
-        "x": 715,
-        "y": 4260,
-        "wires": [
-            [
-                "eb02c5e2d4135d47"
-            ]
-        ]
-    },
-    {
-        "id": "8be993bf3ba4ae30",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 830,
-        "y": 4300,
-        "wires": [
-            [
-                "138266be848cd64a",
-                "6cd0a63c89a7c4c9"
-            ]
-        ]
-    },
-    {
-        "id": "eb02c5e2d4135d47",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 830,
-        "y": 4240,
-        "wires": [
-            [
-                "f88ee0328a8f5964",
-                "8be993bf3ba4ae30"
-            ]
-        ]
-    },
-    {
-        "id": "f04f801e0bd8ff6a",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "RegistrosEspeciales",
-        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||1;\nctr = ctr + 1;\nif(ctr > 141){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [1, 1,ctr],\n    'fc': 16,\n    'unitid': 1,\n    'address': 26,\n    'quantity': 3\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1440,
-        "y": 4420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9adbbbd6b997667e",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Interpretar Dinagrama",
-        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28];\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n}\n// se setea uno a uno para poder guardar el dinagrama\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1520,
-        "y": 4260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d4216d9506b296f0",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "indiceDinagrama",
-        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 4340,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "58193979505252cc",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "func": "var vector = createArray(160);\ncontext.set(\"vector\",vector,\"memoryOnly\");\nfor (let i = 0; i < vector.length; i++) {\n    vector[i] = 0;\n}\n\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1400,
-        "y": 4500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2800358056b8906c",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\n\nif (Indice < Vpos.length-1){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;\n}\n\n// guardar todo el vector\nif (Indice >= Vpos.length){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
-        "finalize": "",
-        "libs": [],
-        "x": 1510,
-        "y": 4300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b2f03b978904c38e",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "SPM",
-        "func": "var spm = global.get(\"C2S.Last_Reference.ValueSpm\");\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [spm],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1390,
-        "y": 4540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2c02e2ef212817a8",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "RefVSDDinagrama",
-        "func": "var At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nmsg.payload = {\n    value: [At_Setpt_Spd],\n    'fc': 6,\n    'unitid': 1,\n    'address': 29,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:At_Setpt_Spd});\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 4400,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "5770bf05578643c0",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 830,
-        "y": 4380,
-        "wires": [
-            [
-                "2c02e2ef212817a8",
-                "4c2af6e68e88b459"
-            ]
-        ]
-    },
-    {
         "id": "88cf40c086d6d94c",
         "type": "function",
         "z": "7a89175c.90f6a8",
@@ -81483,7 +81056,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "9d4d96338ab627d0",
         "name": "Data",
-        "func": "\n// datos iniciales no borrar\n// var x = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0];\n// var y = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336];\n\nvar x = global.get(\"Dinagrama.fondo.Desp_CD\")||0;\nvar y = global.get(\"Dinagrama.fondo.Esfu_CD\")||0;\ncontext.set(\"x\",x,\"memoryOnly\");\ncontext.set(\"y\",y,\"memoryOnly\");\nif(x != 0 && y != 0){\n    node.status({fill:\"green\",shape:\"dot\",text:\"Data\"});\n    msg.x = x;\n    msg.y = y;\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoTieneData\"});\n}",
+        "func": "\n// datos iniciales no borrar\n// var x = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0];\n// var y = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336];\n\nvar x = global.get(\"Dinagrama.fondo.Desp_CD\")||0;\nvar y = global.get(\"Dinagrama.fondo.Esfu_CD\")||0;\ncontext.set(\"x\",x,\"memoryOnly\");\ncontext.set(\"y\",y,\"memoryOnly\");\nif(x != 0 && y != 0){\n    node.status({ fill: \"green\", shape:\"ring\",text:\"Data\"});\n    msg.x = x;\n    msg.y = y;\n    return msg;\n}else{\n    node.status({ fill: \"red\", shape:\"ring\",text:\"NoTieneData\"});\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -88576,7 +88149,7 @@
         "label": "Pausa (Horas)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 16,
+        "order": 12,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -88624,7 +88197,7 @@
         "label": "Pausa (Segundos)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 12,
+        "order": 16,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -91515,17 +91088,17 @@
         "z": "f628d2416976df44",
         "g": "e8ed88c2e7ce6e23",
         "name": "SensorFisico",
-        "func": "var Posicion = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nmsg.payload = Posicion;\nreturn msg;",
+        "func": "var Posicion = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nnode.status({ fill: \"red\", shape: \"ring\", text:Posicion});\nmsg.payload = Posicion;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
+        "x": 490,
         "y": 520,
         "wires": [
             [
-                "89262bcdaa3c45dd"
+                "ceaf62643a5502e3"
             ]
         ]
     },
@@ -91538,7 +91111,7 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 415,
+        "x": 315,
         "y": 520,
         "wires": [
             [
@@ -91936,34 +91509,6 @@
         ]
     },
     {
-        "id": "89262bcdaa3c45dd",
-        "type": "switch",
-        "z": "f628d2416976df44",
-        "g": "e8ed88c2e7ce6e23",
-        "name": "simulacion",
-        "property": "Control_functions.doubleSpeed.simulacion",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 690,
-        "y": 520,
-        "wires": [
-            [],
-            [
-                "01bf2e6e63b6b177"
-            ]
-        ]
-    },
-    {
         "id": "447646cc29839d7a",
         "type": "subflow:1fbf295f73cccb97",
         "z": "f628d2416976df44",
@@ -92019,6 +91564,7 @@
         "id": "6cd0a63c89a7c4c9",
         "type": "delay",
         "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
         "name": "",
         "pauseType": "delay",
         "timeout": "100",
@@ -92035,8 +91581,7 @@
         "y": 4340,
         "wires": [
             [
-                "d4216d9506b296f0",
-                "5770bf05578643c0"
+                "d4216d9506b296f0"
             ]
         ]
     },
@@ -92503,7 +92048,7 @@
         "op2": "0",
         "op1type": "bool",
         "op2type": "str",
-        "duration": "1",
+        "duration": "5",
         "extend": false,
         "overrideDelay": false,
         "units": "min",
@@ -92568,27 +92113,244 @@
         "wires": []
     },
     {
-        "id": "68435ab01b882ddc",
+        "id": "c12fdc9f3f241ea7",
+        "type": "ui_template",
+        "z": "4c43e2ae2d9aec48",
+        "group": "f7aa27b.6c2ded8",
+        "name": "LOGO",
+        "order": 4,
+        "width": 7,
+        "height": 3,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/Slacol_Sierracol.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <!--<div class=\"container align-self-center\">-->\n    <!--    <div class=\"row justify-content-center\">-->\n    <!--        <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>-->\n    <!--    </div>-->\n    <!--</div>-->\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f88ee0328a8f5964",
         "type": "function",
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
-        "name": "NumeroMuestras",
-        "func": "var Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 1;//llegó a referencia el VSD\nnode.status({fill:\"blue\",shape:\"ring\",text:Nmuestras});\nmsg.payload = {\n    value: [Nmuestras],\n    'fc': 6,\n    'unitid': 1,\n    'address': 30,\n    'quantity': 1\n}\n\n\nreturn msg;",
+        "name": "Lectura Holding Register",
+        "func": "msg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address' : 0,\n    'quantity': 32\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 4240,
+        "wires": [
+            [
+                "c30c78cc60db84f8"
+            ]
+        ]
+    },
+    {
+        "id": "138266be848cd64a",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Salidas Digitales",
+        "func": "var ES = flow.get('ES') || null;\n\n// Arreglo de Canales CUBLOC\n// var Data    = { \n//     32:false, 33:false, 34:false, 35:false, \n//     36:false, 37:false, 38:false, 39:false, \n//     40:false, 41:false, 42:false, 43:false\n// };\nvar Data    = { \n    32:false, 33:false, 34:false, 35:false, \n    36:false, 37:false, 38:false, 39:false\n};\n\n// Obtener llaves del objeto Data\nvar Canal = Object.keys(Data);\n// Declaración del string con \nvar canalmsg;\n\n//Objeto con las funciones del CILA2S\nvar FuncionC2S = {\n    \"CILA2S en marcha\": global.get(\"IO.Functions.DO['CILA2S en marcha']\", 'memoryOnly') || false,\n    \"Falla general\": global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false,\n    \"Disparo breaker módulo ESD\": global.get(\"IO.Functions.DO['Disparo breaker módulo ESD']\", 'memoryOnly') || false,\n    \"Cierre motorizado SDT\": global.get(\"IO.Functions.DO['Cierre motorizado SDT']\", 'memoryOnly') || false,\n    \"Apertura motorizado SDT\": global.get(\"IO.Functions.DO['Apertura motorizado SDT']\", 'memoryOnly') || false,\n    \"Bypass filtro de armónicos\": global.get(\"IO.Functions.DO.HF.Status\", 'memoryOnly') || false,\n    \"Simulación\": false\n}\n\n// Llaves del vector FuncionesC2S\nvar Keys = Object.keys(FuncionC2S);\n\n// Para cada canal de salida\nfor(var i=0; i <Canal.length; i++){\n    canalmsg ='Canal'+ Canal[i];\n    // Si la configuración del canal está declarada\n    if(typeof ES.SD[canalmsg] != 'undefined'){\n        // Para cada llave del vector FuncionesC2S que coincida con la configuración del canal\n        for(var j=0; j<Keys.length; j++){\n            if(ES.SD[canalmsg].Funcion == Keys[j]){\n                // Asignar el valor contenido en el vector de funciones al canal de salida\n                Data[Canal[i]] = ES.SD[canalmsg].Tipo == \"NO\" ? FuncionC2S[Keys[j]]:!FuncionC2S[Keys[j]];\n                //Ternario para escribir datos al PLC, el acepta 1 o 0 no booleano\n                //Es un Holding Register \n                //Data[Canal[i]] == true ? 1 : 0;\n\n            } \n        }\n    }\n    Data[Canal[i]] = Data[Canal[i]] == true ? 1 : 0;\n}\n\n// Asignar variable con los valores a escribir  (Se puede eliminar al asignar directamente).\nvar values = Object.values(Data);\ncontext.set(\"values\", values,'memoryOnly');\ncontext.set(\"Data\", Data, 'memoryOnly');\ncontext.set(\"Functions\", FuncionC2S, 'memoryOnly');\n// Escribir datos en el Cubloc\nmsg.payload = {\n    value: values,\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 8\n}\n\n// Retorno del mensaje\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1090,
-        "y": 4460,
+        "y": 4300,
         "wires": [
             [
                 "bba3aa277bcf1444"
             ]
+        ],
+        "inputLabels": [
+            "Activar función"
+        ],
+        "outputLabels": [
+            "Canal32"
         ]
     },
     {
-        "id": "4c2af6e68e88b459",
+        "id": "6afa3775f2be0e4d",
+        "type": "catch",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Erroes escritura PLC",
+        "scope": [
+            "138266be848cd64a",
+            "bba3aa277bcf1444"
+        ],
+        "uncaught": false,
+        "x": 790,
+        "y": 4600,
+        "wires": [
+            [
+                "0ad7006f65f3d19b"
+            ]
+        ]
+    },
+    {
+        "id": "3af54985e9349f2c",
+        "type": "catch",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Errores lectura PLC",
+        "scope": [
+            "c30c78cc60db84f8"
+        ],
+        "uncaught": false,
+        "x": 790,
+        "y": 4560,
+        "wires": [
+            [
+                "8dc4ac2430aa44fc"
+            ]
+        ]
+    },
+    {
+        "id": "8dc4ac2430aa44fc",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 4560,
+        "wires": []
+    },
+    {
+        "id": "0ad7006f65f3d19b",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 4600,
+        "wires": []
+    },
+    {
+        "id": "7397d1cb1a9a2fa0",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "testSalidaDigital",
+        "func": "msg.payload = {\n    value: [1],\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 1\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 4460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c30c78cc60db84f8",
+        "type": "modbus-flex-getter",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Leer PLC",
+        "showStatusActivities": true,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "df1da3d9e58a326e",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1320,
+        "y": 4240,
+        "wires": [
+            [],
+            [
+                "6b2ab85fc1f64252",
+                "9adbbbd6b997667e",
+                "2800358056b8906c"
+            ]
+        ]
+    },
+    {
+        "id": "6b2ab85fc1f64252",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Interpretar Entradas-Salidas PLC",
+        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\")\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 4220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bba3aa277bcf1444",
+        "type": "modbus-flex-write",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Escribir PLC",
+        "showStatusActivities": true,
+        "showErrors": false,
+        "server": "df1da3d9e58a326e",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1310,
+        "y": 4300,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e0ebb1532663774a",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Leery Escribir PLC",
+        "links": [
+            "1a154fa903ebee99"
+        ],
+        "x": 715,
+        "y": 4260,
+        "wires": [
+            [
+                "eb02c5e2d4135d47"
+            ]
+        ]
+    },
+    {
+        "id": "8be993bf3ba4ae30",
         "type": "delay",
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
@@ -92605,10 +92367,300 @@
         "drop": false,
         "allowrate": false,
         "x": 830,
+        "y": 4300,
+        "wires": [
+            [
+                "138266be848cd64a",
+                "6cd0a63c89a7c4c9"
+            ]
+        ]
+    },
+    {
+        "id": "eb02c5e2d4135d47",
+        "type": "delay",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 830,
+        "y": 4240,
+        "wires": [
+            [
+                "f88ee0328a8f5964",
+                "8be993bf3ba4ae30"
+            ]
+        ]
+    },
+    {
+        "id": "f04f801e0bd8ff6a",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "RegistrosEspeciales",
+        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||1;\nctr = ctr + 1;\nif(ctr > 141){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [1, 1,ctr],\n    'fc': 16,\n    'unitid': 1,\n    'address': 26,\n    'quantity': 3\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
         "y": 4420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9adbbbd6b997667e",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Interpretar Dinagrama",
+        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28];\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n}\n// se setea uno a uno para poder guardar el dinagrama\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 4260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4216d9506b296f0",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "indiceDinagrama",
+        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 4340,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "58193979505252cc",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "func": "var vector = createArray(160);\ncontext.set(\"vector\",vector,\"memoryOnly\");\nfor (let i = 0; i < vector.length; i++) {\n    vector[i] = 0;\n}\n\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 4500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2800358056b8906c",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Adquirir Dinagrama",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\n\nif (Indice < Vpos.length-1){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;\n}\n\n// guardar todo el vector\nif (Indice >= Vpos.length){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 4300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2f03b978904c38e",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "SPM",
+        "func": "var spm = global.get(\"C2S.Last_Reference.ValueSpm\");\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [spm],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 4540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c02e2ef212817a8",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "RefVSDDinagrama",
+        "func": "var At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar flagRetentiva = context.get(\"flagRetentiva\", \"memoryOnly\")||0;\n\nif(At_Setpt_Spd == 1 && Active == 1){\n    // ya llegó a referencia\n    flagRetentiva = 1;\n} else if (Active == 0){\n    // VSD apagado\n    flagRetentiva = 0;\n}\n// flagRetentiva = 1;\n\n\nmsg.payload = {\n    value: [flagRetentiva],\n    'fc': 6,\n    'unitid': 1,\n    'address': 29,\n    'quantity': 1\n}\nnode.status({ fill: \"blue\", shape: \"dot\", text: flagRetentiva});\ncontext.set(\"At_Setpt_Spd\",At_Setpt_Spd,\"memoryOnly\");\ncontext.set(\"Active\", Active,\"memoryOnly\");\ncontext.set(\"flagRetentiva\", flagRetentiva,\"memoryOnly\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 4400,
+        "wires": [
+            [
+                "cc8b7898b9cd9268"
+            ]
+        ]
+    },
+    {
+        "id": "68435ab01b882ddc",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "NumeroMuestras",
+        "func": "var Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 1;//llegó a referencia el VSD\nnode.status({fill:\"blue\",shape:\"ring\",text:Nmuestras});\nmsg.payload = {\n    value: [Nmuestras],\n    'fc': 6,\n    'unitid': 1,\n    'address': 30,\n    'quantity': 1\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 4460,
+        "wires": [
+            [
+                "fc1f8adf6e76ec16"
+            ]
+        ]
+    },
+    {
+        "id": "fc1f8adf6e76ec16",
+        "type": "rbe",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1130,
+        "y": 4460,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "cc8b7898b9cd9268",
+        "type": "rbe",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1130,
+        "y": 4400,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "2a84764569d97d25",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "links": [
+            "58d10b0ab4c186c5"
+        ],
+        "x": 735,
+        "y": 4400,
+        "wires": [
+            [
+                "2c02e2ef212817a8",
+                "8f986b7d4964155b"
+            ]
+        ]
+    },
+    {
+        "id": "8f986b7d4964155b",
+        "type": "delay",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 790,
+        "y": 4460,
         "wires": [
             [
                 "68435ab01b882ddc"
+            ]
+        ]
+    },
+    {
+        "id": "ceaf62643a5502e3",
+        "type": "switch",
+        "z": "f628d2416976df44",
+        "g": "e8ed88c2e7ce6e23",
+        "name": "simulacion",
+        "property": "Control_functions.doubleSpeed.simulacion",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 520,
+        "wires": [
+            [],
+            [
+                "01bf2e6e63b6b177"
             ]
         ]
     }
