@@ -2575,11 +2575,12 @@
             "4cfb67175dfadb1e",
             "26b658d4f2db62cf",
             "19f535ea5a685c61",
-            "a270e98d59cdcd5f"
+            "a270e98d59cdcd5f",
+            "d7c819e75ef25656"
         ],
         "x": 34,
         "y": 19,
-        "w": 1792,
+        "w": 1852,
         "h": 928
     },
     {
@@ -2715,9 +2716,7 @@
             "eaf4b2085acff39e"
         ],
         "x": 134,
-        "y": 459,
-        "w": 1092,
-        "h": 282
+        "y": 459
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2747,9 +2746,7 @@
             "941b04b909291975"
         ],
         "x": 714,
-        "y": 1319,
-        "w": 1432,
-        "h": 262
+        "y": 1319
     },
     {
         "id": "1f2682bef5794306",
@@ -2773,9 +2770,7 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179,
-        "w": 1392,
-        "h": 162
+        "y": 179
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2816,9 +2811,7 @@
             "bc0cf6ab99f49325"
         ],
         "x": 174,
-        "y": 779,
-        "w": 1462,
-        "h": 482
+        "y": 779
     },
     {
         "id": "224caf14924e867c",
@@ -3232,7 +3225,9 @@
             "7a1d4c156061f21e"
         ],
         "x": 14,
-        "y": 419
+        "y": 419,
+        "w": 1692,
+        "h": 262
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -3267,7 +3262,9 @@
             "d23b300d6101147c"
         ],
         "x": 14,
-        "y": 79
+        "y": 79,
+        "w": 1072,
+        "h": 322
     },
     {
         "id": "805fec7111f91b80",
@@ -3323,7 +3320,9 @@
             "c23186c0a7bb6b64"
         ],
         "x": 1714,
-        "y": 19
+        "y": 19,
+        "w": 1252,
+        "h": 522
     },
     {
         "id": "908c9775529ae148",
@@ -3381,7 +3380,9 @@
             "f0480dbcd6abb784"
         ],
         "x": 14,
-        "y": 719
+        "y": 719,
+        "w": 1382,
+        "h": 442
     },
     {
         "id": "31895b3f7962d5a7",
@@ -3761,12 +3762,13 @@
             "edc238b409b734de",
             "684cadf7491b3916",
             "441a1b389e53d303",
-            "4a54464134473561"
+            "4a54464134473561",
+            "d1958023d00132fd"
         ],
         "x": 694,
         "y": 4239,
         "w": 1052,
-        "h": 542
+        "h": 562
     },
     {
         "id": "d929d138.3b512",
@@ -80159,7 +80161,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket.png\" style=\"width:90%;height = 100%\" ><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 30px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1500,
+        "x": 1560,
         "y": 160,
         "wires": [
             [
@@ -80179,7 +80181,7 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket1.png\" style=\"width:90%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
-        "x": 1480,
+        "x": 1540,
         "y": 200,
         "wires": [
             [
@@ -80202,7 +80204,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 1710,
+        "x": 1770,
         "y": 200,
         "wires": [
             []
@@ -80220,8 +80222,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1470,
-        "y": 240,
+        "x": 1530,
+        "y": 340,
         "wires": [
             [
                 "6e17766beb28a8c1"
@@ -91776,7 +91778,12 @@
             },
             {
                 "t": "cont",
-                "v": "Mark II",
+                "v": "Mark",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "Air",
                 "vt": "str"
             },
             {
@@ -91785,7 +91792,7 @@
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 4,
         "x": 1280,
         "y": 200,
         "wires": [
@@ -91794,6 +91801,9 @@
             ],
             [
                 "91e6df30159f39f8"
+            ],
+            [
+                "d7c819e75ef25656"
             ],
             [
                 "a2a2df81154e9740"
@@ -91820,12 +91830,17 @@
                 "vt": "str"
             },
             {
+                "t": "cont",
+                "v": "Air",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 3,
+        "outputs": 4,
         "x": 1270,
         "y": 340,
         "wires": [
@@ -91834,6 +91849,9 @@
             ],
             [
                 "91e6df30159f39f8"
+            ],
+            [
+                "d7c819e75ef25656"
             ],
             [
                 "a2a2df81154e9740"
@@ -92306,7 +92324,8 @@
         "y": 4380,
         "wires": [
             [
-                "eb02c5e2d4135d47"
+                "eb02c5e2d4135d47",
+                "d1958023d00132fd"
             ]
         ]
     },
@@ -93232,6 +93251,44 @@
             [
                 "441a1b389e53d303"
             ]
+        ]
+    },
+    {
+        "id": "d7c819e75ef25656",
+        "type": "template",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "Air",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket1.png\" style=\"width:90%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "output": "str",
+        "x": 1530,
+        "y": 240,
+        "wires": [
+            [
+                "6e17766beb28a8c1"
+            ]
+        ]
+    },
+    {
+        "id": "d1958023d00132fd",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Cálculo Maximo y minimo Dinagrama",
+        "func": "var Desp = global.get(\"IO.Dinagrama.VDesplazamiento\");\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;\nvar Max_Desp = context.get(\"Max_Desp\", Max_Desp, \"memoryOnly\")||0;\nvar Min_Desp = context.get(\"Min_Desp\", Min_Desp, \"memoryOnly\") || 0;\nvar contador = context.get(\"contador\")||0;\nif (contador <= Nmuestras){\n    contador = contador + 1;\n    for (var i = 0; i < Nmuestras.length; i++) {\n        if (Desp[Nmuestras + i] > Max_Desp) {\n            Max_Desp = Desp[Nmuestras + i];\n        }\n        if (Desp[Nmuestras + i] < Min_Desp) {\n            Min_Desp = Desp[Nmuestras + i];\n        }\n    }\n\n}else{\n    contador = 0;\n}\n\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"contador\", contador, \"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 4760,
+        "wires": [
+            []
         ]
     }
 ]
