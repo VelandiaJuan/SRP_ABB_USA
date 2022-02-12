@@ -3759,12 +3759,14 @@
             "2a84764569d97d25",
             "8045d26ad92da744",
             "edc238b409b734de",
-            "684cadf7491b3916"
+            "684cadf7491b3916",
+            "441a1b389e53d303",
+            "4a54464134473561"
         ],
         "x": 694,
-        "y": 4259,
+        "y": 4239,
         "w": 1052,
-        "h": 522
+        "h": 542
     },
     {
         "id": "d929d138.3b512",
@@ -13613,7 +13615,8 @@
             "e65ba7a271b6d8d4",
             "f20a035b11a47cce",
             "fe1a9bde13dab923",
-            "684cadf7491b3916"
+            "684cadf7491b3916",
+            "4a54464134473561"
         ],
         "x": 345,
         "y": 1340,
@@ -92382,7 +92385,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Interpretar Dinagrama",
-        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28];\n\nvar VSDActivo = msg.payload.data[29];\nvar Pausa = msg.payload.data[32];\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"Pausa\": Pausa\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28];\n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -92400,13 +92403,13 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "indiceDinagrama",
-        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\nctr = ctr + 1;\nif (ctr > NmuestrasTotales){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nif (Pausa == 1){\n    ctr = ctr + 1;\n    if(ctr >= NmuestrasTotales){\n        ctr = 0\n    }\n}else{\n    ctr = 0;\n}\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
+        "x": 1110,
         "y": 4460,
         "wires": [
             [
@@ -92480,7 +92483,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
+        "x": 1110,
         "y": 4520,
         "wires": [
             [
@@ -92500,7 +92503,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
+        "x": 1110,
         "y": 4580,
         "wires": [
             [
@@ -92517,8 +92520,8 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 755,
-        "y": 4520,
+        "x": 915,
+        "y": 4580,
         "wires": [
             [
                 "2c02e2ef212817a8",
@@ -93001,7 +93004,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
+        "x": 1110,
         "y": 4640,
         "wires": [
             [
@@ -93024,7 +93027,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1510,
-        "y": 4300,
+        "y": 4280,
         "wires": []
     },
     {
@@ -93186,11 +93189,48 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 755,
+        "x": 915,
         "y": 4460,
         "wires": [
             [
                 "d4216d9506b296f0"
+            ]
+        ]
+    },
+    {
+        "id": "441a1b389e53d303",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "TiempoDeEspera",
+        "func": "var NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar tiempoSwcith = 0.5;// tiempo de swicth s\nvar tiempoEspera = (NmuestrasTotales*tiempoSwcith)  + 60;//margen de 50 s de más \nmsg.payload = {\n    value: [tiempoEspera],//Valor en segundos\n    'fc': 6,\n    'unitid': 1,\n    'address': 33,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({fill:\"blue\",shape:\"dot\",text:\"TiempoEspera: \"+msg.payload.value});//valor de la bandera\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 4700,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "4a54464134473561",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Tiempo De espera",
+        "links": [
+            "ecf98f3f.4a704"
+        ],
+        "x": 915,
+        "y": 4700,
+        "wires": [
+            [
+                "441a1b389e53d303"
             ]
         ]
     }
