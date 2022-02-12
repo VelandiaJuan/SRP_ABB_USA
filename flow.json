@@ -2583,7 +2583,9 @@
             "261283cbf3bffa21"
         ],
         "x": 734,
-        "y": 139
+        "y": 139,
+        "w": 692,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2600,7 +2602,9 @@
             "381f2e27385db5e4"
         ],
         "x": 34,
-        "y": 159
+        "y": 159,
+        "w": 342,
+        "h": 142
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2627,10 +2631,14 @@
             "b8210abad06fb15e",
             "d0f5dfd40edd6ea0",
             "6e6cb98013f380e8",
-            "d3280befce20327a"
+            "d3280befce20327a",
+            "886c668bbf81db17",
+            "43af3f26d5e4cf7d"
         ],
         "x": 734,
-        "y": 399
+        "y": 399,
+        "w": 642,
+        "h": 502
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2649,7 +2657,9 @@
             "75830853385c5165"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 472,
+        "h": 82
     },
     {
         "id": "9648249e35aead30",
@@ -2668,7 +2678,9 @@
             "b5183e9f40b17918"
         ],
         "x": 34,
-        "y": 419
+        "y": 419,
+        "w": 502,
+        "h": 82
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3123,7 +3135,9 @@
             "058ce33da02f5145"
         ],
         "x": 74,
-        "y": 199
+        "y": 199,
+        "w": 1452,
+        "h": 262
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3706,7 +3720,9 @@
             "4f41825f992c561d"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 682,
+        "h": 202
     },
     {
         "id": "936eab7d97be78af",
@@ -81108,10 +81124,10 @@
         "finalize": "",
         "libs": [],
         "x": 1140,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
-                "d0f5dfd40edd6ea0"
+                "886c668bbf81db17"
             ]
         ]
     },
@@ -81138,14 +81154,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "a063560e4a0a3bf1",
         "name": "VariablesParaSensorLess",
-        "func": "var numSarta = flow.get(\"numSarta\");\nvar parDinagram = flow.get(\"parDinagram\");\n\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\n\nglobal.set(\"SensorLess.numSarta\", numSarta);\nglobal.set(\"SensorLess.parDinagram\", parDinagram);\n\n// node.status({fill:\"red\",shape:\"ring\",text:\"Enviado\"});\n\nreturn msg;",
+        "func": "var numSarta = flow.get(\"numSarta\");\nvar parDinagram = flow.get(\"parDinagram\");\n\n// vectores ordenados\nvar CDF_DespOrd = global.get(\"Dinagrama.fondo.CDF_DespOrd\")||0;\nvar CDF_EsfuOrd = global.get(\"Dinagrama.fondo.CDF_EsfuOrd\")||0;\n\n\ncontext.set(\"numSarta\", numSarta, \"memoryOnly\");\ncontext.set(\"parDinagram\", parDinagram, \"memoryOnly\");\n\nglobal.set(\"SensorLess.numSarta\", numSarta);\nglobal.set(\"SensorLess.parDinagram\", parDinagram);\nglobal.set(\"SensorLess.CDF_DespOrd\", CDF_DespOrd);\nglobal.set(\"SensorLess.CDF_EsfuOrd\", CDF_EsfuOrd);\n\n// node.status({fill:\"red\",shape:\"ring\",text:\"Enviado\"});\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1170,
-        "y": 780,
+        "y": 860,
         "wires": [
             [
                 "d3280befce20327a"
@@ -82249,7 +82265,7 @@
         "z": "8eb4ba50387e3a77",
         "g": "5a1f89b7befe9f23",
         "name": "max y min del dinagrama",
-        "func": "var CDF_EsfuOrd = global.get(\"Dinagrama.fondo.Esfu_CD\")||[];\nvar CDF_DespOrd = global.get(\"Dinagrama.fondo.Desp_CD\")||[];\nvar No_Samples = CDF_EsfuOrd.length;\nvar Max_Carga_b, Min_Carga_b, Max_Stroke_b, Min_Stroke_b, Prom_Esfuerzo = 0, TOS_b = 0;\n\n\n// maximos y minimos del dinagrama de fondo ordenado\nfor (let c1 = 0; c1 < No_Samples - 1; c1++) {\n    if(c1 == 0){\n        Max_Carga_b = CDF_EsfuOrd[c1];//inicializando las variables\n        Min_Carga_b = CDF_EsfuOrd[c1];\n\n        Max_Stroke_b = CDF_DespOrd[c1];\n        Min_Stroke_b = CDF_DespOrd[c1];\n    }else if (c1  > 0 ){\n        // calculo del esfuerzo promedio\n        Prom_Esfuerzo = Prom_Esfuerzo + CDF_EsfuOrd[c1];\n        // encontrar los maximos y mínimos\n        if ( CDF_EsfuOrd[c1] > Max_Carga_b){\n            Max_Carga_b = CDF_EsfuOrd[c1];\n        }\n        if (CDF_EsfuOrd[c1] < Min_Carga_b){\n            Min_Carga_b = CDF_EsfuOrd[c1];\n        }\n        if (CDF_DespOrd[c1] > Max_Stroke_b){\n            Max_Stroke_b = CDF_DespOrd[c1];\n            TOS_b = c1;\n\n        }\n        if (CDF_DespOrd[c1] < Min_Stroke_b){\n            Min_Stroke_b = CDF_DespOrd[c1];\n        }\n    }\n    node.status({fill:\"red\",shape:\"dot\",text:c1});\n}\nProm_Esfuerzo = Prom_Esfuerzo / No_Samples;\n// variables de contexto\ncontext.set(\"CDF_EsfuOrd\", CDF_EsfuOrd,\"memoryOnly\");\ncontext.set(\"CDF_DespOrd\", CDF_DespOrd,\"memoryOnly\");\ncontext.set(\"No_Samples\", No_Samples,\"memoryOnly\");\n// variables globales\nglobal.set(\"SensorLess.CDF_EsfuOrd\", CDF_EsfuOrd);\nglobal.set(\"SensorLess.CDF_DespOrd\", CDF_DespOrd);\nglobal.set(\"SensorLess.Max_Carga_b\", Max_Carga_b);\nglobal.set(\"SensorLess.Min_Carga_b\", Min_Carga_b);\nglobal.set(\"SensorLess.Max_Stroke_b\", Max_Stroke_b);\nglobal.set(\"SensorLess.Min_Stroke_b\", Min_Stroke_b);\nglobal.set(\"SensorLess.No_Samples\", No_Samples);\nglobal.set(\"SensorLess.Prom_Esfuerzo\", Prom_Esfuerzo);\nglobal.set(\"SensorLess.TOS_b\", TOS_b);\n\n\nreturn msg;",
+        "func": "var CDF_EsfuOrd = global.get(\"SensorLess.CDF_EsfuOrd\")||[];\nvar CDF_DespOrd = global.get(\"SensorLess.CDF_DespOrd\")||[];\nvar No_Samples = CDF_EsfuOrd.length;\nvar Max_Carga_b, Min_Carga_b, Max_Stroke_b, Min_Stroke_b, Prom_Esfuerzo = 0, TOS_b = 0;\n\n\n// maximos y minimos del dinagrama de fondo ordenado\nfor (let c1 = 0; c1 < No_Samples - 1; c1++) {\n    if(c1 == 0){\n        Max_Carga_b = CDF_EsfuOrd[c1];//inicializando las variables\n        Min_Carga_b = CDF_EsfuOrd[c1];\n\n        Max_Stroke_b = CDF_DespOrd[c1];\n        Min_Stroke_b = CDF_DespOrd[c1];\n    }else if (c1  > 0 ){\n        // calculo del esfuerzo promedio\n        Prom_Esfuerzo = Prom_Esfuerzo + CDF_EsfuOrd[c1];\n        // encontrar los maximos y mínimos\n        if ( CDF_EsfuOrd[c1] > Max_Carga_b){\n            Max_Carga_b = CDF_EsfuOrd[c1];\n        }\n        if (CDF_EsfuOrd[c1] < Min_Carga_b){\n            Min_Carga_b = CDF_EsfuOrd[c1];\n        }\n        if (CDF_DespOrd[c1] > Max_Stroke_b){\n            Max_Stroke_b = CDF_DespOrd[c1];\n            TOS_b = c1;\n\n        }\n        if (CDF_DespOrd[c1] < Min_Stroke_b){\n            Min_Stroke_b = CDF_DespOrd[c1];\n        }\n    }\n    node.status({fill:\"red\",shape:\"dot\",text:c1});\n}\nProm_Esfuerzo = Prom_Esfuerzo / No_Samples;\n// variables de contexto\ncontext.set(\"CDF_EsfuOrd\", CDF_EsfuOrd,\"memoryOnly\");\ncontext.set(\"CDF_DespOrd\", CDF_DespOrd,\"memoryOnly\");\ncontext.set(\"No_Samples\", No_Samples,\"memoryOnly\");\n// variables globales\nglobal.set(\"SensorLess.Max_Carga_b\", Max_Carga_b);\nglobal.set(\"SensorLess.Min_Carga_b\", Min_Carga_b);\nglobal.set(\"SensorLess.Max_Stroke_b\", Max_Stroke_b);\nglobal.set(\"SensorLess.Min_Stroke_b\", Min_Stroke_b);\nglobal.set(\"SensorLess.No_Samples\", No_Samples);\nglobal.set(\"SensorLess.Prom_Esfuerzo\", Prom_Esfuerzo);\nglobal.set(\"SensorLess.TOS_b\", TOS_b);\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -91922,7 +91938,7 @@
             "75830853385c5165"
         ],
         "x": 1335,
-        "y": 780,
+        "y": 860,
         "wires": []
     },
     {
@@ -93266,6 +93282,56 @@
         "wires": [
             [
                 "6e17766beb28a8c1"
+            ]
+        ]
+    },
+    {
+        "id": "886c668bbf81db17",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a063560e4a0a3bf1",
+        "name": "OrdenamientoVectores",
+        "func": "var Desp_CD = global.get(\"Dinagrama.fondo.Desp_CD\")||[];\nvar Esfu_CD = global.get(\"Dinagrama.fondo.Esfu_CD\")||[];\nvar Min_Desp1F= Desp_CD[0];//inicializar la variable\nvar CDF_PosMinima = 0;//inicializar variable\nvar CDF_DespOrd = [];\nvar CDF_EsfuOrd = [];\nvar CDF_Referencia = 0;//inicializar variable\n\nfor (let i = 0; i < Desp_CD.length; i++) {//obtener la posición mínima\n    if(Desp_CD[i] < Min_Desp1F){\n        Min_Desp1F = Desp_CD[i];\n        CDF_PosMinima = i;\n    }\n}\n\n// Reordenamiento de vectores\nfor (let k = CDF_PosMinima; k < Desp_CD.length; k++) {\n    CDF_DespOrd[k - CDF_PosMinima]  = Desp_CD[k];\n    CDF_EsfuOrd[k - CDF_PosMinima]  = Esfu_CD[k];\n    CDF_Referencia = k - CDF_PosMinima;    \n}\nfor (let k = 0; k < CDF_PosMinima; k++) {\n    CDF_DespOrd[k + CDF_Referencia] = Desp_CD[k];\n    CDF_EsfuOrd[k + CDF_Referencia] = Esfu_CD[k];\n}\nnode.status({fill:\"green\",shape:\"ring\",text:\"ok\"});\n\n\n\ncontext.set(\"Desp_CD\", Desp_CD,\"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD,\"memoryOnly\");\ncontext.set(\"CDF_PosMinima\", CDF_PosMinima,\"memoryOnly\");\ncontext.set(\"CDF_DespOrd\", CDF_DespOrd,\"memoryOnly\");\ncontext.set(\"CDF_EsfuOrd\", CDF_EsfuOrd,\"memoryOnly\");\nglobal.set(\"Dinagrama.fondo.CDF_DespOrd\", CDF_DespOrd);\nglobal.set(\"Dinagrama.fondo.CDF_EsfuOrd\", CDF_EsfuOrd);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 800,
+        "wires": [
+            [
+                "d0f5dfd40edd6ea0"
+            ]
+        ]
+    },
+    {
+        "id": "43af3f26d5e4cf7d",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a063560e4a0a3bf1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 500,
+        "wires": [
+            [
+                "1c4e8fcfe6a3e2e8"
             ]
         ]
     }
