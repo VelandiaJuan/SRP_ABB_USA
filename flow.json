@@ -6896,6 +6896,38 @@
         "y": 1199
     },
     {
+        "id": "c36ec626abdfe551",
+        "type": "group",
+        "z": "6278f7e7f20ddc7d",
+        "name": "Adquisión de Datos SensorLess",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bf1696b7abc34610",
+            "723a0bb4c9c6e076",
+            "7ddd4d58e9bcf1df",
+            "06e545bce5ec32ab",
+            "0e59f4c3432debe3",
+            "f6d9506b23acfb23",
+            "cd472038dd4110b8",
+            "84a9949c1bce2259",
+            "81c4e2501e994cf3",
+            "40d4dff5bf70640b",
+            "88c0017f739b0139",
+            "01c46786ad417074",
+            "dec20aef039401f4",
+            "6603e767c1c8c6e8",
+            "b0a0e07950359e9a",
+            "b0399012734b7e34",
+            "dc52ade9672319fe"
+        ],
+        "x": 214,
+        "y": 479,
+        "w": 532,
+        "h": 402
+    },
+    {
         "id": "d25d405a.19cff",
         "type": "ui_base",
         "theme": {
@@ -10755,7 +10787,7 @@
         "height": 1
     },
     {
-        "id": "65fd81a78c191b3c",
+        "id": "2e349223ec952933",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10765,7 +10797,7 @@
         "height": 1
     },
     {
-        "id": "bad8531a5ac5f9d9",
+        "id": "5940234d9e18926b",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10775,7 +10807,7 @@
         "height": 1
     },
     {
-        "id": "ebb608836b4edba2",
+        "id": "c2b4fd9ead97b593",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10785,87 +10817,17 @@
         "height": 1
     },
     {
-        "id": "c528a6c00bc210c4",
+        "id": "71bb77e405fde3c0",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "bdb839607367176a",
-        "order": 4,
+        "order": 26,
         "width": 4,
         "height": 1
     },
     {
-        "id": "221e4732531528b5",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 8,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "80215f98e02054b8",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 12,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "38061048700b21ba",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 16,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "9ae8d5887c27ecaf",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 20,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "01ac09c630b22b27",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 24,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "239e21d263987ef1",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 25,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c16237036b05aa1d",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 27,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "66283b9888139d1a",
+        "id": "f7f7c902a20adb2b",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10875,47 +10837,57 @@
         "height": 1
     },
     {
-        "id": "4f3519c0e6d4d76c",
+        "id": "2bca8d6e5544ae50",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "bdb839607367176a",
         "order": 30,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "b20f9e3ae14593ac",
-        "type": "ui_spacer",
-        "z": "6278f7e7f20ddc7d",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 31,
         "width": 4,
         "height": 1
     },
     {
-        "id": "8729ea7d9a0d3b84",
+        "id": "1f5c4eec18c7df25",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "bdb839607367176a",
-        "order": 33,
-        "width": 8,
+        "order": 32,
+        "width": 4,
         "height": 1
     },
     {
-        "id": "db43b7e4d96ef40a",
+        "id": "52a43e37c86c644d",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "bdb839607367176a",
-        "order": 35,
+        "order": 34,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f07c31c1aee88f21",
+        "type": "ui_spacer",
+        "z": "6278f7e7f20ddc7d",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 36,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bf7375a2c4bae898",
+        "type": "ui_spacer",
+        "z": "6278f7e7f20ddc7d",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 38,
         "width": 12,
         "height": 1
     },
     {
-        "id": "dc38a6c52a9615a9",
+        "id": "99feb7b40fae8bbe",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10925,7 +10897,7 @@
         "height": 1
     },
     {
-        "id": "213d7116222687f5",
+        "id": "9873724f8a60ba60",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10935,7 +10907,7 @@
         "height": 1
     },
     {
-        "id": "0939cff3c2e6f914",
+        "id": "13a0fa75c3717ed2",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10945,7 +10917,7 @@
         "height": 1
     },
     {
-        "id": "9085bb4ae51cdbe0",
+        "id": "bdb5accb8e38e388",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10955,7 +10927,7 @@
         "height": 1
     },
     {
-        "id": "833fb45194e71d07",
+        "id": "1b3dac756a24519f",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10965,7 +10937,7 @@
         "height": 1
     },
     {
-        "id": "567f4e60a735392f",
+        "id": "09031a848d8a0c1b",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10975,7 +10947,7 @@
         "height": 1
     },
     {
-        "id": "00e526a5550f3f2f",
+        "id": "d5dae710d0c4d5a9",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10985,7 +10957,7 @@
         "height": 1
     },
     {
-        "id": "669fb98cc87445bd",
+        "id": "59bfff5aab4f69b0",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -10995,7 +10967,7 @@
         "height": 1
     },
     {
-        "id": "7e7433978799e738",
+        "id": "b8c8a784a648d2f6",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
@@ -11005,23 +10977,23 @@
         "height": 1
     },
     {
-        "id": "9e906b665afecf1e",
+        "id": "556598abead22a64",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "e5360c10debc8116",
         "order": 26,
-        "width": 16,
+        "width": 3,
         "height": 1
     },
     {
-        "id": "6982729f31fa6409",
+        "id": "f95b77c48ee5e0ae",
         "type": "ui_spacer",
         "z": "6278f7e7f20ddc7d",
         "name": "spacer",
         "group": "e5360c10debc8116",
         "order": 28,
-        "width": 7,
+        "width": 4,
         "height": 1
     },
     {
@@ -78019,7 +77991,7 @@
         "label": "Diametro del Casing [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 5,
+        "order": 6,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78043,7 +78015,7 @@
         "label": "Diametro del tubing[in]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 9,
+        "order": 10,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78067,7 +78039,7 @@
         "label": "Profundidad varilla[ft]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 13,
+        "order": 14,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78091,7 +78063,7 @@
         "label": "Presión del Casing [psi]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 17,
+        "order": 18,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78115,7 +78087,7 @@
         "label": "Presión de Tubing [psi]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 21,
+        "order": 22,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78136,7 +78108,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "group": "bdb839607367176a",
-        "order": 1,
+        "order": 2,
         "width": 4,
         "height": 1,
         "name": "Datos de Instalación",
@@ -78156,7 +78128,7 @@
         "label": "Producción [bpd]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 6,
+        "order": 7,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78180,7 +78152,7 @@
         "label": "Diametro de bomba [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 10,
+        "order": 11,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78204,7 +78176,7 @@
         "label": "Longitud de émbolo [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 14,
+        "order": 15,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78228,7 +78200,7 @@
         "label": "API [°]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 32,
+        "order": 35,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78252,7 +78224,7 @@
         "label": "Gravedad específica [gr/cm3]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 18,
+        "order": 19,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78276,7 +78248,7 @@
         "label": "Longitud de Stroke [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 26,
+        "order": 27,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78300,7 +78272,7 @@
         "label": "Constante de Amortiguamiento [1/s]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 29,
+        "order": 31,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78324,7 +78296,7 @@
         "label": "Nivel de fluido dinámico [ft]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 22,
+        "order": 23,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78345,7 +78317,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "group": "bdb839607367176a",
-        "order": 2,
+        "order": 3,
         "width": 4,
         "height": 1,
         "name": "Datos de Producción",
@@ -78362,7 +78334,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "93b8284ca58599b2",
         "group": "bdb839607367176a",
-        "order": 3,
+        "order": 4,
         "width": 4,
         "height": 1,
         "name": "Datos de la Unidad de Bombeo",
@@ -78382,7 +78354,7 @@
         "label": "Máxima inclinación",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 7,
+        "order": 8,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78406,7 +78378,7 @@
         "label": "Desplazamiento 0°",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 11,
+        "order": 12,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78430,7 +78402,7 @@
         "label": "Min Inclinación",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 15,
+        "order": 16,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78454,7 +78426,7 @@
         "label": "Max torque [Kin-Lb]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 19,
+        "order": 20,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78478,7 +78450,7 @@
         "label": "Balance de estructura[lbs]",
         "tooltip": "",
         "group": "bdb839607367176a",
-        "order": 23,
+        "order": 24,
         "width": 4,
         "height": 1,
         "passthru": true,
@@ -78500,7 +78472,7 @@
         "g": "a29dc858ae62d58f",
         "name": "Guardar",
         "group": "bdb839607367176a",
-        "order": 34,
+        "order": 37,
         "width": 4,
         "height": 1,
         "passthru": false,
@@ -93341,6 +93313,470 @@
             [
                 "1c4e8fcfe6a3e2e8"
             ]
+        ]
+    },
+    {
+        "id": "bf1696b7abc34610",
+        "type": "ui_text",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "group": "bdb839607367176a",
+        "order": 1,
+        "width": 4,
+        "height": 1,
+        "name": "Datos SensorLess",
+        "label": "",
+        "format": "<font size=4px>Datos SensorLess",
+        "layout": "row-left",
+        "className": "",
+        "x": 330,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "723a0bb4c9c6e076",
+        "type": "ui_dropdown",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Método Llenado",
+        "group": "bdb839607367176a",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Llenado Cargas",
+                "value": "0",
+                "type": "str"
+            },
+            {
+                "label": "Llenado Posición",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Llenado Áreas",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Llenado Ordenamiento",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 560,
+        "wires": [
+            [
+                "dc52ade9672319fe"
+            ]
+        ]
+    },
+    {
+        "id": "7ddd4d58e9bcf1df",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Diametro Pistón",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 320,
+        "y": 600,
+        "wires": [
+            [
+                "40d4dff5bf70640b"
+            ]
+        ]
+    },
+    {
+        "id": "06e545bce5ec32ab",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Caudal Medido",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 13,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 320,
+        "y": 640,
+        "wires": [
+            [
+                "88c0017f739b0139"
+            ]
+        ]
+    },
+    {
+        "id": "0e59f4c3432debe3",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Prod Crudo",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 17,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 310,
+        "y": 680,
+        "wires": [
+            [
+                "01c46786ad417074"
+            ]
+        ]
+    },
+    {
+        "id": "f6d9506b23acfb23",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Prod Agua",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 21,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 310,
+        "y": 720,
+        "wires": [
+            [
+                "dec20aef039401f4"
+            ]
+        ]
+    },
+    {
+        "id": "cd472038dd4110b8",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "PB",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 25,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 760,
+        "wires": [
+            [
+                "6603e767c1c8c6e8"
+            ]
+        ]
+    },
+    {
+        "id": "84a9949c1bce2259",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Compensación Carga Fluido",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 29,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 360,
+        "y": 800,
+        "wires": [
+            [
+                "b0a0e07950359e9a"
+            ]
+        ]
+    },
+    {
+        "id": "81c4e2501e994cf3",
+        "type": "ui_text_input",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "",
+        "label": "Longitud perforación",
+        "tooltip": "",
+        "group": "bdb839607367176a",
+        "order": 33,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 340,
+        "y": 840,
+        "wires": [
+            [
+                "b0399012734b7e34"
+            ]
+        ]
+    },
+    {
+        "id": "40d4dff5bf70640b",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Diametro Pistón",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.D_Piston",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88c0017f739b0139",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Q_Medido",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.Q_Medido",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01c46786ad417074",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Prod_Crudo",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.Prod_Crudo",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dec20aef039401f4",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Prod_Agua",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.Prod_Agua",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6603e767c1c8c6e8",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Pb",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.Pb",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0a0e07950359e9a",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "FluidLoad_Offset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.FluidLoad_Offset",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0399012734b7e34",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "L_perforacion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.L_perforacion",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc52ade9672319fe",
+        "type": "change",
+        "z": "6278f7e7f20ddc7d",
+        "g": "c36ec626abdfe551",
+        "name": "Metodo_CalculoLlenado",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::SensorLess.HMI.Metodo_CalculoLlenado",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 560,
+        "wires": [
+            []
         ]
     }
 ]
