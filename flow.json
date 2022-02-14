@@ -838,7 +838,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -878,7 +880,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1187,7 +1191,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1233,8 +1239,10 @@
             "de4f39a85d994607",
             "cae90cc36eb53039"
         ],
-        "x": 54,
-        "y": 719
+        "x": 14,
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1454,10 +1462,13 @@
             "a7b76a6f68de8ef5",
             "529deff5ef6dbaa8",
             "80d606957859a016",
-            "cd2627ac2843f441"
+            "cd2627ac2843f441",
+            "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 1079
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1780,11 +1791,12 @@
             "6f4c1103115e8942",
             "5fe807f47d2920cc",
             "45454b3be0a6bf43",
-            "e25199718b76fb2e"
+            "e25199718b76fb2e",
+            "e3de878274ce24cf"
         ],
         "x": 4,
         "y": -1,
-        "w": 1992,
+        "w": 1982,
         "h": 402
     },
     {
@@ -1870,7 +1882,8 @@
             "3f8e772d5525d94a",
             "0de54509db195c49",
             "cf15dfa9acf0c78c",
-            "f9ef677b4ad63e67"
+            "f9ef677b4ad63e67",
+            "b92133a225df4eec"
         ],
         "x": 34,
         "y": 959,
@@ -2001,7 +2014,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2070,7 +2085,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2088,9 +2105,9 @@
             "7841d296e32be02e",
             "d6ca01c917296363"
         ],
-        "x": 4,
+        "x": 14,
         "y": 1679,
-        "w": 542,
+        "w": 532,
         "h": 142
     },
     {
@@ -2365,7 +2382,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1359
+        "y": 1279,
+        "w": 982,
+        "h": 242
     },
     {
         "id": "69cbede8f851191a",
@@ -2387,7 +2406,9 @@
             "0a6bd128b70aea2c"
         ],
         "x": 14,
-        "y": 1619
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -3154,8 +3175,10 @@
             "814ff5b5bc3a171e",
             "86e001aa20e6699c"
         ],
-        "x": 114,
-        "y": 2599
+        "x": 14,
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3843,7 +3866,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3864,7 +3889,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -7506,8 +7533,9 @@
         "tab": "c17f19ae.06fbf8",
         "order": 2,
         "disp": false,
-        "width": "12",
-        "collapse": false
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "c17f19ae.06fbf8",
@@ -7769,24 +7797,6 @@
                 "name": "CommandWord"
             }
         ]
-    },
-    {
-        "id": "5d5048d34dbd174e",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "91f407cc.9e95a8",
-        "order": 2,
-        "width": "1",
-        "height": 1
-    },
-    {
-        "id": "65db6bee60684518",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "b006ff9.8805c",
-        "order": 1,
-        "width": "1",
-        "height": 1
     },
     {
         "id": "2a3f8c77015e1a1e",
@@ -8600,26 +8610,6 @@
         "collapse": false
     },
     {
-        "id": "c80ba27e4370eea1",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "5506d219e1b48a22",
-        "order": 4,
-        "width": "4",
-        "height": 1
-    },
-    {
-        "id": "2587eb2bae31a097",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "5506d219e1b48a22",
-        "order": 6,
-        "width": "1",
-        "height": 1
-    },
-    {
         "id": "d4ce0f7379428df9",
         "type": "ui_group",
         "name": "Smart Datalogger®",
@@ -8628,106 +8618,6 @@
         "disp": false,
         "width": "16",
         "collapse": false
-    },
-    {
-        "id": "b92b62577237e482",
-        "type": "ui_spacer",
-        "z": "2e27dea6.c4c362",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 4,
-        "width": "3",
-        "height": 1
-    },
-    {
-        "id": "a329b0e3c78b451e",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "a41af5be.52be18",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "63f6985783f08cde",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "0f150a78a103d9bb",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 39,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5ba693e8814bb59d",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 27,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "cc5edd1e7d1bc1b2",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 31,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "647c07c3eeb33ecf",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "196499f92c16a5d8",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 35,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5d20a046d2382864",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 23,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "bc907fbfe59599f4",
-        "type": "ui_spacer",
-        "z": "e7088c4e.cc6b4",
-        "name": "spacer",
-        "group": "d4ce0f7379428df9",
-        "order": 19,
-        "width": 1,
-        "height": 1
     },
     {
         "id": "227ab2732f98bbdb",
@@ -9829,16 +9719,6 @@
         "group": "7821f022.e6285",
         "order": 11,
         "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d9f7aa5ecc45b2eb",
-        "type": "ui_spacer",
-        "z": "7a89175c.90f6a8",
-        "name": "spacer",
-        "group": "4190699f61725da4",
-        "order": 2,
-        "width": 15,
         "height": 1
     },
     {
@@ -16140,7 +16020,8 @@
         "y": 310,
         "wires": [
             [
-                "665fede5f3de1d98"
+                "665fede5f3de1d98",
+                "e3de878274ce24cf"
             ]
         ]
     },
@@ -20291,7 +20172,8 @@
         "y": 1120,
         "wires": [
             [
-                "9523c57c.c9b468"
+                "9523c57c.c9b468",
+                "b92133a225df4eec"
             ]
         ]
     },
@@ -58490,7 +58372,7 @@
         "name": "",
         "group": "91f407cc.9e95a8",
         "order": 4,
-        "width": 3,
+        "width": 4,
         "height": 1,
         "passthru": false,
         "label": "Expulsar USB",
@@ -59223,8 +59105,8 @@
         "group": "96dbaa88.715ef8",
         "name": "Eventos",
         "order": 1,
-        "width": "16",
-        "height": "11",
+        "width": 16,
+        "height": 10,
         "columns": [
             {
                 "field": "no",
@@ -59411,8 +59293,8 @@
         "group": "42e65bd9.26fdf4",
         "name": "Alarmas",
         "order": 1,
-        "width": "16",
-        "height": "11",
+        "width": 16,
+        "height": 10,
         "columns": [
             {
                 "field": "no",
@@ -59658,17 +59540,19 @@
         "name": "Activar",
         "group": "b006ff9.8805c",
         "order": 2,
-        "width": 4,
+        "width": "5",
         "height": 1,
         "passthru": false,
         "label": "Activar datalogger",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "true",
         "payloadType": "bool",
         "topic": "",
+        "topicType": "str",
         "x": 260,
         "y": 610,
         "wires": [
@@ -59688,7 +59572,7 @@
         "tooltip": "",
         "place": "Seleccione",
         "group": "a41af5be.52be18",
-        "order": 4,
+        "order": 2,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -59730,8 +59614,8 @@
         "label": "Tasa de muestreo",
         "tooltip": "",
         "group": "a41af5be.52be18",
-        "order": 3,
-        "width": "3",
+        "order": 1,
+        "width": 3,
         "height": 1,
         "passthru": false,
         "mode": "number",
@@ -60053,17 +59937,19 @@
         "name": "Desactivar",
         "group": "b006ff9.8805c",
         "order": 3,
-        "width": 4,
+        "width": "5",
         "height": 1,
         "passthru": false,
         "label": "Desactivar datalogger",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "false",
         "payloadType": "bool",
         "topic": "",
+        "topicType": "str",
         "x": 260,
         "y": 650,
         "wires": [
@@ -60448,8 +60334,8 @@
         "tooltip": "",
         "place": "Seleccione",
         "group": "a41af5be.52be18",
-        "order": 5,
-        "width": "5",
+        "order": 4,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "multiple": false,
@@ -61064,8 +60950,8 @@
         "g": "20a59349.5b554c",
         "group": "91f407cc.9e95a8",
         "order": 1,
-        "width": "3",
-        "height": "1",
+        "width": 3,
+        "height": 1,
         "name": "",
         "label": "Última detención",
         "format": "{{msg.payload}}",
@@ -61844,8 +61730,8 @@
         "group": "5506d219e1b48a22",
         "name": "Principal",
         "order": 5,
-        "width": "16",
-        "height": "9",
+        "width": 16,
+        "height": 7,
         "columns": [
             {
                 "field": "ID",
@@ -61931,9 +61817,9 @@
         "g": "a73c3da33ecbc290",
         "group": "5506d219e1b48a22",
         "name": "Resumen",
-        "order": 7,
-        "width": "4",
-        "height": "2",
+        "order": 6,
+        "width": 16,
+        "height": 3,
         "columns": [
             {
                 "field": "Cant_Sag",
@@ -62058,8 +61944,8 @@
         "place": "Seleccionar periodo de tiempo",
         "group": "5506d219e1b48a22",
         "order": 1,
-        "width": "4",
-        "height": "1",
+        "width": 4,
+        "height": 1,
         "passthru": true,
         "multiple": false,
         "options": [
@@ -62133,8 +62019,8 @@
         "place": "Seleccionar estado de CILA",
         "group": "5506d219e1b48a22",
         "order": 2,
-        "width": "4",
-        "height": "1",
+        "width": 4,
+        "height": 1,
         "passthru": true,
         "multiple": false,
         "options": [
@@ -62198,8 +62084,8 @@
         "place": "Seleccionar tipo de evento",
         "group": "5506d219e1b48a22",
         "order": 3,
-        "width": "4",
-        "height": "1",
+        "width": 4,
+        "height": 1,
         "passthru": true,
         "multiple": false,
         "options": [
@@ -62337,9 +62223,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 12,
-        "width": "1",
-        "height": "1",
+        "order": 11,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62369,9 +62255,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 16,
-        "width": "1",
-        "height": "1",
+        "order": 15,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62401,9 +62287,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 20,
-        "width": "1",
-        "height": "1",
+        "order": 19,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62433,9 +62319,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 24,
-        "width": "1",
-        "height": "1",
+        "order": 23,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62465,9 +62351,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 28,
-        "width": "1",
-        "height": "1",
+        "order": 27,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62497,9 +62383,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 32,
-        "width": "1",
-        "height": "1",
+        "order": 31,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62529,9 +62415,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 36,
-        "width": "1",
-        "height": "1",
+        "order": 35,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62561,9 +62447,9 @@
         "label": "",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 40,
-        "width": "1",
-        "height": "1",
+        "order": 39,
+        "width": 1,
+        "height": 1,
         "passthru": true,
         "decouple": "false",
         "topic": "topic",
@@ -62593,9 +62479,9 @@
         "label": "% corriente drive",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 13,
-        "width": "3",
-        "height": "1",
+        "order": 12,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62614,9 +62500,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 5,
-        "width": "2",
-        "height": "1",
+        "order": 4,
+        "width": 2,
+        "height": 1,
         "name": "activar titulo",
         "label": "",
         "format": "Activar",
@@ -62631,9 +62517,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 6,
-        "width": "3",
-        "height": "1",
+        "order": 5,
+        "width": 3,
+        "height": 1,
         "name": "% titulo",
         "label": "",
         "format": "% variación",
@@ -62648,9 +62534,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 7,
-        "width": "3",
-        "height": "1",
+        "order": 6,
+        "width": 3,
+        "height": 1,
         "name": "tiempo monitoreo (min)",
         "label": "",
         "format": "Monitoreo (min)",
@@ -62668,9 +62554,9 @@
         "label": "tiempo corriente drive",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 14,
-        "width": "3",
-        "height": "1",
+        "order": 13,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62692,9 +62578,9 @@
         "label": "% corriente motor",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 17,
-        "width": "3",
-        "height": "1",
+        "order": 16,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62716,9 +62602,9 @@
         "label": "tiempo corriente motor",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 18,
-        "width": "3",
-        "height": "1",
+        "order": 17,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62740,9 +62626,9 @@
         "label": "% tension fase",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 21,
-        "width": "3",
-        "height": "1",
+        "order": 20,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62764,9 +62650,9 @@
         "label": "tiempo tensión fase",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 22,
-        "width": "3",
-        "height": "1",
+        "order": 21,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62788,9 +62674,9 @@
         "label": "% tension línea",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 25,
-        "width": "3",
-        "height": "1",
+        "order": 24,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62812,9 +62698,9 @@
         "label": "tiempo tensión línea",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 26,
-        "width": "3",
-        "height": "1",
+        "order": 25,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62836,9 +62722,9 @@
         "label": "% potencia salida",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 29,
-        "width": "3",
-        "height": "1",
+        "order": 28,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62860,9 +62746,9 @@
         "label": "tiempo potencia salida",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 30,
-        "width": "3",
-        "height": "1",
+        "order": 29,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62884,9 +62770,9 @@
         "label": "% presión entrada",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 33,
-        "width": "3",
-        "height": "1",
+        "order": 32,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62908,9 +62794,9 @@
         "label": "tiempo presión entrada",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 34,
-        "width": "3",
-        "height": "1",
+        "order": 33,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62932,9 +62818,9 @@
         "label": "% presión descarga",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 37,
-        "width": "3",
-        "height": "1",
+        "order": 36,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62956,9 +62842,9 @@
         "label": "tiempo presión descarga",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 38,
-        "width": "3",
-        "height": "1",
+        "order": 37,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -62980,9 +62866,9 @@
         "label": "% temp. entrada",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 41,
-        "width": "3",
-        "height": "1",
+        "order": 40,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -63004,9 +62890,9 @@
         "label": "tiempo temp. entrada",
         "tooltip": "",
         "group": "d4ce0f7379428df9",
-        "order": 42,
-        "width": "3",
-        "height": "1",
+        "order": 41,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "mode": "number",
         "delay": 300,
@@ -64860,9 +64746,9 @@
         "g": "ef99c8bf39cb12ee",
         "name": "",
         "group": "d4ce0f7379428df9",
-        "order": 3,
-        "width": "3",
-        "height": "1",
+        "order": 2,
+        "width": 3,
+        "height": 1,
         "passthru": false,
         "label": "Ayuda",
         "tooltip": "",
@@ -64886,9 +64772,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 8,
-        "width": "2",
-        "height": "1",
+        "order": 7,
+        "width": 2,
+        "height": 1,
         "name": "activar titulo",
         "label": "",
         "format": "Activar",
@@ -64903,9 +64789,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 9,
-        "width": "3",
-        "height": "1",
+        "order": 8,
+        "width": 3,
+        "height": 1,
         "name": "% titulo",
         "label": "",
         "format": "% variación",
@@ -64920,9 +64806,9 @@
         "z": "e7088c4e.cc6b4",
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
-        "order": 10,
-        "width": "3",
-        "height": "1",
+        "order": 9,
+        "width": 3,
+        "height": 1,
         "name": "tiempo monitoreo (min)",
         "label": "",
         "format": "Monitoreo (min)",
@@ -64938,8 +64824,8 @@
         "g": "ef99c8bf39cb12ee",
         "group": "d4ce0f7379428df9",
         "order": 1,
-        "width": "10",
-        "height": "1",
+        "width": 10,
+        "height": 1,
         "name": "Smart Datalogger titulo",
         "label": "",
         "format": "Smart Datalogger®",
@@ -67491,8 +67377,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 550,
-        "y": 840,
+        "x": 510,
+        "y": 780,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -67527,8 +67413,8 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "className": "",
-        "x": 420,
-        "y": 840,
+        "x": 380,
+        "y": 780,
         "wires": [
             [
                 "2499f70f.806ab8",
@@ -67556,8 +67442,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 780,
+        "x": 680,
+        "y": 720,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -67584,8 +67470,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 730,
-        "y": 820,
+        "x": 690,
+        "y": 760,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -67612,8 +67498,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 860,
+        "x": 670,
+        "y": 800,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -67640,8 +67526,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 900,
+        "x": 680,
+        "y": 840,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -67658,8 +67544,8 @@
             "8a17d991.081178",
             "805762db.d27b7"
         ],
-        "x": 895,
-        "y": 860,
+        "x": 855,
+        "y": 800,
         "wires": []
     },
     {
@@ -67683,8 +67569,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 710,
-        "y": 940,
+        "x": 670,
+        "y": 880,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -67699,7 +67585,7 @@
         "group": "33c417e4.ee9778",
         "name": "Menu Eventos y alarmas",
         "order": 1,
-        "width": "16",
+        "width": 16,
         "height": 1,
         "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": false,
@@ -67707,7 +67593,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 530,
-        "y": 1180,
+        "y": 1100,
         "wires": [
             [
                 "3031a06c.c602b",
@@ -67749,7 +67635,7 @@
         "repair": false,
         "outputs": 4,
         "x": 710,
-        "y": 1200,
+        "y": 1120,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -67786,7 +67672,7 @@
         "to": "",
         "reg": false,
         "x": 1040,
-        "y": 1140,
+        "y": 1060,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -67806,7 +67692,7 @@
             "320aa1af1a983da1"
         ],
         "x": 1215,
-        "y": 1180,
+        "y": 1100,
         "wires": []
     },
     {
@@ -67830,7 +67716,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1180,
+        "y": 1100,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -67858,7 +67744,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1220,
+        "y": 1140,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -68199,7 +68085,7 @@
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
         "g": "5c9801fdee1b9e98",
-        "group": "73d37e5b1f2a302a",
+        "group": "8354217e51b24524",
         "name": "Otr. Control",
         "order": 1,
         "width": 16,
@@ -68209,6 +68095,7 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
+        "className": "",
         "x": 1150,
         "y": 580,
         "wires": [
@@ -68223,8 +68110,8 @@
         "group": "91f407cc.9e95a8",
         "name": "Eventos y alarmas",
         "order": 5,
-        "width": "4",
-        "height": "1",
+        "width": 3,
+        "height": 1,
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -68460,7 +68347,7 @@
         "repair": false,
         "outputs": 2,
         "x": 840,
-        "y": 1200,
+        "y": 1120,
         "wires": [
             [
                 "312d9def.84df32"
@@ -68498,7 +68385,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "25a8d0d2661ecaf2"
@@ -68515,7 +68402,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1115,
-        "y": 1260,
+        "y": 1180,
         "wires": []
     },
     {
@@ -68537,7 +68424,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 110,
-        "y": 1120,
+        "y": 1040,
         "wires": [
             [
                 "b9261a31b4bbd186"
@@ -68578,7 +68465,7 @@
         "repair": false,
         "outputs": 4,
         "x": 90,
-        "y": 1180,
+        "y": 1100,
         "wires": [
             [
                 "35a52a0820bebc23"
@@ -68607,7 +68494,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1180,
+        "y": 1100,
         "wires": [
             [
                 "890323f.ee684e"
@@ -68618,13 +68505,14 @@
         "id": "34c5a0aa2b3d052d",
         "type": "link in",
         "z": "2e27dea6.c4c362",
+        "g": "e98dc6a9.24ece8",
         "name": "",
         "links": [
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
         "x": 95,
-        "y": 1300,
+        "y": 1180,
         "wires": [
             [
                 "35a52a0820bebc23"
@@ -68644,7 +68532,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1220,
+        "y": 1140,
         "wires": [
             [
                 "890323f.ee684e"
@@ -68664,7 +68552,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "f57c522aea6111e7"
@@ -68690,7 +68578,7 @@
         "repair": false,
         "outputs": 1,
         "x": 400,
-        "y": 1260,
+        "y": 1180,
         "wires": [
             [
                 "890323f.ee684e"
@@ -68708,7 +68596,7 @@
             "c4e5b48a61ef3ffd"
         ],
         "x": 855,
-        "y": 1120,
+        "y": 1040,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -68827,8 +68715,8 @@
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
-        "x": 575,
-        "y": 760,
+        "x": 535,
+        "y": 700,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -68847,8 +68735,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 840,
+        "x": 220,
+        "y": 780,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -68873,8 +68761,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 250,
-        "y": 780,
+        "x": 210,
+        "y": 720,
         "wires": [
             [
                 "3d5229b6c4b0f5b3"
@@ -68891,8 +68779,8 @@
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
-        "x": 115,
-        "y": 800,
+        "x": 75,
+        "y": 740,
         "wires": [
             [
                 "61c5e328a04409ef"
@@ -68937,8 +68825,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 130,
-        "y": 880,
+        "x": 90,
+        "y": 820,
         "wires": [
             [
                 "61c5e328a04409ef"
@@ -68969,8 +68857,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 880,
+        "x": 220,
+        "y": 820,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -68989,8 +68877,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 920,
+        "x": 220,
+        "y": 860,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -69010,8 +68898,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <!--<a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 960,
+        "x": 220,
+        "y": 900,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -69030,8 +68918,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
-        "x": 260,
-        "y": 1000,
+        "x": 220,
+        "y": 940,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -69616,7 +69504,7 @@
             "20fa6985602b85a3"
         ],
         "x": 255,
-        "y": 1120,
+        "y": 1040,
         "wires": [
             [
                 "35a52a0820bebc23",
@@ -69716,7 +69604,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Eventos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarmas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1300,
+        "y": 1220,
         "wires": [
             [
                 "890323f.ee684e"
@@ -69744,7 +69632,7 @@
         "to": "",
         "reg": false,
         "x": 1060,
-        "y": 1300,
+        "y": 1220,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -69807,7 +69695,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 510,
-        "y": 1460,
+        "y": 1380,
         "wires": [
             [
                 "219b52896a3bc0c3",
@@ -69845,7 +69733,7 @@
         "repair": false,
         "outputs": 3,
         "x": 670,
-        "y": 1460,
+        "y": 1380,
         "wires": [
             [
                 "571b4cb30ff6bd65"
@@ -69869,7 +69757,7 @@
             "805762db.d27b7"
         ],
         "x": 955,
-        "y": 1460,
+        "y": 1380,
         "wires": []
     },
     {
@@ -69893,7 +69781,7 @@
         "to": "",
         "reg": false,
         "x": 810,
-        "y": 1420,
+        "y": 1340,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69921,7 +69809,7 @@
         "to": "",
         "reg": false,
         "x": 820,
-        "y": 1460,
+        "y": 1380,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69949,7 +69837,7 @@
         "to": "",
         "reg": false,
         "x": 830,
-        "y": 1500,
+        "y": 1420,
         "wires": [
             [
                 "7b495ef4bbce99f7"
@@ -69972,7 +69860,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 110,
-        "y": 1700,
+        "y": 1620,
         "wires": [
             [
                 "f258f142685365f9"
@@ -70008,7 +69896,7 @@
         "repair": false,
         "outputs": 3,
         "x": 250,
-        "y": 1700,
+        "y": 1620,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -70032,7 +69920,7 @@
             "805762db.d27b7"
         ],
         "x": 535,
-        "y": 1700,
+        "y": 1620,
         "wires": []
     },
     {
@@ -70056,7 +69944,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 1700,
+        "y": 1620,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -70084,7 +69972,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 1660,
+        "y": 1580,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -70112,7 +70000,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 1740,
+        "y": 1660,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -70132,7 +70020,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"true\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 340,
-        "y": 1420,
+        "y": 1340,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -70152,7 +70040,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"true\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 340,
-        "y": 1460,
+        "y": 1380,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -70172,7 +70060,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"true\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 340,
-        "y": 1500,
+        "y": 1420,
         "wires": [
             [
                 "7f58bafb234d04c9"
@@ -70208,7 +70096,7 @@
         "repair": false,
         "outputs": 3,
         "x": 190,
-        "y": 1460,
+        "y": 1380,
         "wires": [
             [
                 "50227f25c7f235d6"
@@ -70240,7 +70128,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 650,
-        "y": 1520,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -70260,7 +70148,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 680,
-        "y": 1560,
+        "y": 1480,
         "wires": []
     },
     {
@@ -70273,7 +70161,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 55,
-        "y": 1400,
+        "y": 1320,
         "wires": [
             [
                 "950ba8d14ba2185d"
@@ -70301,7 +70189,7 @@
         "to": "",
         "reg": false,
         "x": 170,
-        "y": 1400,
+        "y": 1320,
         "wires": [
             [
                 "0bf02e140da3357d"
@@ -70318,7 +70206,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 255,
-        "y": 1660,
+        "y": 1580,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -70340,8 +70228,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 280,
-        "y": 2720,
+        "x": 180,
+        "y": 1900,
         "wires": [
             [
                 "83caa36b0ccc7f7a"
@@ -70357,8 +70245,8 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 865,
-        "y": 2720,
+        "x": 765,
+        "y": 1900,
         "wires": []
     },
     {
@@ -70381,8 +70269,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 700,
-        "y": 2670,
+        "x": 600,
+        "y": 1850,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -70427,8 +70315,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 510,
-        "y": 2720,
+        "x": 410,
+        "y": 1900,
         "wires": [
             [
                 "829923af7edccaf9"
@@ -70467,8 +70355,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 2720,
+        "x": 560,
+        "y": 1900,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -70495,8 +70383,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 2760,
+        "x": 580,
+        "y": 1940,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -70523,8 +70411,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 680,
-        "y": 2800,
+        "x": 580,
+        "y": 1980,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -70551,8 +70439,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 690,
-        "y": 2840,
+        "x": 590,
+        "y": 2020,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -70568,8 +70456,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 515,
-        "y": 2640,
+        "x": 415,
+        "y": 1820,
         "wires": [
             [
                 "829923af7edccaf9"
@@ -70582,7 +70470,7 @@
         "z": "2e27dea6.c4c362",
         "g": "69cbede8f851191a",
         "group": "d5793763aabf18e4",
-        "name": "Logo Slacol Sierracol",
+        "name": "Imagen balancin",
         "order": 1,
         "width": 10,
         "height": 11,
@@ -70592,8 +70480,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 140,
-        "y": 1800,
+        "x": 120,
+        "y": 1720,
         "wires": [
             []
         ]
@@ -70613,7 +70501,7 @@
         "layout": "row-center",
         "className": "",
         "x": 420,
-        "y": 1780,
+        "y": 1700,
         "wires": []
     },
     {
@@ -71567,7 +71455,8 @@
         "g": "b2f2659a.67f648",
         "name": "Status Drive Link Out",
         "links": [
-            "ea32976ff44ab826"
+            "ea32976ff44ab826",
+            "5f79ab420985f7b2"
         ],
         "x": 1285,
         "y": 310,
@@ -71715,7 +71604,8 @@
         "z": "dd18d94e.4b1408",
         "name": "",
         "links": [
-            "ea32976ff44ab826"
+            "ea32976ff44ab826",
+            "5f79ab420985f7b2"
         ],
         "x": 665,
         "y": 460,
@@ -83492,7 +83382,7 @@
         "height": 3,
         "gtype": "donut",
         "title": "PWF",
-        "label": "ft",
+        "label": "psi",
         "format": "{{value}}",
         "min": 0,
         "max": "6000",
@@ -94945,5 +94835,1525 @@
                 "01bf2e6e63b6b177"
             ]
         ]
+    },
+    {
+        "id": "8354217e51b24524",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 11,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f0a178ab0a6d0b14",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "fdffe6bc.86dd78",
+        "order": 9,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ea35fc9753314a91",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "a41af5be.52be18",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a125a60efeb36efb",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "b006ff9.8805c",
+        "order": 1,
+        "width": "3",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "6eaf5d9eda2d8e9b",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "b006ff9.8805c",
+        "order": 4,
+        "width": "3",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "4a9ce9c62f37cb6b",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 3,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a7b6c0899334e8a8",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0d95fe5b62127fe5",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5316c31c18f2e86a",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d31dd529fd52c979",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f3dcc2b8a1b742ec",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a05f71edf848f648",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb8ad0f293e9703b",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d3e2c3d86d7e7ea4",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81032848b978284b",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "5506d219e1b48a22",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1c2718de34e0b377",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "91f407cc.9e95a8",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "27e6d4b0dc194f02",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "b006ff9.8805c",
+        "order": 5,
+        "width": "16",
+        "height": "2",
+        "className": ""
+    },
+    {
+        "id": "886cff7bdf375bc6",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "415c32a74f3175cf",
+        "order": 5,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d7027b6d471634a1",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "3dfc6e9db716aab8",
+        "order": 4,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2a978398308ddc2f",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "a1df2961a39cdb81",
+        "order": 5,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "114092cca07d1b8b",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "fe41bc20.3ab56",
+        "order": 3,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "119384c85617742d",
+        "type": "ui_group",
+        "name": "Status Bar",
+        "tab": "c17f19ae.06fbf8",
+        "order": 2,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e3de878274ce24cf",
+        "type": "link out",
+        "z": "902fc438.e5d758",
+        "g": "6202107f.ed9aa",
+        "name": "Referencia",
+        "mode": "link",
+        "links": [
+            "9e71f31c36bad4f4"
+        ],
+        "x": 645,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b92133a225df4eec",
+        "type": "link out",
+        "z": "902fc438.e5d758",
+        "g": "086b9d08c3b68939",
+        "name": "Referencia SPM",
+        "mode": "link",
+        "links": [
+            "662ccfab1a84515d"
+        ],
+        "x": 575,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "d8f2bc82b14aba52",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "8354217e51b24524",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "5f79ab420985f7b2",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "name": "Status Drive Link In",
+        "links": [
+            "f16815630fb5bc06",
+            "4d8114af67dce517",
+            "b41db225cceb93c5"
+        ],
+        "x": 95,
+        "y": 2260,
+        "wires": [
+            [
+                "fd760308e943bba1"
+            ]
+        ]
+    },
+    {
+        "id": "fd760308e943bba1",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegación",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Otras Funciones de Control",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Eventos y Datalog",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Downhole SensorLess Dynagram",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Tendencias",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Settings",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Protecciones",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Entradas y Salidas",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Configuración VSD",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Usuario",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 210,
+        "y": 2260,
+        "wires": [
+            [
+                "d8f2bc82b14aba52"
+            ],
+            [
+                "e39b24cbb8c58935"
+            ],
+            [
+                "8aa1b382ea8b16d6"
+            ],
+            [
+                "49a008a7cb0186f7"
+            ],
+            [
+                "2fdcb7f236abad04"
+            ],
+            [
+                "ed6c5d79f1384028"
+            ],
+            [
+                "9a3aa6cb1314a01d"
+            ],
+            [
+                "1c50d943555ac641"
+            ],
+            [
+                "9e33ad323d1e0bee"
+            ]
+        ]
+    },
+    {
+        "id": "e39b24cbb8c58935",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "f0a178ab0a6d0b14",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "8aa1b382ea8b16d6",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "886cff7bdf375bc6",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "49a008a7cb0186f7",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "d7027b6d471634a1",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "2fdcb7f236abad04",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "2a978398308ddc2f",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "ed6c5d79f1384028",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "114092cca07d1b8b",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "9a3aa6cb1314a01d",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "4190699f61725da4",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "1c50d943555ac641",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "73d37e5b1f2a302a",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "9e33ad323d1e0bee",
+        "type": "ui_led",
+        "z": "2e27dea6.c4c362",
+        "order": 1,
+        "group": "119384c85617742d",
+        "width": 5,
+        "height": 1,
+        "label": "C2S: {{msg.payload}}",
+        "labelPlacement": "right",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "FALLA de variador!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "FALLA de protección!",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "ALARMA!",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Acelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "ACTIVO Desacelerando",
+                "valueType": "str"
+            },
+            {
+                "color": "#808080",
+                "value": "DETENIDO",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "Falla de comunicación drive",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffff00",
+                "value": "Variador deshabilitado",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Falla general",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 410,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "032fe41cd1f214ad",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegación",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Otras Funciones de Control",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Eventos y Datalog",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Downhole SensorLess Dynagram",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Tendencias",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Settings",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Protecciones",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Entradas y Salidas",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Configuración VSD",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Usuario",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 710,
+        "y": 2260,
+        "wires": [
+            [
+                "8447c8d6de159ded"
+            ],
+            [
+                "8caac99262b34a1d"
+            ],
+            [
+                "3fb67d0c519ae1e1"
+            ],
+            [
+                "d916d97bc70b8c77"
+            ],
+            [
+                "7b1c67951e40ce3f"
+            ],
+            [
+                "65e1c255c4b5cfed"
+            ],
+            [
+                "cb9c791c9a8afbfa"
+            ],
+            [
+                "a3a4c85539b7397e"
+            ],
+            [
+                "6aec94b6b9f9199a"
+            ]
+        ]
+    },
+    {
+        "id": "9e71f31c36bad4f4",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "links": [
+            "e3de878274ce24cf"
+        ],
+        "x": 595,
+        "y": 2260,
+        "wires": [
+            [
+                "032fe41cd1f214ad"
+            ]
+        ]
+    },
+    {
+        "id": "8447c8d6de159ded",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "8354217e51b24524",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "8caac99262b34a1d",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "f0a178ab0a6d0b14",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "3fb67d0c519ae1e1",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "886cff7bdf375bc6",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "d916d97bc70b8c77",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "d7027b6d471634a1",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "7b1c67951e40ce3f",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "2a978398308ddc2f",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "65e1c255c4b5cfed",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "114092cca07d1b8b",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "cb9c791c9a8afbfa",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "4190699f61725da4",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "a3a4c85539b7397e",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "73d37e5b1f2a302a",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "6aec94b6b9f9199a",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "119384c85617742d",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Ref: ",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 910,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "8e9215fc30356384",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegación",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Otras Funciones de Control",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Eventos y Datalog",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Downhole SensorLess Dynagram",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Tendencias",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Settings",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Protecciones",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Entradas y Salidas",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Configuración VSD",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Usuario",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 1230,
+        "y": 2260,
+        "wires": [
+            [
+                "51a16db9194c7840"
+            ],
+            [
+                "748282006efda9ce"
+            ],
+            [
+                "1d85079cd6c6710c"
+            ],
+            [
+                "81facbc04280914d"
+            ],
+            [
+                "38b68448ab2af13c"
+            ],
+            [
+                "17285aebf1343757"
+            ],
+            [
+                "2fcf255ca51ca0b5"
+            ],
+            [
+                "372927f0c52ea142"
+            ],
+            [
+                "5b3e0e51c1c7f5d0"
+            ]
+        ]
+    },
+    {
+        "id": "662ccfab1a84515d",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "name": "",
+        "links": [
+            "b92133a225df4eec"
+        ],
+        "x": 1125,
+        "y": 2260,
+        "wires": [
+            [
+                "8e9215fc30356384"
+            ]
+        ]
+    },
+    {
+        "id": "51a16db9194c7840",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "8354217e51b24524",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "748282006efda9ce",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "f0a178ab0a6d0b14",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "1d85079cd6c6710c",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "886cff7bdf375bc6",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "81facbc04280914d",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "d7027b6d471634a1",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "38b68448ab2af13c",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "2a978398308ddc2f",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "17285aebf1343757",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "114092cca07d1b8b",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "2fcf255ca51ca0b5",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "4190699f61725da4",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "372927f0c52ea142",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "73d37e5b1f2a302a",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "5b3e0e51c1c7f5d0",
+        "type": "ui_text",
+        "z": "2e27dea6.c4c362",
+        "group": "119384c85617742d",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Ref SPM:",
+        "format": "  {{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 1440,
+        "y": 2420,
+        "wires": []
     }
 ]
