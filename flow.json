@@ -2589,9 +2589,7 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139,
-        "w": 532,
-        "h": 242
+        "y": 139
     },
     {
         "id": "854b667853465d2b",
@@ -2608,9 +2606,7 @@
             "381f2e27385db5e4"
         ],
         "x": 34,
-        "y": 159,
-        "w": 342,
-        "h": 142
+        "y": 159
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2642,9 +2638,7 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139,
-        "w": 642,
-        "h": 502
+        "y": 139
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2663,9 +2657,7 @@
             "75830853385c5165"
         ],
         "x": 34,
-        "y": 319,
-        "w": 472,
-        "h": 82
+        "y": 319
     },
     {
         "id": "9648249e35aead30",
@@ -2684,9 +2676,7 @@
             "b5183e9f40b17918"
         ],
         "x": 34,
-        "y": 419,
-        "w": 502,
-        "h": 82
+        "y": 419
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3691,9 +3681,7 @@
             "617d3424713f8c8e"
         ],
         "x": 34,
-        "y": 519,
-        "w": 1372,
-        "h": 202
+        "y": 519
     },
     {
         "id": "936eab7d97be78af",
@@ -3731,10 +3719,13 @@
             "684cadf7491b3916",
             "441a1b389e53d303",
             "4a54464134473561",
-            "d1958023d00132fd"
+            "8d1b0cbfbcc8779c",
+            "4e28eb1fe2f7faf7"
         ],
         "x": 694,
-        "y": 4239
+        "y": 4239,
+        "w": 1052,
+        "h": 562
     },
     {
         "id": "c36ec626abdfe551",
@@ -5843,9 +5834,7 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 579,
-        "w": 492,
-        "h": 82
+        "y": 579
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -58173,10 +58162,10 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    VDesplazamiento[Indice-1] = pos * A;//Desplazamiento\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\nreturn msg;",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    VDesplazamiento[Indice-1] = pos * A;//Desplazamiento\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\");\n\nvar PosVdesmin = 0;\nvar PosVdesmayor = 0;\n\nvar Max_Desp = 0;\nvar Min_Desp = 0;\n\nMax_Desp = VDesplazamiento[Nmuestras];\nMin_Desp = VDesplazamiento[Nmuestras];\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i + Nmuestras] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i + Nmuestras];\n        PosVdesmayor = Nmuestras + i;\n\n    }\n    if (VDesplazamiento[i + Nmuestras] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i + Nmuestras];\n        PosVdesmin = Nmuestras + i;\n\n    }\n}\n\nfor (var j = 0; j < OnCalculo; j++) {\n    VecDesCal[j] = VDesplazamiento[PosVdesmayor - j];\n}\n\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector X\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
         "finalize": "",
         "libs": [],
         "x": 1530,
@@ -58352,24 +58341,6 @@
             [
                 "441a1b389e53d303"
             ]
-        ]
-    },
-    {
-        "id": "d1958023d00132fd",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Cálculo Maximo y minimo Dinagrama",
-        "func": "var Desp = global.get(\"IO.Dinagrama.VDesplazamiento\");\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;\nvar Max_Desp = context.get(\"Max_Desp\", Max_Desp, \"memoryOnly\")||0;\nvar Min_Desp = context.get(\"Min_Desp\", Min_Desp, \"memoryOnly\") || 0;\nvar contador = context.get(\"contador\")||0;\nif (contador <= Nmuestras){\n    contador = contador + 1;\n    for (var i = 0; i < Nmuestras.length; i++) {\n        if (Desp[Nmuestras + i] > Max_Desp) {\n            Max_Desp = Desp[Nmuestras + i];\n        }\n        if (Desp[Nmuestras + i] < Min_Desp) {\n            Min_Desp = Desp[Nmuestras + i];\n        }\n    }\n\n}else{\n    contador = 0;\n}\n\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"contador\", contador, \"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1070,
-        "y": 4760,
-        "wires": [
-            []
         ]
     },
     {
@@ -82223,7 +82194,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket.png\" style=\"width:90%;height = 100%\" ><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 30px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/GeometriaSucket_sin_fondo.png\" style=\"width:90%;height = 100%\" ><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 30px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 1560,
         "y": 160,
@@ -82243,7 +82214,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/geometriaSucket1.png\" style=\"width:90%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/GeometriaSucket1_sin_fondo.png\" style=\"width:90%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 1540,
         "y": 200,
@@ -83220,7 +83191,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/air.png\" style=\"width:87%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <center><img src=\"http://localhost:1880/swcpro-images/Air_sin_fondo.png\" style=\"width:87%;height = 100%\"><center>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera /\n        -webkit-user-select: none;\n        / Safari /\n        -khtml-user-select: none;\n        / Konqueror HTML /\n        -moz-user-select: none;\n        / Firefox /\n        -ms-user-select: none;\n        / Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 1530,
         "y": 240,
@@ -94922,6 +94893,54 @@
             [],
             [
                 "01bf2e6e63b6b177"
+            ]
+        ]
+    },
+    {
+        "id": "8d1b0cbfbcc8779c",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Cálculo Maximo y minimo Dinagrama",
+        "func": "var Desp = [36.79375120997429, 33.42363402247429, 33.42363402247429, 30.25175902247429, 29.26054808497429, 28.26933714747429, 25.69218870997429, 23.452051386237144, 23.551172479987144, 20.974024042487144, 19.883692011237144, 18.396875604987144, 17.504785761237144, 16.414453729987144, 15.225000604987144, 13.440820917487144, 12.172070614993572, 11.081738583743572, 11.032178036868572, 10.040967099368572, 9.247998349368572, 6.869092099368572, 7.216015927493572, 6.670849911868572, 6.061255034059286, 4.103613432496786, 5.912573393434286, 3.166919020935893, 3.484106596559286, 3.310644682496786, 1.704882888123393, 1.804003981873393, 2.807605056092143, 3.409765776246786, 2.311999587342143, 2.411120681092143, 1.704882888123393, 2.287219313904643, 3.043017653748393, 2.609362868592143, 2.881945876404643, 4.500097807496786, \n3.608007963746786, 4.896582182496786, 4.896582182496786, 4.029272612184286, 7.067334286868572, 6.968213193118572, 7.067334286868572, 9.545361630618572, 9.941846005618572, 11.478222958743572, 11.527783505618572, 12.172070614993572, 14.432031854987144, 16.017969354987144, 16.216211542487144, 18.198633417487144, 19.883692011237144, 21.370508417487144, 22.559961542487144, 24.145899042487144, 25.037988886237144, 27.67461058497429, 29.26054808497429, 31.24296995997429, 31.44121214747429, 34.61308714747429, 35.60429808497429, 38.77617308497429, 40.75859495997429, 40.95683714747429, 44.72343870997429, 45.71464964747429, 48.29179808497429, 51.38437741994858, 51.78086179494858, 54.95273679494858, 57.72812741994858, 58.52109616994858, 60.90000241994858, 62.48593991994858, 64.86484616994858, 68.43320554494858, 70.41562741994858, \n71.20859616994858, 73.58750241994858, 75.96640866994858, 78.34531491994858, 79.93125241994858, 81.91367429494858, 84.29258054494858, 87.46445554494858, 88.65390866994858, 90.63633054494858, 92.61875241994858, 93.80820554494858, 96.18711179494858, 98.56601804494858, 99.35898679494858, 101.97578608989716, 104.35469233989716, 105.94062983989716, 106.73359858989716, 109.11250483989716, 109.90547358989716, 111.49141108989716, 113.87031733989716, 116.24922358989716, 116.24922358989716, 120.21406733989716, 119.42109858989716, 121.80000483989716, 123.38594233989716, 124.17891108989716, 126.55781733989716, 126.55781733989716, 128.14375483989716, 129.72969233989716, 130.52266108989716, 132.10859858989716, 132.90156733989716, 132.90156733989716, 136.07344233989716, 137.65937983989716, 137.65937983989716, 139.24531733989716, \n140.03828608989716, 139.24531733989716, 141.62422358989716, 142.41719233989716, 142.41719233989716, 144.79609858989716, 143.21016108989716, 144.79609858989716, 147.17500483989716, 146.38203608989716, 147.17500483989716, 147.96797358989716, 148.76094233989716, 148.76094233989716, 149.55391108989716, 148.76094233989716, 151.13984858989716, 151.13984858989716, 151.13984858989716, 151.13984858989716, 151.13984858989716, 152.72578608989716, 152.72578608989716, 152.72578608989716, 151.13984858989716, 152.72578608989716, 153.51875483989716, 153.51875483989716, 153.51875483989716, 151.93281733989716, 152.72578608989716, 153.51875483989716, 151.93281733989716, 152.72578608989716, 151.93281733989716, 150.34687983989716, 151.93281733989716, 150.34687983989716, 149.55391108989716, 149.55391108989716, 149.55391108989716, \n148.76094233989716, 147.17500483989716, 147.17500483989716, 146.38203608989716, 147.17500483989716, 145.58906733989716, 144.00312983989716, 143.21016108989716, 142.41719233989716, 142.41719233989716, 139.24531733989716, 139.24531733989716, 139.24531733989716, 137.65937983989716, 136.07344233989716, 135.28047358989716, 132.10859858989716, 132.90156733989716, 131.31562983989716, 129.72969233989716, 128.14375483989716, 126.55781733989716, 124.97187983989716, 124.17891108989716, 121.80000483989716, 117.83516108989716, 117.04219233989716, 113.87031733989716, 113.07734858989716, 111.49141108989716, 110.69844233989716, 109.11250483989716, 106.73359858989716, 103.56172358989716, 102.76875483989716, 99.75547116994858, 99.35898679494858, 96.58359616994858, 93.80820554494858, 91.03281491994858, 91.82578366994858, 89.05039304494858, \n85.48203366994858, 84.68906491994858, 81.91367429494858, 80.72422116994858, 78.74179929494858, 75.96640866994858, 73.98398679494858, 73.58750241994858, 69.62265866994858, 67.64023679494858, 66.45078366994858, 63.67539304494858, 62.88242429494858, 59.71054929494858, 58.12461179494858, 56.14218991994858, 55.74570554494858, 52.57383054494858, 50.98789304494858, 49.08476683497429, 46.11113402247429, 45.51640745997429, 42.74101683497429, 40.95683714747429, 38.37968870997429, 38.37968870997429, 35.20781370997429, 34.01836058497429, 33.02714964747429, 28.86406370997429, 28.26933714747429, 28.07109495997429, 25.037988886237144, 24.443262323737144, 23.749414667487144, 21.172266229987144, 20.081934198737144, 18.000391229987144, 16.910059198737144, 16.711817011237144, 15.423242792487144, 13.341699823737144, 12.667676083743572, \n10.883496396243572, 10.487012021243572, 9.446240536868572, 7.711621396243572, 7.116894833743572, 6.769971005618572, 5.317846830934286, 5.565649565309286, 5.838232573121786, 3.335424955934286, 4.004492338746786, 3.409765776246786, 3.434546049684286, 3.236303862184286, 2.708483962342143, 3.236303862184286, 3.533667143434286, 3.117358474060893, 2.051806716248393, 2.200488356873393, 2.807605056092143, 3.608007963746786, 3.360205229371786, 2.733264235779643, 3.731909330934286, 4.524878080934286, 4.425756987184286, 5.317846830934286, 5.664770659059286, 6.259497221559286, 7.265576474368572, 8.504590146243572, 7.711621396243572, 9.099316708743572, 11.180859677493572, 11.478222958743572, 12.023388974368572, 14.134668573737144, 15.026758417487144, 16.910059198737144, 18.595117792487144, 19.189844354987144, 20.874902948737144, \n22.659082636237144, 24.046777948737144, 26.48515745997429, 27.87285277247429, 28.86406370997429, 32.43242308497429, 33.22539183497429, 34.21660277247429, 36.79375120997429, 37.98320433497429, 40.75859495997429, 42.74101683497429, 45.11992308497429, 46.30937620997429, 49.48125120997429, 51.38437741994858, 53.36679929494858, 56.14218991994858, 57.33164304494858, 59.71054929494858, 62.48593991994858, 64.46836179494858, 66.45078366994858, 69.62265866994858, 71.20859616994858, 72.00156491994858, 75.56992429494858, 75.96640866994858, 79.93125241994858, 81.51718991994858, 82.70664304494858, 85.87851804494858, 87.46445554494858, 88.65390866994858, 92.61875241994858, 92.22226804494858, 94.99765866994858, 97.37656491994858, 99.75547116994858, 100.54843991994858, 101.97578608989716, 103.56172358989716, 106.73359858989716, \n107.52656733989716, 109.11250483989716, 111.49141108989716, 112.28437983989716, 114.66328608989716, 117.04219233989716, 117.04219233989716, 119.42109858989716, 121.00703608989716, 122.59297358989716, 122.59297358989716, 124.97187983989716, 125.76484858989716, 128.14375483989716, 128.93672358989716, 130.52266108989716, 131.31562983989716, 132.10859858989716, 132.90156733989716, 134.48750483989716, 135.28047358989716, 136.86641108989716, 140.03828608989716, 138.45234858989716, 140.03828608989716, 140.83125483989716, 140.83125483989716, 144.00312983989716, 143.21016108989716, 144.00312983989716, 145.58906733989716, 145.58906733989716, 146.38203608989716, 147.17500483989716, 146.38203608989716, 148.76094233989716, 148.76094233989716, 149.55391108989716, 149.55391108989716, 149.55391108989716, 150.34687983989716, \n151.13984858989716, 151.13984858989716, 151.13984858989716, 150.34687983989716, 151.93281733989716, 152.72578608989716, 151.93281733989716, 151.93281733989716, 152.72578608989716, 153.51875483989716, 152.72578608989716, 151.93281733989716, 153.51875483989716, 152.72578608989716, 151.93281733989716, 152.72578608989716, 151.13984858989716, 151.93281733989716, 151.93281733989716, 151.13984858989716, 151.13984858989716, 149.55391108989716, 149.55391108989716, 149.55391108989716, 147.17500483989716, 147.96797358989716, 148.76094233989716, 146.38203608989716, 145.58906733989716, 144.79609858989716, 143.21016108989716, 142.41719233989716, 142.41719233989716, 140.03828608989716, 140.03828608989716, 138.45234858989716, 137.65937983989716, 136.86641108989716, 135.28047358989716];//Vector desplazamiento\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar VDesplazamiento = global.get(\"IO.Dinagrama.VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar Contador = context.get(\"Contador\",\"memoryOnly\")||0;//Contador para empezar y terminar el analisis de datos\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\", \"memoryOnly\") || 0;//Pausa de la toma de datos del PLC\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\",\"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\");\n\nvar PosVdesmin = 0;\nvar PosVdesmayor = 0;\n\nvar Max_Desp = 0;\nvar Min_Desp = 0;\n\nMax_Desp = Desp[Nmuestras];\nMin_Desp = Desp[Nmuestras];\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\n\nfor (var i = 0; i < Nmuestras; i++) {\n    Contador = Contador + 1;\n    if (Desp[i + Nmuestras] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = Desp[i + Nmuestras];\n        PosVdesmayor = i;\n\n    }\n    if (Desp[i + Nmuestras] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = Desp[i + Nmuestras];\n        PosVdesmin = i;\n        \n    }\n}\n\nnode.status({ fill: \"red\", shape: \"ring\", text: Nmuestras});\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo,\"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp,\"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp,\"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"Contador\", Contador, \"memoryOnly\");//Seteo el valor del contador\n\nfor (var j = 0; j < PosVdesmin; j++) {\n    VecDesCal[j] = Desp[OnCalculo - j];\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "var VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\n// Code added here will be run once\n// whenever the node is started.\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 4760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e28eb1fe2f7faf7",
+        "type": "inject",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 930,
+        "y": 4760,
+        "wires": [
+            [
+                "8d1b0cbfbcc8779c"
             ]
         ]
     }
