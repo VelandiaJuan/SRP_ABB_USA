@@ -2550,7 +2550,9 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139
+        "y": 139,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2567,7 +2569,9 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 109
+        "y": 79,
+        "w": 342,
+        "h": 142
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2599,7 +2603,9 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139
+        "y": 139,
+        "w": 642,
+        "h": 502
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2615,10 +2621,13 @@
             "6eaf6a1933c0c45b",
             "6749a4e697c2d46c",
             "883ee81095c908e3",
-            "75830853385c5165"
+            "75830853385c5165",
+            "8d91641ca1666f12"
         ],
-        "x": 34,
-        "y": 279
+        "x": 44,
+        "y": 239,
+        "w": 482,
+        "h": 122
     },
     {
         "id": "9648249e35aead30",
@@ -2638,7 +2647,9 @@
             "61905dd3d7cd7433"
         ],
         "x": 34,
-        "y": 379
+        "y": 379,
+        "w": 502,
+        "h": 122
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3663,7 +3674,9 @@
             "617d3424713f8c8e"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 1372,
+        "h": 202
     },
     {
         "id": "936eab7d97be78af",
@@ -3801,7 +3814,9 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 1444,
-        "y": 139
+        "y": 139,
+        "w": 772,
+        "h": 728
     },
     {
         "id": "d929d138.3b512",
@@ -5834,7 +5849,9 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 759
+        "y": 759,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -10944,9 +10961,9 @@
         "className": ""
     },
     {
-        "id": "f9eee84e460f9f59",
+        "id": "0a12dfc60225bd14",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "e5ec1549.1923c8",
         "order": 7,
@@ -10954,9 +10971,9 @@
         "height": 1
     },
     {
-        "id": "0a744941846b2454",
+        "id": "2bb10de24653b30c",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "e5ec1549.1923c8",
         "order": 12,
@@ -10964,9 +10981,9 @@
         "height": 1
     },
     {
-        "id": "bc8cf8e167309bb0",
+        "id": "8d90218e94f39a4e",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "e5ec1549.1923c8",
         "order": 14,
@@ -10974,9 +10991,9 @@
         "height": 1
     },
     {
-        "id": "60436a68b7bfbdd9",
+        "id": "1ba5509f20ac3ca6",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "e5ec1549.1923c8",
         "order": 17,
@@ -10984,9 +11001,9 @@
         "height": 1
     },
     {
-        "id": "208adf9159056d11",
+        "id": "f3cf6da105ca32e0",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "d4113fd9.a0bfc",
         "order": 1,
@@ -10994,9 +11011,9 @@
         "height": 1
     },
     {
-        "id": "50ae9b9ec740667f",
+        "id": "1955e27faac0694a",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "d4113fd9.a0bfc",
         "order": 3,
@@ -11004,9 +11021,9 @@
         "height": 1
     },
     {
-        "id": "06c5266910f70d05",
+        "id": "ab26b5c12ea9c9f6",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "2d559537.720c4a",
         "order": 1,
@@ -11014,9 +11031,9 @@
         "height": 1
     },
     {
-        "id": "4a6badc0babea4e5",
+        "id": "d58684a5c8a936ef",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "2d559537.720c4a",
         "order": 3,
@@ -11024,9 +11041,9 @@
         "height": 1
     },
     {
-        "id": "da612017b906d8b5",
+        "id": "eae5aa03d47745ab",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "f7aa27b.6c2ded8",
         "order": 5,
@@ -11034,9 +11051,9 @@
         "height": 1
     },
     {
-        "id": "6c6e1bb976a99b0c",
+        "id": "25109dc401ca2853",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "f7aa27b.6c2ded8",
         "order": 7,
@@ -11044,9 +11061,9 @@
         "height": 1
     },
     {
-        "id": "9c90b8644d7a07a4",
+        "id": "0a724475fb5d9c8e",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "1b027e16.1fc232",
         "order": 1,
@@ -11054,9 +11071,9 @@
         "height": 1
     },
     {
-        "id": "9047d8976f602c42",
+        "id": "0df5038ca2ba39a4",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "1b027e16.1fc232",
         "order": 6,
@@ -11064,9 +11081,9 @@
         "height": 1
     },
     {
-        "id": "48be07a0851301e0",
+        "id": "fcccf72ea95574cf",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "1b027e16.1fc232",
         "order": 11,
@@ -11074,9 +11091,9 @@
         "height": 1
     },
     {
-        "id": "31285c53095eb7b2",
+        "id": "fdfb3b071eb613ec",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "474271dc.04fa9",
         "order": 11,
@@ -11084,29 +11101,99 @@
         "height": 1
     },
     {
-        "id": "1269efdf09ca0d8d",
+        "id": "754589a9ddd2a6d0",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "26126cf5.7e87a4",
-        "order": 33,
+        "order": 3,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "07375753b00f712f",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 5,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "41409987a49f47c8",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cd37b8c9c0403109",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4909497dc37cd798",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9d9dff1cc0decbf4",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "48650a11ffe441ba",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 25,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "63a2449aa554c34e",
+        "type": "ui_spacer",
+        "z": "6a1ef6a7aef873a7",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 31,
         "width": 4,
         "height": 1
     },
     {
-        "id": "04f5712e36eac3ec",
+        "id": "32e9bc4268a2d8ec",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "26126cf5.7e87a4",
-        "order": 34,
+        "order": 32,
         "width": 4,
         "height": 1
     },
     {
-        "id": "b099e73939cb09c1",
+        "id": "a481173ac7f212f5",
         "type": "ui_spacer",
-        "z": "902fc438.e5d758",
+        "z": "6a1ef6a7aef873a7",
         "name": "spacer",
         "group": "4f5b8416.cada1c",
         "order": 7,
@@ -18473,7 +18560,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 35,
+        "order": 26,
         "width": 0,
         "height": 0,
         "name": "TItulo Sensorless",
@@ -19097,7 +19184,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 23,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "Presión Entrada",
@@ -19162,7 +19249,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 24,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "Presión Descarga",
@@ -19227,7 +19314,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 25,
+        "order": 15,
         "width": 3,
         "height": 2,
         "name": "Temp. Entrada",
@@ -19292,7 +19379,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 26,
+        "order": 18,
         "width": 3,
         "height": 2,
         "name": "Temp. Descarga",
@@ -19357,7 +19444,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 14,
+        "order": 12,
         "width": 3,
         "height": 2,
         "name": "Temp. Motor",
@@ -19422,7 +19509,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 29,
+        "order": 19,
         "width": 3,
         "height": 2,
         "name": "Vibración X",
@@ -19466,7 +19553,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 30,
+        "order": 20,
         "width": 3,
         "height": 2,
         "name": "Vibración Z",
@@ -19552,7 +19639,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 31,
+        "order": 21,
         "width": 3,
         "height": 2,
         "name": "Corriente Fuga",
@@ -19638,7 +19725,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 32,
+        "order": 22,
         "width": 3,
         "height": 2,
         "name": "Presión THP",
@@ -19682,7 +19769,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 12,
+        "order": 11,
         "width": 3,
         "height": 2,
         "name": "Temp. THT",
@@ -19747,7 +19834,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 36,
+        "order": 27,
         "width": 3,
         "height": 2,
         "name": "Presión entrada",
@@ -19812,7 +19899,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 37,
+        "order": 28,
         "width": 3,
         "height": 2,
         "name": "Nivel Fluido Dinámico",
@@ -19877,7 +19964,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 38,
+        "order": 29,
         "width": 3,
         "height": 2,
         "name": "Sumergencia",
@@ -19942,7 +20029,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 39,
+        "order": 30,
         "width": 3,
         "height": 2,
         "name": "Caudal",
@@ -84642,7 +84729,7 @@
             "ecf98f3f.4a704"
         ],
         "x": 85,
-        "y": 190,
+        "y": 160,
         "wires": [
             [
                 "57d96f9647eeba77"
@@ -84671,7 +84758,7 @@
         "repair": false,
         "outputs": 2,
         "x": 180,
-        "y": 190,
+        "y": 160,
         "wires": [
             [
                 "832a31d3f59bf4df"
@@ -84694,7 +84781,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS1.png\" style=\"width:75%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 310,
-        "y": 150,
+        "y": 120,
         "wires": [
             []
         ]
@@ -84712,7 +84799,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/DHS2.png\" style=\"width:75%;\">\n            </div>\n        </div>\n    </div>\n\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "output": "str",
         "x": 310,
-        "y": 210,
+        "y": 180,
         "wires": [
             []
         ]
@@ -84724,7 +84811,7 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 6,
+        "order": 8,
         "width": 3,
         "height": 3,
         "gtype": "donut",
@@ -84752,7 +84839,7 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 8,
+        "order": 10,
         "width": 4,
         "height": 3,
         "gtype": "wave",
@@ -84780,7 +84867,7 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 5,
+        "order": 7,
         "width": 3,
         "height": 3,
         "gtype": "donut",
@@ -84808,7 +84895,7 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 7,
+        "order": 9,
         "width": 3,
         "height": 3,
         "gtype": "donut",
@@ -84836,7 +84923,7 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 4,
+        "order": 6,
         "width": 3,
         "height": 3,
         "gtype": "donut",
@@ -85043,9 +85130,9 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Fondo',\n                    autosize: false,\n                    width: 620,\n                    height: 420,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo1\" onclick=\"myFunctionSuperficie()\">Mostrar</div>\n     <div id='myDiv1'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunctionSuperficie() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Fondo',\n                    autosize: false,\n                    width: 620,\n                    height: 420,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data2 = [trace1,trace2];\n                Plotly.newPlot('myDiv1', data2,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 290,
+        "x": 310,
         "y": 320,
         "wires": [
             [
@@ -85065,7 +85152,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 170,
+        "x": 190,
         "y": 320,
         "wires": [
             [
@@ -85103,7 +85190,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x\" ng-bind-html=\"msg.x\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y\" ng-bind-html=\"msg.y\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Superficie',\n                    autosize: false,\n                    width: 720,\n                    height: 520,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n    \n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"x1\" ng-bind-html=\"msg.x1\" style=\"display:none\"></div>\n    {{!-- <div id=\"xvisual\" ng-bind-html=\"msg.x\" ></div> --}}\n    <div id=\"y1\" ng-bind-html=\"msg.y1\" style=\"display:none\"></div>\n    <div id=\"demo\" onclick=\"myFunction()\">Mostrar</div>\n     <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n     <script>\n            function myFunction() {\n                var x = document.getElementById(\"x1\").innerHTML;//adquision de data desde nodered\n                var y = document.getElementById(\"y1\").innerHTML;//adquision de data desde nodered\n                var x1 = x.split(\",\")\n                var y1 = y.split(\",\")\n                for(i = 0; i < x1.length; i++) {\n                    x1[i] = Redondeo(x1[i]);\n                    y1[i] = Redondeo(y1[i]);\n                }\n\n                var trace1  = {\n                    x: x1,\n                    y: y1,\n                    name: 'Dynagrama',\n                    type: 'scatter'\n                };\n                var trace2  = {\n                    x: [40],\n                    y: [2],\n                    name: 'Pump Off',\n                    mode: 'scatter'\n                };\n                var layout = {\n                    title: 'Dinagrama de Superficie',\n                    autosize: false,\n                    width: 720,\n                    height: 520,\n                    yaxis: {\n                        title: 'Carga [Klb]',\n                        tickmode: 'array',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n\n                    xaxis: {\n                        title: 'Posición [in]',\n                        automargin: true,\n                        titlefont: { size:12 },\n                    },\n                    images: [\n                            {\n                                source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                                xref: \"paper\",\n                                yref: \"paper\",\n                                sizing: \"stretch\",\n                                x: 0.25,\n                                y: 0,\n                                sizex: 0.6,\n                                sizey: 1,\n                                opacity: 0.1,\n                                xanchor: \"left\",\n                                yanchor: \"bottom\"\n                            }],\n                };\n\n                var data = [trace1,trace2];\n                Plotly.newPlot('myDiv2', data,layout);\n                \n                //document.getElementById(\"demo\").innerHTML = x1[1];\n                // alert(\"Calculo Completo\");\n                // funciones utilizadas\n                function Redondeo(x) {\n                    return Number.parseFloat(x).toFixed(2);\n                }\n            }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 300,
         "y": 460,
@@ -85119,7 +85206,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "9648249e35aead30",
         "name": "Data",
-        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    msg.x = Desp_CD;\n    msg.y = Esfu_CD;\n    // variables de monitoreo\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n",
+        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    msg.x1 = Desp_CD;\n    msg.y1 = Esfu_CD;\n    // variables de monitoreo\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -85182,13 +85269,14 @@
         "name": "Downhole",
         "order": 2,
         "width": 10,
-        "height": 4,
+        "height": 3,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 420,
+        "className": "",
+        "x": 440,
         "y": 320,
         "wires": [
             []
@@ -85201,9 +85289,9 @@
         "g": "9648249e35aead30",
         "group": "26126cf5.7e87a4",
         "name": "Surface",
-        "order": 3,
+        "order": 4,
         "width": 10,
-        "height": 4,
+        "height": 3,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -85380,7 +85468,7 @@
             "ad87cee4.7dbb5",
             "d3280befce20327a"
         ],
-        "x": 75,
+        "x": 95,
         "y": 320,
         "wires": [
             [
@@ -96543,5 +96631,35 @@
         "x": 1245,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "8d91641ca1666f12",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9d4d96338ab627d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "6749a4e697c2d46c"
+            ]
+        ]
     }
 ]
