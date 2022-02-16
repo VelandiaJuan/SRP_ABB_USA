@@ -781,49 +781,6 @@
         "color": "#DDAA99"
     },
     {
-        "id": "69561d032aa16e52",
-        "type": "subflow",
-        "name": "Drive Reference (2)",
-        "info": "",
-        "category": "VSD",
-        "in": [
-            {
-                "x": 120,
-                "y": 50,
-                "wires": [
-                    {
-                        "id": "9930ab1fb0cdcf27"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 520,
-                "y": 190,
-                "wires": [
-                    {
-                        "id": "73d74b479750403d",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "color": "#E9967A",
-        "icon": "node-red-dashboard/ui_gauge.png",
-        "status": {
-            "x": 280,
-            "y": 140,
-            "wires": [
-                {
-                    "id": "9930ab1fb0cdcf27",
-                    "port": 0
-                }
-            ]
-        }
-    },
-    {
         "id": "1d0c3cb2.7129f3",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -969,9 +926,7 @@
             "f1f7bfacfe0754bf"
         ],
         "x": 34,
-        "y": 479,
-        "w": 2312,
-        "h": 472
+        "y": 479
     },
     {
         "id": "3cb51855.a66038",
@@ -991,9 +946,7 @@
             "1a154fa903ebee99"
         ],
         "x": 134,
-        "y": 1299,
-        "w": 252,
-        "h": 162
+        "y": 1299
     },
     {
         "id": "27a0641a.d154dc",
@@ -1704,9 +1657,7 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1579,
-        "w": 352,
-        "h": 82
+        "y": 1579
     },
     {
         "id": "6202107f.ed9aa",
@@ -1785,9 +1736,7 @@
             "e3de878274ce24cf"
         ],
         "x": 4,
-        "y": -1,
-        "w": 1982,
-        "h": 402
+        "y": -1
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1804,9 +1753,7 @@
             "f7709059ebe5ad7b"
         ],
         "x": 568,
-        "y": 1373,
-        "w": 1970,
-        "h": 1600
+        "y": 1373
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1822,9 +1769,7 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1479,
-        "w": 342,
-        "h": 82
+        "y": 1479
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1846,9 +1791,7 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1504,
-        "y": 1169,
-        "w": 852,
-        "h": 182
+        "y": 1169
     },
     {
         "id": "086b9d08c3b68939",
@@ -1876,9 +1819,7 @@
             "b92133a225df4eec"
         ],
         "x": 34,
-        "y": 959,
-        "w": 732,
-        "h": 242
+        "y": 959
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1903,9 +1844,7 @@
             "03894c480a20a7a9"
         ],
         "x": 1094,
-        "y": 959,
-        "w": 1192,
-        "h": 202
+        "y": 959
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -2046,9 +1985,7 @@
             "fd43d65633c388cf"
         ],
         "x": 534,
-        "y": 2999,
-        "w": 752,
-        "h": 182
+        "y": 2999
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -2092,9 +2029,7 @@
             "d6ca01c917296363"
         ],
         "x": 14,
-        "y": 1679,
-        "w": 532,
-        "h": 142
+        "y": 1739
     },
     {
         "id": "38940f8.c9c27f",
@@ -2917,7 +2852,9 @@
             "9cb566be14be4060"
         ],
         "x": 634,
-        "y": 999
+        "y": 999,
+        "w": 432,
+        "h": 132
     },
     {
         "id": "fa68cb522043bed1",
@@ -2941,7 +2878,9 @@
             "d95d0ae25825177b"
         ],
         "x": 2464,
-        "y": 769
+        "y": 769,
+        "w": 882,
+        "h": 232
     },
     {
         "id": "4480d2547a3f02e0",
@@ -2957,7 +2896,9 @@
             "57ccf1af5a106c28"
         ],
         "x": 1274,
-        "y": 999
+        "y": 999,
+        "w": 262,
+        "h": 132
     },
     {
         "id": "9d54c7684f04a523",
@@ -2986,7 +2927,9 @@
             "f1061637b25eb532"
         ],
         "x": 64,
-        "y": 1279
+        "y": 1279,
+        "w": 1432,
+        "h": 242
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -3002,7 +2945,9 @@
             "c01c2da340bbf3a1"
         ],
         "x": 2458,
-        "y": 43
+        "y": 43,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -3020,7 +2965,9 @@
             "c6f8d8e686067132"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "b8e082fda165bb76",
@@ -3037,7 +2984,9 @@
             "6f459d776c596048"
         ],
         "x": 64,
-        "y": 1539
+        "y": 1539,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "0505ed1dd4a2eb61",
@@ -3063,7 +3012,9 @@
             "e46870dbfe3102c7"
         ],
         "x": 64,
-        "y": 1139
+        "y": 1139,
+        "w": 1032,
+        "h": 132
     },
     {
         "id": "88e4ff080edb1a83",
@@ -3085,7 +3036,9 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33
+        "y": 33,
+        "w": 2374,
+        "h": 924
     },
     {
         "id": "1321aadfd66f841c",
@@ -3107,7 +3060,9 @@
             "9bfa4bee958f0cb2"
         ],
         "x": 1114,
-        "y": 1139
+        "y": 1139,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3134,9 +3089,7 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 1334,
-        "y": 2999,
-        "w": 752,
-        "h": 202
+        "y": 2999
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -3798,6 +3751,39 @@
         "y": 579
     },
     {
+        "id": "a97cd0a5989cf9c4",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Sensor Less Calculo de Variables de Fondo",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "db03a3ea50e9e52d",
+            "215a7aad1a85b06f",
+            "90203260b3c58249",
+            "846e2857e23dcb89",
+            "a9565a0c21e1acf6",
+            "995585bac085cad4",
+            "4ad9f70702942fda",
+            "dc16a5d073255fcb",
+            "a2c027f12fcf8e2e",
+            "fbaeb64dd8975b79",
+            "9ffaf7bd2852fead",
+            "e9997c2ef7dec764",
+            "63af779617bfc722",
+            "97e1995c643a5db2",
+            "8a0ba091b9527306",
+            "b83e6a469a416bca",
+            "504a9190c56704f4",
+            "b6f3ea51d122b4cc"
+        ],
+        "x": 1444,
+        "y": 139,
+        "w": 772,
+        "h": 728
+    },
+    {
         "id": "d929d138.3b512",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -4141,9 +4127,7 @@
             "9708fb7ce60bdd70"
         ],
         "x": 594,
-        "y": 1399,
-        "w": 772,
-        "h": 702
+        "y": 1399
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4157,12 +4141,14 @@
         },
         "nodes": [
             "36fa9c99094e8f47",
-            "aafad2ba.dcc8b"
+            "aafad2ba.dcc8b",
+            "41728952578e0a15",
+            "3babb4558f64e6f2",
+            "ac3bf42289226fe7",
+            "6180593531e9795d"
         ],
         "x": 618,
-        "y": 2533,
-        "w": 1894,
-        "h": 414
+        "y": 2479
     },
     {
         "id": "c483d44b5f6def10",
@@ -4210,9 +4196,7 @@
             "90fdc4810e9cd514"
         ],
         "x": 1454,
-        "y": 1419,
-        "w": 932,
-        "h": 942
+        "y": 1419
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5524,7 +5508,9 @@
             "a9919b9b93871d23"
         ],
         "x": 2484,
-        "y": 69
+        "y": 69,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5545,7 +5531,9 @@
             "fb25abef8d3f01a8"
         ],
         "x": 2484,
-        "y": 609
+        "y": 609,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5570,7 +5558,9 @@
             "7d7c0c54c65460cd"
         ],
         "x": 94,
-        "y": 339
+        "y": 339,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "0f959940f19ae52d",
@@ -5608,7 +5598,9 @@
             "7c434a7ec1d35114"
         ],
         "x": 94,
-        "y": 679
+        "y": 679,
+        "w": 1722,
+        "h": 252
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5627,7 +5619,6 @@
             "7e5d1cb7bb4c54f5",
             "f05aac442d810422",
             "713f091556405841",
-            "5ef3bdbfe4a76bad",
             "ddaf9fa46a36c320",
             "ef495f4295335748",
             "aa9cfe58683d2f5b",
@@ -5651,10 +5642,13 @@
             "26848c173c7186f5",
             "4440d9d968ef2a35",
             "e9f8c0cec85af3ea",
-            "08ae2886e24a50c3"
+            "08ae2886e24a50c3",
+            "cab3a90f117453c3"
         ],
         "x": 1084,
-        "y": 339
+        "y": 339,
+        "w": 1332,
+        "h": 322
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5703,7 +5697,9 @@
             "ccd62930877bc9e2"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 2092,
+        "h": 272
     },
     {
         "id": "8a07c803a203d64c",
@@ -5791,6 +5787,25 @@
         "y": 539
     },
     {
+        "id": "504a9190c56704f4",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a97cd0a5989cf9c4",
+        "name": "Test de Funcionalidad NodeRed",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "42f8ac5ac4518df4",
+            "f88bce3cfb57bc9b",
+            "f61ae4174f8cd899"
+        ],
+        "x": 1474,
+        "y": 759,
+        "w": 492,
+        "h": 82
+    },
+    {
         "id": "aafad2ba.dcc8b",
         "type": "group",
         "z": "902fc438.e5d758",
@@ -5820,9 +5835,7 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 1234,
-        "y": 2679,
-        "w": 1252,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5848,9 +5861,7 @@
             "7578d16bf9d408ae"
         ],
         "x": 644,
-        "y": 2559,
-        "w": 572,
-        "h": 362
+        "y": 2559
     },
     {
         "id": "742e267a.cbc27",
@@ -6923,58 +6934,6 @@
         ],
         "x": 614,
         "y": 689
-    },
-    {
-        "id": "a97cd0a5989cf9c4",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Sensor Less Calculo de Variables de Fondo",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "db03a3ea50e9e52d",
-            "215a7aad1a85b06f",
-            "90203260b3c58249",
-            "846e2857e23dcb89",
-            "a9565a0c21e1acf6",
-            "995585bac085cad4",
-            "4ad9f70702942fda",
-            "dc16a5d073255fcb",
-            "a2c027f12fcf8e2e",
-            "fbaeb64dd8975b79",
-            "9ffaf7bd2852fead",
-            "e9997c2ef7dec764",
-            "63af779617bfc722",
-            "97e1995c643a5db2",
-            "8a0ba091b9527306",
-            "b83e6a469a416bca",
-            "504a9190c56704f4",
-            "b6f3ea51d122b4cc"
-        ],
-        "x": 1444,
-        "y": 139,
-        "w": 772,
-        "h": 728
-    },
-    {
-        "id": "504a9190c56704f4",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "g": "a97cd0a5989cf9c4",
-        "name": "Test de Funcionalidad NodeRed",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "42f8ac5ac4518df4",
-            "f88bce3cfb57bc9b",
-            "f61ae4174f8cd899"
-        ],
-        "x": 1474,
-        "y": 759,
-        "w": 492,
-        "h": 82
     },
     {
         "id": "d25d405a.19cff",
@@ -9769,216 +9728,6 @@
         "height": 1
     },
     {
-        "id": "b74d2d196a34559e",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9c5a3e960ab0609c",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a0162c40dd304c4b",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 14,
-        "width": 7,
-        "height": 1
-    },
-    {
-        "id": "c29fa189c0811c37",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "e5ec1549.1923c8",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b2b4ea59c6c90d29",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a239baac90721275",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "d4113fd9.a0bfc",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "39a6d55deca9da2d",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d742972d570e9616",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "2d559537.720c4a",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "138c3fa8d9262be3",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c7b10e2e61e6e67e",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "f7aa27b.6c2ded8",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "274576eea5231de9",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "474271dc.04fa9",
-        "order": 11,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "8c8b840a9eb4efaa",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "d8c3b46385f0883d",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "19bc716abb36db1c",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "d9de7b7a0210c590",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 14,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "934ba759453e52d2",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 15,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "3ae1a9c85b614aae",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 17,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d00eda84febf1798",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 22,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "892420ba8d346f50",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 23,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "bb6d9c54aab89e95",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "26126cf5.7e87a4",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8b7631c300b7e1b9",
-        "type": "ui_spacer",
-        "z": "902fc438.e5d758",
-        "name": "spacer",
-        "group": "4f5b8416.cada1c",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "084f8687725c0763",
         "type": "ui_spacer",
         "z": "f628d2416976df44",
@@ -11127,6 +10876,246 @@
         "width": "16",
         "collapse": false,
         "className": ""
+    },
+    {
+        "id": "ec57e8afe2cb0dea",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "742f52d79c6a2e59",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1df873fcb46cc5a6",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "a69f5e458ab59fea",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "531f2933d9671715",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fcabb4f119135d57",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "575461d1a68854f9",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "56887e932dcfd744",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "b38615a0c4893171",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7db9f2f08a693dde",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "02e7593e664fa8d0",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "2d146a407816445b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 6,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "52e0f04aba69fcf1",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 11,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "6102f45d67062317",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "474271dc.04fa9",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "380bc59581e177d1",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "fe032073f2146fde",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "025320f934d43426",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "add40cbc8c744223",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9a67647a9e6b5778",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e021cfbb9e22415b",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1f38cf1dc1b775e8",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "48c9ba7d99eee3eb",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "393488c4afb8f38c",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "26126cf5.7e87a4",
+        "order": 24,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4913d685b4934153",
+        "type": "ui_spacer",
+        "z": "902fc438.e5d758",
+        "name": "spacer",
+        "group": "4f5b8416.cada1c",
+        "order": 7,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "8c24ec8f.cf43c",
@@ -13161,201 +13150,6 @@
         "y": 80,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "d0cb7f0a0b69f665",
-        "type": "pccc out",
-        "z": "69561d032aa16e52",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "PF755T_SpeedReference",
-        "name": "",
-        "x": 620,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "df1031865828749e",
-        "type": "function",
-        "z": "69561d032aa16e52",
-        "name": "Scale",
-        "func": "msg.payload = Math.abs(msg.payload);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 390,
-        "y": 60,
-        "wires": [
-            [
-                "9c4e09f58ae9412d",
-                "d0cb7f0a0b69f665"
-            ]
-        ]
-    },
-    {
-        "id": "6c7fc26a6cacf74c",
-        "type": "change",
-        "z": "69561d032aa16e52",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "C2S.Last_Reference.Source",
-                "pt": "global",
-                "to": "Topic",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "73d74b479750403d",
-        "type": "complete",
-        "z": "69561d032aa16e52",
-        "name": "",
-        "scope": [
-            "d0cb7f0a0b69f665"
-        ],
-        "uncaught": false,
-        "x": 410,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3e0e989e4825d2b5",
-        "type": "function",
-        "z": "69561d032aa16e52",
-        "name": "Sts Ref",
-        "func": "var Commanded_SpdRef    = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\",\"memoryOnly\")||0)).toFixed(1));\nvar Reference           = parseFloat(msg.payload.toFixed(1));\n\nif (Commanded_SpdRef == Reference)\n    msg.verify=1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 560,
-        "y": 140,
-        "wires": [
-            [
-                "64a53d93d4d5761e"
-            ]
-        ]
-    },
-    {
-        "id": "64a53d93d4d5761e",
-        "type": "switch",
-        "z": "69561d032aa16e52",
-        "name": "send ref?",
-        "property": "verify",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 700,
-        "y": 140,
-        "wires": [
-            [
-                "6c7fc26a6cacf74c",
-                "3f3da9035b469e01"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "9c4e09f58ae9412d",
-        "type": "delay",
-        "z": "69561d032aa16e52",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2.5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 410,
-        "y": 140,
-        "wires": [
-            [
-                "3e0e989e4825d2b5"
-            ]
-        ]
-    },
-    {
-        "id": "3f3da9035b469e01",
-        "type": "change",
-        "z": "69561d032aa16e52",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "C2S.Last_Reference.Value",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 930,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9930ab1fb0cdcf27",
-        "type": "switch",
-        "z": "69561d032aa16e52",
-        "name": "number",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "istype",
-                "v": "number",
-                "vt": "number"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 230,
-        "y": 60,
-        "wires": [
-            [
-                "df1031865828749e"
-            ]
         ]
     },
     {
@@ -17110,7 +16904,7 @@
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 370,
+        "x": 330,
         "y": 1160,
         "wires": [
             [
@@ -17598,7 +17392,8 @@
         "y": 2740,
         "wires": [
             [
-                "105d7cf5310d3d86"
+                "105d7cf5310d3d86",
+                "6180593531e9795d"
             ]
         ]
     },
@@ -18070,7 +17865,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 11,
+        "order": 14,
         "width": 4,
         "height": 2,
         "name": "",
@@ -18087,7 +17882,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 12,
+        "order": 15,
         "width": 4,
         "height": 2,
         "name": "",
@@ -18428,7 +18223,7 @@
         "topic": "",
         "payloadType": "date",
         "x": 110,
-        "y": 1720,
+        "y": 1780,
         "wires": [
             [
                 "83023dd30811818a"
@@ -18447,7 +18242,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 90,
+        "x": 230,
         "y": 1780,
         "wires": [
             [
@@ -18516,7 +18311,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 210,
+        "x": 350,
         "y": 1780,
         "wires": [
             [
@@ -18722,7 +18517,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 1,
+        "order": 2,
         "width": 4,
         "height": 2,
         "name": "Frecuencia Salida",
@@ -18785,7 +18580,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 2,
+        "order": 3,
         "width": 4,
         "height": 2,
         "name": "Porcentaje Velocidad",
@@ -18828,7 +18623,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 3,
+        "order": 4,
         "width": 4,
         "height": 2,
         "name": "Factor Potencia",
@@ -18871,7 +18666,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 4,
+        "order": 5,
         "width": 4,
         "height": 2,
         "name": "Corriente Salida",
@@ -18914,7 +18709,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 5,
+        "order": 7,
         "width": 4,
         "height": 2,
         "name": "Bus DC",
@@ -18977,11 +18772,11 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 6,
+        "order": 8,
         "width": 4,
         "height": 2,
         "name": "Tensión Motor",
-        "label": "Tensión Motor",
+        "label": "Voltaje de Motor",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -19040,7 +18835,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 7,
+        "order": 9,
         "width": 4,
         "height": 2,
         "name": "Potencia",
@@ -19103,11 +18898,11 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 8,
+        "order": 10,
         "width": 4,
         "height": 2,
         "name": "Tensión Salida",
-        "label": "Tensión Salida",
+        "label": "Voltaje de salida",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -19186,7 +18981,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 9,
+        "order": 12,
         "width": 4,
         "height": 2,
         "name": "Corriente Motor",
@@ -19266,7 +19061,7 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "group": "1b027e16.1fc232",
-        "order": 10,
+        "order": 13,
         "width": 4,
         "height": 2,
         "name": "Temp. Drive",
@@ -20972,6 +20767,88 @@
         "x": 575,
         "y": 1120,
         "wires": []
+    },
+    {
+        "id": "6180593531e9795d",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "f7709059ebe5ad7b",
+        "name": "Lectura PQA",
+        "func": "var PQM_Cluster = global.get(\"Cluster.PQM\",\"memoryOnly\")||[];\n// Lectura de valores de voltaje L1,L2,L3 respecto a neutro\nmsg.VL1N = global.get(\"PQA.Real_Time_Parameters.Phase_1_Voltage\", 'memoryOnly') || 0;\nmsg.VL1N = msg.VL1N.toFixed(2);\nmsg.VL2N = global.get(\"PQA.Real_Time_Parameters.Phase_2_Voltage\", 'memoryOnly') || 0;\nmsg.VL2N = msg.VL2N.toFixed(2);\nmsg.VL3N = global.get(\"PQA.Real_Time_Parameters.Phase_3_Voltage\", 'memoryOnly') || 0;\nmsg.VL3N = msg.VL3N.toFixed(2);\n\n// Lectura de valores de voltaje L1-L2,L2-L3,L1-L3\nmsg.VL1L2 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_1_2\", 'memoryOnly') || 0;\nmsg.VL1L2 = msg.VL1L2.toFixed(2);\nmsg.VL2L3 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_2_3\", 'memoryOnly') || 0;\nmsg.VL2L3 = msg.VL2L3.toFixed(2);\nmsg.VL1L3 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_3_1\", 'memoryOnly') || 0;\nmsg.VL1L3 = msg.VL1L3.toFixed(2);\n\n// Lectura de valores de corriente L1,L2,L3\nmsg.CL1 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_A_Current\", 'memoryOnly') || 0;\nmsg.CL1 = msg.CL1.toFixed(2);\nmsg.CL2 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_B_Current\", 'memoryOnly') || 0;\nmsg.CL2 = msg.CL2.toFixed(2);\nmsg.CL3 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_C_Current\", 'memoryOnly') || 0;\nmsg.CL3 = msg.CL3.toFixed(2);\n\n// Lectura de valores de potencia activa kW\nmsg.L1_kW = global.get(\"PQA.Real_Time_Parameters.Phase_A_Power\", 'memoryOnly') || 0;\nmsg.L1_kW = msg.L1_kW.toFixed(2);\nmsg.L2_kW = global.get(\"PQA.Real_Time_Parameters.Phase_B_Power\", 'memoryOnly') || 0;\nmsg.L2_kW = msg.L2_kW.toFixed(2);\nmsg.L3_kW = global.get(\"PQA.Real_Time_Parameters.Phase_C_Power\", 'memoryOnly') || 0;\nmsg.L3_kW = msg.L3_kW.toFixed(2);\n\n// Lectura de valores de potencia aparente kVA\nmsg.L1_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_A_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L1_kVA = msg.L1_kVA.toFixed(2);\nmsg.L2_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_B_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L2_kVA = msg.L2_kVA.toFixed(2);\nmsg.L3_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_C_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L3_kVA = msg.L3_kVA.toFixed(2);\n\n// Lectura de valores de potencia reactiva kVAR\nmsg.L1_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_A_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L1_kVAR = msg.L1_kVAR.toFixed(2);\nmsg.L2_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_B_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L2_kVAR = msg.L2_kVAR.toFixed(2);\nmsg.L3_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_C_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L3_kVAR = msg.L3_kVAR.toFixed(2);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 2520,
+        "wires": [
+            [
+                "ac3bf42289226fe7"
+            ]
+        ]
+    },
+    {
+        "id": "ac3bf42289226fe7",
+        "type": "template",
+        "z": "902fc438.e5d758",
+        "g": "f7709059ebe5ad7b",
+        "name": "SVG",
+        "field": "svg",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"100px\" x=\"510%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
+        "output": "str",
+        "x": 1010,
+        "y": 2520,
+        "wires": [
+            [
+                "3babb4558f64e6f2"
+            ]
+        ]
+    },
+    {
+        "id": "3babb4558f64e6f2",
+        "type": "template",
+        "z": "902fc438.e5d758",
+        "g": "f7709059ebe5ad7b",
+        "name": "Template",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9 mt-3\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 685 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 1160,
+        "y": 2520,
+        "wires": [
+            [
+                "41728952578e0a15"
+            ]
+        ]
+    },
+    {
+        "id": "41728952578e0a15",
+        "type": "ui_template",
+        "z": "902fc438.e5d758",
+        "g": "f7709059ebe5ad7b",
+        "group": "474271dc.04fa9",
+        "name": "",
+        "order": 12,
+        "width": 16,
+        "height": 5,
+        "format": "<div ng-bind-html=\"msg.payload|trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1320,
+        "y": 2520,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "825a31a31582b84f",
@@ -67160,7 +67037,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_Electric_Data\",\t                \"Principal_tendencia\",\t                \"Principal_Status_Bar\"\t       ],\t       \"hide\":[ \"Principal_C2S_Data\",\t                \"Principal_Downhole_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_Electric_Data\",\t                \"Principal_Status_Bar\"\t       ],\t       \"hide\":[ \"Principal_C2S_Data\",\t                \"Principal_Downhole_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\",\t                \"Principal_tendencia\"\t       ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -67201,7 +67078,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_C2S_Data\",\t                \"Principal_tendencia\",\t                \"Principal_Status_Bar\"\t       ],\t       \"hide\":[ \"Principal_Electric_Data\",\t                \"Principal_Downhole_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_C2S_Data\",\t                \"Principal_Status_Bar\"\t       ],\t       \"hide\":[ \"Principal_Electric_Data\",\t                \"Principal_Downhole_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\",\t                \"Principal_tendencia\"\t       ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -67255,7 +67132,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_Downhole_Data\",\t                \"Principal_tendencia\",\t                \"Principal_Status_Bar\"\t       ],\t       \"hide\":[ \"Principal_C2S_Data\",\t                \"Principal_Electric_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\"\t       ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"show\":[ \"Principal_Menu_Bar\",\t                \"Principal_Downhole_Data\",\t                \"Principal_tendencia\"                \t       ],\t       \"hide\":[ \"Principal_C2S_Data\",\t                \"Principal_Electric_Data\",\t                \"Principal_Commando_Arranque_Normal\",\t                \"Principal_Commando_Arranque_Escalonado\",\t                \"Principal_Commando_Referencia_Prolongada\",\t                \"Principal_comandos_Marcha\",\t                \"Principal_tendencia\"\t       ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -78056,19 +77933,6 @@
         "wires": []
     },
     {
-        "id": "5ef3bdbfe4a76bad",
-        "type": "subflow:69561d032aa16e52",
-        "z": "e497646c3625f223",
-        "g": "d0c2e26c6d297150",
-        "name": "",
-        "env": [],
-        "x": 2230,
-        "y": 480,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "69d3a50f12e6a4e2",
         "type": "debug",
         "z": "e497646c3625f223",
@@ -78279,8 +78143,8 @@
                 "08dd05d653cd166c"
             ],
             [
-                "5ef3bdbfe4a76bad",
-                "588853cacad511e1"
+                "588853cacad511e1",
+                "cab3a90f117453c3"
             ]
         ]
     },
@@ -79889,6 +79753,18 @@
             [
                 "366fe743537c7013"
             ]
+        ]
+    },
+    {
+        "id": "cab3a90f117453c3",
+        "type": "subflow:1fbf295f73cccb97",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "",
+        "x": 2240,
+        "y": 480,
+        "wires": [
+            []
         ]
     },
     {
