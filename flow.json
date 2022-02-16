@@ -795,7 +795,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -835,7 +837,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1153,7 +1157,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1200,7 +1206,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1424,7 +1432,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1505,7 +1515,9 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29
+        "y": 29,
+        "w": 942,
+        "h": 202
     },
     {
         "id": "57eba231.4d56dc",
@@ -1525,7 +1537,9 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243
+        "y": 243,
+        "w": 374,
+        "h": 304
     },
     {
         "id": "0382d006bf3e8547",
@@ -1970,7 +1984,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2039,7 +2055,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2334,7 +2352,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 242
     },
     {
         "id": "69cbede8f851191a",
@@ -2356,7 +2376,9 @@
             "0a6bd128b70aea2c"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2568,8 +2590,8 @@
             "832a31d3f59bf4df",
             "381f2e27385db5e4"
         ],
-        "x": 44,
-        "y": 79,
+        "x": 34,
+        "y": 159,
         "w": 342,
         "h": 142
     },
@@ -3146,7 +3168,9 @@
             "86e001aa20e6699c"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3834,7 +3858,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3855,7 +3881,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -5121,7 +5149,9 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269
+        "y": 269,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -5141,7 +5171,9 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399
+        "y": 399,
+        "w": 322,
+        "h": 122
     },
     {
         "id": "dad84feb.d4773",
@@ -18560,7 +18592,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 26,
+        "order": 29,
         "width": 0,
         "height": 0,
         "name": "TItulo Sensorless",
@@ -18568,8 +18600,8 @@
         "format": "<font size =4px> Datos Sensorless®",
         "layout": "col-center",
         "className": "",
-        "x": 2280,
-        "y": 2440,
+        "x": 2150,
+        "y": 2060,
         "wires": []
     },
     {
@@ -19184,7 +19216,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 13,
+        "order": 14,
         "width": 3,
         "height": 2,
         "name": "Presión Entrada",
@@ -19217,8 +19249,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2370,
-        "y": 1840,
+        "x": 2240,
+        "y": 1460,
         "wires": []
     },
     {
@@ -19249,7 +19281,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 14,
+        "order": 9,
         "width": 3,
         "height": 2,
         "name": "Presión Descarga",
@@ -19282,8 +19314,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2380,
-        "y": 1900,
+        "x": 2250,
+        "y": 1520,
         "wires": []
     },
     {
@@ -19314,7 +19346,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 15,
+        "order": 10,
         "width": 3,
         "height": 2,
         "name": "Temp. Entrada",
@@ -19347,8 +19379,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2370,
-        "y": 1960,
+        "x": 2240,
+        "y": 1580,
         "wires": []
     },
     {
@@ -19412,8 +19444,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2370,
-        "y": 2020,
+        "x": 2240,
+        "y": 1640,
         "wires": []
     },
     {
@@ -19444,7 +19476,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 12,
+        "order": 13,
         "width": 3,
         "height": 2,
         "name": "Temp. Motor",
@@ -19477,8 +19509,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2360,
-        "y": 2080,
+        "x": 2230,
+        "y": 1700,
         "wires": []
     },
     {
@@ -19542,8 +19574,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2360,
-        "y": 2140,
+        "x": 2230,
+        "y": 1760,
         "wires": []
     },
     {
@@ -19586,8 +19618,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2360,
-        "y": 2200,
+        "x": 2230,
+        "y": 1820,
         "wires": []
     },
     {
@@ -19639,7 +19671,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 21,
+        "order": 16,
         "width": 3,
         "height": 2,
         "name": "Corriente Fuga",
@@ -19672,8 +19704,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2370,
-        "y": 2260,
+        "x": 2240,
+        "y": 1880,
         "wires": []
     },
     {
@@ -19725,7 +19757,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 22,
+        "order": 17,
         "width": 3,
         "height": 2,
         "name": "Presión THP",
@@ -19758,8 +19790,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2360,
-        "y": 2320,
+        "x": 2230,
+        "y": 1940,
         "wires": []
     },
     {
@@ -19834,7 +19866,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 27,
+        "order": 24,
         "width": 3,
         "height": 2,
         "name": "Presión entrada",
@@ -19867,8 +19899,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2370,
-        "y": 2520,
+        "x": 2240,
+        "y": 2140,
         "wires": []
     },
     {
@@ -19899,7 +19931,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 28,
+        "order": 25,
         "width": 3,
         "height": 2,
         "name": "Nivel Fluido Dinámico",
@@ -19932,8 +19964,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2390,
-        "y": 2580,
+        "x": 2260,
+        "y": 2200,
         "wires": []
     },
     {
@@ -19964,7 +19996,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 29,
+        "order": 26,
         "width": 3,
         "height": 2,
         "name": "Sumergencia",
@@ -19997,8 +20029,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2360,
-        "y": 2640,
+        "x": 2230,
+        "y": 2260,
         "wires": []
     },
     {
@@ -20029,7 +20061,7 @@
         "d": true,
         "g": "c483d44b5f6def10",
         "group": "26126cf5.7e87a4",
-        "order": 30,
+        "order": 23,
         "width": 3,
         "height": 2,
         "name": "Caudal",
@@ -20062,8 +20094,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 2350,
-        "y": 2700,
+        "x": 2220,
+        "y": 2320,
         "wires": []
     },
     {
@@ -70674,8 +70706,8 @@
         "name": "Imagen balancin",
         "order": 1,
         "width": 6,
-        "height": 8,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/balancin_bcpg.png\" style=\"width:90%;\">\n            </div>\n        </div>\n    </div>\n    <!--<div class=\"container align-self-center\">-->\n    <!--    <div class=\"row justify-content-center\">-->\n    <!--        <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>-->\n    <!--    </div>-->\n    <!--</div>-->\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "height": 9,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col\">\n                <img src=\"http://localhost:1880/swcpro-images/balancin_bcpg.png\" style=\"width:100%;\">\n            </div>\n        </div>\n    </div>\n    <!--<div class=\"container align-self-center\">-->\n    <!--    <div class=\"row justify-content-center\">-->\n    <!--        <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>-->\n    <!--    </div>-->\n    <!--</div>-->\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -84811,9 +84843,9 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 8,
+        "order": 7,
         "width": 3,
-        "height": 3,
+        "height": 2,
         "gtype": "donut",
         "title": "PIP",
         "label": "psi",
@@ -84839,9 +84871,9 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 10,
+        "order": 8,
         "width": 4,
-        "height": 3,
+        "height": 2,
         "gtype": "wave",
         "title": "Llenado",
         "label": "%",
@@ -84867,9 +84899,9 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 7,
+        "order": 6,
         "width": 3,
-        "height": 3,
+        "height": 2,
         "gtype": "donut",
         "title": "Nivel de Fluido Dinámico",
         "label": "ft",
@@ -84895,9 +84927,9 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 9,
+        "order": 4,
         "width": 3,
-        "height": 3,
+        "height": 2,
         "gtype": "donut",
         "title": "Sumergencia",
         "label": "ft",
@@ -84923,9 +84955,9 @@
         "g": "54bb46e073aa1e2e",
         "name": "",
         "group": "26126cf5.7e87a4",
-        "order": 6,
+        "order": 5,
         "width": 3,
-        "height": 3,
+        "height": 2,
         "gtype": "donut",
         "title": "PWF",
         "label": "psi",
@@ -85289,9 +85321,9 @@
         "g": "9648249e35aead30",
         "group": "26126cf5.7e87a4",
         "name": "Surface",
-        "order": 4,
+        "order": 3,
         "width": 10,
-        "height": 3,
+        "height": 5,
         "format": "<div ng-bind-html=\"msg.payload\"></div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
@@ -96661,5 +96693,155 @@
                 "6749a4e697c2d46c"
             ]
         ]
+    },
+    {
+        "id": "61f60bb1d0ea255f",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ba68d71b89f626df",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1e39b2731fda987",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "8d0e5fda97d61d82",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e5ec1549.1923c8",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5819e174ca028ff",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5d11b14be2630496",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4113fd9.a0bfc",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "786b7ea0772c58da",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9d5c4b3daaea4602",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "2d559537.720c4a",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "f7391538a867f080",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "146fa50a0163f498",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "f7aa27b.6c2ded8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5f2e96460a29f3b",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "50a822e998db79a5",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 6,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "0e745d052b6b8e58",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1b027e16.1fc232",
+        "order": 11,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "1b78f2f27d6026fd",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "474271dc.04fa9",
+        "order": 11,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "18a5b6c1c0e1f511",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "4f5b8416.cada1c",
+        "order": 7,
+        "width": 1,
+        "height": 1
     }
 ]
