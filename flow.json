@@ -795,7 +795,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -835,7 +837,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -927,6 +931,7 @@
             "ad402348757e7a1d",
             "d6c7e000d1eb335e",
             "713a6ffde3c07338",
+            "c13d446464273f90",
             "640fd854a8521706",
             "4281e070f14c50cf",
             "ee04922c96099f39",
@@ -1152,7 +1157,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1199,7 +1206,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1423,7 +1432,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1889,9 +1900,7 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33,
-        "w": 1004,
-        "h": 1854
+        "y": 33
     },
     {
         "id": "b3942c43115e460d",
@@ -1907,9 +1916,7 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1488,
-        "y": -7,
-        "w": 1264,
-        "h": 1194
+        "y": -7
     },
     {
         "id": "0474082dbe49e1c2",
@@ -1973,7 +1980,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2015,7 +2024,7 @@
             "fd43d65633c388cf"
         ],
         "x": 794,
-        "y": 1639,
+        "y": 1719,
         "w": 752,
         "h": 182
     },
@@ -2042,7 +2051,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2058,12 +2069,15 @@
             "2c94ceb6cbbb8cd1",
             "83023dd30811818a",
             "7841d296e32be02e",
-            "d6ca01c917296363"
+            "d6ca01c917296363",
+            "75864cf70805fca9",
+            "d017b67335fc4df5",
+            "93b21d74000b52e7"
         ],
         "x": 34,
         "y": 1539,
         "w": 532,
-        "h": 82
+        "h": 122
     },
     {
         "id": "38940f8.c9c27f",
@@ -2337,7 +2351,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 242
     },
     {
         "id": "69cbede8f851191a",
@@ -2359,7 +2375,9 @@
             "0a6bd128b70aea2c"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2553,9 +2571,7 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139,
-        "w": 532,
-        "h": 242
+        "y": 139
     },
     {
         "id": "854b667853465d2b",
@@ -2572,9 +2588,7 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79,
-        "w": 342,
-        "h": 142
+        "y": 79
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2606,9 +2620,7 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139,
-        "w": 642,
-        "h": 502
+        "y": 139
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2628,9 +2640,7 @@
             "8d91641ca1666f12"
         ],
         "x": 44,
-        "y": 239,
-        "w": 482,
-        "h": 122
+        "y": 239
     },
     {
         "id": "9648249e35aead30",
@@ -2650,9 +2660,7 @@
             "61905dd3d7cd7433"
         ],
         "x": 34,
-        "y": 379,
-        "w": 502,
-        "h": 122
+        "y": 379
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3105,7 +3113,7 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 34,
-        "y": 1639,
+        "y": 1699,
         "w": 752,
         "h": 202
     },
@@ -3129,7 +3137,9 @@
             "86e001aa20e6699c"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3654,12 +3664,12 @@
             "544970607ac8c8c5",
             "bad4fda9e4377085",
             "dcb152a9b47c11dd",
-            "617d3424713f8c8e"
+            "617d3424713f8c8e",
+            "30ae733f015bd2a9",
+            "689f9bbcd43194fe"
         ],
         "x": 34,
-        "y": 519,
-        "w": 1372,
-        "h": 202
+        "y": 519
     },
     {
         "id": "936eab7d97be78af",
@@ -3797,9 +3807,7 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 1444,
-        "y": 139,
-        "w": 772,
-        "h": 728
+        "y": 139
     },
     {
         "id": "d929d138.3b512",
@@ -3817,7 +3825,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3838,7 +3848,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -3888,9 +3900,7 @@
             "f24020b8fbb63903"
         ],
         "x": 1514,
-        "y": 299,
-        "w": 1212,
-        "h": 862
+        "y": 299
     },
     {
         "id": "99671f60976b1d2a",
@@ -3917,9 +3927,7 @@
             "6a229694c9c0fbca"
         ],
         "x": 1514,
-        "y": 19,
-        "w": 992,
-        "h": 212
+        "y": 19
     },
     {
         "id": "95daead77be77494",
@@ -3967,9 +3975,7 @@
             "bde48f770f85aba2"
         ],
         "x": 384,
-        "y": 1129,
-        "w": 532,
-        "h": 732
+        "y": 1129
     },
     {
         "id": "87fca62744442ad4",
@@ -4005,9 +4011,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229,
-        "w": 702,
-        "h": 272
+        "y": 229
     },
     {
         "id": "a7f58aaec292b159",
@@ -4049,9 +4053,7 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509,
-        "w": 952,
-        "h": 272
+        "y": 509
     },
     {
         "id": "37b64a70f39dda06",
@@ -4091,9 +4093,7 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789,
-        "w": 812,
-        "h": 322
+        "y": 789
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -4119,9 +4119,7 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59,
-        "w": 802,
-        "h": 162
+        "y": 59
     },
     {
         "id": "b079c206d161b62c",
@@ -5819,9 +5817,7 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 759,
-        "w": 492,
-        "h": 82
+        "y": 759
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -8994,7 +8990,7 @@
         "type": "ui_group",
         "name": "PumpOff",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 8,
+        "order": 7,
         "disp": false,
         "width": "16",
         "collapse": false
@@ -9194,17 +9190,18 @@
         "type": "ui_group",
         "name": "downholeControl",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 16,
-        "disp": true,
+        "order": 10,
+        "disp": false,
         "width": "16",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "1c0575d4f07fc2d0",
         "type": "ui_group",
         "name": "VelocidadDoble",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 12,
+        "order": 9,
         "disp": false,
         "width": "16",
         "collapse": false
@@ -9964,7 +9961,7 @@
         "type": "ui_group",
         "name": "Status Bar",
         "tab": "df82a9eeeb3d8a7c",
-        "order": 11,
+        "order": 12,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -9997,7 +9994,7 @@
         "z": "2e27dea6.c4c362",
         "name": "spacer",
         "group": "b006ff9.8805c",
-        "order": 1,
+        "order": 2,
         "width": "3",
         "height": 1,
         "className": ""
@@ -10008,7 +10005,7 @@
         "z": "2e27dea6.c4c362",
         "name": "spacer",
         "group": "b006ff9.8805c",
-        "order": 4,
+        "order": 5,
         "width": "3",
         "height": 1,
         "className": ""
@@ -10129,9 +10126,9 @@
         "z": "2e27dea6.c4c362",
         "name": "spacer",
         "group": "b006ff9.8805c",
-        "order": 5,
+        "order": 6,
         "width": "16",
-        "height": "2",
+        "height": "1",
         "className": ""
     },
     {
@@ -10187,747 +10184,6 @@
         "disp": false,
         "width": "16",
         "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "9648d4b22ab75585",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 1,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "ad43fa9ada1ca7bb",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "87e07def8c13c5e5",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1333d35438e3dad5",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e1ec31902835fb21",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "20076456.83052c",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "b6593bfe0aace88f",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "cf893b29.8b0a68",
-        "order": 1,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "982d3a2f0ef06784",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "cf893b29.8b0a68",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "eebeef9280d47d99",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c65e65542b5332cc",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 3,
-        "width": 13,
-        "height": 1
-    },
-    {
-        "id": "4256460ab2cff628",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 4,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "72e522156fe9c8b1",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 6,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "e24ad08ac49da278",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "b7a5bc2344d681ce",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "96e4d10ea76f20a0",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 11,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "2a1225ca4aade4da",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 13,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "672d4d5867b2225c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 15,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "4bbad05b9a4ede6f",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5c32ebab2b27145b",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "8d23372ba3f7cb6f",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 19,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c7e90900350a6d2e",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 20,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "2b03088b7d07b8c5",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 22,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "3c408a10c57044d7",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 23,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "f6c1b1b3de891ae8",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "7f32ba1c3056ce56",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 26,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "7855fb789de2c4dc",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e37df2c845093401",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a6d1f21349d7878c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "a4b661966f6bc7c8",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 3,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "2cab81d294a44609",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 4,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "a939534b76039d4c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 6,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "f8817857b9046901",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "4aa7a2dce7848c26",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 10,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c20a69f41fbbe477",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 12,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "0827c3449def6fe1",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "da1c99df16d6d833",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 16,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "17b17c754e7927e4",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 18,
-        "width": 8,
-        "height": 1
-    },
-    {
-        "id": "70e194d3c74fcf97",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 20,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ed5a052829069cea",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 22,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "f7fcc7e6202610cc",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 23,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "614f7209598ba517",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "d71db8a10184ea0c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 26,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "f262a3db78fe0dd5",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "ec6a280f37f023ec",
-        "order": 28,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7def40e77cb4b33f",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "8354217e51b24524",
-        "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "2c86e30b0ce4c2bb",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "ea2b905c096befe0",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 3,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "24e5186a20c893c7",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 5,
-        "width": 5,
-        "height": 1
-    },
-    {
-        "id": "7cbb4ef84696e3e8",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 6,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "42bfa79ef4db1c5e",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "bb155cb62a7365ce",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d83ee324242ab712",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 12,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "9190913896ce97af",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 13,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "acf29b0eb337daa1",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 14,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "3c34ae0758e4bc97",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 16,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "219dafbf90d68fb6",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 17,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "7349e4bc1cb028de",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "e3752a62d50ced93",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 19,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "9592172c169ea3a8",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 20,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "6aab5a76c58f90f1",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 22,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "7dd74488eebfd1ea",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "1c0575d4f07fc2d0",
-        "order": 24,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "71aed78e126d7782",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 1,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "eb24e1a642f11087",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 3,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f454d4dd707c347a",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ac269ba425b908c2",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 6,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "80ade3dde7796a1c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 8,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "a497171afeed6905",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 10,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "cd2f32cb1d781cce",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 12,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "c0ce9ec86d243d45",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 14,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "8d8446fe3c9cafea",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 16,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "4a63e371904ec988",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 18,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "a42c16dc8c855d34",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 19,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "6aa10decb05d64c7",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 23,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "75061c7344630251",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 24,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "d36a619d8a340963",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 26,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "4994fbbc4ff6cebc",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "5e71a9d14c810b9f",
-        "order": 28,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "0cf6bb68ac09b1aa",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "cf893b29.8b0a68",
-        "order": 6,
-        "width": "16",
-        "height": "4",
         "className": ""
     },
     {
@@ -11071,16 +10327,6 @@
         "height": 1
     },
     {
-        "id": "60e593155e4ea91d",
-        "type": "ui_spacer",
-        "z": "6a1ef6a7aef873a7",
-        "name": "spacer",
-        "group": "4f5b8416.cada1c",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
         "id": "b4f429a0754f540e",
         "type": "ui_spacer",
         "z": "6a1ef6a7aef873a7",
@@ -11089,6 +10335,321 @@
         "order": 16,
         "width": "16",
         "height": "2",
+        "className": ""
+    },
+    {
+        "id": "7438da5ebcb611d9",
+        "type": "ui_group",
+        "name": "Tendencia",
+        "tab": "df82a9eeeb3d8a7c",
+        "order": 11,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "520843df91222f03",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bef57f761c30140e",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "44bd5df25e8cfea7",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "56492a577b59229a",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e488d12ca5cab24c",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "20076456.83052c",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1c5f5e463cac1627",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 1,
+        "width": 16,
+        "height": "2",
+        "className": ""
+    },
+    {
+        "id": "363fe2380c6f6a6e",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 6,
+        "width": 16,
+        "height": "3",
+        "className": ""
+    },
+    {
+        "id": "bfd5f3f565350d19",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "107cdfc4bc5cf2af",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "cf893b29.8b0a68",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6f4f6413a3b957ec",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "091d1d961ecdfbcd",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 3,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "d642b83d67720706",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 11,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "285c71ccad9425fd",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 13,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "d842ac772364ca79",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "e37df2c845093401",
+        "order": 15,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "4a49842dd7c9eb9a",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "ceb41af54493ef72",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 3,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "7275dfa4f0f00240",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "6529a826b3cc8aaf",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "ec6a280f37f023ec",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e36047d24443ba24",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "6b81de65851e83e7",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 3,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "9bceae8ce1b7a3ac",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 11,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "550cb61bfb9f0190",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a9ac9aa9ceef6fb7",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "1c0575d4f07fc2d0",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "639b325554cefae4",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 1,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "561bb4c7d03e5749",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 3,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ff4ad6ebcfa16e3d",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "732ba3afb90f8b66",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "5e71a9d14c810b9f",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bde4b60e53085f33",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "8354217e51b24524",
+        "order": 4,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "33f8821fb945242c",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "b006ff9.8805c",
+        "order": 1,
+        "width": "16",
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "3f53fa4e29a09d2f",
+        "type": "ui_spacer",
+        "z": "2e27dea6.c4c362",
+        "name": "spacer",
+        "group": "d4ce0f7379428df9",
+        "order": 42,
+        "width": "16",
+        "height": 1,
         "className": ""
     },
     {
@@ -13224,8 +12785,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1490,
-        "y": 2110,
+        "x": 410,
+        "y": 2100,
         "wires": [
             [
                 "def0c8ddae21bc33"
@@ -13290,8 +12851,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1530,
-        "y": 3290,
+        "x": 410,
+        "y": 3080,
         "wires": [
             [
                 "7dad9b43beefaa90"
@@ -13341,8 +12902,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2450,
-        "y": 2190,
+        "x": 1310,
+        "y": 2160,
         "wires": [
             [
                 "e44a08d354c85928"
@@ -17919,7 +17480,7 @@
         "payload": "C2S.Last_Reference.Value",
         "payloadType": "global",
         "x": 940,
-        "y": 1680,
+        "y": 1760,
         "wires": [
             [
                 "eb7ab466.6a90b8",
@@ -17948,7 +17509,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1140,
-        "y": 1680,
+        "y": 1760,
         "wires": [
             [],
             [
@@ -17975,7 +17536,7 @@
         "drop": false,
         "allowrate": false,
         "x": 1270,
-        "y": 1730,
+        "y": 1810,
         "wires": [
             [
                 "890cac9f.ef77"
@@ -17995,7 +17556,7 @@
         "finalize": "",
         "libs": [],
         "x": 1440,
-        "y": 1740,
+        "y": 1820,
         "wires": [
             []
         ]
@@ -18013,7 +17574,7 @@
         "finalize": "",
         "libs": [],
         "x": 1110,
-        "y": 1730,
+        "y": 1810,
         "wires": [
             []
         ]
@@ -18026,7 +17587,7 @@
         "name": "",
         "env": [],
         "x": 1440,
-        "y": 1680,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -18102,7 +17663,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1120,
-        "y": 1780,
+        "y": 1860,
         "wires": []
     },
     {
@@ -18196,7 +17757,8 @@
         "y": 1580,
         "wires": [
             [
-                "83023dd30811818a"
+                "83023dd30811818a",
+                "75864cf70805fca9"
             ]
         ]
     },
@@ -18206,14 +17768,14 @@
         "z": "902fc438.e5d758",
         "g": "a55fe2f884c89e71",
         "name": "Trends",
-        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.spm\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.spmActual\", \"memoryOnly\"))).toFixed(3));\nvar Command_dir = global.get(\"C2S.Drive_Status.Command_dir\",\"memoryOnly\")||0;//sentido de giro 0 reverse y 1 forward\nif(Command_dir == 0){// Sentido de la grafica\n    REF = REF * (-1)\n    SPEED = SPEED * (-1)\n}\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\",\"memoryOnly\")||null;\n\nif (datos==null){\n    datos = {   //Datos de suministro de agua\n                'ref': [{ \"x\": time, \"y\": REF }],\n                'speed': [{ \"x\": time, \"y\": SPEED }]\n            };\n}\nelse{\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\",datos,\"memoryOnly\");\ncontext.set(\"REF\", REF,\"memoryOnly\");\ncontext.set(\"SPEED\", SPEED,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + REF + \" SPM\");\nseries.push(\"Frecuencia de salida \" + SPEED + \" SPM\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.Output_Frequency\", \"memoryOnly\"))).toFixed(3));\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\",\"memoryOnly\")||null;\n\nif (datos==null){\n    datos = {   //Datos de suministro de agua\n                'ref': [{ \"x\": time, \"y\": REF }],\n                'speed': [{ \"x\": time, \"y\": SPEED }]\n            };\n}\nelse{\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n        \n\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\",datos,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + REF + \" Hz\");\nseries.push(\"Frecuencia de salida \" + SPEED + \" Hz\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 250,
-        "y": 1830,
+        "y": 1580,
         "wires": [
             [
                 "d6ca01c917296363"
@@ -19633,7 +19195,7 @@
         "allowColorForValueInMessage": false,
         "name": "PumpOn",
         "x": 660,
-        "y": 1680,
+        "y": 1740,
         "wires": []
     },
     {
@@ -19663,7 +19225,7 @@
         "allowColorForValueInMessage": false,
         "name": "SpeedHablitado",
         "x": 680,
-        "y": 1720,
+        "y": 1780,
         "wires": []
     },
     {
@@ -19693,7 +19255,7 @@
         "allowColorForValueInMessage": false,
         "name": "Superficie",
         "x": 660,
-        "y": 1760,
+        "y": 1820,
         "wires": []
     },
     {
@@ -19723,7 +19285,7 @@
         "allowColorForValueInMessage": false,
         "name": "Dowhole",
         "x": 660,
-        "y": 1800,
+        "y": 1860,
         "wires": []
     },
     {
@@ -19747,7 +19309,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 1720,
+        "y": 1780,
         "wires": [
             [
                 "a8e00de2c1698a8e"
@@ -19775,7 +19337,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 1760,
+        "y": 1820,
         "wires": [
             [
                 "bf5838acb06caa0c"
@@ -19803,7 +19365,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 1800,
+        "y": 1860,
         "wires": [
             [
                 "dc08e7cb4af9e2b2"
@@ -19824,7 +19386,7 @@
             "cc5d96db53490462"
         ],
         "x": 75,
-        "y": 1740,
+        "y": 1800,
         "wires": [
             [
                 "2258405e796f4019"
@@ -19852,7 +19414,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 1680,
+        "y": 1740,
         "wires": [
             [
                 "8154d8bbdb9ba1f6"
@@ -19932,7 +19494,7 @@
         "repair": false,
         "outputs": 1,
         "x": 170,
-        "y": 1740,
+        "y": 1800,
         "wires": [
             [
                 "5b5cdeca57169758",
@@ -19956,7 +19518,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1680,
+        "y": 1740,
         "wires": [
             [
                 "85d73808e7b482d5"
@@ -19977,7 +19539,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1720,
+        "y": 1780,
         "wires": [
             [
                 "7d13fed1a356db26"
@@ -19998,7 +19560,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1760,
+        "y": 1820,
         "wires": [
             [
                 "553c442d527c781d"
@@ -20019,7 +19581,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1800,
+        "y": 1860,
         "wires": [
             [
                 "4a46df50766a6661"
@@ -20426,8 +19988,8 @@
         "name": "",
         "group": "73e7292f7ff015d8",
         "order": 0,
-        "width": "16",
-        "height": "11",
+        "width": "15",
+        "height": "10",
         "label": "",
         "chartType": "line",
         "legend": "true",
@@ -20591,7 +20153,8 @@
         "y": 160,
         "wires": [
             [
-                "60a519075f22a034"
+                "60a519075f22a034",
+                "3edd4a184747ecab"
             ]
         ]
     },
@@ -20816,7 +20379,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "RecorrerVectorDesplazamiento",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"Dinagrama.superficie.Desp_CD\") || [];\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Desp_CD\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.VecDesCal\") || [];\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"VecDesCal\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -23265,7 +22828,7 @@
         "g": "8f8a192b.bb2ef8",
         "name": "",
         "group": "cf893b29.8b0a68",
-        "order": 3,
+        "order": 4,
         "width": 7,
         "height": 1,
         "passthru": false,
@@ -23292,7 +22855,7 @@
         "g": "8f8a192b.bb2ef8",
         "name": "",
         "group": "cf893b29.8b0a68",
-        "order": 2,
+        "order": 3,
         "width": 7,
         "height": 1,
         "passthru": false,
@@ -23300,10 +22863,12 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "",
+        "topicType": "str",
         "x": 2500,
         "y": 440,
         "wires": [
@@ -24678,6 +24243,11 @@
                 "type": "str"
             },
             {
+                "label": "Corriente de motor",
+                "value": "MotorLoad",
+                "type": "str"
+            },
+            {
                 "label": "Bus DC",
                 "value": "BusDC",
                 "type": "str"
@@ -25165,7 +24735,7 @@
         "z": "9941a439.4b17c8",
         "g": "ee5753bdd6eedb72",
         "name": "a Tabla",
-        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\",\n                \"Load\",\n                \"BusDC\",\n                \"THP\",\n                \"THT\",\n                \"VibrationGeneral\",\n                \"CurrentLeakage\",\n                \"IntakePressure\",\n                \"DischargePressure\",\n                \"IntakeTemperature\",\n                \"MotorTemperature\",\n                \"DischargeTemperature\",\n                \"DynamicFluidLevel\",\n                \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Tension\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Corriente VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Presión THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temperatura THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibración\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>Corriente de fuga\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Presión de entrada\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Presión de descarga\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Temperatura de entrada\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Temperatura de motor\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Temperatura de descarga\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Nivel de fluido dinámico\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>CARGA\", 'condic': estadoprot[13] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo LL<b>\";\n                }\n            }\n        }\n    }\n}",
+        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\", \"Load\", \"BusDC\", \"THP\", \"THT\", \"VibrationGeneral\", \"CurrentLeakage\", \"IntakePressure\", \"DischargePressure\", \"IntakeTemperature\", \"MotorTemperature\", \"DischargeTemperature\", \"MotorLoad\", \"DynamicFluidLevel\", \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Tension\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Corriente VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Corriente de motor\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Presión THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temperatura THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibración\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>Corriente de fuga\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Presión de entrada\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Presión de descarga\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Temperatura de entrada\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Temperatura de motor\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Temperatura de descarga\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Nivel de fluido dinámico\", 'condic': estadoprot[13] },\n{ 'protec': \"<font size = 4px>CARGA\", 'condic': estadoprot[14] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo LL<b>\";\n                }\n            }\n        }\n    }\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27621,7 +27191,7 @@
         "z": "9941a439.4b17c8",
         "g": "dbdc491cb6e9eee5",
         "name": "Datos protecciones",
-        "func": "var Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\n// Corriente de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MotorLoad = Output_Current / Rtx;\n\n// Protecciones PQA.\nvar Voltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar Selection = flow.get(\"proteccionSelec\", 'memoryOnly') || \"-\";\n\n// Protecciones Variador\nvar Load = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar BusDC = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\n\n// Protecciones Instrumentación\nvar THP = global.get(\"Process_data.AI['Presión de cabeza THP']\", 'memoryOnly') || 0;\nvar THT = global.get(\"Process_data.AI['Temperatura de cabeza THT']\", 'memoryOnly') || 0;\n\n// Sensor de Fondo\nvar Process_data = global.get(\"Process_data.DHS\", 'memoryOnly') || [];\nvar Vibration_X = typeof Process_data[\"Vibración X\"] != 'undefined' ? Process_data[\"Vibración X\"] : 0;\nvar Vibration_Z = typeof Process_data[\"Vibración Z\"] != 'undefined' ? Process_data[\"Vibración Z\"] : 0;\n\n//Protecciones Fondo\nvar Vibration_Gral = Vibration_X >= Vibration_Z ? Vibration_X : Vibration_Z;\nvar LeakageCurrent = typeof Process_data[\"Corriente de fuga\"] != 'undefined' ? Process_data[\"Corriente de fuga\"] : 0;\nvar IntakePressure = typeof Process_data[\"Presión de entrada\"] != 'undefined' ? Process_data[\"Presión de entrada\"] : 0;\nvar DischargePressure = typeof Process_data[\"Presión de descarga\"] != 'undefined' ? Process_data[\"Presión de descarga\"] : 0;\nvar IntakeTemperature = typeof Process_data[\"Temperatura de entrada\"] != 'undefined' ? Process_data[\"Temperatura de entrada\"] : 0;\nvar MotorTemperature = typeof Process_data[\"Temperatura de motor\"] != 'undefined' ? Process_data[\"Temperatura de motor\"] : 0;\nvar DischargeTemperature = typeof Process_data[\"Temperatura de descarga\"] != 'undefined' ? Process_data[\"Temperatura de descarga\"] : 0;\n\n//Protección Sensorless SRP\nvar NFD = global.get(\"SensorLess.calculo.NFD_Promedio\")||0;\n// Protecciones SRP \nvar CARGA = global.get(\"Process_data.AI.CARGA\",\"memoryOnly\")||0;\n\nvar CurrentValue;\nif (Selection == \"Voltage\") { CurrentValue = DecPlacces(Voltage, 2) + \" V\"; }\nelse if (Selection == \"Load\") { CurrentValue = DecPlacces(Load, 2) + \" A\"; }\nelse if (Selection == \"MotorLoad\") { CurrentValue = DecPlacces(MotorLoad, 2) + \" A\"; }\nelse if (Selection == \"BusDC\") { CurrentValue = DecPlacces(BusDC, 2) + \" V\"; }\nelse if (Selection == \"THP\") { CurrentValue = DecPlacces(THP, 2) + \" psi\"; }\nelse if (Selection == \"THT\") { CurrentValue = DecPlacces(THT, 2) + \" ºF\"; }\nelse if (Selection == \"VibrationGeneral\") { CurrentValue = DecPlacces(Vibration_Gral, 2) + \" G\"; }\nelse if (Selection == \"CurrentLeakage\") { CurrentValue = DecPlacces(LeakageCurrent, 2) + \" mA\"; }\nelse if (Selection == \"IntakePressure\") { CurrentValue = DecPlacces(IntakePressure, 2) + \" psi\"; }\nelse if (Selection == \"DischargePressure\") { CurrentValue = DecPlacces(DischargePressure, 2) + \" psi\"; }\nelse if (Selection == \"IntakeTemperature\") { CurrentValue = DecPlacces(IntakeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"MotorTemperature\") { CurrentValue = DecPlacces(MotorTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DischargeTemperature\") { CurrentValue = DecPlacces(DischargeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DynamicFluidLevel\") { CurrentValue = DecPlacces(NFD, 1) + \"ft\"; }\nelse if (Selection == \"CARGA\") { CurrentValue = DecPlacces(CARGA, 1) + \"klb\"; }\nelse { CurrentValue = \"---\"; }\n\nreturn [\n    { payload: DecPlacces(Voltage, 1) },\n    { payload: DecPlacces(Load, 1) },\n    { payload: DecPlacces(MotorLoad, 1) },\n    { payload: DecPlacces(BusDC, 1) },\n    { payload: DecPlacces(THP, 2) },\n    { payload: DecPlacces(THT, 2) },\n    { payload: DecPlacces(Vibration_Gral, 3) },\n    { payload: DecPlacces(LeakageCurrent, 3) },\n    { payload: DecPlacces(IntakePressure, 1) },\n    { payload: DecPlacces(DischargePressure, 1) },\n    { payload: DecPlacces(IntakeTemperature, 1) },\n    { payload: DecPlacces(MotorTemperature, 1) },\n    { payload: DecPlacces(DischargeTemperature, 1) },\n    { payload: DecPlacces(NFD, 1) },\n    { payload: DecPlacces(CARGA, 1) },\n    { payload: CurrentValue }\n];\n\nfunction DecPlacces(value, Places) {\n    return Math.abs(parseFloat(value.toFixed(Places)));\n}",
+        "func": "var Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\n// Corriente de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MotorLoad = Output_Current / Rtx;\n\n// Protecciones PQA.\nvar Voltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar Selection = flow.get(\"proteccionSelec\", 'memoryOnly') || \"-\";\n\n// Protecciones Variador\nvar Load = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar BusDC = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\n\n// Protecciones Instrumentación\nvar THP = global.get(\"Process_data.AI['Presión de cabeza THP']\", 'memoryOnly') || 0;\nvar THT = global.get(\"Process_data.AI['Temperatura de cabeza THT']\", 'memoryOnly') || 0;\n\n// Sensor de Fondo\nvar Process_data = global.get(\"Process_data.DHS\", 'memoryOnly') || [];\nvar Vibration_X = typeof Process_data[\"Vibración X\"] != 'undefined' ? Process_data[\"Vibración X\"] : 0;\nvar Vibration_Z = typeof Process_data[\"Vibración Z\"] != 'undefined' ? Process_data[\"Vibración Z\"] : 0;\n\n//Protecciones Fondo\nvar Vibration_Gral = Vibration_X >= Vibration_Z ? Vibration_X : Vibration_Z;\nvar LeakageCurrent = typeof Process_data[\"Corriente de fuga\"] != 'undefined' ? Process_data[\"Corriente de fuga\"] : 0;\nvar IntakePressure = typeof Process_data[\"Presión de entrada\"] != 'undefined' ? Process_data[\"Presión de entrada\"] : 0;\nvar DischargePressure = typeof Process_data[\"Presión de descarga\"] != 'undefined' ? Process_data[\"Presión de descarga\"] : 0;\nvar IntakeTemperature = typeof Process_data[\"Temperatura de entrada\"] != 'undefined' ? Process_data[\"Temperatura de entrada\"] : 0;\nvar MotorTemperature = typeof Process_data[\"Temperatura de motor\"] != 'undefined' ? Process_data[\"Temperatura de motor\"] : 0;\nvar DischargeTemperature = typeof Process_data[\"Temperatura de descarga\"] != 'undefined' ? Process_data[\"Temperatura de descarga\"] : 0;\n\n//Protección Sensorless\nvar NFD = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\",\"memoryOnly\")||0;\n// Protecciones SRP \nvar CARGA = global.get(\"Process_data.AI.CARGA\",\"memoryOnly\")||0;\n\nvar CurrentValue;\nif (Selection == \"Voltage\") { CurrentValue = DecPlacces(Voltage, 2) + \" V\"; }\nelse if (Selection == \"Load\") { CurrentValue = DecPlacces(Load, 2) + \" A\"; }\nelse if (Selection == \"MotorLoad\") { CurrentValue = DecPlacces(MotorLoad, 2) + \" A\"; }\nelse if (Selection == \"BusDC\") { CurrentValue = DecPlacces(BusDC, 2) + \" V\"; }\nelse if (Selection == \"THP\") { CurrentValue = DecPlacces(THP, 2) + \" psi\"; }\nelse if (Selection == \"THT\") { CurrentValue = DecPlacces(THT, 2) + \" ºF\"; }\nelse if (Selection == \"VibrationGeneral\") { CurrentValue = DecPlacces(Vibration_Gral, 2) + \" G\"; }\nelse if (Selection == \"CurrentLeakage\") { CurrentValue = DecPlacces(LeakageCurrent, 2) + \" mA\"; }\nelse if (Selection == \"IntakePressure\") { CurrentValue = DecPlacces(IntakePressure, 2) + \" psi\"; }\nelse if (Selection == \"DischargePressure\") { CurrentValue = DecPlacces(DischargePressure, 2) + \" psi\"; }\nelse if (Selection == \"IntakeTemperature\") { CurrentValue = DecPlacces(IntakeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"MotorTemperature\") { CurrentValue = DecPlacces(MotorTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DischargeTemperature\") { CurrentValue = DecPlacces(DischargeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DynamicFluidLevel\") { CurrentValue = DecPlacces(NFD, 1) + \"ft\"; }\nelse if (Selection == \"CARGA\") { CurrentValue = DecPlacces(CARGA, 1) + \"klb\"; }\nelse { CurrentValue = \"---\"; }\n\nreturn [\n    { payload: DecPlacces(Voltage, 1) },\n    { payload: DecPlacces(Load, 1) },\n    { payload: DecPlacces(MotorLoad, 1) },\n    { payload: DecPlacces(BusDC, 1) },\n    { payload: DecPlacces(THP, 2) },\n    { payload: DecPlacces(THT, 2) },\n    { payload: DecPlacces(Vibration_Gral, 3) },\n    { payload: DecPlacces(LeakageCurrent, 3) },\n    { payload: DecPlacces(IntakePressure, 1) },\n    { payload: DecPlacces(DischargePressure, 1) },\n    { payload: DecPlacces(IntakeTemperature, 1) },\n    { payload: DecPlacces(MotorTemperature, 1) },\n    { payload: DecPlacces(DischargeTemperature, 1) },\n    { payload: DecPlacces(NFD, 1) },\n    { payload: DecPlacces(CARGA, 1) },\n    { payload: CurrentValue }\n];\n\nfunction DecPlacces(value, Places) {\n    return Math.abs(parseFloat(value.toFixed(Places)));\n}",
         "outputs": 16,
         "noerr": 0,
         "initialize": "",
@@ -27700,7 +27270,7 @@
             "",
             "",
             "",
-            ""
+            null
         ]
     },
     {
@@ -58954,7 +58524,7 @@
         "g": "1dd5b051.a95e6",
         "name": "Activar",
         "group": "b006ff9.8805c",
-        "order": 2,
+        "order": 3,
         "width": "5",
         "height": 1,
         "passthru": false,
@@ -59351,7 +58921,7 @@
         "g": "1dd5b051.a95e6",
         "name": "Desactivar",
         "group": "b006ff9.8805c",
-        "order": 3,
+        "order": 4,
         "width": "5",
         "height": 1,
         "passthru": false,
@@ -67519,8 +67089,8 @@
         "g": "5c9801fdee1b9e98",
         "group": "8354217e51b24524",
         "name": "Otr. Control",
-        "order": 1,
-        "width": 16,
+        "order": 5,
+        "width": 1,
         "height": 1,
         "format": "<script>\n    (function(scope) {\n        scope.$watch('msg', function(data) {\n            var elem = document.getElementById(\"headerStatus\")\n            if(elem !== null) {\n                elem.className = data.payload;\n                elem.innerHTML = data.payload;\n            }\n        });\n    })(scope);\n</script>",
         "storeOutMessages": true,
@@ -69684,7 +69254,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Tendencia\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar/Deshabilitar\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_downholeControl\",\t                \"Otras_Funciones_de_Control_Navbar_PID\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar/Deshabilitar\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_downholeControl\",\t                \"Otras_Funciones_de_Control_Navbar_PID\",\t                \"Otras_Funciones_de_Control_Tendencia\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"\t                ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -69770,7 +69340,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_surfaceControl\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_downholeControl\"],\t       \"show\":[ \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Status_Bar\"]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_surfaceControl\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_downholeControl\"],\t       \"show\":[ \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Status_Bar\",\t                \"Otras_Funciones_de_Control_Tendencia\"]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -69798,7 +69368,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_Sintonización\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_downholeControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_Sintonización\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_downholeControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -69826,7 +69396,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_downholeControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_Nav_Bar\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_downholeControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -69854,7 +69424,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_surfaceControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_downholeControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_surfaceControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_downholeControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -69933,7 +69503,7 @@
         "id": "d8f2bc82b14aba52",
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
-        "order": 2,
+        "order": 1,
         "group": "8354217e51b24524",
         "width": 5,
         "height": 1,
@@ -70785,8 +70355,8 @@
         "type": "ui_text",
         "z": "2e27dea6.c4c362",
         "group": "8354217e51b24524",
-        "order": 3,
-        "width": 2,
+        "order": 2,
+        "width": 3,
         "height": 1,
         "name": "",
         "label": "Ref: ",
@@ -71043,7 +70613,7 @@
         "type": "ui_text",
         "z": "2e27dea6.c4c362",
         "group": "8354217e51b24524",
-        "order": 4,
+        "order": 3,
         "width": 3,
         "height": 1,
         "name": "",
@@ -84905,7 +84475,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "4ce2f54dcf99b9de",
         "name": "RecorrerVector",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"Dinagrama.superficie.Desp_CD\")||[];\n\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n//var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\");//se inicializa en On Start\n\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -86565,8 +86135,8 @@
         "label": "Tiempo (Horas)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 15,
-        "width": 4,
+        "order": 9,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -86586,7 +86156,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "0935e9bf7ed9ba52",
         "group": "ec6a280f37f023ec",
-        "order": 17,
+        "order": 10,
         "width": 4,
         "height": 1,
         "name": "",
@@ -86606,8 +86176,8 @@
         "label": "Punto Y (%)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 7,
-        "width": 4,
+        "order": 5,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -86630,8 +86200,8 @@
         "label": "Punto X (%)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 5,
-        "width": 4,
+        "order": 4,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -86719,8 +86289,8 @@
         "z": "f62fcef222e9a4a3",
         "g": "0935e9bf7ed9ba52",
         "group": "ec6a280f37f023ec",
-        "order": 25,
-        "width": 5,
+        "order": 13,
+        "width": 4,
         "height": 1,
         "name": "",
         "label": "Estado:",
@@ -86852,8 +86422,8 @@
         "label": "Tiempo (Minutos)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 13,
-        "width": 4,
+        "order": 8,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -86876,8 +86446,8 @@
         "label": "Tiempo (Segundos)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 11,
-        "width": 4,
+        "order": 7,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -86897,16 +86467,19 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "# de Intentos",
+        "label": "No. de Intentos",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
-        "order": 9,
-        "width": 4,
+        "order": 6,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 2170,
         "y": 500,
         "wires": [
@@ -87238,8 +86811,8 @@
         "g": "fd65929694c9064e",
         "name": "",
         "group": "ec6a280f37f023ec",
-        "order": 21,
-        "width": 4,
+        "order": 15,
+        "width": 6,
         "height": 1,
         "passthru": false,
         "label": "Actualizar Datos",
@@ -88882,7 +88455,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "908c9775529ae148",
         "group": "ec6a280f37f023ec",
-        "order": 27,
+        "order": 16,
         "width": 5,
         "height": 1,
         "name": "",
@@ -88899,8 +88472,8 @@
         "z": "f62fcef222e9a4a3",
         "g": "908c9775529ae148",
         "group": "ec6a280f37f023ec",
-        "order": 19,
-        "width": 4,
+        "order": 12,
+        "width": 5,
         "height": 1,
         "name": "",
         "label": "Intentos:",
@@ -89687,16 +89260,19 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "horas",
+        "label": "Horas",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 17,
-        "width": 4,
+        "order": 11,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 410,
         "y": 700,
         "wires": [
@@ -89711,16 +89287,19 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "minutos",
+        "label": "Minutos",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 15,
-        "width": 4,
+        "order": 10,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 420,
         "y": 740,
         "wires": [
@@ -89735,16 +89314,19 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "segundos",
+        "label": "Segundos",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 13,
-        "width": 4,
+        "order": 9,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 420,
         "y": 780,
         "wires": [
@@ -89864,18 +89446,20 @@
         "g": "56a5e3c9eb70369b",
         "name": "",
         "group": "5e71a9d14c810b9f",
-        "order": 20,
-        "width": 4,
+        "order": 18,
+        "width": 5,
         "height": 1,
         "passthru": false,
         "label": "Actualizar",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
+        "topicType": "str",
         "x": 1440,
         "y": 880,
         "wires": [
@@ -90032,8 +89616,8 @@
         "label": "LL",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 9,
-        "width": 4,
+        "order": 7,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -90083,8 +89667,8 @@
         "label": "L",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 7,
-        "width": 4,
+        "order": 6,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -90537,7 +90121,7 @@
         "label": "% Simulación",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 22,
+        "order": 5,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -90601,16 +90185,19 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "intentosHMI",
-        "label": "#Intentos",
+        "label": "No. de Intentos",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 11,
-        "width": 4,
+        "order": 8,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 410,
         "y": 1020,
         "wires": [
@@ -90681,11 +90268,11 @@
         "g": "357c29994d5a0df9",
         "name": "",
         "group": "5e71a9d14c810b9f",
-        "order": 21,
+        "order": 15,
         "width": 6,
         "height": 2,
         "gtype": "gage",
-        "title": "LLenado",
+        "title": "Llenado",
         "label": "%",
         "format": "{{value}}",
         "min": 0,
@@ -90697,6 +90284,7 @@
         ],
         "seg1": "",
         "seg2": "",
+        "className": "",
         "x": 1800,
         "y": 520,
         "wires": []
@@ -90842,13 +90430,14 @@
         "z": "a245c1e1476b1e2d",
         "g": "a368bb3bc2f75d5e",
         "group": "5e71a9d14c810b9f",
-        "order": 27,
+        "order": 16,
         "width": 4,
         "height": 1,
         "name": "",
-        "label": "#Intentos",
+        "label": "No. de Intentos:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 720,
         "y": 280,
         "wires": []
@@ -90859,13 +90448,14 @@
         "z": "a245c1e1476b1e2d",
         "g": "a368bb3bc2f75d5e",
         "group": "5e71a9d14c810b9f",
-        "order": 29,
-        "width": 4,
+        "order": 14,
+        "width": 5,
         "height": 1,
         "name": "",
-        "label": "tiempo",
+        "label": "Tiempo:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 870,
         "y": 540,
         "wires": []
@@ -90876,13 +90466,14 @@
         "z": "a245c1e1476b1e2d",
         "g": "a368bb3bc2f75d5e",
         "group": "5e71a9d14c810b9f",
-        "order": 25,
-        "width": 3,
+        "order": 12,
+        "width": 4,
         "height": 1,
         "name": "",
-        "label": "estado",
+        "label": "Estado:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 570,
         "y": 460,
         "wires": []
@@ -91797,7 +91388,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "1f2682bef5794306",
         "name": "Confirmar Actualización",
-        "func": "if(msg.payload == true){\n    msg.payload = \"��Desea Actualizar Datos Control ON/OFF?\";\n    msg.topic = \"Actualización Confirmada Control On/Off\";\n    msg.actualizar = true;\n}\nreturn msg;",
+        "func": "if(msg.payload == true){\n    msg.payload = \"¿Desea Actualizar Datos Control ON/OFF?\";\n    msg.topic = \"Actualización Confirmada Control On/Off\";\n    msg.actualizar = true;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -91932,8 +91523,8 @@
         "g": "1f2682bef5794306",
         "name": "",
         "group": "e37df2c845093401",
-        "order": 21,
-        "width": 4,
+        "order": 14,
+        "width": 6,
         "height": 1,
         "passthru": false,
         "label": "Actualizar Datos",
@@ -92117,8 +91708,8 @@
         "label": "Marcha (Horas)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 5,
-        "width": 3,
+        "order": 4,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92141,8 +91732,8 @@
         "label": "Marcha (Minutos)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 7,
-        "width": 3,
+        "order": 5,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92165,8 +91756,8 @@
         "label": "Marcha (Segundos)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 9,
-        "width": 3,
+        "order": 6,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92189,8 +91780,8 @@
         "label": "Pausa (Horas)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 12,
-        "width": 3,
+        "order": 7,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92213,8 +91804,8 @@
         "label": "Pausa (Minutos)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 14,
-        "width": 3,
+        "order": 8,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92237,8 +91828,8 @@
         "label": "Pausa (Segundos)",
         "tooltip": "",
         "group": "e37df2c845093401",
-        "order": 16,
-        "width": 3,
+        "order": 9,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -92871,13 +92462,14 @@
         "z": "1890b8e955d8f8fa",
         "g": "6604db9c5e9f2794",
         "group": "e37df2c845093401",
-        "order": 25,
+        "order": 10,
         "width": 4,
         "height": 1,
         "name": "",
         "label": "Tiempo:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 960,
         "y": 960,
         "wires": []
@@ -92888,13 +92480,14 @@
         "z": "1890b8e955d8f8fa",
         "g": "6604db9c5e9f2794",
         "group": "e37df2c845093401",
-        "order": 27,
-        "width": 3,
+        "order": 12,
+        "width": 4,
         "height": 1,
         "name": "",
-        "label": "Estado",
+        "label": "Estado:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 840,
         "y": 900,
         "wires": []
@@ -93702,8 +93295,8 @@
         "label": "Porcentaje Subida",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
-        "order": 9,
-        "width": 4,
+        "order": 5,
+        "width": 6,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -93727,8 +93320,8 @@
         "label": "Porcentaje Bajada",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
-        "order": 7,
-        "width": 4,
+        "order": 4,
+        "width": 5,
         "height": 1,
         "passthru": true,
         "mode": "number",
@@ -93749,13 +93342,14 @@
         "z": "f628d2416976df44",
         "g": "8ae034dd7eca71b4",
         "group": "1c0575d4f07fc2d0",
-        "order": 11,
-        "width": 4,
+        "order": 6,
+        "width": 5,
         "height": 1,
         "name": "",
-        "label": "Referencia",
+        "label": "Referencia:",
         "format": "{{msg.payload}}",
         "layout": "row-left",
+        "className": "",
         "x": 1690,
         "y": 740,
         "wires": []
@@ -93767,8 +93361,8 @@
         "g": "8a07c803a203d64c",
         "name": "",
         "group": "1c0575d4f07fc2d0",
-        "order": 15,
-        "width": 4,
+        "order": 13,
+        "width": 6,
         "height": 1,
         "passthru": false,
         "label": "Actualizar",
@@ -94250,13 +93844,14 @@
         "z": "f628d2416976df44",
         "g": "8ae034dd7eca71b4",
         "group": "1c0575d4f07fc2d0",
-        "order": 23,
-        "width": 4,
+        "order": 8,
+        "width": 6,
         "height": 1,
         "name": "",
-        "label": "Velocidad Subida",
+        "label": "Velocidad Subida:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 1710,
         "y": 800,
         "wires": []
@@ -94267,13 +93862,14 @@
         "z": "f628d2416976df44",
         "g": "8ae034dd7eca71b4",
         "group": "1c0575d4f07fc2d0",
-        "order": 25,
-        "width": 4,
+        "order": 9,
+        "width": 5,
         "height": 1,
         "name": "",
-        "label": "Velocidad Bajada",
+        "label": "Velocidad Bajada:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 1710,
         "y": 920,
         "wires": []
@@ -95168,7 +94764,7 @@
         "label": "Simular",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
-        "order": 4,
+        "order": 10,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -95513,13 +95109,14 @@
         "z": "f628d2416976df44",
         "g": "e8ed88c2e7ce6e23",
         "group": "1c0575d4f07fc2d0",
-        "order": 21,
-        "width": 4,
+        "order": 7,
+        "width": 5,
         "height": 1,
         "name": "",
-        "label": "Estado",
+        "label": "Estado:",
         "format": "{{msg.payload}}",
-        "layout": "row-left",
+        "layout": "row-spread",
+        "className": "",
         "x": 620,
         "y": 280,
         "wires": []
@@ -95667,6 +95264,32 @@
             [
                 "ad402348757e7a1d"
             ]
+        ]
+    },
+    {
+        "id": "c13d446464273f90",
+        "type": "change",
+        "z": "902fc438.e5d758",
+        "g": "fcb3da61.429db8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::EventReset",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 1010,
+        "wires": [
+            []
         ]
     },
     {
@@ -95859,6 +95482,140 @@
             [
                 "6749a4e697c2d46c"
             ]
+        ]
+    },
+    {
+        "id": "30ae733f015bd2a9",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "Calcular Desplazamiento",
+        "func": "var Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\n//Cálcula el Vector Desplazamiento\n// if (Indice <= NmuestrasTotales){\n//     VDesplazamiento[Indice-1] = Vpos[Indice - 1] * A;//Desplazamiento\n// }\n\nfor(let t = 0; t < NmuestrasTotales;t++){\n    VDesplazamiento[t] = Vpos[t] * A;\n}\nglobal.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento, 'memoryOnly');\n// guardar todo el vector\n// if (Indice >= NmuestrasTotales){\n//     global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n// }\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\");\n\nvar PosVdesmin = 0;\nvar PosVdesmayor = 0;\n\nvar Max_Desp = 0;\nvar Min_Desp = 0;\n\nvar PosVdesmin2 = 0;\nvar PosVdesmayor2 = 0;\n\nvar Max_Desp2 = 0;\nvar Min_Desp2 = 0;\n\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\nvar LongitudVector = 0;\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n\n    }\n}\n\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector Vdesplazamiento\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector Vdesplazamiento\n\nMax_Desp2 = VDesplazamiento[PosVdesmin];\n\nif (PosVdesmin > PosVdesmayor){\n    for (var k = 1; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmin + k] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + k];\n            PosVdesmayor2 = PosVdesmin + k;\n\n        }\n       \n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (k = 0; k < Nmuestras; k++){\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    LongitudVector = (PosVdesmayor2 - PosVdesmayor);// calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n// Condicion si la posición del valor minimo es menor que la del valor maximo\n}else if(PosVdesmin < PosVdesmayor){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    for (var m = 1; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    LongitudVector = (PosVdesmayor2 - PosVdesmayor); // calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {\n        VecDesCal[j] = VDesplazamiento[PosVdesmin2 + j];\n    }\n\n}\n\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp2\", Min_Desp2, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp2\", Max_Desp2, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor2\", PosVdesmayor2, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin2\", PosVdesmin2, \"memoryOnly\");//Seteo el maximo valor del vector X\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "689f9bbcd43194fe",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 990,
+        "y": 680,
+        "wires": [
+            [
+                "30ae733f015bd2a9"
+            ]
+        ]
+    },
+    {
+        "id": "75864cf70805fca9",
+        "type": "function",
+        "z": "902fc438.e5d758",
+        "g": "a55fe2f884c89e71",
+        "name": "Trends",
+        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.Output_Frequency\", \"memoryOnly\"))).toFixed(3));\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\",\"memoryOnly\")||null;\n\nif (datos==null){\n    datos = {   //Datos de suministro de agua\n                'ref': [{ \"x\": time, \"y\": REF }],\n                'speed': [{ \"x\": time, \"y\": SPEED }]\n            };\n}\nelse{\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n        \n\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\",datos,\"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + REF + \" Hz\");\nseries.push(\"Frecuencia de salida \" + SPEED + \" Hz\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 1620,
+        "wires": [
+            [
+                "d017b67335fc4df5"
+            ]
+        ]
+    },
+    {
+        "id": "d017b67335fc4df5",
+        "type": "switch",
+        "z": "902fc438.e5d758",
+        "g": "a55fe2f884c89e71",
+        "name": "home?",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Otras Funciones de Control",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 1620,
+        "wires": [
+            [
+                "93b21d74000b52e7"
+            ]
+        ]
+    },
+    {
+        "id": "93b21d74000b52e7",
+        "type": "ui_chart",
+        "z": "902fc438.e5d758",
+        "g": "a55fe2f884c89e71",
+        "name": "",
+        "group": "7438da5ebcb611d9",
+        "order": 1,
+        "width": 16,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#420d5e",
+            "#16700f",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 490,
+        "y": 1620,
+        "wires": [
+            []
         ]
     }
 ]
