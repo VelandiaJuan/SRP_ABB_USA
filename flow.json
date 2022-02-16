@@ -1275,10 +1275,13 @@
             "864a29df26985766",
             "0fddcf4a071bf7c0",
             "f3617af339d8b6d7",
-            "fc4ece5efd45fece"
+            "fc4ece5efd45fece",
+            "4656b9d64c73852a"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3462,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1294,7 +1297,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1380,7 +1385,9 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1781,8 +1788,8 @@
         ],
         "x": 92,
         "y": 1913,
-        "w": 1946,
-        "h": 1400
+        "w": 2480,
+        "h": 1515
     },
     {
         "id": "0379aa12b6a49e83",
@@ -2003,7 +2010,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "1178951067fce7a4",
@@ -2128,7 +2137,6 @@
             "1c0275c34f3f9e2d",
             "be1dcb53f06bb73c",
             "5d0d0564b7be518e",
-            "1d092dec161ff8be",
             "fa5e45a53a5caf5e",
             "bab297d8e38d1fcc",
             "490a325563bb2b0f",
@@ -2144,10 +2152,13 @@
             "74580d7aefe3b448",
             "f053a3ef63abbf05",
             "4ae0bb1a2ebb141b",
-            "ee89b458b55779ef"
+            "ee89b458b55779ef",
+            "68f04d51be6d6326"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2264,7 +2275,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "b41ee12005a32e8e",
@@ -4158,7 +4171,7 @@
         ],
         "x": 134,
         "y": 1939,
-        "w": 772,
+        "w": 1452,
         "h": 702
     },
     {
@@ -4182,7 +4195,7 @@
         "x": 118,
         "y": 2819,
         "w": 1894,
-        "h": 468
+        "h": 583
     },
     {
         "id": "c483d44b5f6def10",
@@ -4216,7 +4229,7 @@
         ],
         "x": 934,
         "y": 1939,
-        "w": 692,
+        "w": 1612,
         "h": 862
     },
     {
@@ -4921,7 +4934,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -4946,7 +4961,9 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5878,8 +5895,8 @@
         ],
         "x": 144,
         "y": 2899,
-        "w": 572,
-        "h": 362
+        "w": 1482,
+        "h": 477
     },
     {
         "id": "742e267a.cbc27",
@@ -12537,11 +12554,12 @@
         "type": "function",
         "z": "c8b77ff3.ab501",
         "name": "Arranque/Parada",
-        "func": "var Active0     = msg.active0;\nvar Active1     = msg.active1;\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif(Arranque && Active0 == 0 && Active0 != Active1){\n    msg.payload =\"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\",true);\n}\n// Arranque fallido\nelse if(Arranque && Active0 == 0 && Active0 == Active1){\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
+        "func": "var flagSAG = global.get(\"C2S.flaglaunchSAG\", \"memoryOnly\") || false;\nvar Status = (global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0) == 1 ? true : false;\nvar Active0 = msg.active0;\nvar Active1 = msg.active1;\nvar Arranque = ((msg.command == \"Arranque 'Forward'\") || (msg.command == \"Arranque 'Reverse'\")) ? true : false;\nvar Parada = msg.command == \"Parada del equipo\" ? true : false;\ndelete msg.topic;\n// Arranque exitoso\nif (Arranque && Active0 == 0 && Active0 != Active1 && !flagSAG) {\n    msg.payload = \"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\", true);\n}\n// Arranque fallido\nelse if (Arranque && Active0 == 0 && Active0 == Active1 && !flagSAG) {\n    msg.payload = \"Arranque fallido\";\n}\n// Parada Exitosa\nelse if (Parada && Active0 == 1 && Active0 != Active1){\n    msg.payload = \"Parada exitosa\";\n    global.set(\"C2S.FlagStatus\", false);\n}\n// Parada Fallida\nelse if (Parada && Active0 == 1 && Active0 == Active1){\n    msg.payload = \"Parada fallida\";\n}\nelse{\n    return;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2040,
         "y": 190,
         "wires": [
@@ -57847,7 +57865,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "+++/Datalogger",
+                "to": "+++/---/Datalogger",
                 "tot": "str"
             },
             {
@@ -57857,6 +57875,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -57969,7 +57996,8 @@
             "708ed3cee8c458cd",
             "9f5bee9b2ed52df4",
             "ad402348757e7a1d",
-            "8bb207e50e4933aa"
+            "8bb207e50e4933aa",
+            "8c116efbf8d4c984"
         ],
         "x": 175,
         "y": 80,
@@ -58465,7 +58493,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/Datalogger/***.csv",
+                "to": "+++/---/Datalogger/***.csv",
                 "tot": "str"
             },
             {
@@ -58485,6 +58513,15 @@
                 "fromt": "str",
                 "to": "Nombre_Archivo_Datalogger",
                 "tot": "flow"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -60700,7 +60737,7 @@
         "y": 1200,
         "wires": [
             [
-                "1d092dec161ff8be"
+                "68f04d51be6d6326"
             ]
         ]
     },
@@ -60829,26 +60866,6 @@
         "x": 1270,
         "y": 1240,
         "wires": []
-    },
-    {
-        "id": "1d092dec161ff8be",
-        "type": "function",
-        "z": "e7088c4e.cc6b4",
-        "g": "a73c3da33ecbc290",
-        "name": "Eventos PQA",
-        "func": "//Declaración de variables \nvar lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || 0;\nvar lastEventflag = flow.get(\"lastEventflag\", \"memoryOnly\") || false;\nvar IDPQAEvents = global.get(\"PQAEvents.ID\") || 0; //ID del ultimo evento guardado\nvar PQAEvents = global.get(\"PQAEvents.data\") || []; //Array de aventos guardados\nvar EstadoC2S = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0; // Muestra el estado del C2S\n\n//Adquisicion de los datos de un evento\nvar Uint8 = new Uint8Array(6);\nvar NewestEvent = msg.payload[0];\nvar StartingGroup = msg.payload[1];\nvar Timestamp1 = msg.payload[3];\nvar Timestamp2 = msg.payload[4];\nvar Timestamp3 = msg.payload[5];\nvar Timestamp4 = msg.payload[6];\nvar VSagVSwell = msg.payload[7];\nvar RatedValue = msg.payload[8];\nvar Threshold = msg.payload[9];\nvar HalfCycle = msg.payload[10];\n\n//Corrimiento de datos\nUint8[0] = Timestamp1; //Month\nUint8[1] = Timestamp1 >> 8;\nUint8[2] = Timestamp2; //Hora\nUint8[3] = Timestamp2 >> 8; //Day\nUint8[4] = Timestamp3;  //Second\nUint8[5] = Timestamp3 >> 8; //Minute\n\nvar VSagVSwell1 = \"\";\n//Define Power Sag o Power Swell\nif (Threshold <= 100 ){\n     VSagVSwell1 = \"Voltaje Sag\";\n} else {\n    VSagVSwell1 = \"Voltaje Swell\";\n}\n\n//Formato de Timestamp\nvar year = Uint8[1] + 2000;\nif (Uint8[0] < 10) { // Para el mes\n    var Month = '0' + Uint8[0];\n} else { Month = Uint8[0]; }\nif (Uint8[3] < 10) { // Para el día\n    var Day = '0' + Uint8[3];\n} else {Day = Uint8[3];}\nif (Uint8[2] < 10) { // Para la Hora\n    var Hora = '0' + Uint8[2];\n} else { Hora = Uint8[2]; }\nif (Uint8[5] < 10) { // Para los Minutos\n    var Minute = '0' + Uint8[5];\n} else { Minute = Uint8[5]; }\nif (Uint8[4] < 10) { // Para los Segundos\n    var Second = '0' + Uint8[4];\n} else { Second = Uint8[4]; }\n\n\n//Data del evento consultado - estructura\nvar dataEvento = {\n    \"ID\":  null,\n    \"NewestEvent\": NewestEvent,\n    \"StartingGroup\": StartingGroup,\n    \"Fecha\": year + \"/\" + Month + \"/\" + Day,\n    \"Hora\": Hora + \":\" + Minute + \":\" + Second,\n    \"Milisegundos\": Timestamp4,\n    \"VSagVSwell\": VSagVSwell1,\n    \"RatedValue\": RatedValue,\n    \"Threshold\": Threshold,\n    \"HalfCycle\": HalfCycle,\n    \"EstadoC2S\": EstadoC2S == 1 ? \"Activo\" : \"Detenido\"\n};\n\n//Adquisición de los eventos en el array PQAEvents \nflow.set(\"NewestEvent\", NewestEvent, \"memoryOnly\");\nif (lastEvent == 0 && !lastEventflag) { flow.set(\"lastEventflag\", true,\"memoryOnly\"); lastEvent = NewestEvent; flow.set(\"lastEvent\", lastEvent, \"memoryOnly\");}\nif (lastEvent > NewestEvent) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (NewestEvent - lastEvent > 50) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (lastEvent != NewestEvent) { // Si hay un evento nuevo....\n    if ((lastEvent + 1) == StartingGroup) {\n        dataEvento.ID = IDPQAEvents + 1\n        PQAEvents.unshift( dataEvento);\n        if (PQAEvents.length == 501) PQAEvents.pop(); //Limita la cantidad de eventos registrados \n        global.set(\"PQAEvents.data\", PQAEvents);\n        global.set(\"PQAEvents.ID\", IDPQAEvents + 1);\n        flow.set(\"lastEvent\", lastEvent+1, \"memoryOnly\");\n        return msg;\n    }\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "//context.set(\"m\", 0, \"memoryOnly\");\n\n\n//context.set(\"EventoGuardado\", [], \"memoryOnly\");\n\n// Code added here will be run once\n// whenever the node is started.\n",
-        "finalize": "",
-        "libs": [],
-        "x": 910,
-        "y": 1200,
-        "wires": [
-            [
-                "8cf1c791b0b47299"
-            ]
-        ]
     },
     {
         "id": "fa5e45a53a5caf5e",
@@ -64027,7 +64044,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "+++/SmartDatalogger",
+                "to": "+++/---/SmartDatalogger",
                 "tot": "str"
             },
             {
@@ -64037,6 +64054,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -64049,7 +64075,8 @@
         "y": 280,
         "wires": [
             [
-                "fc4ece5efd45fece"
+                "fc4ece5efd45fece",
+                "c28cc2f292ddbbd7"
             ]
         ]
     },
@@ -64102,7 +64129,7 @@
         "hdrout": "none",
         "multi": "one",
         "ret": "\\n",
-        "temp": "no,fecha,hora,alarma",
+        "temp": "ID,NewestEvent,StartingGroup,Fecha,Hora,Milisegundos,VSagVSwell,RatedValue,Threshold,HalfCycle,EstadoC2S",
         "skip": "0",
         "strings": true,
         "include_empty_strings": "",
@@ -64133,7 +64160,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/PQA/PQAevents.csv",
+                "to": "+++/---/PQA/PQAevents.csv",
                 "tot": "str"
             },
             {
@@ -64143,6 +64170,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -66820,7 +66856,8 @@
             "604bafd40255b648",
             "708ed3cee8c458cd",
             "ad402348757e7a1d",
-            "8bb207e50e4933aa"
+            "8bb207e50e4933aa",
+            "8c116efbf8d4c984"
         ],
         "x": 1315,
         "y": 230,
@@ -95617,5 +95654,336 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "7a3f5495c1da4ade",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "Anti parada por SAG",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8a8539438823a31f",
+            "7382df7e5d4e1ab7",
+            "ef66b03865b317c1",
+            "f472e2cf1eb3134b",
+            "ad140e94a40c2943",
+            "5e8edfb9f3f4d571",
+            "a81e01bf8c3e97ac",
+            "528760d660aca9de",
+            "8c116efbf8d4c984",
+            "828a9ca47399f84b",
+            "019e3edf07e3bcea"
+        ],
+        "x": 94,
+        "y": 1439,
+        "w": 1012,
+        "h": 202
+    },
+    {
+        "id": "68f04d51be6d6326",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "Eventos PQA",
+        "func": "//Declaración de variables \nvar lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || 0;\nvar lastEventflag = flow.get(\"lastEventflag\", \"memoryOnly\") || false;\nvar IDPQAEvents = global.get(\"PQAEvents.ID\") || 0; //ID del ultimo evento guardado\nvar PQAEvents = global.get(\"PQAEvents.data\") || []; //Array de aventos guardados\nvar EstadoC2S = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0; // Muestra el estado del C2S\nvar statusdrive = global.get(\"C2S.FlagStatus\")||false;\n\n//Adquisicion de los datos de un evento\nvar Uint8 = new Uint8Array(6);\nvar NewestEvent = msg.payload[0];\nvar StartingGroup = msg.payload[1];\nvar Timestamp1 = msg.payload[3];\nvar Timestamp2 = msg.payload[4];\nvar Timestamp3 = msg.payload[5];\nvar Timestamp4 = msg.payload[6];\nvar VSagVSwell = msg.payload[7];\nvar RatedValue = msg.payload[8];\nvar Threshold = msg.payload[9];\nvar HalfCycle = msg.payload[10];\n\n//Corrimiento de datos\nUint8[0] = Timestamp1; //Month\nUint8[1] = Timestamp1 >> 8;\nUint8[2] = Timestamp2; //Hora\nUint8[3] = Timestamp2 >> 8; //Day\nUint8[4] = Timestamp3;  //Second\nUint8[5] = Timestamp3 >> 8; //Minute\n\nvar VSagVSwell1 = \"\";\n//Define Power Sag o Power Swell\n(Threshold <= 100) ? VSagVSwell1 = \"Voltaje Sag\" : VSagVSwell1 = \"Voltaje Swell\";\n\n//Formato de Timestamp\nvar year = Uint8[1] + 2000;\nif (Uint8[0] < 10) { // Para el mes\n    var Month = '0' + Uint8[0];\n} else { Month = Uint8[0]; }\nif (Uint8[3] < 10) { // Para el día\n    var Day = '0' + Uint8[3];\n} else {Day = Uint8[3];}\nif (Uint8[2] < 10) { // Para la Hora\n    var Hora = '0' + Uint8[2];\n} else { Hora = Uint8[2]; }\nif (Uint8[5] < 10) { // Para los Minutos\n    var Minute = '0' + Uint8[5];\n} else { Minute = Uint8[5]; }\nif (Uint8[4] < 10) { // Para los Segundos\n    var Second = '0' + Uint8[4];\n} else { Second = Uint8[4]; }\n\n\n//Data del evento consultado - estructura\nvar dataEvento = {\n    \"ID\":  null,\n    \"NewestEvent\": NewestEvent,\n    \"StartingGroup\": StartingGroup,\n    \"Fecha\": year + \"/\" + Month + \"/\" + Day,\n    \"Hora\": Hora + \":\" + Minute + \":\" + Second,\n    \"Milisegundos\": Timestamp4,\n    \"VSagVSwell\": VSagVSwell1,\n    \"RatedValue\": RatedValue,\n    \"Threshold\": Threshold,\n    \"HalfCycle\": HalfCycle,\n    \"EstadoC2S\": EstadoC2S == 1 ? \"Activo\" : \"Detenido\"\n};\n\n//Adquisición de los eventos en el array PQAEvents \nflow.set(\"NewestEvent\", NewestEvent, \"memoryOnly\");\nif (lastEvent == 0 && !lastEventflag) { flow.set(\"lastEventflag\", true,\"memoryOnly\"); lastEvent = NewestEvent; flow.set(\"lastEvent\", lastEvent, \"memoryOnly\");}\nif (lastEvent > NewestEvent) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (NewestEvent - lastEvent > 50) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (lastEvent != NewestEvent) { // Si hay un evento nuevo....\n    if ((lastEvent + 1) == StartingGroup) {\n        dataEvento.ID = IDPQAEvents + 1\n        PQAEvents.unshift( dataEvento);\n        if (PQAEvents.length == 501) PQAEvents.pop();\n        global.set(\"PQAEvents.data\", PQAEvents);\n        global.set(\"PQAEvents.ID\", IDPQAEvents + 1);\n        flow.set(\"lastEvent\", lastEvent+1, \"memoryOnly\");\n        //if (statusdrive){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG y SWEELL\n        if (statusdrive && dataEvento.VSagVSwell == \"Voltaje Sag\"){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG \n        return msg;\n        }\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "//context.set(\"m\", 0, \"memoryOnly\");\n\n\n//context.set(\"EventoGuardado\", [], \"memoryOnly\");\n\n// Code added here will be run once\n// whenever the node is started.\n",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1200,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "8a8539438823a31f",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "#:(memoryOnly)::C2S.flaglaunchSAG",
+        "payloadType": "global",
+        "x": 260,
+        "y": 1480,
+        "wires": [
+            [
+                "7382df7e5d4e1ab7"
+            ]
+        ]
+    },
+    {
+        "id": "7382df7e5d4e1ab7",
+        "type": "switch",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "Evento",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 1480,
+        "wires": [
+            [
+                "ef66b03865b317c1",
+                "f472e2cf1eb3134b",
+                "ad140e94a40c2943",
+                "5e8edfb9f3f4d571"
+            ]
+        ]
+    },
+    {
+        "id": "ef66b03865b317c1",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Reset",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Basic",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 1480,
+        "wires": [
+            [
+                "019e3edf07e3bcea"
+            ]
+        ]
+    },
+    {
+        "id": "f472e2cf1eb3134b",
+        "type": "delay",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 630,
+        "y": 1520,
+        "wires": [
+            [
+                "828a9ca47399f84b"
+            ]
+        ]
+    },
+    {
+        "id": "ad140e94a40c2943",
+        "type": "delay",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 630,
+        "y": 1560,
+        "wires": [
+            [
+                "a81e01bf8c3e97ac"
+            ]
+        ]
+    },
+    {
+        "id": "5e8edfb9f3f4d571",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "Clear SAGflag",
+        "func": "var count = 2;\nvar flag = (global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0) == 1 ? true : false;\ncount++;\ncontext.set(\"count\", count, \"memoryOnly\");\nif (!flag && count > 10) {\n    global.set(\"C2S.flaglaunchSAG\", false, \"memoryOnly\");\n    context.set(\"count\", 0, \"memoryOnly\");\n}\nif (flag && count > 0 && count <= 10) {\n    msg.payload = \"Evento Power SAG, equipo activo\";\n    global.set(\"C2S.flaglaunchSAG\", false, \"memoryOnly\");\n    context.set(\"count\", 0, \"memoryOnly\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 640,
+        "y": 1600,
+        "wires": [
+            [
+                "8c116efbf8d4c984"
+            ]
+        ]
+    },
+    {
+        "id": "a81e01bf8c3e97ac",
+        "type": "function",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "apagar piloto falla gen",
+        "func": "global.set(\"IO.Functions.DO['Falla general']\", false, 'memoryOnly');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "528760d660aca9de",
+        "type": "comment",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "subfujo basic",
+        "info": "en bloque \"Arranque/parada\" agregar código (eliminar lo previo a condicional \"parada exitosa\"):\n\nvar flagSAG = global.get(\"C2S.flaglaunchSAG\", \"memoryOnly\") || false;\nvar Status = (global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0) == 1 ? true : false;\nvar Active0     = msg.active0;\nvar Active1     = msg.active1;\nvar Arranque    = ((msg.command == \"Arranque 'Forward'\") || (msg.command==\"Arranque 'Reverse'\")) ? true:false;\nvar Parada      = msg.command == \"Parada del equipo\" ? true:false;\ndelete msg.topic;\n// Arranque exitoso\nif (Arranque && Active0 == 0 && Active0 != Active1 && !flagSAG) {\n    msg.payload = \"Arranque exitoso\";\n    global.set(\"C2S.FlagStatus\", true);\n}\n// Arranque fallido\nelse if (Arranque && Active0 == 0 && Active0 == Active1 && !flagSAG) {\n    msg.payload = \"Arranque fallido\";\n}",
+        "x": 1010,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "8c116efbf8d4c984",
+        "type": "link out",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "",
+        "links": [
+            "207ea8ce.3dea68",
+            "2da816b7.b2be9a"
+        ],
+        "x": 755,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "828a9ca47399f84b",
+        "type": "change",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "Arranque",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Start",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Basic",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 780,
+        "y": 1520,
+        "wires": [
+            [
+                "019e3edf07e3bcea"
+            ]
+        ]
+    },
+    {
+        "id": "019e3edf07e3bcea",
+        "type": "subflow:c8b77ff3.ab501",
+        "z": "e7088c4e.cc6b4",
+        "g": "7a3f5495c1da4ade",
+        "name": "",
+        "env": [],
+        "x": 980,
+        "y": 1480,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "4656b9d64c73852a",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 2260,
+        "y": 280,
+        "wires": [
+            [
+                "f3617af339d8b6d7"
+            ]
+        ]
+    },
+    {
+        "id": "c28cc2f292ddbbd7",
+        "type": "debug",
+        "z": "e7088c4e.cc6b4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2710,
+        "y": 180,
+        "wires": []
     }
 ]
