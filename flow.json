@@ -1266,7 +1266,8 @@
             "864a29df26985766",
             "0fddcf4a071bf7c0",
             "f3617af339d8b6d7",
-            "fc4ece5efd45fece"
+            "fc4ece5efd45fece",
+            "4656b9d64c73852a"
         ],
         "x": 84,
         "y": 231.5,
@@ -1895,9 +1896,7 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33,
-        "w": 1004,
-        "h": 1854
+        "y": 33
     },
     {
         "id": "b3942c43115e460d",
@@ -1913,9 +1912,7 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1488,
-        "y": -7,
-        "w": 1264,
-        "h": 1194
+        "y": -7
     },
     {
         "id": "0474082dbe49e1c2",
@@ -2565,9 +2562,7 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139,
-        "w": 532,
-        "h": 242
+        "y": 139
     },
     {
         "id": "854b667853465d2b",
@@ -2616,9 +2611,7 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139,
-        "w": 642,
-        "h": 502
+        "y": 139
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2638,9 +2631,7 @@
             "8d91641ca1666f12"
         ],
         "x": 44,
-        "y": 239,
-        "w": 482,
-        "h": 122
+        "y": 239
     },
     {
         "id": "9648249e35aead30",
@@ -2660,9 +2651,7 @@
             "61905dd3d7cd7433"
         ],
         "x": 34,
-        "y": 379,
-        "w": 502,
-        "h": 122
+        "y": 379
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3667,9 +3656,7 @@
             "617d3424713f8c8e"
         ],
         "x": 34,
-        "y": 519,
-        "w": 1372,
-        "h": 202
+        "y": 519
     },
     {
         "id": "936eab7d97be78af",
@@ -3807,9 +3794,34 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 1444,
-        "y": 139,
-        "w": 772,
-        "h": 728
+        "y": 139
+    },
+    {
+        "id": "7a3f5495c1da4ade",
+        "type": "group",
+        "z": "e7088c4e.cc6b4",
+        "name": "Anti parada por SAG",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "8a8539438823a31f",
+            "7382df7e5d4e1ab7",
+            "ef66b03865b317c1",
+            "f472e2cf1eb3134b",
+            "ad140e94a40c2943",
+            "5e8edfb9f3f4d571",
+            "a81e01bf8c3e97ac",
+            "528760d660aca9de",
+            "8c116efbf8d4c984",
+            "828a9ca47399f84b",
+            "019e3edf07e3bcea"
+        ],
+        "x": 94,
+        "y": 1439,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "d929d138.3b512",
@@ -3898,9 +3910,7 @@
             "f24020b8fbb63903"
         ],
         "x": 1514,
-        "y": 299,
-        "w": 1212,
-        "h": 862
+        "y": 299
     },
     {
         "id": "99671f60976b1d2a",
@@ -3927,9 +3937,7 @@
             "6a229694c9c0fbca"
         ],
         "x": 1514,
-        "y": 19,
-        "w": 992,
-        "h": 212
+        "y": 19
     },
     {
         "id": "95daead77be77494",
@@ -3977,9 +3985,7 @@
             "bde48f770f85aba2"
         ],
         "x": 384,
-        "y": 1129,
-        "w": 532,
-        "h": 732
+        "y": 1129
     },
     {
         "id": "87fca62744442ad4",
@@ -4015,9 +4021,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229,
-        "w": 702,
-        "h": 272
+        "y": 229
     },
     {
         "id": "a7f58aaec292b159",
@@ -4059,9 +4063,7 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509,
-        "w": 952,
-        "h": 272
+        "y": 509
     },
     {
         "id": "37b64a70f39dda06",
@@ -4101,9 +4103,7 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789,
-        "w": 812,
-        "h": 322
+        "y": 789
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -4129,9 +4129,7 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59,
-        "w": 802,
-        "h": 162
+        "y": 59
     },
     {
         "id": "b079c206d161b62c",
@@ -5833,9 +5831,7 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 759,
-        "w": 492,
-        "h": 82
+        "y": 759
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -6970,33 +6966,6 @@
         ],
         "x": 614,
         "y": 689
-    },
-    {
-        "id": "7a3f5495c1da4ade",
-        "type": "group",
-        "z": "e7088c4e.cc6b4",
-        "name": "Anti parada por SAG",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "8a8539438823a31f",
-            "7382df7e5d4e1ab7",
-            "ef66b03865b317c1",
-            "f472e2cf1eb3134b",
-            "ad140e94a40c2943",
-            "5e8edfb9f3f4d571",
-            "a81e01bf8c3e97ac",
-            "528760d660aca9de",
-            "8c116efbf8d4c984",
-            "828a9ca47399f84b",
-            "019e3edf07e3bcea"
-        ],
-        "x": 94,
-        "y": 1439,
-        "w": 1012,
-        "h": 202
     },
     {
         "id": "d25d405a.19cff",
@@ -58319,7 +58288,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "+++/Datalogger",
+                "to": "+++/---/Datalogger",
                 "tot": "str"
             },
             {
@@ -58329,6 +58298,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -58938,7 +58916,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/Datalogger/***.csv",
+                "to": "+++/---/Datalogger/***.csv",
                 "tot": "str"
             },
             {
@@ -58958,6 +58936,15 @@
                 "fromt": "str",
                 "to": "Nombre_Archivo_Datalogger",
                 "tot": "flow"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
+                "tot": "global"
             }
         ],
         "action": "",
@@ -64480,7 +64467,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "+++/SmartDatalogger",
+                "to": "+++/---/SmartDatalogger",
                 "tot": "str"
             },
             {
@@ -64490,6 +64477,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -64502,7 +64498,8 @@
         "y": 280,
         "wires": [
             [
-                "fc4ece5efd45fece"
+                "fc4ece5efd45fece",
+                "c28cc2f292ddbbd7"
             ]
         ]
     },
@@ -64555,7 +64552,7 @@
         "hdrout": "none",
         "multi": "one",
         "ret": "\\n",
-        "temp": "no,fecha,hora,alarma",
+        "temp": "ID,NewestEvent,StartingGroup,Fecha,Hora,Milisegundos,VSagVSwell,RatedValue,Threshold,HalfCycle,EstadoC2S",
         "skip": "0",
         "strings": true,
         "include_empty_strings": "",
@@ -64586,7 +64583,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/PQA/PQAevents.csv",
+                "to": "+++/---/PQA/PQAevents.csv",
                 "tot": "str"
             },
             {
@@ -64596,6 +64593,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -95891,7 +95897,7 @@
         "z": "e7088c4e.cc6b4",
         "g": "a73c3da33ecbc290",
         "name": "Eventos PQA",
-        "func": "//Declaración de variables \nvar lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || 0;\nvar lastEventflag = flow.get(\"lastEventflag\", \"memoryOnly\") || false;\nvar IDPQAEvents = global.get(\"PQAEvents.ID\") || 0; //ID del ultimo evento guardado\nvar PQAEvents = global.get(\"PQAEvents.data\") || []; //Array de aventos guardados\nvar EstadoC2S = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0; // Muestra el estado del C2S\nvar statusdrive = global.get(\"C2S.FlagStatus\")||false;\n\n//Adquisicion de los datos de un evento\nvar Uint8 = new Uint8Array(6);\nvar NewestEvent = msg.payload[0];\nvar StartingGroup = msg.payload[1];\nvar Timestamp1 = msg.payload[3];\nvar Timestamp2 = msg.payload[4];\nvar Timestamp3 = msg.payload[5];\nvar Timestamp4 = msg.payload[6];\nvar VSagVSwell = msg.payload[7];\nvar RatedValue = msg.payload[8];\nvar Threshold = msg.payload[9];\nvar HalfCycle = msg.payload[10];\n\n//Corrimiento de datos\nUint8[0] = Timestamp1; //Month\nUint8[1] = Timestamp1 >> 8;\nUint8[2] = Timestamp2; //Hora\nUint8[3] = Timestamp2 >> 8; //Day\nUint8[4] = Timestamp3;  //Second\nUint8[5] = Timestamp3 >> 8; //Minute\n\nvar VSagVSwell1 = \"\";\n//Define Power Sag o Power Swell\n(Threshold <= 100) ? VSagVSwell1 = \"Voltaje Sag\" : VSagVSwell1 = \"Voltaje Swell\";\n\n//Formato de Timestamp\nvar year = Uint8[1] + 2000;\nif (Uint8[0] < 10) { // Para el mes\n    var Month = '0' + Uint8[0];\n} else { Month = Uint8[0]; }\nif (Uint8[3] < 10) { // Para el día\n    var Day = '0' + Uint8[3];\n} else {Day = Uint8[3];}\nif (Uint8[2] < 10) { // Para la Hora\n    var Hora = '0' + Uint8[2];\n} else { Hora = Uint8[2]; }\nif (Uint8[5] < 10) { // Para los Minutos\n    var Minute = '0' + Uint8[5];\n} else { Minute = Uint8[5]; }\nif (Uint8[4] < 10) { // Para los Segundos\n    var Second = '0' + Uint8[4];\n} else { Second = Uint8[4]; }\n\n\n//Data del evento consultado - estructura\nvar dataEvento = {\n    \"ID\":  null,\n    \"NewestEvent\": NewestEvent,\n    \"StartingGroup\": StartingGroup,\n    \"Fecha\": year + \"/\" + Month + \"/\" + Day,\n    \"Hora\": Hora + \":\" + Minute + \":\" + Second,\n    \"Milisegundos\": Timestamp4,\n    \"VSagVSwell\": VSagVSwell1,\n    \"RatedValue\": RatedValue,\n    \"Threshold\": Threshold,\n    \"HalfCycle\": HalfCycle,\n    \"EstadoC2S\": EstadoC2S == 1 ? \"Activo\" : \"Detenido\"\n};\n\n//Adquisición de los eventos en el array PQAEvents \nflow.set(\"NewestEvent\", NewestEvent, \"memoryOnly\");\nif (lastEvent == 0 && !lastEventflag) { flow.set(\"lastEventflag\", true,\"memoryOnly\"); lastEvent = NewestEvent; flow.set(\"lastEvent\", lastEvent, \"memoryOnly\");}\nif (lastEvent > NewestEvent) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (NewestEvent - lastEvent > 50) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (lastEvent != NewestEvent) { // Si hay un evento nuevo....\n    if ((lastEvent + 1) == StartingGroup) {\n        dataEvento.ID = IDPQAEvents + 1\n        PQAEvents.unshift( dataEvento);\n        if (PQAEvents.length == 501) PQAEvents.pop();\n        global.set(\"PQAEvents.data\", PQAEvents);\n        global.set(\"PQAEvents.ID\", IDPQAEvents + 1);\n        flow.set(\"lastEvent\", lastEvent+1, \"memoryOnly\");\n        if (statusdrive){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG y SWEELL\n        //if (statusdrive && dataEvento.VSagVSwell == \"Voltaje Sag\"){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG \n        return msg;\n        }\n    }\n}",
+        "func": "//Declaración de variables \nvar lastEvent = flow.get(\"lastEvent\", \"memoryOnly\") || 0;\nvar lastEventflag = flow.get(\"lastEventflag\", \"memoryOnly\") || false;\nvar IDPQAEvents = global.get(\"PQAEvents.ID\") || 0; //ID del ultimo evento guardado\nvar PQAEvents = global.get(\"PQAEvents.data\") || []; //Array de aventos guardados\nvar EstadoC2S = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0; // Muestra el estado del C2S\nvar statusdrive = global.get(\"C2S.FlagStatus\")||false;\n\n//Adquisicion de los datos de un evento\nvar Uint8 = new Uint8Array(6);\nvar NewestEvent = msg.payload[0];\nvar StartingGroup = msg.payload[1];\nvar Timestamp1 = msg.payload[3];\nvar Timestamp2 = msg.payload[4];\nvar Timestamp3 = msg.payload[5];\nvar Timestamp4 = msg.payload[6];\nvar VSagVSwell = msg.payload[7];\nvar RatedValue = msg.payload[8];\nvar Threshold = msg.payload[9];\nvar HalfCycle = msg.payload[10];\n\n//Corrimiento de datos\nUint8[0] = Timestamp1; //Month\nUint8[1] = Timestamp1 >> 8;\nUint8[2] = Timestamp2; //Hora\nUint8[3] = Timestamp2 >> 8; //Day\nUint8[4] = Timestamp3;  //Second\nUint8[5] = Timestamp3 >> 8; //Minute\n\nvar VSagVSwell1 = \"\";\n//Define Power Sag o Power Swell\n(Threshold <= 100) ? VSagVSwell1 = \"Voltaje Sag\" : VSagVSwell1 = \"Voltaje Swell\";\n\n//Formato de Timestamp\nvar year = Uint8[1] + 2000;\nif (Uint8[0] < 10) { // Para el mes\n    var Month = '0' + Uint8[0];\n} else { Month = Uint8[0]; }\nif (Uint8[3] < 10) { // Para el día\n    var Day = '0' + Uint8[3];\n} else {Day = Uint8[3];}\nif (Uint8[2] < 10) { // Para la Hora\n    var Hora = '0' + Uint8[2];\n} else { Hora = Uint8[2]; }\nif (Uint8[5] < 10) { // Para los Minutos\n    var Minute = '0' + Uint8[5];\n} else { Minute = Uint8[5]; }\nif (Uint8[4] < 10) { // Para los Segundos\n    var Second = '0' + Uint8[4];\n} else { Second = Uint8[4]; }\n\n\n//Data del evento consultado - estructura\nvar dataEvento = {\n    \"ID\":  null,\n    \"NewestEvent\": NewestEvent,\n    \"StartingGroup\": StartingGroup,\n    \"Fecha\": year + \"/\" + Month + \"/\" + Day,\n    \"Hora\": Hora + \":\" + Minute + \":\" + Second,\n    \"Milisegundos\": Timestamp4,\n    \"VSagVSwell\": VSagVSwell1,\n    \"RatedValue\": RatedValue,\n    \"Threshold\": Threshold,\n    \"HalfCycle\": HalfCycle,\n    \"EstadoC2S\": EstadoC2S == 1 ? \"Activo\" : \"Detenido\"\n};\n\n//Adquisición de los eventos en el array PQAEvents \nflow.set(\"NewestEvent\", NewestEvent, \"memoryOnly\");\nif (lastEvent == 0 && !lastEventflag) { flow.set(\"lastEventflag\", true,\"memoryOnly\"); lastEvent = NewestEvent; flow.set(\"lastEvent\", lastEvent, \"memoryOnly\");}\nif (lastEvent > NewestEvent) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (NewestEvent - lastEvent > 50) { flow.set(\"lastEvent\", NewestEvent, \"memoryOnly\"); lastEvent = NewestEvent};\nif (lastEvent != NewestEvent) { // Si hay un evento nuevo....\n    if ((lastEvent + 1) == StartingGroup) {\n        dataEvento.ID = IDPQAEvents + 1\n        PQAEvents.unshift( dataEvento);\n        if (PQAEvents.length == 501) PQAEvents.pop();\n        global.set(\"PQAEvents.data\", PQAEvents);\n        global.set(\"PQAEvents.ID\", IDPQAEvents + 1);\n        flow.set(\"lastEvent\", lastEvent+1, \"memoryOnly\");\n        //if (statusdrive){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG y SWEELL\n        if (statusdrive && dataEvento.VSagVSwell == \"Voltaje Sag\"){global.set(\"C2S.flaglaunchSAG\", true, \"memoryOnly\"); // línea de código para lanzamiento de arranque por evento SAG \n        return msg;\n        }\n    }\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "//context.set(\"m\", 0, \"memoryOnly\");\n\n\n//context.set(\"EventoGuardado\", [], \"memoryOnly\");\n\n// Code added here will be run once\n// whenever the node is started.\n",
@@ -96151,5 +96157,42 @@
             [],
             []
         ]
+    },
+    {
+        "id": "4656b9d64c73852a",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 2260,
+        "y": 280,
+        "wires": [
+            [
+                "f3617af339d8b6d7"
+            ]
+        ]
+    },
+    {
+        "id": "c28cc2f292ddbbd7",
+        "type": "debug",
+        "z": "e7088c4e.cc6b4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2710,
+        "y": 180,
+        "wires": []
     }
 ]
