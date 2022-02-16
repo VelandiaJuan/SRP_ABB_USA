@@ -1261,7 +1261,9 @@
             "fc4ece5efd45fece"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3462,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1277,7 +1279,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1363,7 +1367,9 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1982,7 +1988,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "1178951067fce7a4",
@@ -2121,7 +2129,9 @@
             "ee89b458b55779ef"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2238,7 +2248,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "b41ee12005a32e8e",
@@ -4940,7 +4952,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -4965,7 +4979,9 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -58480,7 +58496,7 @@
         "z": "e7088c4e.cc6b4",
         "g": "9b538856.60fb38",
         "name": "",
-        "files": "/media/bcgrp",
+        "files": "/media/bcpgrp",
         "recursive": false,
         "x": 180,
         "y": 320,
@@ -59178,7 +59194,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/Eventos/Eventos.csv",
+                "to": "+++/---/Eventos/Eventos.csv",
                 "tot": "str"
             },
             {
@@ -59188,6 +59204,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
@@ -59340,7 +59365,7 @@
                 "t": "set",
                 "p": "filename",
                 "pt": "msg",
-                "to": "+++/Alarmas/Alarmas.csv",
+                "to": "+++/---/Alarmas/Alarmas.csv",
                 "tot": "str"
             },
             {
@@ -59350,6 +59375,15 @@
                 "from": "+++",
                 "fromt": "str",
                 "to": "USB_Drive",
+                "tot": "global"
+            },
+            {
+                "t": "change",
+                "p": "filename",
+                "pt": "msg",
+                "from": "---",
+                "fromt": "str",
+                "to": "Input.Pozo",
                 "tot": "global"
             }
         ],
