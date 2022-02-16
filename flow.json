@@ -1895,7 +1895,9 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33
+        "y": 33,
+        "w": 1004,
+        "h": 1854
     },
     {
         "id": "b3942c43115e460d",
@@ -1911,7 +1913,9 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1488,
-        "y": -7
+        "y": -7,
+        "w": 1264,
+        "h": 1194
     },
     {
         "id": "0474082dbe49e1c2",
@@ -2561,7 +2565,9 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139
+        "y": 139,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2610,7 +2616,9 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139
+        "y": 139,
+        "w": 642,
+        "h": 502
     },
     {
         "id": "9d4d96338ab627d0",
@@ -2630,7 +2638,9 @@
             "8d91641ca1666f12"
         ],
         "x": 44,
-        "y": 239
+        "y": 239,
+        "w": 482,
+        "h": 122
     },
     {
         "id": "9648249e35aead30",
@@ -2650,7 +2660,9 @@
             "61905dd3d7cd7433"
         ],
         "x": 34,
-        "y": 379
+        "y": 379,
+        "w": 502,
+        "h": 122
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3655,7 +3667,9 @@
             "617d3424713f8c8e"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 1372,
+        "h": 202
     },
     {
         "id": "936eab7d97be78af",
@@ -3793,7 +3807,9 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 1444,
-        "y": 139
+        "y": 139,
+        "w": 772,
+        "h": 728
     },
     {
         "id": "d929d138.3b512",
@@ -3882,7 +3898,9 @@
             "f24020b8fbb63903"
         ],
         "x": 1514,
-        "y": 299
+        "y": 299,
+        "w": 1212,
+        "h": 862
     },
     {
         "id": "99671f60976b1d2a",
@@ -3909,7 +3927,9 @@
             "6a229694c9c0fbca"
         ],
         "x": 1514,
-        "y": 19
+        "y": 19,
+        "w": 992,
+        "h": 212
     },
     {
         "id": "95daead77be77494",
@@ -3957,7 +3977,9 @@
             "bde48f770f85aba2"
         ],
         "x": 384,
-        "y": 1129
+        "y": 1129,
+        "w": 532,
+        "h": 732
     },
     {
         "id": "87fca62744442ad4",
@@ -3993,7 +4015,9 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229
+        "y": 229,
+        "w": 702,
+        "h": 272
     },
     {
         "id": "a7f58aaec292b159",
@@ -4035,7 +4059,9 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509
+        "y": 509,
+        "w": 952,
+        "h": 272
     },
     {
         "id": "37b64a70f39dda06",
@@ -4075,7 +4101,9 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789
+        "y": 789,
+        "w": 812,
+        "h": 322
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -4101,7 +4129,9 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59
+        "y": 59,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "b079c206d161b62c",
@@ -5803,7 +5833,9 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 759
+        "y": 759,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -24688,11 +24720,6 @@
                 "type": "str"
             },
             {
-                "label": "Corriente de motor",
-                "value": "MotorLoad",
-                "type": "str"
-            },
-            {
                 "label": "Bus DC",
                 "value": "BusDC",
                 "type": "str"
@@ -25180,7 +25207,7 @@
         "z": "9941a439.4b17c8",
         "g": "ee5753bdd6eedb72",
         "name": "a Tabla",
-        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\", \"Load\", \"BusDC\", \"THP\", \"THT\", \"VibrationGeneral\", \"CurrentLeakage\", \"IntakePressure\", \"DischargePressure\", \"IntakeTemperature\", \"MotorTemperature\", \"DischargeTemperature\", \"MotorLoad\", \"DynamicFluidLevel\", \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Tension\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Corriente VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Corriente de motor\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Presión THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temperatura THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibración\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>Corriente de fuga\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Presión de entrada\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Presión de descarga\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Temperatura de entrada\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Temperatura de motor\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Temperatura de descarga\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Nivel de fluido dinámico\", 'condic': estadoprot[13] },\n{ 'protec': \"<font size = 4px>CARGA\", 'condic': estadoprot[14] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo LL<b>\";\n                }\n            }\n        }\n    }\n}",
+        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\",\n                \"Load\",\n                \"BusDC\",\n                \"THP\",\n                \"THT\",\n                \"VibrationGeneral\",\n                \"CurrentLeakage\",\n                \"IntakePressure\",\n                \"DischargePressure\",\n                \"IntakeTemperature\",\n                \"MotorTemperature\",\n                \"DischargeTemperature\",\n                \"DynamicFluidLevel\",\n                \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Tension\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Corriente VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Presión THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temperatura THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibración\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>Corriente de fuga\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Presión de entrada\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Presión de descarga\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Temperatura de entrada\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Temperatura de motor\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Temperatura de descarga\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Nivel de fluido dinámico\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>CARGA\", 'condic': estadoprot[13] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo LL<b>\";\n                }\n            }\n        }\n    }\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -27636,7 +27663,7 @@
         "z": "9941a439.4b17c8",
         "g": "dbdc491cb6e9eee5",
         "name": "Datos protecciones",
-        "func": "var Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\n// Corriente de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MotorLoad = Output_Current / Rtx;\n\n// Protecciones PQA.\nvar Voltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar Selection = flow.get(\"proteccionSelec\", 'memoryOnly') || \"-\";\n\n// Protecciones Variador\nvar Load = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar BusDC = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\n\n// Protecciones Instrumentación\nvar THP = global.get(\"Process_data.AI['Presión de cabeza THP']\", 'memoryOnly') || 0;\nvar THT = global.get(\"Process_data.AI['Temperatura de cabeza THT']\", 'memoryOnly') || 0;\n\n// Sensor de Fondo\nvar Process_data = global.get(\"Process_data.DHS\", 'memoryOnly') || [];\nvar Vibration_X = typeof Process_data[\"Vibración X\"] != 'undefined' ? Process_data[\"Vibración X\"] : 0;\nvar Vibration_Z = typeof Process_data[\"Vibración Z\"] != 'undefined' ? Process_data[\"Vibración Z\"] : 0;\n\n//Protecciones Fondo\nvar Vibration_Gral = Vibration_X >= Vibration_Z ? Vibration_X : Vibration_Z;\nvar LeakageCurrent = typeof Process_data[\"Corriente de fuga\"] != 'undefined' ? Process_data[\"Corriente de fuga\"] : 0;\nvar IntakePressure = typeof Process_data[\"Presión de entrada\"] != 'undefined' ? Process_data[\"Presión de entrada\"] : 0;\nvar DischargePressure = typeof Process_data[\"Presión de descarga\"] != 'undefined' ? Process_data[\"Presión de descarga\"] : 0;\nvar IntakeTemperature = typeof Process_data[\"Temperatura de entrada\"] != 'undefined' ? Process_data[\"Temperatura de entrada\"] : 0;\nvar MotorTemperature = typeof Process_data[\"Temperatura de motor\"] != 'undefined' ? Process_data[\"Temperatura de motor\"] : 0;\nvar DischargeTemperature = typeof Process_data[\"Temperatura de descarga\"] != 'undefined' ? Process_data[\"Temperatura de descarga\"] : 0;\n\n//Protección Sensorless\nvar NFD = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\",\"memoryOnly\")||0;\n// Protecciones SRP \nvar CARGA = global.get(\"Process_data.AI.CARGA\",\"memoryOnly\")||0;\n\nvar CurrentValue;\nif (Selection == \"Voltage\") { CurrentValue = DecPlacces(Voltage, 2) + \" V\"; }\nelse if (Selection == \"Load\") { CurrentValue = DecPlacces(Load, 2) + \" A\"; }\nelse if (Selection == \"MotorLoad\") { CurrentValue = DecPlacces(MotorLoad, 2) + \" A\"; }\nelse if (Selection == \"BusDC\") { CurrentValue = DecPlacces(BusDC, 2) + \" V\"; }\nelse if (Selection == \"THP\") { CurrentValue = DecPlacces(THP, 2) + \" psi\"; }\nelse if (Selection == \"THT\") { CurrentValue = DecPlacces(THT, 2) + \" ºF\"; }\nelse if (Selection == \"VibrationGeneral\") { CurrentValue = DecPlacces(Vibration_Gral, 2) + \" G\"; }\nelse if (Selection == \"CurrentLeakage\") { CurrentValue = DecPlacces(LeakageCurrent, 2) + \" mA\"; }\nelse if (Selection == \"IntakePressure\") { CurrentValue = DecPlacces(IntakePressure, 2) + \" psi\"; }\nelse if (Selection == \"DischargePressure\") { CurrentValue = DecPlacces(DischargePressure, 2) + \" psi\"; }\nelse if (Selection == \"IntakeTemperature\") { CurrentValue = DecPlacces(IntakeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"MotorTemperature\") { CurrentValue = DecPlacces(MotorTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DischargeTemperature\") { CurrentValue = DecPlacces(DischargeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DynamicFluidLevel\") { CurrentValue = DecPlacces(NFD, 1) + \"ft\"; }\nelse if (Selection == \"CARGA\") { CurrentValue = DecPlacces(CARGA, 1) + \"klb\"; }\nelse { CurrentValue = \"---\"; }\n\nreturn [\n    { payload: DecPlacces(Voltage, 1) },\n    { payload: DecPlacces(Load, 1) },\n    { payload: DecPlacces(MotorLoad, 1) },\n    { payload: DecPlacces(BusDC, 1) },\n    { payload: DecPlacces(THP, 2) },\n    { payload: DecPlacces(THT, 2) },\n    { payload: DecPlacces(Vibration_Gral, 3) },\n    { payload: DecPlacces(LeakageCurrent, 3) },\n    { payload: DecPlacces(IntakePressure, 1) },\n    { payload: DecPlacces(DischargePressure, 1) },\n    { payload: DecPlacces(IntakeTemperature, 1) },\n    { payload: DecPlacces(MotorTemperature, 1) },\n    { payload: DecPlacces(DischargeTemperature, 1) },\n    { payload: DecPlacces(NFD, 1) },\n    { payload: DecPlacces(CARGA, 1) },\n    { payload: CurrentValue }\n];\n\nfunction DecPlacces(value, Places) {\n    return Math.abs(parseFloat(value.toFixed(Places)));\n}",
+        "func": "var Output_Current = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\n// Corriente de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar MotorLoad = Output_Current / Rtx;\n\n// Protecciones PQA.\nvar Voltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\nvar Selection = flow.get(\"proteccionSelec\", 'memoryOnly') || \"-\";\n\n// Protecciones Variador\nvar Load = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar BusDC = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\n\n// Protecciones Instrumentación\nvar THP = global.get(\"Process_data.AI['Presión de cabeza THP']\", 'memoryOnly') || 0;\nvar THT = global.get(\"Process_data.AI['Temperatura de cabeza THT']\", 'memoryOnly') || 0;\n\n// Sensor de Fondo\nvar Process_data = global.get(\"Process_data.DHS\", 'memoryOnly') || [];\nvar Vibration_X = typeof Process_data[\"Vibración X\"] != 'undefined' ? Process_data[\"Vibración X\"] : 0;\nvar Vibration_Z = typeof Process_data[\"Vibración Z\"] != 'undefined' ? Process_data[\"Vibración Z\"] : 0;\n\n//Protecciones Fondo\nvar Vibration_Gral = Vibration_X >= Vibration_Z ? Vibration_X : Vibration_Z;\nvar LeakageCurrent = typeof Process_data[\"Corriente de fuga\"] != 'undefined' ? Process_data[\"Corriente de fuga\"] : 0;\nvar IntakePressure = typeof Process_data[\"Presión de entrada\"] != 'undefined' ? Process_data[\"Presión de entrada\"] : 0;\nvar DischargePressure = typeof Process_data[\"Presión de descarga\"] != 'undefined' ? Process_data[\"Presión de descarga\"] : 0;\nvar IntakeTemperature = typeof Process_data[\"Temperatura de entrada\"] != 'undefined' ? Process_data[\"Temperatura de entrada\"] : 0;\nvar MotorTemperature = typeof Process_data[\"Temperatura de motor\"] != 'undefined' ? Process_data[\"Temperatura de motor\"] : 0;\nvar DischargeTemperature = typeof Process_data[\"Temperatura de descarga\"] != 'undefined' ? Process_data[\"Temperatura de descarga\"] : 0;\n\n//Protección Sensorless SRP\nvar NFD = global.get(\"SensorLess.calculo.NFD_Promedio\")||0;\n// Protecciones SRP \nvar CARGA = global.get(\"Process_data.AI.CARGA\",\"memoryOnly\")||0;\n\nvar CurrentValue;\nif (Selection == \"Voltage\") { CurrentValue = DecPlacces(Voltage, 2) + \" V\"; }\nelse if (Selection == \"Load\") { CurrentValue = DecPlacces(Load, 2) + \" A\"; }\nelse if (Selection == \"MotorLoad\") { CurrentValue = DecPlacces(MotorLoad, 2) + \" A\"; }\nelse if (Selection == \"BusDC\") { CurrentValue = DecPlacces(BusDC, 2) + \" V\"; }\nelse if (Selection == \"THP\") { CurrentValue = DecPlacces(THP, 2) + \" psi\"; }\nelse if (Selection == \"THT\") { CurrentValue = DecPlacces(THT, 2) + \" ºF\"; }\nelse if (Selection == \"VibrationGeneral\") { CurrentValue = DecPlacces(Vibration_Gral, 2) + \" G\"; }\nelse if (Selection == \"CurrentLeakage\") { CurrentValue = DecPlacces(LeakageCurrent, 2) + \" mA\"; }\nelse if (Selection == \"IntakePressure\") { CurrentValue = DecPlacces(IntakePressure, 2) + \" psi\"; }\nelse if (Selection == \"DischargePressure\") { CurrentValue = DecPlacces(DischargePressure, 2) + \" psi\"; }\nelse if (Selection == \"IntakeTemperature\") { CurrentValue = DecPlacces(IntakeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"MotorTemperature\") { CurrentValue = DecPlacces(MotorTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DischargeTemperature\") { CurrentValue = DecPlacces(DischargeTemperature, 2) + \" ºF\"; }\nelse if (Selection == \"DynamicFluidLevel\") { CurrentValue = DecPlacces(NFD, 1) + \"ft\"; }\nelse if (Selection == \"CARGA\") { CurrentValue = DecPlacces(CARGA, 1) + \"klb\"; }\nelse { CurrentValue = \"---\"; }\n\nreturn [\n    { payload: DecPlacces(Voltage, 1) },\n    { payload: DecPlacces(Load, 1) },\n    { payload: DecPlacces(MotorLoad, 1) },\n    { payload: DecPlacces(BusDC, 1) },\n    { payload: DecPlacces(THP, 2) },\n    { payload: DecPlacces(THT, 2) },\n    { payload: DecPlacces(Vibration_Gral, 3) },\n    { payload: DecPlacces(LeakageCurrent, 3) },\n    { payload: DecPlacces(IntakePressure, 1) },\n    { payload: DecPlacces(DischargePressure, 1) },\n    { payload: DecPlacces(IntakeTemperature, 1) },\n    { payload: DecPlacces(MotorTemperature, 1) },\n    { payload: DecPlacces(DischargeTemperature, 1) },\n    { payload: DecPlacces(NFD, 1) },\n    { payload: DecPlacces(CARGA, 1) },\n    { payload: CurrentValue }\n];\n\nfunction DecPlacces(value, Places) {\n    return Math.abs(parseFloat(value.toFixed(Places)));\n}",
         "outputs": 16,
         "noerr": 0,
         "initialize": "",
@@ -27715,7 +27742,7 @@
             "",
             "",
             "",
-            null
+            ""
         ]
     },
     {
