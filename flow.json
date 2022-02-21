@@ -1271,7 +1271,9 @@
             "4656b9d64c73852a"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3462,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1287,7 +1289,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1373,7 +1377,9 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1527,70 +1533,6 @@
         ],
         "x": 28,
         "y": 243
-    },
-    {
-        "id": "0382d006bf3e8547",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "Lectura escritura Cubloc",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "1617c9c527c7d680",
-            "1052252d2e7f47ab",
-            "2cd6cbf135d592bb",
-            "61280c95aee7b192",
-            "99a274a00b57e276",
-            "ef74065d019aa081",
-            "4f1250843d4fc966",
-            "38cc0bef813f4de7",
-            "26144798845bf323",
-            "94ed97e6d2f75d45",
-            "ee2f3e9df0f329c5",
-            "a8b5fbf8701e60ae",
-            "fc0377f144e8f895",
-            "19bb32e54a08128b",
-            "23fa42dfe2b133da",
-            "eecb7d8c6fa2c337",
-            "d3b4a26719f7796d",
-            "e219528c8859a421",
-            "db78f4a9db4a0b18",
-            "a352b171830499c8",
-            "85366b43.f6bda8",
-            "bc8762e.9b52fa",
-            "df086dcc.f3e5",
-            "8f903bea.3e5c78",
-            "efcf76de.3c9038",
-            "73a225c4.f6a26c",
-            "6072e3af4ad63d61",
-            "a5c076e6.b3cdf8",
-            "b80d3fafa1137e22",
-            "de3e9eaee7d8ac1e",
-            "7a595adbeef4154f",
-            "6902084ea4b2cbde",
-            "091d586eb31e93bf",
-            "744df9a18d278db4",
-            "772ec0a16fcfa09d",
-            "aae2d4b8cf582bf7",
-            "5bbb1ce225da9237",
-            "f339b976e17001e2",
-            "4b39b4da3180cdc0",
-            "e7cea693752dde35",
-            "13ae2db66a6609f2",
-            "3f594a3dbdf92d76",
-            "633deaa1943f8055",
-            "ba79778827ca94cb",
-            "e6e775f93ad9b13e",
-            "72c298a02ef42417",
-            "8d784be063f1d4db",
-            "e17b61229da5159d"
-        ],
-        "x": 674,
-        "y": 3669,
-        "w": 2092,
-        "h": 492
     },
     {
         "id": "2fa4e5be63ea61ce",
@@ -1747,7 +1689,6 @@
             "8d434edf9bd913e2",
             "a60ba637963ad5a7",
             "4bc8056a8d8aa493",
-            "240c0e57d6509511",
             "6ebf0d6d774f637a",
             "6f4c1103115e8942",
             "5fe807f47d2920cc",
@@ -1983,7 +1924,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "1178951067fce7a4",
@@ -2120,7 +2063,9 @@
             "68f04d51be6d6326"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2237,7 +2182,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "b41ee12005a32e8e",
@@ -2517,7 +2464,8 @@
             "4cfb67175dfadb1e",
             "26b658d4f2db62cf",
             "19f535ea5a685c61",
-            "a270e98d59cdcd5f"
+            "a270e98d59cdcd5f",
+            "bb90cadbb46a78f9"
         ],
         "x": 34,
         "y": 19
@@ -2540,7 +2488,9 @@
             "5791ad35584a5a82"
         ],
         "x": 734,
-        "y": 139
+        "y": 139,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2557,7 +2507,9 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79
+        "y": 79,
+        "w": 342,
+        "h": 142
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2589,7 +2541,9 @@
             "43af3f26d5e4cf7d"
         ],
         "x": 2374,
-        "y": 139
+        "y": 139,
+        "w": 642,
+        "h": 502
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3296,7 +3250,9 @@
             "3c6e143f09ddb57d"
         ],
         "x": 1354,
-        "y": 119
+        "y": 119,
+        "w": 1272,
+        "h": 282
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3338,7 +3294,9 @@
             "d381f5089d6b205d"
         ],
         "x": 114,
-        "y": 219
+        "y": 219,
+        "w": 1182,
+        "h": 382
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3377,7 +3335,9 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659
+        "y": 659,
+        "w": 792,
+        "h": 442
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3398,7 +3358,9 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 899
+        "y": 899,
+        "w": 912,
+        "h": 122
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3430,7 +3392,9 @@
             "bd55c3ff86ac359d"
         ],
         "x": 1354,
-        "y": 579
+        "y": 579,
+        "w": 1042,
+        "h": 302
     },
     {
         "id": "357c29994d5a0df9",
@@ -3446,7 +3410,9 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479
+        "y": 479,
+        "w": 532,
+        "h": 82
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -3627,11 +3593,13 @@
             "bad4fda9e4377085",
             "dcb152a9b47c11dd",
             "617d3424713f8c8e",
-            "30ae733f015bd2a9",
-            "689f9bbcd43194fe"
+            "689f9bbcd43194fe",
+            "9ffdcbac04f11445"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 1372,
+        "h": 202
     },
     {
         "id": "936eab7d97be78af",
@@ -3674,8 +3642,8 @@
             "c6ebe3799f5ffb56",
             "cc4b4c945a68900f"
         ],
-        "x": 694,
-        "y": 4239,
+        "x": 554,
+        "y": 3679,
         "w": 1052,
         "h": 562
     },
@@ -3773,7 +3741,9 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 1444,
-        "y": 139
+        "y": 139,
+        "w": 772,
+        "h": 728
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3798,7 +3768,9 @@
             "019e3edf07e3bcea"
         ],
         "x": 94,
-        "y": 1439
+        "y": 1439,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "9648249e35aead30",
@@ -3818,7 +3790,9 @@
             "305dc890db8b5ec3"
         ],
         "x": 54,
-        "y": 259
+        "y": 259,
+        "w": 572,
+        "h": 122
     },
     {
         "id": "d929d138.3b512",
@@ -4934,7 +4908,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -4959,7 +4935,9 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5830,7 +5808,9 @@
             "f61ae4174f8cd899"
         ],
         "x": 1474,
-        "y": 759
+        "y": 759,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -6014,10 +5994,7 @@
             "3b90925b.82939e",
             "4a46db90.05ea4c",
             "23ebaedc.4ea2ba",
-            "10966509.4f25e3",
-            "eed2c392.531d68",
-            "ac5611e0.f1126",
-            "6f5153fc.5881dc"
+            "10966509.4f25e3"
         ],
         "x": 1384,
         "y": 3169,
@@ -7724,7 +7701,7 @@
         "address": "192.168.2.10",
         "port": "44818",
         "userouting": false,
-        "routing": "0x01,0x00,0x01,0x00",
+        "routingbuf": "[1,0]",
         "cycletime": "500",
         "timeout": "1500",
         "name": "PowerFlex755T_Write",
@@ -7740,22 +7717,6 @@
             {
                 "addr": "N45:6",
                 "name": "PF755T_ControlCommands"
-            },
-            {
-                "addr": "N45:8",
-                "name": "AO1"
-            },
-            {
-                "addr": "N45:10",
-                "name": "AO2"
-            },
-            {
-                "addr": "N45:12",
-                "name": "AO3"
-            },
-            {
-                "addr": "N45:14",
-                "name": "AO4"
             },
             {
                 "addr": "N45:0",
@@ -13381,7 +13342,6 @@
             "f20a035b11a47cce",
             "fe1a9bde13dab923",
             "684cadf7491b3916",
-            "4a54464134473561",
             "a9c39ee795c66a21",
             "6b0bcf73cbbc6819",
             "662ccfab1a84515d"
@@ -15133,8 +15093,7 @@
         "y": 170,
         "wires": [
             [
-                "b8ccca4f.5b80d8",
-                "240c0e57d6509511"
+                "b8ccca4f.5b80d8"
             ]
         ]
     },
@@ -19283,7 +19242,8 @@
             "f6c697ae2b11e298",
             "8f5d5b7c326c1df2",
             "2a84764569d97d25",
-            "9efb78b22c0da38d"
+            "9efb78b22c0da38d",
+            "4a54464134473561"
         ],
         "x": 975,
         "y": 1180,
@@ -19366,24 +19326,6 @@
         "name": "CajaNoConfig",
         "x": 1200,
         "y": 40,
-        "wires": []
-    },
-    {
-        "id": "240c0e57d6509511",
-        "type": "debug",
-        "z": "902fc438.e5d758",
-        "g": "6202107f.ed9aa",
-        "name": "msg",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 220,
         "wires": []
     },
     {
@@ -20095,25 +20037,6 @@
         ]
     },
     {
-        "id": "825a31a31582b84f",
-        "type": "function",
-        "z": "2026898575f7aa56",
-        "name": "getting data",
-        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar C2S = global.get(\"C2S.Implicit\", \"memoryOnly\") || [];\nvar RelTx = global.get(\"C2S.RelTx\") || 1;\nvar LNVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\",\"memoryOnly\")||0;\nvar LLVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\",\"memoryOnly\")||0;\nvar PIP = global.get(\"Prolonged_Reference.DHS['Presión de entrada']\", \"memoryOnly\")||0;\nvar PDP = global.get(\"Prolonged_Reference.DHS['Presión de descarga']\", \"memoryOnly\") || 0;\nvar Input_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de entrada']\", \"memoryOnly\") || 0;\nvar Motor_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de motor']\", \"memoryOnly\") || 0;\nvar Submergence = global.get(\"SENSORLESS.Sumergencia_inferida\", \"memoryOnly\") || 0;\nvar DynamicFluidLevel = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\", \"memoryOnly\") || 0;\nvar Flow = global.get(\"SENSORLESS.Caudal_ajustado_con_la_viscosidad\", \"memoryOnly\") || 0;\n\nmsg.Output_Frequency = (C2S.Output_Frequency || 0).toFixed(2);\nmsg.Output_Current = (C2S.Output_Current || 0).toFixed(2);\nmsg.Motor_Current = (C2S.Output_Current / RelTx || 0).toFixed(1);\nmsg.LNVoltage = LNVoltage.toFixed(1);\nmsg.LLVoltage = LLVoltage.toFixed(1);\nmsg.Output_Power = (C2S.Output_Power || 0).toFixed(1);\nmsg.PIP = PIP.toFixed(1);\nmsg.PDP = PDP.toFixed(1);\nmsg.Input_Temp = Input_Temp.toFixed(1);\nmsg.Motor_Temp = Motor_Temp.toFixed(1);\nmsg.Submergence = Submergence.toFixed(1);\nmsg.DynamicFluidLevel = DynamicFluidLevel.toFixed(1);\nmsg.Flow = Flow.toFixed(1);\n\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current/RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage}],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.Output_Current.shift();\n        realtime.Motor_Current.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Submergence.shift();\n        realtime.DynamicFluidLevel.shift();\n        realtime.Flow.shift();\n    }\n    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n    realtime.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current/RelTx || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": LNVoltage}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n    realtime.Submergence.push({ \"x\": time, \"y\": Submergence }),\n    realtime.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n    realtime.Flow.push({ \"x\": time, \"y\": Flow })\n\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.Motor_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Submergence.shift();\n            lasthour.DynamicFluidLevel.shift();\n            lasthour.Flow.shift();\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lasthour.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lasthour.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lasthour.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lasthour.Flow.push({ \"x\": time, \"y\": Flow })\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.Motor_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Submergence.shift();\n            lastday.DynamicFluidLevel.shift();\n            lastday.Flow.shift();\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lastday.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lastday.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }),\n        lastday.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lastday.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lastday.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lastday.PIP.push({ \"x\": time, \"y\": PIP }),\n        lastday.PDP.push({ \"x\": time, \"y\": PDP }),\n        lastday.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lastday.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lastday.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lastday.Flow.push({ \"x\": time, \"y\": Flow })\n    }\n\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 310,
-        "y": 100,
-        "wires": [
-            [
-                "4297de21af954e7c"
-            ]
-        ]
-    },
-    {
         "id": "360dcafc238d706c",
         "type": "inject",
         "z": "2026898575f7aa56",
@@ -20133,26 +20056,7 @@
         "y": 100,
         "wires": [
             [
-                "825a31a31582b84f"
-            ]
-        ]
-    },
-    {
-        "id": "1c4e319074fb108b",
-        "type": "function",
-        "z": "2026898575f7aa56",
-        "name": "request",
-        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] ==\"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Motor_Current\") request.Motor_Current = true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Submergence\") request.Submergence = true;\n    if (msg.payload[i] == \"DynamicFluidLevel\") request.DynamicFluidLevel = true;\n    if (msg.payload[i] == \"Flow\") request.Flow = true;\n}\nmsg.payload = request;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 280,
-        "y": 40,
-        "wires": [
-            [
-                "f55bcf1b9afa8eaa"
+                "432f1f035a026c89"
             ]
         ]
     },
@@ -20260,15 +20164,38 @@
                 "label": "Caudal  (Sensorless®)",
                 "value": "Flow",
                 "type": "str"
+            },
+            {
+                "label": "Posición Rad",
+                "value": "Vpos",
+                "type": "str"
+            },
+            {
+                "label": "Desplazamiento 1 Stroke",
+                "value": "VectDesp",
+                "type": "str"
+            },
+            {
+                "label": "Posición Actual SRP",
+                "value": "POSICION",
+                "type": "str"
+            },
+            {
+                "label": "Carga Actual",
+                "value": "CARGA",
+                "type": "str"
             }
         ],
         "payload": "",
         "topic": "topic",
+        "topicType": "str",
+        "className": "",
         "x": 120,
         "y": 40,
         "wires": [
             [
-                "1c4e319074fb108b"
+                "21ce9dc3c70ae4ca",
+                "fa3219b9781cefb8"
             ]
         ]
     },
@@ -20383,25 +20310,6 @@
         ]
     },
     {
-        "id": "da3092c416342d37",
-        "type": "function",
-        "z": "2026898575f7aa56",
-        "name": "Preparing to chart",
-        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Submergence == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Submergence\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Submergence\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Submergence\") || []);\n}\nif (select_Trend.DynamicFluidLevel == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.DynamicFluidLevel\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.DynamicFluidLevel\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.DynamicFluidLevel\") || []);\n}\nif (select_Trend.Flow == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Flow\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Flow\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Flow\") || []);\n}\n\n\n\nvar series = [];\n\nif (select_Trend.Output_Frequency == true) select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\") : series.push(\"Frecuencia salida \" + msg.Output_Frequency + \" Hz\");\nif (select_Trend.Output_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\") : series.push(\"Corriente salida drive \" + msg.Output_Current +\" A\");\nif (select_Trend.Motor_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente motor (A)\") : series.push(\"Corriente motor \" + msg.Motor_Current +\" A\");\nif (select_Trend.LNVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\") : series.push(\"Tensión LN promedio \" + msg.LNVoltage + \" V\");\nif (select_Trend.LLVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\") : series.push(\"Tensión LL promedio \" + msg.LLVoltage +\" V\");\nif (select_Trend.Output_Power == true) select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\") : series.push(\"Potencia salida \" + msg.Output_Power +\" KW\");\nif (select_Trend.PIP == true) select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\") : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true) select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\") : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\") : series.push(\"Temperatura entrada \" + msg.Input_Temp +\" ºF\");\nif (select_Trend.Motor_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\") : series.push(\"Temperatura motor \" + msg.Motor_Temp +\" ºF\");\nif (select_Trend.Submergence == true) select_Time != \"realtime\" ? series.push(\"Sumergencia (ft)\") : series.push(\"Sumergencia \" + msg.Submergence +\" ft\");\nif (select_Trend.DynamicFluidLevel == true) select_Time != \"realtime\" ? series.push(\"Nivel fluido dinámico (ft)\") : series.push(\"Nivel fluido dinámico \" + msg.DynamicFluidLevel +\" ft\");\nif (select_Trend.Flow == true) select_Time != \"realtime\" ? series.push(\"Caudal (m^3/s)\") : series.push(\"Caudal \" + msg.Flow +\" m^3/s\");\n\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 100,
-        "wires": [
-            [
-                "60eaf9a4dd833054"
-            ]
-        ]
-    },
-    {
         "id": "4297de21af954e7c",
         "type": "switch",
         "z": "2026898575f7aa56",
@@ -20425,7 +20333,7 @@
         "y": 100,
         "wires": [
             [
-                "da3092c416342d37"
+                "2fedfbe19dbc2b23"
             ],
             [
                 "3ee665ec6a03bb0d"
@@ -20593,36 +20501,6 @@
         "wires": [
             [
                 "3edd4a184747ecab"
-            ]
-        ]
-    },
-    {
-        "id": "ec3e795994eaaa19",
-        "type": "inject",
-        "z": "2026898575f7aa56",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 480,
-        "y": 220,
-        "wires": [
-            [
-                "90c34241c497ae60",
-                "7cb08f2674ead649"
             ]
         ]
     },
@@ -20805,7 +20683,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "RecorrerVectorEsfuerzo",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.VecDesCal\") || [];\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Esfu\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.VecDesCal\") || [];\nif (ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Esfuerzo\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
@@ -20816,36 +20694,6 @@
         "wires": [
             [
                 "f4c83f5f38184380"
-            ]
-        ]
-    },
-    {
-        "id": "aa4576506cf345e5",
-        "type": "inject",
-        "z": "2026898575f7aa56",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 480,
-        "y": 380,
-        "wires": [
-            [
-                "d04b5541e966b262",
-                "e00cf5c519a58fa0"
             ]
         ]
     },
@@ -51471,8 +51319,7 @@
         "y": 3340,
         "wires": [
             [
-                "e105d502.4aeb1",
-                "6f5153fc.5881dc"
+                "e105d502.4aeb1"
             ]
         ],
         "inputLabels": [
@@ -51497,8 +51344,7 @@
         "y": 3250,
         "wires": [
             [
-                "f4e358da.4d49",
-                "ac5611e0.f1126"
+                "f4e358da.4d49"
             ]
         ],
         "inputLabels": [
@@ -51592,48 +51438,6 @@
         "statusType": "auto",
         "x": 1930,
         "y": 3570,
-        "wires": []
-    },
-    {
-        "id": "eed2c392.531d68",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1940,
-        "y": 3260,
-        "wires": []
-    },
-    {
-        "id": "ac5611e0.f1126",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO1",
-        "name": "",
-        "x": 1780,
-        "y": 3250,
-        "wires": []
-    },
-    {
-        "id": "6f5153fc.5881dc",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO2",
-        "name": "",
-        "x": 1780,
-        "y": 3340,
         "wires": []
     },
     {
@@ -53240,320 +53044,6 @@
         "y": 1310,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "1617c9c527c7d680",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Entradas Analógicas",
-        "func": "msg.topic = 'Entradas Analogicas';\nmsg.payload = { \n    value: msg.payload, \n    'fc': 4, \n    'unitid': 1, \n    'address': 10, \n    'quantity':8   \n} \nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1020,
-        "y": 3710,
-        "wires": [
-            [
-                "61280c95aee7b192"
-            ]
-        ]
-    },
-    {
-        "id": "1052252d2e7f47ab",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Entradas Digitales",
-        "func": "msg.topic = 'Entradas Digitales';\nmsg.payload = { \n    value: msg.payload, \n    'fc': 2, \n    'unitid': 1, \n    'address': 8, \n    'quantity':20   \n} \nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1030,
-        "y": 3750,
-        "wires": [
-            [
-                "61280c95aee7b192"
-            ]
-        ]
-    },
-    {
-        "id": "2cd6cbf135d592bb",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Salidas Digitales",
-        "func": "msg.topic = 'Salidas Digitales';\nmsg.payload = { \n    value: msg.payload, \n    'fc': 2, \n    'unitid': 1, \n    'address': 32, \n    'quantity':12   \n} \nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1040,
-        "y": 3790,
-        "wires": [
-            [
-                "61280c95aee7b192"
-            ]
-        ]
-    },
-    {
-        "id": "61280c95aee7b192",
-        "type": "modbus-flex-getter",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Leer Cubloc RS-232",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "logIOActivities": false,
-        "server": "f630cb55.8d18e8",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1270,
-        "y": 3710,
-        "wires": [
-            [],
-            [
-                "99a274a00b57e276",
-                "7a595adbeef4154f"
-            ]
-        ]
-    },
-    {
-        "id": "99a274a00b57e276",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Interpretar lectura CUBLOC",
-        "func": "if(msg.topic == 'Salidas Digitales'){\n    msg.payload ={\n        \"32\" : msg.payload.data[0],\n        \"33\" : msg.payload.data[1],\n        \"34\" : msg.payload.data[2],\n        \"35\" : msg.payload.data[3],\n        \"36\" : msg.payload.data[4],\n        \"37\" : msg.payload.data[5],\n        \"38\" : msg.payload.data[6],\n        \"39\" : msg.payload.data[7],\n        \"40\" : msg.payload.data[8],\n        \"41\" : msg.payload.data[9],\n        \"42\" : msg.payload.data[10],\n        \"43\" : msg.payload.data[11]\n    }\n    global.set('IO.DO', msg.payload, 'memoryOnly');\n}\nelse if(msg.topic == 'Entradas Digitales'){\n    msg.payload = {\n        \"8\"  : msg.payload.data[0],\n        \"9\"  : msg.payload.data[1],\n        \"10\" : msg.payload.data[2],\n        \"11\" : msg.payload.data[3],\n        \"12\" : msg.payload.data[4],\n        \"13\" : msg.payload.data[5],\n        \"14\" : msg.payload.data[6],\n        \"15\" : msg.payload.data[7],\n        \"16\" : msg.payload.data[8],\n        \"17\" : msg.payload.data[9],\n        \"18\" : msg.payload.data[10],\n        \"19\" : msg.payload.data[11],\n        \"20\" : msg.payload.data[12],\n        \"21\" : msg.payload.data[13],\n        \"22\" : msg.payload.data[14],\n        \"23\" : msg.payload.data[15],\n        \"24\" : msg.payload.data[16],\n        \"25\" : msg.payload.data[17],\n        \"26\" : msg.payload.data[18],\n        \"27\" : msg.payload.data[19]\n    }\n    global.set('IO.DI', msg.payload, 'memoryOnly');\n}\nelse if(msg.topic == \"Entradas Analogicas\"){\n    msg.payload ={\n        \"0\" : msg.payload.data[0],\n        \"1\" : msg.payload.data[1],\n        \"2\" : msg.payload.data[2],\n        \"3\" : msg.payload.data[3],\n        \"4\" : msg.payload.data[4],\n        \"5\" : msg.payload.data[5],\n        \"6\" : msg.payload.data[6],\n        \"7\" : msg.payload.data[7]\n    }\n    global.set('IO.AI', msg.payload, 'memoryOnly');\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1510,
-        "y": 3710,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ef74065d019aa081",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Errores lectura Cubloc",
-        "scope": [
-            "61280c95aee7b192"
-        ],
-        "uncaught": false,
-        "x": 1270,
-        "y": 3760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4f1250843d4fc966",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1590,
-        "y": 4060,
-        "wires": []
-    },
-    {
-        "id": "38cc0bef813f4de7",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Erroes escritura Cubloc",
-        "scope": [
-            "26144798845bf323",
-            "23fa42dfe2b133da"
-        ],
-        "uncaught": false,
-        "x": 1420,
-        "y": 4060,
-        "wires": [
-            [
-                "4f1250843d4fc966"
-            ]
-        ]
-    },
-    {
-        "id": "26144798845bf323",
-        "type": "modbus-flex-write",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Escribir Cubloc-RS-232",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "server": "f630cb55.8d18e8",
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1500,
-        "y": 3810,
-        "wires": [
-            [],
-            []
-        ]
-    },
-    {
-        "id": "94ed97e6d2f75d45",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3710,
-        "wires": [
-            [
-                "1617c9c527c7d680",
-                "ee2f3e9df0f329c5"
-            ]
-        ]
-    },
-    {
-        "id": "ee2f3e9df0f329c5",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3750,
-        "wires": [
-            [
-                "1052252d2e7f47ab",
-                "a8b5fbf8701e60ae"
-            ]
-        ]
-    },
-    {
-        "id": "a8b5fbf8701e60ae",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3790,
-        "wires": [
-            [
-                "2cd6cbf135d592bb",
-                "fc0377f144e8f895"
-            ]
-        ]
-    },
-    {
-        "id": "fc0377f144e8f895",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3830,
-        "wires": [
-            [
-                "19bb32e54a08128b",
-                "eecb7d8c6fa2c337"
-            ]
-        ]
-    },
-    {
-        "id": "19bb32e54a08128b",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Retardo Escritura SD",
-        "func": "var Counter = context.get(\"count\",\"memoryOnly\")||0;\nif(Counter <= 5){\n    Counter += 1;\n    context.set(\"count\",Counter,\"memoryOnly\");\n    return;\n}\nelse{\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1020,
-        "y": 3830,
-        "wires": [
-            [
-                "23fa42dfe2b133da"
-            ]
-        ]
-    },
-    {
-        "id": "23fa42dfe2b133da",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Salidas Digitales",
-        "func": "var ES = flow.get('ES') || null;\n\n// Arreglo de Canales\nvar Data    = { \n    32:false, 33:false, 34:false, 35:false, \n    36:false, 37:false, 38:false, 39:false, \n    40:false, 41:false, 42:false, 43:false\n};\n\n// Obtener llaves del objeto Data\nvar Canal = Object.keys(Data);\n// Declaración del string con \nvar canalmsg;\n\n//Objeto con las funciones del CILA2S\nvar FuncionC2S = {\n    \"CILA2S en marcha\"          : global.get(\"IO.Functions.DO['CILA2S en marcha']\",'memoryOnly')||false,\n    \"Falla general\"             : global.get(\"IO.Functions.DO['Falla general']\",'memoryOnly') || false,\n    \"Disparo breaker módulo ESD\": global.get(\"IO.Functions.DO['Disparo breaker módulo ESD']\", 'memoryOnly') || false,\n    \"Bypass filtro de armónicos\": global.get(\"IO.Functions.DO.HF.Status\",'memoryOnly')||false,\n    \"Simulación\"                : false\n}\n\n// Llaves del vector FuncionesC2S\nvar Keys = Object.keys(FuncionC2S);\n\n// Para cada canal de salida\nfor(var i=0; i <Canal.length; i++){\n    canalmsg ='Canal'+ Canal[i];\n    // Si la configuración del canal está declarada\n    if(typeof ES.SD[canalmsg] != 'undefined'){\n        // Para cada llave del vector FuncionesC2S que coincida con la configuración del canal\n        for(var j=0; j<Keys.length; j++){\n            if(ES.SD[canalmsg].Funcion == Keys[j]){\n                // Asignar el valor contenido en el vector de funciones al canal de salida\n                Data[Canal[i]] = ES.SD[canalmsg].Tipo == \"NO\" ? FuncionC2S[Keys[j]]:!FuncionC2S[Keys[j]];\n            } \n        }\n    }\n}\n\n// Asignar variable con los valores a escribir  (Se puede eliminar al asignar directamente).\nvar values = Object.values(Data);\ncontext.set(\"Data\", values,'memoryOnly');\ncontext.set(\"Functions\", FuncionC2S, 'memoryOnly');\n// Escribir datos en el Cubloc\nmsg.payload = {\n    value: values,\n    'fc': 15,\n    'unitid': 1,\n    'address': 4096,\n    'quantity': 12\n}\n\n// Retorno del mensaje\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1250,
-        "y": 3810,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ],
-        "inputLabels": [
-            "Activar función"
-        ],
-        "outputLabels": [
-            "Canal32"
         ]
     },
     {
@@ -55596,286 +55086,6 @@
         ]
     },
     {
-        "id": "eecb7d8c6fa2c337",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3870,
-        "wires": [
-            [
-                "d3b4a26719f7796d",
-                "e219528c8859a421"
-            ]
-        ]
-    },
-    {
-        "id": "d3b4a26719f7796d",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3910,
-        "wires": [
-            [
-                "db78f4a9db4a0b18",
-                "a352b171830499c8"
-            ]
-        ]
-    },
-    {
-        "id": "e219528c8859a421",
-        "type": "link out",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "links": [
-            "ac4a48c1.4681c8",
-            "e27e6301502145ba",
-            "4f3ea6384074c205",
-            "1910455f45408d2a"
-        ],
-        "x": 935,
-        "y": 3870,
-        "wires": []
-    },
-    {
-        "id": "db78f4a9db4a0b18",
-        "type": "link out",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "links": [
-            "5b1cac10.b42af4",
-            "6d970f1bee054be7"
-        ],
-        "x": 935,
-        "y": 3910,
-        "wires": []
-    },
-    {
-        "id": "a352b171830499c8",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3950,
-        "wires": [
-            [
-                "b1cb2195.c8a37",
-                "85366b43.f6bda8"
-            ]
-        ]
-    },
-    {
-        "id": "a5c076e6.b3cdf8",
-        "type": "link out",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Leer Cubloc Protecciones MSB",
-        "links": [
-            "dd479ce7.53bf1",
-            "8a3d7a9b0c8200cc"
-        ],
-        "x": 1195,
-        "y": 3950,
-        "wires": []
-    },
-    {
-        "id": "b1cb2195.c8a37",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "name": "Mapa Modbus Protecciones",
-        "func": "var Load_HH_Sp      = global.get('Protections.Load.HH.Setpoint')||0;\nvar Load_LL_Sp      = global.get('Protections.Load.LL.Setpoint')||0;\nvar PReference      = global.get('Control_functions.Prolonged_Reference.Time')||0;\nvar PIn_HH_Sp       = global.get('Protections.IntakePressure.HH.Setpoint')||0;\nvar PIn_LL_Sp       = global.get('Protections.IntakePressure.LL.Setpoint')||0;\nvar TIn_HH_Sp       = global.get('Protections.IntakeTemperature.HH.Setpoint')||0;\nvar TDis_HH_Sp      = global.get('Protections.DischargeTemperature.HH.Setpoint')||0;\nvar Mtr_Temp_HH_Sp  = global.get('Protections.MotorTemperature.HH.Setpoint')||0;\nvar Accel           = global.get('C2S.Speed_Control.Accel')||0;\nvar Deccel          = global.get('C2S.Speed_Control.Decel')||0;\n\nvar vector = [\n    Load_HH_Sp,     // 58\n    Load_LL_Sp,     // 59\n    PReference,     // 60\n    PIn_HH_Sp,      // 61\n    PIn_LL_Sp,      // 62\n    TIn_HH_Sp,      // 63\n    TDis_HH_Sp,     // 64\n    Mtr_Temp_HH_Sp, // 65\n    Accel,          // 66\n    Deccel          // 67\n]\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < vector.length; i += 1) {\n    vector[i] = val(vector[i]);\n}\n\nmsg.payload = { \n    value: vector, \n    'fc': 3, \n    'unitid': 1, \n    'address': 28672+20+58,\n    'quantity': vector.length\n} \nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1040,
-        "y": 3950,
-        "wires": [
-            [
-                "a5c076e6.b3cdf8"
-            ]
-        ]
-    },
-    {
-        "id": "85366b43.f6bda8",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 3990,
-        "wires": [
-            [
-                "bc8762e.9b52fa",
-                "df086dcc.f3e5"
-            ]
-        ]
-    },
-    {
-        "id": "bc8762e.9b52fa",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Estado Protecciones MBS",
-        "func": "var Protections = global.get(\"Protections\", 'memoryOnly') || [];\n\nvar Voltage         = Protections['Voltage']||[];\nvar Current         = Protections['Load']||[];\nvar Vibration       = Protections['VibrationGeneral']||[];\nvar InPressure      = Protections['IntakePressure']||[];\nvar InTemperaure    = Protections['IntakeTemperature']||[];\nvar DisPressure     = Protections['DischargePressure']||[];\nvar DisTemperature  = Protections['DischargeTemperature']||[];\nvar MtrTemp         = Protections['MotorTemperature']||[];\nvar THP             = Protections['THP']||[];\nvar THT             = Protections['THT']||[];\n\nvar vector = [\n    protSts(Voltage),        // 68\n    protSts(Current),        // 69\n    protSts(Vibration),      // 70\n    protSts(InPressure),     // 71\n    protSts(InTemperaure),   // 72\n    protSts(DisPressure),    // 73\n    protSts(DisTemperature), // 74\n    protSts(MtrTemp),        // 75\n    protSts(THP),            // 76\n    protSts(THT)             // 77\n]\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < vector.length; i += 1) {\n    vector[i] = val(vector[i]);\n}\n\nmsg.payload = { \n    value: vector, \n    'fc': 16, \n    'unitid': 1, \n    'address': 28672+20+68, \n    'quantity': vector.length\n} \nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}\n\n// Estado de protecciones\n/**\n* @param {{ HH: any; LL: any; H: any; L: any; }} Protection\n*/\nfunction protSts(Protection){\n    var Resp = 0;\n    if(Protection.HH){ Resp = 4}\n    else if(Protection.LL){Resp = 3}\n    else if(Protection.H){Resp = 2}\n    else if (Protection.L){Resp = 1}\n    else{Resp =0}\n    return Resp;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1040,
-        "y": 3990,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ]
-    },
-    {
-        "id": "8f903bea.3e5c78",
-        "type": "link out",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Sentido de giro remoto",
-        "links": [
-            "367aaa61.59c686"
-        ],
-        "x": 935,
-        "y": 4030,
-        "wires": []
-    },
-    {
-        "id": "df086dcc.f3e5",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 4030,
-        "wires": [
-            [
-                "8f903bea.3e5c78",
-                "efcf76de.3c9038"
-            ]
-        ]
-    },
-    {
-        "id": "efcf76de.3c9038",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 4070,
-        "wires": [
-            [
-                "73a225c4.f6a26c",
-                "de3e9eaee7d8ac1e"
-            ]
-        ]
-    },
-    {
-        "id": "73a225c4.f6a26c",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Mapa Modbus Protecciones",
-        "func": "var Load_HH_Sp      = global.get('Protections.Load.HH.Setpoint') || 0;\nvar Load_LL_Sp      = global.get('Protections.Load.LL.Setpoint') || 0;\nvar PReference      = global.get('Control_functions.Prolonged_Reference.Time') || 0;\nvar PIn_HH_Sp       = global.get('Protections.IntakePressure.HH.Setpoint') || 0;\nvar PIn_LL_Sp       = global.get('Protections.IntakePressure.LL.Setpoint') || 0;\nvar TIn_HH_Sp       = global.get('Protections.IntakeTemperature.HH.Setpoint') || 0;\nvar TDis_HH_Sp      = global.get('Protections.DischargeTemperature.HH.Setpoint') || 0;\nvar Mtr_Temp_HH_Sp  = global.get('Protections.MotorTemperature.HH.Setpoint') || 0;\nvar Accel           = global.get('C2S.Speed_Control.Accel') || 0;\nvar Deccel          = global.get('C2S.Speed_Control.Decel') || 0;\n\nvar vector = [\n    Load_HH_Sp,     // 58\n    Load_LL_Sp,     // 59\n    PReference,     // 60\n    PIn_HH_Sp,      // 61\n    PIn_LL_Sp,      // 62\n    TIn_HH_Sp,      // 63\n    TDis_HH_Sp,     // 64\n    Mtr_Temp_HH_Sp, // 65\n    Accel,          // 66\n    Deccel          // 67\n]\n\n// Recorrer el mapa para evitar valores indefinidos\nfor (var i = 0; i < vector.length; i += 1) {\n    vector[i] = val(vector[i]);\n}\n\nmsg.payload = { \n    value: vector, \n    'fc': 16, \n    'unitid': 1, \n    'address': 28672+20+58,\n    'quantity': vector.length\n} \nreturn msg;\n\n// Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 1040,
-        "y": 4070,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ]
-    },
-    {
-        "id": "6072e3af4ad63d61",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Mapa Modbus Link In",
-        "links": [
-            "c1702022.91ab1"
-        ],
-        "x": 1335,
-        "y": 4020,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ]
-    },
-    {
         "id": "ab1db35992368238",
         "type": "switch",
         "z": "7a89175c.90f6a8",
@@ -56013,451 +55223,6 @@
         ]
     },
     {
-        "id": "7a595adbeef4154f",
-        "type": "switch",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Comunication Fault",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Comunication Fault",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1490,
-        "y": 3760,
-        "wires": [
-            [
-                "6902084ea4b2cbde"
-            ]
-        ]
-    },
-    {
-        "id": "6902084ea4b2cbde",
-        "type": "rbe",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload.data[0]",
-        "x": 1650,
-        "y": 3760,
-        "wires": [
-            [
-                "091d586eb31e93bf",
-                "744df9a18d278db4"
-            ]
-        ]
-    },
-    {
-        "id": "091d586eb31e93bf",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Reset Fault",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.CommSts",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            },
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "reset",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1790,
-        "y": 3760,
-        "wires": [
-            [
-                "772ec0a16fcfa09d"
-            ]
-        ]
-    },
-    {
-        "id": "744df9a18d278db4",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1790,
-        "y": 3800,
-        "wires": [
-            [
-                "772ec0a16fcfa09d"
-            ]
-        ]
-    },
-    {
-        "id": "772ec0a16fcfa09d",
-        "type": "trigger",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "op1": "0",
-        "op2": "Close",
-        "op1type": "num",
-        "op2type": "str",
-        "duration": "10",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "s",
-        "reset": "reset",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 1950,
-        "y": 3760,
-        "wires": [
-            [
-                "aae2d4b8cf582bf7",
-                "5bbb1ce225da9237"
-            ]
-        ]
-    },
-    {
-        "id": "aae2d4b8cf582bf7",
-        "type": "switch",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Close",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 2090,
-        "y": 3760,
-        "wires": [
-            [
-                "4b39b4da3180cdc0"
-            ]
-        ]
-    },
-    {
-        "id": "5bbb1ce225da9237",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "tryConnection",
-        "func": "var estado = global.get(\"IO.Functions.CommSts\",\"memoryOnly\")||false;\nmsg.payload = estado;\ncontext.set(\"estado\",estado,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2120,
-        "y": 3800,
-        "wires": [
-            [
-                "f339b976e17001e2"
-            ]
-        ]
-    },
-    {
-        "id": "e7cea693752dde35",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "DI",
-        "links": [
-            "b0a6daf8cc767b13",
-            "ced2df423e7eb2d8",
-            "3b8d6f41c33605f7"
-        ],
-        "x": 2015,
-        "y": 3900,
-        "wires": [
-            [
-                "13ae2db66a6609f2"
-            ]
-        ]
-    },
-    {
-        "id": "f339b976e17001e2",
-        "type": "rbe",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload",
-        "x": 2270,
-        "y": 3800,
-        "wires": [
-            [
-                "13ae2db66a6609f2",
-                "ba79778827ca94cb"
-            ]
-        ]
-    },
-    {
-        "id": "4b39b4da3180cdc0",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Set Fault",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.CommSts",
-                "pt": "global",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2220,
-        "y": 3760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "13ae2db66a6609f2",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "NONA configurable",
-        "func": "//var nona = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];//setaear todas las entradas como normalmente cerradas\nvar nona = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];//set como normalmente abiertas\n\nvar entradasDigitales = flow.get(\"ES.ED\")||0;\n\nfor (let i = 0; i <= 15 ; i++) {\n    // const element = array[i];\n    var query = \"Canal\" + (i + 8);\n    if (typeof entradasDigitales[query] != 'undefined'){//si esta definido el canal\n        if ((entradasDigitales[query].Tipo) == \"NO\") {//normalmente abierta\n            nona[i] = 1;//seteela como normalmente abierta\n        } else if ((entradasDigitales[query].Tipo) == \"NC\") {//normalmente cerrada\n            nona[i] = 0;//set como normalmente cerrada\n        }\n    }\n}\n\n\n\n//cambiando el orden del vector valor\n//var aux1 = nona.reverse();//Descomentar si el sentido concatenación es diferente\nvar aux2 = nona.join('');//unir los vectores sin espacio\nvar conversion = BinarioADecimal(aux2);//conversión de Binario a Decimal\n\n//registro D0 del mapa modbus para el cubloc\nmsg.payload = {\n    \"value\": conversion,\n    \"fc\": 6,\n    \"unitid\": 1,\n    \"address\": 0,\n    \"quantity\": 1\n};\n\n\n// visualizador de variables\ncontext.set(\"nona\", nona, \"memoryOnly\");\ncontext.set(\"aux2\", aux2, \"memoryOnly\");\ncontext.set(\"conversion\", conversion, \"memoryOnly\");\ncontext.set(\"entradasDigitales\", entradasDigitales,\"memoryOnly\");\n\nreturn msg;\n// función para conversión de binario a decimal\nfunction BinarioADecimal(num) {\n    let sum = 0;\n\n    for (let i = 0; i < num.length; i++) {\n        sum += +num[i] * 2 ** (num.length - 1 - i);\n    }\n    return sum;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 2170,
-        "y": 3900,
-        "wires": [
-            [
-                "e17b61229da5159d"
-            ]
-        ]
-    },
-    {
-        "id": "3f594a3dbdf92d76",
-        "type": "inject",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "inicializar",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "4",
-        "topic": "",
-        "payloadType": "date",
-        "x": 1920,
-        "y": 3980,
-        "wires": [
-            [
-                "13ae2db66a6609f2",
-                "633deaa1943f8055"
-            ]
-        ]
-    },
-    {
-        "id": "633deaa1943f8055",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "200",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 2110,
-        "y": 3980,
-        "wires": [
-            [
-                "ba79778827ca94cb"
-            ]
-        ]
-    },
-    {
-        "id": "e6e775f93ad9b13e",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "DI/DO",
-        "links": [
-            "b0a6daf8cc767b13",
-            "ced2df423e7eb2d8",
-            "e06c7275b16258b0",
-            "fb0badb9b78617c8",
-            "54b354e7737802b3"
-        ],
-        "x": 2115,
-        "y": 4040,
-        "wires": [
-            [
-                "ba79778827ca94cb"
-            ]
-        ]
-    },
-    {
-        "id": "ba79778827ca94cb",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "enrrutamiento",
-        "func": "var outConfig = flow.get(\"ES.SD\")||0;//configuración de salidas digitales\nvar inConfig = flow.get(\"ES.ED\")||0;//configuración de entradas digitales\nvar Outbreaker = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];//setaear todas las entradas como normalmente cerradas\nif ((outConfig != 0) && (inConfig!=0) ){//ejecute si la configuración existe\n\n    for (let i = 0; i < 16; i++) {//las entradas Digitales\n        // const element = array[i];\n        var query = \"Canal\" + (i + 8);//definición del canal de las entradas cubloc\n        if (typeof inConfig[query] != 'undefined') {//si esta definido el canal de entrada\n            if (((inConfig[query].Funcion) == \"Stop ESD\")||\n                ((inConfig[query].Funcion) == \"Disparo alto nivel de aceite SUT\") ||\n                ((inConfig[query].Funcion) == \"Disparo alta temperatura SUT\") ||\n                ((inConfig[query].Funcion) == \"Disparo bajo bajo nivel de aceite SUT\") ||\n                ((inConfig[query].Funcion) == \"Disparo válvula sobre-presión SUT\") ||\n                ((inConfig[query].Funcion) == \"Disparo alta temperatura filtros\") ||\n                ((inConfig[query].Funcion) == \"Disparo alta presión THP\") ||\n                ((inConfig[query].Funcion) == \"Disparo sobre-tensión SUT\") ||\n                ((inConfig[query].Funcion) == \"Disparo puerta abierta\") ||\n                ((inConfig[query].Funcion) == \"Disparo shutdown SCC\") ||\n                ((inConfig[query].Funcion) == \"Disparo baja presión en la troncal\") ||\n                ((inConfig[query].Funcion) == \"Disparo SobreVoltaje\") ||\n                ((inConfig[query].Funcion) == \"ESD Remoto\")) {\n\n                for (let j = 32; j <= 39; j++) {//salidas digitales recorrerlas\n                    if (typeof outConfig[\"Canal\" + (j)] != 'undefined') {//si esta definido el canal\n                        if (outConfig[\"Canal\" + (j)].Funcion == \"Disparo breaker módulo ESD\") {\n                            Outbreaker[i] = j-31;//el cubloc empieza desde 1\n                            context.set(\"j\", j,\"memoryOnly\");\n                            node.status({ fill: \"green\", shape: \"dot\", text: \"Configuro\" });\n\n                        }\n\n                    }\n                }\n                // cierre del motorizado SDT lógica\n            } else if (((inConfig[query].Funcion) == \"Disparo bajo bajo nivel de aceite SDT\")\n                         || ((inConfig[query].Funcion) == \"Disparo alta temperatura SDT\") ||\n                          ((inConfig[query].Funcion) == \"Disparo Valvula sobrepresión SDT\")){\n                \n                for (let j = 32; j <= 39; j++) {//salidas digitales recorrerlas\n                    if (typeof outConfig[\"Canal\" + (j)] != 'undefined') {//si esta definido el canal\n                        if (outConfig[\"Canal\" + (j)].Funcion == \"Apertura motorizado SDT\") {\n                            Outbreaker[i] = j - 31;//el cubloc empieza desde 1\n                            context.set(\"j\", j, \"memoryOnly\");\n                            node.status({ fill: \"green\", shape: \"dot\", text: \"Configuro\" });\n\n                        }\n\n                    }\n                }\n            }\n        }\n    }\n}else{\n    node.status({ fill: \"green\", shape: \"dot\", text: \"No tiene Configuración\" });\n}\ncontext.set(\"outConfig\", outConfig,\"memoryOnly\");\ncontext.set(\"inConfig\", inConfig,\"memoryOnly\");\ncontext.set(\"Outbreaker\", Outbreaker,\"memoryOnly\");\nglobal.set(\"Outbreaker\", Outbreaker);\n\n\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2300,
-        "y": 3980,
-        "wires": [
-            [
-                "72c298a02ef42417"
-            ]
-        ]
-    },
-    {
-        "id": "72c298a02ef42417",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "200",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 2470,
-        "y": 3980,
-        "wires": [
-            [
-                "8d784be063f1d4db"
-            ]
-        ]
-    },
-    {
-        "id": "8d784be063f1d4db",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "timmerOutConfig",
-        "func": "var confTimer = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];//setaear todas las entradas como normalmente cerradas\n// var confTimer = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];//set como normalmente abiertas\n\nvar salidasDigitales = flow.get(\"ES.SD\")||0;\n\nfor (let i = 32; i <= 39 ; i++) {\n    // const element = array[i];\n    var query = \"Canal\" + (i);\n    if (typeof salidasDigitales[query] != 'undefined'){//si esta definido el canal\n        if ((salidasDigitales[query].Funcion) == \"Apertura motorizado SDT\") {\n            confTimer[i-32] = 1;//seteela como normalmente abierta\n        } else if ((salidasDigitales[query].Funcion) == \"Cierre motorizado SDT\") {//normalmente cerrada\n            confTimer[i-32] = 1;//set como normalmente cerrada\n        }else{\n            confTimer[i-32] = 0;//set como normalmente cerrada\n        }\n    }\n}\n\n\n\n//cambiando el orden del vector valor\n//var aux1 = confTimer.reverse();//Descomentar si el sentido concatenación es diferente\nvar aux2 = confTimer.join('');//unir los vectores sin espacio\nvar conversion = BinarioADecimal(aux2);//conversión de Binario a Decimal\n\n//registro D1 del mapa modbus para el cubloc\nmsg.payload = {\n    \"value\": conversion,\n    \"fc\": 6,\n    \"unitid\": 1,\n    \"address\": 1,\n    \"quantity\": 1\n};\n\n\n// visualizador de variables\ncontext.set(\"confTimer\", confTimer, \"memoryOnly\");\ncontext.set(\"aux2\", aux2, \"memoryOnly\");\ncontext.set(\"conversion\", conversion, \"memoryOnly\");\ncontext.set(\"salidasDigitales\", salidasDigitales,\"memoryOnly\");\n\nreturn msg;\n// función para conversión de binario a decimal\nfunction BinarioADecimal(num) {\n    let sum = 0;\n\n    for (let i = 0; i < num.length; i++) {\n        sum += +num[i] * 2 ** (num.length - 1 - i);\n    }\n    return sum;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2650,
-        "y": 3980,
-        "wires": [
-            [
-                "e17b61229da5159d"
-            ]
-        ]
-    },
-    {
-        "id": "b80d3fafa1137e22",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "Config. disparos",
-        "func": "// var Outbreaker = [8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];\nvar Outbreaker = global.get(\"Outbreaker\") || 0;                              \n\n    // Configuración del Cubloc                               \n\ncontext.set(\"Outbreaker\", Outbreaker,\"memoryOnly\");\n// Escribir Mapa\nmsg.payload = { \n    value: Outbreaker,\n    'fc': 16,\n    'unitid': 1, \n    'address': 28672 + 20 + 100,\n    'quantity': Outbreaker.length\n}\nif (Outbreaker.length==16) return msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1000,
-        "y": 4120,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ]
-    },
-    {
-        "id": "de3e9eaee7d8ac1e",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 770,
-        "y": 4120,
-        "wires": [
-            [
-                "b80d3fafa1137e22"
-            ]
-        ]
-    },
-    {
         "id": "c1aa521337e30c76",
         "type": "delay",
         "z": "7a89175c.90f6a8",
@@ -56532,36 +55297,6 @@
         "x": 685,
         "y": 3320,
         "wires": []
-    },
-    {
-        "id": "e17b61229da5159d",
-        "type": "link out",
-        "z": "7a89175c.90f6a8",
-        "g": "0382d006bf3e8547",
-        "name": "",
-        "links": [
-            "8c018f4ed6c2ed47",
-            "b4c6291bf307f204"
-        ],
-        "x": 2335,
-        "y": 3900,
-        "wires": []
-    },
-    {
-        "id": "b4c6291bf307f204",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "name": "",
-        "links": [
-            "e17b61229da5159d"
-        ],
-        "x": 1175,
-        "y": 3860,
-        "wires": [
-            [
-                "26144798845bf323"
-            ]
-        ]
     },
     {
         "id": "88cf40c086d6d94c",
@@ -57056,8 +55791,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 4360,
+        "x": 990,
+        "y": 3800,
         "wires": [
             [
                 "c30c78cc60db84f8"
@@ -57076,8 +55811,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 4420,
+        "x": 970,
+        "y": 3860,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57101,8 +55836,8 @@
             "bba3aa277bcf1444"
         ],
         "uncaught": false,
-        "x": 1490,
-        "y": 4700,
+        "x": 1350,
+        "y": 4140,
         "wires": [
             [
                 "0ad7006f65f3d19b"
@@ -57119,8 +55854,8 @@
             "c30c78cc60db84f8"
         ],
         "uncaught": false,
-        "x": 1490,
-        "y": 4740,
+        "x": 1350,
+        "y": 4180,
         "wires": [
             [
                 "8dc4ac2430aa44fc"
@@ -57141,8 +55876,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1650,
-        "y": 4740,
+        "x": 1510,
+        "y": 4180,
         "wires": []
     },
     {
@@ -57159,8 +55894,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1650,
-        "y": 4700,
+        "x": 1510,
+        "y": 4140,
         "wires": []
     },
     {
@@ -57175,8 +55910,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1440,
-        "y": 4580,
+        "x": 1300,
+        "y": 4020,
         "wires": [
             []
         ]
@@ -57196,8 +55931,8 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 1340,
-        "y": 4360,
+        "x": 1200,
+        "y": 3800,
         "wires": [
             [],
             [
@@ -57220,8 +55955,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1580,
-        "y": 4340,
+        "x": 1440,
+        "y": 3780,
         "wires": [
             []
         ]
@@ -57237,8 +55972,8 @@
         "server": "df1da3d9e58a326e",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 1330,
-        "y": 4420,
+        "x": 1190,
+        "y": 3860,
         "wires": [
             [],
             []
@@ -57253,8 +55988,8 @@
         "links": [
             "1a154fa903ebee99"
         ],
-        "x": 735,
-        "y": 4380,
+        "x": 595,
+        "y": 3820,
         "wires": [
             [
                 "eb02c5e2d4135d47"
@@ -57278,8 +56013,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 850,
-        "y": 4420,
+        "x": 710,
+        "y": 3860,
         "wires": [
             [
                 "138266be848cd64a"
@@ -57303,8 +56038,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 850,
-        "y": 4360,
+        "x": 710,
+        "y": 3800,
         "wires": [
             [
                 "f88ee0328a8f5964",
@@ -57324,8 +56059,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1460,
-        "y": 4540,
+        "x": 1320,
+        "y": 3980,
         "wires": [
             []
         ]
@@ -57342,8 +56077,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 4400,
+        "x": 1400,
+        "y": 3840,
         "wires": [
             []
         ]
@@ -57360,8 +56095,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 4460,
+        "x": 970,
+        "y": 3900,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57380,8 +56115,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1420,
-        "y": 4620,
+        "x": 1280,
+        "y": 4060,
         "wires": [
             []
         ]
@@ -57392,14 +56127,14 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    VDesplazamiento[Indice-1] = pos * A;//Desplazamiento\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\");\n\nvar PosVdesmin = 0;\nvar PosVdesmayor = 0;\n\nvar Max_Desp = 0;\nvar Min_Desp = 0;\n\nMax_Desp = VDesplazamiento[Nmuestras];\nMin_Desp = VDesplazamiento[Nmuestras];\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i + Nmuestras] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i + Nmuestras];\n        PosVdesmayor = Nmuestras + i;\n\n    }\n    if (VDesplazamiento[i + Nmuestras] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i + Nmuestras];\n        PosVdesmin = Nmuestras + i;\n\n    }\n}\n\nfor (var j = 0; j < OnCalculo; j++) {\n    VecDesCal[j] = VDesplazamiento[PosVdesmayor - j];\n}\n\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector X\n\nreturn msg;",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    VDesplazamiento[Indice-1] = pos * A;//Desplazamiento\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
         "finalize": "",
         "libs": [],
-        "x": 1530,
-        "y": 4460,
+        "x": 1390,
+        "y": 3900,
         "wires": [
             []
         ]
@@ -57416,8 +56151,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1410,
-        "y": 4660,
+        "x": 1270,
+        "y": 4100,
         "wires": [
             []
         ]
@@ -57434,8 +56169,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 4520,
+        "x": 990,
+        "y": 3960,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57454,8 +56189,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 4580,
+        "x": 980,
+        "y": 4020,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57471,8 +56206,8 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 915,
-        "y": 4580,
+        "x": 775,
+        "y": 4020,
         "wires": [
             [
                 "2c02e2ef212817a8",
@@ -57493,8 +56228,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1140,
-        "y": 4640,
+        "x": 1000,
+        "y": 4080,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57515,8 +56250,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1510,
-        "y": 4280,
+        "x": 1370,
+        "y": 3720,
         "wires": []
     },
     {
@@ -57528,8 +56263,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 915,
-        "y": 4460,
+        "x": 775,
+        "y": 3900,
         "wires": [
             [
                 "d4216d9506b296f0"
@@ -57548,8 +56283,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 4700,
+        "x": 970,
+        "y": 4140,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -57563,10 +56298,10 @@
         "g": "936eab7d97be78af",
         "name": "Tiempo De espera",
         "links": [
-            "ecf98f3f.4a704"
+            "58d10b0ab4c186c5"
         ],
-        "x": 915,
-        "y": 4700,
+        "x": 775,
+        "y": 4140,
         "wires": [
             [
                 "441a1b389e53d303"
@@ -57585,8 +56320,8 @@
         "initialize": "var VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\n// Code added here will be run once\n// whenever the node is started.\n",
         "finalize": "",
         "libs": [],
-        "x": 1170,
-        "y": 4760,
+        "x": 1030,
+        "y": 4200,
         "wires": [
             []
         ]
@@ -57613,8 +56348,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 930,
-        "y": 4760,
+        "x": 790,
+        "y": 4200,
         "wires": [
             [
                 "8d1b0cbfbcc8779c"
@@ -72914,7 +71649,7 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "500",
+        "payload": "100",
         "payloadType": "num",
         "x": 140,
         "y": 990,
@@ -82518,7 +81253,8 @@
         "y": 320,
         "wires": [
             [
-                "5ad2031a8a072ecf"
+                "5ad2031a8a072ecf",
+                "bb90cadbb46a78f9"
             ],
             []
         ]
@@ -82759,8 +81495,8 @@
         "label": "<font size=4px>Seleccione la geometria en la tabla",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 890,
-        "y": 300,
+        "x": 910,
+        "y": 280,
         "wires": []
     },
     {
@@ -84358,7 +83094,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "4ce2f54dcf99b9de",
         "name": "sensorFisico",
-        "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    var tamano = Vpos.length;\n    global.set(\"Dinagrama.superficie.Desp_CD\", Vpos);\n    global.set(\"Dinagrama.superficie.Esfu_CD\", Vcarga);\n    global.set(\"Dinagrama.superficie.nMuestras\", tamano);\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
+        "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    // var tamano = Vpos.length;\n    // global.set(\"Dinagrama.superficie.Desp_CD\", Vpos);\n    // global.set(\"Dinagrama.superficie.Esfu_CD\", Vcarga);\n    // global.set(\"Dinagrama.superficie.nMuestras\", tamano);\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -84368,7 +83104,8 @@
         "y": 560,
         "wires": [
             [
-                "4f41825f992c561d"
+                "4f41825f992c561d",
+                "4456b445ce3c4dfc"
             ]
         ]
     },
@@ -84712,8 +83449,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 710,
-        "y": 460,
+        "x": 700,
+        "y": 480,
         "wires": [
             [
                 "544970607ac8c8c5"
@@ -90336,7 +89073,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "a368bb3bc2f75d5e",
         "name": "DeterminarDisparo",
-        "func": "var habilitado = global.get(\"Control_functions.ControlDownhole.habilitado\") || false;\nvar LL = global.get(\"Control_functions.ControlDownhole.LL\") || 0;\nvar L = global.get(\"Control_functions.ControlDownhole.L\") || 0;\nvar Fillage = global.get(\"Control_functions.ControlDownhole.Fillage\") || 0;\nvar state = global.get(\"Control_functions.ControlDownhole.state\") || \"Normal\";\nvar intentosHMI = global.get(\"Control_functions.ControlDownhole.intentosHMI\") || 0;\nvar intentos = context.get(\"intentos\",\"memoryOnly\")||0;\nvar color;\nif(habilitado == true){\n    if (Fillage <= LL && state != \"Disparo\"){//aumentar intento\n        intentos = intentos + 1;\n        global.set(\"Control_functions.ControlDownhole.intentos\", intentos);\n        if (intentos >= intentosHMI){//genere el disparo\n            state = \"Disparo\";color = \"red\";\n            msg.payload = \"Disparo Poc DownholeControl\";\n            msg.topic = \"Poc Control\";\n            intentos = 0; // setee el contador\n        }\n    }else if(Fillage <= L && Fillage > LL){//Alarma por bajo \n        state = \"Alarma\";color = \"yellow\";\n        msg.payload = \"Alarma Poc DownholeControl\";\n        msg.topic = \"Poc Control\";\n    } else if (state == \"Disparo\"){\n        state = \"Disparo\";color = \"red\";\n    }else{\n        state = \"Normal\";color = \"green\";\n    }\n    node.status({fill:color,shape:\"ring\",text:state});\n    context.set(\"intentos\", intentos,\"memoryOnly\");\n    context.set(\"intentosHMI\", intentosHMI,\"memoryOnly\");\n    context.set(\"mensaje\", msg.payload,\"memoryOnly\");\n    context.set(\"L\", L,\"memoryOnly\");\n    context.set(\"LL\", LL,\"memoryOnly\");\n    context.set(\"state\", state,\"memoryOnly\");\n    context.set(\"Fillage\", Fillage,\"memoryOnly\");\n    // variables globales\n    global.set(\"Control_functions.ControlDownhole.state\",state);\n}else{\n    //si esta deshablitado\n    context.set(\"intentos\",0,\"memoryOnly\");//setear el contador\n    node.status({fill:\"red\",shape:\"ring\",text:habilitado});\n}\nstate = { payload: state}\nintentos = {payload: intentos}\nreturn [state,intentos];\n\n",
+        "func": "var habilitado = global.get(\"Control_functions.ControlDownhole.habilitado\") || false;\nvar LL = global.get(\"Control_functions.ControlDownhole.LL\") || 0;\nvar L = global.get(\"Control_functions.ControlDownhole.L\") || 0;\nvar Fillage = global.get(\"Control_functions.ControlDownhole.Fillage\") || 0;\nvar Fillage_k1 = context.get(\"Fillage_k1\",\"memoryOnly\")||0;\nvar state = global.get(\"Control_functions.ControlDownhole.state\") || \"Normal\";\nvar intentosHMI = global.get(\"Control_functions.ControlDownhole.intentosHMI\") || 0;\nvar intentos = context.get(\"intentos\",\"memoryOnly\")||0;\nvar color;\nif(habilitado == true){\n    if (Fillage <= LL && state != \"Disparo\"){//aumentar intento\n        if(Fillage != Fillage_k1){\n            intentos = intentos + 1;\n        }\n        Fillage_k1 = Fillage;// guardando el estado anterior\n        global.set(\"Control_functions.ControlDownhole.intentos\", intentos);\n        if (intentos >= intentosHMI){//genere el disparo\n            state = \"Disparo\";color = \"red\";\n            msg.payload = \"Disparo Poc DownholeControl\";\n            msg.topic = \"Poc Control\";\n            intentos = 0; //Setee el contador\n        }\n    }else if(Fillage <= L && Fillage > LL){//Alarma por bajo \n        state = \"Alarma\";color = \"yellow\";\n        msg.payload = \"Alarma Poc DownholeControl\";\n        msg.topic = \"Poc Control\";\n    } else if (state == \"Disparo\"){\n        state = \"Disparo\";color = \"red\";\n        intentos = 0; // setee el contador\n    }else{\n        intentos = 0; // setee el contador\n        state = \"Normal\";color = \"green\";\n    }\n    node.status({fill:color,shape:\"ring\",text:state});\n    context.set(\"intentos\", intentos,\"memoryOnly\");\n    context.set(\"intentosHMI\", intentosHMI,\"memoryOnly\");\n    context.set(\"mensaje\", msg.payload,\"memoryOnly\");\n    context.set(\"L\", L,\"memoryOnly\");\n    context.set(\"LL\", LL,\"memoryOnly\");\n    context.set(\"state\", state,\"memoryOnly\");\n    context.set(\"Fillage\", Fillage,\"memoryOnly\");\n    context.set(\"Fillage_k1\", Fillage_k1,\"memoryOnly\");\n    // variables globales\n    global.set(\"Control_functions.ControlDownhole.state\",state);\n}else{\n    //si esta deshablitado\n    context.set(\"intentos\",0,\"memoryOnly\");//setear el contador\n    node.status({fill:\"red\",shape:\"ring\",text:habilitado});\n}\nstate = { payload: state}\nintentos = {payload: intentos}\nreturn [state,intentos];\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -90610,7 +89347,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 720,
+        "x": 760,
         "y": 280,
         "wires": []
     },
@@ -95605,24 +94342,6 @@
         "wires": []
     },
     {
-        "id": "30ae733f015bd2a9",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "Calcular Desplazamiento",
-        "func": "var Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\n//Cálcula el Vector Desplazamiento\n// if (Indice <= NmuestrasTotales){\n//     VDesplazamiento[Indice-1] = Vpos[Indice - 1] * A;//Desplazamiento\n// }\n\nfor(let t = 0; t < NmuestrasTotales;t++){\n    VDesplazamiento[t] = Vpos[t] * A;\n}\nglobal.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento, 'memoryOnly');\n// guardar todo el vector\n// if (Indice >= NmuestrasTotales){\n//     global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n// }\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\");\n\nvar PosVdesmin = 0;\nvar PosVdesmayor = 0;\n\nvar Max_Desp = 0;\nvar Min_Desp = 0;\n\nvar PosVdesmin2 = 0;\nvar PosVdesmayor2 = 0;\n\nvar Max_Desp2 = 0;\nvar Min_Desp2 = 0;\n\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\nvar LongitudVector = 0;\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n\n    }\n}\n\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector Vdesplazamiento\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector Vdesplazamiento\n\nMax_Desp2 = VDesplazamiento[PosVdesmin];\n\nif (PosVdesmin > PosVdesmayor){\n    for (var k = 1; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmin + k] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + k];\n            PosVdesmayor2 = PosVdesmin + k;\n\n        }\n       \n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (k = 0; k < Nmuestras; k++){\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    LongitudVector = (PosVdesmayor2 - PosVdesmayor);// calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n// Condicion si la posición del valor minimo es menor que la del valor maximo\n}else if(PosVdesmin < PosVdesmayor){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    for (var m = 1; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    LongitudVector = (PosVdesmayor2 - PosVdesmayor); // calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {\n        VecDesCal[j] = VDesplazamiento[PosVdesmin2 + j];\n    }\n\n}\n\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp2\", Min_Desp2, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp2\", Max_Desp2, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor2\", PosVdesmayor2, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin2\", PosVdesmin2, \"memoryOnly\");//Seteo el maximo valor del vector X\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
-        "finalize": "",
-        "libs": [],
-        "x": 1210,
-        "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "689f9bbcd43194fe",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
@@ -95642,9 +94361,7 @@
         "x": 990,
         "y": 680,
         "wires": [
-            [
-                "30ae733f015bd2a9"
-            ]
+            []
         ]
     },
     {
@@ -97194,8 +95911,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 980,
-        "y": 4300,
+        "x": 840,
+        "y": 3740,
         "wires": [
             []
         ]
@@ -97209,11 +95926,155 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 805,
-        "y": 4300,
+        "x": 665,
+        "y": 3740,
         "wires": [
             [
                 "c6ebe3799f5ffb56"
+            ]
+        ]
+    },
+    {
+        "id": "bb90cadbb46a78f9",
+        "type": "change",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "DeleteDinagramaMemory",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "#:(memoryOnly)::IO.Dinagrama.Vcarga",
+                "pt": "global"
+            },
+            {
+                "t": "delete",
+                "p": "#:(memoryOnly)::IO.Dinagrama.Vpos",
+                "pt": "global"
+            },
+            {
+                "t": "delete",
+                "p": "#:(memoryOnly)::IO.Dinagrama.VDesplazamiento",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ffdcbac04f11445",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "Calcular Desplazamiento",
+        "func": "var Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")||0);\n\nfor (let t = 0; t < VDesplazamiento.length;t++){\n    VDesplazamiento[t] = Vpos[t] * A;\n}\nglobal.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento, 'memoryOnly');\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\")||[];\n\nvar PosVdesmin = 0,PosVdesmayor = 0, Max_Desp = 0,Min_Desp = 0,PosVdesmin2 = 0,PosVdesmayor2 = 0,Max_Desp2 = 0,Min_Desp2 = 0\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\nvar LongitudVector = 0;\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n\n    }\n}\n\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector Vdesplazamiento\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector Vdesplazamiento\n\nMax_Desp2 = VDesplazamiento[PosVdesmin];\n// Condicion si la posición del valor minimo es mayor que la del valor maximo\nif (PosVdesmin > PosVdesmayor){\n    for (var k = 1; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmin + k] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + k];\n            PosVdesmayor2 = PosVdesmin + k;\n\n        }\n       \n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (k = 0; k < Nmuestras; k++){\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin);// calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n// Condicion si la posición del valor minimo es menor que la del valor maximo\n}else if(PosVdesmin < PosVdesmayor){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    for (var m = 1; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n}\nglobal.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp2\", Min_Desp2, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp2\", Max_Desp2, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor2\", PosVdesmayor2, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin2\", PosVdesmin2, \"memoryOnly\");//Seteo el maximo valor del vector X\nglobal.set(\"IO.Dinagrama.LongitudVector\", LongitudVector, \"memoryOnly\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21ce9dc3c70ae4ca",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "request",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] ==\"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"Motor_Current\") request.Motor_Current = true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Submergence\") request.Submergence = true;\n    if (msg.payload[i] == \"DynamicFluidLevel\") request.DynamicFluidLevel = true;\n    if (msg.payload[i] == \"Flow\") request.Flow = true; \n    if (msg.payload[i] == \"VectDesp\") request.VectDesp = true;\n    if (msg.payload[i] == \"Vpos\") request.Vpos = true;\n    if (msg.payload[i] == \"POSICION\") request.POSICION = true;\n\n\n}\nmsg.payload = request;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 40,
+        "wires": [
+            [
+                "f55bcf1b9afa8eaa"
+            ]
+        ]
+    },
+    {
+        "id": "432f1f035a026c89",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "getting data",
+        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar C2S = global.get(\"C2S.Implicit\", \"memoryOnly\") || [];\nvar RelTx = global.get(\"C2S.RelTx\") || 1;\nvar LNVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\",\"memoryOnly\")||0;\nvar LLVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\",\"memoryOnly\")||0;\nvar PIP = global.get(\"Prolonged_Reference.DHS['Presión de entrada']\", \"memoryOnly\")||0;\nvar PDP = global.get(\"Prolonged_Reference.DHS['Presión de descarga']\", \"memoryOnly\") || 0;\nvar Input_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de entrada']\", \"memoryOnly\") || 0;\nvar Motor_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de motor']\", \"memoryOnly\") || 0;\nvar Submergence = global.get(\"SENSORLESS.Sumergencia_inferida\", \"memoryOnly\") || 0;\nvar DynamicFluidLevel = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\", \"memoryOnly\") || 0;\nvar Flow = global.get(\"SENSORLESS.Caudal_ajustado_con_la_viscosidad\", \"memoryOnly\") || 0;\nvar VectDesp = global.get(\"IO.Dinagrama.VecDesCal\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar POSICION = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || [];\n\n\n\n\nmsg.Output_Frequency = (C2S.Output_Frequency || 0).toFixed(2);\nmsg.Output_Current = (C2S.Output_Current || 0).toFixed(2);\nmsg.Motor_Current = (C2S.Output_Current / RelTx || 0).toFixed(1);\nmsg.LNVoltage = LNVoltage.toFixed(1);\nmsg.LLVoltage = LLVoltage.toFixed(1);\nmsg.Output_Power = (C2S.Output_Power || 0).toFixed(1);\nmsg.PIP = PIP.toFixed(1);\nmsg.PDP = PDP.toFixed(1);\nmsg.Input_Temp = Input_Temp.toFixed(1);\nmsg.Motor_Temp = Motor_Temp.toFixed(1);\nmsg.Submergence = Submergence.toFixed(1);\nmsg.DynamicFluidLevel = DynamicFluidLevel.toFixed(1);\nmsg.Flow = Flow.toFixed(1);\n\n\n\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current/RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage}],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'VectDesp': [{ \"x\": time, \"y\": VectDesp }],\n        'Vpos': [{ \"x\": time, \"y\": Vpos }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n\n\n\n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.Output_Current.shift();\n        realtime.Motor_Current.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Submergence.shift();\n        realtime.DynamicFluidLevel.shift();\n        realtime.Flow.shift();\n\n\n\n    }\n    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n    realtime.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current/RelTx || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": LNVoltage}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n    realtime.Submergence.push({ \"x\": time, \"y\": Submergence }),\n    realtime.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n    realtime.Flow.push({ \"x\": time, \"y\": Flow })\n\n\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'VectDesp': [{ \"x\": time, \"y\": VectDesp }],\n        'Vpos': [{ \"x\": time, \"y\": Vpos }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n\n\n\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.Motor_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Submergence.shift();\n            lasthour.DynamicFluidLevel.shift();\n            lasthour.Flow.shift();\n\n\n\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lasthour.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lasthour.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lasthour.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lasthour.Flow.push({ \"x\": time, \"y\": Flow })\n\n\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'Motor_Current': [{ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'VectDesp': [{ \"x\": time, \"y\": VectDesp }],\n        'Vpos': [{ \"x\": time, \"y\": Vpos }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n\n\n\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.Motor_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Submergence.shift();\n            lastday.DynamicFluidLevel.shift();\n            lastday.Flow.shift();\n\n\n\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lastday.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lastday.Motor_Current.push({ \"x\": time, \"y\": C2S.Output_Current / RelTx || 0 }),\n        lastday.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lastday.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lastday.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lastday.PIP.push({ \"x\": time, \"y\": PIP }),\n        lastday.PDP.push({ \"x\": time, \"y\": PDP }),\n        lastday.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lastday.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lastday.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lastday.Flow.push({ \"x\": time, \"y\": Flow })\n\n\n\n    }\n\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "4297de21af954e7c"
+            ]
+        ]
+    },
+    {
+        "id": "2fedfbe19dbc2b23",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "Preparing to chart",
+        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Submergence == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Submergence\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Submergence\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Submergence\") || []);\n}\nif (select_Trend.DynamicFluidLevel == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.DynamicFluidLevel\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.DynamicFluidLevel\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.DynamicFluidLevel\") || []);\n}\nif (select_Trend.Flow == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Flow\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Flow\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Flow\") || []);\n}\nif (select_Trend.VectDesp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.VectDesp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.VectDesp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.VectDesp\") || []);\n}\nif (select_Trend.Vpos == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Vpos\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Vpos\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Vpos\") || []);\n}\nif (select_Trend.POSICION == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.POSICION\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.POSICION\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.POSICION\") || []);\n}\n\n\n\nvar series = [];\n\nif (select_Trend.Output_Frequency == true) select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\") : series.push(\"Frecuencia salida \" + msg.Output_Frequency + \" Hz\");\nif (select_Trend.Output_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\") : series.push(\"Corriente salida drive \" + msg.Output_Current +\" A\");\nif (select_Trend.Motor_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente motor (A)\") : series.push(\"Corriente motor \" + msg.Motor_Current +\" A\");\nif (select_Trend.LNVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\") : series.push(\"Tensión LN promedio \" + msg.LNVoltage + \" V\");\nif (select_Trend.LLVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\") : series.push(\"Tensión LL promedio \" + msg.LLVoltage +\" V\");\nif (select_Trend.Output_Power == true) select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\") : series.push(\"Potencia salida \" + msg.Output_Power +\" KW\");\nif (select_Trend.PIP == true) select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\") : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true) select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\") : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\") : series.push(\"Temperatura entrada \" + msg.Input_Temp +\" ºF\");\nif (select_Trend.Motor_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\") : series.push(\"Temperatura motor \" + msg.Motor_Temp +\" ºF\");\nif (select_Trend.Submergence == true) select_Time != \"realtime\" ? series.push(\"Sumergencia (ft)\") : series.push(\"Sumergencia \" + msg.Submergence +\" ft\");\nif (select_Trend.DynamicFluidLevel == true) select_Time != \"realtime\" ? series.push(\"Nivel fluido dinámico (ft)\") : series.push(\"Nivel fluido dinámico \" + msg.DynamicFluidLevel +\" ft\");\nif (select_Trend.Flow == true) select_Time != \"realtime\" ? series.push(\"Caudal (m^3/s)\") : series.push(\"Caudal \" + msg.Flow +\" m^3/s\");\nif (select_Trend.VectDesp == true) select_Time != \"realtime\" ? series.push(\"Desplazamiento 1 Stroke (in)\") : series.push(\"Caudal \" + msg.VectDesp + \"in\");\nif (select_Trend.Vpos == true) select_Time != \"realtime\" ? series.push(\"Posición SRP (Rad)\") : series.push(\"Posición \" + msg.Vpos + \"Rad\");\nif (select_Trend.POSICION == true) select_Time != \"realtime\" ? series.push(\"Posición Actual SRP (Rad)\") : series.push(\"Posición Actual \" + msg.Vpos + \"Rad\");\n\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 100,
+        "wires": [
+            [
+                "60eaf9a4dd833054"
+            ]
+        ]
+    },
+    {
+        "id": "fa3219b9781cefb8",
+        "type": "switch",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Vpos",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "VectDesp",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "7cb08f2674ead649",
+                "90c34241c497ae60"
+            ],
+            [
+                "d04b5541e966b262",
+                "e00cf5c519a58fa0"
             ]
         ]
     }
