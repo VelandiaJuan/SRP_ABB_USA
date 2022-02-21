@@ -1271,9 +1271,7 @@
             "4656b9d64c73852a"
         ],
         "x": 84,
-        "y": 231.5,
-        "w": 3462,
-        "h": 237
+        "y": 231.5
     },
     {
         "id": "deaa6892.b3d988",
@@ -1289,9 +1287,7 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13,
-        "w": 1674,
-        "h": 214
+        "y": 13
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1377,9 +1373,7 @@
             "c7031429.d17478"
         ],
         "x": 74,
-        "y": 479,
-        "w": 2462,
-        "h": 512
+        "y": 479
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1924,9 +1918,7 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19,
-        "w": 852,
-        "h": 132
+        "y": 19
     },
     {
         "id": "1178951067fce7a4",
@@ -2063,9 +2055,7 @@
             "68f04d51be6d6326"
         ],
         "x": 84,
-        "y": 999,
-        "w": 1272,
-        "h": 402
+        "y": 999
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2182,9 +2172,7 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019,
-        "w": 1992,
-        "h": 1102
+        "y": 1019
     },
     {
         "id": "b41ee12005a32e8e",
@@ -2540,8 +2528,8 @@
             "886c668bbf81db17",
             "43af3f26d5e4cf7d"
         ],
-        "x": 2374,
-        "y": 139,
+        "x": 34,
+        "y": 739,
         "w": 642,
         "h": 502
     },
@@ -3250,9 +3238,7 @@
             "3c6e143f09ddb57d"
         ],
         "x": 1354,
-        "y": 119,
-        "w": 1272,
-        "h": 282
+        "y": 119
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3294,9 +3280,7 @@
             "d381f5089d6b205d"
         ],
         "x": 114,
-        "y": 219,
-        "w": 1182,
-        "h": 382
+        "y": 219
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3335,9 +3319,7 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659,
-        "w": 792,
-        "h": 442
+        "y": 659
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3358,9 +3340,7 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 899,
-        "w": 912,
-        "h": 122
+        "y": 899
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3392,9 +3372,7 @@
             "bd55c3ff86ac359d"
         ],
         "x": 1354,
-        "y": 579,
-        "w": 1042,
-        "h": 302
+        "y": 579
     },
     {
         "id": "357c29994d5a0df9",
@@ -3410,9 +3388,7 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479,
-        "w": 532,
-        "h": 82
+        "y": 479
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -3594,11 +3570,13 @@
             "dcb152a9b47c11dd",
             "617d3424713f8c8e",
             "689f9bbcd43194fe",
-            "9ffdcbac04f11445"
+            "9ffdcbac04f11445",
+            "5df2f4384f632516",
+            "74cbe059552d3f3c"
         ],
         "x": 34,
         "y": 519,
-        "w": 1372,
+        "w": 1692,
         "h": 202
     },
     {
@@ -3740,10 +3718,10 @@
             "504a9190c56704f4",
             "b6f3ea51d122b4cc"
         ],
-        "x": 1444,
-        "y": 139,
+        "x": 744,
+        "y": 739,
         "w": 772,
-        "h": 728
+        "h": 628
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3768,9 +3746,7 @@
             "019e3edf07e3bcea"
         ],
         "x": 94,
-        "y": 1439,
-        "w": 1012,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "9648249e35aead30",
@@ -4908,9 +4884,7 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39,
-        "w": 802,
-        "h": 162
+        "y": 39
     },
     {
         "id": "31895ea6.22f372",
@@ -4935,9 +4909,7 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 802,
-        "h": 162
+        "y": 39
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5807,8 +5779,8 @@
             "f88bce3cfb57bc9b",
             "f61ae4174f8cd899"
         ],
-        "x": 1474,
-        "y": 759,
+        "x": 774,
+        "y": 1259,
         "w": 492,
         "h": 82
     },
@@ -20184,6 +20156,11 @@
                 "label": "Carga Actual",
                 "value": "CARGA",
                 "type": "str"
+            },
+            {
+                "label": "Esfuerzo 1 Stroke",
+                "value": "Esfuerzo",
+                "type": "str"
             }
         ],
         "payload": "",
@@ -20515,8 +20492,8 @@
         "round": "",
         "mult": "single",
         "reduce": false,
-        "x": 1150,
-        "y": 540,
+        "x": 1130,
+        "y": 680,
         "wires": [
             [
                 "286caac82d55f445"
@@ -20540,8 +20517,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 630,
-        "y": 540,
+        "x": 610,
+        "y": 680,
         "wires": [
             [
                 "a172ae71ab4db9c7"
@@ -20559,8 +20536,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 540,
+        "x": 770,
+        "y": 680,
         "wires": [
             [
                 "c0e7440b693993b7"
@@ -20583,8 +20560,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 970,
-        "y": 540,
+        "x": 950,
+        "y": 680,
         "wires": [
             [
                 "a172ae71ab4db9c7",
@@ -20603,8 +20580,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1340,
-        "y": 540,
+        "x": 1320,
+        "y": 680,
         "wires": [
             []
         ]
@@ -20682,14 +20659,14 @@
         "id": "d04b5541e966b262",
         "type": "function",
         "z": "2026898575f7aa56",
-        "name": "RecorrerVectorEsfuerzo",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.VecDesCal\") || [];\nif (ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Esfuerzo\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "name": "RecorrerVectorDes1Stroke",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.VecDesCal\",\"memoryOnly\") || [];\nif (ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Desplazamiento 1 Stroke\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 720,
         "y": 380,
         "wires": [
             [
@@ -56127,10 +56104,10 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    VDesplazamiento[Indice-1] = pos * A;//Desplazamiento\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento,'memoryOnly'); \n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\nreturn msg;",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
         "finalize": "",
         "libs": [],
         "x": 1390,
@@ -82801,8 +82778,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2790,
-        "y": 220,
+        "x": 450,
+        "y": 820,
         "wires": [
             [
                 "7a6ff18321a03c6d"
@@ -82821,8 +82798,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2520,
-        "y": 300,
+        "x": 180,
+        "y": 900,
         "wires": [
             []
         ]
@@ -82836,8 +82813,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 2415,
-        "y": 300,
+        "x": 75,
+        "y": 900,
         "wires": [
             [
                 "78dececd724e88a8"
@@ -82856,8 +82833,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2580,
-        "y": 180,
+        "x": 240,
+        "y": 780,
         "wires": [
             [
                 "de1bafacc719791d"
@@ -82876,8 +82853,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2760,
-        "y": 300,
+        "x": 420,
+        "y": 900,
         "wires": [
             [
                 "1b31503325926827"
@@ -82896,8 +82873,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2780,
-        "y": 380,
+        "x": 440,
+        "y": 980,
         "wires": [
             [
                 "144b8abb78491883"
@@ -82916,8 +82893,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2780,
-        "y": 180,
+        "x": 440,
+        "y": 780,
         "wires": [
             [
                 "5ef9f1c757b3c525"
@@ -82937,8 +82914,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2770,
-        "y": 260,
+        "x": 430,
+        "y": 860,
         "wires": [
             [
                 "e0439a824aa40693"
@@ -82957,8 +82934,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2780,
-        "y": 340,
+        "x": 440,
+        "y": 940,
         "wires": [
             [
                 "519724ca0bae0425"
@@ -82977,8 +82954,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2770,
-        "y": 420,
+        "x": 430,
+        "y": 1020,
         "wires": [
             [
                 "b8210abad06fb15e"
@@ -82997,8 +82974,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2780,
-        "y": 480,
+        "x": 440,
+        "y": 1080,
         "wires": [
             [
                 "886c668bbf81db17"
@@ -83017,8 +82994,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2810,
-        "y": 600,
+        "x": 470,
+        "y": 1200,
         "wires": [
             [
                 "d3280befce20327a"
@@ -83104,8 +83081,7 @@
         "y": 560,
         "wires": [
             [
-                "4f41825f992c561d",
-                "4456b445ce3c4dfc"
+                "4f41825f992c561d"
             ]
         ]
     },
@@ -83173,8 +83149,8 @@
             "ad87cee4.7dbb5",
             "4456b445ce3c4dfc"
         ],
-        "x": 2435,
-        "y": 180,
+        "x": 95,
+        "y": 780,
         "wires": [
             [
                 "1c4e8fcfe6a3e2e8"
@@ -83193,8 +83169,8 @@
             "63af779617bfc722",
             "b5183e9f40b17918"
         ],
-        "x": 2975,
-        "y": 600,
+        "x": 635,
+        "y": 1200,
         "wires": []
     },
     {
@@ -83271,7 +83247,7 @@
         "y": 560,
         "wires": [
             [
-                "544970607ac8c8c5"
+                "74cbe059552d3f3c"
             ]
         ]
     },
@@ -83287,8 +83263,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2800,
-        "y": 540,
+        "x": 460,
+        "y": 1140,
         "wires": [
             [
                 "d0f5dfd40edd6ea0"
@@ -83317,8 +83293,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 2500,
-        "y": 240,
+        "x": 160,
+        "y": 840,
         "wires": [
             [
                 "1c4e8fcfe6a3e2e8"
@@ -83354,7 +83330,7 @@
         "round": "",
         "mult": "single",
         "reduce": false,
-        "x": 1130,
+        "x": 1310,
         "y": 560,
         "wires": [
             [
@@ -83368,13 +83344,13 @@
         "z": "6a1ef6a7aef873a7",
         "g": "4ce2f54dcf99b9de",
         "name": "RecorrerVector",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n//var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\");//se inicializa en On Start\n\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
+        "x": 940,
         "y": 560,
         "wires": [
             [
@@ -83389,7 +83365,7 @@
         "g": "4ce2f54dcf99b9de",
         "name": "",
         "pauseType": "delay",
-        "timeout": "200",
+        "timeout": "500",
         "timeoutUnits": "milliseconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -83399,7 +83375,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 970,
+        "x": 1130,
         "y": 560,
         "wires": [
             [
@@ -83413,18 +83389,18 @@
         "type": "function",
         "z": "6a1ef6a7aef873a7",
         "g": "4ce2f54dcf99b9de",
-        "name": "guardarVector",
-        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"red\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"Dinagrama.superficie.Desp_CD\",vector);\n    return msg;\n}",
+        "name": "filtrarVector",
+        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VposFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
+        "x": 1470,
         "y": 560,
         "wires": [
             [
-                "4456b445ce3c4dfc"
+                "5df2f4384f632516"
             ]
         ]
     },
@@ -83469,8 +83445,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1940,
-        "y": 180,
+        "x": 1240,
+        "y": 780,
         "wires": [
             [
                 "215a7aad1a85b06f"
@@ -83489,8 +83465,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1770,
-        "y": 240,
+        "x": 1070,
+        "y": 840,
         "wires": [
             [
                 "90203260b3c58249"
@@ -83509,8 +83485,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2000,
-        "y": 240,
+        "x": 1300,
+        "y": 840,
         "wires": [
             [
                 "846e2857e23dcb89"
@@ -83529,8 +83505,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1850,
-        "y": 300,
+        "x": 1150,
+        "y": 900,
         "wires": [
             [
                 "a9565a0c21e1acf6"
@@ -83549,8 +83525,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1730,
-        "y": 360,
+        "x": 1030,
+        "y": 960,
         "wires": [
             [
                 "995585bac085cad4"
@@ -83569,8 +83545,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1910,
-        "y": 360,
+        "x": 1210,
+        "y": 960,
         "wires": [
             [
                 "4ad9f70702942fda"
@@ -83589,8 +83565,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1720,
-        "y": 440,
+        "x": 1020,
+        "y": 1040,
         "wires": [
             [
                 "dc16a5d073255fcb"
@@ -83609,8 +83585,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1900,
-        "y": 440,
+        "x": 1200,
+        "y": 1040,
         "wires": [
             [
                 "a2c027f12fcf8e2e"
@@ -83629,8 +83605,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2080,
-        "y": 440,
+        "x": 1380,
+        "y": 1040,
         "wires": [
             [
                 "fbaeb64dd8975b79"
@@ -83649,8 +83625,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1740,
-        "y": 520,
+        "x": 1040,
+        "y": 1120,
         "wires": [
             [
                 "9ffaf7bd2852fead"
@@ -83669,8 +83645,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1970,
-        "y": 520,
+        "x": 1270,
+        "y": 1120,
         "wires": [
             [
                 "b83e6a469a416bca"
@@ -83689,8 +83665,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1750,
-        "y": 180,
+        "x": 1050,
+        "y": 780,
         "wires": [
             [
                 "db03a3ea50e9e52d"
@@ -83707,8 +83683,8 @@
             "ad87cee4.7dbb5",
             "d3280befce20327a"
         ],
-        "x": 1495,
-        "y": 180,
+        "x": 795,
+        "y": 780,
         "wires": [
             [
                 "97e1995c643a5db2"
@@ -83733,8 +83709,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1590,
-        "y": 180,
+        "x": 890,
+        "y": 780,
         "wires": [
             [
                 "e9997c2ef7dec764"
@@ -83763,8 +83739,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1550,
-        "y": 220,
+        "x": 850,
+        "y": 820,
         "wires": [
             [
                 "e9997c2ef7dec764"
@@ -83783,8 +83759,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1750,
-        "y": 620,
+        "x": 1050,
+        "y": 1220,
         "wires": [
             [
                 "b6f3ea51d122b4cc"
@@ -83809,8 +83785,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 1570,
-        "y": 800,
+        "x": 870,
+        "y": 1300,
         "wires": [
             [
                 "f88bce3cfb57bc9b"
@@ -83829,8 +83805,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1700,
-        "y": 800,
+        "x": 1000,
+        "y": 1300,
         "wires": [
             [
                 "f61ae4174f8cd899"
@@ -83851,8 +83827,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1850,
-        "y": 800,
+        "x": 1150,
+        "y": 1300,
         "wires": []
     },
     {
@@ -83864,8 +83840,8 @@
         "links": [
             "5791ad35584a5a82"
         ],
-        "x": 2175,
-        "y": 620,
+        "x": 1475,
+        "y": 1220,
         "wires": []
     },
     {
@@ -94798,7 +94774,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [40],\n                y: [10],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                images: [\n                        {\n                            source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                            xref: \"paper\",\n                            yref: \"paper\",\n                            sizing: \"stretch\",\n                            x: 0.25,\n                            y: 0,\n                            sizex: 0.6,\n                            sizey: 1,\n                            opacity: 0.1,\n                            xanchor: \"left\",\n                            yanchor: \"bottom\"\n                        }],\n            };\n            var data = [trace1,trace2];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        var trace2  = {\n            x: [0],\n            y: [0],\n            name: 'Pump Off',\n            mode: 'scatter'\n        };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            images: [\n                    {\n                        source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                        xref: \"paper\",\n                        yref: \"paper\",\n                        sizing: \"stretch\",\n                        x: 0.25,\n                        y: 0,\n                        sizex: 0.6,\n                        sizey: 1,\n                        opacity: 0.1,\n                        xanchor: \"left\",\n                        yanchor: \"bottom\"\n                    }],\n        };\n        var data = [trace1,trace2];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                images: [\n                        {\n                            source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                            xref: \"paper\",\n                            yref: \"paper\",\n                            sizing: \"stretch\",\n                            x: 0.25,\n                            y: 0,\n                            sizex: 0.6,\n                            sizey: 1,\n                            opacity: 0.1,\n                            xanchor: \"left\",\n                            yanchor: \"bottom\"\n                        }],\n            };\n            // var data = [trace1,trace2];\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            images: [\n                    {\n                        source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                        xref: \"paper\",\n                        yref: \"paper\",\n                        sizing: \"stretch\",\n                        x: 0.25,\n                        y: 0,\n                        sizex: 0.6,\n                        sizey: 1,\n                        opacity: 0.1,\n                        xanchor: \"left\",\n                        yanchor: \"bottom\"\n                    }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 400,
         "y": 340,
@@ -95974,13 +95950,13 @@
         "z": "6a1ef6a7aef873a7",
         "g": "4ce2f54dcf99b9de",
         "name": "Calcular Desplazamiento",
-        "func": "var Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VDesplazamiento = context.get(\"VDesplazamiento\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")||0);\n\nfor (let t = 0; t < VDesplazamiento.length;t++){\n    VDesplazamiento[t] = Vpos[t] * A;\n}\nglobal.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento, 'memoryOnly');\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;//Contador de captura de datos del Black\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\")||[];\n\nvar PosVdesmin = 0,PosVdesmayor = 0, Max_Desp = 0,Min_Desp = 0,PosVdesmin2 = 0,PosVdesmayor2 = 0,Max_Desp2 = 0,Min_Desp2 = 0\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\nvar LongitudVector = 0;\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n\n    }\n}\n\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector Vdesplazamiento\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector Vdesplazamiento\n\nMax_Desp2 = VDesplazamiento[PosVdesmin];\n// Condicion si la posición del valor minimo es mayor que la del valor maximo\nif (PosVdesmin > PosVdesmayor){\n    for (var k = 1; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmin + k] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + k];\n            PosVdesmayor2 = PosVdesmin + k;\n\n        }\n       \n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (k = 0; k < Nmuestras; k++){\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin);// calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n// Condicion si la posición del valor minimo es menor que la del valor maximo\n}else if(PosVdesmin < PosVdesmayor){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    for (var m = 1; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    }\n\n}\nglobal.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp2\", Min_Desp2, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp2\", Max_Desp2, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor2\", PosVdesmayor2, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin2\", PosVdesmin2, \"memoryOnly\");//Seteo el maximo valor del vector X\nglobal.set(\"IO.Dinagrama.LongitudVector\", LongitudVector, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VDesplazamiento = global.get(\"IO.Dinagrama.VDesplazamiento\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")||0);\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||[];\n\nfor (let t = 0; t < Vpos.length;t++){\n    VDesplazamiento[t] = Vpos[t] * A;\n}\nglobal.set('IO.Dinagrama.VDesplazamiento', VDesplazamiento, 'memoryOnly');\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\n\n//Cálculo del valor maximo y minimo\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras\nvar OnCalculo = context.get(\"IO.Dinagrama.OnCalculo\", \"memoryOnly\") || 0;//Variable que determina que hay mayoria de datos en el vector\nvar VecDesCal = context.get(\"VecDesCal\", \"memoryOnly\")||[];\nvar CalCarga = context.get(\"CalCarga\", \"memoryOnly\") || [];\n\nvar PosVdesmin = 0,PosVdesmayor = 0, Max_Desp = 0,Min_Desp = 0,PosVdesmin2 = 0,PosVdesmayor2 = 0,Max_Desp2 = 0,Min_Desp2 = 0\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\nvar LongitudVector = 0;\n\nOnCalculo = Nmuestras * 2;//determina el número en donde se completa la mayoria de los datos\nglobal.set(\"IO.Dinagrama.OnCalculo\", OnCalculo, \"memoryOnly\");\n\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n\n    }\n}\n\ncontext.set(\"IO.Dinagrama.Min_Desp\", Min_Desp, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp\", Max_Desp, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor\", PosVdesmayor, \"memoryOnly\");//Seteo el minimo valor del vector Vdesplazamiento\ncontext.set(\"IO.Dinagrama.PosVdesmin\", PosVdesmin, \"memoryOnly\");//Seteo el maximo valor del vector Vdesplazamiento\n\nMax_Desp2 = VDesplazamiento[PosVdesmin];\n// Condicion si la posición del valor minimo es mayor que la del valor maximo\nif (PosVdesmin > PosVdesmayor){\n    for (var k = 1; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmin + k] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + k];\n            PosVdesmayor2 = PosVdesmin + k;\n\n        }\n       \n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (k = 0; k < Nmuestras; k++){\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin);// calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n        CalCarga[j] = Vcarga[PosVdesmin + j];\n    }\n\n// Condicion si la posición del valor minimo es menor que la del valor maximo\n}else if(PosVdesmin < PosVdesmayor){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    for (var m = 1; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (var j = 0; j < LongitudVector; j++) {//Crea el Stroke\n        VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n        CalCarga[j] = Vcarga[PosVdesmin + j];\n\n    }\n\n}\nglobal.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.Min_Desp2\", Min_Desp2, \"memoryOnly\");//Seteo el minimo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.Max_Desp2\", Max_Desp2, \"memoryOnly\");//Seteo el maximo valor del vector Vpos\ncontext.set(\"IO.Dinagrama.PosVdesmayor2\", PosVdesmayor2, \"memoryOnly\");//Seteo el minimo valor del vector X\ncontext.set(\"IO.Dinagrama.PosVdesmin2\", PosVdesmin2, \"memoryOnly\");//Seteo el maximo valor del vector X\nglobal.set(\"IO.Dinagrama.LongitudVector\", LongitudVector, \"memoryOnly\");\ncontext.set(\"IO.Dinagrama.CalCarga\", CalCarga, \"memoryOnly\");\nglobal.set(\"IO.Dinagrama.CalCarga\", CalCarga, \"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar VDesplazamiento = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento, \"memoryOnly\");\n",
         "finalize": "",
         "libs": [],
-        "x": 1210,
+        "x": 1270,
         "y": 680,
         "wires": [
             []
@@ -96060,11 +96036,26 @@
                 "t": "eq",
                 "v": "VectDesp",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CARGA",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Esfuerzo",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "POSICION",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 2,
+        "outputs": 5,
         "x": 410,
         "y": 360,
         "wires": [
@@ -96075,6 +96066,215 @@
             [
                 "d04b5541e966b262",
                 "e00cf5c519a58fa0"
+            ],
+            [
+                "823e3e8ce8654e34",
+                "e00cf5c519a58fa0"
+            ],
+            [
+                "11ebb449059cf416",
+                "e00cf5c519a58fa0"
+            ],
+            [
+                "24b7df3464601a4d",
+                "e00cf5c519a58fa0"
+            ]
+        ]
+    },
+    {
+        "id": "5df2f4384f632516",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "acotarVector",
+        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\");\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], CalCarga = [], VecDesCal = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\n\nMin_Desp2 = VDesplazamiento[PosVdesmayor];\nfor (let k = 0; k < Nmuestras; k++) {\n    if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n        Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n        PosVdesmin2 = PosVdesmayor + k;\n    }\n}\nfor (let m = 0; m < Nmuestras; m++) {\n    if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n        Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n        PosVdesmayor2 = PosVdesmin2 + m;\n    }\n}\nMax_Desp2 = VDesplazamiento[PosVdesmin2];\nLongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\nfor (let j = 0; j < LongitudVector ; j++) {\n    VecDesCal[j] = VDesplazamiento[PosVdesmin + j];\n    CalCarga[j] = Vcarga[PosVdesmin + j];\n    \n}\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"Vcarga\", Vcarga,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\n\ncontext.set(\"VecDesCal\", VecDesCal, \"memoryOnly\");\ncontext.set(\"CalCarga\", CalCarga, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", VecDesCal);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", CalCarga);\nglobal.set(\"Dinagrama.superficie.nMuestras\", VecDesCal.length);\n\nnode.status({fill:\"red\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 560,
+        "wires": [
+            [
+                "4456b445ce3c4dfc"
+            ]
+        ]
+    },
+    {
+        "id": "c141398db0e2c447",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1340,
+        "y": 460,
+        "wires": [
+            [
+                "5df2f4384f632516"
+            ]
+        ]
+    },
+    {
+        "id": "823e3e8ce8654e34",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "RecorrerVectorEsfuerzo",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\") || [];\nif (ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Esfuerzo\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 440,
+        "wires": [
+            [
+                "d9f835580d527810"
+            ]
+        ]
+    },
+    {
+        "id": "d9f835580d527810",
+        "type": "delay",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 930,
+        "y": 440,
+        "wires": [
+            [
+                "823e3e8ce8654e34",
+                "3edd4a184747ecab"
+            ]
+        ]
+    },
+    {
+        "id": "11ebb449059cf416",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "RecorrerVectorEsf1Stroke",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\n// var vector = global.get(\"Dinagrama.superficie.Esfu_CD\") || [];\nvar vector = global.get(\"IO.Dinagrama.CalCarga\",\"memoryOnly\") || [];\nif (ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"Esfuerzo 1 Stroke\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "4792e6244dccfe0e"
+            ]
+        ]
+    },
+    {
+        "id": "4792e6244dccfe0e",
+        "type": "delay",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 930,
+        "y": 500,
+        "wires": [
+            [
+                "11ebb449059cf416",
+                "3edd4a184747ecab"
+            ]
+        ]
+    },
+    {
+        "id": "24b7df3464601a4d",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "Posición Actual SRP",
+        "func": "var posicion = global.get(\"IO.Dinagrama.pos\",\"memoryOnly\") ||0;\n\nmsg.payload = posicion;\nmsg.topic = \"Posición Actual SRP\"\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 580,
+        "wires": [
+            [
+                "d414930ea773eb11"
+            ]
+        ]
+    },
+    {
+        "id": "d414930ea773eb11",
+        "type": "delay",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 930,
+        "y": 580,
+        "wires": [
+            [
+                "24b7df3464601a4d",
+                "3edd4a184747ecab"
+            ]
+        ]
+    },
+    {
+        "id": "74cbe059552d3f3c",
+        "type": "switch",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "VSDaCTIVO",
+        "property": "#:(memoryOnly)::C2S.Drive_Status.Active",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 560,
+        "wires": [
+            [
+                "544970607ac8c8c5"
             ]
         ]
     }
