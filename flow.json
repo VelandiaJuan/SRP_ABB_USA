@@ -87399,14 +87399,14 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "gte",
+                "t": "btwn",
                 "v": "0",
-                "vt": "num"
+                "vt": "num",
+                "v2": "24",
+                "v2t": "num"
             },
             {
-                "t": "lt",
-                "v": "0",
-                "vt": "num"
+                "t": "else"
             }
         ],
         "checkall": "true",
