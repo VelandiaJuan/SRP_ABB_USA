@@ -2603,7 +2603,9 @@
             "8334521d10eb254f",
             "9eec4a70b5a5bd02",
             "74b1a8fa69bfad05",
-            "d48b92c60d3b551f"
+            "d48b92c60d3b551f",
+            "9a4ca175e18c6229",
+            "52d49743408ce8f6"
         ],
         "x": 154,
         "y": 1159,
@@ -3223,7 +3225,10 @@
             "ca63f15426235284",
             "5ae721893103eb4d",
             "c53356c46b73bae6",
-            "4da0fada4df5ccca"
+            "4da0fada4df5ccca",
+            "4873281457dafae0",
+            "29ce528e3ea395bf",
+            "6f62a8d9257340a3"
         ],
         "x": 14,
         "y": 719,
@@ -3261,7 +3266,9 @@
             "9611175fef4a9a80",
             "2a321b27747c8403",
             "479209d34f5e22c2",
-            "3c6e143f09ddb57d"
+            "3c6e143f09ddb57d",
+            "2cbeaf5c66185b55",
+            "ee91a063b1e0a258"
         ],
         "x": 1354,
         "y": 119,
@@ -3458,9 +3465,7 @@
             "665ee3571d4304f3"
         ],
         "x": 114,
-        "y": 1119,
-        "w": 1002,
-        "h": 282
+        "y": 1119
     },
     {
         "id": "60dd1be9811f2cdb",
@@ -3489,9 +3494,7 @@
             "7858fff2ef58a324"
         ],
         "x": 108,
-        "y": 699,
-        "w": 954,
-        "h": 395.5
+        "y": 699
     },
     {
         "id": "8ae034dd7eca71b4",
@@ -3516,9 +3519,7 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1134,
-        "y": 699,
-        "w": 692,
-        "h": 282
+        "y": 699
     },
     {
         "id": "e8ed88c2e7ce6e23",
@@ -3559,9 +3560,7 @@
             "ceaf62643a5502e3"
         ],
         "x": 134,
-        "y": 179,
-        "w": 1272,
-        "h": 488
+        "y": 179
     },
     {
         "id": "394e81d071ef9585",
@@ -3591,9 +3590,7 @@
             "eba80fb27cef6dc6"
         ],
         "x": 1134,
-        "y": 999,
-        "w": 1022,
-        "h": 262
+        "y": 999
     },
     {
         "id": "4ce2f54dcf99b9de",
@@ -5747,9 +5744,7 @@
             "7cc99012610fb90f"
         ],
         "x": 134,
-        "y": 899,
-        "w": 902,
-        "h": 169.5
+        "y": 899
     },
     {
         "id": "1cb507b15d91d4f1",
@@ -5767,9 +5762,7 @@
             "10e15c505dfc082a"
         ],
         "x": 814,
-        "y": 519,
-        "w": 294,
-        "h": 122
+        "y": 519
     },
     {
         "id": "19f535ea5a685c61",
@@ -20280,15 +20273,14 @@
         "x": 1130,
         "y": 680,
         "wires": [
-            [
-                "286caac82d55f445"
-            ]
+            []
         ]
     },
     {
         "id": "dcb152a9b47c11dd",
         "type": "smooth",
         "z": "902fc438.e5d758",
+        "g": "4ce2f54dcf99b9de",
         "name": "pasaBajas",
         "property": "payload",
         "action": "low",
@@ -20299,15 +20291,14 @@
         "x": 1370,
         "y": 480,
         "wires": [
-            [
-                "617d3424713f8c8e"
-            ]
+            []
         ]
     },
     {
         "id": "7d4a16efa46ac752",
         "type": "smooth",
         "z": "902fc438.e5d758",
+        "g": "4ce2f54dcf99b9de",
         "name": "pasaBajas",
         "property": "payload",
         "action": "low",
@@ -20318,9 +20309,7 @@
         "x": 1370,
         "y": 540,
         "wires": [
-            [
-                "b8037b4123ea577e"
-            ]
+            []
         ]
     },
     {
@@ -20859,8 +20848,7 @@
         "y": 680,
         "wires": [
             [
-                "a172ae71ab4db9c7",
-                "1fa1238e7dd20e81"
+                "a172ae71ab4db9c7"
             ]
         ]
     },
@@ -73594,7 +73582,12 @@
             "da2210d366068b5d",
             "9363e9ea83fdda94",
             "9db8136df4a6ec31",
-            "24332fdbcbeb5e8d"
+            "24332fdbcbeb5e8d",
+            "52d49743408ce8f6",
+            "ee91a063b1e0a258",
+            "e24d64d631f84a82",
+            "29ce528e3ea395bf",
+            "0cf54e5d50b49223"
         ],
         "x": 335,
         "y": 310,
@@ -84352,8 +84345,7 @@
         "y": 480,
         "wires": [
             [
-                "544970607ac8c8c5",
-                "dcb152a9b47c11dd"
+                "544970607ac8c8c5"
             ]
         ]
     },
@@ -85077,8 +85069,7 @@
         "y": 540,
         "wires": [
             [
-                "5087afcd5a4ffc18",
-                "7d4a16efa46ac752"
+                "5087afcd5a4ffc18"
             ]
         ]
     },
@@ -88428,6 +88419,7 @@
         "g": "908c9775529ae148",
         "name": "HabilitarSurfaceControl",
         "links": [
+            "ad87cee4.7dbb5",
             "cc5d96db53490462"
         ],
         "x": 55,
@@ -89330,6 +89322,63 @@
         ]
     },
     {
+        "id": "29ce528e3ea395bf",
+        "type": "link in",
+        "z": "f62fcef222e9a4a3",
+        "g": "908c9775529ae148",
+        "name": "deshabilitarBotonSurface",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 95,
+        "y": 980,
+        "wires": [
+            [
+                "4873281457dafae0"
+            ]
+        ]
+    },
+    {
+        "id": "4873281457dafae0",
+        "type": "function",
+        "z": "f62fcef222e9a4a3",
+        "g": "908c9775529ae148",
+        "name": "habilitadoNodeRedInit",
+        "func": "// bloque que solo se ejecuta al iniciar node red \n// para no tener dos controles activos\nvar SurfaceControl = global.get(\"Control_functions.SurfaceControl.habilitadoCS\")||false;\nvar Controlon_off = global.get(\"Control_functions.Controlon_off.habilitado\")||false;\nvar ControlDownhole = global.get(\"Control_functions.ControlDownhole.habilitado\")||false;\nif (ControlDownhole == true || Controlon_off == true){\n    msg.enabled = false;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 980,
+        "wires": [
+            [
+                "08b117e7704ef256"
+            ]
+        ]
+    },
+    {
+        "id": "6f62a8d9257340a3",
+        "type": "inject",
+        "z": "f62fcef222e9a4a3",
+        "g": "908c9775529ae148",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 410,
+        "y": 1020,
+        "wires": [
+            [
+                "08b117e7704ef256"
+            ]
+        ]
+    },
+    {
         "id": "5e79f9dabb070f10",
         "type": "change",
         "z": "a245c1e1476b1e2d",
@@ -89364,6 +89413,7 @@
         "g": "31895b3f7962d5a7",
         "name": "swichDownholeControl",
         "links": [
+            "5bdb7d2f275d5760",
             "ad87cee4.7dbb5"
         ],
         "x": 1395,
@@ -89640,9 +89690,10 @@
         "z": "a245c1e1476b1e2d",
         "g": "31895b3f7962d5a7",
         "name": "mensajeConfirmacionhabilitarDownhole",
+        "mode": "link",
         "links": [
-            "5b375649cb77ee66",
-            "39cb4db31856a1a8"
+            "39cb4db31856a1a8",
+            "9db8136df4a6ec31"
         ],
         "x": 2355,
         "y": 280,
@@ -91993,6 +92044,43 @@
         ]
     },
     {
+        "id": "2cbeaf5c66185b55",
+        "type": "function",
+        "z": "a245c1e1476b1e2d",
+        "g": "31895b3f7962d5a7",
+        "name": "habilitadoNodeRedInit",
+        "func": "// bloque que solo se ejecuta al iniciar node red \n// para no tener dos controles activos\nvar SurfaceControl = global.get(\"Control_functions.SurfaceControl.habilitadoCS\")||false;\nvar Controlon_off = global.get(\"Control_functions.Controlon_off.habilitado\")||false;\nvar ControlDownhole = global.get(\"Control_functions.ControlDownhole.habilitado\")||false;\nif (SurfaceControl == true || Controlon_off == true){\n    msg.enabled = false;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 220,
+        "wires": [
+            [
+                "ae64da6103f59af3"
+            ]
+        ]
+    },
+    {
+        "id": "ee91a063b1e0a258",
+        "type": "link in",
+        "z": "a245c1e1476b1e2d",
+        "g": "31895b3f7962d5a7",
+        "name": "deshabilitarBotonDownhole",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 1415,
+        "y": 220,
+        "wires": [
+            [
+                "2cbeaf5c66185b55"
+            ]
+        ]
+    },
+    {
         "id": "923d63f441f43f13",
         "type": "function",
         "z": "1890b8e955d8f8fa",
@@ -93814,6 +93902,43 @@
         "wires": [
             [
                 "abf83d7b7058ada8"
+            ]
+        ]
+    },
+    {
+        "id": "9a4ca175e18c6229",
+        "type": "function",
+        "z": "1890b8e955d8f8fa",
+        "g": "3caf0dee72fc2047",
+        "name": "habilitadoNodeRedInit",
+        "func": "// bloque que solo se ejecuta al iniciar node red \n// para no tener dos controles activos\nvar SurfaceControl = global.get(\"Control_functions.SurfaceControl.habilitadoCS\")||false;\nvar Controlon_off = global.get(\"Control_functions.Controlon_off.habilitado\")||false;\nvar ControlDownhole = global.get(\"Control_functions.ControlDownhole.habilitado\")||false;\nif (SurfaceControl == true || ControlDownhole == true){\n    msg.enabled = false;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1420,
+        "wires": [
+            [
+                "9bf20a3cfce9fae1"
+            ]
+        ]
+    },
+    {
+        "id": "52d49743408ce8f6",
+        "type": "link in",
+        "z": "1890b8e955d8f8fa",
+        "g": "3caf0dee72fc2047",
+        "name": "deshabilitarBotondePoc",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 245,
+        "y": 1420,
+        "wires": [
+            [
+                "9a4ca175e18c6229"
             ]
         ]
     },
