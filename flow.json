@@ -3160,12 +3160,17 @@
             "c23186c0a7bb6b64",
             "827fef3800932f96",
             "e7b23403427d7305",
-            "cb07d3de9b20a441"
+            "cb07d3de9b20a441",
+            "3df71d5451575290",
+            "04c7ecd41f3b9605",
+            "33877d511d54d957",
+            "6d26f4837d1ddab1",
+            "1ead21b91a6685a5"
         ],
-        "x": 1714,
-        "y": 19,
-        "w": 1632,
-        "h": 522
+        "x": 1754,
+        "y": 59,
+        "w": 1652,
+        "h": 562
     },
     {
         "id": "908c9775529ae148",
@@ -73587,7 +73592,8 @@
             "ee91a063b1e0a258",
             "e24d64d631f84a82",
             "29ce528e3ea395bf",
-            "0cf54e5d50b49223"
+            "0cf54e5d50b49223",
+            "1ead21b91a6685a5"
         ],
         "x": 335,
         "y": 310,
@@ -86328,8 +86334,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2180,
-        "y": 260,
+        "x": 2240,
+        "y": 340,
         "wires": [
             [
                 "c84e6dca637c1afa"
@@ -86369,8 +86375,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2170,
-        "y": 180,
+        "x": 2230,
+        "y": 260,
         "wires": [
             [
                 "74706b75de752cb7"
@@ -86393,8 +86399,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2170,
-        "y": 100,
+        "x": 2230,
+        "y": 180,
         "wires": [
             [
                 "04977a95622e3287"
@@ -86492,17 +86498,18 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "Set Parametros de Tiempo",
-        "func": "var Tiempo_susp = global.get(\"Control_functions.SurfaceControl.time_susp\") || 0;\nvar Num_Intentos = flow.get(\"Control_functions.SurfaceControl.Intentos\") || 0;\nvar Porcentaje_X = flow.get(\"Control_functions.SurfaceControl.Porcent_X\") || 0;\nvar Porcentaje_Y = flow.get(\"Control_functions.SurfaceControl.Porcent_Y\") || 0;\nif(msg.payload == true){\n    //conversión ton\n    var InputSeconds = Tiempo_susp;\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (min * 60));\n    context.set(\"Days\", (Days));\n    context.set(\"InputSeconds\", InputSeconds);\n    context.set(\"Hours\", Hours);\n    context.set(\"SegRest\", SegRest);\n    context.set(\"min\", min);\n    context.set(\"seconds\", seconds);\n    Days = { payload: Days };\n    Hours = { payload: Hours };\n    min = { payload: min };\n    seconds = { payload: seconds };\n    \n    //conversión Hz a SPM\n    context.set(\"Porcent_X\", Porcentaje_X, \"memoryOnly\")\n    context.set(\"Porcent_Y\", Porcentaje_Y, \"memoryOnly\")\n    context.set(\"Num_Intentos\", Num_Intentos, \"memoryOnly\")\n\n    return [Hours, min, seconds, Porcentaje_X, Porcentaje_Y, Num_Intentos];\n}\n",
+        "func": "var Tiempo_susp = global.get(\"Control_functions.SurfaceControl.time_susp\") || 0;\nvar Num_Intentos = flow.get(\"Control_functions.SurfaceControl.Intentos\") || 0;\nvar Porcentaje_X = flow.get(\"Control_functions.SurfaceControl.Porcent_X\") || 0;\nvar Porcentaje_Y = flow.get(\"Control_functions.SurfaceControl.Porcent_Y\") || 0;\nif(msg.payload == true){\n    //conversión ton\n    var InputSeconds = Tiempo_susp;\n    var Days = parseInt(InputSeconds / 86400);\n    var Hours = parseInt((InputSeconds - (Days) * 86400) / 3600);\n    var SegRest = parseInt(InputSeconds - (Hours * 3600) - (Days * 86400));\n    var min = parseInt(SegRest / 60);\n    var seconds = parseInt(SegRest - (min * 60));\n\n\n    Porcentaje_X = { payload: Porcentaje_X };\n    Porcentaje_Y = { payload: Porcentaje_Y };\n    Hours = { payload: Hours };\n    min = { payload: min };\n    seconds = { payload: seconds };\n    Num_Intentos = { payload: Num_Intentos };\n\n\n    \n    context.set(\"Days\", (Days));\n    context.set(\"InputSeconds\", InputSeconds);\n    context.set(\"Hours\", Hours);\n    context.set(\"SegRest\", SegRest);\n    context.set(\"min\", min);\n    context.set(\"seconds\", seconds);\n    //conversión Hz a SPM\n    context.set(\"Porcent_X\", Porcentaje_X, \"memoryOnly\")\n    context.set(\"Porcent_Y\", Porcentaje_Y, \"memoryOnly\")\n    context.set(\"Num_Intentos\", Num_Intentos, \"memoryOnly\")\n\n    return [Porcentaje_X, Porcentaje_Y, Hours, min, seconds, Num_Intentos];\n}\n",
         "outputs": 6,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1920,
-        "y": 180,
+        "x": 1980,
+        "y": 260,
         "wires": [
             [
-                "364b9713f0e05da3"
+                "364b9713f0e05da3",
+                "33877d511d54d957"
             ],
             [
                 "826efe878eba535e"
@@ -86517,7 +86524,8 @@
                 "7304914b1668b4e1"
             ],
             [
-                "9310ccc81ca0c876"
+                "9310ccc81ca0c876",
+                "3df71d5451575290"
             ]
         ]
     },
@@ -86541,8 +86549,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2720,
-        "y": 60,
+        "x": 2780,
+        "y": 140,
         "wires": [
             []
         ]
@@ -86567,8 +86575,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2720,
-        "y": 140,
+        "x": 2780,
+        "y": 220,
         "wires": [
             []
         ]
@@ -86593,8 +86601,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2720,
-        "y": 220,
+        "x": 2780,
+        "y": 300,
         "wires": [
             []
         ]
@@ -86615,8 +86623,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2190,
-        "y": 340,
+        "x": 2250,
+        "y": 420,
         "wires": [
             [
                 "a1992dbba0535a6e"
@@ -86639,8 +86647,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2190,
-        "y": 420,
+        "x": 2250,
+        "y": 500,
         "wires": [
             [
                 "a9f5453194857007"
@@ -86664,8 +86672,8 @@
         "delay": 300,
         "topic": "topic",
         "topicType": "str",
-        "x": 2170,
-        "y": 500,
+        "x": 2230,
+        "y": 580,
         "wires": [
             [
                 "0febf9d0ccc17c6c"
@@ -86692,8 +86700,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2730,
-        "y": 300,
+        "x": 2790,
+        "y": 380,
         "wires": [
             []
         ]
@@ -86718,8 +86726,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2730,
-        "y": 380,
+        "x": 2790,
+        "y": 460,
         "wires": [
             []
         ]
@@ -86744,8 +86752,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2710,
-        "y": 460,
+        "x": 2770,
+        "y": 540,
         "wires": [
             []
         ]
@@ -86759,8 +86767,8 @@
         "links": [
             "3ac96b9dcbd3e591"
         ],
-        "x": 1755,
-        "y": 180,
+        "x": 1815,
+        "y": 260,
         "wires": [
             [
                 "67f7430cba8836b8"
@@ -87310,8 +87318,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 2410,
-        "y": 80,
+        "x": 2470,
+        "y": 160,
         "wires": [
             [
                 "06a71956a306774e"
@@ -87362,8 +87370,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 2410,
-        "y": 160,
+        "x": 2470,
+        "y": 240,
         "wires": [
             [
                 "0b7ac35865f42596"
@@ -87404,8 +87412,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2410,
-        "y": 240,
+        "x": 2470,
+        "y": 320,
         "wires": [
             [
                 "6f5d198f6d1d4684"
@@ -87438,8 +87446,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2410,
-        "y": 300,
+        "x": 2470,
+        "y": 380,
         "wires": [
             [
                 "1a8abb8b39b9d96b"
@@ -87472,8 +87480,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2410,
-        "y": 360,
+        "x": 2470,
+        "y": 440,
         "wires": [
             [
                 "0d6ac9893b0b360f"
@@ -87506,8 +87514,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2410,
-        "y": 420,
+        "x": 2470,
+        "y": 500,
         "wires": [
             [
                 "3dd576e6916d5506"
@@ -87537,8 +87545,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2610,
-        "y": 100,
+        "x": 2670,
+        "y": 180,
         "wires": [
             [
                 "1867e4401055f98c"
@@ -87554,8 +87562,8 @@
         "links": [
             "285306f9c17d9e5f"
         ],
-        "x": 2735,
-        "y": 100,
+        "x": 2795,
+        "y": 180,
         "wires": []
     },
     {
@@ -87567,8 +87575,8 @@
         "links": [
             "1867e4401055f98c"
         ],
-        "x": 2015,
-        "y": 100,
+        "x": 2075,
+        "y": 180,
         "wires": [
             [
                 "364b9713f0e05da3"
@@ -87595,8 +87603,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2610,
-        "y": 180,
+        "x": 2670,
+        "y": 260,
         "wires": [
             [
                 "e9a3a95a918189cb"
@@ -87612,8 +87620,8 @@
         "links": [
             "a980c2709243b523"
         ],
-        "x": 2735,
-        "y": 180,
+        "x": 2795,
+        "y": 260,
         "wires": []
     },
     {
@@ -87625,8 +87633,8 @@
         "links": [
             "e9a3a95a918189cb"
         ],
-        "x": 2115,
-        "y": 140,
+        "x": 2175,
+        "y": 220,
         "wires": [
             [
                 "826efe878eba535e"
@@ -87653,8 +87661,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2610,
-        "y": 260,
+        "x": 2670,
+        "y": 340,
         "wires": [
             [
                 "eb29fb03707a839c"
@@ -87670,8 +87678,8 @@
         "links": [
             "acb8c4bf8498c9a2"
         ],
-        "x": 2735,
-        "y": 260,
+        "x": 2795,
+        "y": 340,
         "wires": []
     },
     {
@@ -87683,8 +87691,8 @@
         "links": [
             "eb29fb03707a839c"
         ],
-        "x": 2115,
-        "y": 220,
+        "x": 2175,
+        "y": 300,
         "wires": [
             [
                 "defd3e342b141f52"
@@ -87700,8 +87708,8 @@
         "links": [
             "d307cb630440159e"
         ],
-        "x": 2735,
-        "y": 340,
+        "x": 2795,
+        "y": 420,
         "wires": []
     },
     {
@@ -87713,8 +87721,8 @@
         "links": [
             "5a0c1540fd0e86ea"
         ],
-        "x": 2115,
-        "y": 300,
+        "x": 2175,
+        "y": 380,
         "wires": [
             [
                 "429e4960aea7d3ef"
@@ -87741,8 +87749,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2610,
-        "y": 340,
+        "x": 2670,
+        "y": 420,
         "wires": [
             [
                 "5a0c1540fd0e86ea"
@@ -87769,8 +87777,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2620,
-        "y": 420,
+        "x": 2680,
+        "y": 500,
         "wires": [
             [
                 "77a91c6b5adbc26f"
@@ -87786,8 +87794,8 @@
         "links": [
             "a260d2b103838254"
         ],
-        "x": 2775,
-        "y": 420,
+        "x": 2835,
+        "y": 500,
         "wires": []
     },
     {
@@ -87799,8 +87807,8 @@
         "links": [
             "77a91c6b5adbc26f"
         ],
-        "x": 2115,
-        "y": 380,
+        "x": 2175,
+        "y": 460,
         "wires": [
             [
                 "7304914b1668b4e1"
@@ -87816,8 +87824,8 @@
         "links": [
             "c23186c0a7bb6b64"
         ],
-        "x": 2115,
-        "y": 460,
+        "x": 2175,
+        "y": 540,
         "wires": [
             [
                 "9310ccc81ca0c876"
@@ -87844,8 +87852,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2610,
-        "y": 500,
+        "x": 2670,
+        "y": 580,
         "wires": [
             [
                 "c23186c0a7bb6b64"
@@ -87861,8 +87869,8 @@
         "links": [
             "5caee60e0b9b901b"
         ],
-        "x": 2735,
-        "y": 500,
+        "x": 2795,
+        "y": 580,
         "wires": []
     },
     {
@@ -89274,8 +89282,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 3070,
-        "y": 300,
+        "x": 3130,
+        "y": 380,
         "wires": [
             [
                 "e7b23403427d7305"
@@ -89297,8 +89305,8 @@
         "raw": false,
         "topic": "Información del Control de Superficie",
         "name": "",
-        "x": 3240,
-        "y": 300,
+        "x": 3300,
+        "y": 380,
         "wires": []
     },
     {
@@ -89313,8 +89321,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3030,
-        "y": 260,
+        "x": 3090,
+        "y": 340,
         "wires": [
             [
                 "827fef3800932f96"
@@ -89375,6 +89383,113 @@
         "wires": [
             [
                 "08b117e7704ef256"
+            ]
+        ]
+    },
+    {
+        "id": "3df71d5451575290",
+        "type": "debug",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2040,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "04c7ecd41f3b9605",
+        "type": "inject",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 1910,
+        "y": 100,
+        "wires": [
+            [
+                "6d26f4837d1ddab1"
+            ]
+        ]
+    },
+    {
+        "id": "33877d511d54d957",
+        "type": "debug",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2230,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6d26f4837d1ddab1",
+        "type": "change",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1930,
+        "y": 140,
+        "wires": [
+            [
+                "67f7430cba8836b8"
+            ]
+        ]
+    },
+    {
+        "id": "1ead21b91a6685a5",
+        "type": "link in",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "parametrosDeTiempoSurfaceControl",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 1795,
+        "y": 120,
+        "wires": [
+            [
+                "6d26f4837d1ddab1"
             ]
         ]
     },
