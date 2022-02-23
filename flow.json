@@ -3294,7 +3294,9 @@
             "ee91a063b1e0a258"
         ],
         "x": 1354,
-        "y": 119
+        "y": 119,
+        "w": 1272,
+        "h": 282
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3336,7 +3338,9 @@
             "d381f5089d6b205d"
         ],
         "x": 114,
-        "y": 219
+        "y": 219,
+        "w": 1182,
+        "h": 382
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3375,7 +3379,9 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659
+        "y": 659,
+        "w": 792,
+        "h": 462
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3396,7 +3402,9 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 899
+        "y": 899,
+        "w": 912,
+        "h": 122
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3428,7 +3436,9 @@
             "bd55c3ff86ac359d"
         ],
         "x": 1354,
-        "y": 579
+        "y": 579,
+        "w": 1042,
+        "h": 302
     },
     {
         "id": "357c29994d5a0df9",
@@ -3444,7 +3454,9 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479
+        "y": 479,
+        "w": 532,
+        "h": 82
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -89018,13 +89030,15 @@
         "label": "Horas",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 11,
-        "width": 6,
+        "order": 9,
+        "width": "5",
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
         "x": 410,
         "y": 700,
@@ -89068,13 +89082,15 @@
         "label": "Segundos",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
-        "order": 9,
-        "width": 5,
+        "order": 11,
+        "width": "6",
         "height": 1,
         "passthru": true,
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
         "x": 420,
         "y": 780,
