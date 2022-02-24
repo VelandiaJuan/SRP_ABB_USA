@@ -2783,7 +2783,9 @@
             "9cb566be14be4060"
         ],
         "x": 624,
-        "y": 1119
+        "y": 1119,
+        "w": 432,
+        "h": 132
     },
     {
         "id": "fa68cb522043bed1",
@@ -2807,7 +2809,9 @@
             "d95d0ae25825177b"
         ],
         "x": 2464,
-        "y": 769
+        "y": 769,
+        "w": 882,
+        "h": 232
     },
     {
         "id": "4480d2547a3f02e0",
@@ -2823,7 +2827,9 @@
             "57ccf1af5a106c28"
         ],
         "x": 1264,
-        "y": 1119
+        "y": 1119,
+        "w": 262,
+        "h": 132
     },
     {
         "id": "9d54c7684f04a523",
@@ -2852,7 +2858,9 @@
             "f1061637b25eb532"
         ],
         "x": 54,
-        "y": 1399
+        "y": 1399,
+        "w": 1432,
+        "h": 242
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -2868,7 +2876,9 @@
             "c01c2da340bbf3a1"
         ],
         "x": 2758,
-        "y": 33
+        "y": 33,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2886,7 +2896,9 @@
             "c6f8d8e686067132"
         ],
         "x": 74,
-        "y": 1119
+        "y": 1119,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "b8e082fda165bb76",
@@ -2903,7 +2915,9 @@
             "6f459d776c596048"
         ],
         "x": 54,
-        "y": 1659
+        "y": 1659,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "0505ed1dd4a2eb61",
@@ -2929,7 +2943,9 @@
             "e46870dbfe3102c7"
         ],
         "x": 54,
-        "y": 1259
+        "y": 1259,
+        "w": 1032,
+        "h": 132
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2951,7 +2967,9 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33
+        "y": 33,
+        "w": 2594,
+        "h": 1024
     },
     {
         "id": "1321aadfd66f841c",
@@ -2973,7 +2991,9 @@
             "9bfa4bee958f0cb2"
         ],
         "x": 1104,
-        "y": 1259
+        "y": 1259,
+        "w": 832,
+        "h": 82
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -5487,7 +5507,9 @@
             "a9919b9b93871d23"
         ],
         "x": 2784,
-        "y": 59
+        "y": 59,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5508,7 +5530,9 @@
             "fb25abef8d3f01a8"
         ],
         "x": 2784,
-        "y": 599
+        "y": 599,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5533,7 +5557,9 @@
             "7d7c0c54c65460cd"
         ],
         "x": 124,
-        "y": 359
+        "y": 359,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "0f959940f19ae52d",
@@ -5571,7 +5597,9 @@
             "7c434a7ec1d35114"
         ],
         "x": 94,
-        "y": 779
+        "y": 779,
+        "w": 1722,
+        "h": 252
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5604,7 +5632,6 @@
             "58e706c52bf4d4cc",
             "0c59c878020336e4",
             "9c71b3f6d9ac87e0",
-            "e387e1b51948ce7e",
             "0c06bab8cb138a38",
             "4440d9d968ef2a35",
             "cab3a90f117453c3",
@@ -5619,10 +5646,16 @@
             "0137cab3f84fa341",
             "26848c173c7186f5",
             "202163d431f05a74",
-            "bc38f421f53d1efc"
+            "bc38f421f53d1efc",
+            "545a18d3d5d677f5",
+            "9071dbb31c1d6f49",
+            "a1d594e75802357a",
+            "606d0489897a1a8a"
         ],
         "x": 1104,
-        "y": 359
+        "y": 359,
+        "w": 1532,
+        "h": 382
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5674,7 +5707,9 @@
             "8bb207e50e4933aa"
         ],
         "x": 94,
-        "y": 59
+        "y": 59,
+        "w": 2092,
+        "h": 282
     },
     {
         "id": "8a07c803a203d64c",
@@ -75967,7 +76002,7 @@
         "y": 440,
         "wires": [
             [
-                "e387e1b51948ce7e"
+                "91ecd639f2af49b4"
             ]
         ]
     },
@@ -76236,8 +76271,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1920,
-        "y": 500,
+        "x": 2040,
+        "y": 440,
         "wires": [
             [
                 "091ce0bce93dbd3f"
@@ -76272,7 +76307,8 @@
                 "08dd05d653cd166c"
             ],
             [
-                "e6e41e50e0191057"
+                "e6e41e50e0191057",
+                "606d0489897a1a8a"
             ]
         ]
     },
@@ -77544,32 +77580,6 @@
         "wires": []
     },
     {
-        "id": "e387e1b51948ce7e",
-        "type": "switch",
-        "z": "e497646c3625f223",
-        "g": "d0c2e26c6d297150",
-        "name": "refMinSPM",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gte",
-                "v": "C2S.Speed_Control.MinLimitSPM",
-                "vt": "global"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 2050,
-        "y": 440,
-        "wires": [
-            [
-                "91ecd639f2af49b4"
-            ]
-        ]
-    },
-    {
         "id": "c4420142ea641476",
         "type": "modbus-flex-connector",
         "z": "e497646c3625f223",
@@ -77787,10 +77797,10 @@
         "y": 580,
         "wires": [
             [
-                "3a89422c2818ef9a"
+                "545a18d3d5d677f5"
             ],
             [
-                "3a89422c2818ef9a"
+                "9071dbb31c1d6f49"
             ],
             [
                 "6c687184f2a49b42",
@@ -77805,14 +77815,14 @@
         "z": "e497646c3625f223",
         "g": "d0c2e26c6d297150",
         "name": "evento ref fuera lims",
-        "func": "msg.payload = \"¡Referencia Remota de \"+ msg.payload + \" SPM fuera de límites\";\nmsg.topic = \"Referencia\";\nreturn msg;",
+        "func": "msg.payload = \"¡Referencia Remota de \"+ msg.payload + \" SPM por arriba del ranngo\";\nmsg.topic = \"Referencia\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2340,
-        "y": 560,
+        "x": 2460,
+        "y": 540,
         "wires": [
             [
                 "3b95eab7ba4a5c8b"
@@ -77830,8 +77840,8 @@
             "cbbbcd1c.7180e",
             "204c251e.8264ca"
         ],
-        "x": 2475,
-        "y": 560,
+        "x": 2595,
+        "y": 540,
         "wires": []
     },
     {
@@ -96624,5 +96634,85 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "545a18d3d5d677f5",
+        "type": "rbe",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2290,
+        "y": 540,
+        "wires": [
+            [
+                "3a89422c2818ef9a"
+            ]
+        ]
+    },
+    {
+        "id": "9071dbb31c1d6f49",
+        "type": "rbe",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 2290,
+        "y": 580,
+        "wires": [
+            [
+                "a1d594e75802357a"
+            ]
+        ]
+    },
+    {
+        "id": "a1d594e75802357a",
+        "type": "function",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "evento ref fuera lims",
+        "func": "msg.payload = \"¡Referencia Remota de \"+ msg.payload + \" SPM por debajo del rango\";\nmsg.topic = \"Referencia\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2460,
+        "y": 580,
+        "wires": [
+            [
+                "3b95eab7ba4a5c8b"
+            ]
+        ]
+    },
+    {
+        "id": "606d0489897a1a8a",
+        "type": "debug",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2090,
+        "y": 640,
+        "wires": []
     }
 ]
