@@ -2460,7 +2460,9 @@
             "bb90cadbb46a78f9"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1852,
+        "h": 928
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2480,7 +2482,9 @@
             "5791ad35584a5a82"
         ],
         "x": 1434,
-        "y": 79
+        "y": 79,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2497,7 +2501,9 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79
+        "y": 79,
+        "w": 342,
+        "h": 142
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2526,10 +2532,14 @@
             "6e6cb98013f380e8",
             "d3280befce20327a",
             "886c668bbf81db17",
-            "43af3f26d5e4cf7d"
+            "43af3f26d5e4cf7d",
+            "6e32e69b3c36cf45",
+            "b09d5afb08cbcc2d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 652,
+        "h": 502
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3444,10 +3454,13 @@
             "ef3ea1de4709a7bd",
             "6fa9d4b008568d0e",
             "d4735a65d90deedb",
-            "5c4af827690ff74e"
+            "5c4af827690ff74e",
+            "081660d5aeabb4af"
         ],
         "x": 34,
-        "y": 399
+        "y": 399,
+        "w": 1922,
+        "h": 522
     },
     {
         "id": "936eab7d97be78af",
@@ -3586,7 +3599,9 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 704,
-        "y": 999
+        "y": 999,
+        "w": 772,
+        "h": 628
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3634,7 +3649,9 @@
             "d25b890196364508"
         ],
         "x": 54,
-        "y": 259
+        "y": 259,
+        "w": 772,
+        "h": 122
     },
     {
         "id": "b2324996e67a8488",
@@ -3650,7 +3667,9 @@
             "3d93e8372df6353e"
         ],
         "x": 134,
-        "y": 759
+        "y": 759,
+        "w": 652,
+        "h": 122
     },
     {
         "id": "d929d138.3b512",
@@ -5596,7 +5615,9 @@
             "a7f06bee1386d06e"
         ],
         "x": 494,
-        "y": 539
+        "y": 539,
+        "w": 1022,
+        "h": 382
     },
     {
         "id": "504a9190c56704f4",
@@ -5613,7 +5634,9 @@
             "f61ae4174f8cd899"
         ],
         "x": 734,
-        "y": 1519
+        "y": 1519,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -81211,7 +81234,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "a063560e4a0a3bf1",
         "name": "AcotarVector",
-        "func": "// variables del dinagrama de fondo\nvar Desp_CD_F1 = flow.get(\"Desp_CD_F1\")||0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\")||0;\n// variables acotadas del dinagrama de fondo\nvar Desp_CD=[],Esfu_CD=[];\nvar finalPoint = 0 ; //Define el valor donde acaba los dinagramas\n// tamaños de los vectores\nvar sizex = Desp_CD_F1.length\nvar sizey = Esfu_CD_F1.length\nif ((Desp_CD_F1 != 0) && (Esfu_CD_F1 != 0) && (sizex == sizey)){\n    // existe el vector de desplazamiento y esfuerzo\n    node.status({fill:\"green\",shape:\"dot\",text:\"Calculo\"});\n    // identificar donde se acaba el vector \n    for (let i = 0; i < sizex; i++) {\n        // si los siguientes pasos del vector son cero\n        if (Desp_CD_F1[i] == 0 && Desp_CD_F1[i + 1] == 0 && Desp_CD_F1[i+2] == 0 ){\n            finalPoint = i;\n            break;//Termina el Ciclo For\n        }\n        \n    }\n    for (let i = 0; i < finalPoint; i++) {\n        Desp_CD[i] = Desp_CD_F1[i];\n        Esfu_CD[i] = Esfu_CD_F1[i];\n    }\n    Desp_CD.push(Desp_CD[0]);\n    Esfu_CD.push(Esfu_CD[0]);\n    // cerrar el dinagrama de fondo\n    // guardar las variables globales\n    global.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD);\n    global.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD);\n    flow.set(\"Desp_CD_F1\", Desp_CD);\n    flow.set(\"Esfu_CD_F1\", Esfu_CD);\n}else{\n    // no existen los vectores de desplazamiento y espuerzo\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoCalculo\"});\n}\n\n// visualizacion de variables\ncontext.set(\"sizex\", sizex,\"memoryOnly\");\ncontext.set(\"sizey\", sizey,\"memoryOnly\");\ncontext.set(\"finalPoint\", finalPoint,\"memoryOnly\");\ncontext.set(\"Desp\", Desp_CD,\"memoryOnly\");\ncontext.set(\"Esfu\", Esfu_CD,\"memoryOnly\");\ncontext.set(\"Desp_CD_F1\", Desp_CD_F1,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F1\", Esfu_CD_F1,\"memoryOnly\");\nreturn msg;",
+        "func": "// variables del dinagrama de fondo\nvar Desp_CD_F1 = flow.get(\"Desp_CD_F1\")||0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\")||0;\n// variables acotadas del dinagrama de fondo\nvar Desp_CD=[],Esfu_CD=[];\nvar finalPoint = 0 ; //Define el valor donde acaba los dinagramas\n// tamaños de los vectores\nvar sizex = Desp_CD_F1.length\nvar sizey = Esfu_CD_F1.length\nif ((Desp_CD_F1 != 0) && (Esfu_CD_F1 != 0) && (sizex == sizey)){\n    // existe el vector de desplazamiento y esfuerzo\n    node.status({fill:\"green\",shape:\"dot\",text:\"Calculo\"});\n    // identificar donde se acaba el vector \n    for (let i = 0; i < sizex; i++) {\n        // si los siguientes pasos del vector son cero\n        if (Desp_CD_F1[i] == 0 && Desp_CD_F1[i + 1] == 0 && Desp_CD_F1[i+2] == 0 ){\n            finalPoint = i;\n            break;//Termina el Ciclo For\n        }\n        \n    }\n    for (let i = 0; i < finalPoint; i++) {\n        Desp_CD[i] = Desp_CD_F1[i];\n        Esfu_CD[i] = Esfu_CD_F1[i];\n    }\n    // validar \n    // Desp_CD.push(Desp_CD[0]);\n    // Esfu_CD.push(Esfu_CD[0]);\n    // cerrar el dinagrama de fondo\n    // guardar las variables globales\n    \n    // global.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD);\n    // global.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD);\n    flow.set(\"Desp_CD_F1\", Desp_CD);\n    flow.set(\"Esfu_CD_F1\", Esfu_CD);\n}else{\n    // no existen los vectores de desplazamiento y espuerzo\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoCalculo\"});\n}\n\n// visualizacion de variables\ncontext.set(\"sizex\", sizex,\"memoryOnly\");\ncontext.set(\"sizey\", sizey,\"memoryOnly\");\ncontext.set(\"finalPoint\", finalPoint,\"memoryOnly\");\ncontext.set(\"Desp\", Desp_CD,\"memoryOnly\");\ncontext.set(\"Esfu\", Esfu_CD,\"memoryOnly\");\ncontext.set(\"Desp_CD_F1\", Desp_CD_F1,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F1\", Esfu_CD_F1,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -81221,7 +81244,7 @@
         "y": 1280,
         "wires": [
             [
-                "b8210abad06fb15e"
+                "6e32e69b3c36cf45"
             ]
         ]
     },
@@ -81230,19 +81253,17 @@
         "type": "function",
         "z": "6a1ef6a7aef873a7",
         "g": "a063560e4a0a3bf1",
-        "name": "FiltroDinagrama",
+        "name": "Filtro4G",
         "func": "var Desp_CD_F1 = flow.get(\"Desp_CD_F1\") || 0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\") || 0;\nvar NumeroMuestras = flow.get(\"NumeroMuestras\")||0;\nvar Entro = context.get(\"Entro\")||0;\n// variables auxiliares para el filtro\n\nvar Desp_CD_F0= Desp_CD_F1[0];\nvar Desp_CD_F1P= Desp_CD_F1[1];\nvar Desp_CD_F2P= Desp_CD_F1[2];\nvar Desp_CD_F3= Desp_CD_F1[3];\nvar Desp_CD_F4= Desp_CD_F1[4];\nvar Desp_CD_F5= Desp_CD_F1[5];\nvar Desp_CD_F6= Desp_CD_F1[6];\nvar Desp_CD_F144= Desp_CD_F1[NumeroMuestras - 5];\nvar Desp_CD_F145= Desp_CD_F1[NumeroMuestras - 4];\nvar Desp_CD_F146= Desp_CD_F1[NumeroMuestras - 3];\nvar Desp_CD_F147= Desp_CD_F1[NumeroMuestras - 2];\nvar Desp_CD_F148= Desp_CD_F1[NumeroMuestras - 1];\nvar Desp_CD_F149= Desp_CD_F1[NumeroMuestras];\n\nvar Esfu_CD_F0= Esfu_CD_F1[0];\nvar Esfu_CD_F1P= Esfu_CD_F1[1];\nvar Esfu_CD_F2P= Esfu_CD_F1[2];\nvar Esfu_CD_F3= Esfu_CD_F1[3];\nvar Esfu_CD_F4= Esfu_CD_F1[4];\nvar Esfu_CD_F5= Esfu_CD_F1[5];\nvar Esfu_CD_F6= Esfu_CD_F1[6];\nvar Esfu_CD_F144= Esfu_CD_F1[NumeroMuestras - 5];\nvar Esfu_CD_F145= Esfu_CD_F1[NumeroMuestras - 4];\nvar Esfu_CD_F146= Esfu_CD_F1[NumeroMuestras - 3];\nvar Esfu_CD_F147= Esfu_CD_F1[NumeroMuestras - 2];\nvar Esfu_CD_F148= Esfu_CD_F1[NumeroMuestras - 1];\nvar Esfu_CD_F149= Esfu_CD_F1[NumeroMuestras];\nif (Desp_CD_F1 != 0 && Esfu_CD_F1 != 0){\n    node.status({fill:\"green\",shape:\"ring\",text:\"ok\"});\n    // creación del filtro\n    for (var Conteo12 = 0; Conteo12 <= NumeroMuestras-1; Conteo12++) {\n        if((Conteo12<=(NumeroMuestras-6))&&Conteo12>6){\n            Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n            Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n        if(Conteo12 == 0){\n\n            Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147 + Desp_CD_F146 + Desp_CD_F145 + Desp_CD_F144) / 13.0;\n            Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147 + Esfu_CD_F146 + Esfu_CD_F145 + Esfu_CD_F144) / 13.0;\n        }\n        if (Conteo12 = 1) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147 + Desp_CD_F146 + Desp_CD_F145) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147 + Esfu_CD_F146 + Esfu_CD_F145) / 13.0;\n        }\n\n        if (Conteo12 = 2){\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147 + Desp_CD_F146) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147 + Esfu_CD_F146) / 13.0;\n        }\n\n        if (Conteo12 = 3) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147) / 13.0;\n        }\n\n        if (Conteo12 = 4) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F149 + Desp_CD_F148) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F149 + Esfu_CD_F148) / 13.0;\n        }\n\n        if (Conteo12 = 5) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F149) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F149) / 13.0;\n        }\n\n        if (Conteo12 = 6) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F1[Conteo12 + 1] + Desp_CD_F1[Conteo12 + 2] + Desp_CD_F1[Conteo12 + 3] + Desp_CD_F1[Conteo12 + 4] + Desp_CD_F1[Conteo12 + 5] + Desp_CD_F1[Conteo12 + 6] + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F1[Conteo12 + 1] + Esfu_CD_F1[Conteo12 + 2] + Esfu_CD_F1[Conteo12 + 3] + Esfu_CD_F1[Conteo12 + 4] + Esfu_CD_F1[Conteo12 + 5] + Esfu_CD_F1[Conteo12 + 6] + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n\n        if (Conteo12 = NumeroMuestras - 5) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F145 + Desp_CD_F146 + Desp_CD_F147 + Desp_CD_F148 + Desp_CD_F149 + Desp_CD_F0 + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F145 + Esfu_CD_F146 + Esfu_CD_F147 + Esfu_CD_F148 + Esfu_CD_F149 + Esfu_CD_F0 + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n        if (Conteo12 = NumeroMuestras - 4) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147 + Desp_CD_F146 + Desp_CD_F1P + Desp_CD_F0 + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147 + Esfu_CD_F146 + Esfu_CD_F1P + Esfu_CD_F0 + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n        if (Conteo12 = NumeroMuestras - 3) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F147 + Desp_CD_F2P + Desp_CD_F1P + Desp_CD_F0 + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F147 + Esfu_CD_F2P + Esfu_CD_F1P + Esfu_CD_F0 + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n        if (Conteo12 = NumeroMuestras - 2) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F149 + Desp_CD_F148 + Desp_CD_F3 + Desp_CD_F2P + Desp_CD_F1P + Desp_CD_F0 + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F149 + Esfu_CD_F148 + Esfu_CD_F3 + Esfu_CD_F2P + Esfu_CD_F1P + Esfu_CD_F0 + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n        if (Conteo12 = NumeroMuestras - 1) {\n        Desp_CD_F1[Conteo12] = (Desp_CD_F1[Conteo12] + Desp_CD_F149 + Desp_CD_F4 + Desp_CD_F3 + Desp_CD_F2P + Desp_CD_F1P + Desp_CD_F0 + Desp_CD_F1[Conteo12 - 1] + Desp_CD_F1[Conteo12 - 2] + Desp_CD_F1[Conteo12 - 3] + Desp_CD_F1[Conteo12 - 4] + Desp_CD_F1[Conteo12 - 5] + Desp_CD_F1[Conteo12 - 6]) / 13.0;\n        Esfu_CD_F1[Conteo12] = (Esfu_CD_F1[Conteo12] + Esfu_CD_F149 + Esfu_CD_F4 + Esfu_CD_F3 + Esfu_CD_F2P + Esfu_CD_F1P + Esfu_CD_F0 + Esfu_CD_F1[Conteo12 - 1] + Esfu_CD_F1[Conteo12 - 2] + Esfu_CD_F1[Conteo12 - 3] + Esfu_CD_F1[Conteo12 - 4] + Esfu_CD_F1[Conteo12 - 5] + Esfu_CD_F1[Conteo12 - 6]) / 13.0;\n        }\n\n        if (Conteo12 = NumeroMuestras) {\n        Esfu_CD_F1[Conteo12] = Esfu_CD_F1[0];\n        Desp_CD_F1[Conteo12] = Desp_CD_F1[0];\n        }\n        \n    }\n    // guardar los vectores\n    global.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD_F1);\n    global.set(\"Dinagrama.fondo.nMuestras\", Desp_CD_F1.length);\n    global.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD_F1);\n    flow.set(\"Desp_CD_F1\",Desp_CD_F1);\n    flow.set(\"Esfu_CD_F1\",Esfu_CD_F1);\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NODinagrama\"});\n}\ncontext.set(\"NumeroMuestras\", NumeroMuestras,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F1\", Esfu_CD_F1,\"memoryOnly\");\ncontext.set(\"Desp_CD_F1\", Desp_CD_F1,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 1340,
+        "x": 580,
+        "y": 1280,
         "wires": [
-            [
-                "886c668bbf81db17"
-            ]
+            []
         ]
     },
     {
@@ -81449,12 +81470,12 @@
         "duration": "5",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 550,
+        "x": 540,
         "y": 680,
         "wires": [
             [
@@ -95038,5 +95059,65 @@
         "x": 670,
         "y": 140,
         "wires": []
+    },
+    {
+        "id": "6e32e69b3c36cf45",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a063560e4a0a3bf1",
+        "name": "FSavgol",
+        "func": "var Desp_CD_F1 = flow.get(\"Desp_CD_F1\") || 0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\") || 0;\n\nvar Esfu_CD_F = Savgol(Esfu_CD_F1,1);\nvar Desp_CD_F = Savgol(Desp_CD_F1,1);\n\n// cerrar el dinagrama de superficie\nEsfu_CD_F[Esfu_CD_F.length] = Esfu_CD_F[0];\nDesp_CD_F[Desp_CD_F.length] = Desp_CD_F[0];\n\n//  variables de contexto\ncontext.set(\"t\", Desp_CD_F1.length,\"memoryOnly\");\ncontext.set(\"t_d\", Esfu_CD_F.length,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\ncontext.set(\"Desp_CD_F\", Desp_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"tamano\", Desp_CD_F.length,\"memoryOnly\");\n// variables globales\nglobal.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD_F);\nglobal.set(\"Dinagrama.fondo.nMuestras\", Desp_CD_F.length);\nglobal.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD_F);\n\n\nfunction Savgol(X,caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n        // se define el caso 3 en caso tal de que no\n        for (let i = 4; i < X.length - 4; i++) {\n            y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n            k = k + 1;\n        }\n            \n    }\n    return y\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1340,
+        "wires": [
+            [
+                "886c668bbf81db17"
+            ]
+        ]
+    },
+    {
+        "id": "b09d5afb08cbcc2d",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a063560e4a0a3bf1",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 1340,
+        "wires": [
+            [
+                "6e32e69b3c36cf45"
+            ]
+        ]
+    },
+    {
+        "id": "081660d5aeabb4af",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "4ce2f54dcf99b9de",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "4930f6411e306ffe"
+            ]
+        ]
     }
 ]
