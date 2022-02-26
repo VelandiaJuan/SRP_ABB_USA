@@ -3520,46 +3520,6 @@
         "h": 282
     },
     {
-        "id": "4ce2f54dcf99b9de",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Selección Fuente del Dinagrama",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "080812ef7b3075ce",
-            "8f5d5b7c326c1df2",
-            "4d7f790994a1588c",
-            "ac4a66e053e20cde",
-            "4930f6411e306ffe",
-            "4456b445ce3c4dfc",
-            "7b68f9d7c1b1cdb5",
-            "c83932f2c89002b3",
-            "4f41825f992c561d",
-            "544970607ac8c8c5",
-            "bad4fda9e4377085",
-            "dcb152a9b47c11dd",
-            "617d3424713f8c8e",
-            "5df2f4384f632516",
-            "74cbe059552d3f3c",
-            "b68f09084a6b43cb",
-            "c141398db0e2c447",
-            "b8037b4123ea577e",
-            "7d4a16efa46ac752",
-            "493b842124daaa44",
-            "74c384e321d99f72",
-            "1907b87d1314db64",
-            "ef3ea1de4709a7bd",
-            "6fa9d4b008568d0e",
-            "107381298b97c974"
-        ],
-        "x": 34,
-        "y": 399,
-        "w": 1922,
-        "h": 468
-    },
-    {
         "id": "936eab7d97be78af",
         "type": "group",
         "z": "7a89175c.90f6a8",
@@ -6996,7 +6956,7 @@
         "id": "107381298b97c974",
         "type": "group",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "Adquirir Minimo Desplazamiento del vector de superficie Dim",
         "style": {
             "label": true
@@ -7007,7 +6967,7 @@
             "5c4af827690ff74e",
             "aa463aa620d9836f"
         ],
-        "x": 174,
+        "x": 34,
         "y": 719,
         "w": 672,
         "h": 122
@@ -7039,6 +6999,63 @@
         "y": 1279,
         "w": 982,
         "h": 202
+    },
+    {
+        "id": "c889aa180836227d",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Adquisión del Dinagrama",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "080812ef7b3075ce",
+            "8f5d5b7c326c1df2",
+            "4d7f790994a1588c",
+            "ac4a66e053e20cde",
+            "4930f6411e306ffe",
+            "4456b445ce3c4dfc",
+            "7b68f9d7c1b1cdb5",
+            "c83932f2c89002b3",
+            "4f41825f992c561d",
+            "b68f09084a6b43cb",
+            "74cbe059552d3f3c",
+            "63bff2f4fdb27100",
+            "107381298b97c974",
+            "f9bc6c1e0ee8166f",
+            "11ef0a743969f2c0",
+            "cd885bbd1ba1a434"
+        ],
+        "x": 8,
+        "y": 459,
+        "w": 938,
+        "h": 462
+    },
+    {
+        "id": "57e06a04c2c7560a",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Filtro Smooth [Actualmente no se usa]",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e5f610d35f705146",
+            "81f7af133e8c7271",
+            "d0ab2d0ac037593b",
+            "b9515d1c0b7a1352",
+            "a8e8b142eb23cc20",
+            "c340bde02a24908b",
+            "ef112cc47236d102",
+            "c806dd5b8b5c7fe4",
+            "3ee80d7b1dc1bd80",
+            "68a4f04f6f5be6d4",
+            "c5000abce30d4b14"
+        ],
+        "x": 1114,
+        "y": 439,
+        "w": 1092,
+        "h": 142
     },
     {
         "id": "d25d405a.19cff",
@@ -20891,7 +20908,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "RecorrerVectorDesplazamiento",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\") || [];\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"VecPos\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\") || [];\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.topic = \"VecPos\"\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + vector.length + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21125,7 +21142,7 @@
         "wires": [
             [
                 "7cb08f2674ead649",
-                "90c34241c497ae60"
+                "e00cf5c519a58fa0"
             ],
             [
                 "d04b5541e966b262",
@@ -81068,7 +81085,7 @@
         "id": "080812ef7b3075ce",
         "type": "switch",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "Fuente",
         "property": "GeometriaSucket.FuenteCalculo",
         "propertyType": "global",
@@ -81116,7 +81133,7 @@
         "id": "8f5d5b7c326c1df2",
         "type": "link in",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "",
         "links": [
             "58d10b0ab4c186c5"
@@ -81133,7 +81150,7 @@
         "id": "4d7f790994a1588c",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "sensorFisico",
         "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    // var tamano = Vpos.length;\n    // global.set(\"Dinagrama.superficie.Desp_CD\", Vpos);\n    // global.set(\"Dinagrama.superficie.Esfu_CD\", Vcarga);\n    // global.set(\"Dinagrama.superficie.nMuestras\", tamano);\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
         "outputs": 1,
@@ -81142,7 +81159,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 480,
+        "y": 540,
         "wires": [
             [
                 "4f41825f992c561d"
@@ -81153,7 +81170,7 @@
         "id": "ac4a66e053e20cde",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "sensorLess",
         "func": "\nreturn msg;",
         "outputs": 1,
@@ -81173,7 +81190,7 @@
         "id": "4930f6411e306ffe",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "sensor TWM",
         "func": "// dinagrama de gas\n// var Desp_CD = [0, 0.224574, 0.496868, 0.867747, 1.328572, 1.89669, 2.570432, 3.393135, 4.289549, 5.288867, 6.43659, 7.582092, 8.956267, 10.358862, 11.857743, 13.417861, 15.107362, 16.864719, 18.724704, 20.694909, 22.753248, 24.913934, 27.180452, 29.517336, 31.980745, 34.454301, 37.049365, 39.683092, 42.40997, 45.156138, 47.962012, 50.882079, 53.930831, 57.022566, 60.115319, 63.246317, 66.44984, 69.764908, 73.08379, 76.393188, 79.750306, 83.170194, 86.615925, 90.03914, 93.471265, 96.937732, 100.408005, 103.837159, 107.215439, 110.6243, 113.99866, 117.343608, 120.608417, 123.832944, 127.008757, 130.113978, 133.155573, 136.101284, 138.989571, 141.78246, 144.483574, 147.073823, 149.550348, 151.908622, 154.137773, 156.215994, 158.15917, 159.965142, 161.615724, 163.08193, 164.379924, 165.509708, 166.437277, 167.147583, 167.667381, 167.943159, 168, 167.841807, 167.435134, 166.758799, 165.843461, 164.691349, 163.276265, 161.618832, 159.701771, 157.527869, 155.123882, 152.472531, 149.581061, 146.475114, 143.132951, 139.568506, 135.796832, 131.887744, 127.922138, 123.778288, 119.424977, 114.975712, 110.483794, 105.959259, 101.358626, 96.699386, 92.048245, 87.434791, 82.833975, 78.277395, 73.817031, 69.484447, 65.242435, 61.114198, 57.103149, 53.299035, 49.670081, 46.256423, 43.033533, 39.779907, 36.497077, 33.521516, 30.745085, 28.043689, 25.362559, 22.859935, 20.567032, 18.384838, 16.243884, 14.223881, 12.392976, 10.701904, 9.092276, 7.681779, 6.402267, 5.286767, 4.234804, 3.277176, 2.469625, 1.774385, 1.181493, 0.708925, 0.374798, 0.14497, 0, 0.02183]\n// var Esfu_CD = [11.471815, 11.586548, 11.357083, 11.190199, 11.273641, 11.492676, 12.014187, 12.452257, 12.493978, 12.546129, 13.088501, 12.994629, 13.735175, 13.808186, 13.808186, 13.933349, 14.350558, 15.122395, 15.915092, 16.697359, 16.958115, 17.239731, 17.19801, 17.114568, 17.124998, 16.885103, 16.916394, 16.958115, 17.20844, 17.323173, 17.531777, 17.521347, 17.521347, 17.500487, 17.229301, 17.250161, 16.958115, 16.999836, 17.020696, 16.978975, 16.874673, 16.634778, 16.499185, 16.332301, 16.196708, 15.80036, 15.779499, 15.769069, 15.769069, 15.83165, 15.716918, 15.581325, 15.383151, 15.393581, 15.330999, 15.289278, 15.080674, 15.028523, 15.038953, 14.90336, 14.8825, 14.507011, 14.246256, 14.225395, 14.194105, 14.141953, 13.97507, 13.756035, 13.672593, 13.683024, 13.463989, 13.328396, 13.213663, 12.900756, 12.994629, 12.963338, 12.921617, 12.733873, 12.316664, 12.181071, 12.181071, 11.909885, 11.722141, 11.638699, 11.471815, 11.409234, 11.377943, 11.190199, 11.012885, 10.992025, 10.929444, 10.981595, 10.939874, 10.950304, 11.21106, 11.461385, 11.461385, 11.607408, 11.649129, 11.836873, 12.13935, 12.212361, 12.347954, 12.504408, 12.640001, 12.921617, 12.963338, 12.765164, 12.671291, 12.577419, 12.358385, 11.826443, 10.814711, 9.38577, 8.655654, 8.311456, 7.946399, 8.217584, 8.853828, 9.490072, 10.032444, 10.251479, 10.814711, 11.304932, 11.450955, 11.836873, 12.702582, 13.130221, 13.662163, 14.277546, 14.068942, 13.474419, 12.59828, 12.118489, 11.68042, 11.075467, 10.658258, 10.626967, 10.522665, 10.105456, 10.595676, 11.398804]\n\nnode.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n\n// datos iniciales average\nvar Desp_CD = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071, 50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144, 99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812, 73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374, 11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0.001];\nvar Esfu_CD = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953, 9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962, 9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784, 8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872, 8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336];\n\n// dinagrama con mugre en la bomba\n// var Desp_CD = [0, 0.369189, 0.742716, 1.205566, 1.778803, 2.499349, 3.430619, 4.379978, 5.380327, 6.440896, 7.604035, 8.912963, 10.295033, 11.780759, 13.358305, 14.969793, 16.746506, 18.666076, 20.732845, 22.887308, 25.102317, 27.348906, 29.7339, 31.788957, 34.171687, 36.538843, 38.853071, 41.260312, 43.748624, 46.268991, 48.884218, 51.471383, 54.127999, 56.84994, 59.511133, 62.543436, 65.520964, 68.554151, 71.558192, 74.465868, 77.438326, 80.617816, 83.954604, 87.312385, 90.515057, 93.738246, 97.128289, 100.392216, 103.62591, 106.915589, 110.139852, 113.28317, 116.280066, 119.437953, 122.661055, 125.792354, 128.758445, 131.674865, 134.428574, 137.203588, 140.003721, 142.742348, 145.314789, 147.637213, 149.930816, 152.162913, 154.371834, 156.46908, 158.319785, 159.917869, 161.433704, 162.843404, 164.104183, 165.218322, 165.984281, 166.654637, 167.230909, 167.734382, 168, 167.874872, 167.598978, 167.073067, 166.408009, 165.505097, 164.299179, 162.763323, 161.07746, 159.144188, 157.044079, 154.714803, 152.06167, 149.140279, 145.950629, 142.613035, 139.269641, 135.966026, 132.625445, 129.164502, 125.108666, 121.044858, 116.945713, 112.649543, 108.145055, 103.600561, 99.222486, 94.849483, 90.359702, 85.988561, 81.628315, 77.295455, 72.872855, 68.415353, 64.178456, 60.01405, 56.325866, 52.648767, 49.142431, 45.572308, 42.106817, 38.712733, 35.642846, 32.799755, 30.117871, 27.460333, 24.862798, 22.387488, 20.153306, 18.111606, 16.297352, 14.59316, 12.899673, 11.233423, 9.573913, 8.100912, 6.768705, 5.617685, 4.612127, 3.621577, 2.691247, 1.865225, 1.279462, 0.870653, 0.587434, 0.319493, 0.090653, 0, 0.069794];\n// var Esfu_CD = [7.931805, 7.958692, 8.057279, 8.890786, 9.016261, 9.482308, 9.598819, 9.52712, 9.518157, 9.56297, 9.804956, 10.029017, 10.118641, 10.118641, 10.405439, 10.36959, 10.22619, 10.064866, 9.885618, 9.840805, 9.85873, 9.85873, 9.787031, 10.710162, 16.033854, 16.320652, 15.630544, 16.150366, 15.756018, 15.773943, 15.962154, 16.096591, 16.338577, 16.383389, 16.652263, 17.566432, 13.309271, 12.520576, 12.71775, 12.018679, 12.64605, 12.798412, 12.905961, 12.807374, 12.538501, 12.538501, 12.386139, 11.221022, 13.92768, 14.689487, 14.590901, 15.173459, 14.725337, 14.62675, 14.429577, 14.384764, 14.357877, 14.142778, 14.035229, 14.904586, 13.45267, 12.538501, 12.35029, 10.970073, 11.364421, 11.722919, 11.964905, 12.045567, 11.973867, 12.018679, 11.94698, 11.077623, 11.516782, 12.063491, 12.045567, 13.022473, 12.735675, 12.081416, 11.624332, 11.328571, 11.265834, 9.751181, 9.52712, 9.688444, 9.643632, 9.329946, 9.312021, 7.958692, 7.922842, 8.155866, 8.388889, 8.774275, 8.729462, 8.7205, 8.370965, 5.05486, 2.724625, 2.527451, 1.764523, 2.67085, 3.692569, 3.809081, 3.764268, 3.674644, 4.239278, 4.65155, 5.260997, 5.538832, 6.417152, 7.250659, 7.645007, 8.406814, 8.603988, 8.191716, 8.24549, 8.290303, 8.433702, 8.173791, 8.191716, 8.093129, 7.94973, 7.743594, 7.47472, 6.802537, 6.677063, 7.483683, 7.600194, 7.627082, 7.573307, 7.58227, 7.645007, 7.797368, 8.146903, 8.344077, 8.290303, 8.550213, 8.962486, 8.819087, 8.595026, 8.084166, 8.191716, 8.299265, 8.523326, 8.460589, 7.940767, 7.770481, 7.922842];\n\nvar tamano = Desp_CD.length;\n\ncontext.set(\"tamano\", tamano, \"memoryOnly\");\n// variables Globales\nglobal.set(\"Dinagrama.superficie.Desp_CD\", Desp_CD);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", Esfu_CD);\nglobal.set(\"Dinagrama.superficie.nMuestras\", tamano);\n\nreturn msg;",
         "outputs": 1,
@@ -81193,14 +81210,14 @@
         "id": "4456b445ce3c4dfc",
         "type": "link out",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "selecciónFuenteDinagrama",
         "links": [
             "6e6cb98013f380e8",
             "24994e23766d040a"
         ],
-        "x": 1915,
-        "y": 600,
+        "x": 695,
+        "y": 640,
         "wires": []
     },
     {
@@ -81241,7 +81258,7 @@
         "id": "7b68f9d7c1b1cdb5",
         "type": "trigger",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "",
         "op1": "true",
         "op2": "0",
@@ -81267,7 +81284,7 @@
         "id": "c83932f2c89002b3",
         "type": "trigger",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "",
         "op1": "true",
         "op2": "0",
@@ -81293,7 +81310,7 @@
         "id": "4f41825f992c561d",
         "type": "trigger",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "",
         "op1": "true",
         "op2": "0",
@@ -81308,7 +81325,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 550,
-        "y": 480,
+        "y": 540,
         "wires": [
             [
                 "74cbe059552d3f3c"
@@ -81386,7 +81403,6 @@
         "id": "dcb152a9b47c11dd",
         "type": "smooth",
         "z": "902fc438.e5d758",
-        "g": "4ce2f54dcf99b9de",
         "name": "pasaBajas",
         "property": "payload",
         "action": "low",
@@ -81401,99 +81417,22 @@
         ]
     },
     {
-        "id": "544970607ac8c8c5",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "RecorrerVectorPosicion",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else{\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 970,
-        "y": 480,
-        "wires": [
-            [
-                "bad4fda9e4377085"
-            ]
-        ]
-    },
-    {
-        "id": "bad4fda9e4377085",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1170,
-        "y": 480,
-        "wires": [
-            [
-                "544970607ac8c8c5",
-                "ef3ea1de4709a7bd"
-            ]
-        ]
-    },
-    {
-        "id": "617d3424713f8c8e",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "filtrarVector",
-        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VposFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1530,
-        "y": 480,
-        "wires": [
-            [
-                "74c384e321d99f72"
-            ]
-        ]
-    },
-    {
         "id": "b68f09084a6b43cb",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
+        "props": [],
         "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 740,
-        "y": 440,
+        "x": 570,
+        "y": 580,
         "wires": [
             [
-                "544970607ac8c8c5",
-                "5087afcd5a4ffc18"
+                "cd885bbd1ba1a434"
             ]
         ]
     },
@@ -82021,50 +81960,10 @@
         ]
     },
     {
-        "id": "5df2f4384f632516",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "acotarVector",
-        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\");\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\n\nMin_Desp2 = VDesplazamiento[PosVdesmayor];\nfor (let k = 0; k < Nmuestras; k++) {\n    if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n        Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n        PosVdesmin2 = PosVdesmayor + k;\n    }\n}\nfor (let m = 0; m < Nmuestras; m++) {\n    if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n        Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n        PosVdesmayor2 = PosVdesmin2 + m;\n    }\n}\nMax_Desp2 = VDesplazamiento[PosVdesmin2];\nLongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\nfor (let j = 0; j < LongitudVector ; j++) {\n    DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n    cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n    \n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", DespAcotado);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", cargaAcotado);\nglobal.set(\"Dinagrama.superficie.nMuestras\", DespAcotado.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1830,
-        "y": 500,
-        "wires": [
-            [
-                "4456b445ce3c4dfc"
-            ]
-        ]
-    },
-    {
-        "id": "c141398db0e2c447",
-        "type": "inject",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1550,
-        "y": 440,
-        "wires": [
-            [
-                "5df2f4384f632516"
-            ]
-        ]
-    },
-    {
         "id": "74cbe059552d3f3c",
         "type": "switch",
         "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
+        "g": "c889aa180836227d",
         "name": "VSDaCTIVO",
         "property": "#:(memoryOnly)::C2S.Drive_Status.Active",
         "propertyType": "global",
@@ -82078,57 +81977,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 730,
-        "y": 480,
+        "x": 570,
+        "y": 500,
         "wires": [
             [
-                "544970607ac8c8c5",
-                "5087afcd5a4ffc18"
-            ]
-        ]
-    },
-    {
-        "id": "5087afcd5a4ffc18",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "name": "RecorrerVectorCarga",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else {\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 960,
-        "y": 540,
-        "wires": [
-            [
-                "493b842124daaa44"
-            ]
-        ]
-    },
-    {
-        "id": "493b842124daaa44",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1150,
-        "y": 540,
-        "wires": [
-            [
-                "5087afcd5a4ffc18",
-                "6fa9d4b008568d0e"
+                "cd885bbd1ba1a434"
             ]
         ]
     },
@@ -82136,7 +81989,6 @@
         "id": "7d4a16efa46ac752",
         "type": "smooth",
         "z": "902fc438.e5d758",
-        "g": "4ce2f54dcf99b9de",
         "name": "pasaBajas",
         "property": "payload",
         "action": "low",
@@ -82148,76 +82000,6 @@
         "y": 540,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "b8037b4123ea577e",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "filtrarVector",
-        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VcargaFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1530,
-        "y": 540,
-        "wires": [
-            [
-                "1907b87d1314db64"
-            ]
-        ]
-    },
-    {
-        "id": "74c384e321d99f72",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1680,
-        "y": 480,
-        "wires": [
-            [
-                "5df2f4384f632516"
-            ]
-        ]
-    },
-    {
-        "id": "1907b87d1314db64",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1680,
-        "y": 540,
-        "wires": [
-            [
-                "5df2f4384f632516"
-            ]
         ]
     },
     {
@@ -93403,58 +93185,6 @@
         ]
     },
     {
-        "id": "caa16e750e05ba62",
-        "type": "inject",
-        "z": "6a1ef6a7aef873a7",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1510,
-        "y": 360,
-        "wires": [
-            [
-                "499c49f2c6f89b66"
-            ]
-        ]
-    },
-    {
-        "id": "499c49f2c6f89b66",
-        "type": "change",
-        "z": "6a1ef6a7aef873a7",
-        "name": "",
-        "rules": [
-            {
-                "t": "delete",
-                "p": "Dinagrama.superficie",
-                "pt": "global"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1740,
-        "y": 360,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "684cadf7491b3916",
         "type": "link in",
         "z": "7a89175c.90f6a8",
@@ -94026,46 +93756,6 @@
         ]
     },
     {
-        "id": "ef3ea1de4709a7bd",
-        "type": "smooth",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "property": "payload",
-        "action": "low",
-        "count": "3",
-        "round": "",
-        "mult": "single",
-        "reduce": false,
-        "x": 1370,
-        "y": 480,
-        "wires": [
-            [
-                "617d3424713f8c8e"
-            ]
-        ]
-    },
-    {
-        "id": "6fa9d4b008568d0e",
-        "type": "smooth",
-        "z": "6a1ef6a7aef873a7",
-        "g": "4ce2f54dcf99b9de",
-        "name": "",
-        "property": "payload",
-        "action": "low",
-        "count": "3",
-        "round": "",
-        "mult": "single",
-        "reduce": false,
-        "x": 1360,
-        "y": 540,
-        "wires": [
-            [
-                "b8037b4123ea577e"
-            ]
-        ]
-    },
-    {
         "id": "df4ced7ff82833e9",
         "type": "debug",
         "z": "e7088c4e.cc6b4",
@@ -94175,7 +93865,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
+        "x": 540,
         "y": 800,
         "wires": [
             []
@@ -94191,7 +93881,7 @@
             "4456b445ce3c4dfc",
             "ad87cee4.7dbb5"
         ],
-        "x": 295,
+        "x": 155,
         "y": 760,
         "wires": [
             [
@@ -94211,7 +93901,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 270,
+        "x": 130,
         "y": 800,
         "wires": [
             [
@@ -94236,7 +93926,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 440,
+        "x": 300,
         "y": 800,
         "wires": [
             [
@@ -95359,6 +95049,340 @@
         "wires": [
             [
                 "0bf02e140da3357d"
+            ]
+        ]
+    },
+    {
+        "id": "63bff2f4fdb27100",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "acotarVector",
+        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\")||[];\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\n\nMin_Desp2 = VDesplazamiento[PosVdesmayor];\nfor (let k = 0; k < Nmuestras; k++) {\n    if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n        Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n        PosVdesmin2 = PosVdesmayor + k;\n    }\n}\nfor (let m = 0; m < Nmuestras; m++) {\n    if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n        Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n        PosVdesmayor2 = PosVdesmin2 + m;\n    }\n}\nMax_Desp2 = VDesplazamiento[PosVdesmin2];\nLongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\nfor (let j = 0; j < LongitudVector ; j++) {\n    DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n    cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n    \n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\ncontext.set(\"Nmuestras\", Nmuestras, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", DespAcotado);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", cargaAcotado);\nglobal.set(\"Dinagrama.superficie.nMuestras\", DespAcotado.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 500,
+        "wires": [
+            [
+                "4456b445ce3c4dfc"
+            ]
+        ]
+    },
+    {
+        "id": "e5f610d35f705146",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "RecorrerVectorPosicion",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else{\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 480,
+        "wires": [
+            [
+                "b9515d1c0b7a1352"
+            ]
+        ]
+    },
+    {
+        "id": "81f7af133e8c7271",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "RecorrerVectorCarga",
+        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else {\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 540,
+        "wires": [
+            [
+                "d0ab2d0ac037593b"
+            ]
+        ]
+    },
+    {
+        "id": "d0ab2d0ac037593b",
+        "type": "delay",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1430,
+        "y": 540,
+        "wires": [
+            [
+                "81f7af133e8c7271",
+                "c340bde02a24908b"
+            ]
+        ]
+    },
+    {
+        "id": "b9515d1c0b7a1352",
+        "type": "delay",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1450,
+        "y": 480,
+        "wires": [
+            [
+                "e5f610d35f705146",
+                "a8e8b142eb23cc20"
+            ]
+        ]
+    },
+    {
+        "id": "a8e8b142eb23cc20",
+        "type": "smooth",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "property": "payload",
+        "action": "low",
+        "count": "3",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 1650,
+        "y": 480,
+        "wires": [
+            [
+                "ef112cc47236d102"
+            ]
+        ]
+    },
+    {
+        "id": "c340bde02a24908b",
+        "type": "smooth",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "property": "payload",
+        "action": "low",
+        "count": "3",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 1640,
+        "y": 540,
+        "wires": [
+            [
+                "c806dd5b8b5c7fe4"
+            ]
+        ]
+    },
+    {
+        "id": "ef112cc47236d102",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "filtrarVector",
+        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VposFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 480,
+        "wires": [
+            [
+                "3ee80d7b1dc1bd80"
+            ]
+        ]
+    },
+    {
+        "id": "c806dd5b8b5c7fe4",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "filtrarVector",
+        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VcargaFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1810,
+        "y": 540,
+        "wires": [
+            [
+                "68a4f04f6f5be6d4"
+            ]
+        ]
+    },
+    {
+        "id": "3ee80d7b1dc1bd80",
+        "type": "delay",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1960,
+        "y": 480,
+        "wires": [
+            [
+                "c5000abce30d4b14"
+            ]
+        ]
+    },
+    {
+        "id": "68a4f04f6f5be6d4",
+        "type": "delay",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1960,
+        "y": 540,
+        "wires": [
+            [
+                "c5000abce30d4b14"
+            ]
+        ]
+    },
+    {
+        "id": "c5000abce30d4b14",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "57e06a04c2c7560a",
+        "name": "acotarVector",
+        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\");\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\n\nMin_Desp2 = VDesplazamiento[PosVdesmayor];\nfor (let k = 0; k < Nmuestras; k++) {\n    if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n        Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n        PosVdesmin2 = PosVdesmayor + k;\n    }\n}\nfor (let m = 0; m < Nmuestras; m++) {\n    if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n        Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n        PosVdesmayor2 = PosVdesmin2 + m;\n    }\n}\nMax_Desp2 = VDesplazamiento[PosVdesmin2];\nLongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\nfor (let j = 0; j < LongitudVector ; j++) {\n    DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n    cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n    \n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", DespAcotado);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", cargaAcotado);\nglobal.set(\"Dinagrama.superficie.nMuestras\", DespAcotado.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2110,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11ef0a743969f2c0",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 880,
+        "wires": [
+            [
+                "f9bc6c1e0ee8166f"
+            ]
+        ]
+    },
+    {
+        "id": "f9bc6c1e0ee8166f",
+        "type": "change",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "Dinagrama.superficie",
+                "pt": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd885bbd1ba1a434",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "Filtro",
+        "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos,1);\n    VcargaFiltrado = Savgol(Vcarga,3);\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "63bff2f4fdb27100"
             ]
         ]
     }
