@@ -795,7 +795,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -835,7 +837,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1173,7 +1177,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1222,7 +1228,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1458,7 +1466,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1937,7 +1947,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2008,7 +2020,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2289,33 +2303,6 @@
         "h": 562
     },
     {
-        "id": "56a92b2a688064b3",
-        "type": "group",
-        "z": "2e27dea6.c4c362",
-        "name": "Navegacion Sartas",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "7f58bafb234d04c9",
-            "219b52896a3bc0c3",
-            "7b495ef4bbce99f7",
-            "571b4cb30ff6bd65",
-            "93908b95eb15daba",
-            "dc10ee8417e2d926",
-            "2837bb5c5262fb39",
-            "50227f25c7f235d6",
-            "c22efdc328993ffe",
-            "0bf02e140da3357d",
-            "eed0fdb345f27031",
-            "11e84c5bcdbeda76",
-            "bfec0e288d418c7f",
-            "950ba8d14ba2185d"
-        ],
-        "x": 14,
-        "y": 1279
-    },
-    {
         "id": "69cbede8f851191a",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -2335,7 +2322,9 @@
             "0a6bd128b70aea2c"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2512,7 +2501,6 @@
             "10641359ee0468c8",
             "21ad80e3c148731e",
             "4cfb67175dfadb1e",
-            "26b658d4f2db62cf",
             "19f535ea5a685c61",
             "a270e98d59cdcd5f",
             "bb90cadbb46a78f9"
@@ -2952,7 +2940,9 @@
             "86e001aa20e6699c"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3081,9 +3071,7 @@
             "827fef3800932f96",
             "e7b23403427d7305",
             "cb07d3de9b20a441",
-            "3df71d5451575290",
             "04c7ecd41f3b9605",
-            "33877d511d54d957",
             "6d26f4837d1ddab1",
             "1ead21b91a6685a5"
         ],
@@ -3389,8 +3377,8 @@
             "029a74fa6e2c68c3",
             "665ee3571d4304f3"
         ],
-        "x": 134,
-        "y": 1379,
+        "x": 154,
+        "y": 1279,
         "w": 1002,
         "h": 282
     },
@@ -3420,8 +3408,8 @@
             "4eae3e07370cb6da",
             "7858fff2ef58a324"
         ],
-        "x": 128,
-        "y": 759,
+        "x": 148,
+        "y": 739,
         "w": 1074,
         "h": 515.5
     },
@@ -3447,8 +3435,8 @@
             "82270f29cb251d0e",
             "f1b7a50954cbab4b"
         ],
-        "x": 1494,
-        "y": 759,
+        "x": 1254,
+        "y": 739,
         "w": 692,
         "h": 282
     },
@@ -3501,7 +3489,7 @@
         "id": "394e81d071ef9585",
         "type": "group",
         "z": "f628d2416976df44",
-        "name": "Simulacion Doble Velocidad",
+        "name": "Boton Simulacion Doble Velocidad",
         "style": {
             "label": true
         },
@@ -3526,8 +3514,8 @@
             "808615a1ec980881",
             "1e4fb15af269d8a0"
         ],
-        "x": 1494,
-        "y": 1059,
+        "x": 1254,
+        "y": 1039,
         "w": 1022,
         "h": 282
     },
@@ -3652,8 +3640,7 @@
             "3d17b0bf119c4dc0",
             "9b84dbeab55608e6",
             "6a17539892d875d8",
-            "b6c7277489601eba",
-            "ac324066d5167b27"
+            "b6c7277489601eba"
         ],
         "x": 324,
         "y": 479,
@@ -3788,7 +3775,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3809,7 +3798,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -5745,8 +5736,8 @@
             "11a10dea3b948a9d",
             "da401206ced2ccd2"
         ],
-        "x": 154,
-        "y": 1019,
+        "x": 174,
+        "y": 999,
         "w": 1022,
         "h": 229.5
     },
@@ -7020,6 +7011,34 @@
         "y": 719,
         "w": 672,
         "h": 122
+    },
+    {
+        "id": "56a92b2a688064b3",
+        "type": "group",
+        "z": "2e27dea6.c4c362",
+        "name": "Navegacion Sartas",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7f58bafb234d04c9",
+            "219b52896a3bc0c3",
+            "7b495ef4bbce99f7",
+            "571b4cb30ff6bd65",
+            "93908b95eb15daba",
+            "dc10ee8417e2d926",
+            "2837bb5c5262fb39",
+            "50227f25c7f235d6",
+            "c22efdc328993ffe",
+            "0bf02e140da3357d",
+            "eed0fdb345f27031",
+            "bfec0e288d418c7f",
+            "950ba8d14ba2185d"
+        ],
+        "x": 14,
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "d25d405a.19cff",
@@ -68019,171 +68038,6 @@
         ]
     },
     {
-        "id": "7f58bafb234d04c9",
-        "type": "ui_template",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "group": "d063f13f9026fee1",
-        "name": "Menu config",
-        "order": 1,
-        "width": 16,
-        "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n</body>\n\n</html>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 510,
-        "y": 1380,
-        "wires": [
-            [
-                "219b52896a3bc0c3",
-                "eed0fdb345f27031",
-                "11e84c5bcdbeda76"
-            ]
-        ]
-    },
-    {
-        "id": "219b52896a3bc0c3",
-        "type": "switch",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "sartas",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "geometria",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "instalacion",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 670,
-        "y": 1380,
-        "wires": [
-            [
-                "571b4cb30ff6bd65"
-            ],
-            [
-                "93908b95eb15daba"
-            ],
-            [
-                "dc10ee8417e2d926"
-            ]
-        ]
-    },
-    {
-        "id": "7b495ef4bbce99f7",
-        "type": "link out",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "Menú Entradas/Salidas SWCPRO",
-        "links": [
-            "8a17d991.081178",
-            "805762db.d27b7"
-        ],
-        "x": 955,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "571b4cb30ff6bd65",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "sartas",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_instala\",\t                \"Settings_geometria\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_ParametrosSarta\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 1340,
-        "wires": [
-            [
-                "7b495ef4bbce99f7"
-            ]
-        ]
-    },
-    {
-        "id": "93908b95eb15daba",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "geometria",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_instala\",\t                \"Settings_ParametrosSarta\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_geometria\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 820,
-        "y": 1380,
-        "wires": [
-            [
-                "7b495ef4bbce99f7"
-            ]
-        ]
-    },
-    {
-        "id": "dc10ee8417e2d926",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "instalacion",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_geometria\",\t                \"Settings_ParametrosSarta\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_instala\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 1420,
-        "wires": [
-            [
-                "7b495ef4bbce99f7"
-            ]
-        ]
-    },
-    {
         "id": "32808ce842cb8f72",
         "type": "ui_template",
         "z": "2e27dea6.c4c362",
@@ -68343,194 +68197,6 @@
         "wires": [
             [
                 "10d0df396dc90c03"
-            ]
-        ]
-    },
-    {
-        "id": "50227f25c7f235d6",
-        "type": "template",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"true\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
-        "output": "str",
-        "x": 340,
-        "y": 1340,
-        "wires": [
-            [
-                "7f58bafb234d04c9"
-            ]
-        ]
-    },
-    {
-        "id": "2837bb5c5262fb39",
-        "type": "template",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"true\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
-        "output": "str",
-        "x": 340,
-        "y": 1380,
-        "wires": [
-            [
-                "7f58bafb234d04c9"
-            ]
-        ]
-    },
-    {
-        "id": "c22efdc328993ffe",
-        "type": "template",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "field": "template",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"true\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
-        "output": "str",
-        "x": 340,
-        "y": 1420,
-        "wires": [
-            [
-                "7f58bafb234d04c9"
-            ]
-        ]
-    },
-    {
-        "id": "0bf02e140da3357d",
-        "type": "switch",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "sartas",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "geometria",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "instalacion",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 190,
-        "y": 1380,
-        "wires": [
-            [
-                "50227f25c7f235d6"
-            ],
-            [
-                "2837bb5c5262fb39"
-            ],
-            [
-                "c22efdc328993ffe"
-            ]
-        ]
-    },
-    {
-        "id": "eed0fdb345f27031",
-        "type": "delay",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "0.2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 650,
-        "y": 1440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "11e84c5bcdbeda76",
-        "type": "debug",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 680,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "bfec0e288d418c7f",
-        "type": "link in",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 55,
-        "y": 1320,
-        "wires": [
-            [
-                "950ba8d14ba2185d"
-            ]
-        ]
-    },
-    {
-        "id": "950ba8d14ba2185d",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "g": "56a92b2a688064b3",
-        "name": "geometriaInit",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "geometria",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 170,
-        "y": 1320,
-        "wires": [
-            [
-                "0bf02e140da3357d"
             ]
         ]
     },
@@ -78851,8 +78517,7 @@
         "y": 560,
         "wires": [
             [
-                "723a0bb4c9c6e076",
-                "ac324066d5167b27"
+                "723a0bb4c9c6e076"
             ]
         ]
     },
@@ -79099,24 +78764,6 @@
                 "81c4e2501e994cf3"
             ]
         ]
-    },
-    {
-        "id": "ac324066d5167b27",
-        "type": "debug",
-        "z": "6278f7e7f20ddc7d",
-        "g": "c36ec626abdfe551",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 630,
-        "y": 520,
-        "wires": []
     },
     {
         "id": "e37095c30f780078",
@@ -79571,8 +79218,7 @@
         "y": 140,
         "wires": [
             [
-                "b4539185fb0ed29c",
-                "26b658d4f2db62cf"
+                "b4539185fb0ed29c"
             ]
         ]
     },
@@ -80540,24 +80186,6 @@
                 "c76052ebdaa1c89f"
             ]
         ]
-    },
-    {
-        "id": "26b658d4f2db62cf",
-        "type": "debug",
-        "z": "b368eb771541cd7f",
-        "g": "67a422f5076a03ee",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 990,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "f40cb0cebdc99030",
@@ -83933,8 +83561,7 @@
         "y": 260,
         "wires": [
             [
-                "364b9713f0e05da3",
-                "33877d511d54d957"
+                "364b9713f0e05da3"
             ],
             [
                 "826efe878eba535e"
@@ -83949,8 +83576,7 @@
                 "7304914b1668b4e1"
             ],
             [
-                "9310ccc81ca0c876",
-                "3df71d5451575290"
+                "9310ccc81ca0c876"
             ]
         ]
     },
@@ -91260,8 +90886,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 1080,
+        "x": 700,
+        "y": 1060,
         "wires": [
             [
                 "0eea3386d6112feb",
@@ -91293,8 +90919,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 240,
-        "y": 1520,
+        "x": 260,
+        "y": 1420,
         "wires": [
             [
                 "3521783dda45c61d"
@@ -91320,8 +90946,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 390,
-        "y": 1520,
+        "x": 410,
+        "y": 1420,
         "wires": [
             [
                 "029a74fa6e2c68c3"
@@ -91346,8 +90972,8 @@
         "raw": false,
         "topic": "Control de doble velocidad",
         "name": "confirm",
-        "x": 620,
-        "y": 1480,
+        "x": 640,
+        "y": 1380,
         "wires": [
             [
                 "c7d12446f5204b7e"
@@ -91369,8 +90995,8 @@
         "raw": false,
         "topic": "Control de doble velocidad",
         "name": "confirm",
-        "x": 620,
-        "y": 1580,
+        "x": 640,
+        "y": 1480,
         "wires": [
             [
                 "edd77b5b07dc9afc"
@@ -91400,8 +91026,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 770,
-        "y": 1580,
+        "x": 790,
+        "y": 1480,
         "wires": [
             [
                 "4f260fb20d4ef19d",
@@ -91435,8 +91061,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 770,
-        "y": 1480,
+        "x": 790,
+        "y": 1380,
         "wires": [
             [
                 "3425750daffaa51f",
@@ -91467,8 +91093,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 1460,
+        "x": 940,
+        "y": 1360,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -91495,8 +91121,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1500,
+        "x": 950,
+        "y": 1400,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -91523,8 +91149,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 950,
-        "y": 1580,
+        "x": 970,
+        "y": 1480,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -91551,8 +91177,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 1620,
+        "x": 960,
+        "y": 1520,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -91569,8 +91195,8 @@
             "7fc1d3b8de314bf5",
             "5b375649cb77ee66"
         ],
-        "x": 1095,
-        "y": 1520,
+        "x": 1115,
+        "y": 1420,
         "wires": []
     },
     {
@@ -91583,8 +91209,8 @@
             "f4e3c81e608c100f",
             "6d4b4809080e220a"
         ],
-        "x": 195,
-        "y": 1440,
+        "x": 215,
+        "y": 1340,
         "wires": [
             [
                 "3b24f55cd0b1dcb6"
@@ -91611,8 +91237,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 220,
-        "y": 1480,
+        "x": 240,
+        "y": 1380,
         "wires": [
             [
                 "de49178bf698750e"
@@ -91635,8 +91261,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 550,
-        "y": 840,
+        "x": 570,
+        "y": 820,
         "wires": [
             [
                 "62af5b76e64bd109",
@@ -91660,8 +91286,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 550,
-        "y": 900,
+        "x": 570,
+        "y": 880,
         "wires": [
             [
                 "263a5cf68cdcca60",
@@ -91682,8 +91308,8 @@
         "label": "Referencia:",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 2050,
-        "y": 800,
+        "x": 1810,
+        "y": 780,
         "wires": []
     },
     {
@@ -91705,8 +91331,8 @@
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
-        "x": 240,
-        "y": 1100,
+        "x": 260,
+        "y": 1080,
         "wires": [
             [
                 "4e1dc20bb3dc62f4"
@@ -91725,8 +91351,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 820,
+        "x": 840,
+        "y": 800,
         "wires": [
             [
                 "1e6fba3998853b9c"
@@ -91745,8 +91371,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
-        "y": 920,
+        "x": 840,
+        "y": 900,
         "wires": [
             [
                 "a26c481a4f6bef9b"
@@ -91764,8 +91390,8 @@
             "9ca9085ecb14c575",
             "ad87cee4.7dbb5"
         ],
-        "x": 175,
-        "y": 840,
+        "x": 195,
+        "y": 820,
         "wires": [
             [
                 "b07461a58c8e53b2",
@@ -91793,8 +91419,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
-        "y": 840,
+        "x": 370,
+        "y": 820,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -91821,8 +91447,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 350,
-        "y": 920,
+        "x": 370,
+        "y": 900,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -91842,8 +91468,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 350,
-        "y": 800,
+        "x": 370,
+        "y": 780,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -91863,8 +91489,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 350,
-        "y": 880,
+        "x": 370,
+        "y": 860,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -91886,8 +91512,8 @@
         "raw": false,
         "topic": "¿Desea Actualizar Datos del control de doble velocidad?",
         "name": "confirm",
-        "x": 380,
-        "y": 1100,
+        "x": 400,
+        "y": 1080,
         "wires": [
             [
                 "9ccd512f60a8c6a5"
@@ -91917,8 +91543,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 510,
-        "y": 1100,
+        "x": 530,
+        "y": 1080,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -91938,8 +91564,8 @@
             "32d90e6e46a4a27a",
             "db78fee80bde5351"
         ],
-        "x": 595,
-        "y": 1120,
+        "x": 615,
+        "y": 1100,
         "wires": []
     },
     {
@@ -91953,8 +91579,8 @@
             "77eddfe2707bfc75",
             "b82a4b8aae9b1491"
         ],
-        "x": 975,
-        "y": 840,
+        "x": 995,
+        "y": 820,
         "wires": []
     },
     {
@@ -91966,8 +91592,8 @@
         "links": [
             "1e6fba3998853b9c"
         ],
-        "x": 275,
-        "y": 880,
+        "x": 295,
+        "y": 860,
         "wires": [
             [
                 "66dfe0d21f4ecd47"
@@ -91983,8 +91609,8 @@
         "links": [
             "a26c481a4f6bef9b"
         ],
-        "x": 185,
-        "y": 800,
+        "x": 205,
+        "y": 780,
         "wires": [
             [
                 "bc111cae1b81aae1"
@@ -92002,8 +91628,8 @@
             "77eddfe2707bfc75",
             "b82a4b8aae9b1491"
         ],
-        "x": 975,
-        "y": 900,
+        "x": 995,
+        "y": 880,
         "wires": []
     },
     {
@@ -92184,8 +91810,8 @@
         "label": "Velocidad Subida:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 2070,
-        "y": 860,
+        "x": 1830,
+        "y": 840,
         "wires": []
     },
     {
@@ -92201,8 +91827,8 @@
         "label": "Velocidad Bajada:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 2070,
-        "y": 980,
+        "x": 1830,
+        "y": 960,
         "wires": []
     },
     {
@@ -92217,8 +91843,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1850,
-        "y": 860,
+        "x": 1610,
+        "y": 840,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -92236,8 +91862,8 @@
             "f4e3c81e608c100f",
             "0eea3386d6112feb"
         ],
-        "x": 1615,
-        "y": 880,
+        "x": 1375,
+        "y": 860,
         "wires": [
             [
                 "b50bb4b3defcbf5b",
@@ -92256,8 +91882,8 @@
             "db78fee80bde5351",
             "32d90e6e46a4a27a"
         ],
-        "x": 815,
-        "y": 1080,
+        "x": 835,
+        "y": 1060,
         "wires": []
     },
     {
@@ -92272,8 +91898,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1840,
-        "y": 1000,
+        "x": 1600,
+        "y": 980,
         "wires": [
             [
                 "47a2d09fcfbd8f10"
@@ -92292,8 +91918,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1820,
-        "y": 800,
+        "x": 1580,
+        "y": 780,
         "wires": [
             [
                 "42d63d339369b078"
@@ -92309,8 +91935,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 1535,
-        "y": 800,
+        "x": 1295,
+        "y": 780,
         "wires": [
             [
                 "68b5fdab6f4e5d1a"
@@ -92335,8 +91961,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1660,
-        "y": 800,
+        "x": 1420,
+        "y": 780,
         "wires": [
             [
                 "4a4cecb2a1f07c0c"
@@ -92548,8 +92174,8 @@
             "a26c481a4f6bef9b",
             "1e6fba3998853b9c"
         ],
-        "x": 1615,
-        "y": 920,
+        "x": 1375,
+        "y": 900,
         "wires": [
             [
                 "f1b7a50954cbab4b"
@@ -92583,8 +92209,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1810,
-        "y": 920,
+        "x": 1570,
+        "y": 900,
         "wires": [
             [
                 "82270f29cb251d0e"
@@ -92603,8 +92229,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2030,
-        "y": 920,
+        "x": 1790,
+        "y": 900,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -92629,8 +92255,8 @@
         "raw": false,
         "topic": "",
         "name": "spm",
-        "x": 890,
-        "y": 880,
+        "x": 910,
+        "y": 860,
         "wires": []
     },
     {
@@ -92645,8 +92271,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 760,
-        "y": 880,
+        "x": 780,
+        "y": 860,
         "wires": [
             [
                 "4eae3e07370cb6da"
@@ -92681,8 +92307,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 850,
-        "y": 1140,
+        "x": 870,
+        "y": 1120,
         "wires": [
             [
                 "0a1073dc1650cadd"
@@ -92703,8 +92329,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1135,
-        "y": 1140,
+        "x": 1155,
+        "y": 1120,
         "wires": []
     },
     {
@@ -92717,8 +92343,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1135,
-        "y": 1180,
+        "x": 1155,
+        "y": 1160,
         "wires": []
     },
     {
@@ -92883,8 +92509,8 @@
             "3e8b8a8aa3b3085f",
             "3689559e16b8a141"
         ],
-        "x": 255,
-        "y": 1060,
+        "x": 275,
+        "y": 1040,
         "wires": [
             [
                 "7cc99012610fb90f"
@@ -92907,8 +92533,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
-        "y": 1060,
+        "x": 530,
+        "y": 1040,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -92932,8 +92558,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 360,
-        "y": 1060,
+        "x": 380,
+        "y": 1040,
         "wires": [
             [
                 "e44f69ab32d0a5d4"
@@ -93018,8 +92644,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 1600,
-        "y": 1200,
+        "x": 1360,
+        "y": 1180,
         "wires": [
             [
                 "915238266608e124"
@@ -93045,8 +92671,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1750,
-        "y": 1200,
+        "x": 1510,
+        "y": 1180,
         "wires": [
             [
                 "234a90998ca28885"
@@ -93071,8 +92697,8 @@
         "raw": false,
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
-        "x": 2000,
-        "y": 1160,
+        "x": 1760,
+        "y": 1140,
         "wires": [
             [
                 "f960b7182b9a3de3"
@@ -93094,8 +92720,8 @@
         "raw": false,
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
-        "x": 1980,
-        "y": 1260,
+        "x": 1740,
+        "y": 1240,
         "wires": [
             [
                 "10d068d9228a59c3"
@@ -93125,8 +92751,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2130,
-        "y": 1260,
+        "x": 1890,
+        "y": 1240,
         "wires": [
             [
                 "dc2a630ad9d70854",
@@ -93160,8 +92786,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2150,
-        "y": 1160,
+        "x": 1910,
+        "y": 1140,
         "wires": [
             [
                 "c774f0f41737b58d",
@@ -93192,8 +92818,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2310,
-        "y": 1140,
+        "x": 2070,
+        "y": 1120,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -93220,8 +92846,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2310,
-        "y": 1180,
+        "x": 2070,
+        "y": 1160,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -93248,8 +92874,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2310,
-        "y": 1260,
+        "x": 2070,
+        "y": 1240,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -93276,8 +92902,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2300,
-        "y": 1300,
+        "x": 2060,
+        "y": 1280,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -93294,8 +92920,8 @@
             "94c231f0cf07dd71",
             "5b375649cb77ee66"
         ],
-        "x": 2475,
-        "y": 1200,
+        "x": 2235,
+        "y": 1180,
         "wires": []
     },
     {
@@ -93308,8 +92934,8 @@
             "f4e3c81e608c100f",
             "73e4c5b92ab7cac1"
         ],
-        "x": 1555,
-        "y": 1120,
+        "x": 1315,
+        "y": 1100,
         "wires": [
             [
                 "bb8743d0a95aad95"
@@ -93336,8 +92962,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1590,
-        "y": 1160,
+        "x": 1350,
+        "y": 1140,
         "wires": [
             [
                 "41014dd60b86791c"
@@ -93425,8 +93051,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 1420,
+        "x": 930,
+        "y": 1320,
         "wires": [
             [
                 "4b213bec5bdae761"
@@ -93443,8 +93069,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 995,
-        "y": 1420,
+        "x": 1015,
+        "y": 1320,
         "wires": []
     },
     {
@@ -93474,8 +93100,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1540,
+        "x": 950,
+        "y": 1440,
         "wires": [
             [
                 "541eddb70df22615"
@@ -93492,8 +93118,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1015,
-        "y": 1540,
+        "x": 1035,
+        "y": 1440,
         "wires": []
     },
     {
@@ -93516,8 +93142,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1870,
-        "y": 1160,
+        "x": 1630,
+        "y": 1140,
         "wires": [
             [
                 "758282acd283ba48"
@@ -93544,8 +93170,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1850,
-        "y": 1260,
+        "x": 1610,
+        "y": 1240,
         "wires": [
             [
                 "ba9651f5d36c744b"
@@ -93562,8 +93188,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 2415,
-        "y": 1100,
+        "x": 2175,
+        "y": 1080,
         "wires": []
     },
     {
@@ -93593,8 +93219,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2300,
-        "y": 1100,
+        "x": 2060,
+        "y": 1080,
         "wires": [
             [
                 "1e4fb15af269d8a0"
@@ -93611,8 +93237,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 2375,
-        "y": 1220,
+        "x": 2135,
+        "y": 1200,
         "wires": []
     },
     {
@@ -93642,8 +93268,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2290,
-        "y": 1220,
+        "x": 2050,
+        "y": 1200,
         "wires": [
             [
                 "eba80fb27cef6dc6"
@@ -93670,8 +93296,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 490,
-        "y": 1480,
+        "x": 510,
+        "y": 1380,
         "wires": [
             [
                 "150304639111c22b"
@@ -93698,8 +93324,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 490,
-        "y": 1580,
+        "x": 510,
+        "y": 1480,
         "wires": [
             [
                 "4e6cebe6e4d66e7e"
@@ -93922,24 +93548,6 @@
         ]
     },
     {
-        "id": "3df71d5451575290",
-        "type": "debug",
-        "z": "f62fcef222e9a4a3",
-        "g": "805fec7111f91b80",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 2040,
-        "y": 400,
-        "wires": []
-    },
-    {
         "id": "04c7ecd41f3b9605",
         "type": "inject",
         "z": "f62fcef222e9a4a3",
@@ -93964,24 +93572,6 @@
                 "6d26f4837d1ddab1"
             ]
         ]
-    },
-    {
-        "id": "33877d511d54d957",
-        "type": "debug",
-        "z": "f62fcef222e9a4a3",
-        "g": "805fec7111f91b80",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 2230,
-        "y": 140,
-        "wires": []
     },
     {
         "id": "6d26f4837d1ddab1",
@@ -95268,8 +94858,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1140,
+        "x": 1050,
+        "y": 1120,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -95288,8 +94878,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
-        "y": 1100,
+        "x": 1050,
+        "y": 1080,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -95323,8 +94913,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1030,
-        "y": 1060,
+        "x": 1050,
+        "y": 1040,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -95358,8 +94948,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1030,
-        "y": 1180,
+        "x": 1050,
+        "y": 1160,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -95387,8 +94977,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 710,
-        "y": 1160,
+        "x": 730,
+        "y": 1140,
         "wires": [
             [
                 "6f1b0c47ae35b501"
@@ -95426,8 +95016,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 850,
-        "y": 1200,
+        "x": 870,
+        "y": 1180,
         "wires": [
             [
                 "03ebee7187babc1a"
@@ -95436,6 +95026,340 @@
                 "67143392aef44307"
             ],
             []
+        ]
+    },
+    {
+        "id": "7f58bafb234d04c9",
+        "type": "ui_template",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "group": "d063f13f9026fee1",
+        "name": "Menu config",
+        "order": 1,
+        "width": 16,
+        "height": 1,
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 510,
+        "y": 1380,
+        "wires": [
+            [
+                "219b52896a3bc0c3",
+                "eed0fdb345f27031"
+            ]
+        ]
+    },
+    {
+        "id": "219b52896a3bc0c3",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sartas",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "geometria",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "instalacion",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "571b4cb30ff6bd65"
+            ],
+            [
+                "93908b95eb15daba"
+            ],
+            [
+                "dc10ee8417e2d926"
+            ]
+        ]
+    },
+    {
+        "id": "7b495ef4bbce99f7",
+        "type": "link out",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "Menú Entradas/Salidas SWCPRO",
+        "links": [
+            "8a17d991.081178",
+            "805762db.d27b7"
+        ],
+        "x": 955,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "571b4cb30ff6bd65",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "sartas",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_instala\",\t                \"Settings_geometria\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_ParametrosSarta\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1340,
+        "wires": [
+            [
+                "7b495ef4bbce99f7"
+            ]
+        ]
+    },
+    {
+        "id": "93908b95eb15daba",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "geometria",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_instala\",\t                \"Settings_ParametrosSarta\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_geometria\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 1380,
+        "wires": [
+            [
+                "7b495ef4bbce99f7"
+            ]
+        ]
+    },
+    {
+        "id": "dc10ee8417e2d926",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "instalacion",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Settings_geometria\",\t                \"Settings_ParametrosSarta\"],\t       \"show\":[ \"Settings_Menu\",\t                \"Settings_instala\",\t                \"Settings_logos\",\t                \"Settings_Status_Bar\"]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 1420,
+        "wires": [
+            [
+                "7b495ef4bbce99f7"
+            ]
+        ]
+    },
+    {
+        "id": "2837bb5c5262fb39",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"true\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 1380,
+        "wires": [
+            [
+                "7f58bafb234d04c9"
+            ]
+        ]
+    },
+    {
+        "id": "50227f25c7f235d6",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"true\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"false\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 1340,
+        "wires": [
+            [
+                "7f58bafb234d04c9"
+            ]
+        ]
+    },
+    {
+        "id": "c22efdc328993ffe",
+        "type": "template",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n             <a class=\"nav-item nav-link active\" id=\"nav-Geometria-tab\" data-toggle=\"tab\" href=\"#nav-Geometria\" role=\"tab\"\n                aria-controls=\"nav-Geometria\" aria-selected=\"false\" ng-click=\"send({payload:Geometria()})\">API\n                Geometría de Bombeo</a>\n            <a class=\"nav-item nav-link \" id=\"nav-Sarta-tab\" data-toggle=\"tab\"\n                href=\"#nav-Sarta\" role=\"tab\" aria-controls=\"nav-Sarta\" aria-selected=\"false\"\n                ng-click=\"send({payload:Sarta()})\">Sarta</a>\n            <a class=\"nav-item nav-link\" id=\"nav-Instalacion-tab\" data-toggle=\"tab\" href=\"#nav-Instalacion\"\n                role=\"tab\" aria-controls=\"nav-Instalacion\" aria-selected=\"true\"\n                ng-click=\"send({payload:Instalacion()})\">Datos de Instalación</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Sarta = function() { return \"sartas\"; };\n        this.scope.Geometria = function() { return \"geometria\"; };\n        this.scope.Instalacion = function() { return \"instalacion\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "output": "str",
+        "x": 340,
+        "y": 1420,
+        "wires": [
+            [
+                "7f58bafb234d04c9"
+            ]
+        ]
+    },
+    {
+        "id": "0bf02e140da3357d",
+        "type": "switch",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sartas",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "geometria",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "instalacion",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 190,
+        "y": 1380,
+        "wires": [
+            [
+                "50227f25c7f235d6"
+            ],
+            [
+                "2837bb5c5262fb39"
+            ],
+            [
+                "c22efdc328993ffe"
+            ]
+        ]
+    },
+    {
+        "id": "eed0fdb345f27031",
+        "type": "delay",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 650,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bfec0e288d418c7f",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 55,
+        "y": 1320,
+        "wires": [
+            [
+                "950ba8d14ba2185d"
+            ]
+        ]
+    },
+    {
+        "id": "950ba8d14ba2185d",
+        "type": "change",
+        "z": "2e27dea6.c4c362",
+        "g": "56a92b2a688064b3",
+        "name": "geometriaInit",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "geometria",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 1320,
+        "wires": [
+            [
+                "0bf02e140da3357d"
+            ]
         ]
     }
 ]
