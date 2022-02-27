@@ -154,6 +154,13 @@
         "info": ""
     },
     {
+        "id": "cb3148def139ee28",
+        "type": "tab",
+        "label": "Celda De Carga",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -2407,10 +2414,13 @@
             "4cfb67175dfadb1e",
             "19f535ea5a685c61",
             "a270e98d59cdcd5f",
-            "bb90cadbb46a78f9"
+            "bb90cadbb46a78f9",
+            "d159c28bd55674cf"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1852,
+        "h": 968
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2732,9 +2742,7 @@
             "c01c2da340bbf3a1"
         ],
         "x": 3298,
-        "y": 33,
-        "w": 1684,
-        "h": 714
+        "y": 33
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2751,9 +2759,7 @@
             "6e4ce300ce601bf3"
         ],
         "x": 74,
-        "y": 1219,
-        "w": 332,
-        "h": 122
+        "y": 1219
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2775,9 +2781,7 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33,
-        "w": 3004,
-        "h": 1094
+        "y": 33
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3617,7 +3621,6 @@
             "4930f6411e306ffe",
             "4456b445ce3c4dfc",
             "7b68f9d7c1b1cdb5",
-            "c83932f2c89002b3",
             "4f41825f992c561d",
             "b68f09084a6b43cb",
             "74cbe059552d3f3c",
@@ -3625,7 +3628,9 @@
             "107381298b97c974",
             "f9bc6c1e0ee8166f",
             "11ef0a743969f2c0",
-            "cd885bbd1ba1a434"
+            "cd885bbd1ba1a434",
+            "17e7d4e07d89e0fb",
+            "125b080ee8fa7931"
         ],
         "x": 8,
         "y": 459,
@@ -3657,6 +3662,24 @@
         "y": 439,
         "w": 1092,
         "h": 142
+    },
+    {
+        "id": "193969f706c28bf5",
+        "type": "group",
+        "z": "6a1ef6a7aef873a7",
+        "name": "Goodman",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9135e4551163095b",
+            "886a2662fc3e1791",
+            "661da3109cbc4a60"
+        ],
+        "x": 14,
+        "y": 1619,
+        "w": 422,
+        "h": 82
     },
     {
         "id": "d929d138.3b512",
@@ -5341,9 +5364,7 @@
             "204cb884a9a1bb09"
         ],
         "x": 3324,
-        "y": 59,
-        "w": 1632,
-        "h": 532
+        "y": 59
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5364,9 +5385,7 @@
             "fb25abef8d3f01a8"
         ],
         "x": 3324,
-        "y": 599,
-        "w": 732,
-        "h": 122
+        "y": 599
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5388,9 +5407,7 @@
             "c71b32312279d18f"
         ],
         "x": 124,
-        "y": 379,
-        "w": 952,
-        "h": 132
+        "y": 379
     },
     {
         "id": "0f959940f19ae52d",
@@ -5421,9 +5438,7 @@
             "7c434a7ec1d35114"
         ],
         "x": 94,
-        "y": 859,
-        "w": 1722,
-        "h": 242
+        "y": 859
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5473,9 +5488,7 @@
             "55eaeea012fb5cb3"
         ],
         "x": 1114,
-        "y": 439,
-        "w": 1932,
-        "h": 342
+        "y": 439
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5522,9 +5535,7 @@
             "628add984fd6a22e"
         ],
         "x": 134,
-        "y": 59,
-        "w": 1822,
-        "h": 282
+        "y": 59
     },
     {
         "id": "8a07c803a203d64c",
@@ -5614,10 +5625,15 @@
             "045ba669744e29c3",
             "dc19a0e93809e236",
             "86239a715c332a86",
-            "a7f06bee1386d06e"
+            "a7f06bee1386d06e",
+            "5dacae1a6ea55864",
+            "c71a39f76d899945",
+            "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539
+        "y": 539,
+        "w": 1022,
+        "h": 422
     },
     {
         "id": "504a9190c56704f4",
@@ -6784,24 +6800,6 @@
         ],
         "x": 614,
         "y": 689
-    },
-    {
-        "id": "193969f706c28bf5",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Goodman",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "9135e4551163095b",
-            "886a2662fc3e1791",
-            "661da3109cbc4a60"
-        ],
-        "x": 14,
-        "y": 1619,
-        "w": 422,
-        "h": 82
     },
     {
         "id": "d25d405a.19cff",
@@ -79307,7 +79305,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
+        "x": 1430,
         "y": 400,
         "wires": [
             []
@@ -79592,7 +79590,8 @@
                 "651f72a9b2b840ee",
                 "a2a3eb068018202e",
                 "d9ef3a2c31e1ef64",
-                "63773d70598d995a"
+                "63773d70598d995a",
+                "390900f020d1950d"
             ]
         ]
     },
@@ -79636,6 +79635,13 @@
                 "p": "GeometriaSucket.NStrokes",
                 "pt": "global",
                 "to": "NStrokes",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "GeometriaSucket.HMI.contraPesoCrank",
+                "pt": "global",
+                "to": "contraPesoCrank",
                 "tot": "flow"
             }
         ],
@@ -80272,7 +80278,7 @@
         "z": "b368eb771541cd7f",
         "g": "67a422f5076a03ee",
         "name": "geometriaSensorLess",
-        "func": "var Tipo      = global.get(\"GeometriaSucket.tablaGeometria.Tipo\");\nTipo = Tipo.toUpperCase();\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\"); \nvar CW        = global.get(\"GeometriaSucket.CW\") || -1; // 1. horario positivo // -1.antihorario negativo\nvar A         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")); \nvar I         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.I\"));\nvar H         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.H\"));\nvar G         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.G\"));\nvar C         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar P         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.P\"));\nvar R         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\n\n//Declaración de variables para ecuaciones \nvar K = 0, PHIt = 0, THETAktopt = 0, tetha_top = 0, theta = [], thetaK = [], beta = [],Y_bt = 0, Y_tt = 0 ;\nvar J = [],Y = [],alpha = [], s_pr = [];\n\n// Datos para validación\nA = 336;C = 134.5;I = 130;P = 261.5;H = 303.5;G = 42;R = 47\n\n// Cálculo de K\nK = Math.sqrt(Math.pow(I, 2) + Math.pow((H - G), 2));\n\n// Creacion del vector de ángulo theta(θ) de 0 a 2*pi\nvar paso = (2*Math.PI)/Nmuestras;\ntheta[0] = 0;\nfor (let i = 1; i < Nmuestras; i++) { \n    theta[i] = theta[i - 1] + paso;\n}\n\n//Cálculo de ángulos dependiendo del Tipo de geometría del Machine\nif(Tipo.includes('CONVENCIONAL')){ // Si es de Tipo Convencional \n    PHIt = Math.asin(I/K);\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((R+P),2) - Math.pow(C,2))/(2*K*(R+P)));\n    PHIt < THETAktopt ? tetha_top = PHIt - THETAktopt : tetha_top = PHIt + THETAktopt; \n    //Cálculo de  vectores \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        Y[i] = Math.acos((Math.pow(C, 2) + Math.pow(J[i], 2) - Math.pow(P, 2)) / (2 * C * J[i])) - Math.asin((R / J[i]) * Math.sin(thetaK[i]));\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('MARK')) { // Si es de Tipo Mark II\n    PHIt = Math.atan(I/(H-G)) + Math.PI;\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((P + R), 2) - Math.pow(C,2)) / (2 * K * (P - R)));\n    tetha_top = THETAktopt - (PHIt - Math.PI);\n    //Cálculo de  vectores  \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = (Math.pow(C, 2) + Math.pow(P, 2) - J[i]) / (2 * C * P);\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) - Math.asin(R / J[i]) * Math.sin(theta[i] - PHIt);\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('AIR')) { // Si es de Tipo Airbalance\n    PHIt = Math.PI - Math.atan(I/(H-G));  \n    THETAktopt = Math.acos((Math.pow(K, 2) + Math.pow((P - R), 2) - Math.pow(C, 2)) / (2 * K * (P - R)));\n    //Cálculo de  vectores  \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = (Math.pow(C, 2) + Math.pow(P, 2) - J[i]) / (2 * C * P);\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) + Math.asin(R / J[i]) * Math.sin(theta[i] - PHIt);\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n}\n\n// variables de monitoreo\ncontext.set(\"Tipo\",Tipo,\"memoryOnly\");\ncontext.set(\"Nmuestras\", Nmuestras, \"memoryOnly\");\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"K\", K, \"memoryOnly\");\ncontext.set(\"I\", I, \"memoryOnly\");\ncontext.set(\"H\", H, \"memoryOnly\");\ncontext.set(\"G\", G, \"memoryOnly\");\ncontext.set(\"C\", C, \"memoryOnly\");\ncontext.set(\"R\", R, \"memoryOnly\");\ncontext.set(\"P\", P, \"memoryOnly\");\ncontext.set(\"PHIt\", PHIt, \"memoryOnly\");\ncontext.set(\"THETAktopt\", THETAktopt, \"memoryOnly\");\ncontext.set(\"tetha_top\", tetha_top, \"memoryOnly\");\ncontext.set(\"theta\", theta, \"memoryOnly\");\ncontext.set(\"beta\", beta, \"memoryOnly\");\ncontext.set(\"Y_bt\", Y_bt, \"memoryOnly\");\ncontext.set(\"Y_tt\", Y_tt, \"memoryOnly\");\ncontext.set(\"J\", J, \"memoryOnly\");\ncontext.set(\"Y\", Y, \"memoryOnly\");\ncontext.set(\"alpha\", alpha, \"memoryOnly\");\ncontext.set(\"s_pr\", s_pr, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var Tipo      = global.get(\"GeometriaSucket.tablaGeometria.Tipo\");\nTipo = Tipo.toUpperCase();\nvar CW        = global.get(\"GeometriaSucket.CW\") || -1; // 1. horario positivo // -1.antihorario negativo\nvar A         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\")); \nvar I         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.I\"));\nvar H         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.H\"));\nvar G         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.G\"));\nvar C         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar P         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.P\"));\nvar R         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\nvar vectorPotencia = [2551.885,2526.211, 2762.145, 3150.88, 3471.027, 3689.743, 4114.319, 4615.038, 4850.739, 5001.896, 5272.432, 5594.96, 5888.859, 6347.629, 6842.88, 7367.318, 7921.212, 8516.989, 9109.633, 9632.602, 10197.533, 10698.328, 11190.563, 11553.818, 11697.866, 11495.567, 10985.658, 10299.884, 9439.834, 8447.996, 7398.052, 6339.027, 4935.925, 3031.238, 1459.401, 276.735, -995.331, -2203.813, -2905.728, -3235.214, -3565.211, -3949.811, -4188.03, -4357.996, -4674.874, -4990.204, -5242.468, -5435.884, -5624.201, -6038.198, -6693.041, -7339.044, -8051.254, -8895.816, -9614.21, -10201.138, -10823.343, -11339.426, -11636.271, -11782.147, -11972.128, -11989.768, -11704.662, -11330.022, -10987.564, -10524.297, -9882.706, -9189.292, -8584.183, -7851.256, -7017.601, -6200.305, -5343.426, -4430.933, -3576.711, -2761.184, -1932.628, -549.98, 1023.285, 2116.259, 3323.442, 4808.24, 6057.144, 7129.545, 8445.454, 9693.588, 10728.734, 11758.366, 12826.331, 13582.999, 14218.866, 15069.524, 15737.838, 16248.062, 16888.288, 17608.089, 18025.164, 18633.614, 19340.208, 19911.589, 20582.422, 21522.118, 22438.749, 23263.651, 24143.408, 25048.727, 25803.514, 26474.516, 27176.193, 27786.386, 28262.329, 28520.952, 28501.911, 28034.796, 27190.903, 26228.785, 24982.784, 23454.718, 21755.957, 20000.027, 18192.253, 16202.557, 14243.646, 12335.317, 10649.885, 9217.575, 8083.941, 7108.335, 6272.891, 5557.211, 4842.691, 4222.987, 3666.158, 3238.251, 2871.5, 2659.773, 2569.013, 2589.529, 2578.462, 2539.84, 2679.924];\nfor (let i = 0; i < vectorPotencia.length; i++) {//despues borrar\n    vectorPotencia[i] = vectorPotencia[i]/1000;\n}\nvar Nmuestras = vectorPotencia.length ;\n\n//Declaración de variables para ecuaciones \nvar K = 0, PHIt = 0, THETAktopt = 0, tetha_top = 0, theta = [], thetaK = [], beta = [],Y_bt = 0, Y_tt = 0 ;\nvar J = [],Y = [],alpha = [], s_pr = [];\n\n// Datos para validación\n// A = 336;C = 134.5;I = 130;P = 261.5;H = 303.5;G = 42;R = 47\n\n// Cálculo de K\nK = Math.sqrt(Math.pow(I, 2) + Math.pow((H - G), 2));\n\n// Creacion del vector de ángulo theta(θ) de 0 a 2*pi\nvar paso = (2*Math.PI)/Nmuestras;\ntheta[0] = 0;\nfor (let i = 1; i < Nmuestras; i++) { \n    theta[i] = theta[i - 1] + paso;\n}\n\n//Cálculo de ángulos dependiendo del Tipo de geometría del Machine\nif(Tipo.includes('CONVENCIONAL')){ // Si es de Tipo Convencional \n    PHIt = Math.asin(I/K);\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((R+P),2) - Math.pow(C,2))/(2*K*(R+P)));\n    PHIt < THETAktopt ? tetha_top = PHIt - THETAktopt : tetha_top = PHIt + THETAktopt; \n    //Cálculo de  vectores \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        Y[i] = Math.acos((Math.pow(C, 2) + Math.pow(J[i], 2) - Math.pow(P, 2)) / (2 * C * J[i])) - Math.asin((R / J[i]) * Math.sin(thetaK[i]));\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('MARK')) { // Si es de Tipo Mark II\n    PHIt = Math.atan(I/(H-G)) + Math.PI;\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((P + R), 2) - Math.pow(C,2)) / (2 * K * (P - R)));\n    tetha_top = THETAktopt - (PHIt - Math.PI);\n    //Cálculo de  vectores  \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = (Math.pow(C, 2) + Math.pow(P, 2) - J[i]) / (2 * C * P);\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) - Math.asin(R / J[i]) * Math.sin(theta[i] - PHIt);\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('AIR')) { // Si es de Tipo Airbalance\n    PHIt = Math.PI - Math.atan(I/(H-G));  \n    THETAktopt = Math.acos((Math.pow(K, 2) + Math.pow((P - R), 2) - Math.pow(C, 2)) / (2 * K * (P - R)));\n    //Cálculo de  vectores  \n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] + (CW * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = (Math.pow(C, 2) + Math.pow(P, 2) - J[i]) / (2 * C * P);\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) + Math.asin(R / J[i]) * Math.sin(theta[i] - PHIt);\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n}\n\n// variables de monitoreo\ncontext.set(\"Tipo\",Tipo,\"memoryOnly\");\ncontext.set(\"Nmuestras\", Nmuestras, \"memoryOnly\");\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"K\", K, \"memoryOnly\");\ncontext.set(\"I\", I, \"memoryOnly\");\ncontext.set(\"H\", H, \"memoryOnly\");\ncontext.set(\"G\", G, \"memoryOnly\");\ncontext.set(\"C\", C, \"memoryOnly\");\ncontext.set(\"R\", R, \"memoryOnly\");\ncontext.set(\"P\", P, \"memoryOnly\");\ncontext.set(\"PHIt\", PHIt, \"memoryOnly\");\ncontext.set(\"THETAktopt\", THETAktopt, \"memoryOnly\");\ncontext.set(\"tetha_top\", tetha_top, \"memoryOnly\");\ncontext.set(\"theta\", theta, \"memoryOnly\");\ncontext.set(\"beta\", beta, \"memoryOnly\");\ncontext.set(\"Y_bt\", Y_bt, \"memoryOnly\");\ncontext.set(\"Y_tt\", Y_tt, \"memoryOnly\");\ncontext.set(\"J\", J, \"memoryOnly\");\ncontext.set(\"Y\", Y, \"memoryOnly\");\ncontext.set(\"alpha\", alpha, \"memoryOnly\");\ncontext.set(\"s_pr\", s_pr, \"memoryOnly\");\n\n// guardando variables globales\n\nglobal.set(\"GeometriaSucket.sensorLess.s_pr\", s_pr);\nglobal.set(\"GeometriaSucket.sensorLess.theta\", theta);\nglobal.set(\"GeometriaSucket.sensorLess.vectorPotencia\", theta);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -80282,7 +80288,8 @@
         "y": 360,
         "wires": [
             [
-                "10641359ee0468c8"
+                "10641359ee0468c8",
+                "d159c28bd55674cf"
             ]
         ]
     },
@@ -80917,7 +80924,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "sensorLess",
-        "func": "\nreturn msg;",
+        "func": "var s_pr = (global.get(\"GeometriaSucket.sensorLess.s_pr\")) || [];\nvar VectorCarga = (global.get(\"GeometriaSucket.sensorLess.VectorCarga\")) || [];\n\n\nnode.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\nglobal.set(\"Dinagrama.superficie.Desp_CD\", s_pr);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", VectorCarga);\nglobal.set(\"Dinagrama.superficie.nMuestras\", s_pr.length);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -80927,7 +80934,7 @@
         "y": 620,
         "wires": [
             [
-                "c83932f2c89002b3"
+                "125b080ee8fa7931"
             ]
         ]
     },
@@ -81019,32 +81026,6 @@
         "outputs": 1,
         "x": 550,
         "y": 680,
-        "wires": [
-            [
-                "4456b445ce3c4dfc"
-            ]
-        ]
-    },
-    {
-        "id": "c83932f2c89002b3",
-        "type": "trigger",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "",
-        "op1": "true",
-        "op2": "0",
-        "op1type": "bool",
-        "op2type": "str",
-        "duration": "15",
-        "extend": false,
-        "overrideDelay": false,
-        "units": "min",
-        "reset": "",
-        "bytopic": "all",
-        "topic": "topic",
-        "outputs": 1,
-        "x": 550,
-        "y": 620,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -95237,6 +95218,314 @@
         "y": 1660,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "6c1dc857127dec2b",
+        "type": "function",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "func": "var PotenciaE;//Potencia electrica \"entregada por el CiLA2S\" \nvar PotenciaC = 1;//Potencia del crank\nvar PotenciaPR = 1;//Potencia de la barra pulida\nvar V_angular = 1;//velocidad angular\nvar RefSPM = 4;//referencia SPM\nvar Rcrank = 3;//radio del crank\nvar Tmuestras = 0.002;//Tiempo entre muestras\nvar V_crank = 1200;//velocidad del crank\nvar P_crank = 300;//potencia del crank\nvar W_peso = 50;//masa de los contrapesos (Lbs)\nvar P_barraPulida = context.get(\"P_barraPulida\")||0;//posición de la barra pulida\nvar V_barraPulida = context.get(\"V_barraPulida\") || 0;//velocidad de la barra pulida\nvar Angulo_Maximo = 1.32; // angulo maximo alcanzado por el balancin en la viga viajera\nvar Angulo_instante = 0.9 ;//angulo en el instante de la viga viajera\nvar A = 355; //distancia del cojinete central al extremo posterior de la viga viajera\nvar Indice = context.get(\"Indice\",\"memoryOnly\")||0;//indice\n\nIndice = Indice + 1;\nif (Indice > 161) {\n    Indice = 0;\n}\ncontext.set(\"Indice\", Indice,\"memoryOnly\");\n\nvar L_BarraPulida; //Carga de la barra pulida\nvar Theta = V_angular * Tmuestras; //angulo del crank con respecto a la vertical (Rad)\nPotenciaE = PotenciaC + PotenciaPR; // Balance de potencias generadas y suministradas\nV_angular = (RefSPM * 2 * 3.14)/60;\nV_crank = Rcrank * V_angular * Math.cos(Theta);\nP_crank = W_peso * Rcrank * (Math.cos(Theta)/8851.2);\nP_barraPulida = A * (Angulo_Maximo - Angulo_instante);\nV_barraPulida = (P_barraPulida * (Indice + 1) - P_barraPulida * (Indice))/(Tmuestras*(Indice + 1) - Tmuestras*(Indice))\nL_BarraPulida = ((PotenciaE * 8851.2) - W_peso * Rcrank * V_angular * Math.cos(Theta))/V_barraPulida;\nnode.status({fill:\"red\",shape:\"ring\",text:Indice});\nV_angular = {payload: V_angular};\nV_crank = {payload: V_crank};\nP_crank = {payload: P_crank};\nP_barraPulida = {payload: P_barraPulida};\nV_barraPulida = {payload: V_barraPulida};\nL_BarraPulida = {payload: L_BarraPulida};\nreturn [V_angular, V_crank, P_crank, P_barraPulida, V_barraPulida, L_BarraPulida];",
+        "outputs": 6,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "0e4a8fb756c1d67c"
+            ],
+            [
+                "562ceb757ef1da2c"
+            ],
+            [
+                "874eae35f39d2bc1"
+            ],
+            [
+                "ef45345cde29a382"
+            ],
+            [
+                "5d0e6a7512597c7c"
+            ],
+            [
+                "30fdde8a0f1a4333"
+            ]
+        ]
+    },
+    {
+        "id": "0e4a8fb756c1d67c",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "562ceb757ef1da2c",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 890,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "874eae35f39d2bc1",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 910,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ef45345cde29a382",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 910,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5d0e6a7512597c7c",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 890,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "30fdde8a0f1a4333",
+        "type": "debug",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "1ae8e1363cdee4ca",
+        "type": "link in",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "links": [
+            "e91f09ccd1f93d8a"
+        ],
+        "x": 405,
+        "y": 220,
+        "wires": [
+            [
+                "6c1dc857127dec2b"
+            ]
+        ]
+    },
+    {
+        "id": "b6d8dc46a16c6d3e",
+        "type": "inject",
+        "z": "cb3148def139ee28",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 360,
+        "y": 300,
+        "wires": [
+            [
+                "6c1dc857127dec2b"
+            ]
+        ]
+    },
+    {
+        "id": "d159c28bd55674cf",
+        "type": "function",
+        "z": "b368eb771541cd7f",
+        "g": "67a422f5076a03ee",
+        "name": "cargaSensorLess",
+        "func": "var contraPesoCrank = global.get(\"GeometriaSucket.HMI.contraPesoCrank\")||1327;\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\")||0;//variable de HMI no cambiar \nvar SPM = 8;//poner la variable asignada \nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"))||0;\nvar s_pr = (global.get(\"GeometriaSucket.sensorLess.s_pr\"))||0;\nvar vectorPotencia = (global.get(\"GeometriaSucket.sensorLess.vectorPotencia\"))||0;\nvar theta = (global.get(\"GeometriaSucket.sensorLess.theta\"))||[];\nvar paso = (2 * Math.PI) / Nmuestras, velAngular = 0, P_crank = [], VectorVelocidad = [], VectorCarga = [];\nvar conversion = 1/8.851;//conversion a kw para trabajar con la potencia electrica\nvar dt = 60/(SPM*Nmuestras);\n\n// velocidad angular\nvelAngular = (2*Math.PI*SPM)/60\n\n// potencia del crank\nfor (let i = 0; i < theta.length; i++) {\n    P_crank[i] = conversion*contraPesoCrank*velAngular*R*Math.cos(theta[i]);\n}\n//hallar el vector de velocidad\nfor (let i = 0; i < s_pr.length; i++) {\n    if(i == 0){\n        VectorVelocidad[i] = (s_pr[s_pr.length - 1] - s_pr[0]) / (dt);\n    }else{\n        VectorVelocidad[i] = (s_pr[i] - s_pr[i - 1]) / (dt);\n    }\n}\nVectorVelocidad[VectorVelocidad.length - 1] = VectorVelocidad[0];\nfor (let i = 0; i < VectorVelocidad.length; i++) {\n    VectorCarga[i] = (vectorPotencia[i] + P_crank[i]) / (conversion * VectorVelocidad[i]);\n}\n\n\ncontext.set(\"ingreso.R\", R,\"memoryOnly\");\ncontext.set(\"ingreso.theta\", theta,\"memoryOnly\");\ncontext.set(\"ingreso.s_pr\", s_pr,\"memoryOnly\");\n\ncontext.set(\"calculo.velAngular\", velAngular,\"memoryOnly\");\ncontext.set(\"calculo.conversion\", conversion,\"memoryOnly\");\ncontext.set(\"calculo.paso\", paso,\"memoryOnly\");\ncontext.set(\"calculo.P_crank\", P_crank,\"memoryOnly\");\ncontext.set(\"calculo.contraPesoCrank\", contraPesoCrank,\"memoryOnly\");\ncontext.set(\"calculo.VectorVelocidad\", VectorVelocidad,\"memoryOnly\");\ncontext.set(\"calculo.VectorCarga\", VectorCarga,\"memoryOnly\");\n\nglobal.set(\"GeometriaSucket.sensorLess.VectorCarga\",VectorCarga)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5dacae1a6ea55864",
+        "type": "ui_text_input",
+        "z": "b368eb771541cd7f",
+        "g": "19f535ea5a685c61",
+        "name": "",
+        "label": "Contra Peso Crank",
+        "tooltip": "",
+        "group": "e5360c10debc8116",
+        "order": 18,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 890,
+        "y": 920,
+        "wires": [
+            [
+                "c71a39f76d899945"
+            ]
+        ]
+    },
+    {
+        "id": "c71a39f76d899945",
+        "type": "change",
+        "z": "b368eb771541cd7f",
+        "g": "19f535ea5a685c61",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "contraPesoCrank",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "390900f020d1950d",
+        "type": "function",
+        "z": "b368eb771541cd7f",
+        "g": "19f535ea5a685c61",
+        "name": "contraPeso",
+        "func": "var CW = global.get(\"GeometriaSucket.HMI.contraPesoCrank\") || 1327;\ncontext.set(\"CW\", CW,\"memoryOnly\");\nmsg.payload = CW;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 920,
+        "wires": [
+            [
+                "5dacae1a6ea55864"
+            ]
+        ]
+    },
+    {
+        "id": "17e7d4e07d89e0fb",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 520,
+        "wires": [
+            [
+                "ac4a66e053e20cde"
+            ]
+        ]
+    },
+    {
+        "id": "125b080ee8fa7931",
+        "type": "trigger",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "",
+        "op1": "true",
+        "op2": "0",
+        "op1type": "bool",
+        "op2type": "str",
+        "duration": "15",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "min",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 550,
+        "y": 620,
+        "wires": [
+            [
+                "4456b445ce3c4dfc"
+            ]
         ]
     }
 ]
