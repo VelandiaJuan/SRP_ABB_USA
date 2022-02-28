@@ -154,9 +154,9 @@
         "info": ""
     },
     {
-        "id": "cb3148def139ee28",
+        "id": "ba668bc685d26b37",
         "type": "tab",
-        "label": "Celda De Carga",
+        "label": "GoodMan",
         "disabled": false,
         "info": ""
     },
@@ -942,7 +942,9 @@
             "b75baf6b933974a3"
         ],
         "x": 34,
-        "y": 479
+        "y": 479,
+        "w": 2312,
+        "h": 592
     },
     {
         "id": "3cb51855.a66038",
@@ -962,7 +964,9 @@
             "1a154fa903ebee99"
         ],
         "x": 774,
-        "y": 1099
+        "y": 1099,
+        "w": 252,
+        "h": 162
     },
     {
         "id": "27a0641a.d154dc",
@@ -1602,7 +1606,9 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 352,
+        "h": 82
     },
     {
         "id": "6202107f.ed9aa",
@@ -1680,7 +1686,9 @@
             "e3de878274ce24cf"
         ],
         "x": 4,
-        "y": -1
+        "y": -1,
+        "w": 1982,
+        "h": 402
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1697,7 +1705,9 @@
             "f7709059ebe5ad7b"
         ],
         "x": 92,
-        "y": 1913
+        "y": 1913,
+        "w": 1946,
+        "h": 1400
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1713,7 +1723,9 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1339
+        "y": 1339,
+        "w": 342,
+        "h": 82
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1735,7 +1747,9 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1184,
-        "y": 1359
+        "y": 1359,
+        "w": 852,
+        "h": 182
     },
     {
         "id": "086b9d08c3b68939",
@@ -1762,7 +1776,9 @@
             "f9ef677b4ad63e67"
         ],
         "x": 34,
-        "y": 1089
+        "y": 1089,
+        "w": 732,
+        "h": 242
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1787,7 +1803,9 @@
             "03894c480a20a7a9"
         ],
         "x": 1174,
-        "y": 1139
+        "y": 1139,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -1928,7 +1946,9 @@
             "fd43d65633c388cf"
         ],
         "x": 794,
-        "y": 1719
+        "y": 1719,
+        "w": 752,
+        "h": 182
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -1974,7 +1994,9 @@
             "93b21d74000b52e7"
         ],
         "x": 34,
-        "y": 1539
+        "y": 1539,
+        "w": 692,
+        "h": 122
     },
     {
         "id": "38940f8.c9c27f",
@@ -2418,9 +2440,7 @@
             "d159c28bd55674cf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1852,
-        "h": 968
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2808,7 +2828,9 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 34,
-        "y": 1699
+        "y": 1699,
+        "w": 752,
+        "h": 202
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -3246,9 +3268,7 @@
             "665ee3571d4304f3"
         ],
         "x": 154,
-        "y": 1279,
-        "w": 1002,
-        "h": 282
+        "y": 1279
     },
     {
         "id": "60dd1be9811f2cdb",
@@ -3277,9 +3297,7 @@
             "7858fff2ef58a324"
         ],
         "x": 148,
-        "y": 739,
-        "w": 1074,
-        "h": 515.5
+        "y": 739
     },
     {
         "id": "8ae034dd7eca71b4",
@@ -3304,9 +3322,7 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1254,
-        "y": 739,
-        "w": 692,
-        "h": 282
+        "y": 739
     },
     {
         "id": "e8ed88c2e7ce6e23",
@@ -3349,9 +3365,7 @@
             "d2833964310ec93c"
         ],
         "x": 134,
-        "y": 179,
-        "w": 1272,
-        "h": 528
+        "y": 179
     },
     {
         "id": "394e81d071ef9585",
@@ -3383,9 +3397,7 @@
             "1e4fb15af269d8a0"
         ],
         "x": 1254,
-        "y": 1039,
-        "w": 1022,
-        "h": 282
+        "y": 1039
     },
     {
         "id": "936eab7d97be78af",
@@ -3667,7 +3679,7 @@
         "id": "193969f706c28bf5",
         "type": "group",
         "z": "6a1ef6a7aef873a7",
-        "name": "Goodman",
+        "name": "Goodman 3D",
         "style": {
             "label": true
         },
@@ -4025,7 +4037,9 @@
             "f458467692584c33"
         ],
         "x": 134,
-        "y": 1939
+        "y": 1939,
+        "w": 772,
+        "h": 702
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4046,7 +4060,9 @@
             "6180593531e9795d"
         ],
         "x": 118,
-        "y": 2819
+        "y": 2819,
+        "w": 1894,
+        "h": 468
     },
     {
         "id": "c483d44b5f6def10",
@@ -4079,7 +4095,9 @@
             "90fdc4810e9cd514"
         ],
         "x": 934,
-        "y": 1939
+        "y": 1939,
+        "w": 692,
+        "h": 862
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5567,9 +5585,7 @@
             "da401206ced2ccd2"
         ],
         "x": 174,
-        "y": 999,
-        "w": 1022,
-        "h": 229.5
+        "y": 999
     },
     {
         "id": "1cb507b15d91d4f1",
@@ -5587,9 +5603,7 @@
             "10e15c505dfc082a"
         ],
         "x": 174,
-        "y": 559,
-        "w": 400,
-        "h": 122
+        "y": 559
     },
     {
         "id": "19f535ea5a685c61",
@@ -5631,9 +5645,7 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539,
-        "w": 1022,
-        "h": 422
+        "y": 539
     },
     {
         "id": "504a9190c56704f4",
@@ -5704,7 +5716,9 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 734,
-        "y": 3019
+        "y": 3019,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5730,7 +5744,9 @@
             "7578d16bf9d408ae"
         ],
         "x": 144,
-        "y": 2899
+        "y": 2899,
+        "w": 572,
+        "h": 362
     },
     {
         "id": "742e267a.cbc27",
@@ -10822,6 +10838,26 @@
         "order": 4,
         "width": 6,
         "height": 1
+    },
+    {
+        "id": "f7563779dea6779f",
+        "type": "ui_tab",
+        "name": "AVAS",
+        "icon": "dashboard",
+        "order": 13,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "678d528cc043711b",
+        "type": "ui_group",
+        "name": "Goodman",
+        "tab": "f7563779dea6779f",
+        "order": 1,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "8c24ec8f.cf43c",
@@ -95172,9 +95208,7 @@
         "x": 55,
         "y": 1660,
         "wires": [
-            [
-                "886a2662fc3e1791"
-            ]
+            []
         ]
     },
     {
@@ -95197,9 +95231,7 @@
         "x": 170,
         "y": 1660,
         "wires": [
-            [
-                "661da3109cbc4a60"
-            ]
+            []
         ]
     },
     {
@@ -95218,177 +95250,6 @@
         "y": 1660,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "6c1dc857127dec2b",
-        "type": "function",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "func": "var PotenciaE;//Potencia electrica \"entregada por el CiLA2S\" \nvar PotenciaC = 1;//Potencia del crank\nvar PotenciaPR = 1;//Potencia de la barra pulida\nvar V_angular = 1;//velocidad angular\nvar RefSPM = 4;//referencia SPM\nvar Rcrank = 3;//radio del crank\nvar Tmuestras = 0.002;//Tiempo entre muestras\nvar V_crank = 1200;//velocidad del crank\nvar P_crank = 300;//potencia del crank\nvar W_peso = 50;//masa de los contrapesos (Lbs)\nvar P_barraPulida = context.get(\"P_barraPulida\")||0;//posición de la barra pulida\nvar V_barraPulida = context.get(\"V_barraPulida\") || 0;//velocidad de la barra pulida\nvar Angulo_Maximo = 1.32; // angulo maximo alcanzado por el balancin en la viga viajera\nvar Angulo_instante = 0.9 ;//angulo en el instante de la viga viajera\nvar A = 355; //distancia del cojinete central al extremo posterior de la viga viajera\nvar Indice = context.get(\"Indice\",\"memoryOnly\")||0;//indice\n\nIndice = Indice + 1;\nif (Indice > 161) {\n    Indice = 0;\n}\ncontext.set(\"Indice\", Indice,\"memoryOnly\");\n\nvar L_BarraPulida; //Carga de la barra pulida\nvar Theta = V_angular * Tmuestras; //angulo del crank con respecto a la vertical (Rad)\nPotenciaE = PotenciaC + PotenciaPR; // Balance de potencias generadas y suministradas\nV_angular = (RefSPM * 2 * 3.14)/60;\nV_crank = Rcrank * V_angular * Math.cos(Theta);\nP_crank = W_peso * Rcrank * (Math.cos(Theta)/8851.2);\nP_barraPulida = A * (Angulo_Maximo - Angulo_instante);\nV_barraPulida = (P_barraPulida * (Indice + 1) - P_barraPulida * (Indice))/(Tmuestras*(Indice + 1) - Tmuestras*(Indice))\nL_BarraPulida = ((PotenciaE * 8851.2) - W_peso * Rcrank * V_angular * Math.cos(Theta))/V_barraPulida;\nnode.status({fill:\"red\",shape:\"ring\",text:Indice});\nV_angular = {payload: V_angular};\nV_crank = {payload: V_crank};\nP_crank = {payload: P_crank};\nP_barraPulida = {payload: P_barraPulida};\nV_barraPulida = {payload: V_barraPulida};\nL_BarraPulida = {payload: L_BarraPulida};\nreturn [V_angular, V_crank, P_crank, P_barraPulida, V_barraPulida, L_BarraPulida];",
-        "outputs": 6,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 540,
-        "y": 220,
-        "wires": [
-            [
-                "0e4a8fb756c1d67c"
-            ],
-            [
-                "562ceb757ef1da2c"
-            ],
-            [
-                "874eae35f39d2bc1"
-            ],
-            [
-                "ef45345cde29a382"
-            ],
-            [
-                "5d0e6a7512597c7c"
-            ],
-            [
-                "30fdde8a0f1a4333"
-            ]
-        ]
-    },
-    {
-        "id": "0e4a8fb756c1d67c",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 850,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "562ceb757ef1da2c",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 890,
-        "y": 120,
-        "wires": []
-    },
-    {
-        "id": "874eae35f39d2bc1",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 910,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "ef45345cde29a382",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 910,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "5d0e6a7512597c7c",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 890,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "30fdde8a0f1a4333",
-        "type": "debug",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 850,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "1ae8e1363cdee4ca",
-        "type": "link in",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "links": [
-            "e91f09ccd1f93d8a"
-        ],
-        "x": 405,
-        "y": 220,
-        "wires": [
-            [
-                "6c1dc857127dec2b"
-            ]
-        ]
-    },
-    {
-        "id": "b6d8dc46a16c6d3e",
-        "type": "inject",
-        "z": "cb3148def139ee28",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 360,
-        "y": 300,
-        "wires": [
-            [
-                "6c1dc857127dec2b"
-            ]
         ]
     },
     {
@@ -95526,6 +95387,256 @@
             [
                 "4456b445ce3c4dfc"
             ]
+        ]
+    },
+    {
+        "id": "1634929e5e1b337d",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "CalculoGoodman",
+        "func": "var Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\")||0;\nvar Trod = parametroSarta[0].RodResistence;\nvar Sartas_AreaCabilla = global.get(\"Goodman.config.Sartas_AreaCabilla\") || [];\nvar SF = global.get(\"Goodman.HMI.SF\") || 0.8;\nvar Lmin = Esfu_CD[0], Lmax = Esfu_CD[0];\nvar Smin = 0,Smax = 0,Sadm = 0, porcentaje = 0;\n\n// calculo del esfuerzo maximo y minimo \nfor (let i = 0; i < Esfu_CD.length; i++) {\n    if (Esfu_CD[i] < Lmin){\n        Lmin = Esfu_CD[i];\n    }\n    if (Esfu_CD[i] > Lmax){\n        Lmax = Esfu_CD[i];\n    }\n}\n\nSmin = 1000*(Lmin / Sartas_AreaCabilla[0]);\nSmax = 1000*(Lmax / Sartas_AreaCabilla[0]);\n\n// S Adminisible\nSadm = ((Trod/4) + (0.5625*Smin))*SF;\n\n// porcentaje \nporcentaje = ((Smax - Smin)/(Sadm -Smin))*100;\n\n\ncontext.set(\"Ingreso.Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Ingreso.Sartas_AreaCabilla\", Sartas_AreaCabilla, \"memoryOnly\");\ncontext.set(\"Ingreso.parametroSarta\", parametroSarta, \"memoryOnly\");\ncontext.set(\"Ingreso.Trod\", Trod, \"memoryOnly\");\ncontext.set(\"Ingreso.SF\", SF, \"memoryOnly\");\n\n// variables calculadas \ncontext.set(\"Calculo.Lmin\", Lmin, \"memoryOnly\");\ncontext.set(\"Calculo.Lmax\", Lmax, \"memoryOnly\");\ncontext.set(\"Calculo.Sadm\", Sadm, \"memoryOnly\");\ncontext.set(\"Calculo.porcentaje\", porcentaje, \"memoryOnly\");\n\n\nglobal.set(\"Goodman.grafica.Smin\", Smin);\nglobal.set(\"Goodman.grafica.Smax\", Smax);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "05aa0bd34ae2e3e8"
+            ]
+        ]
+    },
+    {
+        "id": "016ad89f1088dc4f",
+        "type": "inject",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "1634929e5e1b337d"
+            ]
+        ]
+    },
+    {
+        "id": "284d85d6d22f3795",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "GraficaGoodman",
+        "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Smax = global.get(\"Goodman.grafica.Smax\")||0;\nvar Smin = global.get(\"Goodman.grafica.Smin\")||0;\nvar Trod = parametroSarta[0].RodResistence;\n\nvar x = [Trod, -Trod / 3, -Trod / 3]\nvar y = [Trod, Trod / 3, -Trod / 3]\n\nvar x1 = [0,]//esfuerzo Admisible\nvar y1 = [Trod/4,]\n\nvar x2 = [0,Trod,Trod]\nvar y2 = [Trod,Trod,0]\n\nvar tendencia1 = {x,y};\nvar tendencia2 = {x1,y1};\nvar tendencia3 = {x2,y2};\nvar punto = [Smin, Smax];\n\ncontext.set(\"tendencia1\", tendencia1,\"memoryOnly\")\ncontext.set(\"tendencia2\", tendencia2,\"memoryOnly\")\ncontext.set(\"tendencia3\", tendencia3,\"memoryOnly\")\ncontext.set(\"punto\", punto,\"memoryOnly\")\n\nglobal.set(\"Goodman.grafica.punto\", punto);\nglobal.set(\"Goodman.grafica.tendencia1\", tendencia1);\nglobal.set(\"Goodman.grafica.tendencia2\", tendencia2);\nglobal.set(\"Goodman.grafica.tendencia3\", tendencia3);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "05aa0bd34ae2e3e8",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "Esfuerzo Admisible",
+        "func": "// Ecuación de la recta con dos puntos \nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\n// y = mx + b \nvar y = Trod/1.75;\nvar x1 = 0;\nvar x2 = Trod;\nvar y1 = 0;\nvar y2 = Trod;\nvar x = 0;\n// calculo del punto de intercepción\nx = ((y-y1)*(x1-x2)+ x1*y1 -x1*y1)/(y1-y2);\n\n//creación de los puntos \nvar ejeX = [0,x]\nvar ejeY = [Trod/4,y]\nvar esfuerzoAdmisible = {ejeX,ejeY};\nglobal.set(\"Goodman.grafica.esfuerzoAdmisible\", esfuerzoAdmisible);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "aac637270f68c1ba"
+            ]
+        ]
+    },
+    {
+        "id": "aac637270f68c1ba",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "Punto Movil",
+        "func": "var Smax = global.get(\"Goodman.grafica.Smax\") || 0;\nvar Smin = global.get(\"Goodman.grafica.Smin\") || 0;\nvar punto = [Smin, Smax];\n\nglobal.set(\"Goodman.grafica.punto\", punto);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "602d55bfa441b5ad"
+            ]
+        ]
+    },
+    {
+        "id": "602d55bfa441b5ad",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "Triangulo",
+        "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\nvar x = [Trod, -Trod / 3, -Trod / 3];\nvar y = [Trod, Trod / 3, -Trod / 3];\nvar triangulo = {x,y};\nglobal.set(\"Goodman.grafica.triangulo\", triangulo);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "f6c92ba67d8af2d9",
+                "d7691b30c25e59ef"
+            ]
+        ]
+    },
+    {
+        "id": "cc147966cb46d595",
+        "type": "ui_chart",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "group": "678d528cc043711b",
+        "order": 0,
+        "width": "6",
+        "height": "6",
+        "label": "Goodman",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#000000",
+            "#0080ff",
+            "#ff0000",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6c92ba67d8af2d9",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "chart",
+        "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nvar chart = [{\n    \"series\": [\"Punto\", \"EsfMínimo\", \"EsfAdmisible\"],\n    \"data\": [\n        [{ \"x\": punto[0], \"y\": punto[1] }, { \"x\": punto[0] + 0.1, \"y\": punto[1] +0.1 }],\n        [{ \"x\": triangulo.x[0], \"y\": triangulo.y[0] }, { \"x\": triangulo.x[1], \"y\": triangulo.y[1] }, { \"x\": triangulo.x[2], \"y\": triangulo.y[2] }, { \"x\": triangulo.x[0], \"y\": triangulo.y[0] }],\n        [{ \"x\": esfuerzoAdmisible.ejeX[0], \"y\": esfuerzoAdmisible.ejeY[0] }, { \"x\": esfuerzoAdmisible.ejeX[1], \"y\": esfuerzoAdmisible.ejeY[1]}]\n    ],\n    \"labels\": [\"A\",\"B\",\"C\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "cc147966cb46d595"
+            ]
+        ]
+    },
+    {
+        "id": "9b16756eb3a783d1",
+        "type": "ui_template",
+        "z": "ba668bc685d26b37",
+        "group": "678d528cc043711b",
+        "name": "",
+        "order": 1,
+        "width": "8",
+        "height": "8",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 620,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3316e4228282fb39",
+        "type": "template",
+        "z": "ba668bc685d26b37",
+        "name": "Surface1",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [40],\n                y: [10],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "output": "str",
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "9b16756eb3a783d1"
+            ]
+        ]
+    },
+    {
+        "id": "d7691b30c25e59ef",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "chart",
+        "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nvar chart = [{\n    \"series\": [\"Punto\", \"EsfMínimo\", \"EsfAdmisible\"],\n    \"data\": [\n        [{ \"x\": punto[0], \"y\": punto[1] }, { \"x\": punto[0] + 0.1, \"y\": punto[1] +0.1 }],\n        [{ \"x\": triangulo.x[0], \"y\": triangulo.y[0] }, { \"x\": triangulo.x[1], \"y\": triangulo.y[1] }, { \"x\": triangulo.x[2], \"y\": triangulo.y[2] }, { \"x\": triangulo.x[0], \"y\": triangulo.y[0] }],\n        [{ \"x\": esfuerzoAdmisible.ejeX[0], \"y\": esfuerzoAdmisible.ejeY[0] }, { \"x\": esfuerzoAdmisible.ejeX[1], \"y\": esfuerzoAdmisible.ejeY[1]}]\n    ],\n    \"labels\": [\"A\",\"B\",\"C\"]\n}];\n\nmsg.puntox = punto[0];\nmsg.puntoy = punto[1];\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69a0d0bcbe045fc4",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "DataSuperficie",
+        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar xFondo = global.get(\"Dinagrama.fondo.Desp_CD\") || 0;\nvar yFondo = global.get(\"Dinagrama.fondo.Esfu_CD\") || 0;\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    msg.xSuperficie = Desp_CD;//Dinagrama de Superficie\n    msg.ySuperficie = Esfu_CD;\n    msg.xFondo = xFondo;//Dinagrama de Fondo\n    msg.yFondo = yFondo;\n    // variables de monitoreo\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 380,
+        "wires": [
+            []
         ]
     }
 ]
