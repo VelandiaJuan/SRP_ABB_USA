@@ -942,9 +942,7 @@
             "b75baf6b933974a3"
         ],
         "x": 34,
-        "y": 479,
-        "w": 2312,
-        "h": 592
+        "y": 479
     },
     {
         "id": "3cb51855.a66038",
@@ -964,9 +962,7 @@
             "1a154fa903ebee99"
         ],
         "x": 774,
-        "y": 1099,
-        "w": 252,
-        "h": 162
+        "y": 1099
     },
     {
         "id": "27a0641a.d154dc",
@@ -1606,9 +1602,7 @@
             "84eb16f681c366e0"
         ],
         "x": 34,
-        "y": 1439,
-        "w": 352,
-        "h": 82
+        "y": 1439
     },
     {
         "id": "6202107f.ed9aa",
@@ -1686,9 +1680,7 @@
             "e3de878274ce24cf"
         ],
         "x": 4,
-        "y": -1,
-        "w": 1982,
-        "h": 402
+        "y": -1
     },
     {
         "id": "986845c5f7bf4a6e",
@@ -1705,9 +1697,7 @@
             "f7709059ebe5ad7b"
         ],
         "x": 92,
-        "y": 1913,
-        "w": 1946,
-        "h": 1400
+        "y": 1913
     },
     {
         "id": "0379aa12b6a49e83",
@@ -1723,9 +1713,7 @@
             "9f18333324a3788b"
         ],
         "x": 44,
-        "y": 1339,
-        "w": 342,
-        "h": 82
+        "y": 1339
     },
     {
         "id": "9ede9b9e7f6ac7f4",
@@ -1747,9 +1735,7 @@
             "fadff7a7b6574e6e"
         ],
         "x": 1184,
-        "y": 1359,
-        "w": 852,
-        "h": 182
+        "y": 1359
     },
     {
         "id": "086b9d08c3b68939",
@@ -1776,9 +1762,7 @@
             "f9ef677b4ad63e67"
         ],
         "x": 34,
-        "y": 1089,
-        "w": 732,
-        "h": 242
+        "y": 1089
     },
     {
         "id": "6b3fc99d.7d45d8",
@@ -1803,9 +1787,7 @@
             "03894c480a20a7a9"
         ],
         "x": 1174,
-        "y": 1139,
-        "w": 1192,
-        "h": 202
+        "y": 1139
     },
     {
         "id": "9a734cfed6dfbaf1",
@@ -1946,9 +1928,7 @@
             "fd43d65633c388cf"
         ],
         "x": 794,
-        "y": 1719,
-        "w": 752,
-        "h": 182
+        "y": 1719
     },
     {
         "id": "5c9801fdee1b9e98",
@@ -1994,9 +1974,7 @@
             "93b21d74000b52e7"
         ],
         "x": 34,
-        "y": 1539,
-        "w": 692,
-        "h": 122
+        "y": 1539
     },
     {
         "id": "38940f8.c9c27f",
@@ -2828,9 +2806,7 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 34,
-        "y": 1699,
-        "w": 752,
-        "h": 202
+        "y": 1699
     },
     {
         "id": "7e3feaafc9cdd98f",
@@ -4037,9 +4013,7 @@
             "f458467692584c33"
         ],
         "x": 134,
-        "y": 1939,
-        "w": 772,
-        "h": 702
+        "y": 1939
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -4060,9 +4034,7 @@
             "6180593531e9795d"
         ],
         "x": 118,
-        "y": 2819,
-        "w": 1894,
-        "h": 468
+        "y": 2819
     },
     {
         "id": "c483d44b5f6def10",
@@ -4095,9 +4067,7 @@
             "90fdc4810e9cd514"
         ],
         "x": 934,
-        "y": 1939,
-        "w": 692,
-        "h": 862
+        "y": 1939
     },
     {
         "id": "5d9b6e5b.adfe78",
@@ -5716,9 +5686,7 @@
             "5d1f6d0f9daa5340"
         ],
         "x": 734,
-        "y": 3019,
-        "w": 1252,
-        "h": 242
+        "y": 3019
     },
     {
         "id": "36fa9c99094e8f47",
@@ -5744,9 +5712,7 @@
             "7578d16bf9d408ae"
         ],
         "x": 144,
-        "y": 2899,
-        "w": 572,
-        "h": 362
+        "y": 2899
     },
     {
         "id": "742e267a.cbc27",
@@ -95487,7 +95453,7 @@
         "type": "function",
         "z": "ba668bc685d26b37",
         "name": "Triangulo",
-        "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\nvar x = [Trod, -Trod / 3, -Trod / 3];\nvar y = [Trod, Trod / 3, -Trod / 3];\nvar triangulo = {x,y};\nglobal.set(\"Goodman.grafica.triangulo\", triangulo);\nreturn msg;",
+        "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\nvar x = [Trod, -Trod / 3, -Trod / 3,Trod];\nvar y = [Trod, Trod / 3, -Trod / 3,Trod];\nvar triangulo = {x,y};\nglobal.set(\"Goodman.grafica.triangulo\", triangulo);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -95595,7 +95561,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [40],\n                y: [10],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"trianguloX\" ng-bind-html=\"msg.trianguloX\" style=\"display:none\"></div>\n    <div id=\"trianguloY\" ng-bind-html=\"msg.trianguloY \" style=\"display:none\"></div>\n\n    <div id=\"esfuerzoAdmisibleX\" ng-bind-html=\"msg.esfuerzoAdmisibleX \" style=\"display:none\"></div>\n    <div id=\"esfuerzoAdmisibleY\" ng-bind-html=\"msg.esfuerzoAdmisibleY \" style=\"display:none\"></div>\n\n\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"Goodman()\" class=\"btn btn-light btn-sm\">Goodman</div>\n    </div>\n    \n    {{!-- espacio para plotear el Goodman --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Goodman\n        function Goodman() {\n            // adquisión del punto \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n            // puntoX = parseFloat(puntoX.toFixed(2));//redondeo a 2 cifras decimales\n            // puntoY = parseFloat(puntoY.toFixed(2));//redondeo a 2 cifras decimales\n            \n            var trianguloX = document.getElementById(\"trianguloX\").innerHTML;//adquision de data desde nodered\n            var trianguloY = document.getElementById(\"trianguloY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x1 = trianguloX.split(\",\");\n            var y1 = trianguloY.split(\",\");\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n            var esfuerzoAdmisibleX = document.getElementById(\"esfuerzoAdmisibleX\").innerHTML;//adquision de data desde nodered\n            var esfuerzoAdmisibleY = document.getElementById(\"esfuerzoAdmisibleY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x2 = esfuerzoAdmisibleX.split(\",\");\n            var y2 = esfuerzoAdmisibleY.split(\",\");\n            for(i = 0; i < x2.length; i++) {\n                x2[i] = Redondeo(x2[i]);\n                y2[i] = Redondeo(y2[i]);\n            }\n\n            var trace1  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Punto',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: x1,\n                y: y1,\n                name: 'E Mínimo',\n                mode: 'scatter'\n            };\n            var trace3  = {\n                x: x2,\n                y: y2,\n                name: 'E Admisible',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Goodman',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            \n            var data = [trace1,trace2,trace3];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 480,
         "y": 300,
@@ -95610,7 +95576,7 @@
         "type": "function",
         "z": "ba668bc685d26b37",
         "name": "chart",
-        "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nvar chart = [{\n    \"series\": [\"Punto\", \"EsfMínimo\", \"EsfAdmisible\"],\n    \"data\": [\n        [{ \"x\": punto[0], \"y\": punto[1] }, { \"x\": punto[0] + 0.1, \"y\": punto[1] +0.1 }],\n        [{ \"x\": triangulo.x[0], \"y\": triangulo.y[0] }, { \"x\": triangulo.x[1], \"y\": triangulo.y[1] }, { \"x\": triangulo.x[2], \"y\": triangulo.y[2] }, { \"x\": triangulo.x[0], \"y\": triangulo.y[0] }],\n        [{ \"x\": esfuerzoAdmisible.ejeX[0], \"y\": esfuerzoAdmisible.ejeY[0] }, { \"x\": esfuerzoAdmisible.ejeX[1], \"y\": esfuerzoAdmisible.ejeY[1]}]\n    ],\n    \"labels\": [\"A\",\"B\",\"C\"]\n}];\n\nmsg.puntox = punto[0];\nmsg.puntoy = punto[1];\n\nreturn msg;",
+        "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nmsg.puntoX = punto[0];\nmsg.puntoY = punto[1];\nmsg.trianguloX = triangulo.x;\nmsg.trianguloY = triangulo.y;\n\nmsg.esfuerzoAdmisibleX = esfuerzoAdmisible.ejeX;\nmsg.esfuerzoAdmisibleY = esfuerzoAdmisible.ejeY;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -95619,7 +95585,10 @@
         "x": 350,
         "y": 300,
         "wires": [
-            []
+            [
+                "3316e4228282fb39",
+                "339e5bb7f9f9c951"
+            ]
         ]
     },
     {
@@ -95638,5 +95607,22 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "339e5bb7f9f9c951",
+        "type": "debug",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 480,
+        "y": 340,
+        "wires": []
     }
 ]
