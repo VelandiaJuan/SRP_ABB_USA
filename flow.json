@@ -2448,9 +2448,7 @@
             "d159c28bd55674cf"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1852,
-        "h": 968
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2524,7 +2522,8 @@
             "6e32e69b3c36cf45",
             "2a915034063e5436",
             "fc2cda53fe8157fe",
-            "9d6ec3009b50de4b"
+            "9d6ec3009b50de4b",
+            "de06d33608ea1299"
         ],
         "x": 14,
         "y": 999,
@@ -5670,9 +5669,7 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539,
-        "w": 1022,
-        "h": 422
+        "y": 539
     },
     {
         "id": "504a9190c56704f4",
@@ -6426,9 +6423,9 @@
             "c1aa521337e30c76",
             "3b8d6f41c33605f7"
         ],
-        "x": 104,
+        "x": 94,
         "y": 669,
-        "w": 1202,
+        "w": 1212,
         "h": 842
     },
     {
@@ -94126,7 +94123,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "a063560e4a0a3bf1",
         "name": "Filtro Savgol",
-        "func": "var Desp_CD_F1 = flow.get(\"Desp_CD_F1\") || 0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\") || 0;\n\nvar Esfu_CD_F = Savgol(Esfu_CD_F1,3);\nvar Desp_CD_F = Savgol(Desp_CD_F1,3);\n\n// cerrar el dinagrama de superficie\nEsfu_CD_F[Esfu_CD_F.length] = Esfu_CD_F[0];\nDesp_CD_F[Desp_CD_F.length] = Desp_CD_F[0];\n\n//  variables de contexto\ncontext.set(\"t\", Desp_CD_F1.length,\"memoryOnly\");\ncontext.set(\"t_d\", Esfu_CD_F.length,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\ncontext.set(\"Desp_CD_F\", Desp_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"tamano\", Desp_CD_F.length,\"memoryOnly\");\n// variables globales\nglobal.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD_F);\nglobal.set(\"Dinagrama.fondo.nMuestras\", Desp_CD_F.length);\nglobal.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD_F);\n\n\nfunction Savgol(X,caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n        // se define el caso 3 en caso tal de que no\n        for (let i = 4; i < X.length - 4; i++) {\n            y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n            k = k + 1;\n        }\n            \n    }\n    return y\n}\nreturn msg;",
+        "func": "var Desp_CD_F1 = flow.get(\"Desp_CD_F1\") || 0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\") || 0;\n\nvar Esfu_CD_F = Esfu_CD_F1;\nvar Desp_CD_F = Desp_CD_F1;\n\n// cerrar el dinagrama de superficie\nEsfu_CD_F[Esfu_CD_F.length] = Esfu_CD_F[0];\nDesp_CD_F[Desp_CD_F.length] = Desp_CD_F[0];\n\n//  variables de contexto\ncontext.set(\"t\", Desp_CD_F1.length,\"memoryOnly\");\ncontext.set(\"t_d\", Esfu_CD_F.length,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\ncontext.set(\"Desp_CD_F\", Desp_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"tamano\", Desp_CD_F.length,\"memoryOnly\");\n// variables globales\nglobal.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD_F);\nglobal.set(\"Dinagrama.fondo.nMuestras\", Desp_CD_F.length);\nglobal.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD_F);\n\n\nfunction Savgol(X,caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n        // se define el caso 3 en caso tal de que no\n        for (let i = 4; i < X.length - 4; i++) {\n            y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n            k = k + 1;\n        }\n            \n    }\n    return y\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -95582,7 +95579,7 @@
         "ymin": "",
         "ymax": "",
         "removeOlder": 1,
-        "removeOlderPoints": "100",
+        "removeOlderPoints": "80",
         "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
@@ -95601,8 +95598,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 620,
-        "y": 240,
+        "x": 700,
+        "y": 440,
         "wires": [
             []
         ]
@@ -95621,9 +95618,7 @@
         "x": 350,
         "y": 240,
         "wires": [
-            [
-                "cc147966cb46d595"
-            ]
+            []
         ]
     },
     {
@@ -95801,6 +95796,100 @@
             [
                 "4456b445ce3c4dfc"
             ]
+        ]
+    },
+    {
+        "id": "2c8f8ec6597dd496",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "func": "msg.payload = [{\n    \"series\": [\"A\", \"B\", \"C\"],\n    \"data\": [\n        [{ \"x\": 1504029632890, \"y\": 5 },\n        { \"x\": 1504029636001, \"y\": 4 },\n        { \"x\": 1504029638656, \"y\": 2 }\n        ],\n        [{ \"x\": 1504029633514, \"y\": 6 },\n        { \"x\": 1504029636622, \"y\": 7 },\n        { \"x\": 1504029639539, \"y\": 6 }\n        ],\n        [{ \"x\": 1504029634400, \"y\": 7 },\n        { \"x\": 1504029637959, \"y\": 7 },\n        { \"x\": 1504029640317, \"y\": 7 }\n        ]\n    ],\n    \"labels\": [\"room1\", \"room2\", \"room3\"]\n}]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 440,
+        "wires": [
+            [
+                "cc147966cb46d595"
+            ]
+        ]
+    },
+    {
+        "id": "c67236591e94ca80",
+        "type": "inject",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 330,
+        "y": 440,
+        "wires": [
+            [
+                "2c8f8ec6597dd496"
+            ]
+        ]
+    },
+    {
+        "id": "2e11ab060d892c09",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "func": "var vector = global.get(\"Dinagrama.superficie.Desp_CD\") || [];\nvar name = \"Desplazamiento\"\nvar data = [],value = [];\n\nfor (let i = 0; i <5; i++) {\n    value = data.push({ \"x\": i, \"y\": vector[i]});\n    data[0] = data.push(value);\n}\n\n\n\nvar chart = [{\n    \"series\": [\"A\"],\n    \"data\": data,\n    \"labels\": [\"A\"]\n}]\nmsg.payload = chart;\ncontext.set(\"chart\",chart,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 500,
+        "wires": [
+            [
+                "cc147966cb46d595"
+            ]
+        ]
+    },
+    {
+        "id": "9c6c2a1ba8bfaf43",
+        "type": "inject",
+        "z": "ba668bc685d26b37",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 330,
+        "y": 500,
+        "wires": [
+            [
+                "2e11ab060d892c09"
+            ]
+        ]
+    },
+    {
+        "id": "de06d33608ea1299",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "a063560e4a0a3bf1",
+        "name": "Filtro Savgol",
+        "func": "var Desp_CD_F1 = flow.get(\"Desp_CD_F1\") || 0;\nvar Esfu_CD_F1 = flow.get(\"Esfu_CD_F1\") || 0;\n\nvar Esfu_CD_F = Savgol(Esfu_CD_F1,3);\nvar Desp_CD_F = Savgol(Desp_CD_F1,3);\n\n// cerrar el dinagrama de superficie\nEsfu_CD_F[Esfu_CD_F.length] = Esfu_CD_F[0];\nDesp_CD_F[Desp_CD_F.length] = Desp_CD_F[0];\n\n//  variables de contexto\ncontext.set(\"t\", Desp_CD_F1.length,\"memoryOnly\");\ncontext.set(\"t_d\", Esfu_CD_F.length,\"memoryOnly\");\ncontext.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\ncontext.set(\"Desp_CD_F\", Desp_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Desp_CD_F1\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"Esfu_CD_F\", Esfu_CD_F,\"memoryOnly\");\n// context.set(\"tamano\", Desp_CD_F.length,\"memoryOnly\");\n// variables globales\nglobal.set(\"Dinagrama.fondo.Desp_CD\", Desp_CD_F);\nglobal.set(\"Dinagrama.fondo.nMuestras\", Desp_CD_F.length);\nglobal.set(\"Dinagrama.fondo.Esfu_CD\", Esfu_CD_F);\n\n\nfunction Savgol(X,caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n        // se define el caso 3 en caso tal de que no\n        for (let i = 4; i < X.length - 4; i++) {\n            y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n            k = k + 1;\n        }\n            \n    }\n    return y\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 130,
+        "y": 1300,
+        "wires": [
+            []
         ]
     }
 ]
