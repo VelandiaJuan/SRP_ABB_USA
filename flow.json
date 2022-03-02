@@ -2771,7 +2771,9 @@
             "c01c2da340bbf3a1"
         ],
         "x": 3298,
-        "y": 33
+        "y": 33,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2788,7 +2790,9 @@
             "6e4ce300ce601bf3"
         ],
         "x": 74,
-        "y": 1219
+        "y": 1219,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2810,7 +2814,9 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33
+        "y": 33,
+        "w": 3004,
+        "h": 1094
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3407,51 +3413,6 @@
         ],
         "x": 1254,
         "y": 1039
-    },
-    {
-        "id": "936eab7d97be78af",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "LEER, ESCRIBIR PLC A.D",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f88ee0328a8f5964",
-            "138266be848cd64a",
-            "6afa3775f2be0e4d",
-            "3af54985e9349f2c",
-            "8dc4ac2430aa44fc",
-            "0ad7006f65f3d19b",
-            "7397d1cb1a9a2fa0",
-            "c30c78cc60db84f8",
-            "6b2ab85fc1f64252",
-            "bba3aa277bcf1444",
-            "e0ebb1532663774a",
-            "8be993bf3ba4ae30",
-            "eb02c5e2d4135d47",
-            "f04f801e0bd8ff6a",
-            "9adbbbd6b997667e",
-            "d4216d9506b296f0",
-            "58193979505252cc",
-            "2800358056b8906c",
-            "b2f03b978904c38e",
-            "2c02e2ef212817a8",
-            "68435ab01b882ddc",
-            "2a84764569d97d25",
-            "8045d26ad92da744",
-            "edc238b409b734de",
-            "441a1b389e53d303",
-            "4a54464134473561",
-            "c6ebe3799f5ffb56",
-            "cc4b4c945a68900f",
-            "684cadf7491b3916",
-            "fe4b7b3960887239"
-        ],
-        "x": 554,
-        "y": 3679,
-        "w": 1052,
-        "h": 542
     },
     {
         "id": "c36ec626abdfe551",
@@ -5406,7 +5367,9 @@
             "204cb884a9a1bb09"
         ],
         "x": 3324,
-        "y": 59
+        "y": 59,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5427,7 +5390,9 @@
             "fb25abef8d3f01a8"
         ],
         "x": 3324,
-        "y": 599
+        "y": 599,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5449,7 +5414,9 @@
             "c71b32312279d18f"
         ],
         "x": 124,
-        "y": 379
+        "y": 379,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "0f959940f19ae52d",
@@ -5480,7 +5447,9 @@
             "7c434a7ec1d35114"
         ],
         "x": 94,
-        "y": 859
+        "y": 859,
+        "w": 1722,
+        "h": 242
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5530,7 +5499,9 @@
             "55eaeea012fb5cb3"
         ],
         "x": 1114,
-        "y": 439
+        "y": 439,
+        "w": 1932,
+        "h": 342
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5577,7 +5548,9 @@
             "628add984fd6a22e"
         ],
         "x": 134,
-        "y": 59
+        "y": 59,
+        "w": 1822,
+        "h": 282
     },
     {
         "id": "8a07c803a203d64c",
@@ -6860,6 +6833,50 @@
         ],
         "x": 614,
         "y": 689
+    },
+    {
+        "id": "936eab7d97be78af",
+        "type": "group",
+        "z": "7a89175c.90f6a8",
+        "name": "LEER, ESCRIBIR PLC A.D",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f88ee0328a8f5964",
+            "138266be848cd64a",
+            "6afa3775f2be0e4d",
+            "3af54985e9349f2c",
+            "8dc4ac2430aa44fc",
+            "0ad7006f65f3d19b",
+            "7397d1cb1a9a2fa0",
+            "c30c78cc60db84f8",
+            "6b2ab85fc1f64252",
+            "bba3aa277bcf1444",
+            "e0ebb1532663774a",
+            "8be993bf3ba4ae30",
+            "eb02c5e2d4135d47",
+            "f04f801e0bd8ff6a",
+            "9adbbbd6b997667e",
+            "d4216d9506b296f0",
+            "58193979505252cc",
+            "2800358056b8906c",
+            "b2f03b978904c38e",
+            "2c02e2ef212817a8",
+            "68435ab01b882ddc",
+            "2a84764569d97d25",
+            "8045d26ad92da744",
+            "edc238b409b734de",
+            "441a1b389e53d303",
+            "4a54464134473561",
+            "c6ebe3799f5ffb56",
+            "cc4b4c945a68900f",
+            "684cadf7491b3916"
+        ],
+        "x": 554,
+        "y": 3679,
+        "w": 1052,
+        "h": 542
     },
     {
         "id": "d25d405a.19cff",
@@ -20193,7 +20210,9 @@
         "x": 140,
         "y": 100,
         "wires": [
-            []
+            [
+                "432f1f035a026c89"
+            ]
         ]
     },
     {
@@ -20304,6 +20323,11 @@
             {
                 "label": "Carga",
                 "value": "CARGA",
+                "type": "str"
+            },
+            {
+                "label": "Potencia",
+                "value": "Potencia",
                 "type": "str"
             }
         ],
@@ -20658,7 +20682,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 610,
-        "y": 680,
+        "y": 780,
         "wires": [
             [
                 "a172ae71ab4db9c7"
@@ -20677,7 +20701,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 680,
+        "y": 780,
         "wires": [
             [
                 "c0e7440b693993b7"
@@ -20701,7 +20725,7 @@
         "drop": false,
         "allowrate": false,
         "x": 950,
-        "y": 680,
+        "y": 780,
         "wires": [
             [
                 "a172ae71ab4db9c7"
@@ -20870,7 +20894,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "request",
-        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] == \"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Submergence\") request.Submergence = true;\n    if (msg.payload[i] == \"DynamicFluidLevel\") request.DynamicFluidLevel = true;\n    if (msg.payload[i] == \"Flow\") request.Flow = true; \n    if (msg.payload[i] == \"POSICION\") request.POSICION = true;\n    if (msg.payload[i] == \"CARGA\") request.CARGA = true;\n}\nmsg.payload = request;\nreturn msg;",
+        "func": "var i,request={};\nfor (i = 0; i < msg.payload.length ;i++){\n    if (msg.payload[i] == \"Output_Frequency\") request.Output_Frequency=true;\n    if (msg.payload[i] == \"Output_Current\") request.Output_Current=true;\n    if (msg.payload[i] == \"LNVoltage\") request.LNVoltage = true;\n    if (msg.payload[i] == \"LLVoltage\") request.LLVoltage = true;\n    if (msg.payload[i] == \"Output_Power\") request.Output_Power = true;\n    if (msg.payload[i] == \"PIP\") request.PIP = true;\n    if (msg.payload[i] == \"PDP\") request.PDP = true;\n    if (msg.payload[i] == \"Input_Temp\") request.Input_Temp = true;\n    if (msg.payload[i] == \"Motor_Temp\") request.Motor_Temp = true;\n    if (msg.payload[i] == \"Submergence\") request.Submergence = true;\n    if (msg.payload[i] == \"DynamicFluidLevel\") request.DynamicFluidLevel = true;\n    if (msg.payload[i] == \"Flow\") request.Flow = true; \n    if (msg.payload[i] == \"POSICION\") request.POSICION = true;\n    if (msg.payload[i] == \"CARGA\") request.CARGA = true;\n    if (msg.payload[i] == \"Potencia\") request.Potencia = true;\n}\nmsg.payload = request;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20889,7 +20913,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "getting data",
-        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar C2S = global.get(\"C2S.Implicit\", \"memoryOnly\") || [];\nvar RelTx = global.get(\"C2S.RelTx\") || 1;\nvar LNVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\",\"memoryOnly\")||0;\nvar LLVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\",\"memoryOnly\")||0;\nvar PIP = global.get(\"Prolonged_Reference.DHS['Presión de entrada']\", \"memoryOnly\")||0;\nvar PDP = global.get(\"Prolonged_Reference.DHS['Presión de descarga']\", \"memoryOnly\") || 0;\nvar Input_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de entrada']\", \"memoryOnly\") || 0;\nvar Motor_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de motor']\", \"memoryOnly\") || 0;\nvar Submergence = global.get(\"SENSORLESS.Sumergencia_inferida\", \"memoryOnly\") || 0;\nvar DynamicFluidLevel = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\", \"memoryOnly\") || 0;\nvar Flow = global.get(\"SENSORLESS.Caudal_ajustado_con_la_viscosidad\", \"memoryOnly\") || 0;\nvar POSICION = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nvar CARGA = global.get(\"Process_data.AI.CARGA\", \"memoryOnly\") || 0;\n\n\nmsg.Output_Frequency = (C2S.Output_Frequency || 0).toFixed(2);\nmsg.Output_Current = (C2S.Output_Current || 0).toFixed(2);\nmsg.LNVoltage = LNVoltage.toFixed(1);\nmsg.LLVoltage = LLVoltage.toFixed(1);\nmsg.Output_Power = (C2S.Output_Power || 0).toFixed(1);\nmsg.PIP = PIP.toFixed(1);\nmsg.PDP = PDP.toFixed(1);\nmsg.Input_Temp = Input_Temp.toFixed(1);\nmsg.Motor_Temp = Motor_Temp.toFixed(1);\nmsg.Submergence = Submergence.toFixed(1);\nmsg.DynamicFluidLevel = DynamicFluidLevel.toFixed(1);\nmsg.Flow = Flow.toFixed(1);\nmsg.POSICION = POSICION.toFixed(1);\nmsg.CARGA = CARGA.toFixed(1);\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage}],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Submergence.shift();\n        realtime.DynamicFluidLevel.shift();\n        realtime.Flow.shift();\n        realtime.POSICION.shift();\n        realtime.CARGA.shift();\n    }    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": LNVoltage}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n    realtime.Submergence.push({ \"x\": time, \"y\": Submergence }),\n    realtime.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n    realtime.Flow.push({ \"x\": time, \"y\": Flow }),\n    realtime.POSICION.push({ \"x\": time, \"y\": POSICION }),\n    realtime.CARGA.push({ \"x\": time, \"y\": CARGA })\n\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Submergence.shift();\n            lasthour.DynamicFluidLevel.shift();\n            lasthour.Flow.shift();\n            lasthour.POSICION.shift();\n            lasthour.CARGA.shift();\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lasthour.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lasthour.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lasthour.Flow.push({ \"x\": time, \"y\": Flow }),\n        lasthour.POSICION.push({ \"x\": time, \"y\": POSICION }),\n        lasthour.CARGA.push({ \"x\": time, \"y\": CARGA })\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Submergence.shift();\n            lastday.DynamicFluidLevel.shift();\n            lastday.Flow.shift();\n            lastday.POSICION.shift();\n            lastday.CARGA.shift();\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 });\n        lastday.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 });\n        lastday.LNVoltage.push({ \"x\": time, \"y\": LNVoltage });\n        lastday.LLVoltage.push({ \"x\": time, \"y\": LLVoltage });\n        lastday.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 });\n        lastday.PIP.push({ \"x\": time, \"y\": PIP });\n        lastday.PDP.push({ \"x\": time, \"y\": PDP });\n        lastday.Input_Temp.push({ \"x\": time, \"y\": Input_Temp });\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp });\n        lastday.Submergence.push({ \"x\": time, \"y\": Submergence });\n        lastday.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel });\n        lastday.Flow.push({ \"x\": time, \"y\": Flow });\n        lastday.POSICION.push({ \"x\": time, \"y\": POSICION });\n        lastday.CARGA.push({ \"x\": time, \"y\": CARGA });\n    }\n\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
+        "func": "// Variables de control de animación de tendencias\nvar time = msg.payload;\nvar realtime = flow.get(\"trends.realtime\", \"memoryOnly\") || null;\nvar lasthour = flow.get(\"trends.lasthour\") || null;\nvar lastday = flow.get(\"trends.lastday\") || null;\nvar counth = context.get(\"counth\",\"memoryOnly\")||0;\nvar countd = context.get(\"countd\", \"memoryOnly\") || 0;\n\n\n// Variables de CILA2S\nvar C2S = global.get(\"C2S.Implicit\", \"memoryOnly\") || [];\nvar RelTx = global.get(\"C2S.RelTx\") || 1;\nvar LNVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\",\"memoryOnly\")||0;\nvar LLVoltage = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\",\"memoryOnly\")||0;\nvar PIP = global.get(\"Prolonged_Reference.DHS['Presión de entrada']\", \"memoryOnly\")||0;\nvar PDP = global.get(\"Prolonged_Reference.DHS['Presión de descarga']\", \"memoryOnly\") || 0;\nvar Input_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de entrada']\", \"memoryOnly\") || 0;\nvar Motor_Temp = global.get(\"Prolonged_Reference.DHS['Temperatura de motor']\", \"memoryOnly\") || 0;\nvar Submergence = global.get(\"SENSORLESS.Sumergencia_inferida\", \"memoryOnly\") || 0;\nvar DynamicFluidLevel = global.get(\"SENSORLESS.Nivel_de_fluido_inferido\", \"memoryOnly\") || 0;\nvar Flow = global.get(\"SENSORLESS.Caudal_ajustado_con_la_viscosidad\", \"memoryOnly\") || 0;\nvar POSICION = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nvar CARGA = global.get(\"Process_data.AI.CARGA\", \"memoryOnly\") || 0;\nvar Potencia = global.get(\"IO.Dinagrama.potencia\",\"memoryOnly\")||0;\n\n\nmsg.Output_Frequency = (C2S.Output_Frequency || 0).toFixed(2);\nmsg.Output_Current = (C2S.Output_Current || 0).toFixed(2);\nmsg.LNVoltage = LNVoltage.toFixed(1);\nmsg.LLVoltage = LLVoltage.toFixed(1);\nmsg.Output_Power = (C2S.Output_Power || 0).toFixed(1);\nmsg.PIP = PIP.toFixed(1);\nmsg.PDP = PDP.toFixed(1);\nmsg.Input_Temp = Input_Temp.toFixed(1);\nmsg.Motor_Temp = Motor_Temp.toFixed(1);\nmsg.Submergence = Submergence.toFixed(1);\nmsg.DynamicFluidLevel = DynamicFluidLevel.toFixed(1);\nmsg.Flow = Flow.toFixed(1);\nmsg.POSICION = POSICION.toFixed(1);\nmsg.CARGA = CARGA.toFixed(1);\nmsg.Potencia = Potencia.toFixed(1);\n\nif (realtime == null) {\n    realtime = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage}],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia }],\n    };\n}\nelse {\n    if (realtime.Output_Frequency.length > 30) {\n        realtime.Output_Frequency.shift();\n        realtime.LNVoltage.shift();\n        realtime.LLVoltage.shift();\n        realtime.Output_Power.shift();\n        realtime.PIP.shift();\n        realtime.PDP.shift();\n        realtime.Input_Temp.shift();\n        realtime.Motor_Temp.shift();\n        realtime.Submergence.shift();\n        realtime.DynamicFluidLevel.shift();\n        realtime.Flow.shift();\n        realtime.POSICION.shift();\n        realtime.CARGA.shift();\n        realtime.Potencia.shift();\n    }    \n    realtime.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n    realtime.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n    realtime.LNVoltage.push({ \"x\": time, \"y\": LNVoltage}),\n    realtime.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n    realtime.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n    realtime.PIP.push({ \"x\": time, \"y\": PIP }),\n    realtime.PDP.push({ \"x\": time, \"y\": PDP }),\n    realtime.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n    realtime.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n    realtime.Submergence.push({ \"x\": time, \"y\": Submergence }),\n    realtime.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n    realtime.Flow.push({ \"x\": time, \"y\": Flow }),\n    realtime.POSICION.push({ \"x\": time, \"y\": POSICION }),\n    realtime.CARGA.push({ \"x\": time, \"y\": CARGA }),\n    realtime.Potencia.push({ \"x\": time, \"y\": Potencia })\n}\n\nif (lasthour == null) {\n    lasthour = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia }],\n    };\n}\nelse {\n    if (counth==15){\n        if (lasthour.Output_Frequency.length > 240) {\n            lasthour.Output_Frequency.shift();\n            lasthour.Output_Current.shift();\n            lasthour.LNVoltage.shift();\n            lasthour.LLVoltage.shift();\n            lasthour.Output_Power.shift();\n            lasthour.PIP.shift();\n            lasthour.PDP.shift();\n            lasthour.Input_Temp.shift();\n            lasthour.Motor_Temp.shift();\n            lasthour.Submergence.shift();\n            lasthour.DynamicFluidLevel.shift();\n            lasthour.Flow.shift();\n            lasthour.POSICION.shift();\n            lasthour.CARGA.shift();\n            lasthour.Potencia.shift();\n        }\n\n        lasthour.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 }),\n        lasthour.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 }),\n        lasthour.LNVoltage.push({ \"x\": time, \"y\": LNVoltage }),\n        lasthour.LLVoltage.push({ \"x\": time, \"y\": LLVoltage }),\n        lasthour.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 }),\n        lasthour.PIP.push({ \"x\": time, \"y\": PIP }),\n        lasthour.PDP.push({ \"x\": time, \"y\": PDP }),\n        lasthour.Input_Temp.push({ \"x\": time, \"y\": Input_Temp }),\n        lasthour.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp }),\n        lasthour.Submergence.push({ \"x\": time, \"y\": Submergence }),\n        lasthour.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel }),\n        lasthour.Flow.push({ \"x\": time, \"y\": Flow }),\n        lasthour.POSICION.push({ \"x\": time, \"y\": POSICION }),\n        lasthour.CARGA.push({ \"x\": time, \"y\": CARGA }),\n        lasthour.Potencia.push({ \"x\": time, \"y\": Potencia })\n\n        countd > 24 ? countd = 1 : countd = countd + 1;\n        context.set(\"countd\", countd, \"memoryOnly\");\n    }\n\n}\n\nif (lastday == null) {\n    lastday = {\n        'Output_Frequency': [{ \"x\": time, \"y\": C2S.Output_Frequency || 0 }],\n        'Output_Current': [{ \"x\": time, \"y\": C2S.Output_Current || 0 }],\n        'LNVoltage': [{ \"x\": time, \"y\": LNVoltage }],\n        'LLVoltage': [{ \"x\": time, \"y\": LLVoltage }],\n        'Output_Power': [{ \"x\": time, \"y\": C2S.Output_Power || 0 }],\n        'PIP': [{ \"x\": time, \"y\": PIP }],\n        'PDP': [{ \"x\": time, \"y\": PDP }],\n        'Input_Temp': [{ \"x\": time, \"y\": Input_Temp }],\n        'Motor_Temp': [{ \"x\": time, \"y\": Motor_Temp }],\n        'Submergence': [{ \"x\": time, \"y\": Submergence }],\n        'DynamicFluidLevel': [{ \"x\": time, \"y\": DynamicFluidLevel }],\n        'Flow': [{ \"x\": time, \"y\": Flow }],\n        'POSICION': [{ \"x\": time, \"y\": POSICION }],\n        'CARGA': [{ \"x\": time, \"y\": CARGA }],\n        'Potencia': [{ \"x\": time, \"y\": Potencia }],\n    };\n}\nelse {\n    if (countd==24){\n        context.set(\"countd\", 0, \"memoryOnly\");\n        if (lastday.Output_Frequency.length > 240) {\n            lastday.Output_Frequency.shift();\n            lastday.Output_Current.shift();\n            lastday.LNVoltage.shift();\n            lastday.LLVoltage.shift();\n            lastday.Output_Power.shift();\n            lastday.PIP.shift();\n            lastday.PDP.shift();\n            lastday.Input_Temp.shift();\n            lastday.Motor_Temp.shift();\n            lastday.Submergence.shift();\n            lastday.DynamicFluidLevel.shift();\n            lastday.Flow.shift();\n            lastday.POSICION.shift();\n            lastday.CARGA.shift();\n            lastday.Potencia.shift();\n        }\n\n        lastday.Output_Frequency.push({ \"x\": time, \"y\": C2S.Output_Frequency || 0 });\n        lastday.Output_Current.push({ \"x\": time, \"y\": C2S.Output_Current || 0 });\n        lastday.LNVoltage.push({ \"x\": time, \"y\": LNVoltage });\n        lastday.LLVoltage.push({ \"x\": time, \"y\": LLVoltage });\n        lastday.Output_Power.push({ \"x\": time, \"y\": C2S.Output_Power || 0 });\n        lastday.PIP.push({ \"x\": time, \"y\": PIP });\n        lastday.PDP.push({ \"x\": time, \"y\": PDP });\n        lastday.Input_Temp.push({ \"x\": time, \"y\": Input_Temp });\n        lastday.Motor_Temp.push({ \"x\": time, \"y\": Motor_Temp });\n        lastday.Submergence.push({ \"x\": time, \"y\": Submergence });\n        lastday.DynamicFluidLevel.push({ \"x\": time, \"y\": DynamicFluidLevel });\n        lastday.Flow.push({ \"x\": time, \"y\": Flow });\n        lastday.POSICION.push({ \"x\": time, \"y\": POSICION });\n        lastday.CARGA.push({ \"x\": time, \"y\": CARGA });\n        lastday.Potencia.push({ \"x\": time, \"y\": Potencia });\n    }\n\n}\n\ncounth > 14 ? counth=1 : counth = counth + 1;\ncontext.set(\"counth\", counth, \"memoryOnly\");\n\nflow.set(\"trends.realtime\", realtime, \"memoryOnly\");\nflow.set(\"trends.lasthour\", lasthour);\nflow.set(\"trends.lastday\", lastday);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20908,7 +20932,7 @@
         "type": "function",
         "z": "2026898575f7aa56",
         "name": "Preparing to chart",
-        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Submergence == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Submergence\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Submergence\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Submergence\") || []);\n}\nif (select_Trend.DynamicFluidLevel == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.DynamicFluidLevel\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.DynamicFluidLevel\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.DynamicFluidLevel\") || []);\n}\nif (select_Trend.Flow == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Flow\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Flow\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Flow\") || []);\n}\nif (select_Trend.POSICION == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.POSICION\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.POSICION\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.POSICION\") || []);\n}\nif (select_Trend.CARGA == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.CARGA\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.CARGA\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.CARGA\") || []);\n}\n\n\n\nvar series = [];\n\nif (select_Trend.Output_Frequency == true) select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\") : series.push(\"Frecuencia salida \" + msg.Output_Frequency + \" Hz\");\nif (select_Trend.Output_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\") : series.push(\"Corriente salida drive \" + msg.Output_Current +\" A\");\nif (select_Trend.LNVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\") : series.push(\"Tensión LN promedio \" + msg.LNVoltage + \" V\");\nif (select_Trend.LLVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\") : series.push(\"Tensión LL promedio \" + msg.LLVoltage +\" V\");\nif (select_Trend.Output_Power == true) select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\") : series.push(\"Potencia salida \" + msg.Output_Power +\" KW\");\nif (select_Trend.PIP == true) select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\") : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true) select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\") : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\") : series.push(\"Temperatura entrada \" + msg.Input_Temp +\" ºF\");\nif (select_Trend.Motor_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\") : series.push(\"Temperatura motor \" + msg.Motor_Temp +\" ºF\");\nif (select_Trend.Submergence == true) select_Time != \"realtime\" ? series.push(\"Sumergencia (ft)\") : series.push(\"Sumergencia \" + msg.Submergence +\" ft\");\nif (select_Trend.DynamicFluidLevel == true) select_Time != \"realtime\" ? series.push(\"Nivel fluido dinámico (ft)\") : series.push(\"Nivel fluido dinámico \" + msg.DynamicFluidLevel +\" ft\");\nif (select_Trend.Flow == true) select_Time != \"realtime\" ? series.push(\"Caudal (m^3/s)\") : series.push(\"Caudal \" + msg.Flow +\" m^3/s\");\nif (select_Trend.POSICION == true) select_Time != \"realtime\" ? series.push(\"Posición Actual SRP (Rad)\") : series.push(\"Posición Actual \" + msg.POSICION + \"In\");\nif (select_Trend.CARGA == true) select_Time != \"realtime\" ? series.push(\"Posición Actual SRP (Rad)\") : series.push(\"Carga \" + msg.CARGA + \"klbf\");\n\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "func": "var select_Trend = flow.get(\"trends.request\",\"memoryOnly\")||{};\nvar select_Time = flow.get(\"trends.selec_time\", \"memoryOnly\") || \"realtime\";\n\n\nvar data = [];\n\nif (select_Trend.Output_Frequency == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Frequency\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Frequency\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Frequency\") || []);\n}\nif (select_Trend.Output_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Current\") || []);\n}\nif (select_Trend.Motor_Current == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Current\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Current\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Current\") || []);\n}\nif (select_Trend.LNVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LNVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LNVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LNVoltage\") || []);\n}\nif (select_Trend.LLVoltage == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.LLVoltage\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.LLVoltage\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.LLVoltage\") || []);\n}\nif (select_Trend.Output_Power == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Output_Power\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Output_Power\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Output_Power\") || []);\n}\nif (select_Trend.PIP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PIP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PIP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PIP\") || []);\n}\nif (select_Trend.PDP == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.PDP\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.PDP\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.PDP\") || []);\n}\nif (select_Trend.Input_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Input_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Input_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Input_Temp\") || []);\n}\nif (select_Trend.Motor_Temp == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Motor_Temp\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Motor_Temp\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Motor_Temp\") || []);\n}\nif (select_Trend.Submergence == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Submergence\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Submergence\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Submergence\") || []);\n}\nif (select_Trend.DynamicFluidLevel == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.DynamicFluidLevel\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.DynamicFluidLevel\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.DynamicFluidLevel\") || []);\n}\nif (select_Trend.Flow == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Flow\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Flow\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Flow\") || []);\n}\nif (select_Trend.POSICION == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.POSICION\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.POSICION\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.POSICION\") || []);\n}\nif (select_Trend.CARGA == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.CARGA\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.CARGA\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.CARGA\") || []);\n}\nif (select_Trend.Potencia == true) {\n    if (select_Time == \"realtime\") data.push(flow.get(\"trends.realtime.Potencia\", \"memoryOnly\") || []);\n    if (select_Time == \"lasthour\") data.push(flow.get(\"trends.lasthour.Potencia\") || []);\n    if (select_Time == \"lastday\") data.push(flow.get(\"trends.lastday.Potencia\") || []);\n}\n\n\n\nvar series = [];\n\nif (select_Trend.Output_Frequency == true) select_Time != \"realtime\" ? series.push(\"Frecuencia salida (Hz)\") : series.push(\"Frecuencia salida \" + msg.Output_Frequency + \" Hz\");\nif (select_Trend.Output_Current == true) select_Time != \"realtime\" ? series.push(\"Corriente salida drive (A)\") : series.push(\"Corriente salida drive \" + msg.Output_Current +\" A\");\nif (select_Trend.LNVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LN promedio (V)\") : series.push(\"Tensión LN promedio \" + msg.LNVoltage + \" V\");\nif (select_Trend.LLVoltage == true) select_Time != \"realtime\" ? series.push(\"Tensión LL promedio (V)\") : series.push(\"Tensión LL promedio \" + msg.LLVoltage +\" V\");\nif (select_Trend.Output_Power == true) select_Time != \"realtime\" ? series.push(\"Potencia salida (KW)\") : series.push(\"Potencia salida \" + msg.Output_Power +\" KW\");\nif (select_Trend.PIP == true) select_Time != \"realtime\" ? series.push(\"Presión entrada (psi)\") : series.push(\"Presión entrada \"+msg.PIP +\" psi\");\nif (select_Trend.PDP == true) select_Time != \"realtime\" ? series.push(\"Presión descarga (psi)\") : series.push(\"Presión descarga \"+msg.PDP +\" psi\");\nif (select_Trend.Input_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura entrada (ºF)\") : series.push(\"Temperatura entrada \" + msg.Input_Temp +\" ºF\");\nif (select_Trend.Motor_Temp == true) select_Time != \"realtime\" ? series.push(\"Temperatura motor (ºF)\") : series.push(\"Temperatura motor \" + msg.Motor_Temp +\" ºF\");\nif (select_Trend.Submergence == true) select_Time != \"realtime\" ? series.push(\"Sumergencia (ft)\") : series.push(\"Sumergencia \" + msg.Submergence +\" ft\");\nif (select_Trend.DynamicFluidLevel == true) select_Time != \"realtime\" ? series.push(\"Nivel fluido dinámico (ft)\") : series.push(\"Nivel fluido dinámico \" + msg.DynamicFluidLevel +\" ft\");\nif (select_Trend.Flow == true) select_Time != \"realtime\" ? series.push(\"Caudal (m^3/s)\") : series.push(\"Caudal \" + msg.Flow +\" m^3/s\");\nif (select_Trend.POSICION == true) select_Time != \"realtime\" ? series.push(\"Posición Actual SRP (Rad)\") : series.push(\"Posición Actual \" + msg.POSICION + \"In\");\nif (select_Trend.CARGA == true) select_Time != \"realtime\" ? series.push(\"Posición Actual SRP (Rad)\") : series.push(\"Carga \" + msg.CARGA + \"klbf\");\nif (select_Trend.Potencia == true) select_Time != \"realtime\" ? series.push(\"Potencia\") : series.push(\"Potencia \" + msg.Potencia + \"kW\");\n\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20954,11 +20978,16 @@
                 "t": "eq",
                 "v": "POSICION",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Potencia",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 5,
+        "outputs": 6,
         "x": 410,
         "y": 360,
         "wires": [
@@ -20980,6 +21009,10 @@
             ],
             [
                 "24b7df3464601a4d",
+                "e00cf5c519a58fa0"
+            ],
+            [
+                "f0076c69a5a8aa54",
                 "e00cf5c519a58fa0"
             ]
         ]
@@ -55637,561 +55670,6 @@
         ]
     },
     {
-        "id": "f88ee0328a8f5964",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Lectura Holding Register",
-        "func": "var indice = flow.get(\"modbusDinagrama\")||200;\nmsg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address': indice + 0,\n    'quantity': 35 + 2\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 3800,
-        "wires": [
-            [
-                "c30c78cc60db84f8"
-            ]
-        ]
-    },
-    {
-        "id": "138266be848cd64a",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Salidas Digitales",
-        "func": "var ES = flow.get('ES') || null;\nvar indice = flow.get(\"modbusDinagrama\") || 200;\nvar Data    = { \n    32:false, 33:false, 34:false, 35:false, \n    36:false, 37:false, 38:false, 39:false\n};\n\n// Obtener llaves del objeto Data\nvar Canal = Object.keys(Data);\n// Declaración del string con \nvar canalmsg;\n\n//Objeto con las funciones del CILA2S\nvar FuncionC2S = {\n    \"CILA2S en marcha\": global.get(\"IO.Functions.DO['CILA2S en marcha']\", 'memoryOnly') || false,\n    \"Falla general\": global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false,\n    \"Disparo breaker módulo ESD\": global.get(\"IO.Functions.DO['Disparo breaker módulo ESD']\", 'memoryOnly') || false,\n    \"Cierre motorizado SDT\": global.get(\"IO.Functions.DO['Cierre motorizado SDT']\", 'memoryOnly') || false,\n    \"Apertura motorizado SDT\": global.get(\"IO.Functions.DO['Apertura motorizado SDT']\", 'memoryOnly') || false,\n    \"Bypass filtro de armónicos\": global.get(\"IO.Functions.DO.HF.Status\", 'memoryOnly') || false,\n    \"Simulación\": false\n}\n\n// Llaves del vector FuncionesC2S\nvar Keys = Object.keys(FuncionC2S);\n\n// Para cada canal de salida\nfor(var i=0; i <Canal.length; i++){\n    canalmsg ='Canal'+ Canal[i];\n    // Si la configuración del canal está declarada\n    if(typeof ES.SD[canalmsg] != 'undefined'){\n        // Para cada llave del vector FuncionesC2S que coincida con la configuración del canal\n        for(var j=0; j<Keys.length; j++){\n            if(ES.SD[canalmsg].Funcion == Keys[j]){\n                // Asignar el valor contenido en el vector de funciones al canal de salida\n                Data[Canal[i]] = ES.SD[canalmsg].Tipo == \"NO\" ? FuncionC2S[Keys[j]]:!FuncionC2S[Keys[j]];\n                //Ternario para escribir datos al PLC, el acepta 1 o 0 no booleano\n                //Es un Holding Register \n                //Data[Canal[i]] == true ? 1 : 0;\n\n            } \n        }\n    }\n    Data[Canal[i]] = Data[Canal[i]] == true ? 1 : 0;\n}\n\n// Asignar variable con los valores a escribir  (Se puede eliminar al asignar directamente).\nvar values = Object.values(Data);\ncontext.set(\"values\", values,'memoryOnly');\ncontext.set(\"Data\", Data, 'memoryOnly');\ncontext.set(\"Functions\", FuncionC2S, 'memoryOnly');\n// Escribir datos en el Cubloc\nmsg.payload = {\n    value: values,\n    'fc': 16,\n    'unitid': 1,\n    'address': indice + 8,\n    'quantity': 8\n}\n\n// Retorno del mensaje\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 970,
-        "y": 3860,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ],
-        "inputLabels": [
-            "Activar función"
-        ],
-        "outputLabels": [
-            "Canal32"
-        ]
-    },
-    {
-        "id": "6afa3775f2be0e4d",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Erroes escritura PLC",
-        "scope": [
-            "138266be848cd64a",
-            "bba3aa277bcf1444"
-        ],
-        "uncaught": false,
-        "x": 1350,
-        "y": 4140,
-        "wires": [
-            [
-                "0ad7006f65f3d19b"
-            ]
-        ]
-    },
-    {
-        "id": "3af54985e9349f2c",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Errores lectura PLC",
-        "scope": [
-            "c30c78cc60db84f8"
-        ],
-        "uncaught": false,
-        "x": 1350,
-        "y": 4180,
-        "wires": [
-            [
-                "8dc4ac2430aa44fc"
-            ]
-        ]
-    },
-    {
-        "id": "8dc4ac2430aa44fc",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1510,
-        "y": 4180,
-        "wires": []
-    },
-    {
-        "id": "0ad7006f65f3d19b",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1510,
-        "y": 4140,
-        "wires": []
-    },
-    {
-        "id": "7397d1cb1a9a2fa0",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "testSalidaDigital",
-        "func": "msg.payload = {\n    value: [1],\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 1\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1300,
-        "y": 4020,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c30c78cc60db84f8",
-        "type": "modbus-flex-getter",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Leer PLC",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "logIOActivities": false,
-        "server": "3548b3b4.c8d65c",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1200,
-        "y": 3800,
-        "wires": [
-            [],
-            [
-                "6b2ab85fc1f64252",
-                "9adbbbd6b997667e",
-                "2800358056b8906c",
-                "edc238b409b734de"
-            ]
-        ]
-    },
-    {
-        "id": "6b2ab85fc1f64252",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Interpretar Entradas-Salidas PLC",
-        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\")\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1440,
-        "y": 3780,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bba3aa277bcf1444",
-        "type": "modbus-flex-write",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Escribir PLC",
-        "showStatusActivities": true,
-        "showErrors": false,
-        "server": "3548b3b4.c8d65c",
-        "emptyMsgOnFail": false,
-        "keepMsgProperties": false,
-        "x": 1190,
-        "y": 3860,
-        "wires": [
-            [],
-            []
-        ]
-    },
-    {
-        "id": "e0ebb1532663774a",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Leery Escribir PLC",
-        "links": [
-            "1a154fa903ebee99"
-        ],
-        "x": 595,
-        "y": 3820,
-        "wires": [
-            [
-                "eb02c5e2d4135d47"
-            ]
-        ]
-    },
-    {
-        "id": "8be993bf3ba4ae30",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 710,
-        "y": 3860,
-        "wires": [
-            [
-                "138266be848cd64a"
-            ]
-        ]
-    },
-    {
-        "id": "eb02c5e2d4135d47",
-        "type": "delay",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 710,
-        "y": 3800,
-        "wires": [
-            [
-                "f88ee0328a8f5964",
-                "8be993bf3ba4ae30"
-            ]
-        ]
-    },
-    {
-        "id": "f04f801e0bd8ff6a",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "RegistrosEspeciales",
-        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||1;\nctr = ctr + 1;\nif(ctr > 141){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [1, 1,ctr],\n    'fc': 16,\n    'unitid': 1,\n    'address': 26,\n    'quantity': 3\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1320,
-        "y": 3980,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9adbbbd6b997667e",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Interpretar Dinagrama",
-        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28]; \n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\nvar potencia = ((msg.payload.data[35] << 16) + msg.payload.data[36]); potencia = Int2Float32(potencia);\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa,\n    \"potencia\":potencia\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\nglobal.set('IO.Dinagrama.potencia', Dinagrama.potencia, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1400,
-        "y": 3840,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d4216d9506b296f0",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "indiceDinagrama",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 199;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar Pausa_k1 = context.get(\"Pausa_k1\", \"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > NmuestrasTotales){\n    ctr = 0\n}\n\nif(Pausa == 1 && Pausa_k1 == 0){\n    ctr = 0; //resetee el contador\n}\nPausa_k1 = Pausa;//setee el estado anterior\n\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 28 ,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"Pausa_k1\", Pausa_k1,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 970,
-        "y": 3900,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "58193979505252cc",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "func": "var vector = createArray(160);\ncontext.set(\"vector\",vector,\"memoryOnly\");\nfor (let i = 0; i < vector.length; i++) {\n    vector[i] = 0;\n}\n\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1280,
-        "y": 4060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2800358056b8906c",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
-        "finalize": "",
-        "libs": [],
-        "x": 1390,
-        "y": 3900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b2f03b978904c38e",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "SPM",
-        "func": "var spm = global.get(\"C2S.Last_Reference.ValueSpm\");\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [spm],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1270,
-        "y": 4100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2c02e2ef212817a8",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "RefVSDDinagrama",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar flagRetentiva = context.get(\"flagRetentiva\", \"memoryOnly\")||0;\nvar Comunicacion_Drive = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//llegó a referencia el VSD\n\nif (Comunicacion_Drive == true){//si tiene comunicación con el drive\n    \n    if (At_Setpt_Spd == 1 && Active == 1) {// ya llegó a referencia\n        flagRetentiva = 1;\n    } else if (Active == 0) {// VSD apagado\n        flagRetentiva = 0;\n    }\n}else{\n    flagRetentiva = 0;\n}\n\nmsg.payload = {\n    value: [flagRetentiva],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 29,\n    'quantity': 1\n}\nnode.status({ fill: \"blue\", shape: \"dot\", text: flagRetentiva});\ncontext.set(\"At_Setpt_Spd\",At_Setpt_Spd,\"memoryOnly\");\ncontext.set(\"Active\", Active,\"memoryOnly\");\ncontext.set(\"flagRetentiva\", flagRetentiva,\"memoryOnly\");\ncontext.set(\"Comunicacion_Drive\", Comunicacion_Drive,\"memoryOnly\");\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 990,
-        "y": 3960,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "68435ab01b882ddc",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "RefNumeroMuestras",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 1;//llegó a referencia el VSD\nvar NStrokes = global.get(\"GeometriaSucket.NStrokes\") || 1;//llegó a referencia el VSD\nvar NmuestrasTotales = Nmuestras*NStrokes;\nmsg.payload = {\n    value: [NmuestrasTotales],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 30,\n    'quantity': 1\n}\nnode.status({fill:\"blue\",shape:\"ring\",text:\"strokes\"+NStrokes+\" Nmuestras\"+Nmuestras+ \" \"+\"Total\"+msg.payload.value});\nglobal.set(\"GeometriaSucket.NmuestrasTotales\", NmuestrasTotales);\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 980,
-        "y": 4020,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "2a84764569d97d25",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "links": [
-            "58d10b0ab4c186c5"
-        ],
-        "x": 775,
-        "y": 4020,
-        "wires": [
-            [
-                "2c02e2ef212817a8",
-                "8045d26ad92da744",
-                "68435ab01b882ddc"
-            ]
-        ]
-    },
-    {
-        "id": "8045d26ad92da744",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "flagTimeSPM*10",
-        "func": "// IMPORTANTE\n//  esta rutina se debe ejecutar cada segundo\nvar indice = flow.get(\"modbusDinagrama\") || 200;\nvar NStrokes = global.get(\"GeometriaSucket.NStrokes\") || 1;//llegó a referencia el VSD\nvar ValueSpm = global.get(\"C2S.Last_Reference.ValueSpm\")||0;//referencia seteada desde pantalla\nValueSpm = Math.abs(ValueSpm); // siempre valor positivo\nvar tiempoStroke = 60/ValueSpm;\n\nvar tiempoTotal = tiempoStroke*NStrokes;//el 10 por el registro para tomar decimales\ntiempoTotal = parseFloat(tiempoTotal.toFixed(1));//redondeo a 2 cifras decimales\ntiempoTotal = tiempoTotal*10;\n//si esta 1 no esta disponible\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar VSDActivo = global.get(\"IO.Dinagrama.VSDActivo\",\"memoryOnly\")||0;\nvar bandera = 0;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\n\nif(Pausa == 0 && VSDActivo == 1){\n    //Esta Disponible\n    if(ctr < tiempoTotal){\n        ctr = ctr + 1;        \n        bandera = 1;\n    }else{\n        bandera = 0;\n    }\n\n}else{\n    //No esta disponible\n    bandera = 0;\n    ctr = 0;\n}\n\nmsg.payload = {\n    value: [tiempoTotal],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 31,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({ fill: \"blue\", shape: \"dot\", text: (msg.payload.value)});//valor de la bandera\ncontext.set(\"NStrokes\", NStrokes,\"memoryOnly\");\ncontext.set(\"ValueSpm\", ValueSpm,\"memoryOnly\");\ncontext.set(\"tiempoStroke\",tiempoStroke,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"tiempoTotal\", tiempoTotal,\"memoryOnly\");\ncontext.set(\"ctr\", ctr,\"memoryOnly\");\ncontext.set(\"VSDActivo\", VSDActivo,\"memoryOnly\");\n\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1000,
-        "y": 4080,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "edc238b409b734de",
-        "type": "debug",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1370,
-        "y": 3720,
-        "wires": []
-    },
-    {
-        "id": "441a1b389e53d303",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "TiempoPausaAdquisicion",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar tiempoSwcith = 0.5;// tiempo de swicth s\nvar tiempoEspera = (NmuestrasTotales*tiempoSwcith)  + 60;//margen de 50 s de más \nmsg.payload = {\n    value: [tiempoEspera],//Valor en segundos\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 33,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({fill:\"blue\",shape:\"dot\",text:\"TiempoEspera: \"+msg.payload.value});//valor de la bandera\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 970,
-        "y": 4140,
-        "wires": [
-            [
-                "bba3aa277bcf1444"
-            ]
-        ]
-    },
-    {
-        "id": "4a54464134473561",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "Tiempo De espera",
-        "links": [
-            "58d10b0ab4c186c5"
-        ],
-        "x": 775,
-        "y": 4140,
-        "wires": [
-            [
-                "441a1b389e53d303"
-            ]
-        ]
-    },
-    {
-        "id": "c6ebe3799f5ffb56",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "modbusDinagrama",
-                "pt": "flow",
-                "to": "199",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 840,
-        "y": 3740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cc4b4c945a68900f",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 665,
-        "y": 3740,
-        "wires": [
-            [
-                "c6ebe3799f5ffb56"
-            ]
-        ]
-    },
-    {
         "id": "de8f2e2a.cab36",
         "type": "ui_toast",
         "z": "e7088c4e.cc6b4",
@@ -75443,7 +74921,7 @@
         "z": "e497646c3625f223",
         "g": "d0c2e26c6d297150",
         "name": "evento ref fuera lims",
-        "func": "msg.payload = \"¡Referencia Remota de \"+ msg.payload + \" SPM por arriba del ranngo\";\nmsg.topic = \"Referencia\";\nreturn msg;",
+        "func": "msg.payload = \"¡Referencia Remota de \"+ msg.payload + \" SPM por arriba del rango\";\nmsg.topic = \"Referencia\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -92948,8 +92426,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 490,
-        "y": 620,
+        "x": 390,
+        "y": 800,
         "wires": [
             [
                 "5ba487124a018463",
@@ -92968,8 +92446,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
         "finalize": "",
         "libs": [],
-        "x": 270,
-        "y": 620,
+        "x": 170,
+        "y": 800,
         "wires": [
             [
                 "ca33eae6dfe2c9e8"
@@ -92993,48 +92471,12 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 210,
-        "y": 560,
+        "x": 110,
+        "y": 740,
         "wires": [
             [
                 "5ba487124a018463",
                 "e00cf5c519a58fa0"
-            ]
-        ]
-    },
-    {
-        "id": "684cadf7491b3916",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "recorrer Indice Dinagrama",
-        "links": [
-            "ecf98f3f.4a704"
-        ],
-        "x": 775,
-        "y": 3900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fe4b7b3960887239",
-        "type": "inject",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "props": [],
-        "repeat": "0.3",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 760,
-        "y": 3940,
-        "wires": [
-            [
-                "d4216d9506b296f0"
             ]
         ]
     },
@@ -93464,6 +92906,7 @@
         "id": "00c530172cf82193",
         "type": "ui_dropdown",
         "z": "2026898575f7aa56",
+        "d": true,
         "name": "",
         "label": "",
         "tooltip": "",
@@ -93498,6 +92941,11 @@
             {
                 "label": "Esfuerzo 1 Stroke",
                 "value": "Esfuerzo",
+                "type": "str"
+            },
+            {
+                "label": "Potencia",
+                "value": "Potencia",
                 "type": "str"
             }
         ],
@@ -95454,7 +94902,7 @@
         "props": [],
         "repeat": "",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": 0.1,
         "topic": "",
         "x": 180,
@@ -95745,7 +95193,7 @@
         "type": "function",
         "z": "6a1ef6a7aef873a7",
         "name": "Filtro",
-        "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos, 1);\n    VcargaFiltrado = Savgol(Vcarga, 1);\n    // VposFiltrado = Vpos;\n    // VcargaFiltrado = Vcarga;\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n    context.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\n    context.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
+        "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos, 3);\n    VcargaFiltrado = Savgol(Vcarga, 3);\n    // VposFiltrado = Vpos;\n    // VcargaFiltrado = Vcarga;\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n    context.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\n    context.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -95891,5 +95339,636 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "f0076c69a5a8aa54",
+        "type": "function",
+        "z": "2026898575f7aa56",
+        "name": "Potencia ",
+        "func": "var posicion = global.get(\"IO.Dinagrama.Vpotencia\",\"memoryOnly\") ||0;\n\nmsg.payload = posicion;\nmsg.topic = \"Potencia\"\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar VecDesCal = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"IO.Dinagrama.VecDesCal\",VecDesCal,\"memoryOnly\");",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 660,
+        "wires": [
+            [
+                "1aa95a301d106b79"
+            ]
+        ]
+    },
+    {
+        "id": "1aa95a301d106b79",
+        "type": "delay",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 950,
+        "y": 660,
+        "wires": [
+            [
+                "f0076c69a5a8aa54"
+            ]
+        ]
+    },
+    {
+        "id": "f88ee0328a8f5964",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Lectura Holding Register",
+        "func": "var indice = flow.get(\"modbusDinagrama\")||200;\nmsg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address': indice + 0,\n    'quantity': 35 + 2\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 3800,
+        "wires": [
+            [
+                "c30c78cc60db84f8"
+            ]
+        ]
+    },
+    {
+        "id": "138266be848cd64a",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Salidas Digitales",
+        "func": "var ES = flow.get('ES') || null;\nvar indice = flow.get(\"modbusDinagrama\") || 200;\nvar Data    = { \n    32:false, 33:false, 34:false, 35:false, \n    36:false, 37:false, 38:false, 39:false\n};\n\n// Obtener llaves del objeto Data\nvar Canal = Object.keys(Data);\n// Declaración del string con \nvar canalmsg;\n\n//Objeto con las funciones del CILA2S\nvar FuncionC2S = {\n    \"CILA2S en marcha\": global.get(\"IO.Functions.DO['CILA2S en marcha']\", 'memoryOnly') || false,\n    \"Falla general\": global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false,\n    \"Disparo breaker módulo ESD\": global.get(\"IO.Functions.DO['Disparo breaker módulo ESD']\", 'memoryOnly') || false,\n    \"Cierre motorizado SDT\": global.get(\"IO.Functions.DO['Cierre motorizado SDT']\", 'memoryOnly') || false,\n    \"Apertura motorizado SDT\": global.get(\"IO.Functions.DO['Apertura motorizado SDT']\", 'memoryOnly') || false,\n    \"Bypass filtro de armónicos\": global.get(\"IO.Functions.DO.HF.Status\", 'memoryOnly') || false,\n    \"Simulación\": false\n}\n\n// Llaves del vector FuncionesC2S\nvar Keys = Object.keys(FuncionC2S);\n\n// Para cada canal de salida\nfor(var i=0; i <Canal.length; i++){\n    canalmsg ='Canal'+ Canal[i];\n    // Si la configuración del canal está declarada\n    if(typeof ES.SD[canalmsg] != 'undefined'){\n        // Para cada llave del vector FuncionesC2S que coincida con la configuración del canal\n        for(var j=0; j<Keys.length; j++){\n            if(ES.SD[canalmsg].Funcion == Keys[j]){\n                // Asignar el valor contenido en el vector de funciones al canal de salida\n                Data[Canal[i]] = ES.SD[canalmsg].Tipo == \"NO\" ? FuncionC2S[Keys[j]]:!FuncionC2S[Keys[j]];\n                //Ternario para escribir datos al PLC, el acepta 1 o 0 no booleano\n                //Es un Holding Register \n                //Data[Canal[i]] == true ? 1 : 0;\n\n            } \n        }\n    }\n    Data[Canal[i]] = Data[Canal[i]] == true ? 1 : 0;\n}\n\n// Asignar variable con los valores a escribir  (Se puede eliminar al asignar directamente).\nvar values = Object.values(Data);\ncontext.set(\"values\", values,'memoryOnly');\ncontext.set(\"Data\", Data, 'memoryOnly');\ncontext.set(\"Functions\", FuncionC2S, 'memoryOnly');\n// Escribir datos en el Cubloc\nmsg.payload = {\n    value: values,\n    'fc': 16,\n    'unitid': 1,\n    'address': indice + 8,\n    'quantity': 8\n}\n\n// Retorno del mensaje\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 3860,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ],
+        "inputLabels": [
+            "Activar función"
+        ],
+        "outputLabels": [
+            "Canal32"
+        ]
+    },
+    {
+        "id": "6afa3775f2be0e4d",
+        "type": "catch",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Erroes escritura PLC",
+        "scope": [
+            "138266be848cd64a",
+            "bba3aa277bcf1444"
+        ],
+        "uncaught": false,
+        "x": 1350,
+        "y": 4140,
+        "wires": [
+            [
+                "0ad7006f65f3d19b"
+            ]
+        ]
+    },
+    {
+        "id": "3af54985e9349f2c",
+        "type": "catch",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Errores lectura PLC",
+        "scope": [
+            "c30c78cc60db84f8"
+        ],
+        "uncaught": false,
+        "x": 1350,
+        "y": 4180,
+        "wires": [
+            [
+                "8dc4ac2430aa44fc"
+            ]
+        ]
+    },
+    {
+        "id": "8dc4ac2430aa44fc",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 4180,
+        "wires": []
+    },
+    {
+        "id": "0ad7006f65f3d19b",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1510,
+        "y": 4140,
+        "wires": []
+    },
+    {
+        "id": "7397d1cb1a9a2fa0",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "testSalidaDigital",
+        "func": "msg.payload = {\n    value: [1],\n    'fc': 16,\n    'unitid': 1,\n    'address': 8,\n    'quantity': 1\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 4020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c30c78cc60db84f8",
+        "type": "modbus-flex-getter",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Leer PLC",
+        "showStatusActivities": true,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "3548b3b4.c8d65c",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1200,
+        "y": 3800,
+        "wires": [
+            [],
+            [
+                "6b2ab85fc1f64252",
+                "9adbbbd6b997667e",
+                "2800358056b8906c",
+                "edc238b409b734de"
+            ]
+        ]
+    },
+    {
+        "id": "6b2ab85fc1f64252",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Interpretar Entradas-Salidas PLC",
+        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\")\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 3780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bba3aa277bcf1444",
+        "type": "modbus-flex-write",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Escribir PLC",
+        "showStatusActivities": true,
+        "showErrors": false,
+        "server": "3548b3b4.c8d65c",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1190,
+        "y": 3860,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e0ebb1532663774a",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Leery Escribir PLC",
+        "links": [
+            "1a154fa903ebee99"
+        ],
+        "x": 595,
+        "y": 3820,
+        "wires": [
+            [
+                "eb02c5e2d4135d47"
+            ]
+        ]
+    },
+    {
+        "id": "8be993bf3ba4ae30",
+        "type": "delay",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 710,
+        "y": 3860,
+        "wires": [
+            [
+                "138266be848cd64a"
+            ]
+        ]
+    },
+    {
+        "id": "eb02c5e2d4135d47",
+        "type": "delay",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 710,
+        "y": 3800,
+        "wires": [
+            [
+                "f88ee0328a8f5964",
+                "8be993bf3ba4ae30"
+            ]
+        ]
+    },
+    {
+        "id": "f04f801e0bd8ff6a",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "RegistrosEspeciales",
+        "func": "var ctr = context.get(\"ctr\",\"memoryOnly\")||1;\nctr = ctr + 1;\nif(ctr > 141){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [1, 1,ctr],\n    'fc': 16,\n    'unitid': 1,\n    'address': 26,\n    'quantity': 3\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1320,
+        "y": 3980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9adbbbd6b997667e",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Interpretar Dinagrama",
+        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28]; \n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\nvar potencia = ((msg.payload.data[35] << 16) + msg.payload.data[36]); potencia = Int2Float32(potencia);\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa,\n    \"potencia\":potencia\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\nglobal.set('IO.Dinagrama.potencia', Dinagrama.potencia, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 3840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4216d9506b296f0",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "indiceDinagrama",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 199;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar Pausa_k1 = context.get(\"Pausa_k1\", \"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > NmuestrasTotales){\n    ctr = 0\n}\n\nif(Pausa == 1 && Pausa_k1 == 0){\n    ctr = 0; //resetee el contador\n}\nPausa_k1 = Pausa;//setee el estado anterior\n\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 28 ,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"Pausa_k1\", Pausa_k1,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 3900,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "58193979505252cc",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "func": "var vector = createArray(160);\ncontext.set(\"vector\",vector,\"memoryOnly\");\nfor (let i = 0; i < vector.length; i++) {\n    vector[i] = 0;\n}\n\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1280,
+        "y": 4060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2800358056b8906c",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Adquirir Dinagrama",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', Vpotencia, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 3900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2f03b978904c38e",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "SPM",
+        "func": "var spm = global.get(\"C2S.Last_Reference.ValueSpm\");\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > 161){\n    ctr = 0;\n}\nmsg.payload = {\n    value: [spm],\n    'fc': 6,\n    'unitid': 1,\n    'address': 28,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 4100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c02e2ef212817a8",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "RefVSDDinagrama",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar flagRetentiva = context.get(\"flagRetentiva\", \"memoryOnly\")||0;\nvar Comunicacion_Drive = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//llegó a referencia el VSD\n\nif (Comunicacion_Drive == true){//si tiene comunicación con el drive\n    \n    if (At_Setpt_Spd == 1 && Active == 1) {// ya llegó a referencia\n        flagRetentiva = 1;\n    } else if (Active == 0) {// VSD apagado\n        flagRetentiva = 0;\n    }\n}else{\n    flagRetentiva = 0;\n}\n\nmsg.payload = {\n    value: [flagRetentiva],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 29,\n    'quantity': 1\n}\nnode.status({ fill: \"blue\", shape: \"dot\", text: flagRetentiva});\ncontext.set(\"At_Setpt_Spd\",At_Setpt_Spd,\"memoryOnly\");\ncontext.set(\"Active\", Active,\"memoryOnly\");\ncontext.set(\"flagRetentiva\", flagRetentiva,\"memoryOnly\");\ncontext.set(\"Comunicacion_Drive\", Comunicacion_Drive,\"memoryOnly\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 3960,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "68435ab01b882ddc",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "RefNumeroMuestras",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 1;//llegó a referencia el VSD\nvar NStrokes = global.get(\"GeometriaSucket.NStrokes\") || 1;//llegó a referencia el VSD\nvar NmuestrasTotales = Nmuestras*NStrokes;\nmsg.payload = {\n    value: [NmuestrasTotales],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 30,\n    'quantity': 1\n}\nnode.status({fill:\"blue\",shape:\"ring\",text:\"strokes\"+NStrokes+\" Nmuestras\"+Nmuestras+ \" \"+\"Total\"+msg.payload.value});\nglobal.set(\"GeometriaSucket.NmuestrasTotales\", NmuestrasTotales);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 4020,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "2a84764569d97d25",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "links": [
+            "58d10b0ab4c186c5"
+        ],
+        "x": 775,
+        "y": 4020,
+        "wires": [
+            [
+                "2c02e2ef212817a8",
+                "68435ab01b882ddc",
+                "8045d26ad92da744"
+            ]
+        ]
+    },
+    {
+        "id": "8045d26ad92da744",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "flagTimeSPM*10",
+        "func": "// IMPORTANTE\n//  esta rutina se debe ejecutar cada segundo\nvar indice = flow.get(\"modbusDinagrama\") || 200;\nvar NStrokes = global.get(\"GeometriaSucket.NStrokes\") || 1;//llegó a referencia el VSD\nvar ValueSpm = global.get(\"C2S.Last_Reference.ValueSpm\")||0;//referencia seteada desde pantalla\nValueSpm = Math.abs(ValueSpm); // siempre valor positivo\nvar tiempoStroke = 60/ValueSpm;\n\nvar tiempoTotal = tiempoStroke*NStrokes;//el 10 por el registro para tomar decimales\ntiempoTotal = parseFloat(tiempoTotal.toFixed(1));//redondeo a 2 cifras decimales\ntiempoTotal = tiempoTotal*10;\n//si esta 1 no esta disponible\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar VSDActivo = global.get(\"IO.Dinagrama.VSDActivo\",\"memoryOnly\")||0;\nvar bandera = 0;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\n\nif(Pausa == 0 && VSDActivo == 1){\n    //Esta Disponible\n    if(ctr < tiempoTotal){\n        ctr = ctr + 1;        \n        bandera = 1;\n    }else{\n        bandera = 0;\n    }\n\n}else{\n    //No esta disponible\n    bandera = 0;\n    ctr = 0;\n}\n\nmsg.payload = {\n    value: [tiempoTotal],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 31,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({ fill: \"blue\", shape: \"dot\", text: (msg.payload.value)});//valor de la bandera\ncontext.set(\"NStrokes\", NStrokes,\"memoryOnly\");\ncontext.set(\"ValueSpm\", ValueSpm,\"memoryOnly\");\ncontext.set(\"tiempoStroke\",tiempoStroke,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"tiempoTotal\", tiempoTotal,\"memoryOnly\");\ncontext.set(\"ctr\", ctr,\"memoryOnly\");\ncontext.set(\"VSDActivo\", VSDActivo,\"memoryOnly\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 4080,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "edc238b409b734de",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1370,
+        "y": 3720,
+        "wires": []
+    },
+    {
+        "id": "441a1b389e53d303",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "TiempoPausaAdquisicion",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar tiempoSwcith = 0.5;// tiempo de swicth s\nvar tiempoEspera = (NmuestrasTotales*tiempoSwcith)  + 60;//margen de 50 s de más \nmsg.payload = {\n    value: [tiempoEspera],//Valor en segundos\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 33,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({fill:\"blue\",shape:\"dot\",text:\"TiempoEspera: \"+msg.payload.value});//valor de la bandera\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 4140,
+        "wires": [
+            [
+                "bba3aa277bcf1444"
+            ]
+        ]
+    },
+    {
+        "id": "4a54464134473561",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "Tiempo De espera",
+        "links": [
+            "58d10b0ab4c186c5"
+        ],
+        "x": 775,
+        "y": 4140,
+        "wires": [
+            [
+                "441a1b389e53d303"
+            ]
+        ]
+    },
+    {
+        "id": "c6ebe3799f5ffb56",
+        "type": "change",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "modbusDinagrama",
+                "pt": "flow",
+                "to": "199",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 3740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc4b4c945a68900f",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 665,
+        "y": 3740,
+        "wires": [
+            [
+                "c6ebe3799f5ffb56"
+            ]
+        ]
+    },
+    {
+        "id": "684cadf7491b3916",
+        "type": "link in",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "recorrer Indice Dinagrama",
+        "links": [
+            "ecf98f3f.4a704"
+        ],
+        "x": 775,
+        "y": 3900,
+        "wires": [
+            [
+                "d4216d9506b296f0"
+            ]
+        ]
+    },
+    {
+        "id": "d17e6fc58fa0b0dd",
+        "type": "debug",
+        "z": "2026898575f7aa56",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 660,
+        "wires": []
     }
 ]
