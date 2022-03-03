@@ -1178,9 +1178,7 @@
             "566c907c.70175"
         ],
         "x": 38,
-        "y": 33,
-        "w": 1264,
-        "h": 574
+        "y": 33
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -1227,9 +1225,7 @@
             "7c55c2ad.611734"
         ],
         "x": 42,
-        "y": 617,
-        "w": 3416,
-        "h": 2176
+        "y": 617
     },
     {
         "id": "9b538856.60fb38",
@@ -1562,9 +1558,7 @@
             "0465b4b302febce1"
         ],
         "x": 44,
-        "y": 3669,
-        "w": 482,
-        "h": 232
+        "y": 3669
     },
     {
         "id": "2bb641e0f5f82309",
@@ -1580,9 +1574,7 @@
             "80a9920a.43161"
         ],
         "x": 42,
-        "y": 2797,
-        "w": 2626,
-        "h": 866
+        "y": 2797
     },
     {
         "id": "e3aa057d.09fb18",
@@ -2528,7 +2520,7 @@
         "x": 14,
         "y": 999,
         "w": 642,
-        "h": 562
+        "h": 582
     },
     {
         "id": "a0b84f94a6510eee",
@@ -2771,9 +2763,7 @@
             "c01c2da340bbf3a1"
         ],
         "x": 3298,
-        "y": 33,
-        "w": 1684,
-        "h": 714
+        "y": 33
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2790,9 +2780,7 @@
             "6e4ce300ce601bf3"
         ],
         "x": 74,
-        "y": 1219,
-        "w": 332,
-        "h": 122
+        "y": 1219
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2814,9 +2802,7 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33,
-        "w": 3004,
-        "h": 1094
+        "y": 33
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3556,12 +3542,13 @@
             "65db292f7fe289df",
             "d25b890196364508",
             "fe0eb29fd8318e9c",
-            "b2ae3630080264e5"
+            "b2ae3630080264e5",
+            "399e9f3c3b2dd1ae"
         ],
         "x": 34,
-        "y": 259,
-        "w": 872,
-        "h": 122
+        "y": 239,
+        "w": 1052,
+        "h": 162
     },
     {
         "id": "56a92b2a688064b3",
@@ -3623,32 +3610,6 @@
         "h": 522
     },
     {
-        "id": "57e06a04c2c7560a",
-        "type": "group",
-        "z": "6a1ef6a7aef873a7",
-        "name": "Filtro Smooth [Actualmente no se usa]",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "e5f610d35f705146",
-            "81f7af133e8c7271",
-            "d0ab2d0ac037593b",
-            "b9515d1c0b7a1352",
-            "a8e8b142eb23cc20",
-            "c340bde02a24908b",
-            "ef112cc47236d102",
-            "c806dd5b8b5c7fe4",
-            "3ee80d7b1dc1bd80",
-            "68a4f04f6f5be6d4",
-            "c5000abce30d4b14"
-        ],
-        "x": 1114,
-        "y": 439,
-        "w": 1092,
-        "h": 142
-    },
-    {
         "id": "193969f706c28bf5",
         "type": "group",
         "z": "6a1ef6a7aef873a7",
@@ -3665,6 +3626,48 @@
         "y": 1619,
         "w": 422,
         "h": 82
+    },
+    {
+        "id": "936eab7d97be78af",
+        "type": "group",
+        "z": "7a89175c.90f6a8",
+        "name": "LEER, ESCRIBIR PLC A.D",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f88ee0328a8f5964",
+            "138266be848cd64a",
+            "6afa3775f2be0e4d",
+            "3af54985e9349f2c",
+            "8dc4ac2430aa44fc",
+            "0ad7006f65f3d19b",
+            "7397d1cb1a9a2fa0",
+            "c30c78cc60db84f8",
+            "6b2ab85fc1f64252",
+            "bba3aa277bcf1444",
+            "e0ebb1532663774a",
+            "8be993bf3ba4ae30",
+            "eb02c5e2d4135d47",
+            "f04f801e0bd8ff6a",
+            "9adbbbd6b997667e",
+            "d4216d9506b296f0",
+            "58193979505252cc",
+            "2800358056b8906c",
+            "b2f03b978904c38e",
+            "2c02e2ef212817a8",
+            "68435ab01b882ddc",
+            "2a84764569d97d25",
+            "8045d26ad92da744",
+            "edc238b409b734de",
+            "441a1b389e53d303",
+            "4a54464134473561",
+            "c6ebe3799f5ffb56",
+            "cc4b4c945a68900f",
+            "684cadf7491b3916"
+        ],
+        "x": 554,
+        "y": 3679
     },
     {
         "id": "d929d138.3b512",
@@ -4086,9 +4089,7 @@
             "742e267a.cbc27"
         ],
         "x": 68,
-        "y": 2823,
-        "w": 1284,
-        "h": 594
+        "y": 2823
     },
     {
         "id": "80a9920a.43161",
@@ -4106,9 +4107,7 @@
             "a00ff6e2dc632d87"
         ],
         "x": 1358,
-        "y": 2823,
-        "w": 1284,
-        "h": 814
+        "y": 2823
     },
     {
         "id": "1306de9a.9ba341",
@@ -4699,9 +4698,7 @@
             "868cefce.6694a"
         ],
         "x": 64,
-        "y": 59,
-        "w": 1212,
-        "h": 362
+        "y": 59
     },
     {
         "id": "566c907c.70175",
@@ -4724,9 +4721,7 @@
             "3f94e47b8b495988"
         ],
         "x": 64,
-        "y": 429,
-        "w": 1002,
-        "h": 152
+        "y": 429
     },
     {
         "id": "f167459.5f028b8",
@@ -4744,9 +4739,7 @@
             "f68d7eac.63fb98"
         ],
         "x": 68,
-        "y": 643,
-        "w": 1704,
-        "h": 2124
+        "y": 643
     },
     {
         "id": "7c55c2ad.611734",
@@ -4764,9 +4757,7 @@
             "f1099f615835b12b"
         ],
         "x": 1788,
-        "y": 643,
-        "w": 1644,
-        "h": 1226.5
+        "y": 643
     },
     {
         "id": "b1830307.ee865",
@@ -5367,9 +5358,7 @@
             "204cb884a9a1bb09"
         ],
         "x": 3324,
-        "y": 59,
-        "w": 1632,
-        "h": 532
+        "y": 59
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5390,9 +5379,7 @@
             "fb25abef8d3f01a8"
         ],
         "x": 3324,
-        "y": 599,
-        "w": 732,
-        "h": 122
+        "y": 599
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5414,9 +5401,7 @@
             "c71b32312279d18f"
         ],
         "x": 124,
-        "y": 379,
-        "w": 952,
-        "h": 132
+        "y": 379
     },
     {
         "id": "0f959940f19ae52d",
@@ -5447,9 +5432,7 @@
             "7c434a7ec1d35114"
         ],
         "x": 94,
-        "y": 859,
-        "w": 1722,
-        "h": 242
+        "y": 859
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5499,9 +5482,7 @@
             "55eaeea012fb5cb3"
         ],
         "x": 1114,
-        "y": 439,
-        "w": 1932,
-        "h": 342
+        "y": 439
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5548,9 +5529,7 @@
             "628add984fd6a22e"
         ],
         "x": 134,
-        "y": 59,
-        "w": 1822,
-        "h": 282
+        "y": 59
     },
     {
         "id": "8a07c803a203d64c",
@@ -5801,9 +5780,7 @@
             "54b354e7737802b3"
         ],
         "x": 94,
-        "y": 2849,
-        "w": 1232,
-        "h": 542
+        "y": 2849
     },
     {
         "id": "f6e2a6e0.47efb8",
@@ -5839,9 +5816,7 @@
             "bb5e3162.6feb9"
         ],
         "x": 1384,
-        "y": 2849,
-        "w": 1232,
-        "h": 312
+        "y": 2849
     },
     {
         "id": "edfe6c51.d89c68",
@@ -5872,9 +5847,7 @@
             "10966509.4f25e3"
         ],
         "x": 1384,
-        "y": 3169,
-        "w": 722,
-        "h": 442
+        "y": 3169
     },
     {
         "id": "16097ef1.129291",
@@ -6397,9 +6370,7 @@
             "3b8d6f41c33605f7"
         ],
         "x": 94,
-        "y": 669,
-        "w": 1212,
-        "h": 842
+        "y": 669
     },
     {
         "id": "49c39e.d1336c64",
@@ -6574,9 +6545,7 @@
             "9a42b3bc50c233d0"
         ],
         "x": 94,
-        "y": 1519,
-        "w": 1652,
-        "h": 1032
+        "y": 1519
     },
     {
         "id": "f68d7eac.63fb98",
@@ -6605,9 +6574,7 @@
             "dc7c0e6833d4017c"
         ],
         "x": 94,
-        "y": 2559,
-        "w": 892,
-        "h": 182
+        "y": 2559
     },
     {
         "id": "d532ac68.2d5408",
@@ -6660,9 +6627,7 @@
             "fd9444712ce2d739"
         ],
         "x": 1814,
-        "y": 669,
-        "w": 1292,
-        "h": 512
+        "y": 669
     },
     {
         "id": "c4bcf1ca.3d67d",
@@ -6705,9 +6670,7 @@
             "5ea8fcde320bab96"
         ],
         "x": 1814,
-        "y": 1189,
-        "w": 1032,
-        "h": 654.5
+        "y": 1189
     },
     {
         "id": "a80677cf.4274c8",
@@ -6784,9 +6747,7 @@
             "ab756585.f8d38"
         ],
         "x": 2114,
-        "y": 3169,
-        "w": 482,
-        "h": 352
+        "y": 3169
     },
     {
         "id": "f1099f615835b12b",
@@ -6807,9 +6768,7 @@
             "eb27469341ade9cf"
         ],
         "x": 2874,
-        "y": 1199,
-        "w": 532,
-        "h": 222
+        "y": 1199
     },
     {
         "id": "be55ea76.ed4478",
@@ -6833,50 +6792,6 @@
         ],
         "x": 614,
         "y": 689
-    },
-    {
-        "id": "936eab7d97be78af",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "LEER, ESCRIBIR PLC A.D",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f88ee0328a8f5964",
-            "138266be848cd64a",
-            "6afa3775f2be0e4d",
-            "3af54985e9349f2c",
-            "8dc4ac2430aa44fc",
-            "0ad7006f65f3d19b",
-            "7397d1cb1a9a2fa0",
-            "c30c78cc60db84f8",
-            "6b2ab85fc1f64252",
-            "bba3aa277bcf1444",
-            "e0ebb1532663774a",
-            "8be993bf3ba4ae30",
-            "eb02c5e2d4135d47",
-            "f04f801e0bd8ff6a",
-            "9adbbbd6b997667e",
-            "d4216d9506b296f0",
-            "58193979505252cc",
-            "2800358056b8906c",
-            "b2f03b978904c38e",
-            "2c02e2ef212817a8",
-            "68435ab01b882ddc",
-            "2a84764569d97d25",
-            "8045d26ad92da744",
-            "edc238b409b734de",
-            "441a1b389e53d303",
-            "4a54464134473561",
-            "c6ebe3799f5ffb56",
-            "cc4b4c945a68900f",
-            "684cadf7491b3916"
-        ],
-        "x": 554,
-        "y": 3679,
-        "w": 1052,
-        "h": 542
     },
     {
         "id": "d25d405a.19cff",
@@ -72373,7 +72288,7 @@
         "server": "3548b3b4.c8d65c",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
-        "x": 570,
+        "x": 550,
         "y": 420,
         "wires": [
             [],
@@ -80304,7 +80219,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "a063560e4a0a3bf1",
         "name": "setVarPou",
-        "func": "var NumeroMuestras = flow.get(\"NumeroMuestras\")||0;\nvar Desp_CD = flow.get(\"Desp_CD\")||0;\nvar Esfu_CD = flow.get(\"Esfu_CD\")||0;\nvar Tramo = flow.get(\"Tramo\")||0;\nvar DX = flow.get(\"DX\")||0;\nvar UM = createArray(3, 520);\nvar UV = createArray(520);\nvar Numero_de_sartas = flow.get(\"numSarta\") || 0;\nvar SPM_Feedback = flow.get(\"SPM_Feedback\")||0;\nvar nCab = flow.get(\"nCab\")||0;\nvar DCprom = flow.get(\"DCprom\")||0;\nvar DiametroTubing = flow.get(\"DiametroTubing\")||0;\nvar PresionCasing = flow.get(\"PresionCasing\")||0;\nvar T = SPM_Feedback;\nvar np = 1.0, DT_0 = 0, DT1, Rho, gc = 32.2, Cest, LongOptm;\nvar AreaTubing, AreaCabilla, CargaCabezal, DT_Gl;\nvar V = 0.1;//identificar Value\nvar nt1 = Numero_de_sartas - 1;\nvar T_Matrix = NumeroMuestras;\nvar A = Tramo[nt1][15];\nvar E = Tramo[nt1][14];\nvar M = Tramo[nt1][18] - 1.0;\nvar L = Tramo[nt1][12];\nvar LM = M + 1.0;\nvar N = (T_Matrix) + 2.0 * (M - 1.0 + np);\nvar NT = Math.round(T_Matrix);\nvar NTI = NT;\n\nif ((L != 0.0) && (T_Matrix != 149)) {\n    LongOptm = (2.0 / (149.0 - (T_Matrix))) * L;\n}\nif (((T_Matrix) + 2.0 * (LM)) > 500.0) {\n    nCab = LongOptm;\n    var Ajustar_Datos = 1.0;\n    M = Tramo[nt1][18] - 1.0;\n    M = parseInt(M);\n}\n// setear las variables\nfor (let j = 0; j <= 1; j++) {\n    for (let z = 0; z <= 499; z++) {\n        UM[j][z] = 0.0;\n        UV[z] = 0.0;\n    }\n}\n// (* ------- Llenado de las dos Primeras filas de la matriz U---------*)\nfor (let j = 0; j <= NumeroMuestras - 1; j++) {\n    UM[0][j] = -(Desp_CD[j]) / (12.0);\n    if ((E != 0.0) && (A != 0)) {\n    // segunda  ley de hooke segunda linea \n        UM[1][j] = (Esfu_CD[j] * 1000.0) * (DX / (E * A * 144.0)) + UM[0][j];\n    }\n}\n\nM = parseInt(M);//truncar valores del ciclo for\nfor (let j = 0; j <= (2*M); j++) {\n    UM[0][NumeroMuestras + j] = UM[0][j];\n    UM[1][NumeroMuestras + j] = UM[1][j];\n}\nif (T != 0) {\n    DT1 = 60.0 / T / ((NTI) - 1.0);\n}\nNT = N;\nif (T != 0) {\n    DT_0 = 60.0 / T / ((NTI) - 1.0);\n}\nif (M != 0.0) {\n    DX = L / (M);\n}\nE = Tramo[Numero_de_sartas - 1][14];\nRho = Tramo[Numero_de_sartas - 1][13];\nif ((Rho != 0.0) && (V != 0.0) && (DT_0 != 0.0)) {\n    V = Math.sqrt(144.0 * E * gc / Rho);\n    Cest = DX / V / DT_0;;\n}\nAreaTubing = (3.1416 / 4.0) * Math.pow(DiametroTubing, 2.0);\nAreaCabilla = (3.1416 / 4.0) * Math.pow(DCprom, 2.0);\nCargaCabezal = ((AreaTubing - AreaCabilla) * PresionCasing) / 1000.0;\n\n// variables utilizadas en otras rutinas\nDT_Gl = DT1;\n// VARIABLES DE FLUJO\nflow.set(\"UM\", UM);\nflow.set(\"UV\", UV);\nflow.set(\"DX\", DX);\nflow.set(\"nCab\", nCab);\nflow.set(\"AreaTubing\", AreaTubing);\nflow.set(\"AreaCabilla\", AreaCabilla);\nflow.set(\"CargaCabezal\", CargaCabezal);\nflow.set(\"DT_Gl\", DT_Gl);\nflow.set(\"M\", M);\n\n// VARIABLES DE CONTEXTO\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"E\", E, \"memoryOnly\");\ncontext.set(\"DX\", DX, \"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"UM\", UM, \"memoryOnly\");\ncontext.set(\"aDQUISIONUM\", UM, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"nt1\", nt1, \"memoryOnly\");\ncontext.set(\"L\", L, \"memoryOnly\");\ncontext.set(\"T_Matrix\", T_Matrix, \"memoryOnly\");\ncontext.set(\"LongOptm\", LongOptm, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"LM\", LM, \"memoryOnly\");\ncontext.set(\"np\", np, \"memoryOnly\");\ncontext.set(\"T\", T, \"memoryOnly\");\ncontext.set(\"DT_0\", DT_0, \"memoryOnly\");\ncontext.set(\"NTI\", NTI, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"DT1\", DT1, \"memoryOnly\");\ncontext.set(\"Rho\", Rho, \"memoryOnly\");\ncontext.set(\"V\", V, \"memoryOnly\");\ncontext.set(\"gc\", gc, \"memoryOnly\");\ncontext.set(\"Cest\", Cest, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"AreaTubing\", AreaTubing, \"memoryOnly\");\ncontext.set(\"AreaCabilla\", AreaCabilla, \"memoryOnly\");\ncontext.set(\"CargaCabezal\", CargaCabezal, \"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing, \"memoryOnly\");\ncontext.set(\"DCprom\", DCprom, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing, \"memoryOnly\");\ncontext.set(\"DT_Gl\", DT_Gl, \"memoryOnly\");\ncontext.set(\"UV\", UV, \"memoryOnly\");\ncontext.set(\"N\", N, \"memoryOnly\");\ncontext.set(\"NT\", NT, \"memoryOnly\");\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\nreturn msg;\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
+        "func": "var NumeroMuestras = flow.get(\"NumeroMuestras\")||0;\nvar Desp_CD = flow.get(\"Desp_CD\")||0;\nvar Esfu_CD = flow.get(\"Esfu_CD\")||0;\nvar Tramo = flow.get(\"Tramo\")||0;\nvar DX = flow.get(\"DX\")||0;\nvar UM = createArray(3, 520);\nvar UV = createArray(520);\nvar Numero_de_sartas = flow.get(\"numSarta\") || 0;\nvar SPM_Feedback = flow.get(\"SPM_Feedback\")||0;\nvar nCab = flow.get(\"nCab\")||0;\nvar DCprom = flow.get(\"DCprom\")||0;\nvar DiametroTubing = flow.get(\"DiametroTubing\")||0;\nvar PresionCasing = flow.get(\"PresionCasing\")||0;\nvar T = SPM_Feedback;//velocidad del VSD\nvar np = 1.0, DT_0 = 0, DT1, Rho, gc = 32.2, Cest, LongOptm;\nvar AreaTubing, AreaCabilla, CargaCabezal, DT_Gl;\nvar V = 0.1;//identificar Value\nvar nt1 = Numero_de_sartas - 1;\nvar T_Matrix = NumeroMuestras;\nvar A = Tramo[nt1][15];\nvar E = Tramo[nt1][14];\nvar M = Tramo[nt1][18] - 1.0;\nvar L = Tramo[nt1][12];\nvar LM = M + 1.0;\nvar N = (T_Matrix) + 2.0 * (M - 1.0 + np);\nvar NT = Math.round(T_Matrix);\nvar NTI = NT;\n//-----------------------------------------------------------------\n// en caso de que se este emulando el TWM\nvar FuenteCalculo = global.get(\"GeometriaSucket.FuenteCalculo\")||0;\nif (FuenteCalculo == \"TWM\"){\n    T = 8.6;// Solo setea 8.6 si esta en simulación\n}\n//------------------------------------------------------------------\n\nif ((L != 0.0) && (T_Matrix != 149)) {\n    LongOptm = (2.0 / (149.0 - (T_Matrix))) * L;\n}\nif (((T_Matrix) + 2.0 * (LM)) > 500.0) {\n    nCab = LongOptm;\n    var Ajustar_Datos = 1.0;\n    M = Tramo[nt1][18] - 1.0;\n    M = parseInt(M);\n}\n// setear las variables\nfor (let j = 0; j <= 1; j++) {\n    for (let z = 0; z <= 499; z++) {\n        UM[j][z] = 0.0;\n        UV[z] = 0.0;\n    }\n}\n// (* ------- Llenado de las dos Primeras filas de la matriz U---------*)\nfor (let j = 0; j <= NumeroMuestras - 1; j++) {\n    UM[0][j] = -(Desp_CD[j]) / (12.0);\n    if ((E != 0.0) && (A != 0)) {\n    // segunda  ley de hooke segunda linea \n        UM[1][j] = (Esfu_CD[j] * 1000.0) * (DX / (E * A * 144.0)) + UM[0][j];\n    }\n}\n\nM = parseInt(M);//truncar valores del ciclo for\nfor (let j = 0; j <= (2*M); j++) {\n    UM[0][NumeroMuestras + j] = UM[0][j];\n    UM[1][NumeroMuestras + j] = UM[1][j];\n}\nif (T != 0) {\n    DT1 = 60.0 / T / ((NTI) - 1.0);\n}\nNT = N;\nif (T != 0) {\n    DT_0 = 60.0 / T / ((NTI) - 1.0);\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"SPM No Setea\" + T});\n}\nif (M != 0.0) {\n    DX = L / (M);\n}\nE = Tramo[Numero_de_sartas - 1][14];\nRho = Tramo[Numero_de_sartas - 1][13];\nif ((Rho != 0.0) && (V != 0.0) && (DT_0 != 0.0)) {\n    V = Math.sqrt(144.0 * E * gc / Rho);\n    Cest = DX / V / DT_0;;\n}\nAreaTubing = (3.1416 / 4.0) * Math.pow(DiametroTubing, 2.0);\nAreaCabilla = (3.1416 / 4.0) * Math.pow(DCprom, 2.0);\nCargaCabezal = ((AreaTubing - AreaCabilla) * PresionCasing) / 1000.0;\n\n// variables utilizadas en otras rutinas\nDT_Gl = DT1;\n// VARIABLES DE FLUJO\nflow.set(\"UM\", UM);\nflow.set(\"UV\", UV);\nflow.set(\"DX\", DX);\nflow.set(\"nCab\", nCab);\nflow.set(\"AreaTubing\", AreaTubing);\nflow.set(\"AreaCabilla\", AreaCabilla);\nflow.set(\"CargaCabezal\", CargaCabezal);\nflow.set(\"DT_Gl\", DT_Gl);\nflow.set(\"M\", M);\n\n// VARIABLES DE CONTEXTO\ncontext.set(\"A\", A, \"memoryOnly\");\ncontext.set(\"E\", E, \"memoryOnly\");\ncontext.set(\"DX\", DX, \"memoryOnly\");\ncontext.set(\"M\", M, \"memoryOnly\");\ncontext.set(\"UM\", UM, \"memoryOnly\");\ncontext.set(\"aDQUISIONUM\", UM, \"memoryOnly\");\ncontext.set(\"Desp_CD\", Desp_CD, \"memoryOnly\");\ncontext.set(\"Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Tramo\", Tramo, \"memoryOnly\");\ncontext.set(\"nt1\", nt1, \"memoryOnly\");\ncontext.set(\"L\", L, \"memoryOnly\");\ncontext.set(\"T_Matrix\", T_Matrix, \"memoryOnly\");\ncontext.set(\"LongOptm\", LongOptm, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"LM\", LM, \"memoryOnly\");\ncontext.set(\"np\", np, \"memoryOnly\");\ncontext.set(\"T\", T, \"memoryOnly\");\ncontext.set(\"DT_0\", DT_0, \"memoryOnly\");\ncontext.set(\"NTI\", NTI, \"memoryOnly\");\ncontext.set(\"SPM_Feedback\", SPM_Feedback, \"memoryOnly\");\ncontext.set(\"DT1\", DT1, \"memoryOnly\");\ncontext.set(\"Rho\", Rho, \"memoryOnly\");\ncontext.set(\"V\", V, \"memoryOnly\");\ncontext.set(\"gc\", gc, \"memoryOnly\");\ncontext.set(\"Cest\", Cest, \"memoryOnly\");\ncontext.set(\"nCab\", nCab, \"memoryOnly\");\ncontext.set(\"AreaTubing\", AreaTubing, \"memoryOnly\");\ncontext.set(\"AreaCabilla\", AreaCabilla, \"memoryOnly\");\ncontext.set(\"CargaCabezal\", CargaCabezal, \"memoryOnly\");\ncontext.set(\"DiametroTubing\", DiametroTubing, \"memoryOnly\");\ncontext.set(\"DCprom\", DCprom, \"memoryOnly\");\ncontext.set(\"PresionCasing\", PresionCasing, \"memoryOnly\");\ncontext.set(\"DT_Gl\", DT_Gl, \"memoryOnly\");\ncontext.set(\"UV\", UV, \"memoryOnly\");\ncontext.set(\"N\", N, \"memoryOnly\");\ncontext.set(\"NT\", NT, \"memoryOnly\");\ncontext.set(\"NumeroMuestras\", NumeroMuestras, \"memoryOnly\");\nreturn msg;\nfunction createArray(length) {\n    var arr = new Array(length || 0),\n        i = length;\n\n    if (arguments.length > 1) {\n        var args = Array.prototype.slice.call(arguments, 1);\n        while (i--) arr[length - 1 - i] = createArray.apply(this, args);\n    }\n\n    return arr;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -80389,7 +80304,7 @@
         "finalize": "",
         "libs": [],
         "x": 450,
-        "y": 1460,
+        "y": 1440,
         "wires": [
             [
                 "d3280befce20327a",
@@ -80575,7 +80490,7 @@
             "b5183e9f40b17918"
         ],
         "x": 615,
-        "y": 1460,
+        "y": 1480,
         "wires": []
     },
     {
@@ -80584,9 +80499,9 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "",
-        "op1": "true",
+        "op1": "",
         "op2": "0",
-        "op1type": "bool",
+        "op1type": "nul",
         "op2type": "str",
         "duration": "15",
         "extend": false,
@@ -80610,9 +80525,9 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "",
-        "op1": "true",
+        "op1": "",
         "op2": "0",
-        "op1type": "bool",
+        "op1type": "nul",
         "op2type": "str",
         "duration": "15",
         "extend": false,
@@ -80643,7 +80558,7 @@
         "finalize": "",
         "libs": [],
         "x": 440,
-        "y": 1400,
+        "y": 1380,
         "wires": [
             [
                 "d0f5dfd40edd6ea0"
@@ -81156,10 +81071,11 @@
             "d3280befce20327a"
         ],
         "x": 135,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
-                "fe0eb29fd8318e9c"
+                "fe0eb29fd8318e9c",
+                "b2ae3630080264e5"
             ]
         ]
     },
@@ -81186,10 +81102,11 @@
         "payload": "",
         "payloadType": "date",
         "x": 140,
-        "y": 300,
+        "y": 320,
         "wires": [
             [
-                "fe0eb29fd8318e9c"
+                "fe0eb29fd8318e9c",
+                "b2ae3630080264e5"
             ]
         ]
     },
@@ -81206,7 +81123,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            // var data = [trace1,trace2];\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 640,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "19153e594764bbba"
@@ -81230,7 +81147,7 @@
         "templateScope": "local",
         "className": "",
         "x": 780,
-        "y": 340,
+        "y": 360,
         "wires": [
             []
         ]
@@ -81248,7 +81165,7 @@
         "finalize": "",
         "libs": [],
         "x": 480,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "8914746db9ae7a19"
@@ -84663,7 +84580,7 @@
                 "p": "payload"
             }
         ],
-        "repeat": "5",
+        "repeat": "10",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
@@ -92977,8 +92894,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 800,
-        "y": 300,
+        "x": 980,
+        "y": 280,
         "wires": [
             []
         ]
@@ -92993,12 +92910,14 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [40],\n                y: [10],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n    \n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 640,
-        "y": 300,
+        "x": 820,
+        "y": 280,
         "wires": [
-            []
+            [
+                "1054e0b7f84ae584"
+            ]
         ]
     },
     {
@@ -93007,14 +92926,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "9648249e35aead30",
         "name": "DataSuperficie",
-        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar xFondo = global.get(\"Dinagrama.fondo.Desp_CD\") || 0;\nvar yFondo = global.get(\"Dinagrama.fondo.Esfu_CD\") || 0;\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    msg.xSuperficie = Desp_CD;//Dinagrama de Superficie\n    msg.ySuperficie = Esfu_CD;\n    msg.xFondo = xFondo;//Dinagrama de Fondo\n    msg.yFondo = yFondo;\n    // variables de monitoreo\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
+        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar xFondo = global.get(\"Dinagrama.fondo.Desp_CD\") || 0;\nvar yFondo = global.get(\"Dinagrama.fondo.Esfu_CD\") || 0;\nvar Porcent_X = global.get(\"Control_functions.SurfaceControl.Porcent_X\")||0;\nvar Porcent_Y = global.get(\"Control_functions.SurfaceControl.Porcent_Y\")||0;\nvar tamano = Desp_CD.length;\n\n// calculo del punto x\nvar puntoX = (Math.max(...Desp_CD) - Math.min(...Desp_CD)) * (Porcent_X / 100) + Math.min(...Desp_CD);\nvar puntoY = ((Math.max(...Esfu_CD) - Math.min(...Esfu_CD)) * (Porcent_Y / 100)) + Math.min(...Esfu_CD);\n\ncontext.set(\"puntoX\", puntoX,\"memoryOnly\");\ncontext.set(\"superficie.esfuMax\", Math.max(...Esfu_CD),\"memoryOnly\");\ncontext.set(\"superficie.esfuMin\", Math.min(...Esfu_CD),\"memoryOnly\");\ncontext.set(\"puntoY\", puntoY,\"memoryOnly\");\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    msg.xSuperficie = Desp_CD;//Dinagrama de Superficie\n    msg.ySuperficie = Esfu_CD;\n    // punto del dinagrama de superficie\n    msg.puntoX = puntoX;\n    msg.puntoY = puntoY;\n    // dinagrama de fondo\n    msg.xFondo = xFondo;\n    msg.yFondo = yFondo;\n    // variables de monitoreo\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 300,
+        "x": 640,
+        "y": 280,
         "wires": [
             [
                 "65db292f7fe289df"
@@ -93583,7 +93502,7 @@
         "drop": false,
         "allowrate": false,
         "x": 320,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "305dc890db8b5ec3"
@@ -93608,7 +93527,7 @@
         "drop": false,
         "allowrate": false,
         "x": 320,
-        "y": 300,
+        "y": 320,
         "wires": [
             [
                 "d25b890196364508"
@@ -94319,246 +94238,6 @@
         ]
     },
     {
-        "id": "e5f610d35f705146",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "RecorrerVectorPosicion",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else{\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1250,
-        "y": 480,
-        "wires": [
-            [
-                "b9515d1c0b7a1352"
-            ]
-        ]
-    },
-    {
-        "id": "81f7af133e8c7271",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "RecorrerVectorCarga",
-        "func": "var ctr = context.get(\"ctr\", \"memoryOnly\") || 0;\nvar vector = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\")||[];\n\nif (vector.length){\n    node.status({ fill: \"red\", shape: \"ring\", text: \"NoData\" });\n}else {\n    node.status({ fill: \"green\", shape: \"ring\", text: \"Data\" });\n}\n\nif(ctr < vector.length){\n    msg.payload = vector[ctr];\n    msg.contador = ctr;\n    msg.tamano = vector.length;\n    ctr = ctr + 1;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n    context.set(\"vector\", vector,\"memoryOnly\");\n    node.status({ fill: \"blue\", shape: \"ring\", text: \"tamano: \" + msg.tamano + \" act :\"+ctr});\n    return msg;\n}else{\n    ctr = 0;\n    context.set(\"ctr\", ctr,\"memoryOnly\");\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 540,
-        "wires": [
-            [
-                "d0ab2d0ac037593b"
-            ]
-        ]
-    },
-    {
-        "id": "d0ab2d0ac037593b",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1430,
-        "y": 540,
-        "wires": [
-            [
-                "81f7af133e8c7271",
-                "c340bde02a24908b"
-            ]
-        ]
-    },
-    {
-        "id": "b9515d1c0b7a1352",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "100",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1450,
-        "y": 480,
-        "wires": [
-            [
-                "e5f610d35f705146",
-                "a8e8b142eb23cc20"
-            ]
-        ]
-    },
-    {
-        "id": "a8e8b142eb23cc20",
-        "type": "smooth",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "property": "payload",
-        "action": "low",
-        "count": "3",
-        "round": "",
-        "mult": "single",
-        "reduce": false,
-        "x": 1650,
-        "y": 480,
-        "wires": [
-            [
-                "ef112cc47236d102"
-            ]
-        ]
-    },
-    {
-        "id": "c340bde02a24908b",
-        "type": "smooth",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "property": "payload",
-        "action": "low",
-        "count": "3",
-        "round": "",
-        "mult": "single",
-        "reduce": false,
-        "x": 1640,
-        "y": 540,
-        "wires": [
-            [
-                "c806dd5b8b5c7fe4"
-            ]
-        ]
-    },
-    {
-        "id": "ef112cc47236d102",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "filtrarVector",
-        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VposFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1810,
-        "y": 480,
-        "wires": [
-            [
-                "3ee80d7b1dc1bd80"
-            ]
-        ]
-    },
-    {
-        "id": "c806dd5b8b5c7fe4",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "filtrarVector",
-        "func": "var contador = msg.contador;\nvar valor  = msg.payload;\nvar tamano = msg.tamano;\nvar vector = context.get(\"vector\",\"memoryOnly\")||[];\nvector[contador] = valor;\ncontext.set(\"vector\", vector,\"memoryOnly\");\nnode.status({fill:\"blue\",shape:\"ring\",text:contador});\nif(contador >= tamano - 1){//finalizó\n    global.set(\"IO.Dinagrama.VcargaFiltrado\",vector,\"memoryOnly\");\n    context.set(\"VposFiltrado\", vector,\"memoryOnly\");\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1810,
-        "y": 540,
-        "wires": [
-            [
-                "68a4f04f6f5be6d4"
-            ]
-        ]
-    },
-    {
-        "id": "3ee80d7b1dc1bd80",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1960,
-        "y": 480,
-        "wires": [
-            [
-                "c5000abce30d4b14"
-            ]
-        ]
-    },
-    {
-        "id": "68a4f04f6f5be6d4",
-        "type": "delay",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "x": 1960,
-        "y": 540,
-        "wires": [
-            [
-                "c5000abce30d4b14"
-            ]
-        ]
-    },
-    {
-        "id": "c5000abce30d4b14",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "57e06a04c2c7560a",
-        "name": "acotarVector",
-        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\");\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\n\nMin_Desp2 = VDesplazamiento[PosVdesmayor];\nfor (let k = 0; k < Nmuestras; k++) {\n    if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n        Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n        PosVdesmin2 = PosVdesmayor + k;\n    }\n}\nfor (let m = 0; m < Nmuestras; m++) {\n    if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n        Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n        PosVdesmayor2 = PosVdesmin2 + m;\n    }\n}\nMax_Desp2 = VDesplazamiento[PosVdesmin2];\nLongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\nfor (let j = 0; j < LongitudVector ; j++) {\n    DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n    cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n    \n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", DespAcotado);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", cargaAcotado);\nglobal.set(\"Dinagrama.superficie.nMuestras\", DespAcotado.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2110,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "11ef0a743969f2c0",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
@@ -94662,7 +94341,7 @@
         "to": "",
         "reg": false,
         "x": 410,
-        "y": 1520,
+        "y": 1480,
         "wires": [
             [
                 "9d6ec3009b50de4b"
@@ -94678,8 +94357,8 @@
         "links": [
             "9135e4551163095b"
         ],
-        "x": 535,
-        "y": 1520,
+        "x": 515,
+        "y": 1540,
         "wires": []
     },
     {
@@ -94855,9 +94534,9 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "",
-        "op1": "true",
+        "op1": "",
         "op2": "0",
-        "op1type": "bool",
+        "op1type": "nul",
         "op2type": "str",
         "duration": "15",
         "extend": false,
@@ -95104,8 +94783,7 @@
         "y": 300,
         "wires": [
             [
-                "3316e4228282fb39",
-                "339e5bb7f9f9c951"
+                "3316e4228282fb39"
             ]
         ]
     },
@@ -95125,23 +94803,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "339e5bb7f9f9c951",
-        "type": "debug",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 480,
-        "y": 340,
-        "wires": []
     },
     {
         "id": "e81b09c0b9c9f05c",
@@ -95168,9 +94829,9 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "",
-        "op1": "true",
+        "op1": "",
         "op2": "0",
-        "op1type": "bool",
+        "op1type": "nul",
         "op2type": "str",
         "duration": "15",
         "extend": false,
@@ -95970,5 +95631,25 @@
         "x": 500,
         "y": 660,
         "wires": []
+    },
+    {
+        "id": "399e9f3c3b2dd1ae",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9648249e35aead30",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "d25b890196364508"
+            ]
+        ]
     }
 ]
