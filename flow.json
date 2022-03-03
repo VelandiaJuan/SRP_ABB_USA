@@ -2885,7 +2885,9 @@
             "7a1d4c156061f21e"
         ],
         "x": 14,
-        "y": 419
+        "y": 419,
+        "w": 1692,
+        "h": 262
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -2921,7 +2923,9 @@
             "c3c44f1ef4268496"
         ],
         "x": 14,
-        "y": 79
+        "y": 79,
+        "w": 1072,
+        "h": 322
     },
     {
         "id": "805fec7111f91b80",
@@ -2983,7 +2987,9 @@
             "1ead21b91a6685a5"
         ],
         "x": 1754,
-        "y": 59
+        "y": 59,
+        "w": 1652,
+        "h": 562
     },
     {
         "id": "908c9775529ae148",
@@ -3049,7 +3055,9 @@
             "6f62a8d9257340a3"
         ],
         "x": 14,
-        "y": 719
+        "y": 719,
+        "w": 1382,
+        "h": 522
     },
     {
         "id": "31895b3f7962d5a7",
@@ -3543,12 +3551,14 @@
             "d25b890196364508",
             "fe0eb29fd8318e9c",
             "b2ae3630080264e5",
-            "399e9f3c3b2dd1ae"
+            "399e9f3c3b2dd1ae",
+            "971957757addd816",
+            "afc303276a2ad6e5"
         ],
         "x": 34,
         "y": 239,
         "w": 1052,
-        "h": 162
+        "h": 202
     },
     {
         "id": "56a92b2a688064b3",
@@ -3604,8 +3614,8 @@
             "125b080ee8fa7931",
             "cff8e1a8bb219f05"
         ],
-        "x": 8,
-        "y": 459,
+        "x": 48,
+        "y": 519,
         "w": 1068,
         "h": 522
     },
@@ -5657,8 +5667,8 @@
             "5c4af827690ff74e",
             "aa463aa620d9836f"
         ],
-        "x": 34,
-        "y": 799,
+        "x": 74,
+        "y": 859,
         "w": 672,
         "h": 122
     },
@@ -80348,8 +80358,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 180,
-        "y": 620,
+        "x": 220,
+        "y": 680,
         "wires": [
             [
                 "4d7f790994a1588c"
@@ -80377,8 +80387,8 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 75,
-        "y": 620,
+        "x": 115,
+        "y": 680,
         "wires": [
             [
                 "080812ef7b3075ce"
@@ -80397,8 +80407,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 540,
+        "x": 410,
+        "y": 600,
         "wires": [
             [
                 "4f41825f992c561d"
@@ -80417,8 +80427,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 620,
+        "x": 410,
+        "y": 680,
         "wires": [
             [
                 "125b080ee8fa7931"
@@ -80437,8 +80447,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 760,
+        "x": 410,
+        "y": 820,
         "wires": [
             [
                 "7b68f9d7c1b1cdb5"
@@ -80455,8 +80465,8 @@
             "6e6cb98013f380e8",
             "24994e23766d040a"
         ],
-        "x": 1035,
-        "y": 640,
+        "x": 1075,
+        "y": 700,
         "wires": []
     },
     {
@@ -80511,8 +80521,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 810,
-        "y": 760,
+        "x": 850,
+        "y": 820,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -80537,8 +80547,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 550,
-        "y": 540,
+        "x": 590,
+        "y": 600,
         "wires": [
             [
                 "74cbe059552d3f3c"
@@ -80641,8 +80651,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 570,
-        "y": 580,
+        "x": 610,
+        "y": 640,
         "wires": [
             [
                 "470d01fd9e70c216"
@@ -81071,7 +81081,7 @@
             "d3280befce20327a"
         ],
         "x": 135,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "fe0eb29fd8318e9c",
@@ -81123,7 +81133,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            // var data = [trace1,trace2];\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 640,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "19153e594764bbba"
@@ -81147,7 +81157,7 @@
         "templateScope": "local",
         "className": "",
         "x": 780,
-        "y": 360,
+        "y": 400,
         "wires": [
             []
         ]
@@ -81165,7 +81175,7 @@
         "finalize": "",
         "libs": [],
         "x": 480,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "8914746db9ae7a19"
@@ -81190,8 +81200,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 570,
-        "y": 500,
+        "x": 610,
+        "y": 560,
         "wires": [
             [
                 "cd885bbd1ba1a434"
@@ -83293,9 +83303,10 @@
         "type": "link out",
         "z": "f62fcef222e9a4a3",
         "g": "fd65929694c9064e",
-        "name": "",
+        "name": "ActualizaciondeDatosDinagramaDeSuperficie",
         "links": [
-            "d8221f3a78b7ab1a"
+            "d8221f3a78b7ab1a",
+            "971957757addd816"
         ],
         "x": 1335,
         "y": 480,
@@ -93050,8 +93061,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
-        "y": 880,
+        "x": 580,
+        "y": 940,
         "wires": [
             []
         ]
@@ -93066,8 +93077,8 @@
             "4456b445ce3c4dfc",
             "ad87cee4.7dbb5"
         ],
-        "x": 155,
-        "y": 840,
+        "x": 195,
+        "y": 900,
         "wires": [
             [
                 "5c4af827690ff74e"
@@ -93086,8 +93097,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 130,
-        "y": 880,
+        "x": 170,
+        "y": 940,
         "wires": [
             [
                 "5c4af827690ff74e"
@@ -93111,8 +93122,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 300,
-        "y": 880,
+        "x": 340,
+        "y": 940,
         "wires": [
             [
                 "aa463aa620d9836f"
@@ -93502,7 +93513,7 @@
         "drop": false,
         "allowrate": false,
         "x": 320,
-        "y": 360,
+        "y": 400,
         "wires": [
             [
                 "305dc890db8b5ec3"
@@ -94229,8 +94240,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 500,
+        "x": 890,
+        "y": 560,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -94259,8 +94270,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 260,
-        "y": 940,
+        "x": 300,
+        "y": 1000,
         "wires": [
             [
                 "f9bc6c1e0ee8166f"
@@ -94285,8 +94296,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 940,
+        "x": 520,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -94303,8 +94314,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 500,
+        "x": 750,
+        "y": 560,
         "wires": [
             [
                 "63bff2f4fdb27100"
@@ -94520,8 +94531,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 160,
-        "y": 520,
+        "x": 200,
+        "y": 580,
         "wires": [
             [
                 "4d7f790994a1588c"
@@ -94546,8 +94557,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 550,
-        "y": 620,
+        "x": 590,
+        "y": 680,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -94841,8 +94852,8 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 530,
-        "y": 680,
+        "x": 570,
+        "y": 740,
         "wires": [
             [
                 "470d01fd9e70c216"
@@ -95646,6 +95657,49 @@
         "topic": "",
         "x": 360,
         "y": 280,
+        "wires": [
+            [
+                "d25b890196364508"
+            ]
+        ]
+    },
+    {
+        "id": "971957757addd816",
+        "type": "link in",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9648249e35aead30",
+        "name": "DinagramaFuncionesDeControl",
+        "links": [
+            "4675faa70f1f7b8c"
+        ],
+        "x": 475,
+        "y": 340,
+        "wires": [
+            [
+                "d25b890196364508",
+                "afc303276a2ad6e5"
+            ]
+        ]
+    },
+    {
+        "id": "afc303276a2ad6e5",
+        "type": "delay",
+        "z": "6a1ef6a7aef873a7",
+        "g": "9648249e35aead30",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 590,
+        "y": 340,
         "wires": [
             [
                 "d25b890196364508"
