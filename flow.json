@@ -1638,7 +1638,9 @@
             "8f8a192b.bb2ef8"
         ],
         "x": 28,
-        "y": 43
+        "y": 43,
+        "w": 2924,
+        "h": 1112
     },
     {
         "id": "06c0dbf1bffe1e21",
@@ -3642,7 +3644,10 @@
             "cd885bbd1ba1a434",
             "17e7d4e07d89e0fb",
             "125b080ee8fa7931",
-            "cff8e1a8bb219f05"
+            "cff8e1a8bb219f05",
+            "e81b09c0b9c9f05c",
+            "470d01fd9e70c216",
+            "378068e815e511fb"
         ],
         "x": 48,
         "y": 519
@@ -4130,12 +4135,17 @@
             "421f2b5fe1dbe6b3",
             "f4b06287d144da8b",
             "9708fb7ce60bdd70",
-            "f458467692584c33"
+            "f458467692584c33",
+            "dcdd1638063f1a20",
+            "8ea59087a01bb1de",
+            "e0ea553f7a3dfc73",
+            "5e55c669388b65ba",
+            "82fdc4fdab0cdab1"
         ],
         "x": 134,
         "y": 1939,
         "w": 772,
-        "h": 702
+        "h": 822
     },
     {
         "id": "f7709059ebe5ad7b",
@@ -5219,7 +5229,9 @@
             "e5c936c9725329c6"
         ],
         "x": 54,
-        "y": 349
+        "y": 349,
+        "w": 1802,
+        "h": 780
     },
     {
         "id": "7aad629d.de652c",
@@ -5281,7 +5293,9 @@
             "93ed76d69e2674b6"
         ],
         "x": 54,
-        "y": 69
+        "y": 69,
+        "w": 2692,
+        "h": 282
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -5309,7 +5323,9 @@
             "4e19cfd4.3982f"
         ],
         "x": 1864,
-        "y": 359
+        "y": 359,
+        "w": 1062,
+        "h": 232
     },
     {
         "id": "70a63b74.44894c",
@@ -10146,256 +10162,6 @@
         "height": 1
     },
     {
-        "id": "fe51e480229c1dbe",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 10,
-        "width": 12,
-        "height": 1
-    },
-    {
-        "id": "c7aa04ee153bc263",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 11,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "0ec05c7cc8f6558e",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 12,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "08a499838ef4e0bc",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 15,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "15cf73064768e86d",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "c4af1abf6fb99202",
-        "order": 16,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "41856776a2d6803a",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 26,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "f0782292e6570e92",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 28,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "6006a4e29593438e",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 30,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "dbfb0d944d22ec08",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 32,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "7ffcb39c01171ce3",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 34,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "76fe6046fb88e967",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 36,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c16854589e161f5e",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 37,
-        "width": 16,
-        "height": 1
-    },
-    {
-        "id": "19a304af7aae962c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "bdb839607367176a",
-        "order": 39,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "7a3540e856d37e1b",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "2cd81c12c14e8285",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 7,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "b2c87065b71691e5",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "f76f7d5c06e29369",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 11,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "b722e47ff5e317b3",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "a836859668b2962c",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "81295001db533524",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 21,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "d2cd9623cef7da71",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 24,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "b4fd4da3c4b69e42",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 25,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "b2423cdee8afcb4b",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 26,
-        "width": 3,
-        "height": 1
-    },
-    {
-        "id": "c4681b1dd1405a45",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "e5360c10debc8116",
-        "order": 28,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "c172a4a70d4b12ce",
-        "type": "ui_spacer",
-        "z": "e497646c3625f223",
-        "name": "spacer",
-        "group": "2a978398308ddc2f",
-        "order": 4,
-        "width": 6,
-        "height": 1
-    },
-    {
         "id": "f7563779dea6779f",
         "type": "ui_tab",
         "name": "AVAS",
@@ -10883,6 +10649,246 @@
         "group": "4190699f61725da4",
         "order": 5,
         "width": 5,
+        "height": 1
+    },
+    {
+        "id": "db66275cabd778f3",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 10,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "6789cc189a4b96d8",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 11,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "b762a87284ee24fb",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5ea519a21958cb4d",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cb777283117178ec",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "c4af1abf6fb99202",
+        "order": 16,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "c9967afa738c50f3",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 26,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6b665cd260fd7f24",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 28,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "fbf303b677c87aad",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 30,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2704e4b3991a8be1",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 32,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2a74173839bbf16a",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 34,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "437e4ef4e189b857",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 36,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "71f2402cb909e630",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 37,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "38c2aaafbb56bccc",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "bdb839607367176a",
+        "order": 39,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "447d77d6e2308180",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6d3cb3e25572c8f8",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "73fbbadff2b016ea",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ec9ac9b8005f55e5",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "71ea42ddac4d4a78",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c8de595ed1f840de",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c8e1de6ce4fa8c78",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6c845f8bc12b539d",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8b30c4faf266d345",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 26,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "57a8dc2540b6b95d",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "e5360c10debc8116",
+        "order": 28,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "941c3c88f6e16c58",
+        "type": "ui_spacer",
+        "z": "7a89175c.90f6a8",
+        "name": "spacer",
+        "group": "2a978398308ddc2f",
+        "order": 4,
+        "width": 6,
         "height": 1
     },
     {
@@ -13012,8 +13018,8 @@
         "z": "902fc438.e5d758",
         "g": "b079c206d161b62c",
         "name": "Data show",
-        "func": "var Output_Frequency    = global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0;\nvar Power_Factor        = global.get(\"C2S.Implicit.Power_Factor\",'memoryOnly')||0;\nvar Output_Voltage      = global.get(\"C2S.Implicit.Output_Voltage\", 'memoryOnly') || 0;\nvar Bus_DC_Volts        = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\nvar Output_Power        = global.get(\"C2S.Implicit.Output_Power\", 'memoryOnly') || 0;\nvar Output_Current      = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar Elapsed_Run_Time    = global.get(\"C2S.Implicit.Elapsed_Run_Time\", 'memoryOnly') || 0;\nvar Last_Fault_Code     = global.get(\"C2S.Implicit.Last_Fault_Code\", 'memoryOnly') || 0;\nvar Elapsed_kWH         = global.get(\"C2S.Implicit.Drive_Temp_C\", 'memoryOnly') || 0;\n\nvar MtrCurrent;\nvar MtrVoltage;\n\nvar MaxLimit = global.get(\"C2S.Speed_Control.MaxLimit\")||1;\nvar Speed = global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0;\nvar SpeedPercentage = (Math.abs(Speed) / MaxLimit)*100;\n\nvar MtrCtrl = global.get(\"C2S.Motor_Control.Type\") || \"IM\";\n\n// Corriente y tensión de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nMtrVoltage = Output_Voltage * Rtx;\nMtrCurrent = Output_Current / Rtx;\n\nreturn[\n    { payload: catcherror(Output_Frequency,3)},\n    { payload: catcherror(SpeedPercentage,0)},\n    { payload: catcherror(Power_Factor,3)},\n    { payload: catcherror(Output_Current,3)},\n    { payload: catcherror(Bus_DC_Volts,0)},\n    { payload: catcherror(MtrVoltage,1)},\n    { payload: catcherror(Output_Power,1)},\n    { payload: catcherror(Output_Voltage,1)},\n    { payload: catcherror(MtrCurrent,1)},\n    { payload: catcherror(Elapsed_Run_Time, 1)},\n    { payload: catcherror(Last_Fault_Code, 0)},\n    { payload: catcherror(Elapsed_kWH, 1)}\n]\n\nfunction catcherror(variable,dec){\n    return parseFloat(variable.toFixed(dec));\n}",
-        "outputs": 12,
+        "func": "var Output_Frequency    = global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0;\nvar Power_Factor        = global.get(\"C2S.Implicit.Power_Factor\",'memoryOnly')||0;\nvar Output_Voltage      = global.get(\"C2S.Implicit.Output_Voltage\", 'memoryOnly') || 0;\nvar Bus_DC_Volts        = global.get(\"C2S.Implicit.Bus_DC_Volts\", 'memoryOnly') || 0;\nvar Output_Power        = global.get(\"C2S.Implicit.Output_Power\", 'memoryOnly') || 0;\nvar Output_Current      = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar Elapsed_Run_Time    = global.get(\"C2S.Implicit.Elapsed_Run_Time\", 'memoryOnly') || 0;\nvar Last_Fault_Code     = global.get(\"C2S.Implicit.Last_Fault_Code\", 'memoryOnly') || 0;\nvar Torque_Percent      = global.get(\"C2S.Implicit.Torque_Percent\", 'memoryOnly') || 0;\nvar Elapsed_kWH         = global.get(\"C2S.Implicit.Elapsed_kWH\", 'memoryOnly') || 0;\nvar Torque              = global.get(\"C2S.Implicit.Torque\", 'memoryOnly') || 0;\nvar Consumed_Energy     = global.get(\"PQA.Energy_Parameters.Consumed_Energy\", 'memoryOnly') || 0;\n\nvar MtrCurrent;\nvar MtrVoltage;\n\nvar MaxLimit = global.get(\"C2S.Speed_Control.MaxLimit\")||1;\nvar Speed = global.get(\"C2S.Implicit.Output_Frequency\",'memoryOnly')||0;\nvar SpeedPercentage = (Math.abs(Speed) / MaxLimit)*100;\n\nvar MtrCtrl = global.get(\"C2S.Motor_Control.Type\") || \"IM\";\n\n// Corriente y tensión de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nMtrVoltage = Output_Voltage * Rtx;\nMtrCurrent = Output_Current / Rtx;\n\nreturn[\n    { payload: catcherror(Output_Frequency,3)},\n    { payload: catcherror(SpeedPercentage,0)},\n    { payload: catcherror(Power_Factor,3)},\n    { payload: catcherror(Output_Current,3)},\n    { payload: catcherror(Bus_DC_Volts,0)},\n    { payload: catcherror(MtrVoltage,1)},\n    { payload: catcherror(Output_Power,1)},\n    { payload: catcherror(Output_Voltage,1)},\n    { payload: catcherror(MtrCurrent,1)},\n    { payload: catcherror(Elapsed_Run_Time, 1)},\n    { payload: catcherror(Last_Fault_Code, 0)},\n    { payload: catcherror(Elapsed_kWH, 1)},\n    { payload: catcherror(Torque_Percent, 1)},\n    { payload: catcherror(Torque, 1)},\n    { payload: catcherror(Consumed_Energy, 1)}\n]\n\nfunction catcherror(variable,dec){\n    return parseFloat(variable.toFixed(dec));\n}",
+        "outputs": 15,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -13056,6 +13062,16 @@
             ],
             [
                 "9708fb7ce60bdd70"
+            ],
+            [
+                "8ea59087a01bb1de"
+            ],
+            [
+                "dcdd1638063f1a20",
+                "5e55c669388b65ba"
+            ],
+            [
+                "e0ea553f7a3dfc73"
             ]
         ],
         "outputLabels": [
@@ -13068,6 +13084,9 @@
             "Output_Power",
             "Output_Voltage",
             "Mtr_Current",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -67814,7 +67833,7 @@
         "z": "dd18d94e.4b1408",
         "g": "b2f2659a.67f648",
         "name": "Interpretar comunicación",
-        "func": "// variables para configuración de la polea\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\n\n// variables tomadas desde el VSD\nvar Commanded_SpdRef = parseFloat(msg.payload.Commanded_SpdRef);\nvar Output_Frequency = parseFloat(msg.payload.Output_Frequency);\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n    var relSRP2 = RPM * PoleaPequena\n    if (relSRP2 != 0) {//ejecute si la relacion de SRP2 está correcta\n        var spm = (Commanded_SpdRef * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n        var spmActual = (Output_Frequency * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n    }\n\n}\nelse {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n}\n\nmsg.payload = {\n    'Status_Word': Float2Int(msg.payload.Status_Word),\n    'Output_Frequency': Output_Frequency,\n    'Commanded_SpdRef': Commanded_SpdRef,\n    'Output_Current': parseFloat(msg.payload.Output_Current),\n    'Output_Voltage': parseFloat(msg.payload.Output_Voltage),\n    'Output_Power': parseFloat(msg.payload.Output_Power),\n    'Power_Factor': parseFloat(msg.payload.Power_Factor),\n    'Bus_DC_Volts': parseFloat(msg.payload.Bus_DC_Volts),\n    'Elapsed_Run_Time': parseFloat(msg.payload.Elapsed_Run_Time),\n    'Drive_Temp_C': parseFloat(msg.payload.Drive_Temp_C),\n    'Last_Fault_Code': Float2Int(msg.payload.Last_Fault_Code),\n    'Elapsed_kWH': parseFloat(msg.payload.Elapsed_kWH * 1000),\n    'spm': spm,\n    'spmActual': spmActual,\n    'Port_4_Dig_In_Sts': Float2Int(msg.payload.Port_4_Dig_In_Sts),\n    'Port4_Anlg_In0_Value': parseFloat(msg.payload.Port4_Anlg_In0_Value),\n    'Port4_Anlg_In1_Value': parseFloat(msg.payload.Port4_Anlg_In1_Value),\n    'Port5_Anlg_In0_Value': parseFloat(msg.payload.Port5_Anlg_In0_Value),\n    'Port5_Anlg_In1_Value': parseFloat(msg.payload.Port5_Anlg_In1_Value)\n}\n\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\");\ncontext.set(\"Output_Frequency\", Output_Frequency, \"memoryOnly\");\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"spmActual\", spmActual, \"memoryOnly\");\n\nreturn msg;\n\nfunction Float2Int(payload) {\n    const getHex = i => ('00' + i.toString(16)).slice(-2);\n    var view = new DataView(new ArrayBuffer(4)),\n        result;\n    view.setFloat32(0, payload);\n    result = Array\n        .apply(null, { length: 4 })\n        .map((_, i) => getHex(view.getUint8(i)))\n        .join('');\n    return parseInt(result, 16);\n}\n//Fuente: https://stackoverflow.com/questions/47164675/convert-float-to-32bit-hex-string-in-javascript\n",
+        "func": "// variables para configuración de la polea\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\nvar unitpow = global.get('C2S.Motor_Control.Nameplate.Power_Units') || 0;\nvar powplaca = global.get('C2S.Motor_Control.Nameplate.Power') || 0;\nvar hppla, TorqNom, Torque_Porcent;\n\n// variables tomadas desde el VSD\nvar Commanded_SpdRef = parseFloat(msg.payload.Commanded_SpdRef);\nvar Output_Frequency = parseFloat(msg.payload.Output_Frequency);\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n    var relSRP2 = RPM * PoleaPequena\n    if (relSRP2 != 0) {//ejecute si la relacion de SRP2 está correcta\n        var spm = (Commanded_SpdRef * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n        var spmActual = (Output_Frequency * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n    }\n\n}\nelse {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n}\n\nmsg.payload = {\n    'Status_Word': Float2Int(msg.payload.Status_Word),\n    'Output_Frequency': Output_Frequency,\n    'Commanded_SpdRef': Commanded_SpdRef,\n    'Output_Current': parseFloat(msg.payload.Output_Current),\n    'Output_Voltage': parseFloat(msg.payload.Output_Voltage),\n    'Output_Power': parseFloat(msg.payload.Output_Power),\n    'Power_Factor': parseFloat(msg.payload.Power_Factor),\n    'Bus_DC_Volts': parseFloat(msg.payload.Bus_DC_Volts),\n    'Elapsed_Run_Time': parseFloat(msg.payload.Elapsed_Run_Time),\n    'Drive_Temp_C': parseFloat(msg.payload.Drive_Temp_C),\n    'Last_Fault_Code': Float2Int(msg.payload.Last_Fault_Code),\n    'Elapsed_kWH': parseFloat(msg.payload.Elapsed_kWH * 1000),\n    'spm': spm,\n    'spmActual': spmActual,\n    'Port_4_Dig_In_Sts': Float2Int(msg.payload.Port_4_Dig_In_Sts),\n    'Port4_Anlg_In0_Value': parseFloat(msg.payload.Port4_Anlg_In0_Value),\n    'Port4_Anlg_In1_Value': parseFloat(msg.payload.Port4_Anlg_In1_Value),\n    'Port5_Anlg_In0_Value': parseFloat(msg.payload.Port5_Anlg_In0_Value),\n    'Port5_Anlg_In1_Value': parseFloat(msg.payload.Port5_Anlg_In1_Value)\n}\n\nmsg.payload.Commanded_RPMRef = (msg.payload.Commanded_SpdRef * RPM) / (HertzMotor * 1);// 1 relación de transformación\nmsg.payload.Output_RPM = (msg.payload.Output_Frequency * RPM) / (HertzMotor * 1); // 1 relación de transformación\n\nif (msg.payload.Output_RPM == 0)\n    msg.payload.Torque = 0;\nelse\n    msg.payload.Torque = Math.abs((5252 * msg.payload.Output_Power * 1.341) / (msg.payload.Output_RPM));\n\nif (unitpow == 0) {\n    hppla = powplaca;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\nelse {\n    hppla = powplaca * 1.341;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\n\nif (TorqNom != 0) msg.payload.Torque_Percent = Math.abs((msg.payload.Torque / TorqNom) * 100);\nmsg.payload.Torque_Nominal = TorqNom;\n\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\");\ncontext.set(\"Output_Frequency\", Output_Frequency, \"memoryOnly\");\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"spmActual\", spmActual, \"memoryOnly\");\n\nreturn msg;\n\nfunction Float2Int(payload) {\n    const getHex = i => ('00' + i.toString(16)).slice(-2);\n    var view = new DataView(new ArrayBuffer(4)),\n        result;\n    view.setFloat32(0, payload);\n    result = Array\n        .apply(null, { length: 4 })\n        .map((_, i) => getHex(view.getUint8(i)))\n        .join('');\n    return parseInt(result, 16);\n}\n//Fuente: https://stackoverflow.com/questions/47164675/convert-float-to-32bit-hex-string-in-javascript\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -76958,7 +76977,7 @@
         "g": "67a422f5076a03ee",
         "name": "",
         "group": "e5360c10debc8116",
-        "order": 23,
+        "order": 24,
         "width": 3,
         "height": 1,
         "passthru": false,
@@ -77750,7 +77769,7 @@
         "tooltip": "",
         "place": "Select option",
         "group": "e5360c10debc8116",
-        "order": 20,
+        "order": 21,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -77965,7 +77984,7 @@
         "tooltip": "",
         "place": "Select option",
         "group": "e5360c10debc8116",
-        "order": 22,
+        "order": 23,
         "width": 3,
         "height": 1,
         "passthru": true,
@@ -78230,7 +78249,7 @@
         "label": "#Strokes a Adquirir",
         "tooltip": "",
         "group": "e5360c10debc8116",
-        "order": 19,
+        "order": 20,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -93233,7 +93252,7 @@
         "label": "Contra Peso Crank",
         "tooltip": "",
         "group": "e5360c10debc8116",
-        "order": 18,
+        "order": 19,
         "width": 2,
         "height": 1,
         "passthru": false,
@@ -93309,11 +93328,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 200,
-        "y": 580,
+        "x": 170,
+        "y": 760,
         "wires": [
             [
-                "4d7f790994a1588c"
+                "e81b09c0b9c9f05c"
             ]
         ]
     },
@@ -93597,6 +93616,7 @@
         "id": "e81b09c0b9c9f05c",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
         "name": "AB",
         "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    // var tamano = Vpos.length;\n    // global.set(\"Dinagrama.superficie.Desp_CD\", Vpos);\n    // global.set(\"Dinagrama.superficie.Esfu_CD\", Vcarga);\n    // global.set(\"Dinagrama.superficie.nMuestras\", tamano);\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
         "outputs": 1,
@@ -93604,8 +93624,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 680,
+        "x": 410,
+        "y": 740,
         "wires": [
             [
                 "cff8e1a8bb219f05"
@@ -93642,6 +93662,7 @@
         "id": "470d01fd9e70c216",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
         "name": "Filtro",
         "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos, 3);\n    VcargaFiltrado = Savgol(Vcarga, 3);\n    // VposFiltrado = Vpos;\n    // VcargaFiltrado = Vcarga;\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n    context.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\n    context.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
         "outputs": 1,
@@ -93649,8 +93670,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 680,
+        "x": 750,
+        "y": 740,
         "wires": [
             [
                 "378068e815e511fb"
@@ -93661,6 +93682,7 @@
         "id": "378068e815e511fb",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
         "name": "acotarVector",
         "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\")||[];\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\n\n\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t];\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\nif (PosVdesmayor < PosVdesmin){\n    PosVdesmayor2 = VDesplazamiento[PosVdesmin];\n    for (let m = 0; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + m];\n            PosVdesmayor2 = PosVdesmin + m;\n        }\n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (let k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    \n    //Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (let j = 0; j < LongitudVector; j++) {\n        DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n        cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n\n    }\n\n\n}if(PosVdesmayor > PosVdesmin){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (let k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    for (let m = 0; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (let j = 0; j < LongitudVector; j++) {\n        DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n        cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n\n    }\n\n\n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\n// Escalizar el vector de posicion y de carga \n//-------------------------------------------------------------------\nvar maxPos = 100, minPos = 0, maxCarga = 11.91701, minCarga = 6.5618;\nvar x = [], desplazamiento = [], y = [], carga = [];\nfor (let i = 0; i < DespAcotado.length; i++) {\n    x[i] = (6.25*DespAcotado[i])-25;\n}\n\nfor (let i = 0; i < cargaAcotado.length; i++) {\n    y[i] = (0.3348*cargaAcotado[i] + 5.2208);\n}\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\ncontext.set(\"Nmuestras\", Nmuestras, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", x);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", y);\nglobal.set(\"Dinagrama.superficie.nMuestras\", x.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
         "outputs": 1,
@@ -93668,8 +93690,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 680,
+        "x": 890,
+        "y": 740,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -95972,6 +95994,98 @@
             ],
             [
                 "0eaf66f4cd299e46"
+            ]
+        ]
+    },
+    {
+        "id": "dcdd1638063f1a20",
+        "type": "ui_text",
+        "z": "902fc438.e5d758",
+        "g": "b079c206d161b62c",
+        "group": "1b027e16.1fc232",
+        "order": 14,
+        "width": 4,
+        "height": 2,
+        "name": "",
+        "label": "Torque ",
+        "format": "<font size =6px>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 590,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "8ea59087a01bb1de",
+        "type": "ui_text",
+        "z": "902fc438.e5d758",
+        "g": "b079c206d161b62c",
+        "group": "1b027e16.1fc232",
+        "order": 14,
+        "width": 4,
+        "height": 2,
+        "name": "",
+        "label": "Torque %",
+        "format": "<font size =6px>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 600,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "e0ea553f7a3dfc73",
+        "type": "ui_text",
+        "z": "902fc438.e5d758",
+        "g": "b079c206d161b62c",
+        "group": "1b027e16.1fc232",
+        "order": 14,
+        "width": 4,
+        "height": 2,
+        "name": "",
+        "label": "Potencia Acumulada",
+        "format": "<font size =6px>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 640,
+        "y": 2720,
+        "wires": []
+    },
+    {
+        "id": "5e55c669388b65ba",
+        "type": "debug",
+        "z": "902fc438.e5d758",
+        "g": "b079c206d161b62c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 360,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "82fdc4fdab0cdab1",
+        "type": "inject",
+        "z": "902fc438.e5d758",
+        "g": "b079c206d161b62c",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 2180,
+        "wires": [
+            [
+                "da849ce7.0ef51"
             ]
         ]
     }
