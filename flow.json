@@ -2467,9 +2467,7 @@
             "8154334e1409fab8"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1852,
-        "h": 968
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -3698,12 +3696,13 @@
             "6d1c1663da454a65",
             "246796017ec6f340",
             "3de591b72c12d963",
-            "a0782a2c88da747d"
+            "a0782a2c88da747d",
+            "1694af7b8ef4ce3a"
         ],
         "x": 874,
         "y": 3699,
         "w": 1052,
-        "h": 622
+        "h": 702
     },
     {
         "id": "81a2722aec77d40b",
@@ -5753,9 +5752,7 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539,
-        "w": 1022,
-        "h": 422
+        "y": 539
     },
     {
         "id": "504a9190c56704f4",
@@ -50492,8 +50489,7 @@
         "y": 3520,
         "wires": [
             [
-                "5cb767da.98178",
-                "331fbb9455c52414"
+                "5cb767da.98178"
             ]
         ],
         "inputLabels": [
@@ -50518,10 +50514,7 @@
         "x": 1650,
         "y": 3430,
         "wires": [
-            [
-                "bc63c380.fb7a78",
-                "b7313f15be39db89"
-            ]
+            []
         ],
         "inputLabels": [
             "Activar función"
@@ -50546,8 +50539,7 @@
         "y": 3340,
         "wires": [
             [
-                "e105d502.4aeb1",
-                "6f5153fc.5881dc"
+                "e105d502.4aeb1"
             ]
         ],
         "inputLabels": [
@@ -50573,8 +50565,7 @@
         "y": 3250,
         "wires": [
             [
-                "f4e358da.4d49",
-                "ac5611e0.f1126"
+                "f4e358da.4d49"
             ]
         ],
         "inputLabels": [
@@ -70525,7 +70516,8 @@
             "1ead21b91a6685a5",
             "32d90e6e46a4a27a",
             "24994e23766d040a",
-            "ad87634297277deb"
+            "ad87634297277deb",
+            "a0782a2c88da747d"
         ],
         "x": 335,
         "y": 310,
@@ -94136,7 +94128,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', Vpotencia, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', Vpotencia, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
@@ -94292,11 +94284,12 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 1095,
+        "x": 915,
         "y": 4180,
         "wires": [
             [
-                "441a1b389e53d303"
+                "441a1b389e53d303",
+                "1694af7b8ef4ce3a"
             ]
         ]
     },
@@ -96056,7 +96049,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "SimulacionPLC",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar FuenteCalculo = global.get(\"GeometriaSucket.FuenteCalculo\") ||\"SensorFisico\";\nvar valor = [];\nvalor[0] = 0;\nif(FuenteCalculo == \"AB\"){\n   valor[0] = 1; //simulación habilitada\n}\n\nmsg.payload = {\n    value: valor,//Valor en segundos\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 36,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({fill:\"blue\",shape:\"dot\",text:\"TiempoEspera: \"+msg.payload.value});//valor de la bandera\nreturn msg;",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar FuenteCalculo = global.get(\"GeometriaSucket.FuenteCalculo\") ||\"SensorFisico\";\nvar valor = [];\nvalor[0] = 0;\nif(FuenteCalculo == \"AB\"){\n   valor[0] = 1; //simulación habilitada\n}\n\nmsg.payload = {\n    value: valor,//Valor en segundos\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 36,\n    'quantity': 1\n}\n// visualizador de variables\nnode.status({fill:\"blue\",shape:\"dot\",text:\"SimulacionAV: \"+msg.payload.value});//valor de la bandera\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -96082,8 +96075,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1080,
-        "y": 4240,
+        "x": 1050,
+        "y": 4340,
         "wires": [
             [
                 "246796017ec6f340"
@@ -96110,10 +96103,73 @@
         "g": "936eab7d97be78af",
         "name": "SimulacionPLC_AB",
         "links": [
-            "8154334e1409fab8"
+            "8154334e1409fab8",
+            "ad87cee4.7dbb5"
         ],
-        "x": 1095,
-        "y": 4280,
+        "x": 1235,
+        "y": 4360,
+        "wires": [
+            [
+                "246796017ec6f340"
+            ]
+        ]
+    },
+    {
+        "id": "3bc43275a07c2c6f",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "name": "AdquisionPotencia",
+        "func": "var vector = [1,2,3,4,5,6,8,9,10,11,12,13,15,16,12,80];\nvar stroke = strokePotencia(vector);\ncontext.set(\"stroke\",stroke,\"memoryOnly\");\n\n\nreturn msg;\n\n// definicion de funcion para identificar un stroke de potencia\nfunction strokePotencia(Pot){\n    // tomar la mitad de los datos\n    var MPow = Pot.slice(0, parseInt(Pot.length/2));\n    // deteccion del maximo y minimo de la señal\n    var max_pow = Math.max(...MPow);\n    var min_pow = Math.min(...MPow);\n    var Idx = MPow.indexOf(max_pow);//indice del valor máximo\n\n    var final = max_pow - (max_pow - min_pow) * 0.3;\n    var Auxz = 0, Aux5 = 0, Aux6 = 0, Aux7 = 0, Idxj = 0, ind = 0, Idxn = 0, Delta_S = 0;\n    var vectorLV = new Array(Pot.length);\n    // crear el vector de ceros \n    for (let i = 0; i < Pot.length; i++) {\n        vectorLV[i] = 0;\n    }\n    for (let i = Idx; i < Pot.length; i++) {\n        if(Pot[i]>final){\n            vectorLV[Auxz] = i;\n            Auxz += 1;\n        }\n    }\n    for (let i = 0; i < (Pot.length - 1); i++) {\n        if((vectorLV[i + 1] -vectorLV [i]) > 10){\n            if(Aux5 == 0){// si no a ingresado\n                Idxj = parseInt(vectorLV[i + 1]);\n                Aux5 = 1;\n                ind = i + 1;\n            }\n        }\n    }\n    for (let i = (ind + 1); i < (Pot.length - 1); i++) {\n        if ((vectorLV[i + 1] - vectorLV[i]) > 10){\n            if(Aux6 == 0){\n                Idxn = parseInt(vectorLV[i + 1])\n                Aux6 = 1\n            }\n\n        }\n        \n    }\n    Idx = Idxj;\n    Delta_S = Idxn - Idx //# numero de datos entre maximos(Stroke)\n    // var PosX = Pos_F[Idx: Idxn]\n    var PosX = Pot.splice(Idx, Idxn);\n    PosX[Delta_S - 1] = PosX[0];\n    return PosX\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f9dacae0eda4f70",
+        "type": "inject",
+        "z": "6a1ef6a7aef873a7",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1270,
+        "y": 800,
+        "wires": [
+            [
+                "3bc43275a07c2c6f"
+            ]
+        ]
+    },
+    {
+        "id": "1694af7b8ef4ce3a",
+        "type": "trigger",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "3",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1100,
+        "y": 4240,
         "wires": [
             [
                 "246796017ec6f340"
