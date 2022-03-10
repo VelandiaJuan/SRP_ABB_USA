@@ -2575,7 +2575,9 @@
             "eaf4b2085acff39e"
         ],
         "x": 154,
-        "y": 359
+        "y": 359,
+        "w": 1092,
+        "h": 282
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2613,7 +2615,9 @@
             "52d49743408ce8f6"
         ],
         "x": 154,
-        "y": 1159
+        "y": 1159,
+        "w": 1402,
+        "h": 322
     },
     {
         "id": "1f2682bef5794306",
@@ -2637,7 +2641,9 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179
+        "y": 179,
+        "w": 1392,
+        "h": 162
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2678,7 +2684,9 @@
             "bc0cf6ab99f49325"
         ],
         "x": 154,
-        "y": 659
+        "y": 659,
+        "w": 1422,
+        "h": 482
     },
     {
         "id": "224caf14924e867c",
@@ -3293,7 +3301,9 @@
             "665ee3571d4304f3"
         ],
         "x": 154,
-        "y": 1279
+        "y": 1279,
+        "w": 1002,
+        "h": 282
     },
     {
         "id": "60dd1be9811f2cdb",
@@ -3322,7 +3332,9 @@
             "7858fff2ef58a324"
         ],
         "x": 148,
-        "y": 739
+        "y": 739,
+        "w": 1074,
+        "h": 515.5
     },
     {
         "id": "8ae034dd7eca71b4",
@@ -3347,7 +3359,9 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1254,
-        "y": 739
+        "y": 739,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "e8ed88c2e7ce6e23",
@@ -3390,7 +3404,9 @@
             "d2833964310ec93c"
         ],
         "x": 134,
-        "y": 179
+        "y": 179,
+        "w": 1272,
+        "h": 528
     },
     {
         "id": "394e81d071ef9585",
@@ -3422,7 +3438,9 @@
             "1e4fb15af269d8a0"
         ],
         "x": 1254,
-        "y": 1039
+        "y": 1039,
+        "w": 1022,
+        "h": 282
     },
     {
         "id": "c36ec626abdfe551",
@@ -3695,14 +3713,12 @@
             "684cadf7491b3916",
             "6d1c1663da454a65",
             "246796017ec6f340",
-            "3de591b72c12d963",
-            "a0782a2c88da747d",
             "1694af7b8ef4ce3a"
         ],
         "x": 874,
         "y": 3699,
         "w": 1052,
-        "h": 702
+        "h": 582
     },
     {
         "id": "81a2722aec77d40b",
@@ -5692,7 +5708,9 @@
             "da401206ced2ccd2"
         ],
         "x": 174,
-        "y": 999
+        "y": 999,
+        "w": 1022,
+        "h": 229.5
     },
     {
         "id": "1cb507b15d91d4f1",
@@ -5710,7 +5728,9 @@
             "10e15c505dfc082a"
         ],
         "x": 174,
-        "y": 559
+        "y": 559,
+        "w": 400,
+        "h": 122
     },
     {
         "id": "19f535ea5a685c61",
@@ -94071,14 +94091,14 @@
         "type": "function",
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
-        "name": "Interpretar Dinagrama",
+        "name": "Interpretar Variables Dinagramas",
         "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28]; \n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\nvar potencia = ((msg.payload.data[35] << 16) + msg.payload.data[36]); potencia = Int2Float32(potencia);\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa,\n    \"potencia\":potencia\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\nglobal.set('IO.Dinagrama.potencia', Dinagrama.potencia, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1720,
+        "x": 1760,
         "y": 3860,
         "wires": [
             []
@@ -94128,7 +94148,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', Vpotencia, 'memoryOnly');\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    global.set('IO.Dinagrama.Vcarga', Vcarga, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', Vpos, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', Vpotencia, 'memoryOnly');\n    return msg;\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
@@ -96064,26 +96084,6 @@
         ]
     },
     {
-        "id": "3de591b72c12d963",
-        "type": "inject",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 1050,
-        "y": 4340,
-        "wires": [
-            [
-                "246796017ec6f340"
-            ]
-        ]
-    },
-    {
         "id": "8154334e1409fab8",
         "type": "link out",
         "z": "b368eb771541cd7f",
@@ -96097,29 +96097,11 @@
         "wires": []
     },
     {
-        "id": "a0782a2c88da747d",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "g": "936eab7d97be78af",
-        "name": "SimulacionPLC_AB",
-        "links": [
-            "8154334e1409fab8",
-            "ad87cee4.7dbb5"
-        ],
-        "x": 1235,
-        "y": 4360,
-        "wires": [
-            [
-                "246796017ec6f340"
-            ]
-        ]
-    },
-    {
         "id": "3bc43275a07c2c6f",
         "type": "function",
         "z": "6a1ef6a7aef873a7",
         "name": "AdquisionPotencia",
-        "func": "var vector = [1,2,3,4,5,6,8,9,10,11,12,13,15,16,12,80];\nvar stroke = strokePotencia(vector);\ncontext.set(\"stroke\",stroke,\"memoryOnly\");\n\n\nreturn msg;\n\n// definicion de funcion para identificar un stroke de potencia\nfunction strokePotencia(Pot){\n    // tomar la mitad de los datos\n    var MPow = Pot.slice(0, parseInt(Pot.length/2));\n    // deteccion del maximo y minimo de la señal\n    var max_pow = Math.max(...MPow);\n    var min_pow = Math.min(...MPow);\n    var Idx = MPow.indexOf(max_pow);//indice del valor máximo\n\n    var final = max_pow - (max_pow - min_pow) * 0.3;\n    var Auxz = 0, Aux5 = 0, Aux6 = 0, Aux7 = 0, Idxj = 0, ind = 0, Idxn = 0, Delta_S = 0;\n    var vectorLV = new Array(Pot.length);\n    // crear el vector de ceros \n    for (let i = 0; i < Pot.length; i++) {\n        vectorLV[i] = 0;\n    }\n    for (let i = Idx; i < Pot.length; i++) {\n        if(Pot[i]>final){\n            vectorLV[Auxz] = i;\n            Auxz += 1;\n        }\n    }\n    for (let i = 0; i < (Pot.length - 1); i++) {\n        if((vectorLV[i + 1] -vectorLV [i]) > 10){\n            if(Aux5 == 0){// si no a ingresado\n                Idxj = parseInt(vectorLV[i + 1]);\n                Aux5 = 1;\n                ind = i + 1;\n            }\n        }\n    }\n    for (let i = (ind + 1); i < (Pot.length - 1); i++) {\n        if ((vectorLV[i + 1] - vectorLV[i]) > 10){\n            if(Aux6 == 0){\n                Idxn = parseInt(vectorLV[i + 1])\n                Aux6 = 1\n            }\n\n        }\n        \n    }\n    Idx = Idxj;\n    Delta_S = Idxn - Idx //# numero de datos entre maximos(Stroke)\n    // var PosX = Pos_F[Idx: Idxn]\n    var PosX = Pot.splice(Idx, Idxn);\n    PosX[Delta_S - 1] = PosX[0];\n    return PosX\n}\n",
+        "func": "\nvar Vpotencia = global.get(\"IO.Dinagrama.Vpotencia\",\"memoryOnly\")||0;\nvar VpotenciaFiltrada = Savgol(Vpotencia, 3);\n\nfor (let i = 0; i < VpotenciaFiltrada.length; i++) {\n    // tener presente la escalizacion \n    VpotenciaFiltrada[i] = (VpotenciaFiltrada[i] - 4)/16;\n    \n}\n\nvar stroke = strokePotencia(VpotenciaFiltrada);\ncontext.set(\"Vpotencia\", Vpotencia,\"memoryOnly\");\ncontext.set(\"stroke\",stroke,\"memoryOnly\");\n\n\nreturn msg;\n\n// definicion de funcion para identificar un stroke de potencia\nfunction strokePotencia(Pot){\n    // tomar la mitad de los datos\n    var MPow = Pot.slice(0, parseInt(Pot.length/2));\n    // deteccion del maximo y minimo de la señal\n    var max_pow = Math.max(...MPow);\n    var min_pow = Math.min(...MPow);\n    var Idx = MPow.indexOf(max_pow);//indice del valor máximo\n\n    var final = max_pow - (max_pow - min_pow) * 0.3;\n    var Auxz = 0, Aux5 = 0, Aux6 = 0, Aux7 = 0, Idxj = 0, ind = 0, Idxn = 0, Delta_S = 0;\n    var vectorLV = new Array(Pot.length);\n    // crear el vector de ceros \n    for (let i = 0; i < Pot.length; i++) {\n        vectorLV[i] = 0;\n    }\n    for (let i = Idx; i < Pot.length; i++) {\n        if(Pot[i]>final){\n            vectorLV[Auxz] = i;\n            Auxz += 1;\n        }\n    }\n    for (let i = 0; i < (Pot.length - 1); i++) {\n        if((vectorLV[i + 1] -vectorLV [i]) > 10){\n            if(Aux5 == 0){// si no a ingresado\n                Idxj = parseInt(vectorLV[i + 1]);\n                Aux5 = 1;\n                ind = i + 1;\n            }\n        }\n    }\n    for (let i = (ind + 1); i < (Pot.length - 1); i++) {\n        if ((vectorLV[i + 1] - vectorLV[i]) > 10){\n            if(Aux6 == 0){\n                Idxn = parseInt(vectorLV[i + 1])\n                Aux6 = 1\n            }\n\n        }\n        \n    }\n    Idx = Idxj;\n    Delta_S = Idxn - Idx //# numero de datos entre maximos(Stroke)\n    // var PosX = Pos_F[Idx: Idxn]\n    var PosX = Pot.splice(Idx, Idxn);\n    PosX[Delta_S - 1] = PosX[0];\n    var data ={\n        vector: PosX,\n        Idx: Idx,\n        Idxn: Idxn,\n    }\n    return data\n}\n\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -96174,6 +96156,23 @@
             [
                 "246796017ec6f340"
             ]
+        ]
+    },
+    {
+        "id": "6e5998eabdef037e",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "name": "",
+        "func": "var ES = flow.get(\"ES\")||0;\nif(ES != 0){\n    //No tiene configurado\n    node.status({fill:\"green\",shape:\"dot\",text:\"Data\"});\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoData\"});\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2310,
+        "y": 4020,
+        "wires": [
+            []
         ]
     }
 ]
