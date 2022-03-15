@@ -3711,7 +3711,6 @@
             "4f41825f992c561d",
             "b68f09084a6b43cb",
             "74cbe059552d3f3c",
-            "63bff2f4fdb27100",
             "107381298b97c974",
             "f9bc6c1e0ee8166f",
             "11ef0a743969f2c0",
@@ -79544,11 +79543,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 610,
-        "y": 640,
+        "x": 790,
+        "y": 620,
         "wires": [
             [
-                "2afcec54429c999b"
+                "cd885bbd1ba1a434"
             ]
         ]
     },
@@ -93104,24 +93103,6 @@
         ]
     },
     {
-        "id": "63bff2f4fdb27100",
-        "type": "function",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "acotarVector",
-        "func": "var VposFiltrado = global.get(\"IO.Dinagrama.VposFiltrado\",\"memoryOnly\")||[];\nvar VcargaFiltrado = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\") || 0;//Número de muestras HMI\nvar VDesplazamiento = [], cargaAcotado = [], DespAcotado = [];\nvar PosVdesmin = 0, PosVdesmayor = 0, Max_Desp = 0, Min_Desp = 0, PosVdesmin2 = 0, PosVdesmayor2 = 0, Max_Desp2 = 0, Min_Desp2 = 0,LongitudVector = 0;\n\nfor (let t = 0; t < VposFiltrado.length; t++) {\n    VDesplazamiento[t] = VposFiltrado[t] * A;\n}\nMax_Desp = VDesplazamiento[0];\nMin_Desp = VDesplazamiento[0];\n\n// determinar el primer maximo y minimo del 1er stroke\nfor (var i = 0; i < Nmuestras; i++) {\n    if (VDesplazamiento[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = VDesplazamiento[i];\n        PosVdesmayor = i;\n    }\n    if (VDesplazamiento[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = VDesplazamiento[i];\n        PosVdesmin = i;\n    }\n}\nif (PosVdesmayor < PosVdesmin){\n    PosVdesmayor2 = VDesplazamiento[PosVdesmin];\n    for (let m = 0; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin + m];\n            PosVdesmayor2 = PosVdesmin + m;\n        }\n    }\n    Min_Desp2 = VDesplazamiento[PosVdesmayor2];\n    for (let k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor2 + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor2 + k];\n            PosVdesmin2 = PosVdesmayor2 + k;\n        }\n    }\n    \n    //Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (let j = 0; j < LongitudVector; j++) {\n        DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n        cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n\n    }\n\n\n}if(PosVdesmayor > PosVdesmin){\n    Min_Desp2 = VDesplazamiento[PosVdesmayor];\n    for (let k = 0; k < Nmuestras; k++) {\n        if (VDesplazamiento[PosVdesmayor + k] < Min_Desp2) {// Determina el minimo valor\n            Min_Desp2 = VDesplazamiento[PosVdesmayor + k];\n            PosVdesmin2 = PosVdesmayor + k;\n        }\n    }\n    for (let m = 0; m < Nmuestras; m++) {\n        if (VDesplazamiento[PosVdesmin2 + m] > Max_Desp2) {// Determina el maximo valor\n            Max_Desp2 = VDesplazamiento[PosVdesmin2 + m];\n            PosVdesmayor2 = PosVdesmin2 + m;\n        }\n    }\n    Max_Desp2 = VDesplazamiento[PosVdesmin2];\n    LongitudVector = (PosVdesmin2 - PosVdesmin); // calcula la longitud de un Stroke\n    for (let j = 0; j < LongitudVector; j++) {\n        DespAcotado[j] = VDesplazamiento[PosVdesmin + j];\n        cargaAcotado[j] = VcargaFiltrado[PosVdesmin + j];\n\n    }\n\n\n}\n\n// cerrar el dinagrama de superficie\ncargaAcotado[cargaAcotado.length - 1] = cargaAcotado[1];\nDespAcotado[DespAcotado.length - 1] = DespAcotado[1];\n\n\ncargaAcotado[cargaAcotado.length] = cargaAcotado[0];\nDespAcotado[DespAcotado.length] = DespAcotado[0];\n\n\ncontext.set(\"VposFiltrado\", VposFiltrado,\"memoryOnly\");\ncontext.set(\"VcargaFiltrado\", VcargaFiltrado,\"memoryOnly\");\ncontext.set(\"VDesplazamiento\", VDesplazamiento,\"memoryOnly\");\ncontext.set(\"A\", A,\"memoryOnly\");\ncontext.set(\"Max_Desp\", Max_Desp,\"memoryOnly\");\ncontext.set(\"Min_Desp\", Min_Desp,\"memoryOnly\");\ncontext.set(\"PosVdesmin2\", PosVdesmin2,\"memoryOnly\");\ncontext.set(\"PosVdesmin\", PosVdesmin,\"memoryOnly\");\ncontext.set(\"PosVdesmayor\", PosVdesmayor,\"memoryOnly\");//indices\ncontext.set(\"PosVdesmin\", PosVdesmin, \"memoryOnly\");//indices\ncontext.set(\"LongitudVector\", LongitudVector, \"memoryOnly\");//indices\ncontext.set(\"Nmuestras\", Nmuestras, \"memoryOnly\");//indices\n\ncontext.set(\"DespAcotado\", DespAcotado, \"memoryOnly\");\ncontext.set(\"cargaAcotado\", cargaAcotado, \"memoryOnly\");\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", DespAcotado);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", cargaAcotado);\nglobal.set(\"Dinagrama.superficie.nMuestras\", DespAcotado.length);\n\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Ingreso\"});\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 930,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "11ef0a743969f2c0",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
@@ -93190,7 +93171,9 @@
         "x": 790,
         "y": 560,
         "wires": [
-            []
+            [
+                "2afcec54429c999b"
+            ]
         ]
     },
     {
@@ -96542,14 +96525,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "idenStroke",
-        "func": "// vector de posicion\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\n// vector de carga\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\n// Adquisión de A de la Geometria\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Aux1 = 0, Paso_1 = 0, Aux2 = 0, Paso_2 = 0;\n\n// se clona por motivos de que modifica el vector original\nvar Pos = { ...Vpos }//clonar lo que hay\nPos = Object.values(Pos);//creando el array\n\nfor (let i = 0; i < Pos.length; i++) {\n    Pos[i] = Pos[i]* A; \n}\n\nvar Vector = { ...Pos }//clonar lo que hay\nVector = Object.values(Vector);//creando el array\nvar nlineas = Vector.length;\nvar mitadnlineas = parseInt(nlineas/2);\n// clonar el valor de posicion\nvar posAcotado = Pos.splice(0, mitadnlineas);\nvar Min_Pos = Math.min(...(posAcotado));\nvar Max_Pos = Math.max(...(posAcotado));\nvar ref = (Max_Pos - Min_Pos) * 0.5;\n// buscando el indice de la poscion minima\nvar Min_ind = posAcotado.indexOf(Min_Pos);\n// primer Recorrido\nfor (let i = (Min_ind + 1); i < (nlineas-1); i++) {\n    if(Aux1 == 0){\n        if (Vector[i] - Vector[i + 1] < 0){\n            if (Vector[i] - ref > 0){\n                Aux1 = 1;\n                Paso_1 = i;\n            }\n        }\n    }\n}\n// segundo recorrido\nfor (let i = (Paso_1 + 1); i < (nlineas -1) ; i++) {\n    if((Aux1 == 1)&& (Aux2 == 0)){\n        if ((Vector[i] - Vector[i + 1]) > 0){\n            if (Vector[i] - ref < 0){\n                Aux2 = 1\n                Paso_2 = i\n            }\n\n        }\n\n    }\n    \n}\nvar Rango = Paso_2 + (Paso_2 - Min_ind);\n// Seg_min = min(Pos[Paso_2: Rango])\nvar VecAux = { ...Vector }//clonar lo que hay\nVecAux = Object.values(VecAux);//creando el array\n\nVecAux = VecAux.splice(Paso_2, (Rango-Paso_2));\nvar Seg_min = Math.min(...(VecAux));\n\n// buscando el indice de la poscion minima\nvar Seg_ind = Vector.indexOf(Seg_min);\n\nvar Idx = parseInt(Min_ind);//indice de inicio del vector\nvar Idxn = parseInt(Seg_ind );//indice de final de vector\n\n\nvar Desp_CD = { ...Vector };//clonar lo que hay\nDesp_CD = Object.values(Desp_CD);//creando el array\nDesp_CD = Desp_CD.splice(Idx, Idxn - Idx);//modifica el original\n\nvar Esfu_CD = {... Vcarga};\nEsfu_CD = Object.values(Esfu_CD);//creando el array\nEsfu_CD = Esfu_CD.splice(Idx, Idxn - Idx);//modifica el original\n\n\n\n// guardando las variables globales\nglobal.set(\"Dinagrama.superficie.Desp_CD\", Desp_CD);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", Esfu_CD);\nglobal.set(\"Dinagrama.superficie.nMuestras\", Desp_CD.length);\n\n\n\nvar resultado = {\n    'Desp_CD': Desp_CD,\n    'Esfu_CD': Esfu_CD,\n    'Vpos': Vpos,\n    'Vector': Vector,\n    'Pos': Pos,\n    'posAcotado': posAcotado,\n    'nlineas':nlineas,\n    'mitadnlineas': mitadnlineas,\n    'Min_Pos': Min_Pos,\n    'Max_Pos': Max_Pos,\n    'ref': ref,\n    'Min_ind': Min_ind,\n    'Paso_1': Paso_1,\n    'Paso_2': Paso_2,\n    'Aux1': Aux1,\n    'Aux2': Aux2,\n    'Rango': Rango,\n    'Seg_min': Seg_min,\n    'Seg_ind': Seg_ind,\n    'A': A,\n    'Idx': Idx,\n    'Idxn': Idxn,\n    'VecAux': VecAux,\n}\ncontext.set(\"resultado\",resultado,\"memoryOnly\");\nreturn msg;",
+        "func": "// vector de posicion\nvar Vpos = global.get(\"IO.Dinagrama.VposFiltrado\", \"memoryOnly\") || [];\n// vector de carga\nvar Vcarga = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\n// Adquisión de A de la Geometria\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Aux1 = 0, Paso_1 = 0, Aux2 = 0, Paso_2 = 0;\n\n// se clona por motivos de que modifica el vector original\nvar Pos = { ...Vpos }//clonar lo que hay\nPos = Object.values(Pos);//creando el array\n\nfor (let i = 0; i < Pos.length; i++) {\n    Pos[i] = Pos[i]* A; \n}\n\nvar Vector = { ...Pos }//clonar lo que hay\nVector = Object.values(Vector);//creando el array\nvar nlineas = Vector.length;\nvar mitadnlineas = parseInt(nlineas/2);\n// clonar el valor de posicion\nvar posAcotado = Pos.splice(0, mitadnlineas);\nvar Min_Pos = Math.min(...(posAcotado));\nvar Max_Pos = Math.max(...(posAcotado));\nvar ref = (Max_Pos - Min_Pos) * 0.5;\n// buscando el indice de la poscion minima\nvar Min_ind = posAcotado.indexOf(Min_Pos);\n// primer Recorrido\nfor (let i = (Min_ind + 1); i < (nlineas-1); i++) {\n    if(Aux1 == 0){\n        if (Vector[i] - Vector[i + 1] < 0){\n            if (Vector[i] - ref > 0){\n                Aux1 = 1;\n                Paso_1 = i;\n            }\n        }\n    }\n}\n// segundo recorrido\nfor (let i = (Paso_1 + 1); i < (nlineas -1) ; i++) {\n    if((Aux1 == 1)&& (Aux2 == 0)){\n        if ((Vector[i] - Vector[i + 1]) > 0){\n            if (Vector[i] - ref < 0){\n                Aux2 = 1\n                Paso_2 = i\n            }\n\n        }\n\n    }\n    \n}\nvar Rango = Paso_2 + (Paso_2 - Min_ind);\n// Seg_min = min(Pos[Paso_2: Rango])\nvar VecAux = { ...Vector }//clonar lo que hay\nVecAux = Object.values(VecAux);//creando el array\n\nVecAux = VecAux.splice(Paso_2, (Rango-Paso_2));\nvar Seg_min = Math.min(...(VecAux));\n\n// buscando el indice de la poscion minima\nvar Seg_ind = Vector.indexOf(Seg_min);\n\nvar Idx = parseInt(Min_ind);//indice de inicio del vector\nvar Idxn = parseInt(Seg_ind );//indice de final de vector\n\n\nvar Desp_CD = { ...Vector };//clonar lo que hay\nDesp_CD = Object.values(Desp_CD);//creando el array\nDesp_CD = Desp_CD.splice(Idx, Idxn - Idx);//modifica el original\n\nvar Esfu_CD = {... Vcarga};\nEsfu_CD = Object.values(Esfu_CD);//creando el array\nEsfu_CD = Esfu_CD.splice(Idx, Idxn - Idx);//modifica el original\n\n\n\n// guardando las variables globales\nglobal.set(\"Dinagrama.superficie.Desp_CD\", Desp_CD);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", Esfu_CD);\nglobal.set(\"Dinagrama.superficie.nMuestras\", Desp_CD.length);\n\n\n\nvar resultado = {\n    'Desp_CD': Desp_CD,\n    'Esfu_CD': Esfu_CD,\n    'Vpos': Vpos,\n    'Vector': Vector,\n    'Pos': Pos,\n    'posAcotado': posAcotado,\n    'nlineas':nlineas,\n    'mitadnlineas': mitadnlineas,\n    'Min_Pos': Min_Pos,\n    'Max_Pos': Max_Pos,\n    'ref': ref,\n    'Min_ind': Min_ind,\n    'Paso_1': Paso_1,\n    'Paso_2': Paso_2,\n    'Aux1': Aux1,\n    'Aux2': Aux2,\n    'Rango': Rango,\n    'Seg_min': Seg_min,\n    'Seg_ind': Seg_ind,\n    'A': A,\n    'Idx': Idx,\n    'Idxn': Idxn,\n    'VecAux': VecAux,\n}\ncontext.set(\"resultado\",resultado,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
-        "y": 640,
+        "x": 950,
+        "y": 560,
         "wires": [
             [
                 "4456b445ce3c4dfc"
