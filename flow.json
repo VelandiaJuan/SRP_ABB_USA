@@ -2505,7 +2505,9 @@
             "8154334e1409fab8"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1852,
+        "h": 968
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2525,7 +2527,9 @@
             "5791ad35584a5a82"
         ],
         "x": 1434,
-        "y": 79
+        "y": 79,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "854b667853465d2b",
@@ -2542,7 +2546,9 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79
+        "y": 79,
+        "w": 342,
+        "h": 142
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2578,7 +2584,9 @@
             "de06d33608ea1299"
         ],
         "x": 54,
-        "y": 1079
+        "y": 1079,
+        "w": 642,
+        "h": 582
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3601,7 +3609,9 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 724,
-        "y": 1079
+        "y": 1079,
+        "w": 742,
+        "h": 628
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3654,7 +3664,9 @@
             "afc303276a2ad6e5"
         ],
         "x": 34,
-        "y": 239
+        "y": 239,
+        "w": 1052,
+        "h": 202
     },
     {
         "id": "56a92b2a688064b3",
@@ -3707,16 +3719,18 @@
             "f9bc6c1e0ee8166f",
             "11ef0a743969f2c0",
             "cd885bbd1ba1a434",
-            "17e7d4e07d89e0fb",
             "125b080ee8fa7931",
             "cff8e1a8bb219f05",
             "e81b09c0b9c9f05c",
             "470d01fd9e70c216",
             "378068e815e511fb",
-            "2afcec54429c999b"
+            "2afcec54429c999b",
+            "df4beeb26dc25f0a"
         ],
         "x": 48,
-        "y": 519
+        "y": 519,
+        "w": 1068,
+        "h": 522
     },
     {
         "id": "193969f706c28bf5",
@@ -3732,7 +3746,9 @@
             "661da3109cbc4a60"
         ],
         "x": 54,
-        "y": 1699
+        "y": 1699,
+        "w": 422,
+        "h": 82
     },
     {
         "id": "936eab7d97be78af",
@@ -5880,7 +5896,9 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539
+        "y": 539,
+        "w": 1022,
+        "h": 422
     },
     {
         "id": "504a9190c56704f4",
@@ -5897,7 +5915,9 @@
             "f61ae4174f8cd899"
         ],
         "x": 754,
-        "y": 1599
+        "y": 1599,
+        "w": 492,
+        "h": 82
     },
     {
         "id": "107381298b97c974",
@@ -5915,7 +5935,9 @@
             "aa463aa620d9836f"
         ],
         "x": 74,
-        "y": 859
+        "y": 859,
+        "w": 672,
+        "h": 122
     },
     {
         "id": "13232391ff16abe8",
@@ -79581,11 +79603,12 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 790,
-        "y": 620,
+        "x": 670,
+        "y": 640,
         "wires": [
             [
-                "cd885bbd1ba1a434"
+                "cd885bbd1ba1a434",
+                "df4beeb26dc25f0a"
             ]
         ]
     },
@@ -89557,7 +89580,7 @@
         "z": "f628d2416976df44",
         "g": "e8ed88c2e7ce6e23",
         "name": "logic",
-        "func": "var habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\")||false;\nvar state = global.get(\"Control_functions.doubleSpeed.state\")||false;//si está upstroke o DownStroke\nvar buttonComand = global.get(\"Control_functions.doubleSpeed.buttonComand\")||false;//Inicio del Sistema desde el boton de entrada Principal\nvar upSpeedCalculated = global.get(\"Control_functions.doubleSpeed.upSpeedCalculated\")||false;//Velocidad de subida\nvar DownSpeedCalculated = global.get(\"Control_functions.doubleSpeed.DownSpeedCalculated\")||false;//Velocidad de bajada\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\",\"memoryOnly\")||false;//comunicación VSD\nvar estadoPrograma = 0,color;//estadoPrograma en el que esta el equipo\nvar referencia = global.get(\"C2S.Last_Reference.ValueSpm\")||0;//referencia que se debe setear\nvar active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;//estado del VSD\n\n\nif (habilitado == true && comunicacion == true && active == 1 && buttonComand == true){//está listo para arrancar\n    if (state == \"Upstroke\"){\n        referencia = upSpeedCalculated;\n    } else if (state == \"DownStroke\"){\n        referencia = DownSpeedCalculated;\n    }\n    estadoPrograma = \"Activo\"; color = \"green\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",true,\"memoryOnly\");\n} else if (habilitado == true && comunicacion == true && active == 1 && buttonComand == false){\n    //estado en el que esta esperando el arranque desde el boton de inicio del proceso\n    estadoPrograma = \"Pausa\"; color = \"yellow\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n}\nelse if (habilitado == true && comunicacion == true && active == 0 && buttonComand == true){\n    //variador no está arrancandO\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"VSDNoactive\"; color = \"yellow\";\n}\nelse if (habilitado == false && comunicacion == true  && active == 1){\n    //no se toma en cuenta el buttonComand  no es necesario\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"Deshabilitado\"; color = \"red\";\n}else if(comunicacion == false){\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"fallo de comunicacion\"; color = \"red\";\n}else{\n    estadoPrograma = \"Pausa\"; color = \"red\";\n}\n\nnode.status({fill:color,shape:\"dot\",text:estadoPrograma});\ncontext.set(\"habilitado\", habilitado,\"memoryOnly\");\ncontext.set(\"comunicacion\", comunicacion,\"memoryOnly\");\ncontext.set(\"estadoPrograma\", estadoPrograma,\"memoryOnly\");\ncontext.set(\"state\", state,\"memoryOnly\");\ncontext.set(\"upSpeedCalculated\", upSpeedCalculated,\"memoryOnly\");\ncontext.set(\"DownSpeedCalculated\", DownSpeedCalculated,\"memoryOnly\");\ncontext.set(\"referencia\", referencia,\"memoryOnly\");\ncontext.set(\"active\", active,\"memoryOnly\");\ncontext.set(\"buttonComand\", buttonComand,\"memoryOnly\");\n\n// estructura para enviar los mensajes\nestadoPrograma = { payload: estadoPrograma};\nreferencia = { payload: referencia};\nreturn [estadoPrograma,referencia];",
+        "func": "var habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\")||false;\nvar state = global.get(\"Control_functions.doubleSpeed.state\")||false;//si está upstroke o DownStroke\nvar buttonComand = global.get(\"Control_functions.doubleSpeed.buttonComand\")||false;//Inicio del Sistema desde el boton de entrada Principal\nvar upSpeedCalculated = global.get(\"Control_functions.doubleSpeed.upSpeedCalculated\")||false;//Velocidad de subida\nvar DownSpeedCalculated = global.get(\"Control_functions.doubleSpeed.DownSpeedCalculated\")||false;//Velocidad de bajada\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\",\"memoryOnly\")||false;//comunicación VSD\nvar estadoPrograma = 0,color;//estadoPrograma en el que esta el equipo\nvar referencia = global.get(\"C2S.Last_Reference.ValueSpm\")||0;//referencia que se debe setear\nvar active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;//estado del VSD\n\n\nif (habilitado == true && comunicacion == true && active == 1 && buttonComand == true){//está listo para arrancar\n    if (state == \"Upstroke\"){\n        referencia = upSpeedCalculated;\n    } else if (state == \"DownStroke\"){\n        referencia = DownSpeedCalculated;\n    }\n    estadoPrograma = \"Activo\"; color = \"green\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",true,\"memoryOnly\");\n} else if (habilitado == true && comunicacion == true && active == 1 && buttonComand == false){\n    //estado en el que esta esperando el arranque desde el boton de inicio del proceso\n    estadoPrograma = \"Pausa\"; color = \"yellow\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n}\nelse if (habilitado == true && comunicacion == true && active == 0 && buttonComand == true){\n    //variador no está arrancandO\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"VSDNoactive\"; color = \"yellow\";\n}\nelse if (habilitado == false && comunicacion == true  && active == 1){\n    //no se toma en cuenta el buttonComand  no es necesario\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"Deshabilitado\"; color = \"red\";\n}else if(comunicacion == false){\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"fallo de comunicacion\"; color = \"red\";\n}else{\n    estadoPrograma = \"deshabilitado\"; color = \"red\";\n}\n\nnode.status({fill:color,shape:\"dot\",text:estadoPrograma});\ncontext.set(\"habilitado\", habilitado,\"memoryOnly\");\ncontext.set(\"comunicacion\", comunicacion,\"memoryOnly\");\ncontext.set(\"estadoPrograma\", estadoPrograma,\"memoryOnly\");\ncontext.set(\"state\", state,\"memoryOnly\");\ncontext.set(\"upSpeedCalculated\", upSpeedCalculated,\"memoryOnly\");\ncontext.set(\"DownSpeedCalculated\", DownSpeedCalculated,\"memoryOnly\");\ncontext.set(\"referencia\", referencia,\"memoryOnly\");\ncontext.set(\"active\", active,\"memoryOnly\");\ncontext.set(\"buttonComand\", buttonComand,\"memoryOnly\");\n\n// estructura para enviar los mensajes\nestadoPrograma = { payload: estadoPrograma};\nreferencia = { payload: referencia};\nreturn [estadoPrograma,referencia];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -90508,7 +90531,7 @@
         "z": "f628d2416976df44",
         "g": "e8ed88c2e7ce6e23",
         "name": "SensorFisico",
-        "func": "var Posicion = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nvar simulacion = global.get(\"Control_functions.doubleSpeed.simulacion\")||false;\nvar habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\") || false;\n\nif(simulacion == false && habilitado == true){\n    node.status({ fill: \"red\", shape: \"ring\", text:Posicion});\n    msg.payload = Posicion;\n    return msg;\n}",
+        "func": "var Posicion = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nvar simulacion = global.get(\"Control_functions.doubleSpeed.simulacion\")||false;\nvar habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\") || false;\n\nif(simulacion == false && habilitado == true && Posicion > 1){//valor de 1 de la medición mayor a 1\n    node.status({ fill: \"green\", shape: \"ring\", text:Posicion});\n    msg.payload = Posicion;\n    return msg;\n}else{\n    node.status({ fill: \"red\", shape: \"ring\", text:\"PosiciónNoConfig\"+Posicion});\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -93412,26 +93435,6 @@
         ]
     },
     {
-        "id": "17e7d4e07d89e0fb",
-        "type": "inject",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 170,
-        "y": 760,
-        "wires": [
-            [
-                "e81b09c0b9c9f05c"
-            ]
-        ]
-    },
-    {
         "id": "125b080ee8fa7931",
         "type": "trigger",
         "z": "6a1ef6a7aef873a7",
@@ -93631,7 +93634,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
+        "x": 390,
         "y": 740,
         "wires": [
             [
@@ -96566,6 +96569,24 @@
             [
                 "b7f7d733f7d2da89"
             ]
+        ]
+    },
+    {
+        "id": "df4beeb26dc25f0a",
+        "type": "function",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "strokePotencia",
+        "func": "// adquision del vector de potencia\nvar Vpotencia = global.get(\"IO.Dinagrama.Vpotencia\",\"memoryOnly\")||0;\nif(Vpotencia !=0 ){\n    // calcular la mitad de los datos\n    var Auxz = 0, Aux5 = 0, Aux6 = 0, Aux7 = 0, vectorLV = [], Idxj = 0, ind = 0, Idxn = 0, Delta_S = 0, Idx2 = 0;\n    var nlineas = Vpotencia.length;\n    var mitadnlineas = parseInt(nlineas / 2); // entero de la mitad de los datos\n    var MPow = { ...Vpotencia }//clonar lo que hay\n    MPow = Object.values(MPow);//creando el array\n    MPow = MPow.splice(0, mitadnlineas);;\n    var max_pow = Math.max(...(MPow));//el minino de la señal\n    var min_pow = Math.min(...(MPow));//el maximo de la señal\n    var Idx = MPow.indexOf(max_pow);//Indice del valor max\n    var final = max_pow - (max_pow - min_pow) * 0.3\n\n    for (let i = Idx; i < nlineas; i++) {\n        if(Vpotencia[i] > final){\n            vectorLV[Auxz] = i;\n            Auxz = Auxz + 1;\n        }\n    }\n\n    for (let i = 0; i < (nlineas - 1); i++) {\n        if (vectorLV[i + 1] - vectorLV[i] > 10){\n            if (Aux5 == 0){\n                Idxj = parseInt(vectorLV[i + 1])\n                Aux5 = 1\n                ind = i + 1\n            }\n        }\n    }\n\n    for (let i = (ind + 1); i < (nlineas - 1); i++) {\n        if ((vectorLV[i + 1] - vectorLV[i]) > 10){\n            if (Aux6 == 0){\n                Idxn = parseInt(vectorLV[i + 1])\n                Aux6 = 1\n            }\n\n        }\n        \n    }\n\n    Idx2 = Idxj;\n    // LoadX = Load_F[Idx: Idxn]\n    var potencia = { ...Vpotencia }//clonar lo que hay\n    potencia = Object.values(potencia);//creando el array\n    potencia = potencia.splice(Idx2, Idxn - Idx2);\n\n\n\n\n\n    var variables = {\n        'Vpotencia': Vpotencia,\n        'nlineas':nlineas,\n        'mitadnlineas': mitadnlineas,\n        'MPow': MPow,\n        'max_pow': max_pow,\n        'min_pow': min_pow,\n        'Idx': Idx,\n        'final': final,\n        'Auxz': Auxz,\n        'vectorLV': vectorLV,\n        'ind': ind,\n        'Idxj': Idxj,\n        'Idxn': Idxn,\n        'Delta_S': Delta_S,\n        'potencia': potencia,\n    };\n    context.set(\"variables\",variables,\"memoryOnly\");\n\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 620,
+        "wires": [
+            []
         ]
     }
 ]
