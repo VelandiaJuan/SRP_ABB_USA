@@ -129,7 +129,7 @@
         "id": "f62fcef222e9a4a3",
         "type": "tab",
         "label": "SurfaceControl",
-        "disabled": true,
+        "disabled": false,
         "info": ""
     },
     {
@@ -842,7 +842,9 @@
             "bfa48676.a364f8"
         ],
         "x": 14,
-        "y": 11.5
+        "y": 11.5,
+        "w": 552,
+        "h": 97
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -882,7 +884,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1202,7 +1206,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1251,7 +1257,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1327,9 +1335,7 @@
             "8be7ccc2c2213c37"
         ],
         "x": 84,
-        "y": 231.5,
-        "w": 3442,
-        "h": 237
+        "y": 231.5
     },
     {
         "id": "deaa6892.b3d988",
@@ -1345,9 +1351,7 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13,
-        "w": 1674,
-        "h": 214
+        "y": 13
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1433,9 +1437,7 @@
             "0b62d9b206554cfd"
         ],
         "x": 74,
-        "y": 479,
-        "w": 2462,
-        "h": 512
+        "y": 479
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1487,7 +1489,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1509,9 +1513,7 @@
             "a553cb02d3dd2a37"
         ],
         "x": 24,
-        "y": 639,
-        "w": 522,
-        "h": 242
+        "y": 639
     },
     {
         "id": "6abd418f.d175b",
@@ -1526,9 +1528,7 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23,
-        "w": 1754,
-        "h": 444
+        "y": 23
     },
     {
         "id": "8c207e440fb46f33",
@@ -1544,9 +1544,7 @@
             "9f77b0d829ad914b"
         ],
         "x": 24,
-        "y": 899,
-        "w": 282,
-        "h": 82
+        "y": 899
     },
     {
         "id": "e29eaee41e038edd",
@@ -1964,7 +1962,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -1985,9 +1985,7 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19,
-        "w": 852,
-        "h": 132
+        "y": 19
     },
     {
         "id": "1178951067fce7a4",
@@ -2035,7 +2033,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2128,9 +2128,7 @@
             "68f04d51be6d6326"
         ],
         "x": 84,
-        "y": 999,
-        "w": 1272,
-        "h": 402
+        "y": 999
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2247,9 +2245,7 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019,
-        "w": 1992,
-        "h": 1102
+        "y": 1019
     },
     {
         "id": "b41ee12005a32e8e",
@@ -2309,9 +2305,7 @@
             "ff83bad55c73ba02"
         ],
         "x": 64,
-        "y": 59,
-        "w": 1328,
-        "h": 562
+        "y": 59
     },
     {
         "id": "69cbede8f851191a",
@@ -2333,7 +2327,9 @@
             "0a6bd128b70aea2c"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2529,9 +2525,7 @@
             "5791ad35584a5a82"
         ],
         "x": 1434,
-        "y": 79,
-        "w": 532,
-        "h": 242
+        "y": 79
     },
     {
         "id": "854b667853465d2b",
@@ -2548,9 +2542,7 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79,
-        "w": 342,
-        "h": 142
+        "y": 79
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2586,9 +2578,7 @@
             "de06d33608ea1299"
         ],
         "x": 54,
-        "y": 1079,
-        "w": 642,
-        "h": 582
+        "y": 1079
     },
     {
         "id": "a0b84f94a6510eee",
@@ -2752,6 +2742,8 @@
         ],
         "x": 734,
         "y": 51.5,
+        "w": 652,
+        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2781,7 +2773,9 @@
             "0832a6b33e1f520c"
         ],
         "x": 134,
-        "y": 379
+        "y": 379,
+        "w": 538,
+        "h": 649.5
     },
     {
         "id": "23c99fd.b16886",
@@ -2805,6 +2799,8 @@
         ],
         "x": 134,
         "y": 51.5,
+        "w": 572,
+        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2823,7 +2819,9 @@
             "5e35a538.cad0cc"
         ],
         "x": 734,
-        "y": 391.5
+        "y": 391.5,
+        "w": 432,
+        "h": 157
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -2839,9 +2837,7 @@
             "c01c2da340bbf3a1"
         ],
         "x": 3298,
-        "y": 33,
-        "w": 1684,
-        "h": 714
+        "y": 33
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2858,9 +2854,7 @@
             "6e4ce300ce601bf3"
         ],
         "x": 74,
-        "y": 1219,
-        "w": 332,
-        "h": 122
+        "y": 1219
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2882,9 +2876,7 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33,
-        "w": 3004,
-        "h": 1094
+        "y": 33
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -2935,7 +2927,9 @@
             "86e001aa20e6699c"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3574,7 +3568,9 @@
             "c1a0f15034a2446e"
         ],
         "x": 734,
-        "y": 579
+        "y": 579,
+        "w": 512,
+        "h": 369.5
     },
     {
         "id": "a97cd0a5989cf9c4",
@@ -3605,9 +3601,7 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 724,
-        "y": 1079,
-        "w": 742,
-        "h": 628
+        "y": 1079
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3632,9 +3626,7 @@
             "019e3edf07e3bcea"
         ],
         "x": 94,
-        "y": 1439,
-        "w": 1012,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "9648249e35aead30",
@@ -3662,9 +3654,7 @@
             "afc303276a2ad6e5"
         ],
         "x": 34,
-        "y": 239,
-        "w": 1052,
-        "h": 202
+        "y": 239
     },
     {
         "id": "56a92b2a688064b3",
@@ -3690,7 +3680,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "c889aa180836227d",
@@ -3724,9 +3716,7 @@
             "2afcec54429c999b"
         ],
         "x": 48,
-        "y": 519,
-        "w": 1068,
-        "h": 522
+        "y": 519
     },
     {
         "id": "193969f706c28bf5",
@@ -3742,9 +3732,7 @@
             "661da3109cbc4a60"
         ],
         "x": 54,
-        "y": 1699,
-        "w": 422,
-        "h": 82
+        "y": 1699
     },
     {
         "id": "936eab7d97be78af",
@@ -3879,7 +3867,7 @@
         "id": "18a6cbbba16d2578",
         "type": "group",
         "z": "8ba0552a.e27ca8",
-        "name": "Eliminar Mensajes de error",
+        "name": "Eliminar Mensajes de error Inicio",
         "style": {
             "label": true
         },
@@ -3888,7 +3876,27 @@
             "19634103a3b0ec4e"
         ],
         "x": 1424,
-        "y": 51.5
+        "y": 51.5,
+        "w": 462,
+        "h": 97
+    },
+    {
+        "id": "5d518c95ba8096ba",
+        "type": "group",
+        "z": "7a89175c.90f6a8",
+        "name": "Inicializacion de Variables E/S",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "938b8e67701c4843",
+            "68fd00852a19215e",
+            "60b95e5ad4a27db7"
+        ],
+        "x": 864,
+        "y": 4499,
+        "w": 562,
+        "h": 82
     },
     {
         "id": "d929d138.3b512",
@@ -3906,7 +3914,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -3927,7 +3937,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -5020,9 +5032,7 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39,
-        "w": 802,
-        "h": 162
+        "y": 39
     },
     {
         "id": "31895ea6.22f372",
@@ -5047,9 +5057,7 @@
             "f9b9d7a57c57d25e"
         ],
         "x": 934,
-        "y": 39,
-        "w": 802,
-        "h": 162
+        "y": 39
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5158,9 +5166,7 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49,
-        "w": 1422,
-        "h": 212
+        "y": 49
     },
     {
         "id": "b2f2659a.67f648",
@@ -5190,9 +5196,7 @@
             "be13aab248bfe2b8"
         ],
         "x": 44,
-        "y": 269,
-        "w": 1702,
-        "h": 172
+        "y": 269
     },
     {
         "id": "e2589faa.5b6d2",
@@ -5537,9 +5541,7 @@
             "e25446d909349bd1"
         ],
         "x": 714,
-        "y": 119,
-        "w": 652,
-        "h": 202
+        "y": 119
     },
     {
         "id": "cacd646bcfbdbb4d",
@@ -5557,7 +5559,9 @@
             "351eccb8791a5abd"
         ],
         "x": 374,
-        "y": 411.5
+        "y": 411.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "4e3c5a17481ed180",
@@ -5608,9 +5612,7 @@
             "204cb884a9a1bb09"
         ],
         "x": 3324,
-        "y": 59,
-        "w": 1632,
-        "h": 532
+        "y": 59
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -5631,9 +5633,7 @@
             "fb25abef8d3f01a8"
         ],
         "x": 3324,
-        "y": 599,
-        "w": 732,
-        "h": 122
+        "y": 599
     },
     {
         "id": "e579c581dc23e5f8",
@@ -5655,9 +5655,7 @@
             "c71b32312279d18f"
         ],
         "x": 124,
-        "y": 379,
-        "w": 952,
-        "h": 132
+        "y": 379
     },
     {
         "id": "0f959940f19ae52d",
@@ -5689,9 +5687,7 @@
             "b3ac9134c4ec266d"
         ],
         "x": 94,
-        "y": 859,
-        "w": 1722,
-        "h": 242
+        "y": 859
     },
     {
         "id": "d0c2e26c6d297150",
@@ -5741,9 +5737,7 @@
             "55eaeea012fb5cb3"
         ],
         "x": 1114,
-        "y": 439,
-        "w": 1932,
-        "h": 342
+        "y": 439
     },
     {
         "id": "b37bfd88cad708a2",
@@ -5790,9 +5784,7 @@
             "3ae053e79ced59d1"
         ],
         "x": 134,
-        "y": 59,
-        "w": 1822,
-        "h": 282
+        "y": 59
     },
     {
         "id": "8a07c803a203d64c",
@@ -5905,9 +5897,7 @@
             "f61ae4174f8cd899"
         ],
         "x": 754,
-        "y": 1599,
-        "w": 492,
-        "h": 82
+        "y": 1599
     },
     {
         "id": "107381298b97c974",
@@ -5925,9 +5915,7 @@
             "aa463aa620d9836f"
         ],
         "x": 74,
-        "y": 859,
-        "w": 672,
-        "h": 122
+        "y": 859
     },
     {
         "id": "13232391ff16abe8",
@@ -7037,22 +7025,47 @@
         "y": 689
     },
     {
-        "id": "5d518c95ba8096ba",
+        "id": "27870e20972cdd75",
         "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "Inicializacion de Variables E/S",
+        "z": "ba668bc685d26b37",
+        "name": "Navegación AVAS",
         "style": {
             "label": true
         },
         "nodes": [
-            "938b8e67701c4843",
-            "68fd00852a19215e",
-            "60b95e5ad4a27db7"
+            "a4e3f714da6e9d80",
+            "bf65122b1a983e00",
+            "d9d9bcbe16e0cddd",
+            "b7f7d733f7d2da89",
+            "e5eae00e04ab5e62"
         ],
-        "x": 944,
-        "y": 4499,
-        "w": 562,
-        "h": 82
+        "x": 94,
+        "y": 299,
+        "w": 542,
+        "h": 122
+    },
+    {
+        "id": "bfece4f80fac7e54",
+        "type": "group",
+        "z": "ba668bc685d26b37",
+        "name": "Grafico de Goodman",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1634929e5e1b337d",
+            "016ad89f1088dc4f",
+            "05aa0bd34ae2e3e8",
+            "aac637270f68c1ba",
+            "602d55bfa441b5ad",
+            "9b16756eb3a783d1",
+            "3316e4228282fb39",
+            "d7691b30c25e59ef"
+        ],
+        "x": 84,
+        "y": 39,
+        "w": 802,
+        "h": 202
     },
     {
         "id": "d25d405a.19cff",
@@ -10337,8 +10350,8 @@
         "type": "ui_group",
         "name": "Goodman",
         "tab": "f7563779dea6779f",
-        "order": 1,
-        "disp": true,
+        "order": 2,
+        "disp": false,
         "width": "16",
         "collapse": false,
         "className": ""
@@ -11052,6 +11065,28 @@
         "order": 4,
         "width": 6,
         "height": 1
+    },
+    {
+        "id": "f0508c1e37aac620",
+        "type": "ui_group",
+        "name": "Menu_Bar",
+        "tab": "f7563779dea6779f",
+        "order": 1,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1e1545e9895b6a71",
+        "type": "ui_group",
+        "name": "cargasPermisibles",
+        "tab": "f7563779dea6779f",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "8c24ec8f.cf43c",
@@ -50695,7 +50730,9 @@
         "x": 1650,
         "y": 3430,
         "wires": [
-            []
+            [
+                "bc63c380.fb7a78"
+            ]
         ],
         "inputLabels": [
             "Activar función"
@@ -63368,7 +63405,8 @@
             "7b495ef4bbce99f7",
             "10d0df396dc90c03",
             "cfa37cb4178a82e2",
-            "cc8f19affa0bda6f"
+            "cc8f19affa0bda6f",
+            "b7f7d733f7d2da89"
         ],
         "x": 1315,
         "y": 140,
@@ -93423,6 +93461,7 @@
         "id": "1634929e5e1b337d",
         "type": "function",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "name": "CalculoGoodman",
         "func": "var Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\")||0;\nvar Trod = parametroSarta[0].RodResistence;\nvar Sartas_AreaCabilla = global.get(\"Goodman.config.Sartas_AreaCabilla\") || [];\nvar SF = global.get(\"Goodman.HMI.SF\") || 0.8;\nvar Lmin = Esfu_CD[0], Lmax = Esfu_CD[0];\nvar Smin = 0,Smax = 0,Sadm = 0, porcentaje = 0;\n\n// calculo del esfuerzo maximo y minimo \nfor (let i = 0; i < Esfu_CD.length; i++) {\n    if (Esfu_CD[i] < Lmin){\n        Lmin = Esfu_CD[i];\n    }\n    if (Esfu_CD[i] > Lmax){\n        Lmax = Esfu_CD[i];\n    }\n}\n\nSmin = 1000*(Lmin / Sartas_AreaCabilla[0]);\nSmax = 1000*(Lmax / Sartas_AreaCabilla[0]);\n\n// S Adminisible\nSadm = ((Trod/4) + (0.5625*Smin))*SF;\n\n// porcentaje \nporcentaje = ((Smax - Smin)/(Sadm -Smin))*100;\n\n\ncontext.set(\"Ingreso.Esfu_CD\", Esfu_CD, \"memoryOnly\");\ncontext.set(\"Ingreso.Sartas_AreaCabilla\", Sartas_AreaCabilla, \"memoryOnly\");\ncontext.set(\"Ingreso.parametroSarta\", parametroSarta, \"memoryOnly\");\ncontext.set(\"Ingreso.Trod\", Trod, \"memoryOnly\");\ncontext.set(\"Ingreso.SF\", SF, \"memoryOnly\");\n\n// variables calculadas \ncontext.set(\"Calculo.Lmin\", Lmin, \"memoryOnly\");\ncontext.set(\"Calculo.Lmax\", Lmax, \"memoryOnly\");\ncontext.set(\"Calculo.Sadm\", Sadm, \"memoryOnly\");\ncontext.set(\"Calculo.porcentaje\", porcentaje, \"memoryOnly\");\n\n\nglobal.set(\"Goodman.grafica.Smin\", Smin);\nglobal.set(\"Goodman.grafica.Smax\", Smax);\nreturn msg;",
         "outputs": 1,
@@ -93442,6 +93481,7 @@
         "id": "016ad89f1088dc4f",
         "type": "inject",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "name": "",
         "props": [],
         "repeat": "",
@@ -93458,26 +93498,10 @@
         ]
     },
     {
-        "id": "284d85d6d22f3795",
-        "type": "function",
-        "z": "ba668bc685d26b37",
-        "name": "GraficaGoodman",
-        "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Smax = global.get(\"Goodman.grafica.Smax\")||0;\nvar Smin = global.get(\"Goodman.grafica.Smin\")||0;\nvar Trod = parametroSarta[0].RodResistence;\n\nvar x = [Trod, -Trod / 3, -Trod / 3]\nvar y = [Trod, Trod / 3, -Trod / 3]\n\nvar x1 = [0,]//esfuerzo Admisible\nvar y1 = [Trod/4,]\n\nvar x2 = [0,Trod,Trod]\nvar y2 = [Trod,Trod,0]\n\nvar tendencia1 = {x,y};\nvar tendencia2 = {x1,y1};\nvar tendencia3 = {x2,y2};\nvar punto = [Smin, Smax];\n\ncontext.set(\"tendencia1\", tendencia1,\"memoryOnly\")\ncontext.set(\"tendencia2\", tendencia2,\"memoryOnly\")\ncontext.set(\"tendencia3\", tendencia3,\"memoryOnly\")\ncontext.set(\"punto\", punto,\"memoryOnly\")\n\nglobal.set(\"Goodman.grafica.punto\", punto);\nglobal.set(\"Goodman.grafica.tendencia1\", tendencia1);\nglobal.set(\"Goodman.grafica.tendencia2\", tendencia2);\nglobal.set(\"Goodman.grafica.tendencia3\", tendencia3);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "05aa0bd34ae2e3e8",
         "type": "function",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "name": "Esfuerzo Admisible",
         "func": "// Ecuación de la recta con dos puntos \nvar parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\n// y = mx + b \nvar y = Trod/1.75;\nvar x1 = 0;\nvar x2 = Trod;\nvar y1 = 0;\nvar y2 = Trod;\nvar x = 0;\n// calculo del punto de intercepción\nx = ((y-y1)*(x1-x2)+ x1*y1 -x1*y1)/(y1-y2);\n\n//creación de los puntos \nvar ejeX = [0,x]\nvar ejeY = [Trod/4,y]\nvar esfuerzoAdmisible = {ejeX,ejeY};\nglobal.set(\"Goodman.grafica.esfuerzoAdmisible\", esfuerzoAdmisible);\n\nreturn msg;",
         "outputs": 1,
@@ -93497,6 +93521,7 @@
         "id": "aac637270f68c1ba",
         "type": "function",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "name": "Punto Movil",
         "func": "var Smax = global.get(\"Goodman.grafica.Smax\") || 0;\nvar Smin = global.get(\"Goodman.grafica.Smin\") || 0;\nvar punto = [Smin, Smax];\n\nglobal.set(\"Goodman.grafica.punto\", punto);\n\nreturn msg;",
         "outputs": 1,
@@ -93516,6 +93541,7 @@
         "id": "602d55bfa441b5ad",
         "type": "function",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "name": "Triangulo",
         "func": "var parametroSarta = global.get(\"Dinagrama.parametroSarta\") || 0;\nvar Trod = parametroSarta[0].RodResistence;\nvar x = [Trod, -Trod / 3, -Trod / 3,Trod];\nvar y = [Trod, Trod / 3, -Trod / 3,Trod];\nvar triangulo = {x,y};\nglobal.set(\"Goodman.grafica.triangulo\", triangulo);\nreturn msg;",
         "outputs": 1,
@@ -93527,76 +93553,15 @@
         "y": 200,
         "wires": [
             [
-                "f6c92ba67d8af2d9",
                 "d7691b30c25e59ef"
             ]
-        ]
-    },
-    {
-        "id": "cc147966cb46d595",
-        "type": "ui_chart",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "group": "678d528cc043711b",
-        "order": 0,
-        "width": "6",
-        "height": "6",
-        "label": "Goodman",
-        "chartType": "line",
-        "legend": "true",
-        "xformat": "auto",
-        "interpolate": "linear",
-        "nodata": "No Data",
-        "dot": false,
-        "ymin": "",
-        "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "80",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#000000",
-            "#0080ff",
-            "#ff0000",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 700,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f6c92ba67d8af2d9",
-        "type": "function",
-        "z": "ba668bc685d26b37",
-        "name": "chart",
-        "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nvar chart = [{\n    \"series\": [\"Punto\", \"EsfMínimo\", \"EsfAdmisible\"],\n    \"data\": [\n        [{ \"x\": punto[0], \"y\": punto[1] }, { \"x\": punto[0] + 0.1, \"y\": punto[1] +0.1 }],\n        [{ \"x\": triangulo.x[0], \"y\": triangulo.y[0] }, { \"x\": triangulo.x[1], \"y\": triangulo.y[1] }, { \"x\": triangulo.x[2], \"y\": triangulo.y[2] }, { \"x\": triangulo.x[0], \"y\": triangulo.y[0] }],\n        [{ \"x\": esfuerzoAdmisible.ejeX[0], \"y\": esfuerzoAdmisible.ejeY[0] }, { \"x\": esfuerzoAdmisible.ejeX[1], \"y\": esfuerzoAdmisible.ejeY[1]}]\n    ],\n    \"labels\": [\"A\",\"B\",\"C\"]\n}];\nmsg.payload = chart;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 240,
-        "wires": [
-            []
         ]
     },
     {
         "id": "9b16756eb3a783d1",
         "type": "ui_template",
         "z": "ba668bc685d26b37",
+        "g": "bfece4f80fac7e54",
         "group": "678d528cc043711b",
         "name": "",
         "order": 1,
@@ -93608,8 +93573,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 620,
-        "y": 300,
+        "x": 800,
+        "y": 200,
         "wires": [
             []
         ]
@@ -93618,15 +93583,16 @@
         "id": "3316e4228282fb39",
         "type": "template",
         "z": "ba668bc685d26b37",
-        "name": "Surface1",
+        "g": "bfece4f80fac7e54",
+        "name": "Grafica",
         "field": "template",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"trianguloX\" ng-bind-html=\"msg.trianguloX\" style=\"display:none\"></div>\n    <div id=\"trianguloY\" ng-bind-html=\"msg.trianguloY \" style=\"display:none\"></div>\n\n    <div id=\"esfuerzoAdmisibleX\" ng-bind-html=\"msg.esfuerzoAdmisibleX \" style=\"display:none\"></div>\n    <div id=\"esfuerzoAdmisibleY\" ng-bind-html=\"msg.esfuerzoAdmisibleY \" style=\"display:none\"></div>\n\n\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"Goodman()\" class=\"btn btn-light btn-sm\">Goodman</div>\n    </div>\n    \n    {{!-- espacio para plotear el Goodman --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Goodman\n        function Goodman() {\n            // adquisión del punto \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n            // puntoX = parseFloat(puntoX.toFixed(2));//redondeo a 2 cifras decimales\n            // puntoY = parseFloat(puntoY.toFixed(2));//redondeo a 2 cifras decimales\n            \n            var trianguloX = document.getElementById(\"trianguloX\").innerHTML;//adquision de data desde nodered\n            var trianguloY = document.getElementById(\"trianguloY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x1 = trianguloX.split(\",\");\n            var y1 = trianguloY.split(\",\");\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n            var esfuerzoAdmisibleX = document.getElementById(\"esfuerzoAdmisibleX\").innerHTML;//adquision de data desde nodered\n            var esfuerzoAdmisibleY = document.getElementById(\"esfuerzoAdmisibleY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x2 = esfuerzoAdmisibleX.split(\",\");\n            var y2 = esfuerzoAdmisibleY.split(\",\");\n            for(i = 0; i < x2.length; i++) {\n                x2[i] = Redondeo(x2[i]);\n                y2[i] = Redondeo(y2[i]);\n            }\n\n            var trace1  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Punto',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: x1,\n                y: y1,\n                name: 'E Mínimo',\n                mode: 'scatter'\n            };\n            var trace3  = {\n                x: x2,\n                y: y2,\n                name: 'E Admisible',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Goodman',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            \n            var data = [trace1,trace2,trace3];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 480,
-        "y": 300,
+        "x": 640,
+        "y": 200,
         "wires": [
             [
                 "9b16756eb3a783d1"
@@ -93637,36 +93603,20 @@
         "id": "d7691b30c25e59ef",
         "type": "function",
         "z": "ba668bc685d26b37",
-        "name": "chart",
+        "g": "bfece4f80fac7e54",
+        "name": "Datos",
         "func": "var punto = global.get(\"Goodman.grafica.punto\") || [];\nvar triangulo = global.get(\"Goodman.grafica.triangulo\") || [];\nvar esfuerzoAdmisible = global.get(\"Goodman.grafica.esfuerzoAdmisible\") || [];\ncontext.set(\"punto\", punto, \"memoryOnly\");\ncontext.set(\"esfuerzoAdmisible\", esfuerzoAdmisible, \"memoryOnly\");\ncontext.set(\"triangulo\", triangulo, \"memoryOnly\");\n\n\nmsg.puntoX = punto[0];\nmsg.puntoY = punto[1];\nmsg.trianguloX = triangulo.x;\nmsg.trianguloY = triangulo.y;\n\nmsg.esfuerzoAdmisibleX = esfuerzoAdmisible.ejeX;\nmsg.esfuerzoAdmisibleY = esfuerzoAdmisible.ejeY;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 300,
+        "x": 490,
+        "y": 200,
         "wires": [
             [
                 "3316e4228282fb39"
             ]
-        ]
-    },
-    {
-        "id": "69a0d0bcbe045fc4",
-        "type": "function",
-        "z": "ba668bc685d26b37",
-        "name": "DataSuperficie",
-        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\nvar xFondo = global.get(\"Dinagrama.fondo.Desp_CD\") || 0;\nvar yFondo = global.get(\"Dinagrama.fondo.Esfu_CD\") || 0;\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0) {\n    msg.xSuperficie = Desp_CD;//Dinagrama de Superficie\n    msg.ySuperficie = Esfu_CD;\n    msg.xFondo = xFondo;//Dinagrama de Fondo\n    msg.yFondo = yFondo;\n    // variables de monitoreo\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 380,
-        "wires": [
-            []
         ]
     },
     {
@@ -93752,82 +93702,6 @@
         "wires": [
             [
                 "4456b445ce3c4dfc"
-            ]
-        ]
-    },
-    {
-        "id": "2c8f8ec6597dd496",
-        "type": "function",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "func": "msg.payload = [{\n    \"series\": [\"A\", \"B\", \"C\"],\n    \"data\": [\n        [{ \"x\": 1504029632890, \"y\": 5 },\n        { \"x\": 1504029636001, \"y\": 4 },\n        { \"x\": 1504029638656, \"y\": 2 }\n        ],\n        [{ \"x\": 1504029633514, \"y\": 6 },\n        { \"x\": 1504029636622, \"y\": 7 },\n        { \"x\": 1504029639539, \"y\": 6 }\n        ],\n        [{ \"x\": 1504029634400, \"y\": 7 },\n        { \"x\": 1504029637959, \"y\": 7 },\n        { \"x\": 1504029640317, \"y\": 7 }\n        ]\n    ],\n    \"labels\": [\"room1\", \"room2\", \"room3\"]\n}]\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 440,
-        "wires": [
-            [
-                "cc147966cb46d595"
-            ]
-        ]
-    },
-    {
-        "id": "c67236591e94ca80",
-        "type": "inject",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 330,
-        "y": 440,
-        "wires": [
-            [
-                "2c8f8ec6597dd496"
-            ]
-        ]
-    },
-    {
-        "id": "2e11ab060d892c09",
-        "type": "function",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "func": "var vector = global.get(\"Dinagrama.superficie.Desp_CD\") || [];\nvar name = \"Desplazamiento\"\nvar data = [],value = [];\n\nfor (let i = 0; i <5; i++) {\n    value = data.push({ \"x\": i, \"y\": vector[i]});\n    data[0] = data.push(value);\n}\n\n\n\nvar chart = [{\n    \"series\": [\"A\"],\n    \"data\": data,\n    \"labels\": [\"A\"]\n}]\nmsg.payload = chart;\ncontext.set(\"chart\",chart,\"memoryOnly\");\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 500,
-        "wires": [
-            [
-                "cc147966cb46d595"
-            ]
-        ]
-    },
-    {
-        "id": "9c6c2a1ba8bfaf43",
-        "type": "inject",
-        "z": "ba668bc685d26b37",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 330,
-        "y": 500,
-        "wires": [
-            [
-                "2e11ab060d892c09"
             ]
         ]
     },
@@ -94384,7 +94258,7 @@
         "type": "change",
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
-        "name": "",
+        "name": "inicioRegistroDinagrama",
         "rules": [
             {
                 "t": "set",
@@ -94399,7 +94273,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1160,
+        "x": 1150,
         "y": 3760,
         "wires": [
             []
@@ -96225,23 +96099,6 @@
         ]
     },
     {
-        "id": "6e5998eabdef037e",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "name": "",
-        "func": "var ES = flow.get(\"ES\")||0;\nif(ES != 0){\n    //No tiene configurado\n    node.status({fill:\"green\",shape:\"dot\",text:\"Data\"});\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoData\"});\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2310,
-        "y": 4020,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "6980c2cc38c45434",
         "type": "change",
         "z": "7a89175c.90f6a8",
@@ -96471,7 +96328,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1360,
+        "x": 1280,
         "y": 4540,
         "wires": [
             []
@@ -96486,7 +96343,7 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 985,
+        "x": 905,
         "y": 4540,
         "wires": [
             [
@@ -96511,7 +96368,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 1130,
+        "x": 1050,
         "y": 4540,
         "wires": [
             [
@@ -96581,6 +96438,133 @@
         "wires": [
             [
                 "2c31251f9f5b6ea0"
+            ]
+        ]
+    },
+    {
+        "id": "a4e3f714da6e9d80",
+        "type": "ui_template",
+        "z": "ba668bc685d26b37",
+        "g": "27870e20972cdd75",
+        "group": "f0508c1e37aac620",
+        "name": "",
+        "order": 1,
+        "width": "16",
+        "height": "1",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Goodman-tab\" data-toggle=\"tab\" href=\"#nav-Goodman\"\n                role=\"tab\" aria-controls=\"nav-ArranqueAuto\" aria-selected=\"false\"\n                ng-click=\"send({payload:Goodman()})\">Goodman</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-cargasPermisibles-tab\" data-toggle=\"tab\" href=\"#nav-cargasPermisibles\"\n                role=\"tab\" aria-controls=\"nav-cargasPermisibles\" aria-selected=\"false\"\n                ng-click=\"send({payload:cargasPermisibles()})\">Cargas Permisibles</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Goodman = function() { return \"Goodman\"; };\n        this.scope.cargasPermisibles = function() { return \"cargasPermisibles\"; };\n\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "bf65122b1a983e00"
+            ]
+        ]
+    },
+    {
+        "id": "bf65122b1a983e00",
+        "type": "switch",
+        "z": "ba668bc685d26b37",
+        "g": "27870e20972cdd75",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Goodman",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "cargasPermisibles",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "d9d9bcbe16e0cddd"
+            ],
+            [
+                "e5eae00e04ab5e62"
+            ]
+        ]
+    },
+    {
+        "id": "d9d9bcbe16e0cddd",
+        "type": "change",
+        "z": "ba668bc685d26b37",
+        "g": "27870e20972cdd75",
+        "name": "Goodman",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"AVAS_cargasPermisibles\"],\t       \"show\":[ \"AVAS_Goodman\",\t                \"AVAS_Menu_Bar\"\t                ]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "b7f7d733f7d2da89"
+            ]
+        ]
+    },
+    {
+        "id": "b7f7d733f7d2da89",
+        "type": "link out",
+        "z": "ba668bc685d26b37",
+        "g": "27870e20972cdd75",
+        "name": "Navegación Avas",
+        "links": [
+            "8a17d991.081178"
+        ],
+        "x": 595,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e5eae00e04ab5e62",
+        "type": "change",
+        "z": "ba668bc685d26b37",
+        "g": "27870e20972cdd75",
+        "name": "cargasPermisibles",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"AVAS_Goodman\"],\t       \"show\":[ \"AVAS_cargasPermisibles\",\t                \"AVAS_Menu_Bar\"\t                ]\t   }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 380,
+        "wires": [
+            [
+                "b7f7d733f7d2da89"
             ]
         ]
     }
