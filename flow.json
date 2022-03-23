@@ -2487,9 +2487,7 @@
             "8154334e1409fab8"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1852,
-        "h": 968
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2566,7 +2564,7 @@
             "de06d33608ea1299"
         ],
         "x": 54,
-        "y": 1079,
+        "y": 819,
         "w": 642,
         "h": 582
     },
@@ -3541,7 +3539,7 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 724,
-        "y": 1079,
+        "y": 819,
         "w": 742,
         "h": 628
     },
@@ -3595,8 +3593,8 @@
             "971957757addd816",
             "afc303276a2ad6e5"
         ],
-        "x": 34,
-        "y": 239,
+        "x": 54,
+        "y": 1519,
         "w": 1052,
         "h": 202
     },
@@ -3658,14 +3656,13 @@
             "fa81944389906858",
             "0101b88a2e51fbb8",
             "bb9a5bd9acdaf064",
-            "d23fbaa4805f0288",
-            "4b92ad30cb4e1489",
             "a7076a264d8977fd",
             "b9aa922292495d63",
-            "42a8699a0653301c"
+            "29edcd77d12dcb3a",
+            "314c66c424e9a037"
         ],
         "x": 48,
-        "y": 479,
+        "y": 239,
         "w": 1368,
         "h": 562
     },
@@ -3683,7 +3680,7 @@
             "661da3109cbc4a60"
         ],
         "x": 54,
-        "y": 1699,
+        "y": 1419,
         "w": 422,
         "h": 82
     },
@@ -3727,11 +3724,13 @@
             "6d1c1663da454a65",
             "246796017ec6f340",
             "1694af7b8ef4ce3a",
-            "13232391ff16abe8"
+            "13232391ff16abe8",
+            "fd1107c6dffffad4",
+            "daee13eec7db4075"
         ],
         "x": 874,
         "y": 3699,
-        "w": 1052,
+        "w": 1092,
         "h": 768
     },
     {
@@ -4992,7 +4991,7 @@
         "x": 1788,
         "y": 643,
         "w": 1644,
-        "h": 1314
+        "h": 1361.5
     },
     {
         "id": "b1830307.ee865",
@@ -5860,9 +5859,7 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539,
-        "w": 1022,
-        "h": 422
+        "y": 539
     },
     {
         "id": "504a9190c56704f4",
@@ -5879,7 +5876,7 @@
             "f61ae4174f8cd899"
         ],
         "x": 754,
-        "y": 1599,
+        "y": 1339,
         "w": 492,
         "h": 82
     },
@@ -5896,11 +5893,12 @@
             "24994e23766d040a",
             "3d93e8372df6353e",
             "5c4af827690ff74e",
-            "aa463aa620d9836f"
+            "aa463aa620d9836f",
+            "1d8939469bf38097"
         ],
         "x": 74,
-        "y": 859,
-        "w": 672,
+        "y": 619,
+        "w": 952,
         "h": 122
     },
     {
@@ -6914,12 +6912,14 @@
             "a6b279ca364ef2cd",
             "a06a7df72748db68",
             "5ea8fcde320bab96",
-            "06f11df03b554bec"
+            "06f11df03b554bec",
+            "d42d222445fec1ba",
+            "1bf8ad4dd3f8eeeb"
         ],
         "x": 1814,
         "y": 1189,
         "w": 1032,
-        "h": 742
+        "h": 789.5
     },
     {
         "id": "a80677cf.4274c8",
@@ -19265,7 +19265,6 @@
             "40789bf189790af7",
             "603028515e6a66ba",
             "f6c697ae2b11e298",
-            "8f5d5b7c326c1df2",
             "2a84764569d97d25",
             "9efb78b22c0da38d",
             "4a54464134473561",
@@ -47422,6 +47421,11 @@
                 "label": "POTENCIAVSD",
                 "value": "POTENCIAVSD",
                 "type": "str"
+            },
+            {
+                "label": "CT",
+                "value": "CT",
+                "type": "str"
             }
         ],
         "payload": "",
@@ -48483,14 +48487,19 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "CT",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 14,
-        "x": 2370,
-        "y": 1800,
+        "outputs": 15,
+        "x": 2390,
+        "y": 1840,
         "wires": [
             [
                 "cd379a79.9a98"
@@ -48526,6 +48535,9 @@
             [],
             [
                 "6980c2cc38c45434"
+            ],
+            [
+                "d42d222445fec1ba"
             ],
             []
         ]
@@ -54077,8 +54089,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2110,
-        "y": 1660,
+        "x": 2130,
+        "y": 1740,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -54098,8 +54110,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2110,
-        "y": 1700,
+        "x": 2130,
+        "y": 1800,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -54119,8 +54131,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2110,
-        "y": 1740,
+        "x": 2130,
+        "y": 1860,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -54140,8 +54152,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2110,
-        "y": 1780,
+        "x": 2130,
+        "y": 1920,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -54158,8 +54170,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 1995,
-        "y": 1720,
+        "x": 2015,
+        "y": 1820,
         "wires": [
             [
                 "88cf40c086d6d94c",
@@ -54284,7 +54296,8 @@
                 "e944556b.827528",
                 "ee737e8b154ad95a",
                 "d5da4e68a94b8066",
-                "06f11df03b554bec"
+                "06f11df03b554bec",
+                "1bf8ad4dd3f8eeeb"
             ]
         ]
     },
@@ -77385,8 +77398,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 360,
+        "x": 640,
+        "y": 380,
         "wires": [
             [
                 "302111413eaa1c5e",
@@ -77443,7 +77456,7 @@
         "raw": false,
         "topic": "Geometry",
         "name": "NotifyGeometria",
-        "x": 800,
+        "x": 920,
         "y": 400,
         "wires": []
     },
@@ -78031,7 +78044,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 780,
+        "x": 940,
         "y": 360,
         "wires": [
             [
@@ -78061,8 +78074,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 570,
-        "y": 420,
+        "x": 720,
+        "y": 440,
         "wires": [
             [
                 "e71da190463b03f0"
@@ -78971,7 +78984,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 1160,
+        "y": 900,
         "wires": [
             [
                 "7a6ff18321a03c6d"
@@ -78991,7 +79004,7 @@
         "finalize": "",
         "libs": [],
         "x": 200,
-        "y": 1240,
+        "y": 980,
         "wires": [
             []
         ]
@@ -79006,7 +79019,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 95,
-        "y": 1240,
+        "y": 980,
         "wires": [
             [
                 "78dececd724e88a8"
@@ -79026,7 +79039,7 @@
         "finalize": "",
         "libs": [],
         "x": 260,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "de1bafacc719791d"
@@ -79046,7 +79059,7 @@
         "finalize": "",
         "libs": [],
         "x": 440,
-        "y": 1260,
+        "y": 1000,
         "wires": [
             [
                 "1b31503325926827"
@@ -79066,7 +79079,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 1380,
+        "y": 1120,
         "wires": [
             [
                 "144b8abb78491883"
@@ -79086,7 +79099,7 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "5ef9f1c757b3c525"
@@ -79107,7 +79120,7 @@
         "finalize": "",
         "libs": [],
         "x": 450,
-        "y": 1200,
+        "y": 940,
         "wires": [
             [
                 "e0439a824aa40693"
@@ -79127,7 +79140,7 @@
         "finalize": "",
         "libs": [],
         "x": 440,
-        "y": 1320,
+        "y": 1060,
         "wires": [
             [
                 "519724ca0bae0425"
@@ -79147,7 +79160,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1420,
+        "y": 1160,
         "wires": [
             [
                 "de06d33608ea1299"
@@ -79167,7 +79180,7 @@
         "finalize": "",
         "libs": [],
         "x": 140,
-        "y": 1540,
+        "y": 1280,
         "wires": [
             []
         ]
@@ -79185,7 +79198,7 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 1580,
+        "y": 1320,
         "wires": [
             [
                 "d3280befce20327a",
@@ -79230,7 +79243,7 @@
         "repair": false,
         "outputs": 5,
         "x": 220,
-        "y": 680,
+        "y": 440,
         "wires": [
             [
                 "4f41825f992c561d"
@@ -79242,7 +79255,7 @@
                 "cff8e1a8bb219f05"
             ],
             [
-                "bb9a5bd9acdaf064"
+                "29edcd77d12dcb3a"
             ],
             []
         ]
@@ -79252,12 +79265,12 @@
         "type": "link in",
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
-        "name": "",
+        "name": "CalculoDinagrama",
         "links": [
-            "58d10b0ab4c186c5"
+            "fd1107c6dffffad4"
         ],
         "x": 115,
-        "y": 680,
+        "y": 440,
         "wires": [
             [
                 "080812ef7b3075ce"
@@ -79277,7 +79290,7 @@
         "finalize": "",
         "libs": [],
         "x": 1210,
-        "y": 800,
+        "y": 540,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -79295,7 +79308,7 @@
             "24994e23766d040a"
         ],
         "x": 1375,
-        "y": 700,
+        "y": 460,
         "wires": []
     },
     {
@@ -79309,7 +79322,7 @@
             "4456b445ce3c4dfc"
         ],
         "x": 115,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "1c4e8fcfe6a3e2e8"
@@ -79329,7 +79342,7 @@
             "b5183e9f40b17918"
         ],
         "x": 655,
-        "y": 1560,
+        "y": 1300,
         "wires": []
     },
     {
@@ -79342,16 +79355,16 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "15",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 410,
-        "y": 560,
+        "x": 400,
+        "y": 320,
         "wires": [
             [
                 "0101b88a2e51fbb8"
@@ -79371,7 +79384,7 @@
         "finalize": "",
         "libs": [],
         "x": 440,
-        "y": 1520,
+        "y": 1260,
         "wires": [
             [
                 "d0f5dfd40edd6ea0"
@@ -79401,7 +79414,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 180,
-        "y": 1180,
+        "y": 920,
         "wires": [
             [
                 "1c4e8fcfe6a3e2e8"
@@ -79439,7 +79452,7 @@
         "topic": "",
         "payloadType": "str",
         "x": 650,
-        "y": 520,
+        "y": 280,
         "wires": [
             [
                 "cd885bbd1ba1a434"
@@ -79459,7 +79472,7 @@
         "finalize": "",
         "libs": [],
         "x": 1220,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "215a7aad1a85b06f"
@@ -79479,7 +79492,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 1180,
+        "y": 920,
         "wires": [
             [
                 "90203260b3c58249"
@@ -79499,7 +79512,7 @@
         "finalize": "",
         "libs": [],
         "x": 1280,
-        "y": 1180,
+        "y": 920,
         "wires": [
             [
                 "846e2857e23dcb89"
@@ -79519,7 +79532,7 @@
         "finalize": "",
         "libs": [],
         "x": 1130,
-        "y": 1240,
+        "y": 980,
         "wires": [
             [
                 "a9565a0c21e1acf6"
@@ -79539,7 +79552,7 @@
         "finalize": "",
         "libs": [],
         "x": 1010,
-        "y": 1300,
+        "y": 1040,
         "wires": [
             [
                 "995585bac085cad4"
@@ -79559,7 +79572,7 @@
         "finalize": "",
         "libs": [],
         "x": 1190,
-        "y": 1300,
+        "y": 1040,
         "wires": [
             [
                 "4ad9f70702942fda"
@@ -79579,7 +79592,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 1380,
+        "y": 1120,
         "wires": [
             [
                 "dc16a5d073255fcb"
@@ -79599,7 +79612,7 @@
         "finalize": "",
         "libs": [],
         "x": 1180,
-        "y": 1380,
+        "y": 1120,
         "wires": [
             [
                 "a2c027f12fcf8e2e"
@@ -79619,7 +79632,7 @@
         "finalize": "",
         "libs": [],
         "x": 1360,
-        "y": 1380,
+        "y": 1120,
         "wires": [
             [
                 "fbaeb64dd8975b79"
@@ -79639,7 +79652,7 @@
         "finalize": "",
         "libs": [],
         "x": 1020,
-        "y": 1460,
+        "y": 1200,
         "wires": [
             [
                 "9ffaf7bd2852fead"
@@ -79659,7 +79672,7 @@
         "finalize": "",
         "libs": [],
         "x": 1250,
-        "y": 1460,
+        "y": 1200,
         "wires": [
             [
                 "b83e6a469a416bca"
@@ -79679,7 +79692,7 @@
         "finalize": "",
         "libs": [],
         "x": 1030,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "db03a3ea50e9e52d"
@@ -79697,7 +79710,7 @@
             "d3280befce20327a"
         ],
         "x": 775,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "97e1995c643a5db2"
@@ -79723,7 +79736,7 @@
         "topic": "topic",
         "outputs": 1,
         "x": 870,
-        "y": 1120,
+        "y": 860,
         "wires": [
             [
                 "e9997c2ef7dec764"
@@ -79753,7 +79766,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 830,
-        "y": 1160,
+        "y": 900,
         "wires": [
             [
                 "e9997c2ef7dec764"
@@ -79773,7 +79786,7 @@
         "finalize": "",
         "libs": [],
         "x": 1030,
-        "y": 1560,
+        "y": 1300,
         "wires": [
             [
                 "b6f3ea51d122b4cc"
@@ -79799,7 +79812,7 @@
         "payload": "true",
         "payloadType": "bool",
         "x": 850,
-        "y": 1640,
+        "y": 1380,
         "wires": [
             [
                 "f88bce3cfb57bc9b"
@@ -79819,7 +79832,7 @@
         "finalize": "",
         "libs": [],
         "x": 980,
-        "y": 1640,
+        "y": 1380,
         "wires": [
             [
                 "f61ae4174f8cd899"
@@ -79841,7 +79854,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1130,
-        "y": 1640,
+        "y": 1380,
         "wires": []
     },
     {
@@ -79854,7 +79867,7 @@
             "5791ad35584a5a82"
         ],
         "x": 1155,
-        "y": 1560,
+        "y": 1300,
         "wires": []
     },
     {
@@ -79867,8 +79880,8 @@
             "ad87cee4.7dbb5",
             "d3280befce20327a"
         ],
-        "x": 135,
-        "y": 400,
+        "x": 155,
+        "y": 1680,
         "wires": [
             [
                 "fe0eb29fd8318e9c",
@@ -79898,8 +79911,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 320,
+        "x": 160,
+        "y": 1600,
         "wires": [
             [
                 "fe0eb29fd8318e9c",
@@ -79919,8 +79932,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            // var data = [trace1,trace2];\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 640,
-        "y": 400,
+        "x": 660,
+        "y": 1680,
         "wires": [
             [
                 "19153e594764bbba"
@@ -79943,8 +79956,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 780,
-        "y": 400,
+        "x": 800,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -79961,8 +79974,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 480,
-        "y": 400,
+        "x": 500,
+        "y": 1680,
         "wires": [
             [
                 "8914746db9ae7a19"
@@ -79988,7 +80001,7 @@
         "repair": false,
         "outputs": 1,
         "x": 870,
-        "y": 560,
+        "y": 320,
         "wires": [
             [
                 "cd885bbd1ba1a434"
@@ -91674,8 +91687,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 980,
-        "y": 280,
+        "x": 1000,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -91692,8 +91705,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n    \n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 820,
-        "y": 280,
+        "x": 840,
+        "y": 1560,
         "wires": [
             [
                 "1054e0b7f84ae584"
@@ -91712,8 +91725,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 280,
+        "x": 660,
+        "y": 1560,
         "wires": [
             [
                 "65db292f7fe289df"
@@ -91830,8 +91843,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 940,
+        "x": 860,
+        "y": 660,
         "wires": [
             []
         ]
@@ -91847,10 +91860,10 @@
             "ad87cee4.7dbb5"
         ],
         "x": 195,
-        "y": 900,
+        "y": 660,
         "wires": [
             [
-                "5c4af827690ff74e"
+                "1d8939469bf38097"
             ]
         ]
     },
@@ -91867,10 +91880,10 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 170,
-        "y": 940,
+        "y": 700,
         "wires": [
             [
-                "5c4af827690ff74e"
+                "1d8939469bf38097"
             ]
         ]
     },
@@ -91891,8 +91904,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 340,
-        "y": 940,
+        "x": 580,
+        "y": 660,
         "wires": [
             [
                 "aa463aa620d9836f"
@@ -92281,8 +92294,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 320,
-        "y": 400,
+        "x": 340,
+        "y": 1680,
         "wires": [
             [
                 "305dc890db8b5ec3"
@@ -92306,8 +92319,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 320,
-        "y": 320,
+        "x": 340,
+        "y": 1600,
         "wires": [
             [
                 "d25b890196364508"
@@ -92378,7 +92391,7 @@
         "name": "nota",
         "info": "Poner Filtro 4G para compartiva no borrar",
         "x": 130,
-        "y": 1500,
+        "y": 1240,
         "wires": []
     },
     {
@@ -93020,7 +93033,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 300,
-        "y": 1000,
+        "y": 760,
         "wires": [
             [
                 "f9bc6c1e0ee8166f"
@@ -93045,8 +93058,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
-        "y": 1000,
+        "x": 580,
+        "y": 760,
         "wires": [
             []
         ]
@@ -93057,14 +93070,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "Filtro",
-        "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos,1);\n    VcargaFiltrado = Savgol(Vcarga,1);\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
+        "func": "var Vpos = global.get(\"IO.Dinagrama.Vpos\", \"memoryOnly\") || [];\nvar Vcarga = global.get(\"IO.Dinagrama.Vcarga\", \"memoryOnly\") || [];\nvar Vpotencia = global.get(\"IO.Dinagrama.Vpotencia\", \"memoryOnly\") || [];\nvar VcargaFiltrado = [], VposFiltrado = [], VpotenciaFiltrado = [];\n\n\n\nif(Vpos != [] && Vcarga != []){\n    VposFiltrado = Savgol(Vpos,3);\n    VcargaFiltrado = Savgol(Vcarga,3);\n    VpotenciaFiltrado = Savgol(Vpotencia,3);\n    \n    global.set(\"IO.Dinagrama.VcargaFiltrado\", VcargaFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VposFiltrado\", VposFiltrado, \"memoryOnly\");\n    global.set(\"IO.Dinagrama.VpotenciaFiltrado\", VpotenciaFiltrado, \"memoryOnly\");\n\n    node.status({fill:\"green\",shape:\"ring\",text:\"OK\"});\n    return msg;\n}else{//condición que no tiene data\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\n\n// función de filtro\nfunction Savgol(X, caso = 3) {\n    //desarrollado por el ing Jose\n    var k = 0;\n    var y = [];\n\n    switch (caso) {\n        case 1:\n            for (let i = 2; i < X.length - 2; i++) {\n                y[k] = (1 / 35) * (-3 * X[i - 2] + 12 * X[i - 1] + 17 * X[i] + 12 * X[i + 1] - 3 * X[i + 2]);\n                k = k + 1;\n            }\n            break;\n        case 2:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 21) * (-2 * X[i - 3] + 3 * X[i - 2] + 6 * X[i - 1] + 7 * X[i] + 6 * X[i + 1] + 3 * X[i + 2] - 2 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 3:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        case 4:\n            for (let i = 3; i < X.length - 3; i++) {\n                y[k] = (1 / 231) * (5 * X[i - 3] - 30 * X[i - 2] + 75 * X[i - 1] + 131 * X[i] + 75 * X[i + 1] + -30 * X[i + 2] + 5 * X[i + 3]);\n                k = k + 1;\n            }\n            break;\n        case 5:\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 429) * (15 * X[i - 4] - 55 * X[i - 3] + 30 * X[i - 2] + 135 * X[i - 1] + 179 * X[i] + 135 * X[i + 1] + 30 * X[i + 2] - 55 * X[i + 3] + 15 * X[i + 4]);\n                k = k + 1;\n            }\n            break;\n        default:\n            // se define el caso 3 en caso tal de que no\n            for (let i = 4; i < X.length - 4; i++) {\n                y[k] = (1 / 231) * (-21 * X[i - 4] + 14 * X[i - 3] + 39 * X[i - 2] + 54 * X[i - 1] + 59 * X[i] + 54 * X[i + 1] + 39 * X[i + 2] + 14 * X[i + 3] - 21 * X[i + 4]);\n                k = k + 1;\n            }\n\n    }\n    return y\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 560,
+        "y": 320,
         "wires": [
             [
                 "2afcec54429c999b"
@@ -93101,7 +93114,7 @@
         "to": "",
         "reg": false,
         "x": 450,
-        "y": 1620,
+        "y": 1360,
         "wires": [
             [
                 "9d6ec3009b50de4b"
@@ -93118,7 +93131,7 @@
             "9135e4551163095b"
         ],
         "x": 555,
-        "y": 1620,
+        "y": 1360,
         "wires": []
     },
     {
@@ -93131,7 +93144,7 @@
             "9d6ec3009b50de4b"
         ],
         "x": 95,
-        "y": 1740,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -93154,7 +93167,7 @@
         "drop": false,
         "allowrate": false,
         "x": 210,
-        "y": 1740,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -93172,7 +93185,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1740,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -93422,16 +93435,16 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "15",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 410,
-        "y": 740,
+        "x": 400,
+        "y": 500,
         "wires": [
             [
                 "fa81944389906858"
@@ -93451,7 +93464,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 740,
+        "y": 500,
         "wires": [
             [
                 "b9aa922292495d63"
@@ -93471,7 +93484,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1480,
+        "y": 1220,
         "wires": [
             [
                 "886c668bbf81db17"
@@ -93527,7 +93540,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Lectura Holding Register",
-        "func": "var indice = flow.get(\"modbusDinagrama\")||200;\nmsg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address': indice + 0,\n    'quantity': 35 + 2\n}\nreturn msg;",
+        "func": "var indice = flow.get(\"modbusDinagrama\")||200;\nmsg.payload = {\n    'fc': 3,\n    'unitid': 1,\n    'address': indice + 0,\n    'quantity': 52\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -93689,7 +93702,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Interpretar Entradas-Salidas PLC",
-        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\")\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "func": "\nvar Entradas_Digitales ={ \n    \"8\"  : msg.payload.data[0]  == 1 ? true : false, //alternario se utiliza porque el registro me envia un 1 o 0\n    \"9\"  : msg.payload.data[1]  == 1 ? true : false,\n    \"10\" : msg.payload.data[2]  == 1 ? true : false,\n    \"11\": msg.payload.data[3]   == 1 ? true : false,\n    \"12\": msg.payload.data[4]   == 1 ? true : false,\n    \"13\": msg.payload.data[5]   == 1 ? true : false,\n    \"14\": msg.payload.data[6]   == 1 ? true : false,\n    \"15\": msg.payload.data[7]   == 1 ? true : false,\n}\nglobal.set('IO.DI', Entradas_Digitales, 'memoryOnly');\n\nvar Salidas_Digitales ={\n  \"32\": msg.payload.data[8]  == 1 ? true : false,\n  \"33\": msg.payload.data[9]  == 1 ? true : false,\n  \"34\": msg.payload.data[10] == 1 ? true : false,\n  \"35\": msg.payload.data[11] == 1 ? true : false,\n  \"36\": msg.payload.data[12] == 1 ? true : false,\n  \"37\": msg.payload.data[13] == 1 ? true : false,\n  \"38\": msg.payload.data[14] == 1 ? true : false,\n  \"39\": msg.payload.data[15] == 1 ? true : false,\n\n}\nglobal.set('IO.DO', Salidas_Digitales, 'memoryOnly');\n\nvar Analoga1 = ((msg.payload.data[17] << 16) + msg.payload.data[18]); Analoga1 = Int2Float32(Analoga1);\nvar Analoga2 = ((msg.payload.data[19] << 16) + msg.payload.data[20]); Analoga2 = Int2Float32(Analoga2);\nvar Analoga3 = ((msg.payload.data[21] << 16) + msg.payload.data[22]); Analoga3 = Int2Float32(Analoga3);\nvar Analoga4 = ((msg.payload.data[23] << 16) + msg.payload.data[24]); Analoga4 = Int2Float32(Analoga4);\n\nvar Entradas_Analogas = {\n  \"0\": Analoga1,\n  \"1\": Analoga2,\n  \"2\": Analoga3,\n  \"3\": Analoga4,\n}\n\nglobal.set('IO.AI', Entradas_Analogas, 'memoryOnly');\ncontext.set(\"Entradas_Analogas\", Entradas_Analogas,\"memoryOnly\");\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -93785,7 +93798,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Interpretar Variables Dinagramas",
-        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28]; \n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\nvar potencia = ((msg.payload.data[35] << 16) + msg.payload.data[36]); potencia = Int2Float32(potencia);\n\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa,\n    \"potencia\":potencia\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\nglobal.set('IO.Dinagrama.potencia', Dinagrama.potencia, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
+        "func": "context.set(\"mensaje\", msg.payload,\"memoryOnly\");\nvar pos = ((msg.payload.data[25] << 16) + msg.payload.data[26]); pos = Int2Float32(pos);\nvar carga = ((msg.payload.data[27] << 16) + msg.payload.data[28]); carga = Int2Float32(carga);\nvar Indice = msg.payload.data[28]; \n\nvar VSDActivo = msg.payload.data[29];\nvar tomaTiempo = msg.payload.data[31];\nvar Pausa = msg.payload.data[32];\nvar potencia = ((msg.payload.data[35] << 16) + msg.payload.data[36]); potencia = Int2Float32(potencia);\n\nvar v0 = msg.payload.data[48];\nvar v1 = msg.payload.data[49];\nvar v2 = msg.payload.data[50];\n// var ct = ((msg.payload.data[50] << 16) + msg.payload.data[51]); ct = Int2Float32(ct);//se quedan estaticos los datos\nvar ct = ((msg.payload.data[50] << 16) + msg.payload.data[51]); ct = Int2Float32(ct);\nvar variables = {\n  'v0':v0,\n  'v1':v1,\n  'v2':v2,\n  'ct':ct\n}\nvar Dinagrama ={ \n    \"pos\": pos,\n    \"carga\": carga,\n    \"Indice\": Indice,\n    \"VSDActivo\": VSDActivo,\n    \"tomaTiempo\": tomaTiempo,\n    \"Pausa\": Pausa,\n    \"potencia\":potencia,\n    \"ct\":ct\n}\n// se setea uno a uno para poder guardar el dinagrama\nnode.status({fill:\"red\",shape:\"ring\",text:\"Pausa : \"+ Dinagrama.Pausa});\nglobal.set('IO.Dinagrama.pos', Dinagrama.pos, 'memoryOnly');\nglobal.set('IO.Dinagrama.carga', Dinagrama.carga, 'memoryOnly');\nglobal.set('IO.Dinagrama.Indice', Dinagrama.Indice, 'memoryOnly');\nglobal.set('IO.Dinagrama.tomaTiempo', Dinagrama.tomaTiempo, 'memoryOnly');\nglobal.set('IO.Dinagrama.Pausa', Dinagrama.Pausa, 'memoryOnly');\nglobal.set('IO.Dinagrama.VSDActivo', Dinagrama.VSDActivo, 'memoryOnly');\nglobal.set('IO.Dinagrama.potencia', Dinagrama.potencia, 'memoryOnly');\nglobal.set('IO.Dinagrama.ct', Dinagrama.ct, 'memoryOnly');\ncontext.set(\"Dinagrama\", Dinagrama,\"memoryOnly\");\ncontext.set(\"variables\", variables,\"memoryOnly\");\n\n\nfunction Int2Float32(bytes) {\n  var sign = (bytes & 0x80000000) ? -1 : 1;\n  var exponent = ((bytes >> 23) & 0xFF) - 127;\n  var significand = (bytes & ~(-1 << 23));\n\n  if (exponent == 128)\n    return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);\n\n  if (exponent == -127) {\n    if (significand === 0) return sign * 0.0;\n    exponent = -126;\n    significand /= (1 << 22);\n  } else significand = (significand | (1 << 23)) / (1 << 23);\n\n  return sign * significand * Math.pow(2, exponent);\n}\n//Créditos: https://flows.nodered.org/flow/359ead34237b7ab6ec0465ee85a34b62RelCT\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -93803,7 +93816,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "indiceDinagrama",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 199;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar Pausa_k1 = context.get(\"Pausa_k1\", \"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > NmuestrasTotales){\n    ctr = 0\n}\n\nif(Pausa == 1 && Pausa_k1 == 0){\n    ctr = 0; //resetee el contador\n}\nPausa_k1 = Pausa;//setee el estado anterior\n\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 28 ,\n    'quantity': 1\n}\nnode.status({fill:\"yellow\",shape:\"dot\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"Pausa_k1\", Pausa_k1,\"memoryOnly\");\nreturn msg;",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 199;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\nvar Pausa = global.get(\"IO.Dinagrama.Pausa\",\"memoryOnly\")||0;\nvar Pausa_k1 = context.get(\"Pausa_k1\", \"memoryOnly\")||0;\nctr = ctr + 1;\nif(ctr > NmuestrasTotales){\n    ctr = 0\n}\n\nif(Pausa == 1 && Pausa_k1 == 0){\n    ctr = 0; //resetee el contador\n}\nPausa_k1 = Pausa;//setee el estado anterior\n\nmsg.payload = {\n    value: [ctr],\n    'fc': 6,\n    'unitid': 1,\n    'address': indice + 28 ,\n    'quantity': 1\n}\nnode.status({fill:\"blue\",shape:\"ring\",text:ctr});\ncontext.set(\"ctr\",ctr,\"memoryOnly\");\ncontext.set(\"Pausa\", Pausa,\"memoryOnly\");\ncontext.set(\"Pausa_k1\", Pausa_k1,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -93841,7 +93854,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n}\n\n// guardar todo el vector\nif (Indice >= NmuestrasTotales){\n    var VcargaF = { ...Vcarga }//clonar lo que hay\n    var VposF = { ...Vpos }//clonar lo que hay\n    var VpotenciaF = { ...Vpotencia }//clonar lo que hay\n    VcargaF = Object.values(VcargaF);\n    VposF = Object.values(VposF);\n    VpotenciaF = Object.values(VpotenciaF);\n    global.set('IO.Dinagrama.Vcarga', VcargaF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', VposF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', VpotenciaF, 'memoryOnly');\n    return msg;\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;\nvar ct = global.get(\"IO.Dinagrama.ct\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VCt = context.get(\"VCt\", \"memoryOnly\")||[];//vector de la CT\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//llegó a referencia el VSD\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n    VCt[Indice - 1] = ct;\n}\n\nif (Indice >= NmuestrasTotales){\n    // guardar todo el vector cuando ya esta completo\n    var VcargaF = { ...Vcarga }//clonar lo que hay\n    var VposF = { ...Vpos }//clonar lo que hay\n    var VpotenciaF = { ...Vpotencia }//clonar lo que hay\n    var VCtF = { ...VCt }//clonar lo que hay\n    VcargaF = Object.values(VcargaF);\n    VposF = Object.values(VposF);\n    VpotenciaF = Object.values(VpotenciaF);\n    VCtF = Object.values(VCtF);\n\n    // seteo de las variables utilizadas en el nodo\n    context.set(\"Vcarga\", [], \"memoryOnly\");\n    context.set(\"Vpos\", [], \"memoryOnly\");\n    context.set(\"VCt\", [], \"memoryOnly\");\n    context.set(\"Vpotencia\", [], \"memoryOnly\");\n\n    // seteo de las variables globales\n    global.set('IO.Dinagrama.Vcarga', VcargaF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', VposF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', VpotenciaF, 'memoryOnly');\n    global.set('IO.Dinagrama.VCt', VCtF, 'memoryOnly');\n    return msg;\n}\n\nnode.status({fill:\"blue\",shape:\"ring\",text:Indice});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VCt\", VCt, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
@@ -93850,7 +93863,10 @@
         "x": 1710,
         "y": 3920,
         "wires": [
-            []
+            [
+                "fd1107c6dffffad4",
+                "daee13eec7db4075"
+            ]
         ]
     },
     {
@@ -93877,7 +93893,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "RefVSDDinagrama",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar flagRetentiva = context.get(\"flagRetentiva\", \"memoryOnly\")||0;\nvar Comunicacion_Drive = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//llegó a referencia el VSD\n\nif (Comunicacion_Drive == true){//si tiene comunicación con el drive\n    \n    if (At_Setpt_Spd == 1 && Active == 1) {// ya llegó a referencia\n        flagRetentiva = 1;\n    } else if (Active == 0) {// VSD apagado\n        flagRetentiva = 0;\n    }\n}else{\n    flagRetentiva = 0;\n}\n\nmsg.payload = {\n    value: [flagRetentiva],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 29,\n    'quantity': 1\n}\nnode.status({ fill: \"blue\", shape: \"dot\", text: flagRetentiva});\ncontext.set(\"At_Setpt_Spd\",At_Setpt_Spd,\"memoryOnly\");\ncontext.set(\"Active\", Active,\"memoryOnly\");\ncontext.set(\"flagRetentiva\", flagRetentiva,\"memoryOnly\");\ncontext.set(\"Comunicacion_Drive\", Comunicacion_Drive,\"memoryOnly\");\n\n\nreturn msg;",
+        "func": "// Funcion que indica si el VSD esta en referencia\nvar indice = flow.get(\"modbusDinagrama\") || 200;\nvar At_Setpt_Spd = global.get(\"C2S.Drive_Status.At_Setpt_Spd\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//llegó a referencia el VSD\nvar flagRetentiva = context.get(\"flagRetentiva\", \"memoryOnly\")||0;\nvar Comunicacion_Drive = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//llegó a referencia el VSD\n\nif (Comunicacion_Drive == true){//si tiene comunicación con el drive\n    \n    if (At_Setpt_Spd == 1 && Active == 1) {// ya llegó a referencia\n        flagRetentiva = 1;\n    } else if (Active == 0) {// VSD apagado\n        flagRetentiva = 0;\n    }\n}else{\n    flagRetentiva = 0;\n}\n\nmsg.payload = {\n    value: [flagRetentiva],\n    'fc': 6,\n    'unitid': 1,\n    'address':indice + 29,\n    'quantity': 1\n}\nnode.status({ fill: \"blue\", shape: \"ring\", text: flagRetentiva});\ncontext.set(\"At_Setpt_Spd\",At_Setpt_Spd,\"memoryOnly\");\ncontext.set(\"Active\", Active,\"memoryOnly\");\ncontext.set(\"flagRetentiva\", flagRetentiva,\"memoryOnly\");\ncontext.set(\"Comunicacion_Drive\", Comunicacion_Drive,\"memoryOnly\");\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -94094,8 +94110,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 360,
-        "y": 280,
+        "x": 380,
+        "y": 1560,
         "wires": [
             [
                 "d25b890196364508"
@@ -94111,8 +94127,8 @@
         "links": [
             "4675faa70f1f7b8c"
         ],
-        "x": 475,
-        "y": 340,
+        "x": 495,
+        "y": 1620,
         "wires": [
             [
                 "d25b890196364508",
@@ -94137,8 +94153,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 590,
-        "y": 340,
+        "x": 610,
+        "y": 1620,
         "wires": [
             [
                 "d25b890196364508"
@@ -95879,7 +95895,7 @@
         "z": "7a89175c.90f6a8",
         "g": "13232391ff16abe8",
         "name": "identificacion",
-        "func": "var EA_Config = flow.get(\"EA_Config\")||{};\nvar Canal = EA_Config.Canal;\nvar Funcion = EA_Config.Funcion;\nvar entradaAnaloga = 0;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nif(EA_Config != {}){ // si no esta vacia \n    switch (Canal) {//identicación del tipo de canal\n        case 'AN0':\n            entradaAnaloga = 1;\n            break;\n        case 'AN1':\n            entradaAnaloga = 2;\n            break;\n        case 'AN2':\n            entradaAnaloga = 3;\n            break;\n        case 'AN3':\n            entradaAnaloga = 4;\n            break;\n        default:\n        //si no esta configurada\n    }\n    switch (Funcion){\n        case 'POSICION':\n            Fsenal.Posicion                = {};\n            Fsenal.Posicion.Funcion        = Funcion;\n            Fsenal.Posicion.entradaAnaloga = entradaAnaloga;\n            Fsenal.Posicion.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.Posicion.Rango_Max      = EA_Config.Rango_Max;\n            break;\n        case 'CARGA':\n            Fsenal.CARGA                = {};\n            Fsenal.CARGA.Funcion        = Funcion;\n            Fsenal.CARGA.entradaAnaloga = entradaAnaloga;\n            Fsenal.CARGA.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.CARGA.Rango_Max      = EA_Config.Rango_Max;\n            break;\n        case 'POTENCIAVSD':\n            Fsenal.POTENCIAVSD                = {};\n            Fsenal.POTENCIAVSD.Funcion        = Funcion;\n            Fsenal.POTENCIAVSD.entradaAnaloga = entradaAnaloga;\n            Fsenal.POTENCIAVSD.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.POTENCIAVSD.Rango_Max      = EA_Config.Rango_Max;\n            break;\n    }\n    var variables = {\n        \"EA_Config\": EA_Config,\n        \"Canal\": Canal,\n        \"entradaAnaloga\": entradaAnaloga,\n        \"Fsenal\": Fsenal,\n    }\n    context.set(\"variables\", variables,\"memoryOnly\");\n    global.set(\"GeometriaSucket.Fsenal\",Fsenal);//Guardando la configuracion\n}\nreturn msg;",
+        "func": "var EA_Config = flow.get(\"EA_Config\")||{};\nvar Canal = EA_Config.Canal;\nvar Funcion = EA_Config.Funcion;\nvar entradaAnaloga = 0;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nif(EA_Config != {}){ // si no esta vacia \n    switch (Canal) {//identicación del tipo de canal\n        case 'AN0':\n            entradaAnaloga = 1;\n            break;\n        case 'AN1':\n            entradaAnaloga = 2;\n            break;\n        case 'AN2':\n            entradaAnaloga = 3;\n            break;\n        case 'AN3':\n            entradaAnaloga = 4;\n            break;\n        default:\n        //si no esta configurada\n    }\n    switch (Funcion){\n        case 'POSICION':\n            Fsenal.Posicion                = {};\n            Fsenal.Posicion.Funcion        = Funcion;\n            Fsenal.Posicion.entradaAnaloga = entradaAnaloga;\n            Fsenal.Posicion.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.Posicion.Rango_Max      = EA_Config.Rango_Max;\n            break;\n        case 'CARGA':\n            Fsenal.CARGA                = {};\n            Fsenal.CARGA.Funcion        = Funcion;\n            Fsenal.CARGA.entradaAnaloga = entradaAnaloga;\n            Fsenal.CARGA.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.CARGA.Rango_Max      = EA_Config.Rango_Max;\n            break;\n        case 'POTENCIAVSD':\n            Fsenal.POTENCIAVSD                = {};\n            Fsenal.POTENCIAVSD.Funcion        = Funcion;\n            Fsenal.POTENCIAVSD.entradaAnaloga = entradaAnaloga;\n            Fsenal.POTENCIAVSD.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.POTENCIAVSD.Rango_Max      = EA_Config.Rango_Max;\n            break;\n        case 'CT':\n            Fsenal.CT                = {};\n            Fsenal.CT.Funcion        = Funcion;\n            Fsenal.CT.entradaAnaloga = entradaAnaloga;\n            Fsenal.CT.Rango_Min      = EA_Config.Rango_Min;\n            Fsenal.CT.Rango_Max      = EA_Config.Rango_Max;\n            break;\n    }\n    var variables = {\n        \"EA_Config\": EA_Config,\n        \"Canal\": Canal,\n        \"entradaAnaloga\": entradaAnaloga,\n        \"Fsenal\": Fsenal,\n    }\n    context.set(\"variables\", variables,\"memoryOnly\");\n    global.set(\"GeometriaSucket.Fsenal\",Fsenal);//Guardando la configuracion\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -95888,7 +95904,9 @@
         "x": 1330,
         "y": 4400,
         "wires": [
-            []
+            [
+                "c194d98f75f79244"
+            ]
         ]
     },
     {
@@ -95924,8 +95942,7 @@
         "y": 4400,
         "wires": [
             [
-                "906b9344287a8878",
-                "c194d98f75f79244"
+                "906b9344287a8878"
             ]
         ]
     },
@@ -95935,7 +95952,7 @@
         "z": "7a89175c.90f6a8",
         "g": "13232391ff16abe8",
         "name": "fuenteSenales",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nvar valor = [0,0,0,0,0,0,0,0,0];\nif(Fsenal != 0){\n    // Valores Asignados \n    // Posicion\n    valor[0] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.entradaAnaloga)) : 0;\n    valor[1] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Min*10)) : 0;\n    valor[2] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Max*10)) : 0; \n\n    // Carga\n    valor[3] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.entradaAnaloga)) : 0;\n    valor[4] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Min*10)) : 0;\n    valor[5] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Max*10)) : 0;\n\n\n    // POTENCIAVSD\n    valor[6] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.entradaAnaloga)) : 0;\n    valor[7] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Min*10)) : 0;\n    valor[8] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Max*10)) : 0;\n    // valor[6] = Fsenal.POTENCIAVSD.entradaAnaloga;\n    // valor[7] = (Fsenal.POTENCIAVSD.Rango_Min)*10;\n    // valor[8] = (Fsenal.POTENCIAVSD.Rango_Max)*10;\n\n    \n    // filtrar los valores nulos \n    for (var i = 0; i < valor.length; i += 1) {\n        valor[i] = val(valor[i]);\n    }\n\n    msg.payload = {\n        value: valor,\n        'fc': 16,\n        'unitid': 1,\n        'address': indice + 37,\n        'quantity': 9\n    }\n    // visualizador de variables\n    node.status({ fill: \"blue\", shape: \"dot\", text: \"Data: \" + msg.payload.value });//valor de la bandera\n    context.set(\"valor\",valor,\"memoryOnly\");\n    return msg;\n}\n// / Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nvar valor = [0,0,0,0,0,0,0,0,0,0,0,0];\nif(Fsenal != 0){\n    // Valores Asignados \n    // Posicion\n    valor[0] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.entradaAnaloga)) : 0;\n    valor[1] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Min*10)) : 0;\n    valor[2] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Max*10)) : 0; \n\n    // Carga\n    valor[3] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.entradaAnaloga)) : 0;\n    valor[4] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Min*10)) : 0;\n    valor[5] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Max*10)) : 0;\n\n\n    // POTENCIAVSD\n    valor[6] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.entradaAnaloga)) : 0;\n    valor[7] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Min*10)) : 0;\n    valor[8] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Max*10)) : 0;\n    \n    valor[9] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.entradaAnaloga)) : 0;\n    valor[10] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Min*10)) : 0;\n    valor[11] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Max*10)) : 0;\n    // filtrar los valores nulos \n    for (var i = 0; i < valor.length; i += 1) {\n        valor[i] = val(valor[i]);\n    }\n\n    msg.payload = {\n        value: valor,\n        'fc': 16,\n        'unitid': 1,\n        'address': indice + 37,\n        'quantity': 12\n    }\n    // visualizador de variables\n    node.status({ fill: \"blue\", shape: \"dot\", text: \"Data: \" + msg.payload.value });//valor de la bandera\n    context.set(\"valor\",valor,\"memoryOnly\");\n    return msg;\n}\n// / Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -96099,14 +96116,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "idenStroke",
-        "func": "// vector de posicion\nvar Vpos = global.get(\"IO.Dinagrama.VposFiltrado\", \"memoryOnly\") || [];\n// vector de carga\nvar Vcarga = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\n// Adquisión de A de la Geometria\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Aux1 = 0, Paso_1 = 0, Aux2 = 0, Paso_2 = 0;\n\n// se clona por motivos de que modifica el vector original\nvar Pos = { ...Vpos }//clonar lo que hay\nPos = Object.values(Pos);//creando el array\nvar minValuePos = Math.min(...(Vpos));//el valor minimo del vector posicion\n\nif(minValuePos <= 0){ \n    // si encuentra valores nulos en el vector de posicion\n    var Ndata = Vpos.length;\n    for (let i = 0; i < Ndata; i++) {\n        if(Vpos[i] == 0){ // si tiene datos en cero\n            node.status({fill:\"red\",shape:\"ring\",text:i});\n            Vpos.splice(i, 1);//Eliminar el registro Adecuado\n            Vcarga.splice(i, 1);//Eliminar el registro Adecuado\n        }\n    }\n}\n\nfor (let i = 0; i < Vpos.length; i++) {\n    Pos[i] = (Vpos[i]- minValuePos)* A;\n}\n\nvar Vector = { ...Pos }//clonar lo que hay\nVector = Object.values(Vector);//creando el array\nvar nlineas = Vector.length;\nvar mitadnlineas = parseInt(nlineas/2);\n// clonar el valor de posicion\nvar posAcotado = Pos.splice(0, mitadnlineas);\nvar Min_Pos = Math.min(...(posAcotado));\nvar Max_Pos = Math.max(...(posAcotado));\nvar ref = (Max_Pos - Min_Pos) * 0.5;\n// buscando el indice de la poscion minima\nvar Min_ind = posAcotado.indexOf(Min_Pos);\n// primer Recorrido\nfor (let i = (Min_ind + 1); i < (nlineas-1); i++) {\n    if(Aux1 == 0){\n        if (Vector[i] - Vector[i + 1] < 0){\n            if (Vector[i] - ref > 0){\n                Aux1 = 1;\n                Paso_1 = i;\n            }\n        }\n    }\n}\n// segundo recorrido\nfor (let i = (Paso_1 + 1); i < (nlineas -1) ; i++) {\n    if((Aux1 == 1)&& (Aux2 == 0)){\n        if ((Vector[i] - Vector[i + 1]) > 0){\n            if (Vector[i] - ref < 0){\n                Aux2 = 1\n                Paso_2 = i\n            }\n\n        }\n\n    }\n    \n}\nvar Rango = Paso_2 + (Paso_2 - Min_ind);\n// Seg_min = min(Pos[Paso_2: Rango])\nvar VecAux = { ...Vector }//clonar lo que hay\nVecAux = Object.values(VecAux);//creando el array\n\nVecAux = VecAux.splice(Paso_2, (Rango-Paso_2));\nvar Seg_min = Math.min(...(VecAux));\n\n// buscando el indice de la poscion minima\nvar Seg_ind = Vector.indexOf(Seg_min);\n\nvar Idx = parseInt(Min_ind);//indice de inicio del vector\nvar Idxn = parseInt(Seg_ind );//indice de final de vector\n\n\nvar Desp_CD = { ...Vector };//clonar lo que hay\nDesp_CD = Object.values(Desp_CD);//creando el array\nDesp_CD = Desp_CD.splice(Idx, Idxn - Idx);//modifica el original\n\nvar Esfu_CD = {... Vcarga};\nEsfu_CD = Object.values(Esfu_CD);//creando el array\nEsfu_CD = Esfu_CD.splice(Idx, Idxn - Idx);//modifica el original\n\n// cerrar el dinagrama de superficie\nDesp_CD.push(Desp_CD[0]);\nEsfu_CD.push(Esfu_CD[0]);\n\n\n\n// guardando las variables globales\nglobal.set(\"Dinagrama.superficie.Desp_CD\", Desp_CD);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", Esfu_CD);\nglobal.set(\"Dinagrama.superficie.nMuestras\", Desp_CD.length);\n\n\n\nvar resultado = {\n    'Desp_CD': Desp_CD,\n    'Esfu_CD': Esfu_CD,\n    'Vpos': Vpos,\n    'Vector': Vector,\n    'Pos': Pos,\n    'posAcotado': posAcotado,\n    'nlineas':nlineas,\n    'mitadnlineas': mitadnlineas,\n    'Min_Pos': Min_Pos,\n    'Max_Pos': Max_Pos,\n    'ref': ref,\n    'Min_ind': Min_ind,\n    'Paso_1': Paso_1,\n    'Paso_2': Paso_2,\n    'Aux1': Aux1,\n    'Aux2': Aux2,\n    'Rango': Rango,\n    'Seg_min': Seg_min,\n    'Seg_ind': Seg_ind,\n    'A': A,\n    'Idx': Idx,\n    'Idxn': Idxn,\n    'VecAux': VecAux,\n    'minValuePos': minValuePos,\n}\ncontext.set(\"resultado\",resultado,\"memoryOnly\");\nreturn msg;",
+        "func": "// vector de posicion\nvar Vpos = global.get(\"IO.Dinagrama.VposFiltrado\", \"memoryOnly\") || [];\n// vector de carga\nvar Vcarga = global.get(\"IO.Dinagrama.VcargaFiltrado\", \"memoryOnly\") || [];\n// Adquisión de A de la Geometria\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\") || 0);\nvar Aux1 = 0, Paso_1 = 0, Aux2 = 0, Paso_2 = 0;\n// vector de potencia filtrado\nvar Vpotencia = global.get(\"IO.Dinagrama.VpotenciaFiltrado\", \"memoryOnly\") || [];\n\n// se clona por motivos de que modifica el vector original\nvar Pos = { ...Vpos }//clonar lo que hay\nPos = Object.values(Pos);//creando el array\nvar minValuePos = Math.min(...(Vpos));//el valor minimo del vector posicion\n\nif(minValuePos <= 0){ \n    // si encuentra valores nulos en el vector de posicion\n    var Ndata = Vpos.length;\n    for (let i = 0; i < Ndata; i++) {\n        if(Vpos[i] == 0){ // si tiene datos en cero\n            node.status({fill:\"red\",shape:\"ring\",text:i});\n            Vpos.splice(i, 1);//Eliminar el registro Adecuado\n            Vcarga.splice(i, 1);//Eliminar el registro Adecuado\n        }\n    }\n}\n\nfor (let i = 0; i < Vpos.length; i++) {\n    Pos[i] = (Vpos[i]- minValuePos)* A;\n}\n\nvar Vector = { ...Pos }//clonar lo que hay\nVector = Object.values(Vector);//creando el array\nvar nlineas = Vector.length;\nvar mitadnlineas = parseInt(nlineas/2);\n// clonar el valor de posicion\nvar posAcotado = Pos.splice(0, mitadnlineas);\nvar Min_Pos = Math.min(...(posAcotado));\nvar Max_Pos = Math.max(...(posAcotado));\nvar ref = (Max_Pos - Min_Pos) * 0.5;\n// buscando el indice de la poscion minima\nvar Min_ind = posAcotado.indexOf(Min_Pos);\n// primer Recorrido\nfor (let i = (Min_ind + 1); i < (nlineas-1); i++) {\n    if(Aux1 == 0){\n        if (Vector[i] - Vector[i + 1] < 0){\n            if (Vector[i] - ref > 0){\n                Aux1 = 1;\n                Paso_1 = i;\n            }\n        }\n    }\n}\n// segundo recorrido\nfor (let i = (Paso_1 + 1); i < (nlineas -1) ; i++) {\n    if((Aux1 == 1)&& (Aux2 == 0)){\n        if ((Vector[i] - Vector[i + 1]) > 0){\n            if (Vector[i] - ref < 0){\n                Aux2 = 1\n                Paso_2 = i\n            }\n\n        }\n\n    }\n    \n}\nvar Rango = Paso_2 + (Paso_2 - Min_ind);\n// Seg_min = min(Pos[Paso_2: Rango])\nvar VecAux = { ...Vector }//clonar lo que hay\nVecAux = Object.values(VecAux);//creando el array\n\nVecAux = VecAux.splice(Paso_2, (Rango-Paso_2));\nvar Seg_min = Math.min(...(VecAux));\n\n// buscando el indice de la poscion minima\nvar Seg_ind = Vector.indexOf(Seg_min);\n\nvar Idx = parseInt(Min_ind);//indice de inicio del vector\nvar Idxn = parseInt(Seg_ind );//indice de final de vector\n\n\nvar Desp_CD = { ...Vector };//clonar lo que hay\nDesp_CD = Object.values(Desp_CD);//creando el array\nDesp_CD = Desp_CD.splice(Idx, Idxn - Idx);//modifica el original\n\nvar Esfu_CD = {... Vcarga};\nEsfu_CD = Object.values(Esfu_CD);//creando el array\nEsfu_CD = Esfu_CD.splice(Idx, Idxn - Idx);//modifica el original\n\n// cerrar el dinagrama de superficie\nDesp_CD.push(Desp_CD[0]);\nEsfu_CD.push(Esfu_CD[0]);\n\n// Acotando el vector de potencia\nvar VpotenciaF = { ...Vpotencia};\nVpotenciaF = Object.values(VpotenciaF);//creando el array\nVpotenciaF = VpotenciaF.splice(Idx, Idxn - Idx);//modifica el original\n\n\n// guardando las variables globales\nglobal.set(\"Dinagrama.superficie.Desp_CD\", Desp_CD);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", Esfu_CD);\nglobal.set(\"Dinagrama.superficie.strokePotencia\", VpotenciaF);\nglobal.set(\"Dinagrama.superficie.nMuestras\", Desp_CD.length);\n\n\n\nvar resultado = {\n    'Desp_CD': Desp_CD,\n    'Esfu_CD': Esfu_CD,\n    'Vpos': Vpos,\n    'Vector': Vector,\n    'Pos': Pos,\n    'posAcotado': posAcotado,\n    'nlineas':nlineas,\n    'mitadnlineas': mitadnlineas,\n    'Min_Pos': Min_Pos,\n    'Max_Pos': Max_Pos,\n    'ref': ref,\n    'Min_ind': Min_ind,\n    'Paso_1': Paso_1,\n    'Paso_2': Paso_2,\n    'Aux1': Aux1,\n    'Aux2': Aux2,\n    'Rango': Rango,\n    'Seg_min': Seg_min,\n    'Seg_ind': Seg_ind,\n    'A': A,\n    'Idx': Idx,\n    'Idxn': Idxn,\n    'VecAux': VecAux,\n    'minValuePos': minValuePos,\n}\ncontext.set(\"resultado\",resultado,\"memoryOnly\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1210,
-        "y": 560,
+        "y": 320,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -96298,7 +96315,7 @@
         "finalize": "",
         "libs": [],
         "x": 800,
-        "y": 660,
+        "y": 420,
         "wires": [
             [
                 "cae14a8f115a7cd4"
@@ -96318,7 +96335,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 660,
+        "y": 420,
         "wires": [
             [
                 "746411017686ca1f"
@@ -96338,7 +96355,7 @@
         "finalize": "",
         "libs": [],
         "x": 1210,
-        "y": 660,
+        "y": 420,
         "wires": [
             [
                 "4456b445ce3c4dfc"
@@ -96358,7 +96375,7 @@
         "finalize": "",
         "libs": [],
         "x": 620,
-        "y": 660,
+        "y": 420,
         "wires": [
             [
                 "df4beeb26dc25f0a"
@@ -96378,8 +96395,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 410,
-        "y": 620,
+        "x": 610,
+        "y": 380,
         "wires": [
             [
                 "97ce10a26da7a923"
@@ -96396,16 +96413,16 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "15",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 410,
-        "y": 660,
+        "x": 400,
+        "y": 420,
         "wires": [
             [
                 "97ce10a26da7a923"
@@ -96425,7 +96442,7 @@
         "finalize": "",
         "libs": [],
         "x": 910,
-        "y": 740,
+        "y": 500,
         "wires": [
             [
                 "470d01fd9e70c216"
@@ -96438,18 +96455,17 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "sensorFisico",
-        "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    // var tamano = Vpos.length;\n    // global.set(\"Dinagrama.superficie.Desp_CD\", Vpos);\n    // global.set(\"Dinagrama.superficie.Esfu_CD\", Vcarga);\n    // global.set(\"Dinagrama.superficie.nMuestras\", tamano);\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
+        "func": "var Vcarga = global.get(\"IO.Dinagrama.Vcarga\",\"memoryOnly\")||0;\nvar Vpos = global.get(\"IO.Dinagrama.Vpos\",\"memoryOnly\")||0;\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vcarga, \"memoryOnly\");\nif(Vcarga != 0 && Vpos!= 0 ){\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 560,
+        "y": 320,
         "wires": [
             [
-                "74cbe059552d3f3c",
-                "d23fbaa4805f0288"
+                "74cbe059552d3f3c"
             ]
         ]
     },
@@ -96463,16 +96479,16 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "15",
+        "duration": "1",
         "extend": false,
         "overrideDelay": false,
-        "units": "min",
+        "units": "s",
         "reset": "",
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 410,
-        "y": 800,
+        "x": 880,
+        "y": 540,
         "wires": [
             [
                 "4930f6411e306ffe"
@@ -96483,6 +96499,7 @@
         "id": "314c66c424e9a037",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
         "name": "",
         "props": [],
         "repeat": "",
@@ -96491,50 +96508,11 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 1090,
-        "y": 860,
+        "x": 1050,
+        "y": 580,
         "wires": [
             [
                 "4930f6411e306ffe"
-            ]
-        ]
-    },
-    {
-        "id": "d23fbaa4805f0288",
-        "type": "debug",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 920,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "4b92ad30cb4e1489",
-        "type": "inject",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "str",
-        "x": 770,
-        "y": 780,
-        "wires": [
-            [
-                "fa81944389906858"
             ]
         ]
     },
@@ -96551,7 +96529,7 @@
         "finalize": "",
         "libs": [],
         "x": 1230,
-        "y": 960,
+        "y": 720,
         "wires": [
             []
         ]
@@ -96569,24 +96547,11 @@
         "finalize": "",
         "libs": [],
         "x": 1210,
-        "y": 740,
+        "y": 500,
         "wires": [
             [
                 "4456b445ce3c4dfc"
             ]
-        ]
-    },
-    {
-        "id": "42a8699a0653301c",
-        "type": "link in",
-        "z": "6a1ef6a7aef873a7",
-        "g": "c889aa180836227d",
-        "name": "",
-        "links": [],
-        "x": 745,
-        "y": 720,
-        "wires": [
-            []
         ]
     },
     {
@@ -96623,6 +96588,134 @@
             [
                 "8a152b9c9b0edd4d"
             ]
+        ]
+    },
+    {
+        "id": "d42d222445fec1ba",
+        "type": "change",
+        "z": "7a89175c.90f6a8",
+        "g": "c4bcf1ca.3d67d",
+        "name": "CT",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Process_data.AI[\"CT\"]",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2630,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1bf8ad4dd3f8eeeb",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "c4bcf1ca.3d67d",
+        "name": "Limpiar CT",
+        "func": "var ES = Object.values(flow.get(\"ES.EA.Funciones.Lista_Simple\")||0);\nvar status = ES.indexOf(\"CT\");\ncontext.set(\"ES\",ES,\"memoryOnly\");\ncontext.set(\"status\", status,\"memoryOnly\");\n\nif(status != -1){\n    return;\n} \nelse{\n    return {'payload':0};\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2370,
+        "y": 1680,
+        "wires": [
+            [
+                "d42d222445fec1ba"
+            ]
+        ]
+    },
+    {
+        "id": "fd1107c6dffffad4",
+        "type": "link out",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "AdquirirDinagrama",
+        "links": [
+            "8f5d5b7c326c1df2"
+        ],
+        "x": 1855,
+        "y": 3920,
+        "wires": []
+    },
+    {
+        "id": "29edcd77d12dcb3a",
+        "type": "rbe",
+        "z": "6a1ef6a7aef873a7",
+        "g": "c889aa180836227d",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 390,
+        "y": 540,
+        "wires": [
+            [
+                "bb9a5bd9acdaf064"
+            ]
+        ]
+    },
+    {
+        "id": "daee13eec7db4075",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "936eab7d97be78af",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1870,
+        "y": 3960,
+        "wires": []
+    },
+    {
+        "id": "1d8939469bf38097",
+        "type": "switch",
+        "z": "6a1ef6a7aef873a7",
+        "g": "107381298b97c974",
+        "name": "Fuente",
+        "property": "GeometriaSucket.FuenteCalculo",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "SensorLess",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 380,
+        "y": 660,
+        "wires": [
+            [
+                "5c4af827690ff74e"
+            ],
+            []
         ]
     }
 ]
