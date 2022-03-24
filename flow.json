@@ -2487,7 +2487,9 @@
             "8154334e1409fab8"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1852,
+        "h": 968
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -5859,7 +5861,9 @@
             "390900f020d1950d"
         ],
         "x": 494,
-        "y": 539
+        "y": 539,
+        "w": 1022,
+        "h": 422
     },
     {
         "id": "504a9190c56704f4",
@@ -5871,13 +5875,13 @@
             "label": true
         },
         "nodes": [
-            "42f8ac5ac4518df4",
             "f88bce3cfb57bc9b",
-            "f61ae4174f8cd899"
+            "f61ae4174f8cd899",
+            "266f7111cce6fdfe"
         ],
-        "x": 754,
+        "x": 834,
         "y": 1339,
-        "w": 492,
+        "w": 412,
         "h": 82
     },
     {
@@ -19960,7 +19964,8 @@
             "e0ebb1532663774a",
             "4f0f0ba92e1e6d7e",
             "7a1bda55e815ed25",
-            "0465b4b302febce1"
+            "0465b4b302febce1",
+            "266f7111cce6fdfe"
         ],
         "x": 975,
         "y": 1220,
@@ -79267,6 +79272,7 @@
         "g": "c889aa180836227d",
         "name": "CalculoDinagrama",
         "links": [
+            "8154334e1409fab8",
             "fd1107c6dffffad4"
         ],
         "x": 115,
@@ -79355,7 +79361,7 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "1",
+        "duration": "5",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -79790,32 +79796,6 @@
         "wires": [
             [
                 "b6f3ea51d122b4cc"
-            ]
-        ]
-    },
-    {
-        "id": "42f8ac5ac4518df4",
-        "type": "inject",
-        "z": "6a1ef6a7aef873a7",
-        "g": "504a9190c56704f4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "0.1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 850,
-        "y": 1380,
-        "wires": [
-            [
-                "f88bce3cfb57bc9b"
             ]
         ]
     },
@@ -93435,7 +93415,7 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "1",
+        "duration": "5",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -95799,7 +95779,7 @@
         "g": "67a422f5076a03ee",
         "name": "confirmarGeometria",
         "links": [
-            "a0782a2c88da747d"
+            "8f5d5b7c326c1df2"
         ],
         "x": 755,
         "y": 260,
@@ -96348,7 +96328,7 @@
         "z": "6a1ef6a7aef873a7",
         "g": "c889aa180836227d",
         "name": "cargaSensorLess",
-        "func": "var contraPesoCrank = global.get(\"GeometriaSucket.HMI.contraPesoCrank\")||1327;\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\")||0;//variable de HMI no cambiar \nvar SPM = global.get(\"C2S.Last_Reference.ValueSpm\")||-1;//poner la variable asignada\nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"))||0;\nvar s_pr = (global.get(\"GeometriaSucket.sensorLess.s_pr\"))||0;\nvar vectorPotencia = global.get(\"Dinagrama.superficie.strokePotencia\")\nvar theta = (global.get(\"GeometriaSucket.sensorLess.theta\"))||[];\nvar paso = (2 * Math.PI) / Nmuestras, velAngular = 0, P_crank = [], VectorVelocidad = [], VectorCarga = [];\n// var conversion = 1/8.851;//conversion a kw para trabajar con la potencia electrica\nvar conversion = 1;//conversion si no esta en kw \nvar dt = 60/(SPM*Nmuestras);\n\n// velocidad angular\nvelAngular = (2*Math.PI*SPM)/60\n\n// potencia del crank\nfor (let i = 0; i < theta.length; i++) {\n    P_crank[i] = conversion*contraPesoCrank*velAngular*R*Math.cos(theta[i]);\n}\n//hallar el vector de velocidad\nfor (let i = 0; i < s_pr.length; i++) {\n    VectorVelocidad[i] = (s_pr[i] - s_pr[i - 1]) / (dt);\n}\nVectorVelocidad[VectorVelocidad.length - 1] = VectorVelocidad[0];\nfor (let i = 0; i < VectorVelocidad.length; i++) {\n    VectorCarga[i] = (vectorPotencia[i] + P_crank[i]) / (conversion * VectorVelocidad[i]);\n}\n\nif(SPM == -1){\n    node.status({fill:\"red\",shape:\"ring\",text:\"SPM no seteada\"});\n}\n\nvar variables ={\n    's_pr': s_pr,\n    'VectorCarga': VectorCarga,\n    'contraPesoCrank': contraPesoCrank,\n}\ncontext.set(\"1variables\", variables,\"memoryOnly\");\n\ncontext.set(\"ingreso.R\", R,\"memoryOnly\");\ncontext.set(\"ingreso.theta\", theta,\"memoryOnly\");\ncontext.set(\"ingreso.s_pr\", s_pr,\"memoryOnly\");\n\ncontext.set(\"calculo.velAngular\", velAngular,\"memoryOnly\");\ncontext.set(\"calculo.conversion\", conversion,\"memoryOnly\");\ncontext.set(\"calculo.paso\", paso,\"memoryOnly\");\ncontext.set(\"calculo.P_crank\", P_crank,\"memoryOnly\");\ncontext.set(\"calculo.contraPesoCrank\", contraPesoCrank,\"memoryOnly\");\ncontext.set(\"calculo.VectorVelocidad\", VectorVelocidad,\"memoryOnly\");\ncontext.set(\"calculo.VectorCarga\", VectorCarga,\"memoryOnly\");\n\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", s_pr);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", VectorCarga);\nglobal.set(\"Dinagrama.superficie.nMuestras\", s_pr.length);\n\nreturn msg;",
+        "func": "var contraPesoCrank = global.get(\"GeometriaSucket.HMI.contraPesoCrank\")||1327;\nvar Nmuestras = global.get(\"GeometriaSucket.Nmuestras\")||0;//variable de HMI no cambiar \nvar SPM = global.get(\"C2S.Last_Reference.ValueSpm\")||-1;//poner la variable asignada\nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"))||0;\nvar s_pr = (global.get(\"GeometriaSucket.sensorLess.s_pr\"))||0;\nvar vectorPotencia = global.get(\"Dinagrama.superficie.strokePotencia\")\nvar theta = (global.get(\"GeometriaSucket.sensorLess.theta\"))||[];\nvar paso = (2 * Math.PI) / Nmuestras, velAngular = 0, P_crank = [], VectorVelocidad = [], VectorCarga = [];\n// var conversion = 1/8.851;//conversion a kw para trabajar con la potencia electrica\nvar conversion = 1;//conversion si no esta en kw \nvar dt = 60/(SPM*Nmuestras);\n\n// velocidad angular\nvelAngular = (2*Math.PI*SPM)/60\n\n// potencia del crank\nfor (let i = 0; i < theta.length; i++) {\n    P_crank[i] = conversion*contraPesoCrank*velAngular*R*Math.cos(theta[i]);\n}\n//hallar el vector de velocidad\nfor (let i = 0; i < s_pr.length; i++) {\n    VectorVelocidad[i] = (s_pr[i +1] - s_pr[i]) / (dt);\n}\nVectorVelocidad[VectorVelocidad.length - 1] = VectorVelocidad[0];\n\n\n\nfor (let i = 0; i < VectorVelocidad.length; i++) {\n    VectorCarga[i] = (vectorPotencia[i] + P_crank[i]) / (conversion * VectorVelocidad[i]);\n}\n\nif(SPM == -1){\n    node.status({fill:\"red\",shape:\"ring\",text:\"SPM no seteada\"});\n}\n\nvar variables ={\n    's_pr': s_pr,\n    'VectorCarga': VectorCarga,\n    'contraPesoCrank': contraPesoCrank,\n    'VectorVelocidad': VectorVelocidad,\n    'dt': dt,\n}\ncontext.set(\"1variables\", variables,\"memoryOnly\");\n\ncontext.set(\"ingreso.R\", R,\"memoryOnly\");\ncontext.set(\"ingreso.theta\", theta,\"memoryOnly\");\ncontext.set(\"ingreso.s_pr\", s_pr,\"memoryOnly\");\n\ncontext.set(\"calculo.velAngular\", velAngular,\"memoryOnly\");\ncontext.set(\"calculo.conversion\", conversion,\"memoryOnly\");\ncontext.set(\"calculo.paso\", paso,\"memoryOnly\");\ncontext.set(\"calculo.P_crank\", P_crank,\"memoryOnly\");\ncontext.set(\"calculo.contraPesoCrank\", contraPesoCrank,\"memoryOnly\");\ncontext.set(\"calculo.VectorVelocidad\", VectorVelocidad,\"memoryOnly\");\ncontext.set(\"calculo.VectorCarga\", VectorCarga,\"memoryOnly\");\n\n\nglobal.set(\"Dinagrama.superficie.Desp_CD\", s_pr);\nglobal.set(\"Dinagrama.superficie.Esfu_CD\", VectorCarga);\nglobal.set(\"Dinagrama.superficie.nMuestras\", s_pr.length);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -96413,7 +96393,7 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "1",
+        "duration": "5",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -96479,7 +96459,7 @@
         "op2": "0",
         "op1type": "nul",
         "op2type": "str",
-        "duration": "1",
+        "duration": "5",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -96716,6 +96696,23 @@
                 "5c4af827690ff74e"
             ],
             []
+        ]
+    },
+    {
+        "id": "266f7111cce6fdfe",
+        "type": "link in",
+        "z": "6a1ef6a7aef873a7",
+        "g": "504a9190c56704f4",
+        "name": "testDeFuncionalidad",
+        "links": [
+            "1a154fa903ebee99"
+        ],
+        "x": 875,
+        "y": 1380,
+        "wires": [
+            [
+                "f88bce3cfb57bc9b"
+            ]
         ]
     }
 ]
