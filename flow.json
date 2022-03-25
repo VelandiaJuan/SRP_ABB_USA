@@ -2499,9 +2499,7 @@
             "5791ad35584a5a82"
         ],
         "x": 1434,
-        "y": 79,
-        "w": 532,
-        "h": 242
+        "y": 79
     },
     {
         "id": "854b667853465d2b",
@@ -2518,9 +2516,7 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79,
-        "w": 342,
-        "h": 142
+        "y": 79
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2556,9 +2552,7 @@
             "de06d33608ea1299"
         ],
         "x": 54,
-        "y": 819,
-        "w": 642,
-        "h": 582
+        "y": 819
     },
     {
         "id": "a0b84f94a6510eee",
@@ -2929,14 +2923,9 @@
         "id": "0935e9bf7ed9ba52",
         "type": "group",
         "z": "f62fcef222e9a4a3",
+        "name": "Logica de  Control Surface Control",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
             "d2d08d874d81b5dc",
@@ -3053,7 +3042,6 @@
             "fe9808943c7dacb2",
             "7fd43c70c598d9e6",
             "ca5aa3685b19e606",
-            "7a50070e3d7d1afa",
             "695d2ac885a0c79d",
             "428a748b8add7da5",
             "8b59a775f8f87930",
@@ -3531,9 +3519,7 @@
             "b6f3ea51d122b4cc"
         ],
         "x": 724,
-        "y": 819,
-        "w": 742,
-        "h": 628
+        "y": 819
     },
     {
         "id": "7a3f5495c1da4ade",
@@ -3586,9 +3572,7 @@
             "afc303276a2ad6e5"
         ],
         "x": 54,
-        "y": 1519,
-        "w": 1052,
-        "h": 202
+        "y": 1519
     },
     {
         "id": "56a92b2a688064b3",
@@ -3654,9 +3638,7 @@
             "314c66c424e9a037"
         ],
         "x": 48,
-        "y": 239,
-        "w": 1368,
-        "h": 562
+        "y": 239
     },
     {
         "id": "193969f706c28bf5",
@@ -3672,9 +3654,7 @@
             "661da3109cbc4a60"
         ],
         "x": 54,
-        "y": 1419,
-        "w": 422,
-        "h": 82
+        "y": 1419
     },
     {
         "id": "936eab7d97be78af",
@@ -3811,9 +3791,11 @@
         },
         "nodes": [
             "464e83040146c818",
-            "19634103a3b0ec4e"
+            "19634103a3b0ec4e",
+            "faba5987d51f84db",
+            "111730fd7d0353d2"
         ],
-        "x": 1424,
+        "x": 1414,
         "y": 51.5
     },
     {
@@ -3848,7 +3830,9 @@
             "e5eae00e04ab5e62"
         ],
         "x": 94,
-        "y": 259
+        "y": 259,
+        "w": 542,
+        "h": 122
     },
     {
         "id": "bfece4f80fac7e54",
@@ -3869,7 +3853,57 @@
             "d7691b30c25e59ef"
         ],
         "x": 84,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 202
+    },
+    {
+        "id": "312e757f2ddba8e5",
+        "type": "group",
+        "z": "2026898575f7aa56",
+        "name": "Tendencias Especiales SRP",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa3219b9781cefb8",
+            "00c530172cf82193",
+            "09dc6d003b2cb5c2",
+            "3dbf6abb1b82534f",
+            "770c7ca443274647",
+            "d2e5f228955f8a09",
+            "1ee76f7e7996e481",
+            "1d8d640fce226dfd",
+            "6b5d05c749b432bf",
+            "79bddbe12eb9e9d5",
+            "f4eaa549d1c1d24f",
+            "06dd79fb5b98b9c8",
+            "57a457881cb4f371"
+        ],
+        "x": 154,
+        "y": 279
+    },
+    {
+        "id": "62bc7b639c3d930f",
+        "type": "group",
+        "z": "ba668bc685d26b37",
+        "name": "CargasPermisibles",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3d357c01413a2604",
+            "d9d68428b5525671",
+            "122a32223c037311",
+            "8e7389f857d4d878",
+            "a1bdee3c1dd4b9a9",
+            "a63a76caa0d73eff",
+            "88b046a4ec26f1ed"
+        ],
+        "x": 114,
+        "y": 439,
+        "w": 572,
+        "h": 242
     },
     {
         "id": "d929d138.3b512",
@@ -5848,9 +5882,7 @@
             "266f7111cce6fdfe"
         ],
         "x": 834,
-        "y": 1339,
-        "w": 412,
-        "h": 82
+        "y": 1339
     },
     {
         "id": "107381298b97c974",
@@ -5869,9 +5901,7 @@
             "1d8939469bf38097"
         ],
         "x": 74,
-        "y": 619,
-        "w": 952,
-        "h": 122
+        "y": 619
     },
     {
         "id": "13232391ff16abe8",
@@ -6961,34 +6991,6 @@
         ],
         "x": 614,
         "y": 689
-    },
-    {
-        "id": "312e757f2ddba8e5",
-        "type": "group",
-        "z": "2026898575f7aa56",
-        "name": "Tendencias Especiales SRP",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fa3219b9781cefb8",
-            "00c530172cf82193",
-            "09dc6d003b2cb5c2",
-            "3dbf6abb1b82534f",
-            "770c7ca443274647",
-            "d2e5f228955f8a09",
-            "1ee76f7e7996e481",
-            "1d8d640fce226dfd",
-            "6b5d05c749b432bf",
-            "79bddbe12eb9e9d5",
-            "f4eaa549d1c1d24f",
-            "06dd79fb5b98b9c8",
-            "57a457881cb4f371"
-        ],
-        "x": 154,
-        "y": 279,
-        "w": 742,
-        "h": 342
     },
     {
         "id": "d25d405a.19cff",
@@ -11006,7 +11008,7 @@
         "name": "cargasPermisibles",
         "tab": "f7563779dea6779f",
         "order": 3,
-        "disp": true,
+        "disp": false,
         "width": "16",
         "collapse": false,
         "className": ""
@@ -82873,7 +82875,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "908c9775529ae148",
         "name": "Calculo Punto de Operación",
-        "func": "//Declaración de variables, si no se agrega nada que se inicialize en 0 y false\nvar habilitadoCS = global.get(\"Control_functions.SurfaceControl.habilitadoCS\")||false;\nvar Estado_Dinagrama = global.get(\"Control_functions.SurfaceControl.Estado_Dinagrama\",\"memoryOnly\") || false;\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;\nvar Alert_Dinagrama;\nvar Alert_Dinagrama2 = flow.get(\"Alert_Dinagrama2\");\nvar Alert_intentos;\nvar color;\nvar Start_SurfaceControl = global.get(\"Control_functions.SurfaceControl.buttonComand\")||false;\nvar Disparo = flow.get(\"Control_functions.SurfaceControl.Disparo\", \"memoryOnly\") || false;\nvar Actual_pos = parseFloat(flow.get(\"Actual_pos\")) || 0.0;\nvar POC_aux = flow.get(\"POC_aux\") || false;\nvar POC_aux2 = flow.get(\"POC_aux2\") || false;\nvar POC_indice = flow.get(\"POC_indice\") || 0;\nvar POC_indice2 = flow.get(\"POC_indice2\") || 0;\nvar POC_actual = flow.get(\"POC_actual\") || 0;\nvar Porcentaje_X = parseFloat(global.get(\"Control_functions.SurfaceControl.Porcent_X\")) || 0.0;\nvar Porcentaje_Y = parseFloat(global.get(\"Control_functions.SurfaceControl.Porcent_Y\")) || 0.0;\nvar Num_intentos = global.get(\"Control_functions.SurfaceControl.Intentos\") || 0;\nvar Point_Y_Real = flow.get(\"Point_Y_Real\")||0;\nvar Point_X_Real = flow.get(\"Point_X_Real\")||0;\nvar POC_carga_arriba = flow.get(\"POC_carga_arriba\")||0;\nvar POC_carga_abajo = flow.get(\"POC_carga_abajo\")||0;\nvar Desp = global.get(\"Dinagrama.superficie.Desp_CD\")||[];\nvar Esf = global.get(\"Dinagrama.superficie.Esfu_CD\")||[];\n//Vector x posicion\n//var x = [0.033277, 0.298705, 0.669662, 1.142543, 1.738089, 2.445315, 3.24979, 4.16783, 5.191564, 6.2639, 7.402083, 8.644076, 9.995452, 11.436207, 12.939613, 14.526823, 16.207429, 17.955852, 19.767089, 21.661885, 23.624661, 25.635197, 27.697951, 29.828932, 31.998408, 34.196706, 36.431962, 38.706677, 41.013411, 43.348044, 45.724339, 48.149071,\n//    50.476498, 52.779014, 55.120742, 57.459779, 59.748734, 62.024175, 64.298563, 66.545006, 68.754159, 70.919379, 73.046079, 75.123682, 77.140381, 79.09421, 80.977625, 82.811451, 84.579372, 86.249988, 87.835515, 89.337428, 90.736624, 92.029825, 93.241625, 94.357514, 95.357404, 96.268926, 97.088471, 97.786361, 98.380386, 98.874318, 99.279144,\n//    99.586828, 99.810243, 99.950044, 100, 99.969048, 99.84817, 99.656304, 99.38845, 99.04231, 98.631415, 98.154287, 97.60945, 97.003055, 96.349038, 95.605669, 94.789098, 93.9618, 93.076469, 92.111869, 91.121867, 90.096869, 89.000145, 87.842846, 86.656537, 85.425313, 84.132857, 82.808357, 81.434432, 79.999276, 78.532158, 77.02775, 75.449812,\n//    73.823023, 72.176406, 70.472903, 68.718008, 66.958862, 65.136436, 63.233183, 61.321827, 59.397612, 57.405607, 55.372212, 53.344732, 51.283979, 49.176999, 47.05716, 44.92315, 42.768083, 40.577774, 38.367145, 36.162597, 33.921988, 31.66278, 29.433932, 27.208785, 25.003011, 22.846217, 20.749532, 18.705578, 16.740837, 14.852849, 12.993374,\n//    11.230657, 9.571503, 8.026405, 6.6034, 5.317899, 4.165887, 3.161054, 2.300859, 1.572431, 0.977982, 0.51571, 0.198895, 0.033277, 0];\n\n//Vector y carga\n//var y = [9.325307, 9.676723, 9.676723, 9.580882, 9.788537, 9.820484, 9.596856, 9.676723, 9.548935, 9.485041, 10.012166, 10.363582, 10.475396, 10.730972, 10.90668, 11.002521, 11.258096, 11.433804, 11.513671, 11.717333, 11.835137, 11.917001, 11.809181, 11.631476, 11.226149, 10.970574, 10.794866, 10.651104, 10.459423, 10.267741, 10.139953,\n//    9.996192, 9.820484, 9.628803, 9.516988, 9.692696, 9.900351, 10.07606, 10.187874, 10.315662, 10.331635, 10.331635, 10.443449, 10.507343, 10.443449, 10.53929, 10.699025, 10.571237, 10.251768, 9.980219, 9.804511, 9.612829, 9.405174, 9.357254, 9.34128, 9.149599, 8.97389, 9.021811, 8.92597, 8.734288, 8.909997, 9.245439, 9.437121, 9.532962,\n//    9.75659, 9.884378, 9.932298, 9.964245, 9.900351, 9.996192, 9.948272, 10.028139, 10.139953, 9.964245, 9.628803, 9.469068, 9.469068, 9.34128, 9.149599, 9.245439, 9.29336, 9.117652, 9.053758, 9.245439, 9.181545, 9.085705, 9.373227, 9.70867, 9.692696, 9.644776, 9.788537, 9.868405, 9.628803, 9.548935, 9.612829, 9.421147, 9.165572, 9.037784,\n//    8.814156, 8.350925, 7.903668, 7.759907, 7.711987, 7.456411, 7.200836, 7.168889, 7.041101, 6.705658, 6.561897, 6.753579, 6.929287, 7.184862, 7.536279, 7.855748, 7.919642, 7.887695, 8.09535, 8.318978, 8.334952, 8.526633, 8.766235, 8.734288, 8.686368, 8.718315, 8.414819, 8.223138, 8.366899, 8.350925, 8.366899, 8.51066, 8.478713, 8.382872,\n//    8.494686, 8.51066, 8.55858, 8.750262, 8.941944, 9.229466, 9.373227, 9.29336];\n\nvar Max_Desp_s = 0;\nvar Min_Desp_s = 0;\nvar Max_Carga_s = 0;\nvar Min_Carga_s = 0;\n\n//Se inicializa las variables con el valor de la posición 0 de cada vector.\nMax_Desp_s = Desp[0];\nMin_Desp_s = Desp[0];\nMax_Carga_s = Esf[0];\nMin_Carga_s = Esf[0];\n//&& \n//&&  \nif (habilitadoCS == true && comunicacion == true && Start_SurfaceControl == true) {\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n\n    if (Disparo == false) {\n        if (POC_actual >= Num_intentos) {\n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);\n        }\n        \n        //Encontrar el valor maximo y minimo del vector X.\n        for (var i = 0; i < Desp.length; i++) {\n            if (Desp[i] > Max_Desp_s) {\n                Max_Desp_s = Desp[i];\n            }\n            if (Desp[i] < Min_Desp_s) {\n                Min_Desp_s = Desp[i];\n            }\n        }\n        context.set(\"Min_Desp_s\", Min_Desp_s);//Seteo el minimo valor del vector X\n        context.set(\"Max_Desp_s\", Max_Desp_s);//Seteo el maximo valor del vector X\n\n        //Calcula el valor de X real\n        Point_X_Real = (((Max_Desp_s - Min_Desp_s) * Porcentaje_X) / 100.0) + Min_Desp_s;\n        flow.set(\"Point_X_Real\", Point_X_Real);//Seteo el valor hallado en la anterior ecucación\n\n        //Recorre el vector en busca del punto up y del punto down\n        for (var j = 0; j < Desp.length; j++) {\n            if (Actual_pos < Desp[j]) {\n                if (Actual_pos > Point_X_Real && POC_aux == false) {\n                    POC_aux = true;\n                    POC_indice = j;\n                    context.set(\"POC_indice\", POC_indice);\n                }\n            }\n            if (Actual_pos > Desp[j] && POC_aux == true) {\n                if (Actual_pos < Point_X_Real && POC_aux2 == false) {\n                    POC_aux2 = true;\n                    POC_indice2 = j;\n                    context.set(\"POC_indice2\", POC_indice2);\n                }\n\n            }\n            Actual_pos = Desp[j];\n            flow.set(\"Actual_pos\", Actual_pos);//Setea el valor que esta en la posición j del vector Y\n        }\n\n        POC_aux = false;//Indica evaluar de nuevo\n        flow.set(\"POC_aux\", POC_aux);\n        POC_aux2 = false;//Indica evaluar de nuevo\n        flow.set(\"POC_aux2\", POC_aux2);\n\n        //Indicar los puntos de up stroke y down stroke\n        POC_carga_arriba = Esf[POC_indice];//up\n        flow.set(\"POC_carga_arriba\", POC_carga_arriba);\n        POC_carga_abajo = Esf[POC_indice2];//down\n        flow.set(\"POC_carga_abajo\", POC_carga_abajo);\n\n        //Encontrar el valor maximo y minimo del vector Y.\n        for (var k = 0; k < Esf.length; k++) {\n            if (Esf[k] > Max_Carga_s) {\n                Max_Carga_s = Esf[k];\n            }\n            if (Esf[k] < Min_Carga_s) {\n                Min_Carga_s = Esf[k];\n            }\n        }\n        context.set(\"Min_Carga_s\", Min_Carga_s);                             //Seteo el minimo valor del vector Y\n        context.set(\"Max_Carga_s\", Max_Carga_s);                             //Seteo el maximo valor del vector Y\n\n        //Calcular el valor de Y real\n        Point_Y_Real = (((Max_Carga_s - Min_Carga_s) * Porcentaje_Y) / 100.0) + Min_Carga_s;\n        flow.set(\"Point_Y_Real\", Point_Y_Real);//Seteo el valor hallado en la anterior ecucación\n\n        //Evaluar si el punto esta por fuera o por dentro.\n        if (Point_Y_Real > POC_carga_arriba || Point_Y_Real < POC_carga_abajo) {\n            var POC_trigger = true;                                             //Define si el punto está por fuera o por dentro\n            context.set(\"POC_trigger\", POC_trigger);\n            node.status({ fill: \"red\", shape: \"dot\", text: \"Fuera del rango\" });\n            Alert_Dinagrama2 = { payload: \"Fuera del rango\" };\n        } else {\n            POC_trigger = false;   \n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);                                             //Indica que el punto esta dentro del rango\n            node.status({ fill: \"green\", shape: \"dot\", text: \"punto dentro del rango\" });\n            Alert_Dinagrama2 = { payload: \"Dentro del rango\" };\n            Alert_Dinagrama = { payload:\"Optimo\"}\n        }\n        //Contar el número de intentos\n        if (POC_actual <= Num_intentos) {\n            if (POC_trigger == true) {\n                POC_actual += 1;\n                flow.set(\"POC_actual\", POC_actual);\n                Alert_intentos = { payload: POC_actual };\n            } else {\n                POC_actual = 0;\n                flow.set(\"POC_actual\", POC_actual);\n            }\n        }\n\n        POC_trigger = false\n        context.set(\"POC_carga_arriba\", POC_carga_arriba);\n        context.set(\"Point_Y_Real\", Point_Y_Real);\n\n        \n\n        //Dsiparosi sobrepasa el número de intentos\n        if (POC_actual >= Num_intentos) {\n            Alert_Dinagrama = { payload: \"Ha superado  el número de intentos, se apagará el equipo\" };\n            Disparo = true;//activa el disparo\n            flow.set(\"Control_functions.SurfaceControl.Disparo\", Disparo, \"memoryOnly\");\n            Estado_Dinagrama = {payload:false};//Apaga el equipo\n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);\n            Alert_intentos = { payload: Num_intentos };\n            \n        }\n        return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n\n    }\n\n\n}else if (habilitadoCS == false) {\n    POC_actual = 0;\n    Estado_Dinagrama = {payload:\"....\"};\n    flow.set(\"POC_actual\", POC_actual);\n    Alert_Dinagrama2 = {payload:\".....\"};\n    Alert_intentos = {payload:POC_actual};\n    return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n}\ncontext.set(\"Control_functions.SurfaceControl.Disparo\", Disparo);\ncontext.set(\"Estado_Dinagrama\", Estado_Dinagrama,\"memoryOnly\");\ncontext.set(\"POC_actual\", POC_actual);\ncontext.set(\"Start_SurfaceControl\", Start_SurfaceControl);\n//return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n\n\n        \n\n",
+        "func": "//Declaración de variables, si no se agrega nada que se inicialize en 0 y false\nvar habilitadoCS = global.get(\"Control_functions.SurfaceControl.habilitadoCS\")||false;\nvar Estado_Dinagrama = global.get(\"Control_functions.SurfaceControl.Estado_Dinagrama\",\"memoryOnly\") || false;\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;\nvar Alert_Dinagrama;\nvar Alert_Dinagrama2 = flow.get(\"Alert_Dinagrama2\");\nvar Alert_intentos;\nvar color;\nvar Start_SurfaceControl = global.get(\"Control_functions.SurfaceControl.buttonComand\")||false;\nvar Disparo = flow.get(\"Control_functions.SurfaceControl.Disparo\", \"memoryOnly\") || false;\nvar Actual_pos = parseFloat(flow.get(\"Actual_pos\")) || 0.0;\nvar POC_aux = flow.get(\"POC_aux\") || false;\nvar POC_aux2 = flow.get(\"POC_aux2\") || false;\nvar POC_indice = flow.get(\"POC_indice\") || 0;\nvar POC_indice2 = flow.get(\"POC_indice2\") || 0;\nvar POC_actual = flow.get(\"POC_actual\") || 0;\nvar Porcentaje_X = parseFloat(global.get(\"Control_functions.SurfaceControl.Porcent_X\")) || 0.0;\nvar Porcentaje_Y = parseFloat(global.get(\"Control_functions.SurfaceControl.Porcent_Y\")) || 0.0;\nvar Num_intentos = global.get(\"Control_functions.SurfaceControl.Intentos\") || 0;\nvar Point_Y_Real = flow.get(\"Point_Y_Real\")||0;\nvar Point_X_Real = flow.get(\"Point_X_Real\")||0;\nvar POC_carga_arriba = flow.get(\"POC_carga_arriba\")||0;\nvar POC_carga_abajo = flow.get(\"POC_carga_abajo\")||0;\nvar Desp = global.get(\"Dinagrama.superficie.Desp_CD\")||[];\nvar Esf = global.get(\"Dinagrama.superficie.Esfu_CD\")||[];\n\n\nvar Max_Desp_s = 0;\nvar Min_Desp_s = 0;\nvar Max_Carga_s = 0;\nvar Min_Carga_s = 0;\n\n//Se inicializa las variables con el valor de la posición 0 de cada vector.\nMax_Desp_s = Desp[0];\nMin_Desp_s = Desp[0];\nMax_Carga_s = Esf[0];\nMin_Carga_s = Esf[0];\n//&& \n//&&  \nif (habilitadoCS == true && comunicacion == true && Start_SurfaceControl == true) {\n    //visualizar estado del habilitado\n    node.status({ fill: \"green\", shape: \"dot\", text: \"habilitado\" });\n\n    if (Disparo == false) {\n        if (POC_actual >= Num_intentos) {\n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);\n        }\n        \n        //Encontrar el valor maximo y minimo del vector X.\n        for (var i = 0; i < Desp.length; i++) {\n            if (Desp[i] > Max_Desp_s) {\n                Max_Desp_s = Desp[i];\n            }\n            if (Desp[i] < Min_Desp_s) {\n                Min_Desp_s = Desp[i];\n            }\n        }\n        context.set(\"Min_Desp_s\", Min_Desp_s);//Seteo el minimo valor del vector X\n        context.set(\"Max_Desp_s\", Max_Desp_s);//Seteo el maximo valor del vector X\n\n        //Calcula el valor de X real\n        Point_X_Real = (((Max_Desp_s - Min_Desp_s) * Porcentaje_X) / 100.0) + Min_Desp_s;\n        flow.set(\"Point_X_Real\", Point_X_Real);//Seteo el valor hallado en la anterior ecucación\n\n        //Recorre el vector en busca del punto up y del punto down\n        for (var j = 0; j < Desp.length; j++) {\n            if (Actual_pos < Desp[j]) {\n                if (Actual_pos > Point_X_Real && POC_aux == false) {\n                    POC_aux = true;\n                    POC_indice = j;\n                    context.set(\"POC_indice\", POC_indice);\n                }\n            }\n            if (Actual_pos > Desp[j] && POC_aux == true) {\n                if (Actual_pos < Point_X_Real && POC_aux2 == false) {\n                    POC_aux2 = true;\n                    POC_indice2 = j;\n                    context.set(\"POC_indice2\", POC_indice2);\n                }\n\n            }\n            Actual_pos = Desp[j];\n            flow.set(\"Actual_pos\", Actual_pos);//Setea el valor que esta en la posición j del vector Y\n        }\n\n        POC_aux = false;//Indica evaluar de nuevo\n        flow.set(\"POC_aux\", POC_aux);\n        POC_aux2 = false;//Indica evaluar de nuevo\n        flow.set(\"POC_aux2\", POC_aux2);\n\n        //Indicar los puntos de up stroke y down stroke\n        POC_carga_arriba = Esf[POC_indice];//up\n        flow.set(\"POC_carga_arriba\", POC_carga_arriba);\n        POC_carga_abajo = Esf[POC_indice2];//down\n        flow.set(\"POC_carga_abajo\", POC_carga_abajo);\n\n        //Encontrar el valor maximo y minimo del vector Y.\n        for (var k = 0; k < Esf.length; k++) {\n            if (Esf[k] > Max_Carga_s) {\n                Max_Carga_s = Esf[k];\n            }\n            if (Esf[k] < Min_Carga_s) {\n                Min_Carga_s = Esf[k];\n            }\n        }\n        context.set(\"Min_Carga_s\", Min_Carga_s);                             //Seteo el minimo valor del vector Y\n        context.set(\"Max_Carga_s\", Max_Carga_s);                             //Seteo el maximo valor del vector Y\n\n        //Calcular el valor de Y real\n        Point_Y_Real = (((Max_Carga_s - Min_Carga_s) * Porcentaje_Y) / 100.0) + Min_Carga_s;\n        flow.set(\"Point_Y_Real\", Point_Y_Real);//Seteo el valor hallado en la anterior ecucación\n\n        //Evaluar si el punto esta por fuera o por dentro.\n        if (Point_Y_Real > POC_carga_arriba || Point_Y_Real < POC_carga_abajo) {\n            var POC_trigger = true;                                             //Define si el punto está por fuera o por dentro\n            context.set(\"POC_trigger\", POC_trigger);\n            node.status({ fill: \"red\", shape: \"dot\", text: \"Fuera del rango\" });\n            Alert_Dinagrama2 = { payload: \"Fuera del rango\" };\n        } else {\n            POC_trigger = false;   \n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);                                             //Indica que el punto esta dentro del rango\n            node.status({ fill: \"green\", shape: \"dot\", text: \"punto dentro del rango\" });\n            Alert_Dinagrama2 = { payload: \"Dentro del rango\" };\n            Alert_Dinagrama = { payload:\"Optimo\"}\n        }\n        //Contar el número de intentos\n        if (POC_actual <= Num_intentos) {\n            if (POC_trigger == true) {\n                POC_actual += 1;\n                flow.set(\"POC_actual\", POC_actual);\n                Alert_intentos = { payload: POC_actual };\n            } else {\n                POC_actual = 0;\n                flow.set(\"POC_actual\", POC_actual);\n            }\n        }\n\n        POC_trigger = false\n        context.set(\"POC_carga_arriba\", POC_carga_arriba);\n        context.set(\"Point_Y_Real\", Point_Y_Real);\n\n        \n\n        //Dsiparosi sobrepasa el número de intentos\n        if (POC_actual >= Num_intentos) {\n            Alert_Dinagrama = { payload: \"Ha superado  el número de intentos, se apagará el equipo\" };\n            Disparo = true;//activa el disparo\n            flow.set(\"Control_functions.SurfaceControl.Disparo\", Disparo, \"memoryOnly\");\n            Estado_Dinagrama = {payload:false};//Apaga el equipo\n            POC_actual = 0;\n            flow.set(\"POC_actual\", POC_actual);\n            Alert_intentos = { payload: Num_intentos };\n            \n        }\n        return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n\n    }\n\n\n}else if (habilitadoCS == false) {\n    POC_actual = 0;\n    Estado_Dinagrama = {payload:\"....\"};\n    flow.set(\"POC_actual\", POC_actual);\n    Alert_Dinagrama2 = {payload:\".....\"};\n    Alert_intentos = {payload:POC_actual};\n    return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n}\ncontext.set(\"Control_functions.SurfaceControl.Disparo\", Disparo);\ncontext.set(\"Estado_Dinagrama\", Estado_Dinagrama,\"memoryOnly\");\ncontext.set(\"POC_actual\", POC_actual);\ncontext.set(\"Start_SurfaceControl\", Start_SurfaceControl);\n//return [Disparo, Estado_Dinagrama, Alert_Dinagrama, Alert_Dinagrama2, Alert_intentos];\n\n\n        \n\n",
         "outputs": 5,
         "noerr": 0,
         "initialize": "",
@@ -82950,31 +82952,6 @@
         "y": 760,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "7a50070e3d7d1afa",
-        "type": "inject",
-        "z": "f62fcef222e9a4a3",
-        "g": "908c9775529ae148",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "10",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 840,
-        "wires": [
-            [
-                "fe9808943c7dacb2"
-            ]
         ]
     },
     {
@@ -83062,8 +83039,9 @@
         "g": "908c9775529ae148",
         "name": "ActualizarDatosControlSurface",
         "links": [
+            "3afdfd0538dc890a",
             "4675faa70f1f7b8c",
-            "3afdfd0538dc890a"
+            "fd1107c6dffffad4"
         ],
         "x": 155,
         "y": 900,
@@ -95441,14 +95419,14 @@
         "z": "7a89175c.90f6a8",
         "g": "13232391ff16abe8",
         "name": "fuenteSenales",
-        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nvar valor = [0,0,0,0,0,0,0,0,0,0,0,0];\nif(Fsenal != 0){\n    // Valores Asignados \n    // Posicion\n    valor[0] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.entradaAnaloga)) : 0;\n    valor[1] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Min*10)) : 0;\n    valor[2] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Max*10)) : 0; \n\n    // Carga\n    valor[3] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.entradaAnaloga)) : 0;\n    valor[4] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Min*10)) : 0;\n    valor[5] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Max*10)) : 0;\n\n\n    // POTENCIAVSD\n    valor[6] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.entradaAnaloga)) : 0;\n    valor[7] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Min*10)) : 0;\n    valor[8] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Max*10)) : 0;\n    \n    valor[9] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.entradaAnaloga)) : 0;\n    valor[10] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Min*10)) : 0;\n    valor[11] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Max*10)) : 0;\n    // filtrar los valores nulos \n    for (var i = 0; i < valor.length; i += 1) {\n        valor[i] = val(valor[i]);\n    }\n\n    msg.payload = {\n        value: valor,\n        'fc': 16,\n        'unitid': 1,\n        'address': indice + 37,\n        'quantity': 12\n    }\n    // visualizador de variables\n    node.status({ fill: \"blue\", shape: \"dot\", text: \"Data: \" + msg.payload.value });//valor de la bandera\n    context.set(\"valor\",valor,\"memoryOnly\");\n    return msg;\n}\n// / Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
+        "func": "var indice = flow.get(\"modbusDinagrama\") || 200;\nvar Fsenal = global.get(\"GeometriaSucket.Fsenal\")||{};\nvar valor = [0,0,0,0,0,0,0,0,0,0,0,0];\n// var valor = [0,0,0,0,0,0,0,0,0];\nif(Fsenal != 0){\n    // Valores Asignados \n    // Posicion\n    valor[0] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.entradaAnaloga)) : 0;\n    valor[1] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Min*10)) : 0;\n    valor[2] = typeof Fsenal.Posicion != 'undefined' ? parseInt(Math.abs(Fsenal.Posicion.Rango_Max*10)) : 0; \n\n    // Carga\n    valor[3] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.entradaAnaloga)) : 0;\n    valor[4] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Min*10)) : 0;\n    valor[5] = typeof Fsenal.CARGA != 'undefined' ? parseInt(Math.abs(Fsenal.CARGA.Rango_Max*10)) : 0;\n\n\n    // POTENCIAVSD\n    valor[6] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.entradaAnaloga)) : 0;\n    valor[7] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Min*10)) : 0;\n    valor[8] = typeof Fsenal.POTENCIAVSD != 'undefined' ? parseInt(Math.abs(Fsenal.POTENCIAVSD.Rango_Max*10)) : 0;\n    \n    valor[9] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.entradaAnaloga)) : 0;\n    valor[10] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Min*10)) : 0;\n    valor[11] = typeof Fsenal.CT != 'undefined' ? parseInt(Math.abs(Fsenal.CT.Rango_Max*10)) : 0;\n    // filtrar los valores nulos \n    for (var i = 0; i < valor.length; i += 1) {\n        valor[i] = val(valor[i]);\n    }\n\n    msg.payload = {\n        value: valor,\n        'fc': 16,\n        'unitid': 1,\n        'address': indice + 37,\n        'quantity': 12\n    }\n    // visualizador de variables\n    node.status({ fill: \"blue\", shape: \"dot\", text: \"Data: \" + msg.payload.value });//valor de la bandera\n    context.set(\"valor\",valor,\"memoryOnly\");\n    return msg;\n}\n// / Ajustar datos |definded X|\nfunction val(X) {\n    return typeof X != 'undefined' ? parseInt(Math.abs(X)) : 0;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1340,
-        "y": 4320,
+        "x": 1500,
+        "y": 4400,
         "wires": [
             [
                 "bba3aa277bcf1444"
@@ -95477,7 +95455,7 @@
         "y": 4320,
         "wires": [
             [
-                "c194d98f75f79244"
+                "906b9344287a8878"
             ]
         ]
     },
@@ -95674,7 +95652,7 @@
         "order": 1,
         "width": "16",
         "height": "1",
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Goodman-tab\" data-toggle=\"tab\" href=\"#nav-Goodman\"\n                role=\"tab\" aria-controls=\"nav-ArranqueAuto\" aria-selected=\"false\"\n                ng-click=\"send({payload:Goodman()})\">Goodman</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-cargasPermisibles-tab\" data-toggle=\"tab\" href=\"#nav-cargasPermisibles\"\n                role=\"tab\" aria-controls=\"nav-cargasPermisibles\" aria-selected=\"false\"\n                ng-click=\"send({payload:cargasPermisibles()})\">Cargas Permisibles</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Goodman = function() { return \"Goodman\"; };\n        this.scope.cargasPermisibles = function() { return \"cargasPermisibles\"; };\n\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-Goodman-tab\" data-toggle=\"tab\" href=\"#nav-Goodman\"\n                role=\"tab\" aria-controls=\"nav-ArranqueAuto\" aria-selected=\"false\"\n                ng-click=\"send({payload:Goodman()})\">Goodman</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-cargasPermisibles-tab\" data-toggle=\"tab\" href=\"#nav-cargasPermisibles\"\n                role=\"tab\" aria-controls=\"nav-cargasPermisibles\" aria-selected=\"false\"\n                ng-click=\"send({payload:cargasPermisibles()})\">Cargas Permisibles</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-IPR-tab\" data-toggle=\"tab\" href=\"#nav-IPR\"\n                role=\"tab\" aria-controls=\"nav-IPR\" aria-selected=\"false\"\n                ng-click=\"send({payload:IPR()})\">IPR</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Goodman = function() { return \"Goodman\"; };\n        this.scope.cargasPermisibles = function() { return \"cargasPermisibles\"; };\n        this.scope.IPR = function() { return \"IPR\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -95706,11 +95684,16 @@
                 "t": "cont",
                 "v": "cargasPermisibles",
                 "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "IPR",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 2,
+        "outputs": 3,
         "x": 310,
         "y": 320,
         "wires": [
@@ -95719,7 +95702,8 @@
             ],
             [
                 "e5eae00e04ab5e62"
-            ]
+            ],
+            []
         ]
     },
     {
@@ -96132,7 +96116,8 @@
         "g": "936eab7d97be78af",
         "name": "AdquirirDinagrama",
         "links": [
-            "8f5d5b7c326c1df2"
+            "8f5d5b7c326c1df2",
+            "d8221f3a78b7ab1a"
         ],
         "x": 1855,
         "y": 3920,
@@ -96453,5 +96438,186 @@
                 "06dd79fb5b98b9c8"
             ]
         ]
+    },
+    {
+        "id": "faba5987d51f84db",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "18a6cbbba16d2578",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reiniciar controlador",
+        "x": 1740,
+        "y": 160,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "111730fd7d0353d2",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "g": "18a6cbbba16d2578",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1510,
+        "y": 160,
+        "wires": [
+            [
+                "faba5987d51f84db"
+            ]
+        ]
+    },
+    {
+        "id": "3d357c01413a2604",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "cargasPermisibas",
+        "func": "// adquision de variables de sensorLess geometria flujo anterior\nvar theta = global.get(\"cargaPermisibles.geometria.theta\")||0;\nvar alpha = global.get(\"cargaPermisibles.geometria.alpha\")||0;\nvar beta = global.get(\"cargaPermisibles.geometria.beta\")||0;\n// variables de tabla de geometria\nvar C = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar A = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\nvar R = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\n\n\n// variables de la función HMI poner las que son\nvar GB = 320000; //#GearBox\nvar SU = 550;\nvar Beam = 200000;\nvar T_cbmax = 705954.7;\n\nvar T_cb = [], TF = [], PL = [];\nfor (let i = 0; i < theta.length; i++) {\n    T_cb[i] = T_cbmax * Math.sin(theta[i]);\n    TF[i] = (R * A * Math.sin(alpha[i])) / (C *  Math.sin(beta[i]));//Torque Factor\n    PL[i] = SU + ((GB + T_cb[i]) / TF[i]);//PermiseFlow\n    if(PL[i] > Beam){\n        PL[i] = Beam;\n    }else if(PL[i]<= 0){\n        PL[i] = 0;\n    }\n}\n\nvar variables ={\n    'ingreso': { theta, alpha, beta, R , A , C },\n    'calculo': { T_cb, TF, PL},\n};\ncontext.set(\"variables\",variables,\"memoryOnly\");\n\n// guardar variables globales\nglobal.set(\"cargaPermisibles.calculo\", variables.calculo);\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 540,
+        "wires": [
+            [
+                "d9d68428b5525671"
+            ]
+        ]
+    },
+    {
+        "id": "8e7389f857d4d878",
+        "type": "ui_template",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "group": "1e1545e9895b6a71",
+        "name": "DinHome",
+        "order": 2,
+        "width": 10,
+        "height": 9,
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 600,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "122a32223c037311",
+        "type": "template",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "Surface1",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles Dinagrama de Superficie --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    {{!-- variables invisibles Dinagrama de Carga Permisible --}}\n    <div id=\"xCarga\" ng-bind-html=\"msg.xCarga\" style=\"display:none\"></div>\n    <div id=\"yCarga\" ng-bind-html=\"msg.yCarga\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"cargaPermisiva()\" class=\"btn btn-light btn-sm\">Carga Permisiva</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function cargaPermisiva() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var x2 = document.getElementById(\"xCarga\").innerHTML;//adquision de data carga permisible\n            var y2 = document.getElementById(\"yCarga\").innerHTML;//adquision de data carga permisible\n            var x3 = x2.split(\",\");\n            var y3 = y2.split(\",\");\n            for(i = 0; i < x3.length; i++) {\n                x3[i] = Redondeo(x3[i]);\n                y3[i] = Redondeo(y3[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: x3,\n                y: y3,\n                name: 'CargaPermisible',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];//un solo plot\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "output": "str",
+        "x": 600,
+        "y": 540,
+        "wires": [
+            [
+                "8e7389f857d4d878"
+            ]
+        ]
+    },
+    {
+        "id": "d9d68428b5525671",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "Data plot",
+        "func": "\n// datos iniciales average\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||0;\nvar Esfu_CD = global.get(\"Dinagrama.superficie.Esfu_CD\")||0;\n// variables de carga\nvar s_pr = global.get(\"cargaPermisibles.geometria.s_pr\")||0;//Eje X\nvar PL = global.get(\"cargaPermisibles.calculo.PL\")||0;//Eje Y\n\n\nvar tamano = Desp_CD.length;\n\nif (Desp_CD != 0 && Esfu_CD != 0 && s_pr != 0 && PL != 0) {\n    msg.xSuperficie = Desp_CD;//Dinagrama de Superficie\n    msg.ySuperficie = Esfu_CD;\n    msg.xCarga = s_pr;\n    msg.yCarga = PL;\n\n    // variables de monitoreo\n    node.status({fill:\"green\",shape:\"ring\",text:\"Data\"});\n    context.set(\"x\", Desp_CD,\"memoryOnly\");\n    context.set(\"y\", Esfu_CD,\"memoryOnly\");\n    return msg;\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "122a32223c037311",
+                "88b046a4ec26f1ed"
+            ]
+        ]
+    },
+    {
+        "id": "a1bdee3c1dd4b9a9",
+        "type": "inject",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "a63a76caa0d73eff"
+            ]
+        ]
+    },
+    {
+        "id": "a63a76caa0d73eff",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "geometriaSensorLess",
+        "func": "var Tipo      = global.get(\"GeometriaSucket.tablaGeometria.Tipo\")||0;//Selección del Tipo Balancin\nvar FuenteCalculo = global.get(\"GeometriaSucket.FuenteCalculo\")||0;//Selección del Tipo Balancin\nTipo = Tipo.toUpperCase();\nFuenteCalculo = FuenteCalculo.toUpperCase();\nvar CW        = global.get(\"GeometriaSucket.CW\") || -1; // 1. horario positivo // -1.antihorario negativo\nvar A         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.A\"));\nvar I         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.I\"));\nvar H         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.H\"));\nvar G         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.G\"));\nvar C         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.C\"));\nvar P         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.P\"));\nvar R         = parseFloat(global.get(\"GeometriaSucket.tablaGeometria.R\"));\n\n// dimensiones del vector de geometria\nvar vectorPotencia = global.get(\"Dinagrama.superficie.strokePotencia\");\nvar Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\");\nvar Nmuestras = 0 ;\n\nif (FuenteCalculo.includes('SENSORLESS')){//Numero de muestras por sensor Potencia\n    Nmuestras = vectorPotencia.length ;\n\n} else if (FuenteCalculo.includes('SENSORFISICO')){// numero de muestras por sensor de posicion\n    Nmuestras = Desp_CD.length ;\n} else if (FuenteCalculo.includes('TWM')){// numero de muestras por sensor de posicion\n    Nmuestras = Desp_CD.length ;\n}\n\n//Declaración de variables para ecuaciones\nvar K = 0, PHIt = 0, THETAktopt = 0, tetha_top = 0, theta = [], thetaK = [], beta = [],Y_bt = 0, Y_tt = 0 ;\nvar J = [],Y = [],alpha = [], s_pr = [];\n\n// Cálculo de K\nK = Math.sqrt(Math.pow(I, 2) + Math.pow((H - G), 2));\n\n// Creacion del vector de ángulo theta(θ) de 0 a 2*pi\nvar paso = (2*Math.PI)/Nmuestras;\ntheta[0] = 0;\nfor (let i = 1; i < Nmuestras; i++) {\n    theta[i] = theta[i - 1] + paso;\n}\n\n//Cálculo de ángulos dependiendo del Tipo de geometría del Machine\nif(Tipo.includes('CONVENCIONAL')){ // Si es de Tipo Convencional\n    // node.status({fill:\"blue\",shape:\"ring\",text:\"convensional\"});\n    PHIt = Math.asin(I/K);\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((R+P),2) - Math.pow(C,2))/(2*K*(R+P)));\n    PHIt < THETAktopt ? tetha_top = PHIt - THETAktopt : tetha_top = PHIt + THETAktopt;\n    //Cálculo de  vectores\n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] - (parseInt(CW) * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = Math.acos((Math.pow(C, 2) + Math.pow(P, 2) - Math.pow(J[i],2)) / (2 * C * P));\n        Y[i] = Math.acos((Math.pow(C, 2) + Math.pow(J[i], 2) - Math.pow(P, 2)) / (2 * C * J[i])) - Math.asin((R / J[i]) * Math.sin(thetaK[i]));\n        alpha[i] = beta[i] + Y[i] - (theta[i] - PHIt);\n        s_pr[i] = A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('MARK')) { // Si es de Tipo Mark II\n    // node.status({fill:\"blue\",shape:\"ring\",text:\"MARKII\"});\n    PHIt = Math.atan(I/(H-G)) + Math.PI;\n    THETAktopt = Math.acos((Math.pow(K,2) + Math.pow((P + R), 2) - Math.pow(C,2)) / (2 * K * (P - R)));\n    tetha_top = THETAktopt - (PHIt - Math.PI);\n    //Cálculo de  vectores\n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] - (parseInt(CW) * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = Math.acos((Math.pow(C, 2) + Math.pow(P, 2) - Math.pow(J[i],2)) / (2 * C * P));\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) - Math.asin((R / J[i]) * Math.sin(theta[i] - PHIt));\n        alpha[i] =  - beta[i] - Y[i] + (theta[i] - PHIt);\n        s_pr[i] = - A * (Y_bt - Y[i]);\n    }\n} else if (Tipo.includes('AIR')) { // Si es de Tipo Airbalance\n    PHIt = Math.PI - Math.atan(I/(H-G));\n    THETAktopt = Math.acos((Math.pow(K, 2) + Math.pow((P - R), 2) - Math.pow(C, 2)) / (2 * K * (P - R)));\n    //Cálculo de  vectores\n    for (let i = 0; i < Nmuestras; i++) {\n        thetaK[i] = theta[i] - (parseInt(CW) * PHIt);\n        Y_bt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P - R), 2)) / (2 * C * K));\n        Y_tt = Math.acos((Math.pow(C, 2) + Math.pow(K, 2) - Math.pow((P + R), 2)) / (2 * C * K));\n        J[i] = Math.sqrt(Math.pow(K, 2) + Math.pow(R, 2) - (2 * K * R * Math.cos(thetaK[i])));\n        beta[i] = Math.acos((Math.pow(C, 2) + Math.pow(P, 2) - Math.pow(J[i],2)) / (2 * C * P));\n        Y[i] = Math.asin((P * Math.sin(beta[i])) / J[i]) + Math.asin(R / J[i] * Math.sin(thetaK[i] - PHIt));\n        alpha[i] =  beta[i] + Y[i] + (theta[i] - PHIt);\n        s_pr[i] =- A * (Y_bt - Y[i]);\n    }\n}\nvar geometria ={\n    'theta': theta,\n    'alpha': alpha,\n    'beta': beta,\n    's_pr': s_pr,\n};\n// variables de monitoreo\nvar monitoreo ={\n    'fuenteCalculo':FuenteCalculo,\n    'Nmuestras':Nmuestras,\n}\nvar variables = {\n    'Tipo':Tipo,\n    'Nmuestras': Nmuestras,\n    'A':A,\n    'K':K,\n    'I':I,\n    'H':H,\n    'G':G,\n    'C':C,\n    'R':R,\n    'P':P,\n    'PHIt': PHIt,\n    'CW': CW,\n    'THETAktopt': THETAktopt,\n    'thetaK': thetaK,\n    'tetha_top': tetha_top,\n    'theta': theta,\n    'beta': beta,\n    'Y_bt': Y_bt,\n    'Y_tt': Y_tt,\n    'J': J,\n    'Y': Y,\n    'alpha': alpha,\n    's_pr': s_pr,\n}\nnode.status({ fill: \"green\", shape: \"ring\", text: Tipo });\ncontext.set(\"monitoreo\", monitoreo,\"memoryOnly\");\ncontext.set(\"variables\",variables,\"memoryOnly\");\ncontext.set(\"geometria\", geometria,\"memoryOnly\");\n\n// guardando la variables global\nglobal.set(\"cargaPermisibles.geometria\", geometria);\n// global.set(\"GeometriaSucket.sensorLess.theta\", theta);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "3d357c01413a2604"
+            ]
+        ]
+    },
+    {
+        "id": "88b046a4ec26f1ed",
+        "type": "debug",
+        "z": "ba668bc685d26b37",
+        "g": "62bc7b639c3d930f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 590,
+        "y": 640,
+        "wires": []
     }
 ]
