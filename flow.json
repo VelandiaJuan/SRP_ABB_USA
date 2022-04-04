@@ -2588,7 +2588,9 @@
             "eaf4b2085acff39e"
         ],
         "x": 154,
-        "y": 359
+        "y": 359,
+        "w": 1092,
+        "h": 282
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2626,7 +2628,9 @@
             "52d49743408ce8f6"
         ],
         "x": 154,
-        "y": 1159
+        "y": 1159,
+        "w": 1402,
+        "h": 322
     },
     {
         "id": "1f2682bef5794306",
@@ -2650,7 +2654,9 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179
+        "y": 179,
+        "w": 1392,
+        "h": 162
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2691,7 +2697,9 @@
             "bc0cf6ab99f49325"
         ],
         "x": 154,
-        "y": 659
+        "y": 659,
+        "w": 1422,
+        "h": 482
     },
     {
         "id": "224caf14924e867c",
@@ -3308,7 +3316,9 @@
             "665ee3571d4304f3"
         ],
         "x": 154,
-        "y": 1279
+        "y": 1279,
+        "w": 1002,
+        "h": 282
     },
     {
         "id": "60dd1be9811f2cdb",
@@ -3337,7 +3347,9 @@
             "7858fff2ef58a324"
         ],
         "x": 148,
-        "y": 739
+        "y": 739,
+        "w": 1074,
+        "h": 515.5
     },
     {
         "id": "8ae034dd7eca71b4",
@@ -3362,7 +3374,9 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1254,
-        "y": 739
+        "y": 739,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "e8ed88c2e7ce6e23",
@@ -3405,7 +3419,9 @@
             "d2833964310ec93c"
         ],
         "x": 134,
-        "y": 179
+        "y": 179,
+        "w": 1272,
+        "h": 528
     },
     {
         "id": "394e81d071ef9585",
@@ -3437,7 +3453,9 @@
             "1e4fb15af269d8a0"
         ],
         "x": 1254,
-        "y": 1039
+        "y": 1039,
+        "w": 1022,
+        "h": 282
     },
     {
         "id": "c36ec626abdfe551",
@@ -3828,7 +3846,9 @@
             "e5eae00e04ab5e62"
         ],
         "x": 94,
-        "y": 259
+        "y": 259,
+        "w": 542,
+        "h": 122
     },
     {
         "id": "bfece4f80fac7e54",
@@ -3849,7 +3869,9 @@
             "d7691b30c25e59ef"
         ],
         "x": 84,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 202
     },
     {
         "id": "312e757f2ddba8e5",
@@ -3913,7 +3935,9 @@
             "20d0230dc20dda52"
         ],
         "x": 134,
-        "y": 579
+        "y": 579,
+        "w": 1022,
+        "h": 262
     },
     {
         "id": "d929d138.3b512",
@@ -5828,7 +5852,9 @@
             "da401206ced2ccd2"
         ],
         "x": 174,
-        "y": 999
+        "y": 999,
+        "w": 1022,
+        "h": 229.5
     },
     {
         "id": "1cb507b15d91d4f1",
@@ -5846,7 +5872,9 @@
             "10e15c505dfc082a"
         ],
         "x": 174,
-        "y": 559
+        "y": 559,
+        "w": 407,
+        "h": 122
     },
     {
         "id": "19f535ea5a685c61",
@@ -7144,6 +7172,44 @@
         ],
         "x": 614,
         "y": 689
+    },
+    {
+        "id": "bd8b31477127547e",
+        "type": "group",
+        "z": "42ec16af971a3ee3",
+        "name": "habilitar FMS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3896a9b76967f0f9",
+            "0871b3ad3ed8e667",
+            "e59da750219f8544",
+            "2b188c5b2bbc9987"
+        ],
+        "x": 154,
+        "y": 539,
+        "w": 332,
+        "h": 122
+    },
+    {
+        "id": "bfa864e408443edc",
+        "type": "group",
+        "z": "42ec16af971a3ee3",
+        "name": "Inicio de FMS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "265af93be4b6c210",
+            "b725013c0b0e35a5",
+            "f3682904177c9689",
+            "7a4d67c3076bb1a7"
+        ],
+        "x": 154,
+        "y": 679,
+        "w": 432,
+        "h": 122
     },
     {
         "id": "d25d405a.19cff",
@@ -97536,7 +97602,7 @@
         "type": "function",
         "z": "42ec16af971a3ee3",
         "name": "FMS",
-        "func": "// variables de HMI\nvar Tconfig = global.get(\"Control_functions.Cleaning.HMI.Tconfig\")||0;\n\n// variables de ingreso a la FMS\nvar faultGeneral = global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false;//falla general\nvar comunication = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//comunicación VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//VSD Activado o en referencia\nActive = Active == 0 ? false : true;\n\n\nvar state = flow.get(\"Cleaning.Fms.state\",\"memoryOnly\")||\"E0\";//variable de la FMS\nvar enable = flow.get(\"Cleaning.Fms.enable\",\"memoryOnly\")||false;\nvar start = flow.get(\"Cleaning.Fms.start\",\"memoryOnly\")||false;\nvar Tstroke = flow.get(\"Cleaning.Fms.Tstroke\",\"memoryOnly\")||0;\nvar t0 = flow.get(\"Cleaning.Fms.timmer,t0\",\"memoryOnly\")||0;\nvar t1 = flow.get(\"Cleaning.Fms.timmer,t1\",\"memoryOnly\")||0;\nvar t2 = flow.get(\"Cleaning.Fms.timmer,t2\",\"memoryOnly\")||0;\nvar t3 = flow.get(\"Cleaning.Fms.timmer,t3\",\"memoryOnly\")||0;\nvar t4 = flow.get(\"Cleaning.Fms.timmer,t4\",\"memoryOnly\")||0;\n\n\nvar Command = flow.get(\"Cleaning.Outs.Command\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Turning = flow.get(\"Cleaning.Outs.Turning\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Accel = flow.get(\"Cleaning.Outs.Accel\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Decell = flow.get(\"Cleaning.Outs.Decell\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Namestate = flow.get(\"Cleaning.Outs.Namestate\",\"memoryOnly\")||-2;//salidas de la FMS\n\n\n\n\n\n\n// logica de estado siguiente\nswitch (state) {\n    case 'E0':\n        Namestate = \"Deshabilitado\";\n        if(!enable){\n            state = 'E0';\n        }else if(enable && faultGeneral){\n            state = 'E8';\n        }else if(enable && !comunication){\n            state = 'E7';\n        }else if(enable && !faultGeneral && comunication){\n            state = 'E1';\n        }\n        break;\n    case 'E1':\n        Namestate = \"Espera\";\n        if(start){//button to start secuency\n            state = 'E2';\n        }else {\n            state = 'E0';\n        }   \n        break;\n    case 'E2':\n        Namestate = \"Cambio De Rampa\";\n        if(t0<5 && Active == 1){\n            state = 'E2';\n            Tstroke = 10;//calculado Medio Stroke\n        }else{\n            state = 'E3';\n            Turning = 'Forward';\n            t1 = Tstroke / 2//cambiar por el tiempo calculado\n            t0 = 0;\n        }\n        break;\n    case 'E3':\n        if (Turning == 'Reverse' && t4 < Tconfig){\n            state = 'E4';\n            t4 = t4 + 1;\n        }\n        if (Turning == 'Forward' && t4 < Tconfig){\n            state = 'E5';\n            t4 = t4 + 1;\n        }\n        \n        break;\n    case 'E4':\n        Namestate = \"Reverse\";\n        if((t2>t1) || !enable || !start){\n            state = 'E3';\n            Turning = \"Forward\";\n            t2 = 0;\n            t1 = Tstroke;\n        }else{\n            state = 'E4';\n        }\n        break;\n    case 'E5':\n        Namestate = \"Forward\";\n        if ((t3 > t1) || !enable || !start){\n            state = 'E3';\n            Turning = \"Reverse\";\n            t1 = Tstroke;\n            t3 = 0;\n        }else{\n            state = 'E5';\n        }\n        \n        break;\n    default:\n        \n}\n\n\n// logica de salida o acciones a realizar\nswitch (state) {\n    case 'E0':\n        console.log('El kilogramo de naranjas cuesta $0.59.');\n        break;\n    case 'E1':\n        \n        break;\n    case 'E2':\n        t0 = t0 + 1;\n        break;\n    case 'E3':\n        console.log('El kilogramo de cerezas cuesta $3.00.');\n        break;\n    case 'E4':\n    case 'Papayas':\n        console.log('El kilogramo de mangos y papayas cuesta $2.79.');\n        break;\n    default:\n        \n}\n\n\n\n\n\n// variables de la FMS\nvar Fms = {\n    'in': { comunication, faultGeneral, Active},\n    'state':state,\n    'Namestate': Namestate,\n    'enable': enable,\n    'Tstroke': Tstroke,\n    'timmer':{t0,t1,t2,t3,t4}\n};\nvar Outs = {\n    'Command': Command,\n    'Turning': Turning,\n    'Accel': Accel,\n    'Decell': Decell,\n    'Namestate': Namestate,\n}\n\nflow.set(\"Cleaning.Fms\",Fms,\"memoryOnly\");\nflow.set(\"Cleaning.Outs\", Outs,\"memoryOnly\");\n\n\n// salidas de la FMS\nCommand = { payload: Command };\nTurning = { payload: Turning };\nAccel = { payload: Accel };\nDecell = { payload: Decell };\nNamestate = { payload: Namestate };\n\n//\nnode.status({fill:\"blue\",shape:\"ring\",text:state});\n\nreturn [Command, Turning, Accel, Decell, Namestate];\n",
+        "func": "// variables de HMI\nvar Tconfig = global.get(\"Control_functions.Cleaning.HMI.Tconfig\")||0;\n\n// variables de ingreso a la FMS\nvar faultGeneral = global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false;//falla general\nvar comunication = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//comunicación VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//VSD Activado o en referencia\nActive = Active == 0 ? false : true;\n\n\nvar state = flow.get(\"Cleaning.Fms.state\",\"memoryOnly\")||\"E0\";//variable de la FMS\nvar enable = flow.get(\"Cleaning.Fms.enable\",\"memoryOnly\")||false;\nvar start = flow.get(\"Cleaning.Fms.start\",\"memoryOnly\")||false;\nvar Tstroke = flow.get(\"Cleaning.Fms.Tstroke\",\"memoryOnly\")||0;\nvar t0 = flow.get(\"Cleaning.Fms.timmer,t0\",\"memoryOnly\")||0;\nvar t1 = flow.get(\"Cleaning.Fms.timmer,t1\",\"memoryOnly\")||0;\nvar t2 = flow.get(\"Cleaning.Fms.timmer,t2\",\"memoryOnly\")||0;\nvar t3 = flow.get(\"Cleaning.Fms.timmer,t3\",\"memoryOnly\")||0;\nvar t4 = flow.get(\"Cleaning.Fms.timmer,t4\",\"memoryOnly\")||0;\nvar t5 = flow.get(\"Cleaning.Fms.timmer,t5\",\"memoryOnly\")||0;\n\n\nvar Command = flow.get(\"Cleaning.Outs.Command\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Turning = flow.get(\"Cleaning.Outs.Turning\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Accel = flow.get(\"Cleaning.Outs.Accel\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Decell = flow.get(\"Cleaning.Outs.Decell\",\"memoryOnly\")||-2;//salidas de la FMS\nvar Namestate = flow.get(\"Cleaning.Outs.Namestate\",\"memoryOnly\")||-2;//salidas de la FMS\n\n\n\n\n\n\n// logica de estado siguiente\nswitch (state) {\n    case 'E0':\n        Namestate = \"Deshabilitado\";\n        if(!enable){\n            state = 'E0';\n        }else if(enable && faultGeneral){\n            state = 'E8';\n        }else if(enable && !comunication){\n            state = 'E7';\n        }else if(enable && !faultGeneral && comunication){\n            state = 'E1';\n        }\n        break;\n    case 'E1':\n        Namestate = \"Espera\";\n        if(start){//button to start secuency\n            state = 'E2';\n        }else {\n            state = 'E0';\n        }   \n        break;\n    case 'E2':\n        Namestate = \"Cambio De Rampa\";  \n        if(t0<5 && Active == 1){\n            state = 'E2';\n            Tstroke = 10;//calculado Medio Stroke\n        }else{\n            state = 'E3';\n            Turning = 'Forward';\n            t1 = Tstroke / 2//cambiar por el tiempo calculado\n            t0 = 0;\n        }\n        break;\n    case 'E3':\n        Namestate = \"Ejecutando\";  \n        if (t4 < Tconfig || !start || !enable || faultGeneral){\n            state = 'E6';\n            t5 = 0;\n        }else if(!comunication){\n            state = 'E0';\n        }else if (Turning == 'Reverse' && t4 < Tconfig){\n            state = 'E4';\n            t4 = t4 + 1;\n        }\n        if (Turning == 'Forward' && t4 < Tconfig){\n            state = 'E5';\n            t4 = t4 + 1;\n        }\n        \n        break;\n    case 'E4':\n        Namestate = \"Reverse\";\n        if((t2>t1) || !enable || !start){\n            state = 'E3';\n            Turning = \"Forward\";\n            t2 = 0;\n            t1 = Tstroke;\n        }else{\n            state = 'E4';\n        }\n        break;\n    case 'E5':\n        Namestate = \"Forward\";\n        if ((t3 > t1) || !enable || !start){\n            state = 'E3';\n            Turning = \"Reverse\";\n            t1 = Tstroke;\n            t3 = 0;\n        }else{\n            state = 'E5';\n        }\n        \n        break;\n\n    case 'E6':\n        Namestate = \"Finalizado\";  \n        if(t5< 5){\n            t5 = t5 + 1;\n        }else{\n            t5 = 0;\n        }\n        break;\n    case 'E7':\n        Namestate = \"Fallo Comunicación\";\n        if(!comunication){\n            state = 'E7';\n        }else{\n            state = 'E0';\n        }  \n        break;\n    case 'E8':\n        Namestate = \"Disparo\";\n        if (faultGeneral){\n            state = 'E8';\n        }else{\n            state = 'E0';\n        }\n        break;\n    default:\n        \n}\n\n\n// logica de salida o acciones a realizar\nswitch (state) {\n    case 'E0':\n        console.log('El kilogramo de naranjas cuesta $0.59.');\n        break;\n    case 'E1':\n        \n        break;\n    case 'E2':\n        t0 = t0 + 1;\n        break;\n    case 'E3':\n        console.log('El kilogramo de cerezas cuesta $3.00.');\n        break;\n    case 'E4':\n    case 'Papayas':\n        console.log('El kilogramo de mangos y papayas cuesta $2.79.');\n        break;\n    default:\n        \n}\n\n\n\n\n\n// variables de la FMS\nvar Fms = {\n    'in': { comunication, faultGeneral, Active},\n    'state':state,\n    'start': start,\n    'Namestate': Namestate,\n    'enable': enable,\n    'Tstroke': Tstroke,\n    'timmer':{t0,t1,t2,t3,t4,t5}\n};\nvar Outs = {\n    'Command': Command,\n    'Turning': Turning,\n    'Accel': Accel,\n    'Decell': Decell,\n    'Namestate': Namestate,\n}\n\nflow.set(\"Cleaning.Fms\",Fms,\"memoryOnly\");\nflow.set(\"Cleaning.Outs\", Outs,\"memoryOnly\");\n\n\n// salidas de la FMS\nCommand = { payload: Command };\nTurning = { payload: Turning };\nAccel = { payload: Accel };\nDecell = { payload: Decell };\nNamestate = { payload: Namestate };\n\n//\nnode.status({ fill: \"blue\", shape: \"ring\", text: state + \" : \" + Namestate.payload});\n\nreturn [Command, Turning, Accel, Decell, Namestate];\n",
         "outputs": 5,
         "noerr": 0,
         "initialize": "",
@@ -97662,5 +97728,189 @@
         "x": 670,
         "y": 380,
         "wires": []
+    },
+    {
+        "id": "3896a9b76967f0f9",
+        "type": "change",
+        "z": "42ec16af971a3ee3",
+        "g": "bd8b31477127547e",
+        "name": "start",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Cleaning.Fms.enable",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0871b3ad3ed8e667",
+        "type": "inject",
+        "z": "42ec16af971a3ee3",
+        "g": "bd8b31477127547e",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "3896a9b76967f0f9"
+            ]
+        ]
+    },
+    {
+        "id": "265af93be4b6c210",
+        "type": "change",
+        "z": "42ec16af971a3ee3",
+        "g": "bfa864e408443edc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Cleaning.Fms.start",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b725013c0b0e35a5",
+        "type": "inject",
+        "z": "42ec16af971a3ee3",
+        "g": "bfa864e408443edc",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 720,
+        "wires": [
+            [
+                "265af93be4b6c210"
+            ]
+        ]
+    },
+    {
+        "id": "e59da750219f8544",
+        "type": "change",
+        "z": "42ec16af971a3ee3",
+        "g": "bd8b31477127547e",
+        "name": "disabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Cleaning.Fms.enable",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b188c5b2bbc9987",
+        "type": "inject",
+        "z": "42ec16af971a3ee3",
+        "g": "bd8b31477127547e",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 620,
+        "wires": [
+            [
+                "e59da750219f8544"
+            ]
+        ]
+    },
+    {
+        "id": "f3682904177c9689",
+        "type": "change",
+        "z": "42ec16af971a3ee3",
+        "g": "bfa864e408443edc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Cleaning.Fms.start",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a4d67c3076bb1a7",
+        "type": "inject",
+        "z": "42ec16af971a3ee3",
+        "g": "bfa864e408443edc",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "f3682904177c9689"
+            ]
+        ]
     }
 ]
