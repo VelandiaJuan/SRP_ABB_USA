@@ -838,18 +838,27 @@
         "id": "1d0c3cb2.7129f3",
         "type": "group",
         "z": "2e27dea6.c4c362",
-        "name": "Start system",
+        "name": "Kiosko Group",
         "style": {
             "label": true,
             "color": "#000000"
         },
         "nodes": [
-            "77d67b76.8c8804",
             "26428723.4b3e38",
-            "bfa48676.a364f8"
+            "bfa48676.a364f8",
+            "66496d795f4ee7fc",
+            "64526cf8d08d9bc4",
+            "d6d77b20431c6fc2",
+            "5a3b6dbb1b06ecc3",
+            "8ff382d09fb168e3",
+            "8a4770bdf43b812c",
+            "95d0ba3af57e7b56",
+            "e39536e36180e4d8"
         ],
-        "x": 14,
-        "y": 11.5
+        "x": 1334,
+        "y": 1011.5,
+        "w": 652,
+        "h": 337
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -889,7 +898,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1209,7 +1220,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1256,7 +1269,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1330,7 +1345,9 @@
             "8be7ccc2c2213c37"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3442,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1346,7 +1363,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1674,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1432,7 +1451,9 @@
             "0b62d9b206554cfd"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2462,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1484,7 +1505,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1734,7 +1757,7 @@
         ],
         "x": 4,
         "y": -1,
-        "w": 1992,
+        "w": 1982,
         "h": 402
     },
     {
@@ -1951,7 +1974,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -1972,7 +1997,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "1178951067fce7a4",
@@ -2021,7 +2048,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2111,10 +2140,13 @@
             "f053a3ef63abbf05",
             "4ae0bb1a2ebb141b",
             "ee89b458b55779ef",
-            "68f04d51be6d6326"
+            "68f04d51be6d6326",
+            "349d154921de6aca"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2231,7 +2263,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "b41ee12005a32e8e",
@@ -2309,11 +2343,12 @@
             "b3c56d84218b82e9",
             "97362283dcbb7395",
             "f2a0e0ca6b96b376",
-            "952d3fda01cda076",
-            "0a6bd128b70aea2c"
+            "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2716,6 +2751,8 @@
         ],
         "x": 734,
         "y": 51.5,
+        "w": 652,
+        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2745,7 +2782,9 @@
             "0832a6b33e1f520c"
         ],
         "x": 134,
-        "y": 379
+        "y": 379,
+        "w": 538,
+        "h": 649.5
     },
     {
         "id": "23c99fd.b16886",
@@ -2769,6 +2808,8 @@
         ],
         "x": 134,
         "y": 51.5,
+        "w": 572,
+        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2787,7 +2828,9 @@
             "5e35a538.cad0cc"
         ],
         "x": 734,
-        "y": 391.5
+        "y": 391.5,
+        "w": 432,
+        "h": 157
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -2893,7 +2936,9 @@
             "86e001aa20e6699c"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "fd65929694c9064e",
@@ -3497,7 +3542,9 @@
             "c1a0f15034a2446e"
         ],
         "x": 734,
-        "y": 579
+        "y": 579,
+        "w": 512,
+        "h": 369.5
     },
     {
         "id": "a97cd0a5989cf9c4",
@@ -3553,7 +3600,9 @@
             "019e3edf07e3bcea"
         ],
         "x": 94,
-        "y": 1439
+        "y": 1439,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "9648249e35aead30",
@@ -3607,7 +3656,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "c889aa180836227d",
@@ -3791,7 +3842,9 @@
             "acfd4e6c8990af6f"
         ],
         "x": 1414,
-        "y": 51.5
+        "y": 51.5,
+        "w": 472,
+        "h": 237
     },
     {
         "id": "5d518c95ba8096ba",
@@ -3824,8 +3877,8 @@
             "b7f7d733f7d2da89",
             "e5eae00e04ab5e62"
         ],
-        "x": 94,
-        "y": 259
+        "x": 134,
+        "y": 279
     },
     {
         "id": "bfece4f80fac7e54",
@@ -3845,8 +3898,8 @@
             "3316e4228282fb39",
             "d7691b30c25e59ef"
         ],
-        "x": 84,
-        "y": 39
+        "x": 144,
+        "y": 59
     },
     {
         "id": "312e757f2ddba8e5",
@@ -3929,9 +3982,7 @@
             "206f539cabc2577b"
         ],
         "x": 574,
-        "y": 579,
-        "w": 652,
-        "h": 182
+        "y": 579
     },
     {
         "id": "bfa864e408443edc",
@@ -3948,9 +3999,7 @@
             "7a4d67c3076bb1a7"
         ],
         "x": 254,
-        "y": 579,
-        "w": 292,
-        "h": 122
+        "y": 579
     },
     {
         "id": "f82d188a766cf90e",
@@ -4007,9 +4056,7 @@
             "bd5e6c5eb1fe9fe9"
         ],
         "x": 254,
-        "y": 79,
-        "w": 992,
-        "h": 482
+        "y": 79
     },
     {
         "id": "3246efc26b2a7a6a",
@@ -4046,9 +4093,7 @@
             "050975e096369c5d"
         ],
         "x": 254,
-        "y": 719,
-        "w": 312,
-        "h": 122
+        "y": 719
     },
     {
         "id": "a2810e48e2e53e37",
@@ -4067,9 +4112,7 @@
             "97c8d627dbb4c22e"
         ],
         "x": 254,
-        "y": 879,
-        "w": 392,
-        "h": 162
+        "y": 879
     },
     {
         "id": "d929d138.3b512",
@@ -4087,7 +4130,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -4108,7 +4153,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4512,7 +4559,7 @@
             "f6e2a6e0.47efb8",
             "edfe6c51.d89c68"
         ],
-        "x": 1358,
+        "x": 1338,
         "y": 2823
     },
     {
@@ -5189,7 +5236,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -5211,10 +5260,13 @@
             "8493b2ad.8a07f",
             "980848c8.d90ec8",
             "c42f5649.4492d8",
-            "f9b9d7a57c57d25e"
+            "f9b9d7a57c57d25e",
+            "6b1feb88ad4eaa12"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -5716,7 +5768,9 @@
             "351eccb8791a5abd"
         ],
         "x": 374,
-        "y": 411.5
+        "y": 411.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "4e3c5a17481ed180",
@@ -5889,7 +5943,8 @@
             "7395dcddf86f4e3d",
             "55eaeea012fb5cb3",
             "7550518c0a64d731",
-            "3279ad6ea23911a6"
+            "3279ad6ea23911a6",
+            "483060a07deb7029"
         ],
         "x": 1114,
         "y": 439
@@ -6143,7 +6198,7 @@
             "29edcd77d12dcb3a",
             "687ac45de63d5718"
         ],
-        "x": 234,
+        "x": 254,
         "y": 1079
     },
     {
@@ -6406,9 +6461,11 @@
             "ac5611e0.f1126",
             "6f5153fc.5881dc",
             "b7313f15be39db89",
-            "331fbb9455c52414"
+            "331fbb9455c52414",
+            "c435ac91a9e28118",
+            "70a45bac6fb54e5c"
         ],
-        "x": 1384,
+        "x": 1364,
         "y": 3169
     },
     {
@@ -19441,7 +19498,8 @@
             "86775cfa2b8d9339",
             "fb98da4a0358108a",
             "1dcf7ae2c115b715",
-            "012e9095e94056e0"
+            "012e9095e94056e0",
+            "66496d795f4ee7fc"
         ],
         "x": 975,
         "y": 1180,
@@ -57571,7 +57629,7 @@
         "z": "e7088c4e.cc6b4",
         "g": "31895ea6.22f372",
         "name": "a Tabla",
-        "func": "var datos = flow.get(\"Alarms\")||null;\nvar i;\nmsg.payload = [];\nfor (i=0;i<datos.length;i++){\n    msg.payload.push(datos[i])\n}\nif (datos != null)\nreturn msg;",
+        "func": "var datos = flow.get(\"Alarms\")||0;\ncontext.set(\"datos\",datos,\"memoryOnly\");\nif(datos != 0){\n    var i;\n    msg.payload = [];\n    for (i=0;i<datos.length;i++){\n        msg.payload.push(datos[i])\n    }\n    if (datos != null)\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -58088,7 +58146,7 @@
         "z": "e7088c4e.cc6b4",
         "g": "a73c3da33ecbc290",
         "name": "a tabla",
-        "func": "var selectorestado = flow.get(\"eventsviewer.status\",\"memoryOnly\")||\"all\";\nvar selectortiempo = flow.get(\"eventsviewer.time\", \"memoryOnly\") || \"all\";\nvar selectortipo = flow.get(\"eventsviewer.type\", \"memoryOnly\") || \"all\";\nvar eventos = JSON.parse(JSON.stringify(global.get(\"PQAEvents.data\") || null)); \nvar count = [0,0];\n//obtiene el objeto PQAEvents y lo convierte en un  objeto nuevo para que las modificaciones no afeten  el objeto original \nvar retorno;\nvar payload1 = [];\n\nretorno = filtrarportiempo(selectortiempo, eventos);\nretorno = filtrarporestado(selectorestado,retorno);\nretorno = filtrarportipo(selectortipo, retorno);\npayload1 = retorno;\n\nfunction filtrarportiempo(selectortiempo, eventos){\n    var i, a=[], aux,flag;\n    var DT = new Date(); // Instancia que representa un único momento en el tiempo (ms)\n    var date = new Date(eventos[0].Fecha + \",\" + eventos[0].Hora);\n    aux = (DT.getTime() - date.getTime()) / (1000 * 60 * 60 * 24);//(1000*60*60*24);\n\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if(selectortiempo == \"all\") flag=true;\n        else{\n            var date = new Date(eventos[i].Fecha + \",\" + eventos[i].Hora);\n            aux = (DT.getTime() - date.getTime())/(1000*60*60*24);\n        }\n        if (selectortiempo == \"lastday\" && aux <= 1) flag = true;\n        if (selectortiempo == \"lastweek\" && aux <= 7) flag = true;\n        if (selectortiempo == \"lastmonth\" && aux <= 30) flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}\n\nfunction filtrarporestado(selectorestado, eventos){\n    var i; var a = [];var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectorestado == \"all\") flag = true;\n        if (selectorestado == \"active\" && eventos[i].EstadoC2S==\"Activo\") flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n\n}\n\nfunction filtrarportipo(selectortipo, eventos){\n    var i; var a = []; var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectortipo == \"all\") flag = true;\n        if (selectortipo == \"powsag\" && eventos[i].VSagVSwell != \"Voltaje Swell\") flag = true;\n        if (selectortipo == \"powswell\" && eventos[i].VSagVSwell == \"Voltaje Swell\") flag = true;\n        if (flag && eventos[i].VSagVSwell != \"Voltaje Swell\") count[0] ++;\n        if (flag && eventos[i].VSagVSwell == \"Voltaje Swell\") count[1] ++;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}\n\nmsg = [{ \"payload\": payload1 }, { \"payload\": [{\"Cant_Sag\": count[0], \"Cant_Swell\": count[1]}]}];\n\nreturn msg;",
+        "func": "var selectorestado = flow.get(\"eventsviewer.status\",\"memoryOnly\")||\"all\";\nvar selectortiempo = flow.get(\"eventsviewer.time\", \"memoryOnly\") || \"all\";\nvar selectortipo = flow.get(\"eventsviewer.type\", \"memoryOnly\") || \"all\";\nvar eventos = JSON.parse(JSON.stringify(global.get(\"PQAEvents.data\") || null));\nif (eventos != null){\n    var count = [0,0];\n    //obtiene el objeto PQAEvents y lo convierte en un  objeto nuevo para que las modificaciones no afeten  el objeto original \n    var retorno;\n    var payload1 = [];\n\n    retorno = filtrarportiempo(selectortiempo, eventos);\n    retorno = filtrarporestado(selectorestado,retorno);\n    retorno = filtrarportipo(selectortipo, retorno);\n    payload1 = retorno;\n\n\n    msg = [{ \"payload\": payload1 }, { \"payload\": [{\"Cant_Sag\": count[0], \"Cant_Swell\": count[1]}]}];\n\n    return msg;\n}\nfunction filtrarportiempo(selectortiempo, eventos){\n    var i, a=[], aux,flag;\n    var DT = new Date(); // Instancia que representa un único momento en el tiempo (ms)\n    var date = new Date(eventos[0].Fecha + \",\" + eventos[0].Hora);\n    aux = (DT.getTime() - date.getTime()) / (1000 * 60 * 60 * 24);//(1000*60*60*24);\n\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if(selectortiempo == \"all\") flag=true;\n        else{\n            var date = new Date(eventos[i].Fecha + \",\" + eventos[i].Hora);\n            aux = (DT.getTime() - date.getTime())/(1000*60*60*24);\n        }\n        if (selectortiempo == \"lastday\" && aux <= 1) flag = true;\n        if (selectortiempo == \"lastweek\" && aux <= 7) flag = true;\n        if (selectortiempo == \"lastmonth\" && aux <= 30) flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}\n\nfunction filtrarporestado(selectorestado, eventos){\n    var i; var a = [];var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectorestado == \"all\") flag = true;\n        if (selectorestado == \"active\" && eventos[i].EstadoC2S==\"Activo\") flag = true;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n\n}\n\nfunction filtrarportipo(selectortipo, eventos){\n    var i; var a = []; var flag;\n    for (i = 0; i < eventos.length; i++) {\n        flag = false\n        if (selectortipo == \"all\") flag = true;\n        if (selectortipo == \"powsag\" && eventos[i].VSagVSwell != \"Voltaje Swell\") flag = true;\n        if (selectortipo == \"powswell\" && eventos[i].VSagVSwell == \"Voltaje Swell\") flag = true;\n        if (flag && eventos[i].VSagVSwell != \"Voltaje Swell\") count[0] ++;\n        if (flag && eventos[i].VSagVSwell == \"Voltaje Swell\") count[1] ++;\n        if (flag) a.push({ \"ID\": eventos[i].ID, \"StartingGroup\": eventos[i].StartingGroup, \"Fecha\": eventos[i].Fecha, \"Hora\": eventos[i].Hora, \"Milisegundos\": eventos[i].Milisegundos, \"VSagVSwell\": eventos[i].VSagVSwell, \"EstadoC2S\": eventos[i].EstadoC2S });\n    }\n    return a;\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -63056,32 +63114,6 @@
         ]
     },
     {
-        "id": "77d67b76.8c8804",
-        "type": "inject",
-        "z": "2e27dea6.c4c362",
-        "g": "1d0c3cb2.7129f3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "5",
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 110,
-        "y": 60,
-        "wires": [
-            [
-                "bfa48676.a364f8"
-            ]
-        ]
-    },
-    {
         "id": "8a17d991.081178",
         "type": "link in",
         "z": "2e27dea6.c4c362",
@@ -63452,8 +63484,8 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 440,
-        "y": 60,
+        "x": 1840,
+        "y": 1060,
         "wires": [
             [],
             [],
@@ -63476,11 +63508,12 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
-        "x": 240,
-        "y": 60,
+        "x": 1520,
+        "y": 1060,
         "wires": [
             [
-                "26428723.4b3e38"
+                "26428723.4b3e38",
+                "8ff382d09fb168e3"
             ]
         ]
     },
@@ -65497,25 +65530,6 @@
         ]
     },
     {
-        "id": "1454ec1ef69ea77c",
-        "type": "exec",
-        "z": "2e27dea6.c4c362",
-        "command": "",
-        "addpay": true,
-        "append": "",
-        "useSpawn": "false",
-        "timer": "0.5",
-        "oldrc": false,
-        "name": "",
-        "x": 1950,
-        "y": 500,
-        "wires": [
-            [],
-            [],
-            []
-        ]
-    },
-    {
         "id": "fa8ed427a4d7aea2",
         "type": "link in",
         "z": "2e27dea6.c4c362",
@@ -66420,24 +66434,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "0a6bd128b70aea2c",
-        "type": "ui_text",
-        "z": "2e27dea6.c4c362",
-        "d": true,
-        "g": "69cbede8f851191a",
-        "group": "",
-        "order": 1,
-        "width": 6,
-        "height": 1,
-        "name": "",
-        "label": "",
-        "format": "{{msg.payload}}Variables de Fondo Calculadas",
-        "layout": "row-center",
-        "x": 420,
-        "y": 1700,
-        "wires": []
     },
     {
         "id": "d8f2bc82b14aba52",
@@ -70443,7 +70439,8 @@
             "a0782a2c88da747d",
             "68fd00852a19215e",
             "83fac8b79ed345e8",
-            "162c5437d9db5aa1"
+            "162c5437d9db5aa1",
+            "8a4770bdf43b812c"
         ],
         "x": 335,
         "y": 310,
@@ -73412,7 +73409,7 @@
         "z": "e497646c3625f223",
         "g": "d0c2e26c6d297150",
         "name": "",
-        "x": 2980,
+        "x": 3140,
         "y": 660,
         "wires": [
             []
@@ -73441,12 +73438,12 @@
         "g": "d0c2e26c6d297150",
         "name": "",
         "env": [],
-        "x": 2800,
+        "x": 2760,
         "y": 660,
         "wires": [
             [
-                "cab3a90f117453c3",
-                "7550518c0a64d731"
+                "7550518c0a64d731",
+                "483060a07deb7029"
             ]
         ]
     },
@@ -79081,7 +79078,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1290,
         "y": 1120,
         "wires": [
             [
@@ -92842,8 +92839,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 80,
+        "x": 450,
+        "y": 100,
         "wires": [
             [
                 "05aa0bd34ae2e3e8"
@@ -92862,8 +92859,8 @@
         "once": true,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 180,
-        "y": 80,
+        "x": 240,
+        "y": 100,
         "wires": [
             [
                 "1634929e5e1b337d"
@@ -92882,8 +92879,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 120,
+        "x": 450,
+        "y": 140,
         "wires": [
             [
                 "aac637270f68c1ba"
@@ -92902,8 +92899,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 160,
+        "x": 430,
+        "y": 180,
         "wires": [
             [
                 "602d55bfa441b5ad"
@@ -92922,8 +92919,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 200,
+        "x": 420,
+        "y": 220,
         "wires": [
             [
                 "d7691b30c25e59ef"
@@ -92946,8 +92943,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 800,
-        "y": 200,
+        "x": 860,
+        "y": 220,
         "wires": [
             []
         ]
@@ -92964,8 +92961,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"trianguloX\" ng-bind-html=\"msg.trianguloX\" style=\"display:none\"></div>\n    <div id=\"trianguloY\" ng-bind-html=\"msg.trianguloY \" style=\"display:none\"></div>\n\n    <div id=\"esfuerzoAdmisibleX\" ng-bind-html=\"msg.esfuerzoAdmisibleX \" style=\"display:none\"></div>\n    <div id=\"esfuerzoAdmisibleY\" ng-bind-html=\"msg.esfuerzoAdmisibleY \" style=\"display:none\"></div>\n\n\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"Goodman()\" class=\"btn btn-light btn-sm\">Goodman</div>\n    </div>\n    \n    {{!-- espacio para plotear el Goodman --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Goodman\n        function Goodman() {\n            // adquisión del punto \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n            // puntoX = parseFloat(puntoX.toFixed(2));//redondeo a 2 cifras decimales\n            // puntoY = parseFloat(puntoY.toFixed(2));//redondeo a 2 cifras decimales\n            \n            var trianguloX = document.getElementById(\"trianguloX\").innerHTML;//adquision de data desde nodered\n            var trianguloY = document.getElementById(\"trianguloY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x1 = trianguloX.split(\",\");\n            var y1 = trianguloY.split(\",\");\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n            var esfuerzoAdmisibleX = document.getElementById(\"esfuerzoAdmisibleX\").innerHTML;//adquision de data desde nodered\n            var esfuerzoAdmisibleY = document.getElementById(\"esfuerzoAdmisibleY\").innerHTML;//adquision de data desde nodered\n            // alert(trianguloX)\n            var x2 = esfuerzoAdmisibleX.split(\",\");\n            var y2 = esfuerzoAdmisibleY.split(\",\");\n            for(i = 0; i < x2.length; i++) {\n                x2[i] = Redondeo(x2[i]);\n                y2[i] = Redondeo(y2[i]);\n            }\n\n            var trace1  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Punto',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: x1,\n                y: y1,\n                name: 'E Mínimo',\n                mode: 'scatter'\n            };\n            var trace3  = {\n                x: x2,\n                y: y2,\n                name: 'E Admisible',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Goodman',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            \n            var data = [trace1,trace2,trace3];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 640,
-        "y": 200,
+        "x": 700,
+        "y": 220,
         "wires": [
             [
                 "9b16756eb3a783d1"
@@ -92984,8 +92981,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 200,
+        "x": 550,
+        "y": 220,
         "wires": [
             [
                 "3316e4228282fb39"
@@ -93378,7 +93375,7 @@
         "z": "7a89175c.90f6a8",
         "g": "936eab7d97be78af",
         "name": "Adquirir Dinagrama",
-        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;//POTENCIA DEL VSD\nvar proximetro = global.get(\"IO.Dinagrama.proximetro\", \"memoryOnly\") || 0;//Proximetro\nvar ct = global.get(\"IO.Dinagrama.ct\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\n\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VCt = context.get(\"VCt\", \"memoryOnly\")||[];//vector de la CT\nvar VProximetro = context.get(\"VProximetro\", \"memoryOnly\")||[];//vector deL Proximetro\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//Numero de muestras totales\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n    VCt[Indice - 1] = ct;\n    VProximetro[Indice - 1] = proximetro;\n}\n\nif (Indice >= NmuestrasTotales){\n    // guardar todo el vector cuando ya esta completo\n    var VcargaF = DuplicarV(Vcarga);\n    var VposF = DuplicarV(Vpos);\n    var VpotenciaF = DuplicarV(Vpotencia);\n    var VCtF = DuplicarV(VCt);\n    var VProximetroF = DuplicarV(VProximetro);\n    var variables ={\n        'calculo': { VposF, VcargaF, VpotenciaF, VCtF, VProximetroF}\n    }\n    context.set(\"variables\",variables,\"memoryOnly\");\n\n    // seteo de las variables globales\n    global.set('IO.Dinagrama.Vcarga', VcargaF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', VposF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', VpotenciaF, 'memoryOnly');\n    global.set('IO.Dinagrama.VCt', VCtF, 'memoryOnly');\n    global.set('IO.Dinagrama.VProximetro', VProximetroF, 'memoryOnly');\n    \n    return msg;//calculo del dinagrama\n}\n\nnode.status({ fill: \"blue\", shape: \"ring\", text: \"Indice\"+ Indice + \" De :\" + NmuestrasTotales});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VCt\", VCt, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"VProximetro\", VProximetro, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\n\nfunction DuplicarV(Vector) {\n    var V = { ...Vector }//clonar lo que hay\n    V = Object.values(V);//creando el array\n    return V\n}\n",
+        "func": "var pos = global.get(\"IO.Dinagrama.pos\", \"memoryOnly\") || 0;\nvar carga = global.get(\"IO.Dinagrama.carga\", \"memoryOnly\") || 0;\nvar potencia = global.get(\"IO.Dinagrama.potencia\", \"memoryOnly\") || 0;//POTENCIA DEL VSD\nvar proximetro = global.get(\"IO.Dinagrama.proximetro\", \"memoryOnly\") || 0;//Proximetro\nvar ct = global.get(\"IO.Dinagrama.ct\", \"memoryOnly\") || 0;\nvar Indice = global.get(\"IO.Dinagrama.Indice\", \"memoryOnly\") || 0;\nvar Active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;\n\nvar Vcarga = context.get(\"Vcarga\",\"memoryOnly\");//se inicializa en On Start\nvar Vpos = context.get(\"Vpos\", \"memoryOnly\");//se inicializa en On Start\nvar Vpotencia = context.get(\"Vpotencia\", \"memoryOnly\")||[];//se inicializa en On Start\nvar VCt = context.get(\"VCt\", \"memoryOnly\")||[];//vector de la CT\nvar VProximetro = context.get(\"VProximetro\", \"memoryOnly\")||[];//vector deL Proximetro\nvar NmuestrasTotales = global.get(\"GeometriaSucket.NmuestrasTotales\") || 1;//Numero de muestras totales\n\n\nif (Indice <= NmuestrasTotales){\n    Vcarga[Indice-1] = carga;\n    Vpos[Indice-1] = pos;//radianes \n    Vpotencia[Indice -1] = potencia;\n    VCt[Indice - 1] = ct;\n    VProximetro[Indice - 1] = proximetro;\n}\n\nif (Indice >= NmuestrasTotales && Active == 1){\n    // guardar todo el vector cuando ya esta completo\n    // y el Motor está funcionando\n    var VcargaF = DuplicarV(Vcarga);\n    var VposF = DuplicarV(Vpos);\n    var VpotenciaF = DuplicarV(Vpotencia);\n    var VCtF = DuplicarV(VCt);\n    var VProximetroF = DuplicarV(VProximetro);\n    var variables ={\n        'calculo': { VposF, VcargaF, VpotenciaF, VCtF, VProximetroF}\n    }\n    context.set(\"variables\",variables,\"memoryOnly\");\n\n    // seteo de las variables globales\n    global.set('IO.Dinagrama.Vcarga', VcargaF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpos', VposF, 'memoryOnly');\n    global.set('IO.Dinagrama.Vpotencia', VpotenciaF, 'memoryOnly');\n    global.set('IO.Dinagrama.VCt', VCtF, 'memoryOnly');\n    global.set('IO.Dinagrama.VProximetro', VProximetroF, 'memoryOnly');\n    \n    return msg;//calcular del dinagrama\n}\n\nnode.status({ fill: \"blue\", shape: \"ring\", text: \"Indice\"+ Indice + \" De :\" + NmuestrasTotales});\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\ncontext.set(\"VCt\", VCt, \"memoryOnly\");\ncontext.set(\"Vpotencia\", Vpotencia, \"memoryOnly\");\ncontext.set(\"VProximetro\", VProximetro, \"memoryOnly\");\ncontext.set(\"Indice\", Indice, \"memoryOnly\");\ncontext.set(\"pos\", pos, \"memoryOnly\");\ncontext.set(\"tamano\", Vpos.length, \"memoryOnly\");\ncontext.set(\"potencia\", potencia, \"memoryOnly\");\ncontext.set(\"Active\", Active, \"memoryOnly\");\n\nfunction DuplicarV(Vector) {\n    var V = { ...Vector }//clonar lo que hay\n    V = Object.values(V);//creando el array\n    return V\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar Vcarga = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\nvar Vpos = [0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\ncontext.set(\"Vcarga\", Vcarga, \"memoryOnly\");\ncontext.set(\"Vpos\", Vpos, \"memoryOnly\");\n",
@@ -93782,11 +93779,12 @@
         "z": "7a89175c.90f6a8",
         "g": "81a2722aec77d40b",
         "name": "Int to IEEE 754",
-        "func": "v = new DataView(new ArrayBuffer(4));\nmsg.payload = msg.payload.toString(16);\nv.setUint32(0, '0x'+ msg.payload);\nnode.status({fill:\"green\",shape:\"dot\",text:v.getFloat32(0)});\n\nmsg.payload = v.getFloat32(0);\n\nreturn msg;\n\n// Fuentes:\n// https://stackoverflow.com/questions/41635908/node-red-parsing-json-data-and-converting-it-into-binary\n// https://stackoverflow.com/questions/49221045/javascript-hexadecimal-string-to-ieee-754-floating-point",
+        "func": "var v = new DataView(new ArrayBuffer(4));\nmsg.payload = msg.payload.toString(16);\nv.setUint32(0, '0x'+ msg.payload);\nnode.status({fill:\"green\",shape:\"dot\",text:v.getFloat32(0)});\n\nmsg.payload = v.getFloat32(0);\n\nreturn msg;\n\n// Fuentes:\n// https://stackoverflow.com/questions/41635908/node-red-parsing-json-data-and-converting-it-into-binary\n// https://stackoverflow.com/questions/49221045/javascript-hexadecimal-string-to-ieee-754-floating-point",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 540,
         "y": 4020,
         "wires": [
@@ -95699,8 +95697,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 180,
-        "y": 320,
+        "x": 220,
+        "y": 340,
         "wires": [
             [
                 "bf65122b1a983e00"
@@ -95735,8 +95733,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 310,
-        "y": 320,
+        "x": 350,
+        "y": 340,
         "wires": [
             [
                 "d9d9bcbe16e0cddd"
@@ -95767,8 +95765,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 300,
+        "x": 480,
+        "y": 320,
         "wires": [
             [
                 "b7f7d733f7d2da89"
@@ -95784,8 +95782,8 @@
         "links": [
             "8a17d991.081178"
         ],
-        "x": 595,
-        "y": 320,
+        "x": 635,
+        "y": 340,
         "wires": []
     },
     {
@@ -95808,8 +95806,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 470,
-        "y": 340,
+        "x": 510,
+        "y": 360,
         "wires": [
             [
                 "b7f7d733f7d2da89"
@@ -96055,7 +96053,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 310,
+        "x": 330,
         "y": 1120,
         "wires": [
             [
@@ -97483,89 +97481,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1070,
+        "x": 1090,
         "y": 1160,
         "wires": [
             [
                 "4930f6411e306ffe"
-            ]
-        ]
-    },
-    {
-        "id": "1dcf7ae2c115b715",
-        "type": "link in",
-        "z": "2e27dea6.c4c362",
-        "name": "",
-        "links": [
-            "58d10b0ab4c186c5"
-        ],
-        "x": 1525,
-        "y": 440,
-        "wires": [
-            [
-                "d9f303b0a68bb35d"
-            ]
-        ]
-    },
-    {
-        "id": "d9f303b0a68bb35d",
-        "type": "function",
-        "z": "2e27dea6.c4c362",
-        "name": "RefreshNavegador",
-        "func": "var UserStatus = global.get(\"UserStatus\",\"memoryOnly\")||0;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar time = 3600*2;//tiempo en segundos\nif (UserStatus == 0 && ctr < time){\n    ctr = ctr +1;\n    node.status({fill:\"red\",shape:\"ring\",text:\"Conteo\" + \" \" + ctr});\n\n    if(ctr >= time){\n        ctr = 0;\n        msg.payload = \"sudo systemctl restart kiosk\";\n        context.set(\"ctr\", ctr, \"memoryOnly\");\n        return msg;\n    }\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}else{\n    ctr = 0;\n    node.status({fill:\"green\",shape:\"ring\",text:\"User\"});\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1670,
-        "y": 440,
-        "wires": [
-            [
-                "1fae3826edc2b945",
-                "1454ec1ef69ea77c"
-            ]
-        ]
-    },
-    {
-        "id": "1fae3826edc2b945",
-        "type": "debug",
-        "z": "2e27dea6.c4c362",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1860,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "3771407ac43b391e",
-        "type": "inject",
-        "z": "2e27dea6.c4c362",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "sudo systemctl restart kiosk",
-        "payloadType": "str",
-        "x": 1830,
-        "y": 580,
-        "wires": [
-            [
-                "1454ec1ef69ea77c"
             ]
         ]
     },
@@ -98349,14 +98269,15 @@
         "z": "e497646c3625f223",
         "g": "d0c2e26c6d297150",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 2890,
+        "x": 2750,
         "y": 720,
         "wires": []
     },
@@ -98809,6 +98730,292 @@
             [
                 "d51909cfc77f4dee"
             ]
+        ]
+    },
+    {
+        "id": "483060a07deb7029",
+        "type": "switch",
+        "z": "e497646c3625f223",
+        "g": "d0c2e26c6d297150",
+        "name": "VSDCom",
+        "property": "#:(memoryOnly)::C2S.Comunicacion_Drive",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2960,
+        "y": 660,
+        "wires": [
+            [
+                "cab3a90f117453c3"
+            ]
+        ]
+    },
+    {
+        "id": "6b1feb88ad4eaa12",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "31895ea6.22f372",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1250,
+        "y": 80,
+        "wires": [
+            [
+                "f9b9d7a57c57d25e"
+            ]
+        ]
+    },
+    {
+        "id": "c435ac91a9e28118",
+        "type": "inject",
+        "z": "7a89175c.90f6a8",
+        "g": "edfe6c51.d89c68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4.1",
+        "payloadType": "num",
+        "x": 1460,
+        "y": 3320,
+        "wires": [
+            [
+                "ac5611e0.f1126"
+            ]
+        ]
+    },
+    {
+        "id": "70a45bac6fb54e5c",
+        "type": "inject",
+        "z": "7a89175c.90f6a8",
+        "g": "edfe6c51.d89c68",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "19.7",
+        "payloadType": "num",
+        "x": 1470,
+        "y": 3380,
+        "wires": [
+            [
+                "ac5611e0.f1126",
+                "6f5153fc.5881dc"
+            ]
+        ]
+    },
+    {
+        "id": "d6d77b20431c6fc2",
+        "type": "exec",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "0.5",
+        "winHide": false,
+        "oldrc": false,
+        "name": "kiosk",
+        "x": 1710,
+        "y": 1300,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "66496d795f4ee7fc",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "links": [
+            "58d10b0ab4c186c5"
+        ],
+        "x": 1455,
+        "y": 1300,
+        "wires": [
+            [
+                "64526cf8d08d9bc4"
+            ]
+        ]
+    },
+    {
+        "id": "64526cf8d08d9bc4",
+        "type": "function",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "name": "RefreshLogin",
+        "func": "var UserStatus = global.get(\"UserStatus\",\"memoryOnly\")||0;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar time = 3600*2;//tiempo en segundos\nif (UserStatus == 0 && ctr < time){\n    ctr = ctr +1;\n    node.status({fill:\"red\",shape:\"ring\",text:\"Conteo\" + \" \" + ctr});\n\n    if(ctr >= time){\n        ctr = 0;\n        msg.payload = \"sudo systemctl restart kiosk\";\n        context.set(\"ctr\", ctr, \"memoryOnly\");\n        return msg;\n    }\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}else{\n    ctr = 0;\n    node.status({fill:\"green\",shape:\"ring\",text:\"User\"});\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1300,
+        "wires": [
+            [
+                "d6d77b20431c6fc2"
+            ]
+        ]
+    },
+    {
+        "id": "5a3b6dbb1b06ecc3",
+        "type": "exec",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "command": "sudo pkill chromium",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Kill chromium",
+        "x": 1800,
+        "y": 1120,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8ff382d09fb168e3",
+        "type": "delay",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1510,
+        "y": 1120,
+        "wires": [
+            [
+                "5a3b6dbb1b06ecc3",
+                "e39536e36180e4d8"
+            ]
+        ]
+    },
+    {
+        "id": "8a4770bdf43b812c",
+        "type": "link in",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "name": "IniciarKiosk",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 1375,
+        "y": 1060,
+        "wires": [
+            [
+                "bfa48676.a364f8"
+            ]
+        ]
+    },
+    {
+        "id": "349d154921de6aca",
+        "type": "inject",
+        "z": "e7088c4e.cc6b4",
+        "g": "a73c3da33ecbc290",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 940,
+        "y": 1300,
+        "wires": [
+            [
+                "8cf1c791b0b47299"
+            ]
+        ]
+    },
+    {
+        "id": "e39536e36180e4d8",
+        "type": "delay",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "x": 1510,
+        "y": 1200,
+        "wires": [
+            [
+                "95d0ba3af57e7b56"
+            ]
+        ]
+    },
+    {
+        "id": "95d0ba3af57e7b56",
+        "type": "exec",
+        "z": "2e27dea6.c4c362",
+        "g": "1d0c3cb2.7129f3",
+        "command": "sudo systemctl restart kiosk",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1840,
+        "y": 1200,
+        "wires": [
+            [],
+            [],
+            []
         ]
     }
 ]
