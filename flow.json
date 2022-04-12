@@ -2960,7 +2960,9 @@
             "7a1d4c156061f21e"
         ],
         "x": 124,
-        "y": 459
+        "y": 459,
+        "w": 1692,
+        "h": 262
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -2991,7 +2993,9 @@
             "c3c44f1ef4268496"
         ],
         "x": 134,
-        "y": 119
+        "y": 119,
+        "w": 1072,
+        "h": 322
     },
     {
         "id": "805fec7111f91b80",
@@ -3053,7 +3057,9 @@
             "1ead21b91a6685a5"
         ],
         "x": 1934,
-        "y": 99
+        "y": 99,
+        "w": 1662,
+        "h": 562
     },
     {
         "id": "908c9775529ae148",
@@ -3119,7 +3125,9 @@
             "94e57bc8358ca9ea"
         ],
         "x": 114,
-        "y": 739
+        "y": 739,
+        "w": 1382,
+        "h": 522
     },
     {
         "id": "31895b3f7962d5a7",
@@ -3976,7 +3984,9 @@
             "206f539cabc2577b"
         ],
         "x": 574,
-        "y": 579
+        "y": 579,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "bfa864e408443edc",
@@ -3993,7 +4003,9 @@
             "7a4d67c3076bb1a7"
         ],
         "x": 254,
-        "y": 579
+        "y": 579,
+        "w": 292,
+        "h": 122
     },
     {
         "id": "f82d188a766cf90e",
@@ -4050,7 +4062,9 @@
             "bd5e6c5eb1fe9fe9"
         ],
         "x": 254,
-        "y": 79
+        "y": 79,
+        "w": 992,
+        "h": 482
     },
     {
         "id": "3246efc26b2a7a6a",
@@ -4087,7 +4101,9 @@
             "050975e096369c5d"
         ],
         "x": 254,
-        "y": 719
+        "y": 719,
+        "w": 312,
+        "h": 122
     },
     {
         "id": "a2810e48e2e53e37",
@@ -4106,7 +4122,9 @@
             "97c8d627dbb4c22e"
         ],
         "x": 254,
-        "y": 879
+        "y": 879,
+        "w": 392,
+        "h": 162
     },
     {
         "id": "42578aaca1306cfe",
@@ -4125,7 +4143,9 @@
             "019d0594b4883122"
         ],
         "x": 374,
-        "y": 99
+        "y": 99,
+        "w": 432,
+        "h": 222
     },
     {
         "id": "ab199f0612578a6a",
@@ -4157,7 +4177,9 @@
             "9588402989b6931c"
         ],
         "x": 374,
-        "y": 379
+        "y": 379,
+        "w": 982,
+        "h": 282
     },
     {
         "id": "f884ee2d936fd4d7",
@@ -4174,7 +4196,9 @@
             "34673aa740c4f12f"
         ],
         "x": 374,
-        "y": 679
+        "y": 679,
+        "w": 312,
+        "h": 122
     },
     {
         "id": "87c215eb8316f178",
@@ -4191,7 +4215,9 @@
             "57276c627f02a8e7"
         ],
         "x": 364,
-        "y": 839
+        "y": 839,
+        "w": 192,
+        "h": 202
     },
     {
         "id": "d7605e857d43d130",
@@ -4207,7 +4233,9 @@
             "b649ec4ac5a32dc7"
         ],
         "x": 714,
-        "y": 679
+        "y": 679,
+        "w": 502,
+        "h": 122
     },
     {
         "id": "4a25e547351e4e9d",
@@ -101433,7 +101461,7 @@
         "type": "function",
         "z": "5ba456fee41e0d30",
         "name": "Rotting status",
-        "func": "var rottingmode = global.get(\"Input.Operation.rotting\") || \"disable\";\nvar antrottingmode = (context.get(\"antrotting\",\"memoryOnly\")|| null) != null ? rottingmode : \"disable\";\nvar status;\nif (rottingmode == \"disable\") status = false;\nif (rottingmode == \"VSDActive\") status = (global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\") || 0) == 1 ? true : false;\nif (rottingmode == \"timmer\") status = timmer();\nif (rottingmode == \"schedule\") status = schedule();\n\nglobal.set(\"Control_functions.ActiveCF.rottingpipes\",status,\"memoryOnly\");\nmsg.payload = status;\nreturn msg;\n\nfunction timmer(){\n    var antstatus = context.get(\"antstatus\",\"memoryOnly\") || false;\n    antstatus = antrottingmode != \"timmer\" ? true : antstatus;\n    var value = flow.get(\"rotador.timmer.value\") || 0;\n    var time = flow.get(\"rotador.timmer.time\");\n    var date = new Date();\n    var intervalo = (date.getTime() - time.getTime()) / (1000*60);\n    context.set(\"intervalo\",intervalo,\"memoryOnly\");\n    if (intervalo >= (value*30)){\n        status = !antstatus;\n        flow.set(\"rotador.timmer.time\", date);\n    }\n    else\n        status = antstatus;\n    context.set(\"antstatus\", status, \"memoryOnly\");\n    return status;\n}\n\nfunction schedule(){\n    var date = new Date(); var hour = date.getHours(); var minutes = date.getMinutes();\n    var schedule = flow.get(\"rotador.schedule\")||[];\n    status = false;\n    var i;\n        for (i=0; i<schedule.length;i++){\n            var timprogini = convertTime(schedule[i].inicio);\n            var timprogfin = convertTime(schedule[i].fin);\n            if ((((timprogini[0] * 60) + timprogini[1]) <= ((hour * 60) + minutes)) && (((hour * 60) + minutes) < ((timprogfin[0] * 60) + timprogfin[1]) )){\n                status = true;\n            }\n        }\n\n    return status;\n}\n\nfunction convertTime(string) {\n    string = string.split(':');\n    string[0] = parseInt(string[0]);\n    string[1] = parseInt(string[1]);\n    return string;\n}",
+        "func": "var rottingmode = global.get(\"Input.Operation.rotting\") || \"disable\";\nvar antrottingmode = (context.get(\"antrotting\", \"memoryOnly\") || null) == null ? rottingmode : (context.get(\"antrotting\", \"memoryOnly\") || null);\nvar status;\nif (rottingmode == \"disable\") status = false;\nif (rottingmode == \"VSDActive\") status = (global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0) == 1 ? true : false;\nif (rottingmode == \"timmer\") status = timmer();\nif (rottingmode == \"schedule\") status = schedule();\n\nglobal.set(\"Control_functions.ActiveCF.rottingpipes\", status, \"memoryOnly\");\nmsg.payload = status;\ncontext.set(\"antrotting\", rottingmode, \"memoryOnly\");\nreturn msg;\n\nfunction timmer() {\n    var antstatus = context.get(\"antstatus\", \"memoryOnly\") || false;\n    antstatus = antrottingmode != \"timmer\" ? true : antstatus;\n    var value = flow.get(\"rotador.timmer.value\") || 0;\n    var time = flow.get(\"rotador.timmer.time\");\n    var date = new Date();\n    var intervalo = (date.getTime() - time.getTime()) / (1000 * 60);\n    context.set(\"intervalo\", intervalo, \"memoryOnly\");\n    if (intervalo >= (value * 30)) {\n        status = !antstatus;\n        flow.set(\"rotador.timmer.time\", date);\n    }\n    else\n        status = antstatus;\n    context.set(\"antstatus\", status, \"memoryOnly\");\n    return status;\n}\n\nfunction schedule() {\n    var date = new Date(); var hour = date.getHours(); var minutes = date.getMinutes();\n    var schedule = flow.get(\"rotador.schedule\") || [];\n    status = false;\n    var i;\n    for (i = 0; i < schedule.length; i++) {\n        var timprogini = convertTime(schedule[i].inicio);\n        var timprogfin = convertTime(schedule[i].fin);\n        if ((((timprogini[0] * 60) + timprogini[1]) <= ((hour * 60) + minutes)) && (((hour * 60) + minutes) < ((timprogfin[0] * 60) + timprogfin[1]))) {\n            status = true;\n        }\n    }\n\n    return status;\n}\n\nfunction convertTime(string) {\n    string = string.split(':');\n    string[0] = parseInt(string[0]);\n    string[1] = parseInt(string[1]);\n    return string;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
