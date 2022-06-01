@@ -934,7 +934,9 @@
             "e39536e36180e4d8"
         ],
         "x": 1334,
-        "y": 1011.5
+        "y": 1011.5,
+        "w": 792,
+        "h": 337
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -974,7 +976,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1301,7 +1305,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1317,9 +1323,7 @@
             "566c907c.70175"
         ],
         "x": 38,
-        "y": 33,
-        "w": 1264,
-        "h": 574
+        "y": 33
     },
     {
         "id": "9132da2c.b8c6b8",
@@ -1350,7 +1354,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1366,9 +1372,7 @@
             "7c55c2ad.611734"
         ],
         "x": 42,
-        "y": 617,
-        "w": 3416,
-        "h": 2176
+        "y": 617
     },
     {
         "id": "9b538856.60fb38",
@@ -1580,7 +1584,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1701,9 +1707,7 @@
             "0465b4b302febce1"
         ],
         "x": 44,
-        "y": 3699,
-        "w": 492,
-        "h": 232
+        "y": 3699
     },
     {
         "id": "2bb641e0f5f82309",
@@ -1719,9 +1723,7 @@
             "80a9920a.43161"
         ],
         "x": 42,
-        "y": 2797,
-        "w": 2626,
-        "h": 866
+        "y": 2797
     },
     {
         "id": "e3aa057d.09fb18",
@@ -2051,7 +2053,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2121,7 +2125,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2413,7 +2419,9 @@
             "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2586,9 +2594,7 @@
             "8154334e1409fab8"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1852,
-        "h": 868
+        "y": 19
     },
     {
         "id": "54bb46e073aa1e2e",
@@ -2696,9 +2702,7 @@
             "eaf4b2085acff39e"
         ],
         "x": 154,
-        "y": 359,
-        "w": 1092,
-        "h": 282
+        "y": 359
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2736,9 +2740,7 @@
             "52d49743408ce8f6"
         ],
         "x": 154,
-        "y": 1159,
-        "w": 1402,
-        "h": 322
+        "y": 1159
     },
     {
         "id": "1f2682bef5794306",
@@ -2762,9 +2764,7 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179,
-        "w": 1392,
-        "h": 162
+        "y": 179
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2805,9 +2805,7 @@
             "bc0cf6ab99f49325"
         ],
         "x": 154,
-        "y": 659,
-        "w": 1422,
-        "h": 482
+        "y": 659
     },
     {
         "id": "224caf14924e867c",
@@ -2831,6 +2829,8 @@
         ],
         "x": 734,
         "y": 51.5,
+        "w": 652,
+        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2860,7 +2860,9 @@
             "0832a6b33e1f520c"
         ],
         "x": 134,
-        "y": 379
+        "y": 379,
+        "w": 538,
+        "h": 649.5
     },
     {
         "id": "23c99fd.b16886",
@@ -2884,6 +2886,8 @@
         ],
         "x": 134,
         "y": 51.5,
+        "w": 572,
+        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2902,7 +2906,9 @@
             "5e35a538.cad0cc"
         ],
         "x": 734,
-        "y": 391.5
+        "y": 391.5,
+        "w": 432,
+        "h": 157
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -3009,7 +3015,9 @@
             "d17ceb3fc54c19b2"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 322
     },
     {
         "id": "fd65929694c9064e",
@@ -3041,9 +3049,7 @@
             "7a1d4c156061f21e"
         ],
         "x": 124,
-        "y": 459,
-        "w": 1692,
-        "h": 262
+        "y": 459
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -3074,9 +3080,7 @@
             "c3c44f1ef4268496"
         ],
         "x": 134,
-        "y": 119,
-        "w": 1072,
-        "h": 322
+        "y": 119
     },
     {
         "id": "805fec7111f91b80",
@@ -3138,9 +3142,7 @@
             "1ead21b91a6685a5"
         ],
         "x": 1934,
-        "y": 99,
-        "w": 1662,
-        "h": 562
+        "y": 99
     },
     {
         "id": "908c9775529ae148",
@@ -3206,9 +3208,7 @@
             "94e57bc8358ca9ea"
         ],
         "x": 114,
-        "y": 739,
-        "w": 1382,
-        "h": 522
+        "y": 739
     },
     {
         "id": "31895b3f7962d5a7",
@@ -3246,9 +3246,7 @@
             "ee91a063b1e0a258"
         ],
         "x": 1354,
-        "y": 119,
-        "w": 1272,
-        "h": 282
+        "y": 119
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3290,9 +3288,7 @@
             "d381f5089d6b205d"
         ],
         "x": 114,
-        "y": 219,
-        "w": 1182,
-        "h": 382
+        "y": 219
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3331,9 +3327,7 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659,
-        "w": 802,
-        "h": 462
+        "y": 659
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3354,9 +3348,7 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 899,
-        "w": 912,
-        "h": 122
+        "y": 899
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3388,9 +3380,7 @@
             "bd55c3ff86ac359d"
         ],
         "x": 1354,
-        "y": 579,
-        "w": 1042,
-        "h": 302
+        "y": 579
     },
     {
         "id": "357c29994d5a0df9",
@@ -3406,9 +3396,7 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479,
-        "w": 532,
-        "h": 82
+        "y": 479
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -3643,7 +3631,9 @@
             "c1a0f15034a2446e"
         ],
         "x": 734,
-        "y": 579
+        "y": 579,
+        "w": 512,
+        "h": 369.5
     },
     {
         "id": "a97cd0a5989cf9c4",
@@ -3675,7 +3665,7 @@
         ],
         "x": 1744,
         "y": 319,
-        "w": 752,
+        "w": 742,
         "h": 628
     },
     {
@@ -3757,7 +3747,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "c889aa180836227d",
@@ -3780,10 +3772,10 @@
             "49ad3d6dfae9966b",
             "d8b35a131ec512b5"
         ],
-        "x": 34,
+        "x": 44,
         "y": 353,
         "w": 1422,
-        "h": 1394
+        "h": 1114
     },
     {
         "id": "193969f706c28bf5",
@@ -3849,9 +3841,7 @@
             "9a0f5cab161189fb"
         ],
         "x": 874,
-        "y": 3699,
-        "w": 1092,
-        "h": 768
+        "y": 3699
     },
     {
         "id": "81a2722aec77d40b",
@@ -3870,9 +3860,7 @@
             "abaa6d03ff45f904"
         ],
         "x": 34,
-        "y": 3979,
-        "w": 772,
-        "h": 162
+        "y": 3979
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -3932,9 +3920,7 @@
             "eac942109fb23aa7"
         ],
         "x": 2694,
-        "y": 2819,
-        "w": 1292,
-        "h": 612
+        "y": 2819
     },
     {
         "id": "18a6cbbba16d2578",
@@ -3953,7 +3939,9 @@
             "acfd4e6c8990af6f"
         ],
         "x": 1414,
-        "y": 51.5
+        "y": 51.5,
+        "w": 472,
+        "h": 237
     },
     {
         "id": "5d518c95ba8096ba",
@@ -3969,9 +3957,7 @@
             "60b95e5ad4a27db7"
         ],
         "x": 844,
-        "y": 4699,
-        "w": 562,
-        "h": 82
+        "y": 4699
     },
     {
         "id": "bfece4f80fac7e54",
@@ -3992,9 +3978,7 @@
             "d7691b30c25e59ef"
         ],
         "x": 164,
-        "y": 59,
-        "w": 802,
-        "h": 202
+        "y": 59
     },
     {
         "id": "312e757f2ddba8e5",
@@ -4058,9 +4042,7 @@
             "20d0230dc20dda52"
         ],
         "x": 154,
-        "y": 439,
-        "w": 1022,
-        "h": 262
+        "y": 439
     },
     {
         "id": "bd8b31477127547e",
@@ -4079,7 +4061,9 @@
             "206f539cabc2577b"
         ],
         "x": 574,
-        "y": 579
+        "y": 579,
+        "w": 652,
+        "h": 182
     },
     {
         "id": "bfa864e408443edc",
@@ -4096,7 +4080,9 @@
             "7a4d67c3076bb1a7"
         ],
         "x": 254,
-        "y": 579
+        "y": 579,
+        "w": 292,
+        "h": 122
     },
     {
         "id": "f82d188a766cf90e",
@@ -4155,7 +4141,9 @@
             "bd5e6c5eb1fe9fe9"
         ],
         "x": 254,
-        "y": 79
+        "y": 79,
+        "w": 992,
+        "h": 482
     },
     {
         "id": "3246efc26b2a7a6a",
@@ -4176,9 +4164,7 @@
             "eecf0c698059189c"
         ],
         "x": 154,
-        "y": 279,
-        "w": 1092,
-        "h": 142
+        "y": 279
     },
     {
         "id": "54db5b7c5be42ae3",
@@ -4194,7 +4180,9 @@
             "050975e096369c5d"
         ],
         "x": 254,
-        "y": 719
+        "y": 719,
+        "w": 312,
+        "h": 122
     },
     {
         "id": "a2810e48e2e53e37",
@@ -4206,7 +4194,9 @@
         },
         "nodes": [],
         "x": 254,
-        "y": 879
+        "y": 879,
+        "w": 126,
+        "h": 40
     },
     {
         "id": "42578aaca1306cfe",
@@ -4351,7 +4341,9 @@
             "3e8b5c9fbf5e1b80"
         ],
         "x": 294,
-        "y": 2339
+        "y": 2339,
+        "w": 1472,
+        "h": 402
     },
     {
         "id": "b0e1bb0cbdf93ee4",
@@ -4370,7 +4362,9 @@
             "5c427ef11b26feae"
         ],
         "x": 14,
-        "y": 2119
+        "y": 2119,
+        "w": 542,
+        "h": 182
     },
     {
         "id": "aaa3f14076099363",
@@ -4388,9 +4382,7 @@
             "c38afea1ca0461e4"
         ],
         "x": 148,
-        "y": 713,
-        "w": 698,
-        "h": 328
+        "y": 713
     },
     {
         "id": "d929d138.3b512",
@@ -4408,7 +4400,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -4429,7 +4423,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4817,9 +4813,7 @@
             "742e267a.cbc27"
         ],
         "x": 68,
-        "y": 2823,
-        "w": 1284,
-        "h": 594
+        "y": 2823
     },
     {
         "id": "80a9920a.43161",
@@ -4836,9 +4830,7 @@
             "edfe6c51.d89c68"
         ],
         "x": 1338,
-        "y": 2823,
-        "w": 1304,
-        "h": 814
+        "y": 2823
     },
     {
         "id": "1306de9a.9ba341",
@@ -5429,9 +5421,7 @@
             "868cefce.6694a"
         ],
         "x": 64,
-        "y": 59,
-        "w": 1212,
-        "h": 362
+        "y": 59
     },
     {
         "id": "566c907c.70175",
@@ -5454,9 +5444,7 @@
             "3f94e47b8b495988"
         ],
         "x": 64,
-        "y": 429,
-        "w": 1002,
-        "h": 152
+        "y": 429
     },
     {
         "id": "f167459.5f028b8",
@@ -5474,9 +5462,7 @@
             "f68d7eac.63fb98"
         ],
         "x": 68,
-        "y": 643,
-        "w": 1704,
-        "h": 2124
+        "y": 643
     },
     {
         "id": "7c55c2ad.611734",
@@ -5494,9 +5480,7 @@
             "f1099f615835b12b"
         ],
         "x": 1788,
-        "y": 643,
-        "w": 1644,
-        "h": 1361.5
+        "y": 643
     },
     {
         "id": "b1830307.ee865",
@@ -6050,7 +6034,9 @@
             "351eccb8791a5abd"
         ],
         "x": 374,
-        "y": 411.5
+        "y": 411.5,
+        "w": 272,
+        "h": 277
     },
     {
         "id": "4e3c5a17481ed180",
@@ -6362,9 +6348,7 @@
             "a6bbedba385fe92b"
         ],
         "x": 494,
-        "y": 539,
-        "w": 752,
-        "h": 322
+        "y": 539
     },
     {
         "id": "504a9190c56704f4",
@@ -6392,7 +6376,8 @@
         "g": "c889aa180836227d",
         "name": "Adquirir Minimo Desplazamiento del vector de superficie Dim",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "24994e23766d040a",
@@ -6401,9 +6386,9 @@
             "aa463aa620d9836f",
             "1d8939469bf38097"
         ],
-        "x": 254,
-        "y": 1499,
-        "w": 952,
+        "x": 264,
+        "y": 1219,
+        "w": 852,
         "h": 122
     },
     {
@@ -6424,9 +6409,7 @@
             "86775cfa2b8d9339"
         ],
         "x": 974,
-        "y": 4279,
-        "w": 632,
-        "h": 162
+        "y": 4279
     },
     {
         "id": "d06a9e2c2daa09fb",
@@ -6444,7 +6427,7 @@
             "2afcec54429c999b",
             "a7c3591cf57f8b42"
         ],
-        "x": 274,
+        "x": 284,
         "y": 379,
         "w": 1092,
         "h": 82
@@ -6466,7 +6449,7 @@
             "cae14a8f115a7cd4",
             "746411017686ca1f"
         ],
-        "x": 274,
+        "x": 284,
         "y": 739,
         "w": 1092,
         "h": 82
@@ -6486,7 +6469,7 @@
             "687ac45de63d5718",
             "964378278d11b0bf"
         ],
-        "x": 254,
+        "x": 264,
         "y": 1079,
         "w": 1132,
         "h": 122
@@ -6498,14 +6481,15 @@
         "g": "c889aa180836227d",
         "name": "Eliminar el Dinagrama de Superficie si se requiere",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "f9bc6c1e0ee8166f",
             "11ef0a743969f2c0"
         ],
-        "x": 254,
-        "y": 1639,
+        "x": 264,
+        "y": 1359,
         "w": 512,
         "h": 82
     },
@@ -6527,7 +6511,7 @@
             "e77049f5403abbe2",
             "4f172defeb57ca57"
         ],
-        "x": 274,
+        "x": 284,
         "y": 839,
         "w": 1092,
         "h": 122
@@ -6547,7 +6531,7 @@
             "470d01fd9e70c216",
             "b9aa922292495d63"
         ],
-        "x": 254,
+        "x": 264,
         "y": 979,
         "w": 1112,
         "h": 82
@@ -6568,7 +6552,7 @@
             "271eb002b7c8dc66",
             "5f081c1b76be3af8"
         ],
-        "x": 274,
+        "x": 284,
         "y": 479,
         "w": 1092,
         "h": 102
@@ -6591,9 +6575,7 @@
             "d4da91ffe3513bcb"
         ],
         "x": 174,
-        "y": 739,
-        "w": 392,
-        "h": 162
+        "y": 739
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -6713,9 +6695,7 @@
             "54b354e7737802b3"
         ],
         "x": 94,
-        "y": 2849,
-        "w": 1232,
-        "h": 542
+        "y": 2849
     },
     {
         "id": "f6e2a6e0.47efb8",
@@ -6751,9 +6731,7 @@
             "bb5e3162.6feb9"
         ],
         "x": 1384,
-        "y": 2849,
-        "w": 1232,
-        "h": 312
+        "y": 2849
     },
     {
         "id": "edfe6c51.d89c68",
@@ -6790,9 +6768,7 @@
             "70a45bac6fb54e5c"
         ],
         "x": 1364,
-        "y": 3169,
-        "w": 742,
-        "h": 442
+        "y": 3169
     },
     {
         "id": "16097ef1.129291",
@@ -7315,9 +7291,7 @@
             "3b8d6f41c33605f7"
         ],
         "x": 94,
-        "y": 669,
-        "w": 1212,
-        "h": 842
+        "y": 669
     },
     {
         "id": "49c39e.d1336c64",
@@ -7456,9 +7430,7 @@
             "9a42b3bc50c233d0"
         ],
         "x": 94,
-        "y": 1519,
-        "w": 1652,
-        "h": 1032
+        "y": 1519
     },
     {
         "id": "f68d7eac.63fb98",
@@ -7487,9 +7459,7 @@
             "dc7c0e6833d4017c"
         ],
         "x": 94,
-        "y": 2559,
-        "w": 892,
-        "h": 182
+        "y": 2559
     },
     {
         "id": "d532ac68.2d5408",
@@ -7543,9 +7513,7 @@
             "9320f161a5d987ea"
         ],
         "x": 1814,
-        "y": 669,
-        "w": 1292,
-        "h": 512
+        "y": 669
     },
     {
         "id": "c4bcf1ca.3d67d",
@@ -7591,9 +7559,7 @@
             "1bf8ad4dd3f8eeeb"
         ],
         "x": 1814,
-        "y": 1189,
-        "w": 1032,
-        "h": 789.5
+        "y": 1189
     },
     {
         "id": "a80677cf.4274c8",
@@ -7657,9 +7623,7 @@
             "eb27469341ade9cf"
         ],
         "x": 2874,
-        "y": 1199,
-        "w": 532,
-        "h": 222
+        "y": 1199
     },
     {
         "id": "be55ea76.ed4478",
@@ -12143,8 +12107,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
-        "group": "4f5b8416.cada1c",
         "order": 1,
+        "group": "4f5b8416.cada1c",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -18598,8 +18562,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 11,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "PocTimered",
@@ -18628,8 +18592,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 17,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "DobleVelocidad",
@@ -18658,8 +18622,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 16,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "PocSuperficie",
@@ -18688,8 +18652,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 10,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "PocFondo",
@@ -52907,8 +52871,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
-        "group": "999747fd.0e43c8",
         "order": 15,
+        "group": "999747fd.0e43c8",
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -52993,8 +52957,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
-        "group": "9457c46f.d710c8",
         "order": 15,
+        "group": "9457c46f.d710c8",
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -65826,7 +65790,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo systemctl restart kiosk",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -65834,7 +65798,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 1840,
+        "x": 1910,
         "y": 1060,
         "wires": [
             [],
@@ -68810,8 +68774,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "8354217e51b24524",
         "order": 1,
+        "group": "8354217e51b24524",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -68987,8 +68951,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "f0a178ab0a6d0b14",
         "order": 1,
+        "group": "f0a178ab0a6d0b14",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69057,8 +69021,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "d7027b6d471634a1",
         "order": 1,
+        "group": "d7027b6d471634a1",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69127,8 +69091,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "2a978398308ddc2f",
         "order": 1,
+        "group": "2a978398308ddc2f",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69197,8 +69161,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "114092cca07d1b8b",
         "order": 1,
+        "group": "114092cca07d1b8b",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69267,8 +69231,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "4190699f61725da4",
         "order": 2,
+        "group": "4190699f61725da4",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69337,8 +69301,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "73d37e5b1f2a302a",
         "order": 1,
+        "group": "73d37e5b1f2a302a",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -69407,8 +69371,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "group": "119384c85617742d",
         "order": 1,
+        "group": "119384c85617742d",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -70372,7 +70336,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo pkill chromium",
+        "command": "echo Slacol1234 | sudo -S pkill chromium",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -70463,7 +70427,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo systemctl restart kiosk",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -70471,7 +70435,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 1840,
+        "x": 1910,
         "y": 1200,
         "wires": [
             [],
@@ -82579,7 +82543,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 180,
+        "x": 190,
         "y": 620,
         "wires": [
             [
@@ -82616,7 +82580,7 @@
             "8154334e1409fab8",
             "fd1107c6dffffad4"
         ],
-        "x": 75,
+        "x": 85,
         "y": 620,
         "wires": [
             [
@@ -82636,7 +82600,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
+        "x": 1300,
         "y": 1120,
         "wires": [
             [
@@ -82654,7 +82618,7 @@
             "6e6cb98013f380e8",
             "24994e23766d040a"
         ],
-        "x": 1415,
+        "x": 1425,
         "y": 620,
         "wires": []
     },
@@ -82710,7 +82674,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 420,
         "wires": [
             [
@@ -83350,14 +83314,14 @@
         "z": "6a1ef6a7aef873a7",
         "g": "107381298b97c974",
         "name": "MaxMinDesplazamientoSuperficie",
-        "func": "var Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||[];\nvar PosVdesmayor = 0, PosVdesmin = 0, Max_Desp = 0, Min_Desp = 0;\n\nif (Desp_CD != []){\n    Max_Desp = Desp_CD[0];\n    Min_Desp = Desp_CD[0];\n}else{\n    node.status({fill:\"red\",shape:\"ring\",text:\"NoData\"});\n}\n\nfor (let i = 0; i < Desp_CD.length; i++) {\n    if (Desp_CD[i] > Max_Desp) {// Determina el maximo valor\n        Max_Desp = Desp_CD[i];\n        PosVdesmayor = i;\n    }\n    if (Desp_CD[i] < Min_Desp) {// Determina el minimo valor\n        Min_Desp = Desp_CD[i];\n        PosVdesmin = i;\n    }\n}\n\nMax_Desp = parseFloat(Max_Desp.toFixed(4));//redondeo a 4 cifras decimales\nMin_Desp = parseFloat(Min_Desp.toFixed(4));//redondeo a 4 cifras decimales\nnode.status({fill:\"green\",shape:\"ring\",text:\"MAx:\"+ Max_Desp + \" Min:\" + Min_Desp});\nglobal.set(\"Dinagrama.superficie.Max_Desp\", Max_Desp)\nglobal.set(\"Dinagrama.superficie.Min_Desp\", Min_Desp)\nglobal.set(\"Dinagrama.superficie.PosVdesmayor\", PosVdesmayor)\nglobal.set(\"Dinagrama.superficie.PosVdesmin\", PosVdesmin)\n\nreturn msg;",
+        "func": "var Desp_CD = global.get(\"Dinagrama.superficie.Desp_CD\")||[0];\nvar PosVdesmayor = 0, PosVdesmin = 0, Max_Desp = 0, Min_Desp = 0;\nvar Max_Desp = Math.max(...Desp_CD);\nvar Min_Desp = Math.max(...Desp_CD);\nnode.status({fill:\"green\",shape:\"ring\",text:\"Max:\"+ Max_Desp + \" Min:\" + Min_Desp});\nglobal.set(\"Dinagrama.superficie.Max_Desp\", Max_Desp)\nglobal.set(\"Dinagrama.superficie.Min_Desp\", Min_Desp)\nglobal.set(\"Dinagrama.superficie.PosVdesmayor\", PosVdesmayor)\nglobal.set(\"Dinagrama.superficie.PosVdesmin\", PosVdesmin)\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
-        "y": 1540,
+        "x": 950,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -83372,8 +83336,8 @@
             "4456b445ce3c4dfc",
             "ad87cee4.7dbb5"
         ],
-        "x": 375,
-        "y": 1540,
+        "x": 385,
+        "y": 1260,
         "wires": [
             [
                 "1d8939469bf38097"
@@ -83392,8 +83356,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 350,
-        "y": 1580,
+        "x": 360,
+        "y": 1300,
         "wires": [
             [
                 "1d8939469bf38097"
@@ -83418,8 +83382,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 760,
-        "y": 1540,
+        "x": 730,
+        "y": 1260,
         "wires": [
             [
                 "aa463aa620d9836f"
@@ -83501,8 +83465,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 350,
-        "y": 1680,
+        "x": 360,
+        "y": 1400,
         "wires": [
             [
                 "f9bc6c1e0ee8166f"
@@ -83527,8 +83491,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 600,
-        "y": 1680,
+        "x": 610,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -83545,7 +83509,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
+        "x": 1100,
         "y": 420,
         "wires": [
             [
@@ -83678,7 +83642,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 340,
+        "x": 350,
         "y": 1020,
         "wires": [
             [
@@ -83698,7 +83662,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
+        "x": 890,
         "y": 1020,
         "wires": [
             [
@@ -83802,7 +83766,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1280,
         "y": 420,
         "wires": [
             [
@@ -83822,7 +83786,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 830,
         "y": 780,
         "wires": [
             [
@@ -83842,7 +83806,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
+        "x": 1030,
         "y": 780,
         "wires": [
             [
@@ -83862,7 +83826,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 780,
         "wires": [
             [
@@ -83882,7 +83846,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 670,
         "y": 780,
         "wires": [
             [
@@ -83908,7 +83872,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 780,
         "wires": [
             [
@@ -83928,7 +83892,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
+        "x": 660,
         "y": 1020,
         "wires": [
             [
@@ -83948,7 +83912,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
+        "x": 900,
         "y": 420,
         "wires": [
             [
@@ -83968,7 +83932,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1280,
         "y": 1020,
         "wires": [
             [
@@ -83989,7 +83953,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 330,
+        "x": 340,
         "y": 1120,
         "wires": [
             [
@@ -84018,8 +83982,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 560,
-        "y": 1540,
+        "x": 570,
+        "y": 1260,
         "wires": [
             [
                 "5c4af827690ff74e"
@@ -84062,7 +84026,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 780,
         "wires": [
             [
@@ -84088,7 +84052,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 420,
         "wires": [
             [
@@ -84114,7 +84078,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 880,
         "wires": [
             [
@@ -84134,7 +84098,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 670,
         "y": 880,
         "wires": [
             [
@@ -84154,7 +84118,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
+        "x": 840,
         "y": 880,
         "wires": [
             [
@@ -84174,7 +84138,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 1050,
         "y": 880,
         "wires": [
             [
@@ -84194,7 +84158,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 880,
         "wires": [
             [
@@ -84215,7 +84179,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 530,
+        "x": 540,
         "y": 920,
         "wires": [
             [
@@ -84241,7 +84205,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 880,
         "wires": [
             [
@@ -84267,7 +84231,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 520,
         "wires": [
             [
@@ -84293,7 +84257,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 520,
         "wires": [
             [
@@ -84313,7 +84277,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 910,
         "y": 520,
         "wires": [
             [
@@ -84334,7 +84298,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 730,
+        "x": 740,
         "y": 540,
         "wires": [
             [
@@ -84354,7 +84318,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 520,
         "wires": [
             [
@@ -84374,7 +84338,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1090,
+        "x": 1100,
         "y": 1160,
         "wires": [
             [
@@ -84527,7 +84491,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1320,
         "y": 1160,
         "wires": [
             [
@@ -85459,7 +85423,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo rm -r /home/bcpgrp/node_modules/swcpro-images  ",
+        "command": "echo Slacol1234 | sudo -S rm -r /home/bcpgrp/node_modules/swcpro-images  ",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85480,7 +85444,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/swcpro-images /home/bcpgrp/node_modules",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/swcpro-images /home/bcpgrp/node_modules",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85566,7 +85530,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "rm -r /home/bcpgrp/node_modules/SocketRodPoint",
+        "command": "echo Slacol1234 | sudo -S rm -r /home/bcpgrp/node_modules/SocketRodPoint",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85587,7 +85551,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/SocketRodPoint /home/bcpgrp/node_modules",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/SocketRodPoint /home/bcpgrp/node_modules",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85661,14 +85625,15 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S  systemctl restart nodered",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 1040,
+        "name": "Reiniciar NodeRed",
+        "x": 1030,
         "y": 900,
         "wires": [
             [],
@@ -85821,6 +85786,55 @@
         "wires": [
             [
                 "bf78878c2ca4221a"
+            ]
+        ]
+    },
+    {
+        "id": "3c865c9edbb366f2",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "command": "echo Slacol1234 | sudo -S reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reiniciar NodeRed",
+        "x": 1030,
+        "y": 980,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5b352a8ceaa38d70",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 980,
+        "wires": [
+            [
+                "3c865c9edbb366f2"
             ]
         ]
     },
@@ -98130,8 +98144,8 @@
         "id": "0c15d438d2d45b30",
         "type": "ui_led",
         "z": "5ba456fee41e0d30",
-        "group": "cb687524409f9560",
         "order": 2,
+        "group": "cb687524409f9560",
         "width": "5",
         "height": "1",
         "label": "{{msg.payload}}",
@@ -100398,8 +100412,8 @@
         "type": "ui_led",
         "z": "09f9d2468d70d96a",
         "g": "42578aaca1306cfe",
-        "group": "075b122ac02156b8",
         "order": 9,
+        "group": "075b122ac02156b8",
         "width": 0,
         "height": 0,
         "label": "Rotador",
