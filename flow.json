@@ -1598,9 +1598,7 @@
             "a553cb02d3dd2a37"
         ],
         "x": 24,
-        "y": 639,
-        "w": 522,
-        "h": 242
+        "y": 639
     },
     {
         "id": "6abd418f.d175b",
@@ -1615,9 +1613,7 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23,
-        "w": 1754,
-        "h": 444
+        "y": 23
     },
     {
         "id": "8c207e440fb46f33",
@@ -1633,9 +1629,7 @@
             "9f77b0d829ad914b"
         ],
         "x": 24,
-        "y": 899,
-        "w": 282,
-        "h": 82
+        "y": 899
     },
     {
         "id": "e29eaee41e038edd",
@@ -3941,7 +3935,9 @@
             "d7691b30c25e59ef"
         ],
         "x": 164,
-        "y": 59
+        "y": 59,
+        "w": 802,
+        "h": 202
     },
     {
         "id": "312e757f2ddba8e5",
@@ -4005,7 +4001,9 @@
             "20d0230dc20dda52"
         ],
         "x": 154,
-        "y": 439
+        "y": 439,
+        "w": 1022,
+        "h": 262
     },
     {
         "id": "bd8b31477127547e",
@@ -4119,7 +4117,9 @@
             "eecf0c698059189c"
         ],
         "x": 154,
-        "y": 279
+        "y": 279,
+        "w": 1092,
+        "h": 142
     },
     {
         "id": "54db5b7c5be42ae3",
@@ -4329,7 +4329,9 @@
             "c38afea1ca0461e4"
         ],
         "x": 148,
-        "y": 713
+        "y": 713,
+        "w": 738,
+        "h": 288
     },
     {
         "id": "d929d138.3b512",
@@ -5584,9 +5586,7 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49,
-        "w": 1422,
-        "h": 212
+        "y": 49
     },
     {
         "id": "b2f2659a.67f648",
@@ -5616,9 +5616,7 @@
             "be13aab248bfe2b8"
         ],
         "x": 44,
-        "y": 269,
-        "w": 1702,
-        "h": 172
+        "y": 269
     },
     {
         "id": "e2589faa.5b6d2",
@@ -6498,7 +6496,9 @@
             "d4da91ffe3513bcb"
         ],
         "x": 174,
-        "y": 739
+        "y": 739,
+        "w": 392,
+        "h": 162
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -7570,6 +7570,49 @@
         ],
         "x": 614,
         "y": 689
+    },
+    {
+        "id": "55120cb05ac303cb",
+        "type": "group",
+        "z": "8ba0552a.e27ca8",
+        "name": "Apex Chart Libreria adicionar",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "c2a3696a8e7f6a9b",
+            "31aa1e3bbc8eeba6",
+            "7b1f9952f0467e8e",
+            "846fb01661b6d7ee"
+        ],
+        "x": 1314,
+        "y": 591.5,
+        "w": 472,
+        "h": 157
+    },
+    {
+        "id": "7e27ce54dfda763f",
+        "type": "group",
+        "z": "ba668bc685d26b37",
+        "name": "Gráfica IPR",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "fill": "#dbcbe7"
+        },
+        "nodes": [
+            "6eaade4fa6836a8a",
+            "9a48db161a5cf680",
+            "bd4d565ba480b6b5",
+            "33cd7c6a119fbee9",
+            "e85a532c6d643d67",
+            "6cacda3727810303"
+        ],
+        "x": 214,
+        "y": 1199,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "d25d405a.19cff",
@@ -10089,6 +10132,28 @@
         "order": 5,
         "width": 5,
         "height": 1
+    },
+    {
+        "id": "d5835163998e7315",
+        "type": "ui_group",
+        "name": "IWOC",
+        "tab": "f7563779dea6779f",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c44dca59f86e1dd4",
+        "type": "ui_group",
+        "name": "IPR",
+        "tab": "f7563779dea6779f",
+        "order": 6,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "8c24ec8f.cf43c",
@@ -86050,6 +86115,95 @@
         ]
     },
     {
+        "id": "c2a3696a8e7f6a9b",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "55120cb05ac303cb",
+        "command": " sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/apexcharts /home/bcpgrp/node_modules",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "apexChart",
+        "x": 1670,
+        "y": 640,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "31aa1e3bbc8eeba6",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "g": "55120cb05ac303cb",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1410,
+        "y": 640,
+        "wires": [
+            [
+                "c2a3696a8e7f6a9b",
+                "7b1f9952f0467e8e"
+            ]
+        ]
+    },
+    {
+        "id": "7b1f9952f0467e8e",
+        "type": "delay",
+        "z": "8ba0552a.e27ca8",
+        "g": "55120cb05ac303cb",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1490,
+        "y": 700,
+        "wires": [
+            [
+                "846fb01661b6d7ee"
+            ]
+        ]
+    },
+    {
+        "id": "846fb01661b6d7ee",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "g": "55120cb05ac303cb",
+        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/apexcharts /root/.node-red/node_modules",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "apexChart root",
+        "x": 1680,
+        "y": 700,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
         "id": "defd3e342b141f52",
         "type": "ui_text_input",
         "z": "f62fcef222e9a4a3",
@@ -97351,8 +97505,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 1000,
+        "x": 420,
+        "y": 960,
         "wires": [
             [
                 "d696902aacb127e7"
@@ -97371,8 +97525,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n    \n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 580,
-        "y": 1000,
+        "x": 600,
+        "y": 960,
         "wires": [
             [
                 "e1ed5b30048627ac"
@@ -97395,8 +97549,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 740,
-        "y": 1000,
+        "x": 780,
+        "y": 960,
         "wires": [
             []
         ]
@@ -97420,6 +97574,128 @@
             [
                 "0ddd267b2c13f165"
             ]
+        ]
+    },
+    {
+        "id": "6eaade4fa6836a8a",
+        "type": "template",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "name": "Bootstrap",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <div class=\"disable-select\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center\" style=\"background-color:#fcfcfc;\">\n                <div class=\"co-12\">{{{chart}}}</div>\n            </div>\n        </div>\n    </div>\n  </body>\n  <script src=\"http://localhost:1880/apexcharts/dist/apexcharts.js\"></script>\n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "output": "str",
+        "x": 720,
+        "y": 1240,
+        "wires": [
+            [
+                "33cd7c6a119fbee9"
+            ]
+        ]
+    },
+    {
+        "id": "9a48db161a5cf680",
+        "type": "function",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "name": "",
+        "func": "/* Declaración de datos \nAPI         = 30;   \nPy          = 3000; //psi\nPb          = 1200;  //psi\nPcrit       = 1050; // psi\nPwf_P       = 750;  //psi \nQ_p         = 2300; //BPD\nBSW         = 98;   //%\nT_fluido    = 160;  // °F\nDens_Agua   = 8.33; //ppg \nProf_Intake = 4000; //ft\nProf_Sensor = 4030; //ft\nPMP         = 4500; //FT\nPIP_Sensor  = 750; //psi\nPCasing     = 0;   //psi\n*/\nvar Analog = global.get(\"DownHoleData\",\"memoryOnly\")||[];\n\n// ESTADO MECANICO\nvar PMP             = global.get(\"IWOC.ESTADO_MECANICO.PMP\")||4500;\nvar Prof_Discharge  = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_descarga\")||0;\nvar Prof_Sensor     = global.get(\"IWOC.ESTADO_MECANICO.Prof_Sensor\")||4030;\nvar Prof_Intake     = global.get(\"IWOC.ESTADO_MECANICO.Profundidad_de_entrada\")||4000;\n\n// PROPIEDADES DE FLUIDO\nvar API             = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.API\")||30;\nvar T_fluido        = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Temperatura_de_fondo\")||160;\nvar Dens_Agua       = global.get(\"IWOC.PROPIEDADES_DE_FLUIDO.Densidad_del_agua\")||8.33;\n\n// PRUEBA DE PRODUCCION\nvar Pwf_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.PWF_Prueba\")||750;\nvar BSW             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.BSW_Prueba\")||98;\nvar Q_p             = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Q_Prueba\")||2300;\nvar Vel_P           = global.get(\"IWOC.PRUEBA_DE_PRODUCCION.Velociad_de_prueba\")||0;\n\n// DATOS PARA IPR\nvar Py              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_yacimiento\")||2500;\nvar Pcrit           = global.get(\"IWOC.DATOS_PARA_IPR.PWF_Critica\")||1050;\nvar Pb              = global.get(\"IWOC.DATOS_PARA_IPR.Presion_de_burbuja\")||1200;\n\n//var PIP_Sensor      = Analog.DHS[\"Presión de entrada\"]||Analog.AI[\"Presión de entrada\"];\nvar PIP_Sensor = 750; //psi\n\nvar PCasing         = 0;\n\nnode.status({fill:\"green\",shape:\"dot\",text:PIP_Sensor});\n\nvar AxisX = [];\nvar AxisY = [];\n/*\n    Paso No. 1: Se halla Gradiente de Presión corregido por \n    temperatura y %BSW a partir de la Gravedad Específica (GE)\n    del crudo usando gravedad API del crudo.\n*/\n\nvar GE = 141.5/(131.5 + API);\n\n/*\n    Paso No. 2: Hallar valores de alfa y beta según la gravedad \n    específica (GE) siguiendo lo que indica la tabla abajo:\n*/\n\nif(GE<0.63){\n    var Alfa = 0.00097;\n    var Beta = -0.0000004;\n}\nelse if((GE<0.78) && (GE>=0.63)){\n    var Alfa = (0.00097+(GE-0.63))*((0.00075-0.00097)/(0.78-0.63));\n    var Beta = (0.0000004 + (GE-0.63))*(0.0000004/(0.78-0.63));\n}\nelse if((GE<0.85)&&(GE>=0.78)){\n    var Alfa = (0.00075+(GE-0.75))*((0.00068-0.00075)/(0.85-0.78));\n    var Beta = (0 + (GE-0.75))*(0.0000001/(0.85-0.78));\n}\nelse if((GE<0.95)&&(GE>=0.85)){\n    var Alfa = (0.00068+(GE-0.85))*((0.00066-0.00068)/(0.95-0.85));\n    var Beta = (0.0000001 + (GE-0.85))*((0.0000001-0.0000003)/(0.95-0.85));\n}   \nelse if(GE>=0.95){\n    var Alfa = 0.00066;\n    var Beta = -0.0000003;\n}\nvar Grv_TFondo      = GE - (Alfa*(T_fluido-15.556))+(Beta*Math.pow((T_fluido-15.556), 2));\nvar Grv_TFondoBSW   = (((100-BSW)/100)*Grv_TFondo) + ((BSW/100)*(Dens_Agua/8.345))\n\n/*\n    Paso No. 3: Hallar el Gradiente de presión corregido\n*/\n\nvar VP = 0.433*Grv_TFondoBSW\n\n/*\n    Paso No. 4: Cálculo de PIP en iWOC según tres escenarios\n    \n    •\tEscenario No. 1: Cálculo de Variables en Función del Sensor de Fondo\n\n        Cálculo de PIP, PWF y Sumergencia líquida cuando la Fuente de Medición es un sensor de fondo.\n*/\n\nvar PIP_real    = PIP_Sensor + ((Prof_Intake - Prof_Sensor)*VP);\nvar Pwf         = PIP_Sensor + ((PMP - Prof_Sensor)*VP);\nvar Sum_Liq     = (PIP_real- PCasing)/ VP;\n\n/*\n    Paso No. 5: Cálculo de Caudales\n*/    \n/* Yacimiento Subsaturado*/\nif(Py>Pb){\n    if(Pwf>Pb){\n        var IP = Q_p/(Py-Pwf_P);\n        //node.send()\n    }\n    else{\n        IP = Q_p/(Py - Pb + (Pb/1.8)*(1-(0.2*(Pwf/Pb))-0.8*(Math.pow((Pwf/Pb),2))))\n    }\n    \n    var Qb      = IP * (Py - Pb);\n    var Qmax    = Qb + (IP*Pb/1.8);\n    var N       = 80;\n    \n    for (var i = 80; i >= 0;i--){\n        var Pwf_G = (Py*i/N);\n        if(Pwf_G>Pb){\n            var Qg = IP *(Py- Pwf_G);\n        }\n        else{       \n            Qg = Qb + (Qmax - Qb) * (1 - (0.2 * (Pwf_G / Pb)) - (0.8 * ((Pwf_G / Pb) * (Pwf_G / Pb))));\n        }\n        AxisX.push(Qg);\n        AxisY.push(Pwf_G);\n    }\n    /*\n        Cálculo Caudal actual Qo\n    */\n    if(Pwf>Pb){\n        var Q0 = IP *(Py- Pwf);    \n    }\n    else{       \n        var Q0 = Qb + (Qmax - Qb) * (1 - (0.2 * (Pwf / Pb)) - (0.8 * ((Pwf / Pb) * (Pwf / Pb))));\n    }\n}\n\nmsg.payload = {\n    'AxisX' : AxisX,\n    'AxisY' : AxisY,\n    'Pcrit' : Pcrit,\n    'Q0'    : Q0,\n    'Pwf'   : Pwf\n};\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1240,
+        "wires": [
+            [
+                "bd4d565ba480b6b5",
+                "6cacda3727810303"
+            ]
+        ]
+    },
+    {
+        "id": "bd4d565ba480b6b5",
+        "type": "template",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "name": "IPR Chart",
+        "field": "chart",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div id=\"chart\"></div>\n<script>\n    var options = {\n            series:[{\n                name: \"Presión de fondo fluyente (PWF)\",\n                data: [{{payload.AxisY}}]\n            }],\n            chart:{\n                height: 330,\n                width: 720,\n                type: 'line',\n                id: 'areachart-2',\n                toolbar:{\n                    show: false\n                },\n                animations:{\n                    enabled: false\n                }\n            },\n            annotations:{\n                yaxis:[\n                    {\n                        y: {{payload.Pcrit}},\n                        borderColor: '#c71e1e',\n                        label:{\n                            borderColor:'#c71e1e',\n                            position: 'left',\n                            position: 'top',\n                            offsetX: 90,\n                            offsetY: 0,                        \n                            style: {\n                                color:'#fff',\n                                background:'#000000',\n                                fontSize: '14px',\n                            },\n                            text:'Pc: ' + ({{payload.Pcrit}}).toFixed(2) + ' psi',\n                        }\n                    }, \n                    {\n                        y: {{payload.Pwf}},\n                        borderColor: '#c71e1e',\n                        label: {\n                            borderColor: '#c71e1e',\n                            offsetX: 0,\n                            offsetY: 15,\n                            style:{\n                                color: '#fff',\n                                background: '#000000',\n                                fontSize: '14px',\n                            },\n                            text: 'Pwf: ' + ({{payload.Pwf}}).toFixed(2) + ' psi',\n                        }\n                    }\n                ],\n                xaxis:[\n                    {\n                        x: {{payload.Q0}},\n                        strokeDashArray: 0,\n                        borderColor: '#775DD0',\n                        label:{\n                            borderColor: '#775DD0',\n                            style:{\n                                color: '#fff',\n                                background: '#775DD0',\n                                fontSize: '14px',\n                            },\n                            text: 'Caudal: ' + ({{payload.Q0}}).toFixed(0) + ' BPD' \n                        }\n                    }\n                ],\n                points:[{\n                    x: {{payload.Q0}},\n                    y: {{payload.Pwf}},\n                    marker: {\n                        size: 5,\n                        fillColor: '#32499d',\n                        strokeColor: '#2b2b2b',\n                        radius: 2,\n                        cssClass: 'apexcharts-custom-class'\n                    },\n                    label:{\n                        borderColor: '#2b2b2b',\n                        offsetX: -17,\n                        offsetY: 40,                        \n                        style:{\n                            color: '#fff',\n                            background: '#2b2b2b',\n                            fontSize: '14px',\n                        },\n                        text: 'Q'\n                    }\n                }]\n            },\n            tooltip:{\n                enabled: true\n            },\n            dataLabels:{\n                enabled: false\n            },\n            stroke:{\n                curve: 'straight',\n                width: [3]\n            },\n            grid:{\n                padding:{\n                    right: 30,\n                    left: 20\n                }\n            },\n            //title:{\n            //    text: 'Gráfica IPR',\n            //    align: 'center'\n            //},\n            colors: [\"#c71e1e\"],\n            xaxis:{\n                type: 'numeric',\n                show: true,\n                categories: [{{payload.AxisX}}],\n                title:{\n                    text:\"Caudal [BPD]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                }\n            },\n            yaxis:{\n                title: {\n                    text: \"Presión [psi]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                },\n            }            \n    };\n    \n    var chart = new ApexCharts(document.querySelector(\"#chart\"), options);\n    chart.render();\n</script>\n",
+        "output": "str",
+        "x": 580,
+        "y": 1240,
+        "wires": [
+            [
+                "6eaade4fa6836a8a"
+            ]
+        ]
+    },
+    {
+        "id": "33cd7c6a119fbee9",
+        "type": "ui_template",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "group": "c44dca59f86e1dd4",
+        "name": "grafico",
+        "order": 0,
+        "width": "12",
+        "height": "9",
+        "format": "<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 870,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e85a532c6d643d67",
+        "type": "inject",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 310,
+        "y": 1240,
+        "wires": [
+            [
+                "9a48db161a5cf680"
+            ]
+        ]
+    },
+    {
+        "id": "6cacda3727810303",
+        "type": "template",
+        "z": "ba668bc685d26b37",
+        "g": "7e27ce54dfda763f",
+        "name": "Desktop",
+        "field": "chart",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<div id=\"chart\"></div>\n<script>\n    var options = {\n          series: [{\n            name: \"Desktops\",\n            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]\n        }],\n          chart: {\n          height: 350,\n          type: 'line',\n          zoom: {\n            enabled: false\n          }\n        },\n        dataLabels: {\n          enabled: false\n        },\n        stroke: {\n          curve: 'straight'\n        },\n        title: {\n          text: 'Product Trends by Month',\n          align: 'left'\n        },\n        grid: {\n          row: {\n            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns\n            opacity: 0.5\n          },\n        },\n        xaxis: {\n          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],\n        }\n        };\n\n        var chart = new ApexCharts(document.querySelector(\"#chart\"), options);\n        chart.render();\n</script>\n",
+        "output": "str",
+        "x": 580,
+        "y": 1280,
+        "wires": [
+            []
         ]
     },
     {
