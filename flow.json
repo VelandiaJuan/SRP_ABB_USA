@@ -2615,9 +2615,7 @@
             "5791ad35584a5a82"
         ],
         "x": 1754,
-        "y": 59,
-        "w": 532,
-        "h": 242
+        "y": 59
     },
     {
         "id": "854b667853465d2b",
@@ -2634,9 +2632,7 @@
             "381f2e27385db5e4"
         ],
         "x": 44,
-        "y": 79,
-        "w": 342,
-        "h": 142
+        "y": 79
     },
     {
         "id": "a063560e4a0a3bf1",
@@ -2672,9 +2668,7 @@
             "de06d33608ea1299"
         ],
         "x": 1754,
-        "y": 959,
-        "w": 642,
-        "h": 582
+        "y": 959
     },
     {
         "id": "a0b84f94a6510eee",
@@ -3710,9 +3704,7 @@
             "afc303276a2ad6e5"
         ],
         "x": 1754,
-        "y": 1659,
-        "w": 1052,
-        "h": 202
+        "y": 1659
     },
     {
         "id": "56a92b2a688064b3",
@@ -3782,9 +3774,7 @@
             "661da3109cbc4a60"
         ],
         "x": 1754,
-        "y": 1559,
-        "w": 422,
-        "h": 82
+        "y": 1559
     },
     {
         "id": "936eab7d97be78af",
@@ -3969,9 +3959,7 @@
             "d7691b30c25e59ef"
         ],
         "x": 164,
-        "y": 59,
-        "w": 802,
-        "h": 202
+        "y": 59
     },
     {
         "id": "312e757f2ddba8e5",
@@ -4035,9 +4023,7 @@
             "20d0230dc20dda52"
         ],
         "x": 154,
-        "y": 439,
-        "w": 1022,
-        "h": 262
+        "y": 439
     },
     {
         "id": "bd8b31477127547e",
@@ -4092,9 +4078,7 @@
             "385ce480fec3aed2"
         ],
         "x": 274,
-        "y": 599,
-        "w": 892,
-        "h": 122
+        "y": 599
     },
     {
         "id": "8a1f4d0355f4810c",
@@ -4153,9 +4137,7 @@
             "eecf0c698059189c"
         ],
         "x": 154,
-        "y": 279,
-        "w": 1092,
-        "h": 142
+        "y": 279
     },
     {
         "id": "54db5b7c5be42ae3",
@@ -6424,10 +6406,8 @@
             "2afcec54429c999b",
             "a7c3591cf57f8b42"
         ],
-        "x": 274,
-        "y": 379,
-        "w": 1092,
-        "h": 82
+        "x": 284,
+        "y": 379
     },
     {
         "id": "1890edb26547f550",
@@ -6446,10 +6426,8 @@
             "cae14a8f115a7cd4",
             "746411017686ca1f"
         ],
-        "x": 274,
-        "y": 739,
-        "w": 1092,
-        "h": 82
+        "x": 284,
+        "y": 739
     },
     {
         "id": "d5915f4e78b72625",
@@ -6466,10 +6444,8 @@
             "687ac45de63d5718",
             "964378278d11b0bf"
         ],
-        "x": 254,
-        "y": 1079,
-        "w": 1132,
-        "h": 122
+        "x": 264,
+        "y": 1079
     },
     {
         "id": "409d642cdfcc7b21",
@@ -6507,10 +6483,8 @@
             "e77049f5403abbe2",
             "4f172defeb57ca57"
         ],
-        "x": 274,
-        "y": 839,
-        "w": 1092,
-        "h": 122
+        "x": 284,
+        "y": 839
     },
     {
         "id": "49ad3d6dfae9966b",
@@ -6527,10 +6501,8 @@
             "470d01fd9e70c216",
             "b9aa922292495d63"
         ],
-        "x": 254,
-        "y": 979,
-        "w": 1112,
-        "h": 82
+        "x": 264,
+        "y": 979
     },
     {
         "id": "d8b35a131ec512b5",
@@ -6548,10 +6520,8 @@
             "271eb002b7c8dc66",
             "5f081c1b76be3af8"
         ],
-        "x": 274,
-        "y": 479,
-        "w": 1092,
-        "h": 102
+        "x": 284,
+        "y": 479
     },
     {
         "id": "c74139c64744f8c1",
@@ -6571,9 +6541,7 @@
             "d4da91ffe3513bcb"
         ],
         "x": 174,
-        "y": 739,
-        "w": 392,
-        "h": 162
+        "y": 739
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -12912,8 +12880,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
-        "group": "4f5b8416.cada1c",
         "order": 1,
+        "group": "4f5b8416.cada1c",
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -19368,8 +19336,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 11,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "PocTimered",
@@ -19458,8 +19426,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "group": "e5ec1549.1923c8",
         "order": 10,
+        "group": "e5ec1549.1923c8",
         "width": 3,
         "height": 1,
         "label": "PocFondo",
@@ -53695,8 +53663,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
-        "group": "999747fd.0e43c8",
         "order": 15,
+        "group": "999747fd.0e43c8",
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -53781,8 +53749,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
-        "group": "9457c46f.d710c8",
         "order": 15,
+        "group": "9457c46f.d710c8",
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -66614,7 +66582,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo systemctl restart kiosk",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -66622,7 +66590,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 1840,
+        "x": 1910,
         "y": 1060,
         "wires": [
             [],
@@ -71160,7 +71128,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo pkill chromium",
+        "command": "echo Slacol1234 | sudo -S pkill chromium",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -71251,7 +71219,7 @@
         "type": "exec",
         "z": "2e27dea6.c4c362",
         "g": "1d0c3cb2.7129f3",
-        "command": "sudo systemctl restart kiosk",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -71259,7 +71227,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 1840,
+        "x": 1910,
         "y": 1200,
         "wires": [
             [],
@@ -83434,7 +83402,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 180,
+        "x": 190,
         "y": 620,
         "wires": [
             [
@@ -83471,7 +83439,7 @@
             "8154334e1409fab8",
             "fd1107c6dffffad4"
         ],
-        "x": 75,
+        "x": 85,
         "y": 620,
         "wires": [
             [
@@ -83491,7 +83459,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1290,
+        "x": 1300,
         "y": 1120,
         "wires": [
             [
@@ -83509,7 +83477,7 @@
             "6e6cb98013f380e8",
             "24994e23766d040a"
         ],
-        "x": 1415,
+        "x": 1425,
         "y": 620,
         "wires": []
     },
@@ -83565,7 +83533,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 420,
         "wires": [
             [
@@ -84400,7 +84368,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1090,
+        "x": 1100,
         "y": 420,
         "wires": [
             [
@@ -84533,7 +84501,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 340,
+        "x": 350,
         "y": 1020,
         "wires": [
             [
@@ -84553,7 +84521,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
+        "x": 890,
         "y": 1020,
         "wires": [
             [
@@ -84657,7 +84625,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1280,
         "y": 420,
         "wires": [
             [
@@ -84677,7 +84645,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 830,
         "y": 780,
         "wires": [
             [
@@ -84697,7 +84665,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
+        "x": 1030,
         "y": 780,
         "wires": [
             [
@@ -84717,7 +84685,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 780,
         "wires": [
             [
@@ -84737,7 +84705,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 670,
         "y": 780,
         "wires": [
             [
@@ -84763,7 +84731,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 780,
         "wires": [
             [
@@ -84783,7 +84751,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
+        "x": 660,
         "y": 1020,
         "wires": [
             [
@@ -84803,7 +84771,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 890,
+        "x": 900,
         "y": 420,
         "wires": [
             [
@@ -84823,7 +84791,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
+        "x": 1280,
         "y": 1020,
         "wires": [
             [
@@ -84844,7 +84812,7 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 330,
+        "x": 340,
         "y": 1120,
         "wires": [
             [
@@ -84917,7 +84885,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 780,
         "wires": [
             [
@@ -84943,7 +84911,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 420,
         "wires": [
             [
@@ -84969,7 +84937,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 880,
         "wires": [
             [
@@ -84989,7 +84957,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
+        "x": 670,
         "y": 880,
         "wires": [
             [
@@ -85009,7 +84977,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
+        "x": 840,
         "y": 880,
         "wires": [
             [
@@ -85029,7 +84997,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 1050,
         "y": 880,
         "wires": [
             [
@@ -85049,7 +85017,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 880,
         "wires": [
             [
@@ -85070,7 +85038,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 530,
+        "x": 540,
         "y": 920,
         "wires": [
             [
@@ -85096,7 +85064,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 880,
         "wires": [
             [
@@ -85122,7 +85090,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 360,
+        "x": 370,
         "y": 520,
         "wires": [
             [
@@ -85148,7 +85116,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
+        "x": 520,
         "y": 520,
         "wires": [
             [
@@ -85168,7 +85136,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 910,
         "y": 520,
         "wires": [
             [
@@ -85189,7 +85157,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 730,
+        "x": 740,
         "y": 540,
         "wires": [
             [
@@ -85209,7 +85177,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1250,
+        "x": 1260,
         "y": 520,
         "wires": [
             [
@@ -85229,7 +85197,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 1090,
+        "x": 1100,
         "y": 1160,
         "wires": [
             [
@@ -85382,7 +85350,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
+        "x": 1320,
         "y": 1160,
         "wires": [
             [
@@ -85421,7 +85389,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "23c99fd.b16886",
-        "command": "sudo rm /root/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "command": "echo Slacol1234 | sudo -S rm /root/.node-red/node_modules/nodepccc/nodePCCC.js",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85461,7 +85429,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "23c99fd.b16886",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Modules/nodePCCC.js /home/bcpgrp/node_modules/nodepccc",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Modules/nodePCCC.js /home/bcpgrp/node_modules/nodepccc",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85482,11 +85450,12 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "23c99fd.b16886",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S reboot now",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
         "name": "Reiniciar controlador",
         "x": 560,
@@ -85630,7 +85599,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "23c99fd.b16886",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Red/nodePCCC.js /root/.node-red/node_modules/nodepccc",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_AFE/Node-Red/nodePCCC.js /root/.node-red/node_modules/nodepccc",
         "addpay": "",
         "append": "",
         "useSpawn": "false",
@@ -85785,7 +85754,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
+        "command": "echo Slacol1234 | sudo -S rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon120x120.png",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85806,7 +85775,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
+        "command": "echo Slacol1234 | sudo -S rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon192x192.png",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85827,7 +85796,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
+        "command": "echo Slacol1234 | sudo -S rm -r /root/.node-red/node_modules/node-red-dashboard/dist/icon64x64.png",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85848,7 +85817,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "cacd646bcfbdbb4d",
-        "command": "sudo rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
+        "command": "echo Slacol1234 | sudo -S rm -r /root/.node-red/node_modules/node-red-dashboard/dist/index.html",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85880,7 +85849,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon120x120.png /root/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85901,7 +85870,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon192x192.png /root/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85922,7 +85891,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/icon64x64.png /root/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -85943,7 +85912,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "2282018314ee7576",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/index.html /root/.node-red/node_modules/node-red-dashboard/dist/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86098,11 +86067,12 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "2282018314ee7576",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S systemctl restart nodered",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
         "name": "Reiniciar controlador",
         "x": 500,
@@ -86144,11 +86114,12 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "224caf14924e867c",
-        "command": "sudo rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
+        "command": "echo Slacol1234 | sudo -S rm ~/.node-red/node_modules/nodepccc/nodePCCC.js",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
         "name": "Eliminar librería PCCC actual",
         "x": 1140,
@@ -86183,7 +86154,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "224caf14924e867c",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/root/nodePCCC.js /root/.node-red/node_modules/nodepccc/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/root/nodePCCC.js /root/.node-red/node_modules/nodepccc/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86204,11 +86175,12 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "224caf14924e867c",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S reboot now",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
         "name": "Reiniciar controlador",
         "x": 1240,
@@ -86267,7 +86239,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "224caf14924e867c",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/static/nodePCCC.js /home/bcpgrp/node_modules/nodepccc/",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/Variadores/LibreriaVariadoresSWC/Libreria_PCCC_PF755_6_pulsos/static/nodePCCC.js /home/bcpgrp/node_modules/nodepccc/",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86314,7 +86286,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo rm -r /home/bcpgrp/node_modules/swcpro-images  ",
+        "command": "echo Slacol1234 | sudo -S rm -r /home/bcpgrp/node_modules/swcpro-images  ",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86335,7 +86307,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/swcpro-images /home/bcpgrp/node_modules",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/Bootstrap_CSS/swcpro-images /home/bcpgrp/node_modules",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86421,7 +86393,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "rm -r /home/bcpgrp/node_modules/SocketRodPoint",
+        "command": "echo Slacol1234 | sudo -S rm -r /home/bcpgrp/node_modules/SocketRodPoint",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86442,7 +86414,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/SocketRodPoint /home/bcpgrp/node_modules",
+        "command": "echo Slacol1234 | sudo -S cp -r /home/bcpgrp/Documents/FolderSWC-C_Configuration/SWC-C/SocketRodPoint /home/bcpgrp/node_modules",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86516,14 +86488,15 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "53e48d6874bd7692",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S  systemctl restart nodered",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
-        "name": "Reiniciar controlador",
-        "x": 1040,
+        "name": "Reiniciar NodeRed",
+        "x": 1030,
         "y": 900,
         "wires": [
             [],
@@ -86562,7 +86535,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "18a6cbbba16d2578",
-        "command": "sudo sudo rm /var/crash/*",
+        "command": "echo Slacol1234 | sudo -S sudo rm /var/crash/*",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -86603,11 +86576,12 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "18a6cbbba16d2578",
-        "command": "sudo reboot now",
+        "command": "echo Slacol1234 | sudo -S reboot now",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
         "timer": "",
+        "winHide": false,
         "oldrc": false,
         "name": "Reiniciar controlador",
         "x": 1740,
@@ -86643,7 +86617,7 @@
         "type": "exec",
         "z": "8ba0552a.e27ca8",
         "g": "18a6cbbba16d2578",
-        "command": "sudo shutdown",
+        "command": "echo Slacol1234 | sudo -S shutdown",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -100108,8 +100082,8 @@
         "id": "0c15d438d2d45b30",
         "type": "ui_led",
         "z": "5ba456fee41e0d30",
-        "group": "cb687524409f9560",
         "order": 2,
+        "group": "cb687524409f9560",
         "width": "5",
         "height": "1",
         "label": "{{msg.payload}}",
@@ -102376,8 +102350,8 @@
         "type": "ui_led",
         "z": "09f9d2468d70d96a",
         "g": "42578aaca1306cfe",
-        "group": "075b122ac02156b8",
         "order": 9,
+        "group": "075b122ac02156b8",
         "width": 0,
         "height": 0,
         "label": "Rotador",
@@ -102410,5 +102384,54 @@
         "x": 430,
         "y": 60,
         "wires": []
+    },
+    {
+        "id": "3c865c9edbb366f2",
+        "type": "exec",
+        "z": "8ba0552a.e27ca8",
+        "command": "echo Slacol1234 | sudo -S reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reiniciar NodeRed",
+        "x": 1030,
+        "y": 980,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5b352a8ceaa38d70",
+        "type": "inject",
+        "z": "8ba0552a.e27ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 980,
+        "wires": [
+            [
+                "3c865c9edbb366f2"
+            ]
+        ]
     }
 ]
