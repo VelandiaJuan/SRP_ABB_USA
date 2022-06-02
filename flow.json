@@ -7609,8 +7609,8 @@
             "e85a532c6d643d67",
             "6cacda3727810303"
         ],
-        "x": 214,
-        "y": 1199,
+        "x": 314,
+        "y": 1279,
         "w": 732,
         "h": 122
     },
@@ -97588,8 +97588,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    \n  </head>\n  <body>\n    <div class=\"disable-select\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center\" style=\"background-color:#fcfcfc;\">\n                <div class=\"co-12\">{{{chart}}}</div>\n            </div>\n        </div>\n    </div>\n  </body>\n  <script src=\"http://localhost:1880/apexcharts/dist/apexcharts.js\"></script>\n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
-        "x": 720,
-        "y": 1240,
+        "x": 820,
+        "y": 1320,
         "wires": [
             [
                 "33cd7c6a119fbee9"
@@ -97608,8 +97608,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 1240,
+        "x": 540,
+        "y": 1320,
         "wires": [
             [
                 "bd4d565ba480b6b5",
@@ -97629,8 +97629,8 @@
         "syntax": "mustache",
         "template": "<div id=\"chart\"></div>\n<script>\n    var options = {\n            series:[{\n                name: \"Presión de fondo fluyente (PWF)\",\n                data: [{{payload.AxisY}}]\n            }],\n            chart:{\n                height: 330,\n                width: 720,\n                type: 'line',\n                id: 'areachart-2',\n                toolbar:{\n                    show: false\n                },\n                animations:{\n                    enabled: false\n                }\n            },\n            annotations:{\n                yaxis:[\n                    {\n                        y: {{payload.Pcrit}},\n                        borderColor: '#c71e1e',\n                        label:{\n                            borderColor:'#c71e1e',\n                            position: 'left',\n                            position: 'top',\n                            offsetX: 90,\n                            offsetY: 0,                        \n                            style: {\n                                color:'#fff',\n                                background:'#000000',\n                                fontSize: '14px',\n                            },\n                            text:'Pc: ' + ({{payload.Pcrit}}).toFixed(2) + ' psi',\n                        }\n                    }, \n                    {\n                        y: {{payload.Pwf}},\n                        borderColor: '#c71e1e',\n                        label: {\n                            borderColor: '#c71e1e',\n                            offsetX: 0,\n                            offsetY: 15,\n                            style:{\n                                color: '#fff',\n                                background: '#000000',\n                                fontSize: '14px',\n                            },\n                            text: 'Pwf: ' + ({{payload.Pwf}}).toFixed(2) + ' psi',\n                        }\n                    }\n                ],\n                xaxis:[\n                    {\n                        x: {{payload.Q0}},\n                        strokeDashArray: 0,\n                        borderColor: '#775DD0',\n                        label:{\n                            borderColor: '#775DD0',\n                            style:{\n                                color: '#fff',\n                                background: '#775DD0',\n                                fontSize: '14px',\n                            },\n                            text: 'Caudal: ' + ({{payload.Q0}}).toFixed(0) + ' BPD' \n                        }\n                    }\n                ],\n                points:[{\n                    x: {{payload.Q0}},\n                    y: {{payload.Pwf}},\n                    marker: {\n                        size: 5,\n                        fillColor: '#32499d',\n                        strokeColor: '#2b2b2b',\n                        radius: 2,\n                        cssClass: 'apexcharts-custom-class'\n                    },\n                    label:{\n                        borderColor: '#2b2b2b',\n                        offsetX: -17,\n                        offsetY: 40,                        \n                        style:{\n                            color: '#fff',\n                            background: '#2b2b2b',\n                            fontSize: '14px',\n                        },\n                        text: 'Q'\n                    }\n                }]\n            },\n            tooltip:{\n                enabled: true\n            },\n            dataLabels:{\n                enabled: false\n            },\n            stroke:{\n                curve: 'straight',\n                width: [3]\n            },\n            grid:{\n                padding:{\n                    right: 30,\n                    left: 20\n                }\n            },\n            //title:{\n            //    text: 'Gráfica IPR',\n            //    align: 'center'\n            //},\n            colors: [\"#c71e1e\"],\n            xaxis:{\n                type: 'numeric',\n                show: true,\n                categories: [{{payload.AxisX}}],\n                title:{\n                    text:\"Caudal [BPD]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                }\n            },\n            yaxis:{\n                title: {\n                    text: \"Presión [psi]\",\n                    style: {\n                        color: \"#000000\",\n                        fontSize: '14px',\n                        fontFamily: 'Helvetica, Arial, sans-serif',\n                        fontWeight: 600\n                    },\n                },\n            }            \n    };\n    \n    var chart = new ApexCharts(document.querySelector(\"#chart\"), options);\n    chart.render();\n</script>\n",
         "output": "str",
-        "x": 580,
-        "y": 1240,
+        "x": 680,
+        "y": 1320,
         "wires": [
             [
                 "6eaade4fa6836a8a"
@@ -97653,8 +97653,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 870,
-        "y": 1240,
+        "x": 970,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -97672,8 +97672,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 310,
-        "y": 1240,
+        "x": 410,
+        "y": 1320,
         "wires": [
             [
                 "9a48db161a5cf680"
@@ -97692,8 +97692,8 @@
         "syntax": "mustache",
         "template": "<div id=\"chart\"></div>\n<script>\n    var options = {\n          series: [{\n            name: \"Desktops\",\n            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]\n        }],\n          chart: {\n          height: 350,\n          type: 'line',\n          zoom: {\n            enabled: false\n          }\n        },\n        dataLabels: {\n          enabled: false\n        },\n        stroke: {\n          curve: 'straight'\n        },\n        title: {\n          text: 'Product Trends by Month',\n          align: 'left'\n        },\n        grid: {\n          row: {\n            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns\n            opacity: 0.5\n          },\n        },\n        xaxis: {\n          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],\n        }\n        };\n\n        var chart = new ApexCharts(document.querySelector(\"#chart\"), options);\n        chart.render();\n</script>\n",
         "output": "str",
-        "x": 580,
-        "y": 1280,
+        "x": 680,
+        "y": 1360,
         "wires": [
             []
         ]
