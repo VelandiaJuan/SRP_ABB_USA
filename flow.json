@@ -1598,7 +1598,9 @@
             "a553cb02d3dd2a37"
         ],
         "x": 24,
-        "y": 639
+        "y": 639,
+        "w": 522,
+        "h": 242
     },
     {
         "id": "6abd418f.d175b",
@@ -1613,7 +1615,9 @@
             "b2f2659a.67f648"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1754,
+        "h": 444
     },
     {
         "id": "8c207e440fb46f33",
@@ -1629,7 +1633,9 @@
             "9f77b0d829ad914b"
         ],
         "x": 24,
-        "y": 899
+        "y": 899,
+        "w": 282,
+        "h": 82
     },
     {
         "id": "e29eaee41e038edd",
@@ -3374,7 +3380,8 @@
         "z": "f628d2416976df44",
         "name": "Habilitar el double speed control",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "de49178bf698750e",
@@ -3398,8 +3405,8 @@
             "665ee3571d4304f3",
             "b7d8c20a44ab62b7"
         ],
-        "x": 154,
-        "y": 1279,
+        "x": 134,
+        "y": 1319,
         "w": 1002,
         "h": 282
     },
@@ -3409,7 +3416,9 @@
         "z": "f628d2416976df44",
         "name": "Adquisión de Data",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000"
         },
         "nodes": [
             "385239dde9350eb5",
@@ -3429,8 +3438,8 @@
             "4eae3e07370cb6da",
             "7858fff2ef58a324"
         ],
-        "x": 148,
-        "y": 739,
+        "x": 128,
+        "y": 779,
         "w": 1074,
         "h": 515.5
     },
@@ -3438,9 +3447,10 @@
         "id": "8ae034dd7eca71b4",
         "type": "group",
         "z": "f628d2416976df44",
-        "name": "visualizar Referencia",
+        "name": "Visualizar Referencia",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "42d63d339369b078",
@@ -3457,7 +3467,7 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1254,
-        "y": 739,
+        "y": 779,
         "w": 692,
         "h": 282
     },
@@ -3467,7 +3477,8 @@
         "z": "f628d2416976df44",
         "name": "Boton Simulacion Doble Velocidad",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "41014dd60b86791c",
@@ -3491,7 +3502,7 @@
             "1e4fb15af269d8a0"
         ],
         "x": 1254,
-        "y": 1039,
+        "y": 1079,
         "w": 1022,
         "h": 282
     },
@@ -5578,7 +5589,9 @@
             "c30439cc.4bcb68"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1422,
+        "h": 212
     },
     {
         "id": "b2f2659a.67f648",
@@ -5609,7 +5622,9 @@
             "f25e2dd8c23a3d39"
         ],
         "x": 44,
-        "y": 269
+        "y": 269,
+        "w": 1702,
+        "h": 172
     },
     {
         "id": "e2589faa.5b6d2",
@@ -6206,7 +6221,8 @@
         "g": "60dd1be9811f2cdb",
         "name": "Confirmación y Calculo de las Velocidades",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "bb0522f93b301e02",
@@ -6228,8 +6244,8 @@
             "11a10dea3b948a9d",
             "da401206ced2ccd2"
         ],
-        "x": 174,
-        "y": 999,
+        "x": 154,
+        "y": 1039,
         "w": 1022,
         "h": 229.5
     },
@@ -7685,7 +7701,7 @@
             "f23a08573b04da97"
         ],
         "x": 154,
-        "y": 1599,
+        "y": 1739,
         "w": 1212,
         "h": 282
     },
@@ -7696,7 +7712,8 @@
         "g": "a812b0d1eea23b6e",
         "name": "comandos de inicio desde la ventana principal y parada remota",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000"
         },
         "nodes": [
             "2edf0fe6bdebec75",
@@ -7704,8 +7721,8 @@
             "5785bdf4565e5a8d",
             "06adeabf8be87785"
         ],
-        "x": 164,
-        "y": 559,
+        "x": 154,
+        "y": 599,
         "w": 400,
         "h": 122
     },
@@ -7733,25 +7750,43 @@
             "a705105cd3e16c12",
             "45b85b54b60709c0",
             "ed11dd1510deec7c",
-            "34749fc8f23a7aa2",
+            "ebd60910835260a0",
+            "255510da7724568b",
+            "945e80e22a7761e3"
+        ],
+        "x": 128,
+        "y": 139,
+        "w": 1294,
+        "h": 608
+    },
+    {
+        "id": "945e80e22a7761e3",
+        "type": "group",
+        "z": "f628d2416976df44",
+        "g": "a812b0d1eea23b6e",
+        "name": "Identificacion de la subida o bajada del stroke",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "57c32beea0d4f094",
+            "556a319192f09f50",
+            "afbf144a950fd385",
             "5b90273400ccf2b5",
-            "697e958c7d438f59",
-            "5083a4631f971185",
             "feec2ff6e2c7f68c",
             "d9a6b1537fdab1bb",
-            "afbf144a950fd385",
-            "556a319192f09f50",
-            "57c32beea0d4f094",
+            "34749fc8f23a7aa2",
             "adeeae4b2a0ffe95",
-            "feff11f769a86bba",
+            "697e958c7d438f59",
+            "5083a4631f971185",
             "2a4eb43f057ab517",
-            "ebd60910835260a0",
-            "255510da7724568b"
+            "feff11f769a86bba"
         ],
-        "x": 138,
-        "y": 139,
-        "w": 1238,
-        "h": 568
+        "x": 164,
+        "y": 459,
+        "w": 1232,
+        "h": 122
     },
     {
         "id": "d25d405a.19cff",
@@ -94541,8 +94576,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 1060,
+        "x": 680,
+        "y": 1100,
         "wires": [
             [
                 "0eea3386d6112feb",
@@ -94574,8 +94609,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 260,
-        "y": 1420,
+        "x": 240,
+        "y": 1460,
         "wires": [
             [
                 "3521783dda45c61d"
@@ -94601,8 +94636,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 410,
-        "y": 1420,
+        "x": 390,
+        "y": 1460,
         "wires": [
             [
                 "029a74fa6e2c68c3"
@@ -94627,8 +94662,8 @@
         "raw": false,
         "topic": "Control de doble velocidad",
         "name": "confirm",
-        "x": 640,
-        "y": 1380,
+        "x": 620,
+        "y": 1420,
         "wires": [
             [
                 "c7d12446f5204b7e"
@@ -94650,8 +94685,8 @@
         "raw": false,
         "topic": "Control de doble velocidad",
         "name": "confirm",
-        "x": 640,
-        "y": 1480,
+        "x": 620,
+        "y": 1520,
         "wires": [
             [
                 "edd77b5b07dc9afc"
@@ -94681,8 +94716,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 790,
-        "y": 1480,
+        "x": 770,
+        "y": 1520,
         "wires": [
             [
                 "4f260fb20d4ef19d",
@@ -94716,8 +94751,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 790,
-        "y": 1380,
+        "x": 770,
+        "y": 1420,
         "wires": [
             [
                 "3425750daffaa51f",
@@ -94748,8 +94783,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 1360,
+        "x": 920,
+        "y": 1400,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -94776,8 +94811,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 950,
-        "y": 1400,
+        "x": 930,
+        "y": 1440,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -94804,8 +94839,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 970,
-        "y": 1480,
+        "x": 950,
+        "y": 1520,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -94832,8 +94867,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 960,
-        "y": 1520,
+        "x": 940,
+        "y": 1560,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -94850,8 +94885,8 @@
             "7fc1d3b8de314bf5",
             "5b375649cb77ee66"
         ],
-        "x": 1115,
-        "y": 1420,
+        "x": 1095,
+        "y": 1460,
         "wires": []
     },
     {
@@ -94865,8 +94900,8 @@
             "6d4b4809080e220a",
             "a705105cd3e16c12"
         ],
-        "x": 215,
-        "y": 1340,
+        "x": 195,
+        "y": 1380,
         "wires": [
             [
                 "3b24f55cd0b1dcb6"
@@ -94893,8 +94928,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 240,
-        "y": 1380,
+        "x": 220,
+        "y": 1420,
         "wires": [
             [
                 "de49178bf698750e"
@@ -94917,8 +94952,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 570,
-        "y": 820,
+        "x": 550,
+        "y": 860,
         "wires": [
             [
                 "62af5b76e64bd109",
@@ -94942,8 +94977,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 570,
-        "y": 880,
+        "x": 550,
+        "y": 920,
         "wires": [
             [
                 "263a5cf68cdcca60",
@@ -94965,7 +95000,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-left",
         "x": 1810,
-        "y": 780,
+        "y": 820,
         "wires": []
     },
     {
@@ -94989,8 +95024,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
-        "x": 260,
-        "y": 1080,
+        "x": 240,
+        "y": 1120,
         "wires": [
             [
                 "4e1dc20bb3dc62f4"
@@ -95009,8 +95044,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 800,
+        "x": 820,
+        "y": 840,
         "wires": [
             [
                 "1e6fba3998853b9c"
@@ -95029,8 +95064,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 900,
+        "x": 820,
+        "y": 940,
         "wires": [
             [
                 "a26c481a4f6bef9b"
@@ -95048,8 +95083,8 @@
             "9ca9085ecb14c575",
             "ad87cee4.7dbb5"
         ],
-        "x": 195,
-        "y": 820,
+        "x": 175,
+        "y": 860,
         "wires": [
             [
                 "b07461a58c8e53b2",
@@ -95077,8 +95112,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
-        "y": 820,
+        "x": 350,
+        "y": 860,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -95105,8 +95140,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 370,
-        "y": 900,
+        "x": 350,
+        "y": 940,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -95126,8 +95161,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 370,
-        "y": 780,
+        "x": 350,
+        "y": 820,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -95147,8 +95182,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 370,
-        "y": 860,
+        "x": 350,
+        "y": 900,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -95170,8 +95205,8 @@
         "raw": false,
         "topic": "¿Desea Actualizar Datos del control de doble velocidad?",
         "name": "confirm",
-        "x": 400,
-        "y": 1080,
+        "x": 380,
+        "y": 1120,
         "wires": [
             [
                 "9ccd512f60a8c6a5"
@@ -95201,8 +95236,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 530,
-        "y": 1080,
+        "x": 510,
+        "y": 1120,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -95222,8 +95257,8 @@
             "32d90e6e46a4a27a",
             "db78fee80bde5351"
         ],
-        "x": 615,
-        "y": 1100,
+        "x": 595,
+        "y": 1140,
         "wires": []
     },
     {
@@ -95237,8 +95272,8 @@
             "77eddfe2707bfc75",
             "b82a4b8aae9b1491"
         ],
-        "x": 995,
-        "y": 820,
+        "x": 975,
+        "y": 860,
         "wires": []
     },
     {
@@ -95250,8 +95285,8 @@
         "links": [
             "1e6fba3998853b9c"
         ],
-        "x": 295,
-        "y": 860,
+        "x": 275,
+        "y": 900,
         "wires": [
             [
                 "66dfe0d21f4ecd47"
@@ -95267,8 +95302,8 @@
         "links": [
             "a26c481a4f6bef9b"
         ],
-        "x": 205,
-        "y": 780,
+        "x": 185,
+        "y": 820,
         "wires": [
             [
                 "bc111cae1b81aae1"
@@ -95286,8 +95321,8 @@
             "77eddfe2707bfc75",
             "b82a4b8aae9b1491"
         ],
-        "x": 995,
-        "y": 880,
+        "x": 975,
+        "y": 920,
         "wires": []
     },
     {
@@ -95304,7 +95339,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 1830,
-        "y": 840,
+        "y": 880,
         "wires": []
     },
     {
@@ -95321,7 +95356,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "x": 1830,
-        "y": 960,
+        "y": 1000,
         "wires": []
     },
     {
@@ -95337,7 +95372,7 @@
         "finalize": "",
         "libs": [],
         "x": 1610,
-        "y": 840,
+        "y": 880,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -95356,7 +95391,7 @@
             "0eea3386d6112feb"
         ],
         "x": 1375,
-        "y": 860,
+        "y": 900,
         "wires": [
             [
                 "b50bb4b3defcbf5b",
@@ -95375,8 +95410,8 @@
             "db78fee80bde5351",
             "32d90e6e46a4a27a"
         ],
-        "x": 835,
-        "y": 1060,
+        "x": 815,
+        "y": 1100,
         "wires": []
     },
     {
@@ -95392,7 +95427,7 @@
         "finalize": "",
         "libs": [],
         "x": 1600,
-        "y": 980,
+        "y": 1020,
         "wires": [
             [
                 "47a2d09fcfbd8f10"
@@ -95412,7 +95447,7 @@
         "finalize": "",
         "libs": [],
         "x": 1580,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "42d63d339369b078"
@@ -95429,7 +95464,7 @@
             "ecf98f3f.4a704"
         ],
         "x": 1295,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "68b5fdab6f4e5d1a"
@@ -95455,7 +95490,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1420,
-        "y": 780,
+        "y": 820,
         "wires": [
             [
                 "4a4cecb2a1f07c0c"
@@ -95473,7 +95508,7 @@
             "1e6fba3998853b9c"
         ],
         "x": 1375,
-        "y": 900,
+        "y": 940,
         "wires": [
             [
                 "f1b7a50954cbab4b"
@@ -95508,7 +95543,7 @@
         "to": "",
         "reg": false,
         "x": 1570,
-        "y": 900,
+        "y": 940,
         "wires": [
             [
                 "82270f29cb251d0e"
@@ -95528,7 +95563,7 @@
         "finalize": "",
         "libs": [],
         "x": 1790,
-        "y": 900,
+        "y": 940,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -95553,8 +95588,8 @@
         "raw": false,
         "topic": "",
         "name": "spm",
-        "x": 910,
-        "y": 860,
+        "x": 890,
+        "y": 900,
         "wires": []
     },
     {
@@ -95569,8 +95604,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 860,
+        "x": 760,
+        "y": 900,
         "wires": [
             [
                 "4eae3e07370cb6da"
@@ -95605,8 +95640,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 870,
-        "y": 1120,
+        "x": 850,
+        "y": 1160,
         "wires": [
             [
                 "0a1073dc1650cadd"
@@ -95627,8 +95662,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1155,
-        "y": 1120,
+        "x": 1135,
+        "y": 1160,
         "wires": []
     },
     {
@@ -95641,8 +95676,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1155,
-        "y": 1160,
+        "x": 1135,
+        "y": 1200,
         "wires": []
     },
     {
@@ -95655,8 +95690,8 @@
             "3e8b8a8aa3b3085f",
             "3689559e16b8a141"
         ],
-        "x": 275,
-        "y": 1040,
+        "x": 255,
+        "y": 1080,
         "wires": [
             [
                 "7cc99012610fb90f"
@@ -95679,8 +95714,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 530,
-        "y": 1040,
+        "x": 510,
+        "y": 1080,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -95705,8 +95740,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 380,
-        "y": 1040,
+        "x": 360,
+        "y": 1080,
         "wires": [
             [
                 "e44f69ab32d0a5d4"
@@ -95741,7 +95776,7 @@
         "animate": true,
         "className": "",
         "x": 1360,
-        "y": 1180,
+        "y": 1220,
         "wires": [
             [
                 "915238266608e124"
@@ -95768,7 +95803,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1510,
-        "y": 1180,
+        "y": 1220,
         "wires": [
             [
                 "234a90998ca28885"
@@ -95794,7 +95829,7 @@
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
         "x": 1760,
-        "y": 1140,
+        "y": 1180,
         "wires": [
             [
                 "f960b7182b9a3de3"
@@ -95817,7 +95852,7 @@
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
         "x": 1740,
-        "y": 1240,
+        "y": 1280,
         "wires": [
             [
                 "10d068d9228a59c3"
@@ -95848,7 +95883,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1890,
-        "y": 1240,
+        "y": 1280,
         "wires": [
             [
                 "dc2a630ad9d70854",
@@ -95883,7 +95918,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1910,
-        "y": 1140,
+        "y": 1180,
         "wires": [
             [
                 "c774f0f41737b58d",
@@ -95915,7 +95950,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1120,
+        "y": 1160,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -95943,7 +95978,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1160,
+        "y": 1200,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -95971,7 +96006,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1240,
+        "y": 1280,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -95999,7 +96034,7 @@
         "to": "",
         "reg": false,
         "x": 2060,
-        "y": 1280,
+        "y": 1320,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -96017,7 +96052,7 @@
             "5b375649cb77ee66"
         ],
         "x": 2235,
-        "y": 1180,
+        "y": 1220,
         "wires": []
     },
     {
@@ -96032,7 +96067,7 @@
             "cc8b948c02149ebc"
         ],
         "x": 1485,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "bb8743d0a95aad95"
@@ -96060,7 +96095,7 @@
         "to": "",
         "reg": false,
         "x": 1350,
-        "y": 1140,
+        "y": 1180,
         "wires": [
             [
                 "41014dd60b86791c"
@@ -96094,8 +96129,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 930,
-        "y": 1320,
+        "x": 910,
+        "y": 1360,
         "wires": [
             [
                 "4b213bec5bdae761"
@@ -96112,8 +96147,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1015,
-        "y": 1320,
+        "x": 995,
+        "y": 1360,
         "wires": []
     },
     {
@@ -96143,8 +96178,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 950,
-        "y": 1440,
+        "x": 930,
+        "y": 1480,
         "wires": [
             [
                 "541eddb70df22615"
@@ -96161,8 +96196,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1035,
-        "y": 1440,
+        "x": 1015,
+        "y": 1480,
         "wires": []
     },
     {
@@ -96186,7 +96221,7 @@
         "to": "",
         "reg": false,
         "x": 1630,
-        "y": 1140,
+        "y": 1180,
         "wires": [
             [
                 "758282acd283ba48"
@@ -96214,7 +96249,7 @@
         "to": "",
         "reg": false,
         "x": 1610,
-        "y": 1240,
+        "y": 1280,
         "wires": [
             [
                 "ba9651f5d36c744b"
@@ -96232,7 +96267,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 2175,
-        "y": 1080,
+        "y": 1120,
         "wires": []
     },
     {
@@ -96263,7 +96298,7 @@
         "to": "",
         "reg": false,
         "x": 2060,
-        "y": 1080,
+        "y": 1120,
         "wires": [
             [
                 "1e4fb15af269d8a0"
@@ -96281,7 +96316,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 2135,
-        "y": 1200,
+        "y": 1240,
         "wires": []
     },
     {
@@ -96312,7 +96347,7 @@
         "to": "",
         "reg": false,
         "x": 2050,
-        "y": 1200,
+        "y": 1240,
         "wires": [
             [
                 "eba80fb27cef6dc6"
@@ -96339,8 +96374,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 510,
-        "y": 1380,
+        "x": 490,
+        "y": 1420,
         "wires": [
             [
                 "150304639111c22b"
@@ -96367,8 +96402,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 510,
-        "y": 1480,
+        "x": 490,
+        "y": 1520,
         "wires": [
             [
                 "4e6cebe6e4d66e7e"
@@ -96387,8 +96422,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
-        "y": 1120,
+        "x": 1030,
+        "y": 1160,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -96407,8 +96442,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
-        "y": 1080,
+        "x": 1030,
+        "y": 1120,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -96442,8 +96477,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 1040,
+        "x": 1030,
+        "y": 1080,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -96477,8 +96512,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 1160,
+        "x": 1030,
+        "y": 1200,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -96506,8 +96541,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 730,
-        "y": 1140,
+        "x": 710,
+        "y": 1180,
         "wires": [
             [
                 "6f1b0c47ae35b501"
@@ -96545,8 +96580,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 870,
-        "y": 1180,
+        "x": 850,
+        "y": 1220,
         "wires": [
             [
                 "03ebee7187babc1a"
@@ -96823,8 +96858,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
-        "y": 1320,
+        "x": 280,
+        "y": 1360,
         "wires": [
             [
                 "3b24f55cd0b1dcb6"
@@ -96884,7 +96919,7 @@
         "finalize": "",
         "libs": [],
         "x": 290,
-        "y": 1720,
+        "y": 1860,
         "wires": [
             [
                 "b80e23f70fef1596"
@@ -96907,7 +96942,7 @@
         "finalize": "",
         "libs": [],
         "x": 500,
-        "y": 1800,
+        "y": 1940,
         "wires": [
             [
                 "ade617cdc7bdaf0a"
@@ -96922,7 +96957,7 @@
         "name": "",
         "env": [],
         "x": 960,
-        "y": 1840,
+        "y": 1980,
         "wires": [
             [
                 "f23a08573b04da97"
@@ -96944,7 +96979,7 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 570,
-        "y": 1640,
+        "y": 1780,
         "wires": []
     },
     {
@@ -96978,7 +97013,7 @@
         "repair": false,
         "outputs": 3,
         "x": 670,
-        "y": 1800,
+        "y": 1940,
         "wires": [
             [
                 "d4db8438afde074f"
@@ -97011,7 +97046,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 820,
-        "y": 1800,
+        "y": 1940,
         "wires": [
             [
                 "c2396c297ab50e5b"
@@ -97031,7 +97066,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 1800,
+        "y": 1940,
         "wires": [
             [
                 "bcd663ab20cda04d"
@@ -97062,7 +97097,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1140,
-        "y": 1760,
+        "y": 1900,
         "wires": [
             [
                 "ddf72d45b5482e2c"
@@ -97085,7 +97120,7 @@
         "finalize": "",
         "libs": [],
         "x": 1280,
-        "y": 1760,
+        "y": 1900,
         "wires": [
             []
         ]
@@ -97103,7 +97138,7 @@
         "finalize": "",
         "libs": [],
         "x": 1280,
-        "y": 1720,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -97121,7 +97156,7 @@
         "finalize": "",
         "libs": [],
         "x": 860,
-        "y": 1760,
+        "y": 1900,
         "wires": [
             [
                 "f28bbb68b5f741d1"
@@ -97140,7 +97175,7 @@
             "d70e21594c52d321"
         ],
         "x": 995,
-        "y": 1760,
+        "y": 1900,
         "wires": []
     },
     {
@@ -97157,7 +97192,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 810,
-        "y": 1840,
+        "y": 1980,
         "wires": [
             [
                 "5bdeab0f5750c110"
@@ -97178,7 +97213,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 430,
-        "y": 1700,
+        "y": 1840,
         "wires": [
             [
                 "810bef1200b03202"
@@ -97199,7 +97234,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 430,
-        "y": 1740,
+        "y": 1880,
         "wires": [
             [
                 "fcb355f91a6a238f"
@@ -97216,7 +97251,7 @@
             "58d10b0ab4c186c5"
         ],
         "x": 195,
-        "y": 1720,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -97229,7 +97264,7 @@
         "name": "",
         "env": [],
         "x": 1160,
-        "y": 1840,
+        "y": 1980,
         "wires": [
             []
         ]
@@ -97238,7 +97273,7 @@
         "id": "34749fc8f23a7aa2",
         "type": "function",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "IdentificarUpDownStroke",
         "func": "// logica de control speed control habilitada\nvar habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\")||false;\nvar buttonComand = global.get(\"Control_functions.doubleSpeed.buttonComand\") || false;//Inicio del Sistema desde el boton de entrada Principal\nvar int1 = msg.payload;//lectura actual\nvar int1_k1 = context.get(\"int1_k1\", \"memoryOnly\")||0;//lecturaAnterior\nvar estado = 0;var color = \"red\";\nif (habilitado == true && buttonComand == true){\n    var aux = int1 - int1_k1;\n    if(aux >= 0){//está en upstroke\n        estado = \"Upstroke\";color = \"green\";\n    }else if(aux < 0 ){//esta un downestroke\n        estado = \"DownStroke\";color = \"yellow\";\n    }else {\n        estado = \"limbo\";color = \"yellow\";\n    }\n    // guardando el estado anterior\n    context.set(\"int1_k1\", int1,\"memoryOnly\" );\n    context.set(\"int1\", int1,\"memoryOnly\" );\n} else if (habilitado == true && buttonComand == false){\n    estado = \"Pausa\";color = \"yellow\";\n}\nelse{\n    estado = \"Disabled\";color = \"red\";\n}\nnode.status({fill:color,shape:\"dot\",text:estado});\nmsg.payload = estado;\ncontext.set(\"habilitado\", habilitado,\"memoryOnly\" );\ncontext.set(\"buttonComand\", buttonComand,\"memoryOnly\" );\nreturn msg;",
         "outputs": 1,
@@ -97246,8 +97281,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
-        "y": 460,
+        "x": 940,
+        "y": 500,
         "wires": [
             [
                 "697e958c7d438f59",
@@ -97260,7 +97295,7 @@
         "id": "5b90273400ccf2b5",
         "type": "function",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "senoFunctionSimulación",
         "func": "var time = msg.payload;\nvar y = 1+(Math.sin(time/5000) * 1);\nmsg.payload = y;\ncontext.set(\"time\",time,\"memoryOnly\")\ncontext.set(\"y\", y,\"memoryOnly\")\nflow.set('simulacionSeno',y,'memoryOnly');\nreturn msg;",
         "outputs": 1,
@@ -97268,8 +97303,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 460,
+        "x": 660,
+        "y": 500,
         "wires": [
             [
                 "34749fc8f23a7aa2"
@@ -97280,7 +97315,7 @@
         "id": "697e958c7d438f59",
         "type": "rbe",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "block",
         "func": "rbe",
         "gap": "",
@@ -97289,8 +97324,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 1120,
-        "y": 460,
+        "x": 1140,
+        "y": 500,
         "wires": [
             [
                 "5083a4631f971185"
@@ -97301,7 +97336,7 @@
         "id": "5083a4631f971185",
         "type": "change",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "saveState",
         "rules": [
             {
@@ -97317,8 +97352,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1250,
-        "y": 460,
+        "x": 1270,
+        "y": 500,
         "wires": [
             []
         ]
@@ -97327,7 +97362,7 @@
         "id": "feec2ff6e2c7f68c",
         "type": "function",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "SensorFisico",
         "func": "var Posicion = global.get(\"Process_data.AI.POSICION\", \"memoryOnly\") || 0;\nvar simulacion = global.get(\"Control_functions.doubleSpeed.simulacion\")||false;\nvar habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\") || false;\n\nif(!simulacion && habilitado && Posicion > 1){//valor de 1 de la medición mayor a 1\n    node.status({ fill: \"green\", shape: \"ring\", text:Posicion});\n    msg.payload = Posicion;\n    return msg;\n}else if(simulacion){//esta habilitada la simulación para el control de doble velocidad\n    node.status({ fill: \"green\", shape: \"ring\", text:'Simulación'});\n}else if(!habilitado){\n    node.status({ fill: \"blue\", shape: \"ring\", text:'Deshabilitado'});\n}\nelse{\n    node.status({ fill: \"red\", shape: \"ring\", text:\"PosiciónNoConfig\"+Posicion});\n}",
         "outputs": 1,
@@ -97335,8 +97370,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 500,
+        "x": 700,
+        "y": 540,
         "wires": [
             [
                 "34749fc8f23a7aa2"
@@ -97347,13 +97382,13 @@
         "id": "d9a6b1537fdab1bb",
         "type": "link in",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "",
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 575,
-        "y": 500,
+        "x": 595,
+        "y": 540,
         "wires": [
             [
                 "feec2ff6e2c7f68c"
@@ -97364,7 +97399,7 @@
         "id": "afbf144a950fd385",
         "type": "switch",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "simulacion",
         "property": "Control_functions.doubleSpeed.simulacion",
         "propertyType": "global",
@@ -97376,8 +97411,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 420,
-        "y": 460,
+        "x": 440,
+        "y": 500,
         "wires": [
             [
                 "5b90273400ccf2b5"
@@ -97388,7 +97423,7 @@
         "id": "556a319192f09f50",
         "type": "inject",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "",
         "props": [
             {
@@ -97401,8 +97436,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 260,
-        "y": 460,
+        "x": 280,
+        "y": 500,
         "wires": [
             [
                 "afbf144a950fd385"
@@ -97413,18 +97448,18 @@
         "id": "57c32beea0d4f094",
         "type": "comment",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "nota",
         "info": "Requiere TimeStamp",
-        "x": 280,
-        "y": 420,
+        "x": 310,
+        "y": 540,
         "wires": []
     },
     {
         "id": "adeeae4b2a0ffe95",
         "type": "rbe",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "",
         "func": "rbe",
         "gap": "",
@@ -97433,8 +97468,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 960,
-        "y": 500,
+        "x": 980,
+        "y": 540,
         "wires": [
             [
                 "feff11f769a86bba"
@@ -97445,7 +97480,7 @@
         "id": "feff11f769a86bba",
         "type": "function",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "name": "spanish",
         "func": "var mensaje = msg.payload;\nif (mensaje == 'Upstroke'){\n    msg.payload = 'Subida'\n} else if (mensaje == 'DownStroke'){\n    msg.payload = 'Bajada'\n} else if (mensaje == 'Disabled'){\n    msg.payload = '-'\n}\nreturn msg;",
         "outputs": 1,
@@ -97453,8 +97488,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 500,
+        "x": 1130,
+        "y": 540,
         "wires": [
             [
                 "2a4eb43f057ab517"
@@ -97465,7 +97500,7 @@
         "id": "2a4eb43f057ab517",
         "type": "ui_text",
         "z": "f628d2416976df44",
-        "g": "a812b0d1eea23b6e",
+        "g": "945e80e22a7761e3",
         "group": "1c0575d4f07fc2d0",
         "order": 5,
         "width": 3,
@@ -97475,8 +97510,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1270,
-        "y": 500,
+        "x": 1290,
+        "y": 540,
         "wires": []
     },
     {
@@ -97499,8 +97534,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 640,
+        "x": 330,
+        "y": 680,
         "wires": [
             []
         ]
@@ -97525,8 +97560,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 600,
+        "x": 330,
+        "y": 640,
         "wires": [
             []
         ]
@@ -97541,8 +97576,8 @@
             "4be7d50a192e4c91",
             "628add984fd6a22e"
         ],
-        "x": 205,
-        "y": 600,
+        "x": 195,
+        "y": 640,
         "wires": [
             [
                 "606f35f6418b5e17"
@@ -97559,8 +97594,8 @@
             "0aa1e7ea708943c7",
             "f1f7bfacfe0754bf"
         ],
-        "x": 205,
-        "y": 640,
+        "x": 195,
+        "y": 680,
         "wires": [
             [
                 "2edf0fe6bdebec75"
