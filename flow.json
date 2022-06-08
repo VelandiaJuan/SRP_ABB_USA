@@ -3030,7 +3030,9 @@
             "7a1d4c156061f21e"
         ],
         "x": 124,
-        "y": 459
+        "y": 459,
+        "w": 1692,
+        "h": 262
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -3061,7 +3063,9 @@
             "c3c44f1ef4268496"
         ],
         "x": 134,
-        "y": 119
+        "y": 119,
+        "w": 1072,
+        "h": 322
     },
     {
         "id": "805fec7111f91b80",
@@ -3099,10 +3103,8 @@
             "0febf9d0ccc17c6c",
             "861599d859c2ed56",
             "1867e4401055f98c",
-            "285306f9c17d9e5f",
             "6d8884c92e525f07",
             "e9a3a95a918189cb",
-            "a980c2709243b523",
             "95f49a8ebbad9985",
             "eb29fb03707a839c",
             "acb8c4bf8498c9a2",
@@ -3120,10 +3122,14 @@
             "cb07d3de9b20a441",
             "04c7ecd41f3b9605",
             "6d26f4837d1ddab1",
-            "1ead21b91a6685a5"
+            "1ead21b91a6685a5",
+            "d997dc2f5e18fe08",
+            "30bedd91c9e9a8e9"
         ],
         "x": 1934,
-        "y": 99
+        "y": 99,
+        "w": 1652,
+        "h": 562
     },
     {
         "id": "908c9775529ae148",
@@ -3189,7 +3195,9 @@
             "94e57bc8358ca9ea"
         ],
         "x": 114,
-        "y": 739
+        "y": 739,
+        "w": 1382,
+        "h": 522
     },
     {
         "id": "31895b3f7962d5a7",
@@ -86966,7 +86974,8 @@
         "y": 300,
         "wires": [
             [
-                "74706b75de752cb7"
+                "74706b75de752cb7",
+                "30bedd91c9e9a8e9"
             ]
         ]
     },
@@ -86986,11 +86995,15 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 2410,
         "y": 220,
         "wires": [
             [
-                "04977a95622e3287"
+                "04977a95622e3287",
+                "d997dc2f5e18fe08"
             ]
         ]
     },
@@ -88153,23 +88166,6 @@
         "wires": []
     },
     {
-        "id": "285306f9c17d9e5f",
-        "type": "link in",
-        "z": "f62fcef222e9a4a3",
-        "g": "805fec7111f91b80",
-        "name": "ProcentajeMayorX",
-        "links": [
-            "1867e4401055f98c"
-        ],
-        "x": 2255,
-        "y": 220,
-        "wires": [
-            [
-                "364b9713f0e05da3"
-            ]
-        ]
-    },
-    {
         "id": "6d8884c92e525f07",
         "type": "change",
         "z": "f62fcef222e9a4a3",
@@ -88209,23 +88205,6 @@
         "x": 2975,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "a980c2709243b523",
-        "type": "link in",
-        "z": "f62fcef222e9a4a3",
-        "g": "805fec7111f91b80",
-        "name": "ProcentajeMayorY",
-        "links": [
-            "e9a3a95a918189cb"
-        ],
-        "x": 2355,
-        "y": 260,
-        "wires": [
-            [
-                "826efe878eba535e"
-            ]
-        ]
     },
     {
         "id": "95f49a8ebbad9985",
@@ -90032,6 +90011,68 @@
         "wires": [
             [
                 "fe9808943c7dacb2"
+            ]
+        ]
+    },
+    {
+        "id": "d997dc2f5e18fe08",
+        "type": "subflow:8e03bd58b0252c5c",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "env": [
+            {
+                "name": "limMax",
+                "value": "100",
+                "type": "num"
+            },
+            {
+                "name": "delayF",
+                "value": "3000",
+                "type": "num"
+            },
+            {
+                "name": "labelMensaje",
+                "value": "Punto X %",
+                "type": "str"
+            }
+        ],
+        "x": 2400,
+        "y": 180,
+        "wires": [
+            [
+                "364b9713f0e05da3"
+            ]
+        ]
+    },
+    {
+        "id": "30bedd91c9e9a8e9",
+        "type": "subflow:8e03bd58b0252c5c",
+        "z": "f62fcef222e9a4a3",
+        "g": "805fec7111f91b80",
+        "name": "",
+        "env": [
+            {
+                "name": "limMax",
+                "value": "100",
+                "type": "num"
+            },
+            {
+                "name": "delayF",
+                "value": "3000",
+                "type": "num"
+            },
+            {
+                "name": "labelMensaje",
+                "value": "Punto Y %",
+                "type": "str"
+            }
+        ],
+        "x": 2400,
+        "y": 260,
+        "wires": [
+            [
+                "826efe878eba535e"
             ]
         ]
     },
