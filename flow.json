@@ -175,13 +175,6 @@
         "info": ""
     },
     {
-        "id": "09f9d2468d70d96a",
-        "type": "tab",
-        "label": "RotadorSimple",
-        "disabled": true,
-        "info": ""
-    },
-    {
         "id": "1ae6c379.02ea3d",
         "type": "subflow",
         "name": "VSDWrite",
@@ -3879,8 +3872,8 @@
             "68fd00852a19215e",
             "60b95e5ad4a27db7"
         ],
-        "x": 844,
-        "y": 4699,
+        "x": 884,
+        "y": 4499,
         "w": 562,
         "h": 82
     },
@@ -3903,7 +3896,9 @@
             "d7691b30c25e59ef"
         ],
         "x": 164,
-        "y": 59
+        "y": 59,
+        "w": 802,
+        "h": 202
     },
     {
         "id": "312e757f2ddba8e5",
@@ -3967,7 +3962,9 @@
             "20d0230dc20dda52"
         ],
         "x": 154,
-        "y": 439
+        "y": 439,
+        "w": 1022,
+        "h": 262
     },
     {
         "id": "bd8b31477127547e",
@@ -4081,7 +4078,9 @@
             "eecf0c698059189c"
         ],
         "x": 154,
-        "y": 279
+        "y": 279,
+        "w": 1092,
+        "h": 142
     },
     {
         "id": "54db5b7c5be42ae3",
@@ -4110,117 +4109,6 @@
         "nodes": [],
         "x": 254,
         "y": 879
-    },
-    {
-        "id": "42578aaca1306cfe",
-        "type": "group",
-        "z": "09f9d2468d70d96a",
-        "name": "Logica de Control",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "7fbdb113b831d5a4",
-            "c80df0907feeb9c6",
-            "d25f134e474d4131",
-            "9b976b6795fbe052",
-            "5d24994ddcf1d0a9",
-            "019d0594b4883122"
-        ],
-        "x": 374,
-        "y": 99,
-        "w": 432,
-        "h": 222
-    },
-    {
-        "id": "ab199f0612578a6a",
-        "type": "group",
-        "z": "09f9d2468d70d96a",
-        "name": "Habilitar el Doble Tuberia",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "a5127175074e738b",
-            "e61385a63ee34efd",
-            "ea5252f0afa4b497",
-            "8bf0825911576069",
-            "572ec9de53810d1d",
-            "3694d4341f6abe5b",
-            "469470693fdf6a7b",
-            "a7ccac8eee21b212",
-            "38a5394aed3dea93",
-            "a1c9c7d63d911e79",
-            "d5fdbf86a952f23f",
-            "9107dabf8a4bd4b0",
-            "65dc9d0f38781034",
-            "68d51263d348a392",
-            "d16efaaace1958a0",
-            "f5128367ceca7288",
-            "0838cd6438a7b3ed",
-            "2a59902f4e9d7332",
-            "9588402989b6931c"
-        ],
-        "x": 374,
-        "y": 379,
-        "w": 982,
-        "h": 282
-    },
-    {
-        "id": "f884ee2d936fd4d7",
-        "type": "group",
-        "z": "09f9d2468d70d96a",
-        "name": "Inicio del Control Manual",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "44ef875eedd3bc03",
-            "d60cd8ef2872145f",
-            "4432174f90db6783",
-            "34673aa740c4f12f"
-        ],
-        "x": 374,
-        "y": 679,
-        "w": 312,
-        "h": 122
-    },
-    {
-        "id": "87c215eb8316f178",
-        "type": "group",
-        "z": "09f9d2468d70d96a",
-        "name": "Adquision de Tiempo",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fa9417fdf8beb32d",
-            "5d7507d26b40f63e",
-            "86bf3b2d44edfc8e",
-            "57276c627f02a8e7"
-        ],
-        "x": 364,
-        "y": 839,
-        "w": 192,
-        "h": 202
-    },
-    {
-        "id": "d7605e857d43d130",
-        "type": "group",
-        "z": "09f9d2468d70d96a",
-        "name": "Selector de Rotador de Tuberias",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "901e9273bb2a3c3d",
-            "79fde7a7dc15fac1",
-            "b649ec4ac5a32dc7"
-        ],
-        "x": 714,
-        "y": 679,
-        "w": 502,
-        "h": 122
     },
     {
         "id": "4a25e547351e4e9d",
@@ -4304,7 +4192,9 @@
             "c38afea1ca0461e4"
         ],
         "x": 148,
-        "y": 713
+        "y": 713,
+        "w": 738,
+        "h": 288
     },
     {
         "id": "55120cb05ac303cb",
@@ -4343,7 +4233,9 @@
             "baf18d0d234c9598"
         ],
         "x": 1334,
-        "y": 73
+        "y": 73,
+        "w": 1198,
+        "h": 1054
     },
     {
         "id": "f5a99bcaf6b0c0cf",
@@ -6574,7 +6466,9 @@
             "d4da91ffe3513bcb"
         ],
         "x": 174,
-        "y": 739
+        "y": 739,
+        "w": 392,
+        "h": 162
     },
     {
         "id": "31e4cc0e1c592317",
@@ -6597,8 +6491,10 @@
             "9085f60cd16688aa",
             "9ef6fdeb83dba480"
         ],
-        "x": 1674,
-        "y": 99
+        "x": 1664,
+        "y": 99,
+        "w": 822,
+        "h": 202
     },
     {
         "id": "55f9b1476b6e3472",
@@ -6619,8 +6515,10 @@
             "3e1dba04f068df4b",
             "08d42e1d92a3826e"
         ],
-        "x": 1674,
-        "y": 319
+        "x": 1664,
+        "y": 319,
+        "w": 842,
+        "h": 162
     },
     {
         "id": "51ca97b51dda0d4d",
@@ -6642,7 +6540,9 @@
             "e1542928504fd777"
         ],
         "x": 1674,
-        "y": 719
+        "y": 719,
+        "w": 772,
+        "h": 162
     },
     {
         "id": "f97aad60fa3f0b94",
@@ -6666,7 +6566,9 @@
             "2945429df91e62d6"
         ],
         "x": 1674,
-        "y": 499
+        "y": 499,
+        "w": 822,
+        "h": 202
     },
     {
         "id": "baf18d0d234c9598",
@@ -6687,7 +6589,9 @@
             "dadff970a061088c"
         ],
         "x": 1494,
-        "y": 939
+        "y": 939,
+        "w": 732,
+        "h": 162
     },
     {
         "id": "ebd60910835260a0",
@@ -7819,6 +7723,27 @@
         ],
         "x": 614,
         "y": 689
+    },
+    {
+        "id": "d3ed5e7495b4ebab",
+        "type": "group",
+        "z": "7a89175c.90f6a8",
+        "name": "PLC Rockwell",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "f4edcb73c1a20647",
+            "5a9bae3a43e827d0",
+            "98fbd3b1fcc24445",
+            "68e1fa34772943cb",
+            "eb101fdc65f1b1f5"
+        ],
+        "x": 2014,
+        "y": 3719,
+        "w": 492,
+        "h": 202
     },
     {
         "id": "d25d405a.19cff",
@@ -10603,6 +10528,3024 @@
         "order": 4,
         "width": 4,
         "height": 1
+    },
+    {
+        "id": "5851f73770f584c6",
+        "type": "eth-ip endpoint",
+        "address": "192.168.2.51",
+        "slot": "0",
+        "cycletime": "500",
+        "name": "PLCRockwell",
+        "vartable": {
+            "": {
+                "SWC.Dinagrama.vPotencia[0]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[1]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[2]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[3]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[4]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[5]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[6]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[7]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[8]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[9]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[10]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[11]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[12]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[13]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[14]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[15]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[16]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[17]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[18]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[19]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[20]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[21]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[22]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[23]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[24]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[25]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[26]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[27]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[28]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[29]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[30]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[31]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[32]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[33]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[34]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[35]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[36]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[37]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[38]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[39]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[40]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[41]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[42]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[43]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[44]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[45]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[46]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[47]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[48]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[49]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[50]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[51]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[52]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[53]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[54]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[55]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[56]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[57]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[58]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[59]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[60]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[61]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[62]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[63]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[64]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[65]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[66]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[67]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[68]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[69]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[70]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[71]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[72]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[73]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[74]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[75]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[76]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[77]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[78]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[79]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[80]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[81]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[82]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[83]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[84]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[85]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[86]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[87]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[88]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[89]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[90]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[91]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[92]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[93]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[94]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[95]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[96]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[97]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[98]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[99]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[100]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[101]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[102]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[103]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[104]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[105]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[106]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[107]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[108]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[109]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[110]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[111]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[112]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[113]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[114]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[115]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[116]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[117]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[118]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[119]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[120]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[121]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[122]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[123]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[124]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[125]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[126]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[127]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[128]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[129]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[130]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[131]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[132]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[133]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[134]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[135]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[136]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[137]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[138]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[139]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[140]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[141]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[142]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[143]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[144]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[145]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[146]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[147]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[148]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[149]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[150]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[151]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[152]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[153]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[154]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[155]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[156]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[157]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[158]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[159]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[160]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[161]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[162]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[163]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[164]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[165]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[166]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[167]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[168]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[169]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[170]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[171]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[172]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[173]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[174]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[175]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[176]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[177]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[178]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[179]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[180]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[181]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[182]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[183]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[184]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[185]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[186]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[187]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[188]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[189]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[190]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[191]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[192]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[193]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[194]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[195]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[196]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[197]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[198]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[199]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[200]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[201]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[202]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[203]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[204]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[205]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[206]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[207]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[208]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[209]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[210]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[211]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[212]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[213]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[214]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[215]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[216]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[217]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[218]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[219]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[220]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[221]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[222]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[223]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[224]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[225]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[226]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[227]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[228]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[229]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[230]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[231]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[232]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[233]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[234]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[235]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[236]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[237]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[238]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[239]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[240]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[241]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[242]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[243]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[244]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[245]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[246]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[247]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[248]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[249]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[250]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[251]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[252]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[253]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[254]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[255]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[256]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[257]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[258]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[259]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[260]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[261]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[262]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[263]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[264]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[265]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[266]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[267]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[268]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[269]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[270]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[271]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[272]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[273]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[274]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[275]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[276]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[277]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[278]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[279]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[280]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[281]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[282]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[283]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[284]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[285]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[286]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[287]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[288]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[289]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[290]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[291]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[292]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[293]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[294]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[295]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[296]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[297]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[298]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[299]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[300]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[301]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[302]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[303]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[304]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[305]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[306]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[307]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[308]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[309]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[310]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[311]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[312]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[313]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[314]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[315]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[316]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[317]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[318]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[319]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[320]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[321]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[322]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[323]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[324]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[325]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[326]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[327]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[328]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[329]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[330]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[331]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[332]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[333]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[334]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[335]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[336]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[337]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[338]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[339]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[340]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[341]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[342]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[343]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[344]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[345]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[346]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[347]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[348]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[349]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[350]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[351]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[352]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[353]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[354]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[355]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[356]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[357]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[358]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[359]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[360]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[361]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[362]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[363]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[364]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[365]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[366]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[367]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[368]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[369]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[370]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[371]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[372]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[373]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[374]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[375]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[376]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[377]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[378]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[379]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[380]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[381]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[382]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[383]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[384]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[385]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[386]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[387]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[388]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[389]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[390]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[391]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[392]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[393]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[394]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[395]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[396]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[397]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[398]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[399]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[400]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[401]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[402]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[403]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[404]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[405]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[406]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[407]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[408]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[409]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[410]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[411]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[412]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[413]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[414]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[415]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[416]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[417]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[418]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[419]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[420]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[421]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[422]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[423]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[424]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[425]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[426]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[427]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[428]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[429]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[430]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[431]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[432]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[433]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[434]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[435]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[436]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[437]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[438]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[439]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[440]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[441]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[442]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[443]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[444]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[445]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[446]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[447]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[448]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[449]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[450]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[451]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[452]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[453]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[454]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[455]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[456]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[457]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[458]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[459]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[460]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[461]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[462]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[463]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[464]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[465]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[466]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[467]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[468]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[469]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[470]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[471]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[472]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[473]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[474]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[475]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[476]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[477]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[478]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[479]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[480]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[481]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[482]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[483]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[484]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[485]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[486]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[487]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[488]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[489]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[490]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[491]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[492]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[493]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[494]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[495]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[496]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[497]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[498]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPotencia[499]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.NumeroMuestras": {
+                    "type": "INT"
+                },
+                "SWC.Dinagrama.vProximetro[0]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[1]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[2]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[3]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[4]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[5]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[6]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[7]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[8]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[9]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[10]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[11]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[12]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[13]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[14]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[15]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[16]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[17]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[18]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[19]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[20]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[21]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[22]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[23]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[24]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[25]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[26]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[27]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[28]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[29]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[30]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[31]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[32]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[33]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[34]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[35]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[36]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[37]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[38]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[39]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[40]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[41]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[42]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[43]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[44]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[45]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[46]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[47]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[48]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[49]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[50]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[51]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[52]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[53]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[54]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[55]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[56]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[57]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[58]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[59]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[60]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[61]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[62]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[63]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[64]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[65]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[66]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[67]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[68]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[69]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[70]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[71]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[72]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[73]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[74]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[75]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[76]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[77]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[78]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[79]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[80]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[81]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[82]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[83]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[84]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[85]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[86]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[87]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[88]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[89]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[90]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[91]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[92]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[93]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[94]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[95]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[96]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[97]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[98]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[99]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[100]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[101]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[102]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[103]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[104]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[105]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[106]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[107]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[108]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[109]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[110]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[111]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[112]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[113]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[114]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[115]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[116]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[117]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[118]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[119]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[120]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[121]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[122]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[123]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[124]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[125]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[126]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[127]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[128]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[129]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[130]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[131]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[132]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[133]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[134]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[135]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[136]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[137]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[138]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[139]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[140]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[141]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[142]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[143]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[144]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[145]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[146]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[147]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[148]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[149]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[150]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[151]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[152]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[153]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[154]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[155]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[156]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[157]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[158]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[159]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[160]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[161]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[162]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[163]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[164]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[165]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[166]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[167]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[168]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[169]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[170]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[171]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[172]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[173]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[174]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[175]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[176]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[177]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[178]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[179]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[180]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[181]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[182]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[183]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[184]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[185]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[186]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[187]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[188]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[189]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[190]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[191]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[192]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[193]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[194]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[195]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[196]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[197]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[198]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[199]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[200]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[201]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[202]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[203]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[204]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[205]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[206]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[207]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[208]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[209]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[210]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[211]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[212]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[213]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[214]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[215]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[216]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[217]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[218]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[219]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[220]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[221]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[222]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[223]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[224]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[225]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[226]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[227]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[228]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[229]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[230]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[231]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[232]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[233]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[234]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[235]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[236]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[237]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[238]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[239]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[240]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[241]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[242]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[243]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[244]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[245]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[246]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[247]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[248]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[249]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[250]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[251]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[252]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[253]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[254]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[255]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[256]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[257]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[258]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[259]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[260]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[261]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[262]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[263]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[264]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[265]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[266]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[267]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[268]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[269]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[270]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[271]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[272]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[273]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[274]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[275]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[276]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[277]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[278]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[279]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[280]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[281]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[282]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[283]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[284]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[285]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[286]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[287]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[288]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[289]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[290]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[291]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[292]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[293]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[294]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[295]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[296]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[297]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[298]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[299]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[300]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[301]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[302]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[303]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[304]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[305]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[306]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[307]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[308]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[309]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[310]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[311]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[312]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[313]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[314]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[315]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[316]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[317]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[318]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[319]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[320]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[321]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[322]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[323]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[324]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[325]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[326]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[327]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[328]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[329]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[330]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[331]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[332]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[333]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[334]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[335]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[336]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[337]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[338]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[339]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[340]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[341]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[342]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[343]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[344]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[345]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[346]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[347]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[348]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[349]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[350]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[351]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[352]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[353]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[354]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[355]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[356]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[357]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[358]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[359]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[360]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[361]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[362]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[363]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[364]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[365]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[366]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[367]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[368]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[369]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[370]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[371]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[372]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[373]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[374]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[375]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[376]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[377]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[378]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[379]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[380]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[381]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[382]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[383]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[384]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[385]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[386]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[387]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[388]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[389]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[390]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[391]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[392]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[393]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[394]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[395]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[396]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[397]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[398]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[399]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[400]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[401]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[402]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[403]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[404]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[405]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[406]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[407]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[408]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[409]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[410]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[411]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[412]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[413]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[414]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[415]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[416]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[417]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[418]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[419]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[420]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[421]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[422]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[423]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[424]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[425]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[426]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[427]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[428]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[429]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[430]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[431]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[432]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[433]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[434]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[435]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[436]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[437]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[438]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[439]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[440]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[441]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[442]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[443]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[444]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[445]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[446]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[447]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[448]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[449]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[450]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[451]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[452]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[453]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[454]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[455]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[456]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[457]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[458]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[459]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[460]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[461]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[462]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[463]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[464]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[465]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[466]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[467]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[468]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[469]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[470]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[471]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[472]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[473]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[474]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[475]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[476]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[477]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[478]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[479]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[480]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[481]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[482]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[483]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[484]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[485]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[486]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[487]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[488]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[489]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[490]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[491]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[492]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[493]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[494]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[495]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[496]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[497]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[498]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vProximetro[499]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.enabled": {
+                    "type": "BOOL"
+                }
+            }
+        }
     },
     {
         "id": "8c24ec8f.cf43c",
@@ -57041,8 +59984,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
-        "y": 4740,
+        "x": 1300,
+        "y": 4540,
         "wires": [
             []
         ]
@@ -57056,8 +59999,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 885,
-        "y": 4740,
+        "x": 925,
+        "y": 4540,
         "wires": [
             [
                 "60b95e5ad4a27db7"
@@ -57081,8 +60024,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 1030,
-        "y": 4740,
+        "x": 1070,
+        "y": 4540,
         "wires": [
             [
                 "938b8e67701c4843"
@@ -57168,9 +60111,7 @@
         "x": 700,
         "y": 4020,
         "wires": [
-            [
-                "f6820b3da24bd57b"
-            ]
+            []
         ]
     },
     {
@@ -101915,936 +104856,104 @@
         "wires": []
     },
     {
-        "id": "7fbdb113b831d5a4",
-        "type": "link in",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
+        "id": "f4edcb73c1a20647",
+        "type": "eth-ip in",
+        "z": "7a89175c.90f6a8",
+        "g": "d3ed5e7495b4ebab",
+        "endpoint": "5851f73770f584c6",
+        "mode": "all",
+        "variable": "SWC.Dinagrama.vPotencia[0]",
+        "program": "",
         "name": "",
-        "links": [
-            "58d10b0ab4c186c5"
-        ],
-        "x": 415,
-        "y": 220,
+        "x": 2110,
+        "y": 3760,
         "wires": [
             [
-                "c80df0907feeb9c6"
+                "5a9bae3a43e827d0"
             ]
         ]
     },
     {
-        "id": "a5127175074e738b",
-        "type": "ui_switch",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "Habilitar",
-        "label": "Habilitar",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 2,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "decouple": "true",
-        "topic": "topic",
-        "topicType": "str",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "animate": true,
-        "className": "",
-        "x": 460,
-        "y": 520,
-        "wires": [
-            [
-                "e61385a63ee34efd"
-            ]
-        ]
-    },
-    {
-        "id": "e61385a63ee34efd",
-        "type": "switch",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "actual",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 610,
-        "y": 520,
-        "wires": [
-            [
-                "2a59902f4e9d7332"
-            ],
-            [
-                "9588402989b6931c"
-            ]
-        ]
-    },
-    {
-        "id": "ea5252f0afa4b497",
-        "type": "ui_toast",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
-        "raw": false,
-        "topic": "Control de doble velocidad",
-        "name": "confirm",
-        "x": 840,
-        "y": 480,
-        "wires": [
-            [
-                "3694d4341f6abe5b"
-            ]
-        ]
-    },
-    {
-        "id": "8bf0825911576069",
-        "type": "ui_toast",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "position": "dialog",
-        "displayTime": "3",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
-        "raw": false,
-        "topic": "Control de doble velocidad",
-        "name": "confirm",
-        "x": 840,
-        "y": 580,
-        "wires": [
-            [
-                "572ec9de53810d1d"
-            ]
-        ]
-    },
-    {
-        "id": "572ec9de53810d1d",
-        "type": "switch",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "if",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Aceptar",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Cancelar",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 990,
-        "y": 580,
-        "wires": [
-            [
-                "38a5394aed3dea93",
-                "68d51263d348a392"
-            ],
-            [
-                "a1c9c7d63d911e79"
-            ]
-        ]
-    },
-    {
-        "id": "3694d4341f6abe5b",
-        "type": "switch",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "if",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Aceptar",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Cancelar",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 990,
-        "y": 480,
-        "wires": [
-            [
-                "469470693fdf6a7b",
-                "d16efaaace1958a0"
-            ],
-            [
-                "a7ccac8eee21b212"
-            ]
-        ]
-    },
-    {
-        "id": "469470693fdf6a7b",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "habilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.habilitado",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1140,
-        "y": 460,
-        "wires": [
-            [
-                "d5fdbf86a952f23f"
-            ]
-        ]
-    },
-    {
-        "id": "a7ccac8eee21b212",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "Deshabilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.habilitado",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1150,
-        "y": 500,
-        "wires": [
-            [
-                "d5fdbf86a952f23f"
-            ]
-        ]
-    },
-    {
-        "id": "38a5394aed3dea93",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "Deshabilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.habilitado",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1170,
-        "y": 580,
-        "wires": [
-            [
-                "d5fdbf86a952f23f"
-            ]
-        ]
-    },
-    {
-        "id": "a1c9c7d63d911e79",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "habilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.habilitado",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1160,
-        "y": 620,
-        "wires": [
-            [
-                "d5fdbf86a952f23f"
-            ]
-        ]
-    },
-    {
-        "id": "d5fdbf86a952f23f",
-        "type": "link out",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "botonHabilitarSpeedControlOut",
-        "links": [
-            "9107dabf8a4bd4b0",
-            "5b375649cb77ee66"
-        ],
-        "x": 1315,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "9107dabf8a4bd4b0",
-        "type": "link in",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "botonHabilitarSpeedControlInt",
-        "links": [
-            "f4e3c81e608c100f",
-            "d5fdbf86a952f23f"
-        ],
-        "x": 415,
-        "y": 440,
-        "wires": [
-            [
-                "65dc9d0f38781034"
-            ]
-        ]
-    },
-    {
-        "id": "65dc9d0f38781034",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "habilitado",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Rotador.habilitado",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 460,
-        "y": 480,
-        "wires": [
-            [
-                "a5127175074e738b"
-            ]
-        ]
-    },
-    {
-        "id": "68d51263d348a392",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "Evento",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Rotador Tuberia Deshabilitado",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Rotador",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1150,
-        "y": 540,
-        "wires": [
-            [
-                "f5128367ceca7288"
-            ]
-        ]
-    },
-    {
-        "id": "d16efaaace1958a0",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "Evento",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Rotador Tuberia Activado",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Rotador",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1130,
-        "y": 420,
-        "wires": [
-            [
-                "0838cd6438a7b3ed"
-            ]
-        ]
-    },
-    {
-        "id": "f5128367ceca7288",
-        "type": "link out",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "",
-        "links": [
-            "207ea8ce.3dea68",
-            "2da816b7.b2be9a"
-        ],
-        "x": 1235,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "0838cd6438a7b3ed",
-        "type": "link out",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "",
-        "links": [
-            "207ea8ce.3dea68",
-            "2da816b7.b2be9a"
-        ],
-        "x": 1215,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "2a59902f4e9d7332",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "conf",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "¿Desea activar el Rotador Tubería?",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 710,
-        "y": 480,
-        "wires": [
-            [
-                "ea5252f0afa4b497"
-            ]
-        ]
-    },
-    {
-        "id": "9588402989b6931c",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "ab199f0612578a6a",
-        "name": "conf",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "¿Desea desactivar el Rotador?",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 710,
-        "y": 580,
-        "wires": [
-            [
-                "8bf0825911576069"
-            ]
-        ]
-    },
-    {
-        "id": "44ef875eedd3bc03",
-        "type": "ui_button",
-        "z": "09f9d2468d70d96a",
-        "g": "f884ee2d936fd4d7",
-        "name": "",
-        "group": "075b122ac02156b8",
-        "order": 2,
-        "width": "3",
-        "height": "1",
-        "passthru": false,
-        "label": "Start",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "green",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 450,
-        "y": 720,
-        "wires": [
-            [
-                "34673aa740c4f12f"
-            ]
-        ]
-    },
-    {
-        "id": "d60cd8ef2872145f",
-        "type": "ui_button",
-        "z": "09f9d2468d70d96a",
-        "g": "f884ee2d936fd4d7",
-        "name": "",
-        "group": "075b122ac02156b8",
-        "order": 2,
-        "width": "3",
-        "height": "1",
-        "passthru": false,
-        "label": "Stop",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "red",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 450,
-        "y": 760,
-        "wires": [
-            [
-                "4432174f90db6783"
-            ]
-        ]
-    },
-    {
-        "id": "4432174f90db6783",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "f884ee2d936fd4d7",
-        "name": "stop",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.Start",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "34673aa740c4f12f",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "f884ee2d936fd4d7",
-        "name": "start",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.Start",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "901e9273bb2a3c3d",
-        "type": "ui_switch",
-        "z": "09f9d2468d70d96a",
-        "g": "d7605e857d43d130",
-        "name": "",
-        "label": "Automático/Manual",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 2,
-        "width": "4",
-        "height": "1",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "topic",
-        "topicType": "msg",
-        "style": "",
-        "onvalue": "Manual",
-        "onvalueType": "str",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "Automatico",
-        "offvalueType": "str",
-        "officon": "",
-        "offcolor": "",
-        "animate": false,
-        "className": "",
-        "x": 830,
-        "y": 760,
-        "wires": [
-            [
-                "79fde7a7dc15fac1",
-                "b649ec4ac5a32dc7"
-            ]
-        ]
-    },
-    {
-        "id": "79fde7a7dc15fac1",
-        "type": "debug",
-        "z": "09f9d2468d70d96a",
-        "g": "d7605e857d43d130",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "b649ec4ac5a32dc7",
-        "type": "change",
-        "z": "09f9d2468d70d96a",
-        "g": "d7605e857d43d130",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Rotador.Modo",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1090,
-        "y": 720,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c80df0907feeb9c6",
+        "id": "5a9bae3a43e827d0",
         "type": "function",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
-        "name": "FMS",
-        "func": "// variables del VSD\nvar Active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;//VSD Activado o en referencia\nActive = Active == 0 ? false : true;//volverlo boleano\nActive = true;\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\",\"memoryOnly\")||false;\ncomunicacion = true;\n// variables de la HMI\nvar habilitado = flow.get(\"Rotador.habilitado\")||false;\nvar Start = flow.get(\"Rotador.Start\")||false;\nvar configuracion = flow.get(\"Rotador.configuracion\")||true;\nvar Modo = flow.get(\"Rotador.Modo\") ||\"Manual\";\nvar HmiTon = 5;\nvar HmiOff = 5;\n// variables de la FMS\nvar state = flow.get(\"fms.state\",\"memoryOnly\")||\"E0\";\nvar t1 = flow.get(\"fms.timmer.t1\",\"memoryOnly\")||0;\nvar t2 = flow.get(\"fms.timmer.t2\",\"memoryOnly\")||0;\nvar t3 = flow.get(\"fms.timmer.t3\",\"memoryOnly\")||0;\nvar t4 = flow.get(\"fms.timmer.t4\",\"memoryOnly\")||0;\n// salidas FMS\nvar rotador = false;\nvar estadoFuncion = false;\n\n// logica de estado siguiente\nswitch (state) {\n    case 'E0':\n        if(habilitado){\n            state = 'E1';\n        }else{\n            state = 'E0';\n        }\n        break;\n    case 'E1':\n        if (!habilitado || !comunicacion){\n            state = 'E0';\n        }else if (configuracion && Modo == \"Manual\" && Start){\n            state = 'E2';\n            t1 = 0;t2 = 0;\n        } else if (configuracion && Modo == \"Automatico\" && Active){\n            state = 'E4';\n            t3 = 0;t4 = 0;\n        }else{\n            state = 'E1';\n        }\n        break;\n    case 'E2':\n        if (!Start || !habilitado || !comunicacion || Modo != \"Manual\"){\n            state = 'E1'\n        }else if(t1 < HmiTon){\n            state = 'E2';\n        } else if (t1 > HmiTon){\n            state = 'E3';\n            t2 = 0;\n        }else{\n            state = 'E2';\n        }\n        break;\n    case 'E3':\n        if (!Start || !habilitado || !comunicacion || Modo != \"Manual\"){\n            state = 'E1';\n        }else if(t2<HmiOff){\n            state = 'E3';\n        }else if(t2 > HmiOff){\n            state = 'E2';\n            t1 = 0;\n        }\n        break;\n    case 'E4':\n        if (!Active || !habilitado || !comunicacion || Modo != \"Automatico\"){\n            state = 'E1';\n        }else if(t3<HmiTon){\n            state = 'E4';\n        }else if(t3 > HmiTon){\n            state = 'E5';\n            t4 = 0;\n        }\n        break;\n    case 'E5':\n        if (!Active || !habilitado || !comunicacion || Modo != \"Automatico\"){\n            state = 'E1';\n        }else if(t4<HmiOff){\n            state = 'E5';\n        }else if(t3 > HmiOff){\n            state = 'E4';\n            t3 = 0;\n        }\n        break;\n\n}\nswitch (state) {\n    case 'E0':\n        rotador = false;\n        estadoFuncion = \"Deshabilitado\";\n        break;\n    case 'E1':\n        rotador = false;\n        estadoFuncion = \"Espera\";\n        break;\n    case 'E2':\n        rotador = true;\n        estadoFuncion = \"Habilitado ON\";\n        t1 = t1 +1;\n        break;\n    case 'E3':\n        rotador = false;\n        estadoFuncion = \"Habilitado OFF\";\n        t2 = t2 +1;\n        break;\n    case 'E4':\n        rotador = true;\n        estadoFuncion = \"Habilitado ON\";\n        t3 = t3 +1;\n        break;\n    case 'E5':\n        t4 = t4 +1;\n        rotador = false;\n        estadoFuncion = \"Habilitado OFF\";\n        break;\n}\n\n\nvar fms = {\n    'state': state,\n    'timmer':{t1,t2,t3,t4},\n    'Out': { rotador, estadoFuncion}\n}\nflow.set(\"fms\",fms,\"memoryOnly\");\n\nnode.status({fill:\"blue\",shape:\"ring\",text:state});\n\n//salidas de la FMS\nrotador = { payload: rotador };\nestadoFuncion = { payload: estadoFuncion };\nreturn [rotador, estadoFuncion];",
-        "outputs": 2,
+        "z": "7a89175c.90f6a8",
+        "g": "d3ed5e7495b4ebab",
+        "name": "Adquision Dinagrama",
+        "func": "var value = msg.payload;\n//como se llama una variable del sistema var entrada = value['SWC.Dinagrama.vPotencia[0]']\nvar numeroMuestras = value['SWC.Dinagrama.NumeroMuestras'];\n\n\nvar vPotencia = [];\n// adquision del mensaje en un vector\nfor (let i = 0; i < 500; i++) {\n    var route = 'SWC.Dinagrama.vPotencia[' + i.toString() +']'\n    vPotencia[i] = value[route];\n}\nglobal.set('PLC.Dinagrama.vPotencia', vPotencia, 'memoryOnly');\nglobal.set('PLC.Dinagrama.numeroMuestras', numeroMuestras, 'memoryOnly');\n\n// monitoreo de variables del sistema\nvar variables = {\n    vPotencia: vPotencia,\n    value:value,\n    numeroMuestras: numeroMuestras,\n}\ncontext.set('variables',variables,'memoryOnly');\nreturn msg;",
+        "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 220,
+        "x": 2310,
+        "y": 3760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98fbd3b1fcc24445",
+        "type": "eth-ip out",
+        "z": "7a89175c.90f6a8",
+        "g": "d3ed5e7495b4ebab",
+        "endpoint": "5851f73770f584c6",
+        "variable": "SWC.Dinagrama.enabled",
+        "program": "",
+        "name": "Enabled Adquision",
+        "x": 2390,
+        "y": 3860,
+        "wires": []
+    },
+    {
+        "id": "68e1fa34772943cb",
+        "type": "inject",
+        "z": "7a89175c.90f6a8",
+        "g": "d3ed5e7495b4ebab",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 2230,
+        "y": 3840,
         "wires": [
             [
-                "5d24994ddcf1d0a9",
-                "019d0594b4883122"
-            ],
-            [
-                "9b976b6795fbe052",
-                "d25f134e474d4131"
+                "98fbd3b1fcc24445"
             ]
         ]
     },
     {
-        "id": "d25f134e474d4131",
-        "type": "ui_text",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
-        "group": "075b122ac02156b8",
-        "order": 4,
-        "width": "3",
-        "height": "1",
+        "id": "eb101fdc65f1b1f5",
+        "type": "inject",
+        "z": "7a89175c.90f6a8",
+        "g": "d3ed5e7495b4ebab",
         "name": "",
-        "label": "Estado",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "x": 680,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "fa9417fdf8beb32d",
-        "type": "ui_text_input",
-        "z": "09f9d2468d70d96a",
-        "g": "87c215eb8316f178",
-        "name": "",
-        "label": "Horas On",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 5,
-        "width": "2",
-        "height": "1",
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 460,
-        "y": 880,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5d7507d26b40f63e",
-        "type": "ui_text_input",
-        "z": "09f9d2468d70d96a",
-        "g": "87c215eb8316f178",
-        "name": "",
-        "label": "Minutos On ",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 5,
-        "width": "2",
-        "height": "1",
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 460,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "86bf3b2d44edfc8e",
-        "type": "ui_text_input",
-        "z": "09f9d2468d70d96a",
-        "g": "87c215eb8316f178",
-        "name": "",
-        "label": "Horas Off",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 5,
-        "width": "2",
-        "height": "1",
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 450,
-        "y": 960,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "57276c627f02a8e7",
-        "type": "ui_text_input",
-        "z": "09f9d2468d70d96a",
-        "g": "87c215eb8316f178",
-        "name": "",
-        "label": "Minutos Off",
-        "tooltip": "",
-        "group": "075b122ac02156b8",
-        "order": 5,
-        "width": "2",
-        "height": "1",
-        "passthru": true,
-        "mode": "text",
-        "delay": 300,
-        "topic": "topic",
-        "sendOnBlur": true,
-        "className": "",
-        "topicType": "msg",
-        "x": 460,
-        "y": 1000,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9b976b6795fbe052",
-        "type": "debug",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 690,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "5d24994ddcf1d0a9",
-        "type": "debug",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 690,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "019d0594b4883122",
-        "type": "ui_led",
-        "z": "09f9d2468d70d96a",
-        "g": "42578aaca1306cfe",
-        "order": 9,
-        "group": "075b122ac02156b8",
-        "width": 0,
-        "height": 0,
-        "label": "Rotador",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
+        "props": [
             {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
+                "p": "payload"
             }
         ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 670,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "f977a8283662b48b",
-        "type": "comment",
-        "z": "09f9d2468d70d96a",
-        "name": "Leer",
-        "info": "Funcion de COntrol de rotador de tuberia \npreliminar deshabilitada porque esta la otra \nfunción",
-        "x": 430,
-        "y": 60,
-        "wires": []
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 2230,
+        "y": 3880,
+        "wires": [
+            [
+                "98fbd3b1fcc24445"
+            ]
+        ]
     }
 ]
