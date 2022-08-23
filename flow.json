@@ -1020,7 +1020,6 @@
             "744089fd1f82831a",
             "1893048213e6d12c",
             "a4403c3e26ba31b8",
-            "881f8e7e37d29f85",
             "47eecc9b022b2242",
             "4283632c186cd676",
             "824394eb2c1be3fa",
@@ -1618,13 +1617,12 @@
             "label": true
         },
         "nodes": [
-            "8ed62712.fe2018",
             "b2f2659a.67f648"
         ],
-        "x": 18,
-        "y": 23,
-        "w": 1754,
-        "h": 444
+        "x": 68,
+        "y": 243,
+        "w": 1704,
+        "h": 224
     },
     {
         "id": "8c207e440fb46f33",
@@ -2172,7 +2170,9 @@
             "ead83bdf05616014"
         ],
         "x": 18,
-        "y": 23
+        "y": 23,
+        "w": 1464,
+        "h": 1144
     },
     {
         "id": "14f2aa5a616905b0",
@@ -2188,7 +2188,9 @@
             "98c32ee0a85b9ad7"
         ],
         "x": 794,
-        "y": 1039
+        "y": 1039,
+        "w": 412,
+        "h": 82
     },
     {
         "id": "a73c3da33ecbc290",
@@ -3924,7 +3926,9 @@
             "2421053256f107da"
         ],
         "x": 154,
-        "y": 279
+        "y": 279,
+        "w": 742,
+        "h": 502
     },
     {
         "id": "7c4c986707b478cc",
@@ -5574,41 +5578,6 @@
         "y": 79
     },
     {
-        "id": "8ed62712.fe2018",
-        "type": "group",
-        "z": "dd18d94e.4b1408",
-        "g": "6abd418f.d175b",
-        "name": "Reestablecer comunicación Drive",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "94c309f0.3ce088",
-            "13543f21.6950c1",
-            "707fd695.b69b88",
-            "f315fa9c.1185c8",
-            "c9f9bcf4.df756",
-            "223b4301.94d90c",
-            "28a5f644.25dfba",
-            "c743079b.f42c28",
-            "205ad8ee.53daf8",
-            "2aab0f68.d1ce8",
-            "89596b07.c81a88",
-            "5479100e.249ec",
-            "50944dad750778ed",
-            "e7869ca8.ae27c",
-            "c6cdb127fcc1677c",
-            "b5432e18.1b297",
-            "bd99b4e3.36dc18",
-            "c30439cc.4bcb68"
-        ],
-        "x": 44,
-        "y": 49,
-        "w": 1422,
-        "h": 212
-    },
-    {
         "id": "b2f2659a.67f648",
         "type": "group",
         "z": "dd18d94e.4b1408",
@@ -5619,8 +5588,6 @@
             "color": "#000000"
         },
         "nodes": [
-            "6c83c496.5eb8ec",
-            "d105f996.05fde8",
             "8fdf7c75.8bd9d",
             "21bfe70d.8d67a8",
             "d21e2c47.59925",
@@ -5634,11 +5601,12 @@
             "06c8e0a1056d5082",
             "235d78827fe0ee74",
             "be13aab248bfe2b8",
-            "f25e2dd8c23a3d39"
+            "391b99c668c34d8f",
+            "81e5738031db0190"
         ],
-        "x": 44,
+        "x": 94,
         "y": 269,
-        "w": 1702,
+        "w": 1652,
         "h": 172
     },
     {
@@ -5895,7 +5863,9 @@
             "2a11ad9156dce089"
         ],
         "x": 84,
-        "y": 959
+        "y": 959,
+        "w": 682,
+        "h": 182
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -5953,10 +5923,13 @@
             "7ef87d44828138c4",
             "79ed59278564eccd",
             "bb92b76588cce739",
-            "20a33011be6557f7"
+            "20a33011be6557f7",
+            "eac0f652ab6ffed5"
         ],
         "x": 44,
-        "y": 49
+        "y": 49,
+        "w": 1412,
+        "h": 882
     },
     {
         "id": "1112a5e0c336769a",
@@ -7817,6 +7790,27 @@
         "h": 242
     },
     {
+        "id": "9f921275daf0bbd3",
+        "type": "group",
+        "z": "dfc307f8ca4184f1",
+        "name": "Comandos de Arranque y Parada del DC",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4751eb4dac8cb204",
+            "ce4a9c478776d077",
+            "5faa81bcdd3a4b25",
+            "0d7247f0c4368302",
+            "4d98e5d6e7da731b",
+            "0c881cb55314626b"
+        ],
+        "x": 34,
+        "y": 399,
+        "w": 432,
+        "h": 242
+    },
+    {
         "id": "d25d405a.19cff",
         "type": "ui_base",
         "theme": {
@@ -8351,91 +8345,6 @@
         "order": 11,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "a3d1f2c7.5fe22",
-        "type": "pccc endpoint",
-        "address": "192.168.2.50",
-        "port": "44818",
-        "userouting": false,
-        "routingbuf": "",
-        "cycletime": "500",
-        "timeout": "1500",
-        "name": "PowerFlex755T_Read",
-        "vartable": [
-            {
-                "addr": "N42:3",
-                "name": "TimeOut"
-            },
-            {
-                "addr": "N45:0",
-                "name": "Status_Word"
-            },
-            {
-                "addr": "N45:1",
-                "name": "Output_Frequency"
-            },
-            {
-                "addr": "N45:2",
-                "name": "Commanded_SpdRef"
-            },
-            {
-                "addr": "N45:3",
-                "name": "Output_Current"
-            },
-            {
-                "addr": "N45:4",
-                "name": "Output_Voltage"
-            },
-            {
-                "addr": "N45:5",
-                "name": "Output_Power"
-            },
-            {
-                "addr": "N45:6",
-                "name": "Power_Factor"
-            },
-            {
-                "addr": "N45:7",
-                "name": "Bus_DC_Volts"
-            },
-            {
-                "addr": "N45:8",
-                "name": "Drive_Temp_C"
-            },
-            {
-                "addr": "N45:9",
-                "name": "Elapsed_Run_Time"
-            },
-            {
-                "addr": "N45:10",
-                "name": "Last_Fault_Code"
-            },
-            {
-                "addr": "N45:11",
-                "name": "Elapsed_kWH"
-            },
-            {
-                "addr": "N45:12",
-                "name": "Port_4_Dig_In_Sts"
-            },
-            {
-                "addr": "N45:13",
-                "name": "Port4_Anlg_In0_Value"
-            },
-            {
-                "addr": "N45:14",
-                "name": "Port4_Anlg_In1_Value"
-            },
-            {
-                "addr": "N45:15",
-                "name": "Port5_Anlg_In0_Value"
-            },
-            {
-                "addr": "N45:16",
-                "name": "Port5_Anlg_In1_Value"
-            }
-        ]
     },
     {
         "id": "ae58460d.12c698",
@@ -12142,6 +12051,45 @@
                 },
                 "SWC.VSD.VSD_O.LogicCommand_Reverse": {
                     "type": "BOOL"
+                },
+                "SWC.VSD.VSD_I.P10_VRefCommanded": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.Feedback": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.DriveStatus": {
+                    "type": "DINT"
+                },
+                "SWC.VSD.VSD_I.P10_OutputVoltage": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.P10_OutputPower": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.P13_PowerFactor": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.DCBusVolts": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.P10_HeatsnkTemp": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.ElapsedRunTime": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.LastFaultCode": {
+                    "type": "DINT"
+                },
+                "SWC.VSD.VSD_I.ElapsedkWH": {
+                    "type": "DINT"
+                },
+                "SWC.VSD.VSD_I.P10_OutputCurrent": {
+                    "type": "REAL"
+                },
+                "SWC.VSD.VSD_I.DriveStatus_Stopping": {
+                    "type": "BOOL"
                 }
             }
         }
@@ -15348,9 +15296,7 @@
         "x": 1570,
         "y": 720,
         "wires": [
-            [
-                "881f8e7e37d29f85"
-            ],
+            [],
             [
                 "e834cca1573f4ed0"
             ],
@@ -15444,19 +15390,6 @@
                 "e834cca1573f4ed0"
             ]
         ]
-    },
-    {
-        "id": "881f8e7e37d29f85",
-        "type": "link out",
-        "z": "902fc438.e5d758",
-        "g": "fcb3da61.429db8",
-        "name": "Arranque Escalonado Link Out",
-        "links": [
-            "5a992b9e.0fe264"
-        ],
-        "x": 1535,
-        "y": 680,
-        "wires": []
     },
     {
         "id": "47eecc9b022b2242",
@@ -18433,8 +18366,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1250,
-        "y": 880,
+        "x": 1280,
+        "y": 900,
         "wires": [
             []
         ]
@@ -72536,455 +72469,6 @@
         ]
     },
     {
-        "id": "6c83c496.5eb8ec",
-        "type": "pccc in",
-        "z": "dd18d94e.4b1408",
-        "g": "b2f2659a.67f648",
-        "endpoint": "a3d1f2c7.5fe22",
-        "mode": "all",
-        "variable": "PF755T_DLReading_0",
-        "diff": false,
-        "name": "",
-        "x": 170,
-        "y": 310,
-        "wires": [
-            [
-                "d105f996.05fde8",
-                "f25e2dd8c23a3d39"
-            ]
-        ]
-    },
-    {
-        "id": "d105f996.05fde8",
-        "type": "function",
-        "z": "dd18d94e.4b1408",
-        "g": "b2f2659a.67f648",
-        "name": "Interpretar comunicación",
-        "func": "// variables para configuración de la polea\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\nvar unitpow = global.get('C2S.Motor_Control.Nameplate.Power_Units') || 0;\nvar powplaca = global.get('C2S.Motor_Control.Nameplate.Power') || 0;\nvar hppla, TorqNom, Torque_Porcent;\n\n// variables tomadas desde el VSD\nvar Commanded_SpdRef = parseFloat(msg.payload.Commanded_SpdRef);\nvar Output_Frequency = parseFloat(msg.payload.Output_Frequency);\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n    var relSRP2 = RPM * PoleaPequena\n    if (relSRP2 != 0) {//ejecute si la relacion de SRP2 está correcta\n        var spm = (Commanded_SpdRef * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n        var spmActual = (Output_Frequency * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n    }\n\n}\nelse {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n}\n\nmsg.payload = {\n    'Status_Word': Float2Int(msg.payload.Status_Word),\n    'Output_Frequency': Output_Frequency,\n    'Commanded_SpdRef': Commanded_SpdRef,\n    'Output_Current': parseFloat(msg.payload.Output_Current),\n    'Output_Voltage': parseFloat(msg.payload.Output_Voltage),\n    'Output_Power': parseFloat(msg.payload.Output_Power),\n    'Power_Factor': parseFloat(msg.payload.Power_Factor),\n    'Bus_DC_Volts': parseFloat(msg.payload.Bus_DC_Volts),\n    'Elapsed_Run_Time': parseFloat(msg.payload.Elapsed_Run_Time),\n    'Drive_Temp_C': parseFloat(msg.payload.Drive_Temp_C),\n    'Last_Fault_Code': Float2Int(msg.payload.Last_Fault_Code),\n    // 'Elapsed_kWH': parseFloat(msg.payload.Elapsed_kWH * 1000),\n    'Elapsed_kWH': (Float2Int(msg.payload.Elapsed_kWH))/1000,\n    'spm': spm,\n    'spmActual': spmActual,\n    'Port_4_Dig_In_Sts': Float2Int(msg.payload.Port_4_Dig_In_Sts),\n    'Port4_Anlg_In0_Value': parseFloat(msg.payload.Port4_Anlg_In0_Value),\n    'Port4_Anlg_In1_Value': parseFloat(msg.payload.Port4_Anlg_In1_Value),\n    'Port5_Anlg_In0_Value': parseFloat(msg.payload.Port5_Anlg_In0_Value),\n    'Port5_Anlg_In1_Value': parseFloat(msg.payload.Port5_Anlg_In1_Value)\n}\n\nmsg.payload.Commanded_RPMRef = (msg.payload.Commanded_SpdRef * RPM) / (HertzMotor * 1);// 1 relación de transformación\nmsg.payload.Output_RPM = (msg.payload.Output_Frequency * RPM) / (HertzMotor * 1); // 1 relación de transformación\n\nif (msg.payload.Output_RPM == 0)\n    msg.payload.Torque = 0;\nelse\n    msg.payload.Torque = Math.abs((5252 * msg.payload.Output_Power * 1.341) / (msg.payload.Output_RPM));\n\nif (unitpow == 0) {\n    hppla = powplaca;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\nelse {\n    hppla = powplaca * 1.341;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\n\nif (TorqNom != 0) msg.payload.Torque_Percent = Math.abs((msg.payload.Torque / TorqNom) * 100);\nmsg.payload.Torque_Nominal = TorqNom;\n\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\");\ncontext.set(\"Output_Frequency\", Output_Frequency, \"memoryOnly\");\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"spmActual\", spmActual, \"memoryOnly\");\n\nreturn msg;\n\nfunction Float2Int(payload) {\n    const getHex = i => ('00' + i.toString(16)).slice(-2);\n    var view = new DataView(new ArrayBuffer(4)),\n        result;\n    view.setFloat32(0, payload);\n    result = Array\n        .apply(null, { length: 4 })\n        .map((_, i) => getHex(view.getUint8(i)))\n        .join('');\n    return parseInt(result, 16);\n}\n//Fuente: https://stackoverflow.com/questions/47164675/convert-float-to-32bit-hex-string-in-javascript\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 400,
-        "y": 310,
-        "wires": [
-            [
-                "8fdf7c75.8bd9d",
-                "21bfe70d.8d67a8",
-                "06c8e0a1056d5082"
-            ]
-        ]
-    },
-    {
-        "id": "b5432e18.1b297",
-        "type": "pccc out",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "CommandWord",
-        "name": "",
-        "x": 1360,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "e7869ca8.ae27c",
-        "type": "switch",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Active?",
-        "property": "#:(memoryOnly)::Drive_Status.Active",
-        "propertyType": "global",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1140,
-        "y": 220,
-        "wires": [
-            [
-                "b5432e18.1b297",
-                "50944dad750778ed"
-            ]
-        ]
-    },
-    {
-        "id": "5479100e.249ec",
-        "type": "function",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Stop Cmd",
-        "func": "//v = new DataView(new ArrayBuffer(4));\nmsg.payload = 5393;\n//msg.payload = msg.payload.toString(16);\n//v.setUint32(0, '0x'+ msg.payload);\n//node.status({fill:\"green\",shape:\"dot\",text:v.getFloat32(0)});\n\n//msg.payload = v.getFloat32(0);\n\nreturn msg;\n\n// Fuentes:\n// https://stackoverflow.com/questions/41635908/node-red-parsing-json-data-and-converting-it-into-binary\n// https://stackoverflow.com/questions/49221045/javascript-hexadecimal-string-to-ieee-754-floating-point",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 990,
-        "y": 220,
-        "wires": [
-            [
-                "e7869ca8.ae27c"
-            ]
-        ]
-    },
-    {
-        "id": "bd99b4e3.36dc18",
-        "type": "pccc out",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "TimeOut",
-        "name": "",
-        "x": 1160,
-        "y": 130,
-        "wires": []
-    },
-    {
-        "id": "c30439cc.4bcb68",
-        "type": "delay",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 940,
-        "y": 90,
-        "wires": [
-            [
-                "bd99b4e3.36dc18"
-            ]
-        ]
-    },
-    {
-        "id": "205ad8ee.53daf8",
-        "type": "change",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "20",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "20",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 90,
-        "wires": [
-            [
-                "c30439cc.4bcb68"
-            ]
-        ]
-    },
-    {
-        "id": "2aab0f68.d1ce8",
-        "type": "change",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "0",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 130,
-        "wires": [
-            [
-                "bd99b4e3.36dc18"
-            ]
-        ]
-    },
-    {
-        "id": "89596b07.c81a88",
-        "type": "delay",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 820,
-        "y": 170,
-        "wires": [
-            [
-                "5479100e.249ec"
-            ]
-        ]
-    },
-    {
-        "id": "223b4301.94d90c",
-        "type": "change",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::Status_TimeOut",
-                "pt": "flow",
-                "to": "status.text",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 600,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "28a5f644.25dfba",
-        "type": "switch",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "property": "#:(memoryOnly)::Status_TimeOut",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "neq",
-                "v": "20",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 660,
-        "y": 150,
-        "wires": [
-            [
-                "2aab0f68.d1ce8",
-                "205ad8ee.53daf8",
-                "89596b07.c81a88"
-            ]
-        ]
-    },
-    {
-        "id": "c743079b.f42c28",
-        "type": "function",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Arranque del Drive",
-        "func": "if(msg.payload == 'online'){\n    context.set('status',true,'memoryOnly');\n    node.status({fill:\"green\",shape:\"dot\",text:msg.payload});\n    return msg;\n}\nelse if(msg.payload != 'online'){\n    context.set('status',false,'memoryOnly');\n    node.status({fill:\"red\",shape:\"dot\",text:msg.payload});\n    return;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 620,
-        "y": 110,
-        "wires": [
-            [
-                "89596b07.c81a88",
-                "2aab0f68.d1ce8",
-                "205ad8ee.53daf8"
-            ]
-        ]
-    },
-    {
-        "id": "c9f9bcf4.df756",
-        "type": "status",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Status Drive",
-        "scope": [
-            "bd99b4e3.36dc18"
-        ],
-        "x": 140,
-        "y": 190,
-        "wires": [
-            [
-                "223b4301.94d90c"
-            ]
-        ]
-    },
-    {
-        "id": "f315fa9c.1185c8",
-        "type": "inject",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "5s",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "3",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 160,
-        "y": 150,
-        "wires": [
-            [
-                "28a5f644.25dfba"
-            ]
-        ]
-    },
-    {
-        "id": "707fd695.b69b88",
-        "type": "rbe",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "property": "payload",
-        "x": 460,
-        "y": 110,
-        "wires": [
-            [
-                "c743079b.f42c28"
-            ]
-        ]
-    },
-    {
-        "id": "13543f21.6950c1",
-        "type": "change",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "status.text",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 310,
-        "y": 110,
-        "wires": [
-            [
-                "707fd695.b69b88"
-            ]
-        ]
-    },
-    {
-        "id": "94c309f0.3ce088",
-        "type": "status",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Status Drive",
-        "scope": [
-            "6c83c496.5eb8ec"
-        ],
-        "x": 140,
-        "y": 110,
-        "wires": [
-            [
-                "13543f21.6950c1"
-            ]
-        ]
-    },
-    {
-        "id": "50944dad750778ed",
-        "type": "delay",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "500",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "x": 1080,
-        "y": 180,
-        "wires": [
-            [
-                "c6cdb127fcc1677c"
-            ]
-        ]
-    },
-    {
-        "id": "c6cdb127fcc1677c",
-        "type": "change",
-        "z": "dd18d94e.4b1408",
-        "g": "8ed62712.fe2018",
-        "name": "Evitar paro forzado Drive",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "0",
-                "tot": "num"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1280,
-        "y": 180,
-        "wires": [
-            [
-                "b5432e18.1b297"
-            ]
-        ]
-    },
-    {
         "id": "ca280181.090e2",
         "type": "subflow:c8b77ff3.ab501",
         "z": "dd18d94e.4b1408",
@@ -73529,7 +73013,7 @@
             "ea32976ff44ab826",
             "5f79ab420985f7b2"
         ],
-        "x": 675,
+        "x": 655,
         "y": 580,
         "wires": []
     },
@@ -73626,24 +73110,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "f25e2dd8c23a3d39",
-        "type": "debug",
-        "z": "dd18d94e.4b1408",
-        "g": "b2f2659a.67f648",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 370,
-        "y": 380,
-        "wires": []
     },
     {
         "id": "5c5b638c.a8f91c",
@@ -73744,7 +73210,8 @@
             [
                 "a65e22e6.71c65",
                 "d3d2bf92f1387fd6",
-                "f54284edcaf056e4"
+                "f54284edcaf056e4",
+                "eac0f652ab6ffed5"
             ],
             []
         ]
@@ -74378,7 +73845,7 @@
         "links": [
             "756bcd33a6cec802"
         ],
-        "x": 1035,
+        "x": 995,
         "y": 1020,
         "wires": []
     },
@@ -74889,6 +74356,7 @@
         "once": true,
         "onceDelay": "10",
         "topic": "",
+        "payloadType": "str",
         "x": 890,
         "y": 1080,
         "wires": [
@@ -102864,7 +102332,7 @@
         "type": "debug",
         "z": "5ba456fee41e0d30",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -103196,6 +102664,7 @@
         "id": "4751eb4dac8cb204",
         "type": "eth-ip out",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "endpoint": "dc12102450f859c0",
         "variable": "DC_CommandON",
         "program": "",
@@ -103208,6 +102677,7 @@
         "id": "ce4a9c478776d077",
         "type": "eth-ip out",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "endpoint": "dc12102450f859c0",
         "variable": "DC_CommandOFF",
         "program": "",
@@ -103220,6 +102690,7 @@
         "id": "5faa81bcdd3a4b25",
         "type": "inject",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "name": "",
         "props": [
             {
@@ -103233,7 +102704,7 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 110,
+        "x": 130,
         "y": 560,
         "wires": [
             [
@@ -103245,6 +102716,7 @@
         "id": "0d7247f0c4368302",
         "type": "inject",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "name": "",
         "props": [
             {
@@ -103258,7 +102730,7 @@
         "topic": "",
         "payload": "false",
         "payloadType": "bool",
-        "x": 110,
+        "x": 130,
         "y": 600,
         "wires": [
             [
@@ -103270,6 +102742,7 @@
         "id": "4d98e5d6e7da731b",
         "type": "inject",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "name": "",
         "props": [
             {
@@ -103295,6 +102768,7 @@
         "id": "0c881cb55314626b",
         "type": "inject",
         "z": "dfc307f8ca4184f1",
+        "g": "9f921275daf0bbd3",
         "name": "",
         "props": [
             {
@@ -103823,7 +103297,7 @@
         "z": "c8b77ff3.ab501",
         "name": "",
         "pauseType": "delay",
-        "timeout": "1",
+        "timeout": "3",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -104080,6 +103554,63 @@
         "wires": [
             [
                 "51331ceadbceec6b"
+            ]
+        ]
+    },
+    {
+        "id": "391b99c668c34d8f",
+        "type": "eth-ip in",
+        "z": "dd18d94e.4b1408",
+        "g": "b2f2659a.67f648",
+        "endpoint": "5851f73770f584c6",
+        "mode": "all",
+        "variable": "",
+        "program": "",
+        "name": "",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "81e5738031db0190"
+            ]
+        ]
+    },
+    {
+        "id": "eac0f652ab6ffed5",
+        "type": "debug",
+        "z": "2858ae04397c7488",
+        "g": "ee01b6d1.f76f98",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "81e5738031db0190",
+        "type": "function",
+        "z": "dd18d94e.4b1408",
+        "g": "b2f2659a.67f648",
+        "name": "Interpretar comunicación",
+        "func": "// variables traidas desde comunicación\nvar data = msg.payload;\ncontext.set('1Data',data,'memoryOnly');\n\n// variables para configuración de la polea\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\nvar unitpow = global.get('C2S.Motor_Control.Nameplate.Power_Units') || 0;\nvar powplaca = global.get('C2S.Motor_Control.Nameplate.Power') || 0;\nvar hppla, TorqNom, Torque_Porcent;\n\n// variables tomadas desde el VSD\nvar Commanded_SpdRef = parseFloat(data[\"SWC.VSD.VSD_I.P10_VRefCommanded\"]);\nvar Output_Frequency = parseFloat(data[\"SWC.VSD.VSD_I.Feedback\"]);\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n    var relSRP2 = RPM * PoleaPequena\n    if (relSRP2 != 0) {//ejecute si la relacion de SRP2 está correcta\n        var spm = (Commanded_SpdRef * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n        var spmActual = (Output_Frequency * RPM * PoleaPequena) / (PoleaGrande * RGB * HertzMotor);\n    }\n\n}\nelse {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n}\n\nmsg.payload = {\n    'Status_Word': (data[\"SWC.VSD.VSD_I.DriveStatus\"]),\n    'Output_Frequency': Output_Frequency,\n    'Commanded_SpdRef': Commanded_SpdRef,\n    'Output_Current': trunc(data[\"SWC.VSD.VSD_I.P10_OutputCurrent\"]),\n    'Output_Voltage': trunc(data[\"SWC.VSD.VSD_I.P10_OutputVoltage\"]),\n    'Output_Power': trunc(data[\"SWC.VSD.VSD_I.P10_OutputPower\"]),\n    'Power_Factor': trunc(data[\"SWC.VSD.VSD_I.P13_PowerFactor\"]),\n    'Bus_DC_Volts': trunc(data[\"SWC.VSD.VSD_I.DCBusVolts\"]),\n    'Elapsed_Run_Time': trunc(data[\"SWC.VSD.VSD_I.ElapsedRunTime\"]),\n    'Drive_Temp_C': trunc(data[\"SWC.VSD.VSD_I.P10_HeatsnkTemp\"]),\n    'Last_Fault_Code': trunc(data[\"SWC.VSD.VSD_I.LastFaultCode\"]),\n    // 'Elapsed_kWH': parseFloat(msg.payload.Elapsed_kWH * 1000),\n    'Elapsed_kWH': (trunc(data[\"SWC.VSD.VSD_I.ElapsedkWH\"]))/1000,\n    'Stopping': (data[\"SWC.VSD.VSD_I.DriveStatus_Stopping\"]),\n    'spm': spm,\n    'spmActual': spmActual,\n    \n    // no se estan muestreando por el momento\n    'Port_4_Dig_In_Sts': Float2Int(msg.payload.Port_4_Dig_In_Sts),\n    'Port4_Anlg_In0_Value': parseFloat(msg.payload.Port4_Anlg_In0_Value),\n    'Port4_Anlg_In1_Value': parseFloat(msg.payload.Port4_Anlg_In1_Value),\n    'Port5_Anlg_In0_Value': parseFloat(msg.payload.Port5_Anlg_In0_Value),\n    'Port5_Anlg_In1_Value': parseFloat(msg.payload.Port5_Anlg_In1_Value)\n}\n\nmsg.payload.Commanded_RPMRef = (msg.payload.Commanded_SpdRef * RPM) / (HertzMotor * 1);// 1 relación de transformación\nmsg.payload.Output_RPM = (msg.payload.Output_Frequency * RPM) / (HertzMotor * 1); // 1 relación de transformación\n\nif (msg.payload.Output_RPM == 0)\n    msg.payload.Torque = 0;\nelse\n    msg.payload.Torque = Math.abs((5252 * msg.payload.Output_Power * 1.341) / (msg.payload.Output_RPM));\n\nif (unitpow == 0) {\n    hppla = powplaca;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\nelse {\n    hppla = powplaca * 1.341;\n    TorqNom = ((5252 * hppla) / (RPM / 1));\n}\n\nif (TorqNom != 0) msg.payload.Torque_Percent = Math.abs((msg.payload.Torque / TorqNom) * 100);\nmsg.payload.Torque_Nominal = TorqNom;\n\n// corrimiento de datos\nmsg.payload.Status_Word = msg.payload.Status_Word << 1;\nmsg.payload.Status_Word = msg.payload.Status_Word >> 1;\n\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\");\ncontext.set(\"Output_Frequency\", Output_Frequency, \"memoryOnly\");\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"spmActual\", spmActual, \"memoryOnly\");\n\nreturn msg;\n\nfunction Float2Int(payload) {\n    const getHex = i => ('00' + i.toString(16)).slice(-2);\n    var view = new DataView(new ArrayBuffer(4)),\n        result;\n    view.setFloat32(0, payload);\n    result = Array\n        .apply(null, { length: 4 })\n        .map((_, i) => getHex(view.getUint8(i)))\n        .join('');\n    return parseInt(result, 16);\n}\n//Fuente: https://stackoverflow.com/questions/47164675/convert-float-to-32bit-hex-string-in-javascript\n\nfunction trunc(num) {\n    if (typeof num == 'number') return parseFloat(num.toFixed(4))\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "8fdf7c75.8bd9d",
+                "21bfe70d.8d67a8",
+                "06c8e0a1056d5082"
             ]
         ]
     }
