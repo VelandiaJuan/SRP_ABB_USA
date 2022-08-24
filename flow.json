@@ -1552,7 +1552,9 @@
             "eb91dac5.690838"
         ],
         "x": 88,
-        "y": 53
+        "y": 53,
+        "w": 1764,
+        "h": 1140
     },
     {
         "id": "e98dc6a9.24ece8",
@@ -2682,7 +2684,9 @@
             "eaf4b2085acff39e"
         ],
         "x": 154,
-        "y": 359
+        "y": 359,
+        "w": 1092,
+        "h": 282
     },
     {
         "id": "3caf0dee72fc2047",
@@ -2720,7 +2724,9 @@
             "52d49743408ce8f6"
         ],
         "x": 154,
-        "y": 1159
+        "y": 1159,
+        "w": 1402,
+        "h": 322
     },
     {
         "id": "1f2682bef5794306",
@@ -2744,7 +2750,9 @@
             "eee0b070f76590b2"
         ],
         "x": 154,
-        "y": 179
+        "y": 179,
+        "w": 1392,
+        "h": 162
     },
     {
         "id": "6604db9c5e9f2794",
@@ -2782,10 +2790,13 @@
             "6e016cc89f8f8bb1",
             "706cd89911f1463c",
             "06f623cfa5db9130",
-            "bc0cf6ab99f49325"
+            "bc0cf6ab99f49325",
+            "f68f166768580cb0"
         ],
         "x": 154,
-        "y": 659
+        "y": 659,
+        "w": 1422,
+        "h": 482
     },
     {
         "id": "224caf14924e867c",
@@ -2896,7 +2907,9 @@
             "c01c2da340bbf3a1"
         ],
         "x": 3298,
-        "y": 33
+        "y": 33,
+        "w": 1684,
+        "h": 714
     },
     {
         "id": "9503cc9d3c8f3b8d",
@@ -2913,7 +2926,9 @@
             "6e4ce300ce601bf3"
         ],
         "x": 74,
-        "y": 1219
+        "y": 1219,
+        "w": 332,
+        "h": 122
     },
     {
         "id": "88e4ff080edb1a83",
@@ -2935,7 +2950,9 @@
             "d0c2e26c6d297150"
         ],
         "x": 68,
-        "y": 33
+        "y": 33,
+        "w": 3204,
+        "h": 1094
     },
     {
         "id": "8fa2eaea5acf9620",
@@ -3403,7 +3420,9 @@
             "b7d8c20a44ab62b7"
         ],
         "x": 134,
-        "y": 1319
+        "y": 1399,
+        "w": 1002,
+        "h": 282
     },
     {
         "id": "60dd1be9811f2cdb",
@@ -3434,7 +3453,9 @@
             "7858fff2ef58a324"
         ],
         "x": 128,
-        "y": 779
+        "y": 859,
+        "w": 1074,
+        "h": 515.5
     },
     {
         "id": "8ae034dd7eca71b4",
@@ -3460,7 +3481,9 @@
             "f1b7a50954cbab4b"
         ],
         "x": 1254,
-        "y": 779
+        "y": 859,
+        "w": 692,
+        "h": 282
     },
     {
         "id": "394e81d071ef9585",
@@ -3493,7 +3516,9 @@
             "1e4fb15af269d8a0"
         ],
         "x": 1254,
-        "y": 1079
+        "y": 1159,
+        "w": 1022,
+        "h": 282
     },
     {
         "id": "c36ec626abdfe551",
@@ -4184,36 +4209,6 @@
         "y": 73
     },
     {
-        "id": "f5a99bcaf6b0c0cf",
-        "type": "group",
-        "z": "f628d2416976df44",
-        "name": "Logica del control de doble velocidad Anterior [Eliminar cuando se termine de validar la ultima]",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8aa07a0740daccd2",
-            "fcb355f91a6a238f",
-            "5bdeab0f5750c110",
-            "810bef1200b03202",
-            "ade617cdc7bdaf0a",
-            "ec2052965fd0d694",
-            "c2396c297ab50e5b",
-            "bcd663ab20cda04d",
-            "b787abe09bcf90e9",
-            "ddf72d45b5482e2c",
-            "d4db8438afde074f",
-            "f28bbb68b5f741d1",
-            "7ccbcb3ee92d3f47",
-            "b80e23f70fef1596",
-            "1254689feb9f6657",
-            "46a0d0fdfba913b7",
-            "f23a08573b04da97"
-        ],
-        "x": 154,
-        "y": 1739
-    },
-    {
         "id": "a812b0d1eea23b6e",
         "type": "group",
         "z": "f628d2416976df44",
@@ -4239,10 +4234,13 @@
             "ed11dd1510deec7c",
             "ebd60910835260a0",
             "255510da7724568b",
-            "945e80e22a7761e3"
+            "945e80e22a7761e3",
+            "dbb8a2793341a0e4"
         ],
         "x": 128,
-        "y": 139
+        "y": 139,
+        "w": 1254,
+        "h": 688
     },
     {
         "id": "d3ed5e7495b4ebab",
@@ -4325,7 +4323,9 @@
             "0c881cb55314626b"
         ],
         "x": 34,
-        "y": 399
+        "y": 399,
+        "w": 432,
+        "h": 242
     },
     {
         "id": "409517979a31b76e",
@@ -5559,7 +5559,9 @@
             "be55ea76.ed4478"
         ],
         "x": 114,
-        "y": 453
+        "y": 453,
+        "w": 1178,
+        "h": 714
     },
     {
         "id": "eb91dac5.690838",
@@ -5610,7 +5612,9 @@
             "60b48860b9b73443"
         ],
         "x": 114,
-        "y": 79
+        "y": 79,
+        "w": 1712,
+        "h": 362
     },
     {
         "id": "b2f2659a.67f648",
@@ -6062,7 +6066,9 @@
             "204cb884a9a1bb09"
         ],
         "x": 3324,
-        "y": 59
+        "y": 59,
+        "w": 1632,
+        "h": 532
     },
     {
         "id": "c01c2da340bbf3a1",
@@ -6083,7 +6089,9 @@
             "fb25abef8d3f01a8"
         ],
         "x": 3324,
-        "y": 599
+        "y": 599,
+        "w": 732,
+        "h": 122
     },
     {
         "id": "e579c581dc23e5f8",
@@ -6105,7 +6113,9 @@
             "c71b32312279d18f"
         ],
         "x": 124,
-        "y": 379
+        "y": 379,
+        "w": 952,
+        "h": 132
     },
     {
         "id": "0f959940f19ae52d",
@@ -6137,7 +6147,9 @@
             "b3ac9134c4ec266d"
         ],
         "x": 94,
-        "y": 859
+        "y": 859,
+        "w": 1722,
+        "h": 242
     },
     {
         "id": "d0c2e26c6d297150",
@@ -6188,7 +6200,9 @@
             "483060a07deb7029"
         ],
         "x": 1114,
-        "y": 439
+        "y": 439,
+        "w": 2132,
+        "h": 422
     },
     {
         "id": "b37bfd88cad708a2",
@@ -6236,7 +6250,9 @@
             "55dc9006a56b3491"
         ],
         "x": 134,
-        "y": 59
+        "y": 59,
+        "w": 1822,
+        "h": 282
     },
     {
         "id": "8a07c803a203d64c",
@@ -6269,7 +6285,9 @@
             "da401206ced2ccd2"
         ],
         "x": 154,
-        "y": 1039
+        "y": 1119,
+        "w": 1022,
+        "h": 229.5
     },
     {
         "id": "19f535ea5a685c61",
@@ -6641,7 +6659,9 @@
             "06adeabf8be87785"
         ],
         "x": 154,
-        "y": 599
+        "y": 679,
+        "w": 407,
+        "h": 122
     },
     {
         "id": "945e80e22a7761e3",
@@ -6665,10 +6685,13 @@
             "697e958c7d438f59",
             "5083a4631f971185",
             "2a4eb43f057ab517",
-            "feff11f769a86bba"
+            "feff11f769a86bba",
+            "91402e06d002c9df"
         ],
         "x": 164,
-        "y": 459
+        "y": 459,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "79fa2f8175268f73",
@@ -7732,7 +7755,9 @@
             "cb232372.b3dee"
         ],
         "x": 614,
-        "y": 939
+        "y": 939,
+        "w": 652,
+        "h": 202
     },
     {
         "id": "64ff74e5.f4c53c",
@@ -7752,7 +7777,9 @@
             "c1672804cba19e98"
         ],
         "x": 614,
-        "y": 479
+        "y": 479,
+        "w": 174,
+        "h": 202
     },
     {
         "id": "f1099f615835b12b",
@@ -7796,7 +7823,9 @@
             "a1956d7f8e9c73a6"
         ],
         "x": 614,
-        "y": 689
+        "y": 689,
+        "w": 422,
+        "h": 212
     },
     {
         "id": "d25d405a.19cff",
@@ -69938,7 +69967,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Usuario",
+                "v": "User",
                 "vt": "str"
             }
         ],
@@ -97495,7 +97524,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "1f2682bef5794306",
         "name": "Confirmar Actualización",
-        "func": "if(msg.payload == true){\n    msg.payload = \"¿Desea Actualizar Datos Control ON/OFF?\";\n    msg.topic = \"Actualización Confirmada Control On/Off\";\n    msg.actualizar = true;\n}\nreturn msg;",
+        "func": "if(msg.payload == true){\n    msg.payload = \"Do you want to Update ON/OFF Control Data?\";\n    msg.topic = \"Update Confirmed Control On/Off\";\n    msg.actualizar = true;\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -97519,9 +97548,10 @@
         "highlight": "red",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "",
         "name": "SPM",
         "x": 970,
@@ -97543,12 +97573,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -97634,15 +97664,17 @@
         "width": 6,
         "height": 1,
         "passthru": false,
-        "label": "Actualizar Datos",
+        "label": "Update Data",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
-        "x": 600,
+        "topicType": "str",
+        "x": 590,
         "y": 260,
         "wires": [
             [
@@ -97812,7 +97844,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Marcha (Horas)",
+        "label": "March (Hours)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 8,
@@ -97822,6 +97854,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 700,
         "y": 400,
         "wires": [
@@ -97836,7 +97871,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Marcha (Minutos)",
+        "label": "March (Minutes)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 9,
@@ -97846,7 +97881,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 710,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 700,
         "y": 440,
         "wires": [
             [
@@ -97860,7 +97898,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Marcha (Segundos)",
+        "label": "March (Seconds)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 10,
@@ -97870,7 +97908,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 710,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 700,
         "y": 480,
         "wires": [
             [
@@ -97884,7 +97925,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Pausa (Horas)",
+        "label": "Pause (Hours)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 14,
@@ -97894,6 +97935,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 700,
         "y": 520,
         "wires": [
@@ -97908,7 +97952,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Pausa (Minutos)",
+        "label": "Pause (Minutes)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 15,
@@ -97918,6 +97962,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 700,
         "y": 560,
         "wires": [
@@ -97932,7 +97979,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "a0b84f94a6510eee",
         "name": "",
-        "label": "Pausa (Segundos)",
+        "label": "Pause (Seconds)",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 16,
@@ -97942,6 +97989,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 710,
         "y": 600,
         "wires": [
@@ -97956,7 +98006,7 @@
         "z": "1890b8e955d8f8fa",
         "g": "3caf0dee72fc2047",
         "name": "",
-        "label": "Activar/Desactivar PumpOn/Off",
+        "label": "Enable/Disable PumpOn/Off",
         "tooltip": "",
         "group": "e37df2c845093401",
         "order": 3,
@@ -97965,6 +98015,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "Desea Activar Pump Off Controller",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -97974,7 +98025,9 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 450,
+        "animate": true,
+        "className": "",
+        "x": 440,
         "y": 1280,
         "wires": [
             [
@@ -98085,9 +98138,10 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Control POC",
         "name": "confirm",
         "x": 880,
@@ -98109,12 +98163,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -98201,9 +98255,10 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Control POC",
         "name": "confirm",
         "x": 860,
@@ -98225,12 +98280,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -98575,10 +98630,11 @@
         "width": 4,
         "height": 1,
         "name": "",
-        "label": "Tiempo:",
+        "label": "Time:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 940,
+        "className": "",
+        "x": 930,
         "y": 840,
         "wires": []
     },
@@ -98592,11 +98648,12 @@
         "width": 4,
         "height": 1,
         "name": "",
-        "label": "Estado:",
+        "label": "State:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 820,
-        "y": 780,
+        "className": "",
+        "x": 790,
+        "y": 860,
         "wires": []
     },
     {
@@ -98712,7 +98769,7 @@
         "wires": [
             [
                 "a3cb09a8f3941aba",
-                "994ebb3d980c43bd"
+                "f68f166768580cb0"
             ]
         ]
     },
@@ -99130,7 +99187,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea activar el control POC?",
+                "to": "Do you want to activate POC control?",
                 "tot": "str"
             }
         ],
@@ -99158,7 +99215,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea desactivar el control POC?",
+                "to": "Do you want to disable POC control?",
                 "tot": "str"
             }
         ],
@@ -99213,6 +99270,26 @@
         ]
     },
     {
+        "id": "f68f166768580cb0",
+        "type": "function",
+        "z": "1890b8e955d8f8fa",
+        "g": "6604db9c5e9f2794",
+        "name": "Mensaje Ingles",
+        "func": "var entrada = msg.payload;\nif (entrada == 'falloComunicacion'){\n    msg.payload = 'Com Fault';\n} else if (entrada == 'FallaGeneral'){\n    msg.payload = 'Fault General';\n} else if (entrada = 'deshabilitado'){\n    msg.payload = 'Disabled';\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 800,
+        "wires": [
+            [
+                "994ebb3d980c43bd"
+            ]
+        ]
+    },
+    {
         "id": "bb0522f93b301e02",
         "type": "function",
         "z": "f628d2416976df44",
@@ -99225,7 +99302,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 1100,
+        "y": 1180,
         "wires": [
             [
                 "0eea3386d6112feb",
@@ -99239,7 +99316,7 @@
         "z": "f628d2416976df44",
         "g": "a33fe35eb9d7de28",
         "name": "Habilitar",
-        "label": "Habilitar",
+        "label": "Enabled",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
         "order": 2,
@@ -99248,6 +99325,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "topic",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -99257,8 +99335,10 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
+        "animate": true,
+        "className": "",
         "x": 240,
-        "y": 1460,
+        "y": 1540,
         "wires": [
             [
                 "3521783dda45c61d"
@@ -99285,7 +99365,7 @@
         "repair": false,
         "outputs": 2,
         "x": 390,
-        "y": 1460,
+        "y": 1540,
         "wires": [
             [
                 "029a74fa6e2c68c3"
@@ -99305,13 +99385,14 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Control de doble velocidad",
         "name": "confirm",
         "x": 620,
-        "y": 1420,
+        "y": 1500,
         "wires": [
             [
                 "c7d12446f5204b7e"
@@ -99328,13 +99409,14 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Control de doble velocidad",
         "name": "confirm",
         "x": 620,
-        "y": 1520,
+        "y": 1600,
         "wires": [
             [
                 "edd77b5b07dc9afc"
@@ -99352,12 +99434,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -99365,7 +99447,7 @@
         "repair": false,
         "outputs": 2,
         "x": 770,
-        "y": 1520,
+        "y": 1600,
         "wires": [
             [
                 "4f260fb20d4ef19d",
@@ -99387,12 +99469,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -99400,7 +99482,7 @@
         "repair": false,
         "outputs": 2,
         "x": 770,
-        "y": 1420,
+        "y": 1500,
         "wires": [
             [
                 "3425750daffaa51f",
@@ -99432,7 +99514,7 @@
         "to": "",
         "reg": false,
         "x": 920,
-        "y": 1400,
+        "y": 1480,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -99460,7 +99542,7 @@
         "to": "",
         "reg": false,
         "x": 930,
-        "y": 1440,
+        "y": 1520,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -99488,7 +99570,7 @@
         "to": "",
         "reg": false,
         "x": 950,
-        "y": 1520,
+        "y": 1600,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -99516,7 +99598,7 @@
         "to": "",
         "reg": false,
         "x": 940,
-        "y": 1560,
+        "y": 1640,
         "wires": [
             [
                 "6d4b4809080e220a"
@@ -99534,7 +99616,7 @@
             "5b375649cb77ee66"
         ],
         "x": 1095,
-        "y": 1460,
+        "y": 1540,
         "wires": []
     },
     {
@@ -99549,7 +99631,7 @@
             "a705105cd3e16c12"
         ],
         "x": 195,
-        "y": 1380,
+        "y": 1460,
         "wires": [
             [
                 "3b24f55cd0b1dcb6"
@@ -99577,7 +99659,7 @@
         "to": "",
         "reg": false,
         "x": 220,
-        "y": 1420,
+        "y": 1500,
         "wires": [
             [
                 "de49178bf698750e"
@@ -99590,7 +99672,7 @@
         "z": "f628d2416976df44",
         "g": "60dd1be9811f2cdb",
         "name": "",
-        "label": "Porcentaje Subida",
+        "label": "Raise Percentage",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
         "order": 8,
@@ -99600,8 +99682,11 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 550,
-        "y": 860,
+        "y": 940,
         "wires": [
             [
                 "62af5b76e64bd109",
@@ -99615,7 +99700,7 @@
         "z": "f628d2416976df44",
         "g": "60dd1be9811f2cdb",
         "name": "",
-        "label": "Porcentaje Bajada",
+        "label": "Drop Percentage",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
         "order": 7,
@@ -99625,8 +99710,11 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 550,
-        "y": 920,
+        "y": 1000,
         "wires": [
             [
                 "263a5cf68cdcca60",
@@ -99644,11 +99732,12 @@
         "width": 2,
         "height": 1,
         "name": "",
-        "label": "Referencia:",
+        "label": "Reference:",
         "format": "{{msg.payload}}",
         "layout": "row-left",
+        "className": "",
         "x": 1810,
-        "y": 820,
+        "y": 900,
         "wires": []
     },
     {
@@ -99662,18 +99751,18 @@
         "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "Actualizar",
+        "label": "Update",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "¿Desea actualizar los datos de velocidades?",
+        "payload": "Do you want to update the speed data?",
         "payloadType": "str",
         "topic": "topic",
         "topicType": "str",
         "x": 240,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "4e1dc20bb3dc62f4"
@@ -99693,7 +99782,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 840,
+        "y": 920,
         "wires": [
             [
                 "1e6fba3998853b9c"
@@ -99713,7 +99802,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "a26c481a4f6bef9b"
@@ -99732,7 +99821,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 175,
-        "y": 860,
+        "y": 940,
         "wires": [
             [
                 "b07461a58c8e53b2",
@@ -99761,7 +99850,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 860,
+        "y": 940,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -99789,7 +99878,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -99810,7 +99899,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 350,
-        "y": 820,
+        "y": 900,
         "wires": [
             [
                 "385239dde9350eb5"
@@ -99831,7 +99920,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 350,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "d79786d8a4ba750c"
@@ -99848,13 +99937,14 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "¿Desea Actualizar Datos del control de doble velocidad?",
         "name": "confirm",
         "x": 380,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "9ccd512f60a8c6a5"
@@ -99872,12 +99962,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -99885,7 +99975,7 @@
         "repair": false,
         "outputs": 2,
         "x": 510,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -99906,7 +99996,7 @@
             "db78fee80bde5351"
         ],
         "x": 595,
-        "y": 1140,
+        "y": 1220,
         "wires": []
     },
     {
@@ -99921,7 +100011,7 @@
             "b82a4b8aae9b1491"
         ],
         "x": 975,
-        "y": 860,
+        "y": 940,
         "wires": []
     },
     {
@@ -99934,7 +100024,7 @@
             "1e6fba3998853b9c"
         ],
         "x": 275,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "66dfe0d21f4ecd47"
@@ -99951,7 +100041,7 @@
             "a26c481a4f6bef9b"
         ],
         "x": 185,
-        "y": 820,
+        "y": 900,
         "wires": [
             [
                 "bc111cae1b81aae1"
@@ -99970,7 +100060,7 @@
             "b82a4b8aae9b1491"
         ],
         "x": 975,
-        "y": 920,
+        "y": 1000,
         "wires": []
     },
     {
@@ -99983,11 +100073,12 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Velocidad Subida:",
+        "label": "Upload speed:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 1830,
-        "y": 880,
+        "className": "",
+        "x": 1820,
+        "y": 960,
         "wires": []
     },
     {
@@ -100000,11 +100091,12 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Velocidad Bajada:",
+        "label": "Lowering speed:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 1830,
-        "y": 1000,
+        "y": 1080,
         "wires": []
     },
     {
@@ -100020,7 +100112,7 @@
         "finalize": "",
         "libs": [],
         "x": 1610,
-        "y": 880,
+        "y": 960,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -100039,7 +100131,7 @@
             "0eea3386d6112feb"
         ],
         "x": 1375,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "b50bb4b3defcbf5b",
@@ -100059,7 +100151,7 @@
             "32d90e6e46a4a27a"
         ],
         "x": 815,
-        "y": 1100,
+        "y": 1180,
         "wires": []
     },
     {
@@ -100075,7 +100167,7 @@
         "finalize": "",
         "libs": [],
         "x": 1600,
-        "y": 1020,
+        "y": 1100,
         "wires": [
             [
                 "47a2d09fcfbd8f10"
@@ -100095,7 +100187,7 @@
         "finalize": "",
         "libs": [],
         "x": 1580,
-        "y": 820,
+        "y": 900,
         "wires": [
             [
                 "42d63d339369b078"
@@ -100112,7 +100204,7 @@
             "ecf98f3f.4a704"
         ],
         "x": 1295,
-        "y": 820,
+        "y": 900,
         "wires": [
             [
                 "68b5fdab6f4e5d1a"
@@ -100130,7 +100222,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Otras Funciones de Control",
+                "v": "Control Function",
                 "vt": "str"
             }
         ],
@@ -100138,7 +100230,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1420,
-        "y": 820,
+        "y": 900,
         "wires": [
             [
                 "4a4cecb2a1f07c0c"
@@ -100156,7 +100248,7 @@
             "1e6fba3998853b9c"
         ],
         "x": 1375,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "f1b7a50954cbab4b"
@@ -100191,7 +100283,7 @@
         "to": "",
         "reg": false,
         "x": 1570,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "82270f29cb251d0e"
@@ -100211,7 +100303,7 @@
         "finalize": "",
         "libs": [],
         "x": 1790,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "f0005594dc10e517"
@@ -100237,7 +100329,7 @@
         "topic": "",
         "name": "spm",
         "x": 890,
-        "y": 900,
+        "y": 980,
         "wires": []
     },
     {
@@ -100246,14 +100338,14 @@
         "z": "f628d2416976df44",
         "g": "60dd1be9811f2cdb",
         "name": "alertSPM",
-        "func": "var MaxLimitSPM = global.get(\"C2S.Speed_Control.MaxLimitSPM\")||-1;\nvar MinLimitSPM = global.get(\"C2S.Speed_Control.MinLimitSPM\")||-1;\nif(MaxLimitSPM == -1 || MinLimitSPM==-1  ){\n    msg.topic = \"Control de doble velocidad\"\n    msg.payload = \"Configure los límites SPM en Conf.VSD\"\n    return msg;\n}",
+        "func": "var MaxLimitSPM = global.get(\"C2S.Speed_Control.MaxLimitSPM\")||-1;\nvar MinLimitSPM = global.get(\"C2S.Speed_Control.MinLimitSPM\")||-1;\nif(MaxLimitSPM == -1 || MinLimitSPM==-1  ){\n    msg.topic = \"Double Speed Control\"\n    msg.payload = \"Configure the SPM limits in VSD Conf\"\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 760,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "4eae3e07370cb6da"
@@ -100289,7 +100381,7 @@
         "repair": false,
         "outputs": 3,
         "x": 850,
-        "y": 1160,
+        "y": 1240,
         "wires": [
             [
                 "0a1073dc1650cadd"
@@ -100311,7 +100403,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 1135,
-        "y": 1160,
+        "y": 1240,
         "wires": []
     },
     {
@@ -100325,7 +100417,7 @@
             "cbbbcd1c.7180e"
         ],
         "x": 1135,
-        "y": 1200,
+        "y": 1280,
         "wires": []
     },
     {
@@ -100339,7 +100431,7 @@
             "3689559e16b8a141"
         ],
         "x": 255,
-        "y": 1080,
+        "y": 1160,
         "wires": [
             [
                 "7cc99012610fb90f"
@@ -100363,7 +100455,7 @@
         "repair": false,
         "outputs": 1,
         "x": 510,
-        "y": 1080,
+        "y": 1160,
         "wires": [
             [
                 "bb0522f93b301e02"
@@ -100389,7 +100481,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 360,
-        "y": 1080,
+        "y": 1160,
         "wires": [
             [
                 "e44f69ab32d0a5d4"
@@ -100402,7 +100494,7 @@
         "z": "f628d2416976df44",
         "g": "394e81d071ef9585",
         "name": "Simular",
-        "label": "Simular",
+        "label": "simulation",
         "tooltip": "",
         "group": "1c0575d4f07fc2d0",
         "order": 3,
@@ -100424,7 +100516,7 @@
         "animate": true,
         "className": "",
         "x": 1360,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "915238266608e124"
@@ -100451,7 +100543,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1510,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "234a90998ca28885"
@@ -100471,13 +100563,14 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
         "x": 1760,
-        "y": 1180,
+        "y": 1260,
         "wires": [
             [
                 "f960b7182b9a3de3"
@@ -100494,13 +100587,14 @@
         "highlight": "",
         "sendall": true,
         "outputs": 1,
-        "ok": "Aceptar",
-        "cancel": "Cancelar",
+        "ok": "Accept",
+        "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "Simulación de control de doble velocidad",
         "name": "confirm",
         "x": 1740,
-        "y": 1280,
+        "y": 1360,
         "wires": [
             [
                 "10d068d9228a59c3"
@@ -100518,12 +100612,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -100531,7 +100625,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1890,
-        "y": 1280,
+        "y": 1360,
         "wires": [
             [
                 "dc2a630ad9d70854",
@@ -100553,12 +100647,12 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Aceptar",
+                "v": "Accept",
                 "vt": "str"
             },
             {
                 "t": "eq",
-                "v": "Cancelar",
+                "v": "Cancel",
                 "vt": "str"
             }
         ],
@@ -100566,7 +100660,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1910,
-        "y": 1180,
+        "y": 1260,
         "wires": [
             [
                 "c774f0f41737b58d",
@@ -100598,7 +100692,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1160,
+        "y": 1240,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -100626,7 +100720,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1200,
+        "y": 1280,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -100654,7 +100748,7 @@
         "to": "",
         "reg": false,
         "x": 2070,
-        "y": 1280,
+        "y": 1360,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -100682,7 +100776,7 @@
         "to": "",
         "reg": false,
         "x": 2060,
-        "y": 1320,
+        "y": 1400,
         "wires": [
             [
                 "73e4c5b92ab7cac1"
@@ -100700,7 +100794,7 @@
             "5b375649cb77ee66"
         ],
         "x": 2235,
-        "y": 1220,
+        "y": 1300,
         "wires": []
     },
     {
@@ -100715,7 +100809,7 @@
             "cc8b948c02149ebc"
         ],
         "x": 1485,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "bb8743d0a95aad95"
@@ -100743,7 +100837,7 @@
         "to": "",
         "reg": false,
         "x": 1350,
-        "y": 1180,
+        "y": 1260,
         "wires": [
             [
                 "41014dd60b86791c"
@@ -100761,14 +100855,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Control de doble velocidad activado HMI",
+                "to": "Double speed control enabled HMI",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Funciones de Control",
+                "to": "Control Function",
                 "tot": "str"
             }
         ],
@@ -100778,7 +100872,7 @@
         "to": "",
         "reg": false,
         "x": 910,
-        "y": 1360,
+        "y": 1440,
         "wires": [
             [
                 "4b213bec5bdae761"
@@ -100796,7 +100890,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 995,
-        "y": 1360,
+        "y": 1440,
         "wires": []
     },
     {
@@ -100810,14 +100904,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Control Doble Velocidad Desactivado HMI",
+                "to": "Double Speed Control Disabled HMI",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Control de doble velocidad",
+                "to": "Dual Speed Control",
                 "tot": "str"
             }
         ],
@@ -100827,7 +100921,7 @@
         "to": "",
         "reg": false,
         "x": 930,
-        "y": 1480,
+        "y": 1560,
         "wires": [
             [
                 "541eddb70df22615"
@@ -100845,7 +100939,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 1015,
-        "y": 1480,
+        "y": 1560,
         "wires": []
     },
     {
@@ -100859,7 +100953,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea activar la simulación del control de doble velocidad?",
+                "to": "Do you want to activate the simulation of the double speed control?",
                 "tot": "str"
             }
         ],
@@ -100869,7 +100963,7 @@
         "to": "",
         "reg": false,
         "x": 1630,
-        "y": 1180,
+        "y": 1260,
         "wires": [
             [
                 "758282acd283ba48"
@@ -100887,7 +100981,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea desactivar la simulación del control de doble velocidad?",
+                "to": "Do you want to disable simulation of dual speed control?",
                 "tot": "str"
             }
         ],
@@ -100897,7 +100991,7 @@
         "to": "",
         "reg": false,
         "x": 1610,
-        "y": 1280,
+        "y": 1360,
         "wires": [
             [
                 "ba9651f5d36c744b"
@@ -100915,7 +101009,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 2175,
-        "y": 1120,
+        "y": 1200,
         "wires": []
     },
     {
@@ -100929,14 +101023,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Simulación de control de doble velocidad activado",
+                "to": "Simulation of double speed control activated",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Funciones de Control",
+                "to": "Control Function",
                 "tot": "str"
             }
         ],
@@ -100946,7 +101040,7 @@
         "to": "",
         "reg": false,
         "x": 2060,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "1e4fb15af269d8a0"
@@ -100964,7 +101058,7 @@
             "2da816b7.b2be9a"
         ],
         "x": 2135,
-        "y": 1240,
+        "y": 1320,
         "wires": []
     },
     {
@@ -100978,14 +101072,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Simulación de control de doble velocidad desactivado",
+                "to": "Dual Speed Control Simulation Off",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Funciones de Control",
+                "to": "Control Function",
                 "tot": "str"
             }
         ],
@@ -100995,7 +101089,7 @@
         "to": "",
         "reg": false,
         "x": 2050,
-        "y": 1240,
+        "y": 1320,
         "wires": [
             [
                 "eba80fb27cef6dc6"
@@ -101013,7 +101107,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea activar el control de doble velocidad?",
+                "to": "Do you want to activate dual speed control?",
                 "tot": "str"
             }
         ],
@@ -101023,7 +101117,7 @@
         "to": "",
         "reg": false,
         "x": 490,
-        "y": 1420,
+        "y": 1500,
         "wires": [
             [
                 "150304639111c22b"
@@ -101041,7 +101135,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "¿Desea desactivar el control de doble velocidad?",
+                "to": "Do you want to disable dual speed control?",
                 "tot": "str"
             }
         ],
@@ -101051,7 +101145,7 @@
         "to": "",
         "reg": false,
         "x": 490,
-        "y": 1520,
+        "y": 1600,
         "wires": [
             [
                 "4e6cebe6e4d66e7e"
@@ -101071,7 +101165,7 @@
         "finalize": "",
         "libs": [],
         "x": 1030,
-        "y": 1160,
+        "y": 1240,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -101091,7 +101185,7 @@
         "finalize": "",
         "libs": [],
         "x": 1030,
-        "y": 1120,
+        "y": 1200,
         "wires": [
             [
                 "708ed3cee8c458cd"
@@ -101126,7 +101220,7 @@
         "to": "",
         "reg": false,
         "x": 1030,
-        "y": 1080,
+        "y": 1160,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -101161,7 +101255,7 @@
         "to": "",
         "reg": false,
         "x": 1030,
-        "y": 1200,
+        "y": 1280,
         "wires": [
             [
                 "9f5bee9b2ed52df4"
@@ -101190,7 +101284,7 @@
         "repair": false,
         "outputs": 2,
         "x": 710,
-        "y": 1180,
+        "y": 1260,
         "wires": [
             [
                 "6f1b0c47ae35b501"
@@ -101229,7 +101323,7 @@
         "repair": false,
         "outputs": 3,
         "x": 850,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "03ebee7187babc1a"
@@ -101398,10 +101492,11 @@
         "width": 5,
         "height": 1,
         "name": "",
-        "label": "Estado:",
+        "label": "State:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 690,
+        "className": "",
+        "x": 830,
         "y": 220,
         "wires": []
     },
@@ -101506,7 +101601,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 280,
-        "y": 1360,
+        "y": 1440,
         "wires": [
             [
                 "3b24f55cd0b1dcb6"
@@ -101548,373 +101643,9 @@
         "y": 180,
         "wires": [
             [
-                "b52b3609901184a0",
-                "cd8b203962e6e119"
+                "cd8b203962e6e119",
+                "dbb8a2793341a0e4"
             ]
-        ]
-    },
-    {
-        "id": "8aa07a0740daccd2",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "d": true,
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "logic",
-        "func": "var habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\")||false;\nvar state = global.get(\"Control_functions.doubleSpeed.state\")||false;//si está upstroke o DownStroke\nvar buttonComand = global.get(\"Control_functions.doubleSpeed.buttonComand\")||false;//Inicio del Sistema desde el boton de entrada Principal\nvar upSpeedCalculated = global.get(\"Control_functions.doubleSpeed.upSpeedCalculated\")||false;//Velocidad de subida\nvar DownSpeedCalculated = global.get(\"Control_functions.doubleSpeed.DownSpeedCalculated\")||false;//Velocidad de bajada\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\",\"memoryOnly\")||false;//comunicación VSD\nvar estadoPrograma = 0,color;//estadoPrograma en el que esta el equipo\nvar referencia = global.get(\"C2S.Last_Reference.ValueSpm\")||0;//referencia que se debe setear\nvar active = global.get(\"C2S.Drive_Status.Active\",\"memoryOnly\")||0;//estado del VSD\n\n\nif (habilitado == true && comunicacion == true && active == 1 && buttonComand == true){//está listo para arrancar\n    if (state == \"Upstroke\"){\n        referencia = upSpeedCalculated;\n    } else if (state == \"DownStroke\"){\n        referencia = DownSpeedCalculated;\n    }\n    estadoPrograma = \"Activo\"; color = \"green\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",true,\"memoryOnly\");\n} else if (habilitado == true && comunicacion == true && active == 1 && buttonComand == false){\n    //estado en el que esta esperando el arranque desde el boton de inicio del proceso\n    estadoPrograma = \"Pausa\"; color = \"yellow\";\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n}\nelse if (habilitado == true && comunicacion == true && active == 0 && buttonComand == true){\n    //variador no está arrancandO\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"VSDNoactive\"; color = \"yellow\";\n}\nelse if (habilitado == false && comunicacion == true  && active == 1){\n    //no se toma en cuenta el buttonComand  no es necesario\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"Deshabilitado\"; color = \"red\";\n}else if(comunicacion == false){\n    global.set(\"Control_functions.ActiveCF.doubleSpeed\",false,\"memoryOnly\");\n    estadoPrograma = \"fallo de comunicacion\"; color = \"red\";\n}else{\n    estadoPrograma = \"deshabilitado\"; color = \"red\";\n}\n\nnode.status({fill:color,shape:\"dot\",text:estadoPrograma});\ncontext.set(\"habilitado\", habilitado,\"memoryOnly\");\ncontext.set(\"comunicacion\", comunicacion,\"memoryOnly\");\ncontext.set(\"estadoPrograma\", estadoPrograma,\"memoryOnly\");\ncontext.set(\"state\", state,\"memoryOnly\");\ncontext.set(\"upSpeedCalculated\", upSpeedCalculated,\"memoryOnly\");\ncontext.set(\"DownSpeedCalculated\", DownSpeedCalculated,\"memoryOnly\");\ncontext.set(\"referencia\", referencia,\"memoryOnly\");\ncontext.set(\"active\", active,\"memoryOnly\");\ncontext.set(\"buttonComand\", buttonComand,\"memoryOnly\");\n\n// estructura para enviar los mensajes\nestadoPrograma = { payload: estadoPrograma};\nreferencia = { payload: referencia};\nreturn [estadoPrograma,referencia];",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 290,
-        "y": 1860,
-        "wires": [
-            [
-                "b80e23f70fef1596"
-            ],
-            [
-                "1254689feb9f6657"
-            ]
-        ]
-    },
-    {
-        "id": "fcb355f91a6a238f",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "habilitado Ref?",
-        "func": "var habilitado = global.get(\"Control_functions.doubleSpeed.habilitado\") || false;\nvar comunicacion = global.get(\"C2S.Comunicacion_Drive\", \"memoryOnly\") || false;//comunicación VSD\nvar active = global.get(\"C2S.Drive_Status.Active\", \"memoryOnly\") || 0;\nnode.status({fill:\"red\",shape:\"dot\",text:msg.payload});\ncontext.set(\"habilitado\",habilitado,\"memoryOnly\");\nif(habilitado == true && comunicacion == true && active == 1){\n    global.set(\"C2S.Last_Reference.Value\",msg.payload);\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 500,
-        "y": 1940,
-        "wires": [
-            [
-                "ade617cdc7bdaf0a"
-            ]
-        ]
-    },
-    {
-        "id": "5bdeab0f5750c110",
-        "type": "subflow:222e9a8dc8f57193",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "env": [],
-        "x": 960,
-        "y": 1980,
-        "wires": [
-            [
-                "f23a08573b04da97"
-            ]
-        ]
-    },
-    {
-        "id": "810bef1200b03202",
-        "type": "debug",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "estado",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "payload",
-        "statusType": "auto",
-        "x": 570,
-        "y": 1780,
-        "wires": []
-    },
-    {
-        "id": "ade617cdc7bdaf0a",
-        "type": "switch",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "lims?",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "C2S.Speed_Control.MaxLimitSPM",
-                "vt": "global"
-            },
-            {
-                "t": "lt",
-                "v": "C2S.Speed_Control.MinLimitSPM",
-                "vt": "global"
-            },
-            {
-                "t": "btwn",
-                "v": "C2S.Speed_Control.MaxLimitSPM",
-                "vt": "global",
-                "v2": "C2S.Speed_Control.MinLimitSPM",
-                "v2t": "global"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 670,
-        "y": 1940,
-        "wires": [
-            [
-                "d4db8438afde074f"
-            ],
-            [
-                "d4db8438afde074f"
-            ],
-            [
-                "ec2052965fd0d694",
-                "7ccbcb3ee92d3f47"
-            ]
-        ]
-    },
-    {
-        "id": "ec2052965fd0d694",
-        "type": "delay",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 820,
-        "y": 1940,
-        "wires": [
-            [
-                "c2396c297ab50e5b"
-            ]
-        ]
-    },
-    {
-        "id": "c2396c297ab50e5b",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "Sts Ref",
-        "func": "var Commanded_SpdRef = Math.abs(global.get(\"C2S.Implicit.Commanded_SpdRef\", \"memoryOnly\") || 0);\nvar Reference = global.get(\"Input.Operation.Reference\", \"memoryOnly\") || 0;\n\nReference = parseFloat(Reference.toFixed(2));\nCommanded_SpdRef = parseFloat(Commanded_SpdRef.toFixed(2));\ncontext.set(\"Commanded_SpdRef\", Commanded_SpdRef, \"memoryOnly\")\ncontext.set(\"Reference\", Reference, \"memoryOnly\")\nif (Commanded_SpdRef == Reference)\n    msg.verify = 1;\nelse\n    msg.verify = 0;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1000,
-        "y": 1940,
-        "wires": [
-            [
-                "bcd663ab20cda04d"
-            ]
-        ]
-    },
-    {
-        "id": "bcd663ab20cda04d",
-        "type": "switch",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "send ref?",
-        "property": "verify",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1140,
-        "y": 1900,
-        "wires": [
-            [
-                "ddf72d45b5482e2c"
-            ],
-            [
-                "b787abe09bcf90e9"
-            ]
-        ]
-    },
-    {
-        "id": "b787abe09bcf90e9",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "Ref Fail",
-        "func": "msg.payload = \"Falla de comunicación, referencia no recibida\";\nmsg.topic = \"Referencia\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1280,
-        "y": 1900,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ddf72d45b5482e2c",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "Ref OK",
-        "func": "var sentidogiro = global.get(\"C2S.Drive_Status.Command_dir\",\"memoryOnly\")||0;\nvar spm = global.get(\"C2S.Implicit.spm\",\"memoryOnly\")||0;\nmsg.payload = \"Cambio de referencia a \" + Math.abs(parseFloat(spm.toFixed(2))) + \"spm, Velocidad Motor:\" + Math.abs(parseFloat((msg.payload).toFixed(2))) + \"Hz\";\nmsg.topic = \"Referencia\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1280,
-        "y": 1860,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d4db8438afde074f",
-        "type": "function",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "evento ref fuera lims",
-        "func": "msg.payload = \"¡Referencia de \"+ msg.payload + \" SPM fuera de límites\";\nmsg.topic = \"Referencia\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 1900,
-        "wires": [
-            [
-                "f28bbb68b5f741d1"
-            ]
-        ]
-    },
-    {
-        "id": "f28bbb68b5f741d1",
-        "type": "link out",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "links": [
-            "abe8a848.bbbd88",
-            "01444344def840e5",
-            "d70e21594c52d321"
-        ],
-        "x": 995,
-        "y": 1900,
-        "wires": []
-    },
-    {
-        "id": "7ccbcb3ee92d3f47",
-        "type": "rbe",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 810,
-        "y": 1980,
-        "wires": [
-            [
-                "5bdeab0f5750c110"
-            ]
-        ]
-    },
-    {
-        "id": "b80e23f70fef1596",
-        "type": "rbe",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 430,
-        "y": 1840,
-        "wires": [
-            [
-                "810bef1200b03202"
-            ]
-        ]
-    },
-    {
-        "id": "1254689feb9f6657",
-        "type": "rbe",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 430,
-        "y": 1880,
-        "wires": [
-            [
-                "fcb355f91a6a238f"
-            ]
-        ]
-    },
-    {
-        "id": "46a0d0fdfba913b7",
-        "type": "link in",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "LogicaControl Doble Velocidad",
-        "links": [
-            "58d10b0ab4c186c5"
-        ],
-        "x": 195,
-        "y": 1860,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f23a08573b04da97",
-        "type": "subflow:1fbf295f73cccb97",
-        "z": "f628d2416976df44",
-        "g": "f5a99bcaf6b0c0cf",
-        "name": "",
-        "env": [],
-        "x": 1160,
-        "y": 1980,
-        "wires": [
-            []
         ]
     },
     {
@@ -101945,7 +101676,7 @@
         "z": "f628d2416976df44",
         "g": "945e80e22a7761e3",
         "name": "senoFunctionSimulación",
-        "func": "var time = msg.payload;\nvar y = 1+(Math.sin(time/5000) * 1);\nmsg.payload = y;\ncontext.set(\"time\",time,\"memoryOnly\")\ncontext.set(\"y\", y,\"memoryOnly\")\nflow.set('simulacionSeno',y,'memoryOnly');\nreturn msg;",
+        "func": "var time = msg.payload;\nvar y = 1+(Math.sin(time/5000) * 1);\nmsg.payload = y;\nnode.status({fill:\"red\",shape:\"ring\",text:\"value : \" + parseFloat(y) });\ncontext.set(\"time\",time,\"memoryOnly\")\ncontext.set(\"y\", y,\"memoryOnly\")\nflow.set('simulacionSeno',y,'memoryOnly');\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -102018,8 +101749,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 540,
+        "x": 710,
+        "y": 560,
         "wires": [
             [
                 "34749fc8f23a7aa2"
@@ -102035,8 +101766,8 @@
         "links": [
             "58d10b0ab4c186c5"
         ],
-        "x": 595,
-        "y": 540,
+        "x": 605,
+        "y": 560,
         "wires": [
             [
                 "feec2ff6e2c7f68c"
@@ -102120,7 +101851,7 @@
         "y": 540,
         "wires": [
             [
-                "feff11f769a86bba"
+                "91402e06d002c9df"
             ]
         ]
     },
@@ -102136,12 +101867,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 540,
+        "x": 1140,
+        "y": 620,
         "wires": [
-            [
-                "2a4eb43f057ab517"
-            ]
+            []
         ]
     },
     {
@@ -102154,11 +101883,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Subida/Bajada",
+        "label": "Climb/Down",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1290,
+        "x": 1250,
         "y": 540,
         "wires": []
     },
@@ -102183,7 +101912,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 680,
+        "y": 760,
         "wires": [
             []
         ]
@@ -102209,7 +101938,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 640,
+        "y": 720,
         "wires": [
             []
         ]
@@ -102225,7 +101954,7 @@
             "628add984fd6a22e"
         ],
         "x": 195,
-        "y": 640,
+        "y": 720,
         "wires": [
             [
                 "606f35f6418b5e17"
@@ -102243,7 +101972,7 @@
             "f1f7bfacfe0754bf"
         ],
         "x": 195,
-        "y": 680,
+        "y": 760,
         "wires": [
             [
                 "2edf0fe6bdebec75"
@@ -102260,14 +101989,14 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Control Doble Velocidad Desactivado por Programa",
+                "to": "Double Speed Control Deactivated by Program",
                 "tot": "str"
             },
             {
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Control de doble velocidad",
+                "to": "Double Speed Control",
                 "tot": "str"
             }
         ],
@@ -102320,6 +102049,46 @@
         "wires": [
             [
                 "5446cc5ff9bc2be3"
+            ]
+        ]
+    },
+    {
+        "id": "dbb8a2793341a0e4",
+        "type": "function",
+        "z": "f628d2416976df44",
+        "g": "a812b0d1eea23b6e",
+        "name": "English",
+        "func": "var mensaje = msg.payload;\n\nif (mensaje == 'Inicio'){\n    msg.payload = 'Start';\n} else if (mensaje == 'Deshabilitado'){\n    msg.payload = 'Disabled';\n} else if (mensaje == 'Fallo de comunicación'){\n    msg.payload = 'Fault Com VSD';\n} else if (mensaje == 'VSD No está en referencia'){\n    msg.payload = 'VSD No been Reference';\n} else if (mensaje == 'Espera'){\n    msg.payload = 'Wait';\n} else if (mensaje == 'Normalize'){\n    msg.payload = 'Normalize';\n} else if (mensaje == 'Cambio Referencia'){\n    msg.payload = 'Change Reference';\n} else if (mensaje == 'Ingreso a Normalizar'){\n    msg.payload = 'Entry to Normalize';\n} else if (mensaje == 'Validando Posición'){\n    msg.payload = 'Position Validation';\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 220,
+        "wires": [
+            [
+                "b52b3609901184a0"
+            ]
+        ]
+    },
+    {
+        "id": "91402e06d002c9df",
+        "type": "function",
+        "z": "f628d2416976df44",
+        "g": "945e80e22a7761e3",
+        "name": "Ingles",
+        "func": "var mensaje = msg.payload;\nif (mensaje == 'Upstroke'){\n    msg.payload = 'Upstroke'\n} else if (mensaje == 'DownStroke'){\n    msg.payload = 'DownStroke'\n} else if (mensaje == 'Disabled'){\n    msg.payload = '-'\n} else if(mensaje == 'Pausa'){\n    msg.payload = 'Wait'\n}\nnode.status({fill:\"blue\",shape:\"ring\",text:\"status : \" + msg.payload});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 540,
+        "wires": [
+            [
+                "2a4eb43f057ab517"
             ]
         ]
     },
