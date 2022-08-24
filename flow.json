@@ -937,7 +937,9 @@
             "e39536e36180e4d8"
         ],
         "x": 1334,
-        "y": 1011.5
+        "y": 1011.5,
+        "w": 792,
+        "h": 337
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -977,7 +979,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1303,7 +1307,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1352,7 +1358,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1582,7 +1590,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1617,8 +1627,10 @@
         "nodes": [
             "b2f2659a.67f648"
         ],
-        "x": 68,
-        "y": 243
+        "x": 38,
+        "y": 313,
+        "w": 1704,
+        "h": 224
     },
     {
         "id": "8c207e440fb46f33",
@@ -1741,24 +1753,6 @@
         "y": 43
     },
     {
-        "id": "06c0dbf1bffe1e21",
-        "type": "group",
-        "z": "902fc438.e5d758",
-        "name": "VSD Command clear",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "56e67824752411be",
-            "84eb16f681c366e0"
-        ],
-        "x": 34,
-        "y": 1439,
-        "w": 492,
-        "h": 82
-    },
-    {
         "id": "6202107f.ed9aa",
         "type": "group",
         "z": "902fc438.e5d758",
@@ -1853,8 +1847,8 @@
             "c483d44b5f6def10",
             "f7709059ebe5ad7b"
         ],
-        "x": 92,
-        "y": 1913,
+        "x": 32,
+        "y": 1813,
         "w": 1946,
         "h": 1400
     },
@@ -2053,7 +2047,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2095,8 +2091,8 @@
             "fd43d65633c388cf",
             "bc7d73b798d741ee"
         ],
-        "x": 794,
-        "y": 1719,
+        "x": 814,
+        "y": 1579,
         "w": 992,
         "h": 182
     },
@@ -2123,7 +2119,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2143,8 +2141,8 @@
             "d017b67335fc4df5",
             "93b21d74000b52e7"
         ],
-        "x": 34,
-        "y": 1539,
+        "x": 54,
+        "y": 1439,
         "w": 692,
         "h": 122
     },
@@ -2415,7 +2413,9 @@
             "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2611,7 +2611,7 @@
         ],
         "x": 1754,
         "y": 59,
-        "w": 532,
+        "w": 512,
         "h": 242
     },
     {
@@ -2978,7 +2978,7 @@
             "dc08e7cb4af9e2b2"
         ],
         "x": 34,
-        "y": 1699,
+        "y": 1579,
         "w": 752,
         "h": 202
     },
@@ -3003,7 +3003,9 @@
             "d17ceb3fc54c19b2"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 322
     },
     {
         "id": "fd65929694c9064e",
@@ -3685,7 +3687,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "193969f706c28bf5",
@@ -3762,15 +3766,14 @@
         "nodes": [
             "90a6ad8fa00e86de",
             "52dc9a9a111670e7",
-            "f6820b3da24bd57b",
             "1525017c13829ff5",
             "cade3284de376f4b",
             "abaa6d03ff45f904"
         ],
         "x": 34,
         "y": 3979,
-        "w": 772,
-        "h": 162
+        "w": 752,
+        "h": 82
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -3926,9 +3929,7 @@
             "2421053256f107da"
         ],
         "x": 154,
-        "y": 279,
-        "w": 742,
-        "h": 502
+        "y": 279
     },
     {
         "id": "7c4c986707b478cc",
@@ -4125,7 +4126,9 @@
             "3e8b5c9fbf5e1b80"
         ],
         "x": 1014,
-        "y": 1379
+        "y": 1379,
+        "w": 1472,
+        "h": 402
     },
     {
         "id": "b0e1bb0cbdf93ee4",
@@ -4147,7 +4150,9 @@
             "8fbfc036b1ed27be"
         ],
         "x": 14,
-        "y": 2119
+        "y": 2119,
+        "w": 542,
+        "h": 242
     },
     {
         "id": "aaa3f14076099363",
@@ -4312,9 +4317,9 @@
             "f82d188a766cf90e"
         ],
         "x": 214,
-        "y": 253,
+        "y": 273,
         "w": 1442,
-        "h": 1614
+        "h": 1334
     },
     {
         "id": "9c347c7fce78057a",
@@ -4375,7 +4380,7 @@
         ],
         "x": 454,
         "y": 519,
-        "w": 1092,
+        "w": 892,
         "h": 122
     },
     {
@@ -4394,7 +4399,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -4415,7 +4422,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4729,9 +4738,9 @@
             "5e55c669388b65ba",
             "82fdc4fdab0cdab1"
         ],
-        "x": 134,
-        "y": 1939,
-        "w": 772,
+        "x": 74,
+        "y": 1839,
+        "w": 752,
         "h": 862
     },
     {
@@ -4752,8 +4761,8 @@
             "ac3bf42289226fe7",
             "6180593531e9795d"
         ],
-        "x": 118,
-        "y": 2819,
+        "x": 58,
+        "y": 2719,
         "w": 1894,
         "h": 468
     },
@@ -4787,8 +4796,8 @@
             "222bb80678f72aa6",
             "90fdc4810e9cd514"
         ],
-        "x": 934,
-        "y": 1939,
+        "x": 874,
+        "y": 1839,
         "w": 692,
         "h": 862
     },
@@ -5642,8 +5651,10 @@
             "391b99c668c34d8f",
             "81e5738031db0190"
         ],
-        "x": 94,
-        "y": 269
+        "x": 64,
+        "y": 339,
+        "w": 1652,
+        "h": 172
     },
     {
         "id": "e2589faa.5b6d2",
@@ -6337,8 +6348,8 @@
             "aa463aa620d9836f",
             "1d8939469bf38097"
         ],
-        "x": 434,
-        "y": 1619,
+        "x": 454,
+        "y": 1339,
         "w": 952,
         "h": 122
     },
@@ -6378,13 +6389,12 @@
             "0101b88a2e51fbb8",
             "cd885bbd1ba1a434",
             "2afcec54429c999b",
-            "a7c3591cf57f8b42",
-            "31b38c531fc065a7"
+            "a7c3591cf57f8b42"
         ],
         "x": 454,
-        "y": 279,
+        "y": 299,
         "w": 1092,
-        "h": 102
+        "h": 82
     },
     {
         "id": "1890edb26547f550",
@@ -6423,9 +6433,9 @@
             "687ac45de63d5718",
             "964378278d11b0bf"
         ],
-        "x": 454,
+        "x": 414,
         "y": 999,
-        "w": 1092,
+        "w": 1132,
         "h": 122
     },
     {
@@ -6441,8 +6451,8 @@
             "f9bc6c1e0ee8166f",
             "11ef0a743969f2c0"
         ],
-        "x": 434,
-        "y": 1759,
+        "x": 454,
+        "y": 1499,
         "w": 512,
         "h": 82
     },
@@ -6484,9 +6494,9 @@
             "470d01fd9e70c216",
             "b9aa922292495d63"
         ],
-        "x": 454,
+        "x": 434,
         "y": 899,
-        "w": 1092,
+        "w": 1112,
         "h": 82
     },
     {
@@ -6763,8 +6773,8 @@
             "c8a0d32e8d573a65",
             "5d1f6d0f9daa5340"
         ],
-        "x": 734,
-        "y": 3019,
+        "x": 674,
+        "y": 2919,
         "w": 1252,
         "h": 242
     },
@@ -6791,8 +6801,8 @@
             "105d7cf5310d3d86",
             "7578d16bf9d408ae"
         ],
-        "x": 144,
-        "y": 2899,
+        "x": 84,
+        "y": 2799,
         "w": 572,
         "h": 362
     },
@@ -6921,10 +6931,6 @@
             "4a46db90.05ea4c",
             "23ebaedc.4ea2ba",
             "10966509.4f25e3",
-            "ac5611e0.f1126",
-            "6f5153fc.5881dc",
-            "b7313f15be39db89",
-            "331fbb9455c52414",
             "c435ac91a9e28118",
             "70a45bac6fb54e5c"
         ],
@@ -8445,51 +8451,6 @@
         "order": 9,
         "disabled": false,
         "hidden": false
-    },
-    {
-        "id": "e9d237aaf9318e74",
-        "type": "pccc endpoint",
-        "address": "192.168.2.50",
-        "port": "44818",
-        "userouting": false,
-        "routingbuf": "",
-        "cycletime": "500",
-        "timeout": "1500",
-        "name": "PowerFlex755T_Write",
-        "vartable": [
-            {
-                "addr": "N42:3",
-                "name": "TimeOut"
-            },
-            {
-                "addr": "N45:4",
-                "name": "PF755T_SpeedReference"
-            },
-            {
-                "addr": "N45:8",
-                "name": "AO1"
-            },
-            {
-                "addr": "N45:10",
-                "name": "AO2"
-            },
-            {
-                "addr": "N45:12",
-                "name": "AO3"
-            },
-            {
-                "addr": "N45:14",
-                "name": "AO4"
-            },
-            {
-                "addr": "N45:0",
-                "name": "CommandWord"
-            },
-            {
-                "addr": "N45:6",
-                "name": "DLX Bool SP1"
-            }
-        ]
     },
     {
         "id": "78b8f22f.a47d4c",
@@ -15827,6 +15788,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 410,
         "y": 140,
         "wires": [
@@ -16694,6 +16656,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 300,
         "y": 140,
         "wires": [
@@ -16764,8 +16727,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "086b9d08c3b68939",
-        "order": 1,
         "group": "4f5b8416.cada1c",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -16858,8 +16821,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 2100,
+        "x": 350,
+        "y": 2000,
         "wires": [
             [
                 "def0c8ddae21bc33"
@@ -16940,8 +16903,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 3080,
+        "x": 350,
+        "y": 2980,
         "wires": [
             [
                 "7dad9b43beefaa90"
@@ -16991,8 +16954,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 2160,
+        "x": 1250,
+        "y": 2060,
         "wires": [
             [
                 "e44a08d354c85928"
@@ -17133,15 +17096,17 @@
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "Arrancar",
+        "label": "Start",
         "tooltip": "",
         "color": "",
         "bgcolor": "green",
+        "className": "",
         "icon": "",
         "payload": "Start",
         "payloadType": "str",
         "topic": "Basic",
-        "x": 900,
+        "topicType": "str",
+        "x": 890,
         "y": 720,
         "wires": [
             [
@@ -17160,15 +17125,17 @@
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "Detener",
+        "label": "Stop",
         "tooltip": "",
         "color": "",
         "bgcolor": "red",
+        "className": "",
         "icon": "",
         "payload": "Stop",
         "payloadType": "str",
         "topic": "Basic",
-        "x": 900,
+        "topicType": "str",
+        "x": 890,
         "y": 800,
         "wires": [
             [
@@ -17191,10 +17158,12 @@
         "tooltip": "",
         "color": "",
         "bgcolor": "grey",
+        "className": "",
         "icon": "",
         "payload": "Reset",
         "payloadType": "str",
         "topic": "Basic",
+        "topicType": "str",
         "x": 910,
         "y": 890,
         "wires": [
@@ -17244,9 +17213,10 @@
         "width": 5,
         "height": 1,
         "name": "",
-        "label": "Sentido de giro actual: ",
+        "label": "Direction of rotation:",
         "format": "  {{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 590,
         "y": 760,
         "wires": []
@@ -17496,6 +17466,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1690,
         "y": 560,
         "wires": [
@@ -17520,6 +17491,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1690,
         "y": 600,
         "wires": [
@@ -17800,8 +17772,8 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
         "className": "",
-        "x": 620,
-        "y": 2940,
+        "x": 560,
+        "y": 2840,
         "wires": []
     },
     {
@@ -17818,8 +17790,8 @@
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
         "className": "",
-        "x": 620,
-        "y": 2980,
+        "x": 560,
+        "y": 2880,
         "wires": []
     },
     {
@@ -17832,11 +17804,12 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Corriente:",
+        "label": "Current : ",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 630,
-        "y": 3020,
+        "className": "",
+        "x": 570,
+        "y": 2920,
         "wires": []
     },
     {
@@ -17849,11 +17822,12 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Potencia:",
+        "label": "Power:",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 630,
-        "y": 3140,
+        "className": "",
+        "x": 560,
+        "y": 3040,
         "wires": []
     },
     {
@@ -17869,8 +17843,9 @@
         "label": "THD (V):",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 630,
-        "y": 3060,
+        "className": "",
+        "x": 570,
+        "y": 2960,
         "wires": []
     },
     {
@@ -17886,8 +17861,8 @@
         "label": "THD (I):",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 630,
-        "y": 3100,
+        "x": 570,
+        "y": 3000,
         "wires": []
     },
     {
@@ -17903,8 +17878,8 @@
         "label": "FP:",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 620,
-        "y": 3180,
+        "x": 560,
+        "y": 3080,
         "wires": []
     },
     {
@@ -17944,8 +17919,8 @@
             "#c5b0d5"
         ],
         "outputs": 1,
-        "x": 1910,
-        "y": 3080,
+        "x": 1850,
+        "y": 2980,
         "wires": [
             []
         ]
@@ -17961,8 +17936,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1720,
-        "y": 3060,
+        "x": 1660,
+        "y": 2960,
         "wires": [
             [
                 "5b529f4c.7ffeb"
@@ -17975,7 +17950,7 @@
         "z": "902fc438.e5d758",
         "g": "aafad2ba.dcc8b",
         "name": "",
-        "label": "Fase",
+        "label": "Phase",
         "tooltip": "",
         "place": "Seleccionar fase",
         "group": "474271dc.04fa9",
@@ -17986,30 +17961,32 @@
         "multiple": false,
         "options": [
             {
-                "label": "Fase1 ",
+                "label": "Phase 1 ",
                 "value": "Linea1",
                 "type": "str"
             },
             {
-                "label": "Fase 2",
+                "label": "Phase 2",
                 "value": "Linea2",
                 "type": "str"
             },
             {
-                "label": "Fase 3 ",
+                "label": "Phase 3 ",
                 "value": "Linea3",
                 "type": "str"
             },
             {
-                "label": "Promedio",
+                "label": "Phase Prom",
                 "value": "LineaP",
                 "type": "str"
             }
         ],
         "payload": "",
         "topic": "",
-        "x": 1210,
-        "y": 3110,
+        "topicType": "str",
+        "className": "",
+        "x": 1150,
+        "y": 3010,
         "wires": [
             [
                 "20b8681c.81fd48"
@@ -18025,8 +18002,8 @@
         "links": [
             "97407954.a004c8"
         ],
-        "x": 845,
-        "y": 3140,
+        "x": 785,
+        "y": 3040,
         "wires": [
             [
                 "eddefb96.175bf8"
@@ -18056,8 +18033,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1020,
-        "y": 3180,
+        "x": 960,
+        "y": 3080,
         "wires": [
             [
                 "a5c181ee.2efe1"
@@ -18087,8 +18064,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 3160,
+        "x": 1260,
+        "y": 3060,
         "wires": [
             []
         ]
@@ -18113,8 +18090,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 3200,
+        "x": 1260,
+        "y": 3100,
         "wires": [
             []
         ]
@@ -18125,13 +18102,14 @@
         "z": "902fc438.e5d758",
         "g": "aafad2ba.dcc8b",
         "name": "Data Handle harmonics chart",
-        "func": "var PQA_Data                = global.get(\"PQA.Harmonics\", \"memoryOnly\") ||\"[]\";\nvar Chart_Selection         = flow.get(\"PQA.Harmonics_Chart.Selection\", \"memoryOnly\") || \"\";\n\nvar Linea1_V = Object.values(PQA_Data.V1_V12);\nvar Linea1_I = Object.values(PQA_Data.I1);\n\nvar Linea2_V = Object.values(PQA_Data.V2_V31);\nvar Linea2_I = Object.values(PQA_Data.I2);\n\n\nvar Linea3_V = Object.values(PQA_Data.V3_V23);\nvar Linea3_I = Object.values(PQA_Data.I3);\n\nvar LineaP_V = [\n                    ((Linea1_V[0]+Linea2_V[0]+Linea3_V[0])/3).toFixed(2),\n                    ((Linea1_V[1]+Linea2_V[1]+Linea3_V[1])/3).toFixed(2),\n                    ((Linea1_V[2]+Linea2_V[0]+Linea3_V[2])/3).toFixed(2),\n                    ((Linea1_V[3]+Linea2_V[0]+Linea3_V[3])/3).toFixed(2),\n                    ((Linea1_V[4]+Linea2_V[0]+Linea3_V[4])/3).toFixed(2),\n                    ((Linea1_V[5]+Linea2_V[0]+Linea3_V[5])/3).toFixed(2)\n                ];\nvar LineaP_I = [\n                    ((Linea1_I[0]+Linea2_I[0]+Linea3_I[0])/3).toFixed(2),\n                    ((Linea1_I[1]+Linea2_I[1]+Linea3_I[1])/3).toFixed(2),\n                    ((Linea1_I[2]+Linea2_I[0]+Linea3_I[2])/3).toFixed(2),\n                    ((Linea1_I[3]+Linea2_I[0]+Linea3_I[3])/3).toFixed(2),\n                    ((Linea1_I[4]+Linea2_I[0]+Linea3_I[4])/3).toFixed(2),\n                    ((Linea1_I[5]+Linea2_I[0]+Linea3_I[5])/3).toFixed(2),\n                ];\n\nif(Chart_Selection == \"Linea1\")\n    {\n        msg.payload =  [ Linea1_V , Linea1_I];\n        msg.label   = \"Porcentaje Armónico Línea 1\";\n    }\nelse if(Chart_Selection == \"Linea2\")\n    {\n        msg.payload =  [ Linea2_V , Linea2_I];\n        msg.label   = \"Porcentaje Armónico Línea 2\";\n    }\nelse if(Chart_Selection == \"Linea3\")\n    {\n        msg.payload =  [ Linea3_V , Linea3_I];\n        msg.label   = \"Porcentaje Armónico Línea 3\";\n    }\nelse if(Chart_Selection == \"LineaP\")\n    {\n        {\n        msg.payload =  [ LineaP_V , LineaP_I];\n        msg.label   = \"Porcentaje Armónico Promedio\";\n    }\n    }\nreturn msg;",
+        "func": "var PQA_Data                = global.get(\"PQA.Harmonics\", \"memoryOnly\") ||\"[]\";\nvar Chart_Selection         = flow.get(\"PQA.Harmonics_Chart.Selection\", \"memoryOnly\") || \"\";\n\nvar Linea1_V = Object.values(PQA_Data.V1_V12);\nvar Linea1_I = Object.values(PQA_Data.I1);\n\nvar Linea2_V = Object.values(PQA_Data.V2_V31);\nvar Linea2_I = Object.values(PQA_Data.I2);\n\n\nvar Linea3_V = Object.values(PQA_Data.V3_V23);\nvar Linea3_I = Object.values(PQA_Data.I3);\n\nvar LineaP_V = [\n                    ((Linea1_V[0]+Linea2_V[0]+Linea3_V[0])/3).toFixed(2),\n                    ((Linea1_V[1]+Linea2_V[1]+Linea3_V[1])/3).toFixed(2),\n                    ((Linea1_V[2]+Linea2_V[0]+Linea3_V[2])/3).toFixed(2),\n                    ((Linea1_V[3]+Linea2_V[0]+Linea3_V[3])/3).toFixed(2),\n                    ((Linea1_V[4]+Linea2_V[0]+Linea3_V[4])/3).toFixed(2),\n                    ((Linea1_V[5]+Linea2_V[0]+Linea3_V[5])/3).toFixed(2)\n                ];\nvar LineaP_I = [\n                    ((Linea1_I[0]+Linea2_I[0]+Linea3_I[0])/3).toFixed(2),\n                    ((Linea1_I[1]+Linea2_I[1]+Linea3_I[1])/3).toFixed(2),\n                    ((Linea1_I[2]+Linea2_I[0]+Linea3_I[2])/3).toFixed(2),\n                    ((Linea1_I[3]+Linea2_I[0]+Linea3_I[3])/3).toFixed(2),\n                    ((Linea1_I[4]+Linea2_I[0]+Linea3_I[4])/3).toFixed(2),\n                    ((Linea1_I[5]+Linea2_I[0]+Linea3_I[5])/3).toFixed(2),\n                ];\n\nif(Chart_Selection == \"Linea1\")\n    {\n        msg.payload =  [ Linea1_V , Linea1_I];\n        msg.label       = \"Line 1 Harmonic Percentage\";\n    }\nelse if(Chart_Selection == \"Linea2\")\n    {\n        msg.payload =  [ Linea2_V , Linea2_I];\n        msg.label       = \"Line 2 Harmonic Percentage\";\n    }\nelse if(Chart_Selection == \"Linea3\")\n    {\n        msg.payload =  [ Linea3_V , Linea3_I];\n        msg.label       = \"Line 3 Harmonic Percentage\";\n    }\nelse if(Chart_Selection == \"LineaP\")\n    {\n        {\n        msg.payload =  [ LineaP_V , LineaP_I];\n        msg.label   = \"Average Harmonic Percentage\";\n    }\n    }\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1460,
-        "y": 3060,
+        "libs": [],
+        "x": 1400,
+        "y": 2960,
         "wires": [
             [
                 "6c9ed5d3.e7799c"
@@ -18154,8 +18132,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1180,
-        "y": 3060,
+        "x": 1120,
+        "y": 2960,
         "wires": [
             [
                 "3ea5879e.bf0588"
@@ -18182,8 +18160,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1470,
-        "y": 3110,
+        "x": 1410,
+        "y": 3010,
         "wires": [
             []
         ]
@@ -18208,8 +18186,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 980,
-        "y": 3110,
+        "x": 920,
+        "y": 3010,
         "wires": [
             [
                 "23815ef1.931a32"
@@ -18229,8 +18207,8 @@
         "label": "Frec.:",
         "format": "<font size =4px>{{msg.payload}}",
         "layout": "row-left",
-        "x": 620,
-        "y": 3220,
+        "x": 560,
+        "y": 3120,
         "wires": []
     },
     {
@@ -18739,48 +18717,12 @@
         ]
     },
     {
-        "id": "56e67824752411be",
-        "type": "pccc out",
-        "z": "902fc438.e5d758",
-        "g": "06c0dbf1bffe1e21",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "CommandWord",
-        "name": "",
-        "x": 420,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "84eb16f681c366e0",
-        "type": "inject",
-        "z": "902fc438.e5d758",
-        "g": "06c0dbf1bffe1e21",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "10",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "0",
-        "payloadType": "num",
-        "x": 130,
-        "y": 1480,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "d69d4857.ada828",
         "type": "ui_text_input",
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "",
-        "label": "Referencia (spm)",
+        "label": "Reference (spm)",
         "tooltip": "",
         "group": "e5ec1549.1923c8",
         "order": 8,
@@ -18790,6 +18732,9 @@
         "mode": "number",
         "delay": "300",
         "topic": "",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 820,
         "y": 130,
         "wires": [
@@ -18810,15 +18755,17 @@
         "width": 3,
         "height": 1,
         "passthru": false,
-        "label": "CONFIRMAR",
+        "label": "OK",
         "tooltip": "",
         "color": "",
         "bgcolor": "#32499d",
+        "className": "",
         "icon": "",
         "payload": "true",
         "payloadType": "bool",
         "topic": "",
-        "x": 800,
+        "topicType": "str",
+        "x": 780,
         "y": 170,
         "wires": [
             [
@@ -18958,6 +18905,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1210,
         "y": 170,
         "wires": [
@@ -19158,6 +19106,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1170,
         "y": 310,
         "wires": [
@@ -19172,11 +19121,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "select",
-        "func": "var controlmode = global.get(\"Input.Operation.ControlMode\")||null;\nif (controlmode == null){\n    controlmode = \"Local\";\n    global.set(\"Input.Operation.ControlMode\",controlmode);\n}\nif(controlmode==\"Local\")\n    msg.payload = \"¿Desea cambiar el modo de control a remoto?\";\nelse\n    msg.payload = \"¿Desea cambiar el modo de control a local?\";\nreturn msg;",
+        "func": "var controlmode = global.get(\"Input.Operation.ControlMode\")||null;\nif (controlmode == null){\n    controlmode = \"Local\";\n    global.set(\"Input.Operation.ControlMode\",controlmode);\n}\nif(controlmode==\"Local\")\n    msg.payload = \"Do you want to change the control mode to remote?\";\nelse\n    msg.payload = \"Do you want to change the control mode to local?\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 940,
         "y": 270,
         "wires": [
@@ -19256,8 +19206,9 @@
         "height": 1,
         "name": "titulo funciones",
         "label": "",
-        "format": "<font size = 4px> Funciones",
+        "format": "<font size = 4px> Functions",
         "layout": "col-center",
+        "className": "",
         "x": 1560,
         "y": 60,
         "wires": []
@@ -20096,7 +20047,7 @@
         "z": "902fc438.e5d758",
         "g": "9ede9b9e7f6ac7f4",
         "name": "",
-        "label": "Nombre del pozo",
+        "label": "Well Name",
         "tooltip": "",
         "group": "e5ec1549.1923c8",
         "order": 1,
@@ -20106,7 +20057,10 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 1610,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1590,
         "y": 1400,
         "wires": [
             [
@@ -20120,7 +20074,7 @@
         "z": "902fc438.e5d758",
         "g": "9ede9b9e7f6ac7f4",
         "name": "",
-        "label": "Nombre del pozo",
+        "label": "Well Name",
         "tooltip": "",
         "group": "d4113fd9.a0bfc",
         "order": 1,
@@ -20130,7 +20084,10 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 1610,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1590,
         "y": 1450,
         "wires": [
             [
@@ -20144,7 +20101,7 @@
         "z": "902fc438.e5d758",
         "g": "9ede9b9e7f6ac7f4",
         "name": "",
-        "label": "Nombre del pozo",
+        "label": "Well Name",
         "tooltip": "",
         "group": "2d559537.720c4a",
         "order": 1,
@@ -20154,7 +20111,10 @@
         "mode": "text",
         "delay": 300,
         "topic": "",
-        "x": 1610,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1590,
         "y": 1500,
         "wires": [
             [
@@ -20942,8 +20902,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 270,
-        "y": 2040,
+        "x": 210,
+        "y": 1940,
         "wires": [
             [
                 "c4507372adf32737"
@@ -20959,8 +20919,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 175,
-        "y": 2040,
+        "x": 115,
+        "y": 1940,
         "wires": [
             [
                 "a9bfdd539a3af04e"
@@ -20985,8 +20945,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 270,
-        "y": 3080,
+        "x": 210,
+        "y": 2980,
         "wires": [
             [
                 "6784775a.6334d8"
@@ -21002,8 +20962,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 185,
-        "y": 3080,
+        "x": 125,
+        "y": 2980,
         "wires": [
             [
                 "105d7cf5310d3d86",
@@ -21029,8 +20989,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1070,
-        "y": 2120,
+        "x": 1010,
+        "y": 2020,
         "wires": [
             [
                 "8f8ff381bd9d2c1f"
@@ -21046,8 +21006,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 975,
-        "y": 2120,
+        "x": 915,
+        "y": 2020,
         "wires": [
             [
                 "61e97bac3a5fa1cd"
@@ -21080,8 +21040,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 775,
-        "y": 3060,
+        "x": 715,
+        "y": 2960,
         "wires": [
             [
                 "8a9d0c3be8d8b701"
@@ -21370,8 +21330,8 @@
             "3ea5879e.bf0588"
         ],
         "uncaught": false,
-        "x": 880,
-        "y": 3220,
+        "x": 820,
+        "y": 3120,
         "wires": [
             []
         ]
@@ -21392,6 +21352,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1060,
         "y": 880,
         "wires": [
@@ -21480,12 +21441,13 @@
         "order": 10,
         "width": 4,
         "height": 2,
-        "name": "",
+        "name": "Runtime",
         "label": "Runtime",
         "format": "<font size =6px>{{msg.payload}} H",
         "layout": "col-center",
-        "x": 600,
-        "y": 2560,
+        "className": "",
+        "x": 540,
+        "y": 2460,
         "wires": []
     },
     {
@@ -21498,11 +21460,12 @@
         "width": 4,
         "height": 2,
         "name": "",
-        "label": "Último código falla",
+        "label": "Last Fault Code",
         "format": "<font size =6px>{{msg.payload}}",
         "layout": "col-center",
-        "x": 630,
-        "y": 2600,
+        "className": "",
+        "x": 560,
+        "y": 2500,
         "wires": []
     },
     {
@@ -21528,11 +21491,12 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "Auto Remoto",
-        "func": "global.set(\"Input.Operation.ControlMode\",\"Remoto\");\nmsg.payload = \"Remoto\";\nreturn msg;",
+        "func": "global.set(\"Input.Operation.ControlMode\",\"Remoto\");\nmsg.payload = \"Remote\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1150,
         "y": 360,
         "wires": [
@@ -21559,8 +21523,8 @@
         "topic": "",
         "payload": "C2S.Last_Reference.Value",
         "payloadType": "global",
-        "x": 940,
-        "y": 1760,
+        "x": 960,
+        "y": 1620,
         "wires": [
             [
                 "1a666ca6835d2d34",
@@ -21587,8 +21551,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1260,
-        "y": 1760,
+        "x": 1280,
+        "y": 1620,
         "wires": [
             [],
             [
@@ -21614,8 +21578,9 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 1400,
-        "y": 1820,
+        "outputs": 1,
+        "x": 1420,
+        "y": 1680,
         "wires": [
             [
                 "890cac9f.ef77"
@@ -21634,8 +21599,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1560,
-        "y": 1820,
+        "x": 1580,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -21652,8 +21617,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 1810,
+        "x": 1130,
+        "y": 1670,
         "wires": [
             [
                 "eb7ab466.6a90b8"
@@ -21667,8 +21632,8 @@
         "g": "1178951067fce7a4",
         "name": "",
         "env": [],
-        "x": 1680,
-        "y": 1760,
+        "x": 1700,
+        "y": 1620,
         "wires": [
             []
         ]
@@ -21743,8 +21708,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 1120,
-        "y": 1860,
+        "x": 1140,
+        "y": 1720,
         "wires": []
     },
     {
@@ -21834,8 +21799,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 1580,
+        "x": 150,
+        "y": 1480,
         "wires": [
             [
                 "83023dd30811818a"
@@ -21848,14 +21813,14 @@
         "z": "902fc438.e5d758",
         "g": "a55fe2f884c89e71",
         "name": "Trends",
-        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.spm\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.spmActual\", \"memoryOnly\"))).toFixed(3));\nvar Command_dir = global.get(\"C2S.Drive_Status.Command_dir\", \"memoryOnly\") || 0;//sentido de giro 0 reverse y 1 forward\nif (Command_dir == 0) {// Sentido de la grafica\n    REF = REF * (-1)\n    SPEED = SPEED * (-1)\n}\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        'ref': [{ \"x\": time, \"y\": REF }],\n        'speed': [{ \"x\": time, \"y\": SPEED }]\n    };\n}\nelse {\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\ncontext.set(\"REF\", REF, \"memoryOnly\");\ncontext.set(\"SPEED\", SPEED, \"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Referencia \" + REF + \" SPM\");\nseries.push(\"Frecuencia de salida \" + SPEED + \" SPM\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
+        "func": "var REF = parseFloat((Math.abs(global.get(\"C2S.Implicit.spm\", \"memoryOnly\"))).toFixed(3));\nvar SPEED = parseFloat((Math.abs(global.get(\"C2S.Implicit.spmActual\", \"memoryOnly\"))).toFixed(3));\nvar Command_dir = global.get(\"C2S.Drive_Status.Command_dir\", \"memoryOnly\") || 0;//sentido de giro 0 reverse y 1 forward\nif (Command_dir == 0) {// Sentido de la grafica\n    REF = REF * (-1)\n    SPEED = SPEED * (-1)\n}\n\nvar time = msg.payload;\n\nvar datos = context.get(\"trend\", \"memoryOnly\") || null;\n\nif (datos == null) {\n    datos = {   //Datos de suministro de agua\n        'ref': [{ \"x\": time, \"y\": REF }],\n        'speed': [{ \"x\": time, \"y\": SPEED }]\n    };\n}\nelse {\n    if (datos.ref.length > 59) {\n        datos.ref.shift();\n        datos.speed.shift();\n    }\n    datos.ref.push({ \"x\": time, \"y\": REF });\n    datos.speed.push({ \"x\": time, \"y\": SPEED });\n}\n\ncontext.set(\"trend\", datos, \"memoryOnly\");\ncontext.set(\"REF\", REF, \"memoryOnly\");\ncontext.set(\"SPEED\", SPEED, \"memoryOnly\");\n\nvar series = [];\n\nseries.push(\"Reference \" + REF + \" SPM\");\nseries.push(\"Output Frequency \" + SPEED + \" SPM\");\n\n\n\nvar data = [];\n\ndata.push(datos.ref);\ndata.push(datos.speed);\n\n\nvar chart = [{\n    \"series\": series,\n    \"data\": data,\n    \"labels\": [\"\"]\n}];\n\nif (data.length != 0)\n    msg.payload = chart;\nelse\n    msg.payload = [];\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 250,
-        "y": 1580,
+        "x": 270,
+        "y": 1480,
         "wires": [
             [
                 "d6ca01c917296363",
@@ -21901,8 +21866,8 @@
         ],
         "outputs": 1,
         "useDifferentColor": false,
-        "x": 490,
-        "y": 1580,
+        "x": 510,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -21925,8 +21890,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 370,
-        "y": 1580,
+        "x": 390,
+        "y": 1480,
         "wires": [
             [
                 "7841d296e32be02e"
@@ -22003,8 +21968,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 230,
-        "y": 2100,
+        "x": 170,
+        "y": 2000,
         "wires": [
             [
                 "da849ce7.0ef51"
@@ -22029,8 +21994,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1100,
-        "y": 2160,
+        "x": 1040,
+        "y": 2060,
         "wires": [
             [
                 "6da4bb9c.3ee354"
@@ -22055,8 +22020,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 870,
-        "y": 3060,
+        "x": 810,
+        "y": 2960,
         "wires": [
             [
                 "c8a0d32e8d573a65"
@@ -22081,8 +22046,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 990,
-        "y": 3060,
+        "x": 930,
+        "y": 2960,
         "wires": [
             [
                 "c8aa3a95.12b518"
@@ -22099,8 +22064,8 @@
             "e28cc76463d5d568",
             "c4e5b48a61ef3ffd"
         ],
-        "x": 835,
-        "y": 3100,
+        "x": 775,
+        "y": 3000,
         "wires": [
             [
                 "3ccbaa0b.2db096"
@@ -22116,8 +22081,8 @@
         "order": 1,
         "width": 4,
         "height": 2,
-        "name": "Frecuencia Salida",
-        "label": "Frecuencia Salida",
+        "name": "Output Frequency",
+        "label": "Output Frequency",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22146,8 +22111,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 770,
-        "y": 1980,
+        "x": 710,
+        "y": 1880,
         "wires": []
     },
     {
@@ -22162,8 +22127,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 1980,
+        "x": 540,
+        "y": 1880,
         "wires": [
             [
                 "8f00cd8e28191886"
@@ -22179,8 +22144,8 @@
         "order": 2,
         "width": 4,
         "height": 2,
-        "name": "Porcentaje Velocidad",
-        "label": "Porcentaje Velocidad",
+        "name": "Speed Percentage",
+        "label": "Speed Percentage",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22209,8 +22174,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 780,
-        "y": 2040,
+        "x": 710,
+        "y": 1940,
         "wires": []
     },
     {
@@ -22222,8 +22187,8 @@
         "order": 3,
         "width": 4,
         "height": 2,
-        "name": "Factor Potencia",
-        "label": "Factor de Potencia",
+        "name": "Power Factor",
+        "label": "Power Factor",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22252,8 +22217,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 760,
-        "y": 2100,
+        "x": 700,
+        "y": 2000,
         "wires": []
     },
     {
@@ -22265,8 +22230,8 @@
         "order": 4,
         "width": 4,
         "height": 2,
-        "name": "Corriente Salida",
-        "label": "Corriente Salida",
+        "name": "Output Current",
+        "label": "Output Current",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22295,8 +22260,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 760,
-        "y": 2160,
+        "x": 700,
+        "y": 2060,
         "wires": []
     },
     {
@@ -22338,8 +22303,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 740,
-        "y": 2220,
+        "x": 680,
+        "y": 2120,
         "wires": []
     },
     {
@@ -22354,8 +22319,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2220,
+        "x": 540,
+        "y": 2120,
         "wires": [
             [
                 "6955fc6ecc3d7c19"
@@ -22374,8 +22339,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2280,
+        "x": 540,
+        "y": 2180,
         "wires": [
             [
                 "f458467692584c33"
@@ -22391,8 +22356,8 @@
         "order": 6,
         "width": 4,
         "height": 2,
-        "name": "Potencia",
-        "label": "Potencia",
+        "name": "Power",
+        "label": "Power",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22421,8 +22386,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 740,
-        "y": 2340,
+        "x": 670,
+        "y": 2240,
         "wires": []
     },
     {
@@ -22437,8 +22402,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2340,
+        "x": 540,
+        "y": 2240,
         "wires": [
             [
                 "4cdb6f97ddc0cb13"
@@ -22454,8 +22419,8 @@
         "order": 8,
         "width": 4,
         "height": 2,
-        "name": "Tensión Salida",
-        "label": "Voltaje de salida",
+        "name": "Output Voltaje",
+        "label": "Output Voltaje",
         "colorHi": "#e60000",
         "colorWarn": "#ff9900",
         "colorNormal": "#00b33c",
@@ -22484,8 +22449,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 760,
-        "y": 2400,
+        "x": 700,
+        "y": 2300,
         "wires": []
     },
     {
@@ -22500,8 +22465,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2400,
+        "x": 540,
+        "y": 2300,
         "wires": [
             [
                 "d1bb75bd64fc58b1"
@@ -22520,8 +22485,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2160,
+        "x": 540,
+        "y": 2060,
         "wires": [
             [
                 "7f65b417a3a88e16"
@@ -22568,8 +22533,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 760,
-        "y": 2460,
+        "x": 700,
+        "y": 2360,
         "wires": []
     },
     {
@@ -22584,8 +22549,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
-        "y": 2460,
+        "x": 540,
+        "y": 2360,
         "wires": [
             [
                 "421f2b5fe1dbe6b3"
@@ -22648,8 +22613,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 610,
-        "y": 2760,
+        "x": 550,
+        "y": 2660,
         "wires": []
     },
     {
@@ -22665,8 +22630,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 1980,
+        "x": 1480,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -22684,8 +22649,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2040,
+        "x": 1480,
+        "y": 1940,
         "wires": [
             []
         ]
@@ -22703,8 +22668,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2100,
+        "x": 1480,
+        "y": 2000,
         "wires": [
             []
         ]
@@ -22722,8 +22687,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2160,
+        "x": 1480,
+        "y": 2060,
         "wires": [
             []
         ]
@@ -22741,8 +22706,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2220,
+        "x": 1480,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -22760,8 +22725,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2280,
+        "x": 1480,
+        "y": 2180,
         "wires": [
             []
         ]
@@ -22779,8 +22744,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2340,
+        "x": 1480,
+        "y": 2240,
         "wires": [
             []
         ]
@@ -22798,8 +22763,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2400,
+        "x": 1480,
+        "y": 2300,
         "wires": [
             []
         ]
@@ -22817,8 +22782,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2460,
+        "x": 1480,
+        "y": 2360,
         "wires": [
             []
         ]
@@ -22836,8 +22801,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2520,
+        "x": 1480,
+        "y": 2420,
         "wires": [
             []
         ]
@@ -22855,8 +22820,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2580,
+        "x": 1480,
+        "y": 2480,
         "wires": [
             []
         ]
@@ -22874,8 +22839,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2640,
+        "x": 1480,
+        "y": 2540,
         "wires": [
             []
         ]
@@ -22893,8 +22858,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2700,
+        "x": 1480,
+        "y": 2600,
         "wires": [
             []
         ]
@@ -22912,8 +22877,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1540,
-        "y": 2760,
+        "x": 1480,
+        "y": 2660,
         "wires": [
             []
         ]
@@ -23010,6 +22975,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 880,
         "y": 40,
         "wires": [
@@ -23024,7 +22990,7 @@
         "z": "902fc438.e5d758",
         "g": "6202107f.ed9aa",
         "name": "AlarmaSPM",
-        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && (HertzMotor != 0) && PoleaPequena != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n} else {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n    msg.payload = \"Ingrese a Configuración VSD Datos del Motor para Configurar\";\n    msg.topic = \"Caja SRP no Configurada\";\n    return msg\n}\n",
+        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\") || 0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\") || 0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\") || 0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\") || 0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\") || 0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && (HertzMotor != 0) && PoleaPequena != 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Configurado\" });\n} else {\n    node.status({ fill: \"red\", shape: \"dot\", text: \"NoConfigurado\" });\n    msg.payload = \"Enter VSD Configuration Motor Data to Configure\";\n    msg.topic = \"SRP box not configured\";\n    return msg\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -23210,8 +23176,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "order": 11,
         "group": "e5ec1549.1923c8",
+        "order": 11,
         "width": 3,
         "height": 1,
         "label": "PocTimered",
@@ -23232,7 +23198,7 @@
         "allowColorForValueInMessage": false,
         "name": "PumpOn",
         "x": 660,
-        "y": 1740,
+        "y": 1620,
         "wires": []
     },
     {
@@ -23240,8 +23206,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "order": 16,
         "group": "e5ec1549.1923c8",
+        "order": 16,
         "width": 3,
         "height": 1,
         "label": "DobleVelocidad",
@@ -23262,7 +23228,7 @@
         "allowColorForValueInMessage": false,
         "name": "DobleVelocidad",
         "x": 680,
-        "y": 1780,
+        "y": 1660,
         "wires": []
     },
     {
@@ -23270,8 +23236,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "order": 15,
         "group": "e5ec1549.1923c8",
+        "order": 15,
         "width": 3,
         "height": 1,
         "label": "PocSuperficie",
@@ -23292,7 +23258,7 @@
         "allowColorForValueInMessage": false,
         "name": "Superficie",
         "x": 660,
-        "y": 1820,
+        "y": 1700,
         "wires": []
     },
     {
@@ -23300,8 +23266,8 @@
         "type": "ui_led",
         "z": "902fc438.e5d758",
         "g": "8fa2eaea5acf9620",
-        "order": 10,
         "group": "e5ec1549.1923c8",
+        "order": 10,
         "width": 3,
         "height": 1,
         "label": "PocFondo",
@@ -23322,7 +23288,7 @@
         "allowColorForValueInMessage": false,
         "name": "Dowhole",
         "x": 660,
-        "y": 1860,
+        "y": 1740,
         "wires": []
     },
     {
@@ -23346,7 +23312,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 1780,
+        "y": 1660,
         "wires": [
             [
                 "a8e00de2c1698a8e"
@@ -23374,7 +23340,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 1820,
+        "y": 1700,
         "wires": [
             [
                 "bf5838acb06caa0c"
@@ -23402,7 +23368,7 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 1860,
+        "y": 1740,
         "wires": [
             [
                 "dc08e7cb4af9e2b2"
@@ -23423,7 +23389,7 @@
             "cc5d96db53490462"
         ],
         "x": 75,
-        "y": 1800,
+        "y": 1680,
         "wires": [
             [
                 "2258405e796f4019"
@@ -23451,7 +23417,7 @@
         "to": "",
         "reg": false,
         "x": 340,
-        "y": 1740,
+        "y": 1620,
         "wires": [
             [
                 "8154d8bbdb9ba1f6"
@@ -23502,11 +23468,12 @@
         "order": 5,
         "width": 3,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Versión: SRP 1.8.3</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n</head>\n\n<body>\n    <div class=\"container align-self-center\">\n        <div class=\"row justify-content-center\">\n            <h5><span class=\"badge badge-secondary\">Version: SRP 1.0.1</span></h5>\n        </div>\n    </div>\n</body>\n\n<script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n<script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n<script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n\n<style>\n    .disable-select {\n        user-select: none;\n        /* supported by Chrome and Opera */\n        -webkit-user-select: none;\n        /* Safari */\n        -khtml-user-select: none;\n        /* Konqueror HTML */\n        -moz-user-select: none;\n        /* Firefox */\n        -ms-user-select: none;\n        /* Internet Explorer/Edge */\n    }\n\n    .imagen {\n        height: 90px;\n        background-image: url(http://localhost:1880/swcpro-images/hlogo.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        background-position: center center;\n    }\n</style>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
+        "className": "",
         "x": 740,
         "y": 800,
         "wires": [
@@ -23532,7 +23499,7 @@
         "repair": false,
         "outputs": 1,
         "x": 170,
-        "y": 1800,
+        "y": 1680,
         "wires": [
             [
                 "5b5cdeca57169758",
@@ -23556,7 +23523,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1740,
+        "y": 1620,
         "wires": [
             [
                 "85d73808e7b482d5"
@@ -23577,7 +23544,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1780,
+        "y": 1660,
         "wires": [
             [
                 "7d13fed1a356db26"
@@ -23598,7 +23565,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1820,
+        "y": 1700,
         "wires": [
             [
                 "553c442d527c781d"
@@ -23619,7 +23586,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 510,
-        "y": 1860,
+        "y": 1740,
         "wires": [
             [
                 "4a46df50766a6661"
@@ -23695,8 +23662,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 2860,
+        "x": 290,
+        "y": 2760,
         "wires": [
             [
                 "ac3bf42289226fe7"
@@ -23715,8 +23682,8 @@
         "syntax": "mustache",
         "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"100px\" x=\"510%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
         "output": "str",
-        "x": 510,
-        "y": 2860,
+        "x": 450,
+        "y": 2760,
         "wires": [
             [
                 "3babb4558f64e6f2"
@@ -23735,8 +23702,8 @@
         "syntax": "mustache",
         "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9 mt-3\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 685 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
         "output": "str",
-        "x": 660,
-        "y": 2860,
+        "x": 600,
+        "y": 2760,
         "wires": [
             [
                 "41728952578e0a15"
@@ -23758,8 +23725,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 820,
-        "y": 2860,
+        "x": 760,
+        "y": 2760,
         "wires": [
             []
         ]
@@ -23914,6 +23881,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 860,
         "y": 1030,
         "wires": [
@@ -23970,8 +23938,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 370,
-        "y": 1620,
+        "x": 390,
+        "y": 1520,
         "wires": [
             [
                 "93b21d74000b52e7"
@@ -24017,8 +23985,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 570,
-        "y": 1620,
+        "x": 590,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -24063,8 +24031,8 @@
         "peakmode": false,
         "property": "payload",
         "peaktime": 3000,
-        "x": 760,
-        "y": 2280,
+        "x": 700,
+        "y": 2180,
         "wires": []
     },
     {
@@ -24081,8 +24049,8 @@
         "format": "<font size =6px>{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 590,
-        "y": 2640,
+        "x": 540,
+        "y": 2540,
         "wires": []
     },
     {
@@ -24099,8 +24067,8 @@
         "format": "<font size =6px>{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 600,
-        "y": 2680,
+        "x": 540,
+        "y": 2580,
         "wires": []
     },
     {
@@ -24112,13 +24080,13 @@
         "order": 14,
         "width": 4,
         "height": 2,
-        "name": "",
-        "label": "Potencia Acumulada",
+        "name": "Accumulated Power",
+        "label": "Accumulated Power",
         "format": "<font size =6px>{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 640,
-        "y": 2720,
+        "x": 580,
+        "y": 2620,
         "wires": []
     },
     {
@@ -24135,8 +24103,8 @@
         "targetType": "msg",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 360,
-        "y": 2360,
+        "x": 300,
+        "y": 2260,
         "wires": []
     },
     {
@@ -24151,8 +24119,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 240,
-        "y": 2180,
+        "x": 180,
+        "y": 2080,
         "wires": [
             [
                 "da849ce7.0ef51"
@@ -24175,8 +24143,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1760,
+        "x": 1520,
+        "y": 1620,
         "wires": [
             [
                 "5e9480f01e3c4b75"
@@ -24294,6 +24262,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 180,
         "y": 920,
         "wires": [
@@ -25376,6 +25345,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 720,
         "y": 780,
         "wires": [
@@ -25926,6 +25896,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 570,
         "y": 1078,
         "wires": [
@@ -26110,6 +26081,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 610,
         "y": 940,
         "wires": [
@@ -26151,6 +26123,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1510,
         "y": 1040,
         "wires": [
@@ -26201,6 +26174,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 630,
         "y": 1000,
         "wires": [
@@ -28505,6 +28479,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1120,
         "y": 940,
         "wires": [
@@ -28812,6 +28787,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1210,
         "y": 480,
         "wires": [
@@ -28837,6 +28813,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1320,
         "y": 600,
         "wires": [
@@ -28890,6 +28867,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 300,
         "y": 480,
         "wires": [
@@ -32651,6 +32629,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 2320,
         "y": 1120,
         "wires": [
@@ -42002,6 +41981,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 3550,
         "y": 2430,
         "wires": [
@@ -48519,6 +48499,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 700,
         "y": 540,
         "wires": [
@@ -50858,6 +50839,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 550,
         "y": 1130,
         "wires": [
@@ -52440,6 +52422,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 2470,
         "y": 990,
         "wires": [
@@ -53977,6 +53960,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 540,
         "y": 3150,
         "wires": [
@@ -57591,8 +57575,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
-        "order": 15,
         "group": "999747fd.0e43c8",
+        "order": 15,
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -57677,8 +57661,8 @@
         "type": "ui_led",
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
-        "order": 15,
         "group": "9457c46f.d710c8",
+        "order": 15,
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -58240,6 +58224,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 570,
         "y": 1040,
         "wires": [
@@ -58278,6 +58263,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 570,
         "y": 3320,
         "wires": [
@@ -59012,6 +58998,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1030,
         "y": 3820,
         "wires": [
@@ -59314,18 +59301,6 @@
         ]
     },
     {
-        "id": "f6820b3da24bd57b",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "81a2722aec77d40b",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "DLX Bool SP1",
-        "name": "",
-        "x": 700,
-        "y": 4100,
-        "wires": []
-    },
-    {
         "id": "1525017c13829ff5",
         "type": "function",
         "z": "7a89175c.90f6a8",
@@ -59367,54 +59342,6 @@
                 "1525017c13829ff5"
             ]
         ]
-    },
-    {
-        "id": "ac5611e0.f1126",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO1",
-        "name": "",
-        "x": 1790,
-        "y": 3260,
-        "wires": []
-    },
-    {
-        "id": "6f5153fc.5881dc",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO2",
-        "name": "",
-        "x": 1790,
-        "y": 3340,
-        "wires": []
-    },
-    {
-        "id": "b7313f15be39db89",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO3",
-        "name": "",
-        "x": 1790,
-        "y": 3440,
-        "wires": []
-    },
-    {
-        "id": "331fbb9455c52414",
-        "type": "pccc out",
-        "z": "7a89175c.90f6a8",
-        "g": "edfe6c51.d89c68",
-        "endpoint": "e9d237aaf9318e74",
-        "variable": "AO4",
-        "name": "",
-        "x": 1790,
-        "y": 3520,
-        "wires": []
     },
     {
         "id": "6d1c1663da454a65",
@@ -60940,6 +60867,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1070,
         "y": 4540,
         "wires": [
@@ -61052,9 +60980,7 @@
         "x": 1460,
         "y": 3320,
         "wires": [
-            [
-                "ac5611e0.f1126"
-            ]
+            []
         ]
     },
     {
@@ -61078,10 +61004,7 @@
         "x": 1470,
         "y": 3380,
         "wires": [
-            [
-                "ac5611e0.f1126",
-                "6f5153fc.5881dc"
-            ]
+            []
         ]
     },
     {
@@ -63918,6 +63841,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 820,
         "y": 290,
         "wires": [
@@ -64113,6 +64037,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 920,
         "y": 800,
         "wires": [
@@ -64241,6 +64166,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 530,
         "y": 610,
         "wires": [
@@ -67438,6 +67364,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 3040,
         "y": 1960,
         "wires": [
@@ -68095,6 +68022,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 630,
         "y": 1520,
         "wires": [
@@ -68119,6 +68047,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 630,
         "y": 1560,
         "wires": [
@@ -68857,6 +68786,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 480,
         "y": 160,
         "wires": [
@@ -69246,6 +69176,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 900,
         "y": 270,
         "wires": [
@@ -69272,6 +69203,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 900,
         "y": 350,
         "wires": [
@@ -69743,6 +69675,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 940,
         "y": 780,
         "wires": [
@@ -69952,11 +69885,12 @@
         "order": 2,
         "width": 16,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\"\n                aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comandos\n                C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\" role=\"tab\"\n                aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\" ng-click=\"send({payload:ComandosC2S()})\">Comands\n                C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Data C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Electrical Data</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Process Data</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
+        "className": "",
         "x": 450,
         "y": 300,
         "wires": [
@@ -70456,6 +70390,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1520,
         "y": 1060,
         "wires": [
@@ -71436,7 +71371,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Commands C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Data C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Electrical Data</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Process Data</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 280,
         "y": 360,
@@ -71456,7 +71391,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Commands C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Data C2S</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Electrical Data</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Process Data</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 280,
         "y": 320,
@@ -71476,7 +71411,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Commands C2S</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Data C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Electrical Data</a>\n            <a class=\"nav-item nav-link\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Process Data</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 280,
         "y": 280,
@@ -71496,7 +71431,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Comandos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Datos C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Datos\n                eléctricos</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Datos de proceso</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-ComandosC2S-tab\" data-toggle=\"tab\" href=\"#nav-ComandosC2S\"\n                role=\"tab\" aria-controls=\"nav-ComandosC2S\" aria-selected=\"false\"\n                ng-click=\"send({payload:ComandosC2S()})\">Commands C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-C2S-tab\" data-toggle=\"tab\" href=\"#nav-C2S\" role=\"tab\"\n                aria-controls=\"nav-C2S\" aria-selected=\"false\" ng-click=\"send({payload:C2S()})\">Data C2S</a>\n            <a class=\"nav-item nav-link\" id=\"nav-electricos-tab\" data-toggle=\"tab\" href=\"#nav-electricos\" role=\"tab\"\n                aria-controls=\"nav-electricos\" aria-selected=\"false\" ng-click=\"send({payload:electricos()})\">Electrical Data</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-fondo-tab\" data-toggle=\"tab\" href=\"#nav-fondo\" role=\"tab\"\n                aria-controls=\"nav-fondo\" aria-selected=\"true\" ng-click=\"send({payload:fondo()})\">Process Data</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.fondo = function() { return \"Fondo\"; };\n        this.scope.C2S = function() { return \"C2S\"; };\n        this.scope.electricos = function() { return \"Eléctricos\"; };\n        this.scope.ComandosC2S = function() { return \"ComandosC2S\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\n</body>\n\n</html>",
         "output": "str",
         "x": 280,
         "y": 240,
@@ -71573,6 +71508,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 290,
         "y": 200,
         "wires": [
@@ -71598,6 +71534,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 130,
         "y": 360,
         "wires": [
@@ -71703,6 +71640,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 110,
         "y": 1040,
         "wires": [
@@ -71956,6 +71894,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 230,
         "y": 500,
         "wires": [
@@ -72039,6 +71978,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 210,
         "y": 720,
         "wires": [
@@ -72514,6 +72454,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1530,
         "y": 620,
         "wires": [
@@ -72623,6 +72564,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1740,
         "y": 740,
         "wires": [
@@ -73376,8 +73318,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "8354217e51b24524",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73553,8 +73495,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "f0a178ab0a6d0b14",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73623,8 +73565,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "d7027b6d471634a1",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73693,8 +73635,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "2a978398308ddc2f",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73763,8 +73705,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "114092cca07d1b8b",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73833,8 +73775,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 2,
         "group": "4190699f61725da4",
+        "order": 2,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73903,8 +73845,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "73d37e5b1f2a302a",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -73973,8 +73915,8 @@
         "type": "ui_led",
         "z": "2e27dea6.c4c362",
         "g": "4a25e547351e4e9d",
-        "order": 1,
         "group": "119384c85617742d",
+        "order": 1,
         "width": 5,
         "height": 1,
         "label": "C2S: {{msg.payload}}",
@@ -74823,6 +74765,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 650,
         "y": 1440,
         "wires": [
@@ -74970,6 +74913,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1510,
         "y": 1120,
         "wires": [
@@ -75013,6 +74957,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1510,
         "y": 1200,
         "wires": [
@@ -75339,8 +75284,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 820,
-        "y": 310,
+        "x": 790,
+        "y": 380,
         "wires": [
             [
                 "36d8209f.12d38"
@@ -75358,8 +75303,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1000,
-        "y": 310,
+        "x": 970,
+        "y": 380,
         "wires": [
             [
                 "838adacf.15be18"
@@ -75372,14 +75317,14 @@
         "z": "dd18d94e.4b1408",
         "g": "b2f2659a.67f648",
         "name": "Status Function",
-        "func": "//Calling global variables\nvar Active = global.get(\"C2S.Drive_Status.Active\", 'memoryOnly') || 0;\nvar Alarm = global.get(\"C2S.Drive_Status.Alarm\", 'memoryOnly') || 0;\nvar Fault = global.get(\"C2S.Drive_Status.Fault\", 'memoryOnly') || 0;\nvar Accel = global.get(\"C2S.Drive_Status.Accel\", 'memoryOnly') || 0;\nvar Decel = global.get(\"C2S.Drive_Status.Decel\", 'memoryOnly') || 0;\nvar Comm = global.get(\"C2S.Comunicacion_Drive\", 'memoryOnly');\nvar Prot = global.get(\"Protections.RFlag\", 'memoryOnly');\nvar delay = flow.get(\"Rearranque_delay\", \"memoryOnly\") || null;\nvar FallaGeneral = global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false;\n\nif (!Comm) {\n    msg.payload = \"Falla de comunicación drive\";\n}\nelse if ((delay != null) && (delay > 0)) {\n    msg.payload = \"Re-arranque en: \" + parseInt(delay / 1000) + \" s\";\n    flow.set(\"Rearranque_delay\", delay - 500, 'memoryOnly');\n}\nelse if (Fault) {\n    msg.payload = \"FALLA de variador!\";\n}\nelse if (Prot) {\n    msg.payload = \"FALLA de protección!\";\n}\nelse if (FallaGeneral) {\n    msg.payload = \"Falla general\";\n}\nelse if (Alarm) {\n    msg.payload = \"ALARMA!\";\n}\nelse if (Active) {\n    if (Accel) {\n        msg.payload = \"ACTIVO Acelerando\";\n    }\n    else if (Decel) {\n        msg.payload = \"ACTIVO Desacelerando\";\n    }\n    else {\n        msg.payload = \"ACTIVO\";\n    }\n}\nelse {\n    msg.payload = \"DETENIDO\";\n}\nnode.status({ fill: \"green\", shape: \"dot\", text: Fault });\n\nreturn msg;",
+        "func": "//Calling global variables\nvar Active = global.get(\"C2S.Drive_Status.Active\", 'memoryOnly') || 0;\nvar Alarm = global.get(\"C2S.Drive_Status.Alarm\", 'memoryOnly') || 0;\nvar Fault = global.get(\"C2S.Drive_Status.Fault\", 'memoryOnly') || 0;\nvar Accel = global.get(\"C2S.Drive_Status.Accel\", 'memoryOnly') || 0;\nvar Decel = global.get(\"C2S.Drive_Status.Decel\", 'memoryOnly') || 0;\nvar Comm = global.get(\"C2S.Comunicacion_Drive\", 'memoryOnly');\nvar Prot = global.get(\"Protections.RFlag\", 'memoryOnly');\nvar delay = flow.get(\"Rearranque_delay\", \"memoryOnly\") || null;\nvar FallaGeneral = global.get(\"IO.Functions.DO['Falla general']\", 'memoryOnly') || false;\n\nif (!Comm) {\n    msg.payload = \"Drive communication failure\";\n}\nelse if ((delay != null) && (delay > 0)) {\n    msg.payload = \"AutoStart en: \" + parseInt(delay / 1000) + \" s\";\n    flow.set(\"Rearranque_delay\", delay - 500, 'memoryOnly');\n}\nelse if (Fault) {\n    msg.payload = \"Fault VSD!\";\n}\nelse if (Prot) {\n    msg.payload = \"Protection Fault!\";\n}\nelse if (FallaGeneral) {\n    msg.payload = \"General Fault\";\n}\nelse if (Alarm) {\n    msg.payload = \"ALARM!\";\n}\nelse if (Active) {\n    if (Accel) {\n        msg.payload = \"Active Accelerating\";\n    }\n    else if (Decel) {\n        msg.payload = \"Active Desccelerating\";\n    }\n    else {\n        msg.payload = \"ACTIVE\";\n    }\n}\nelse {\n    msg.payload = \"STOPPED\";\n}\nnode.status({ fill: \"green\", shape: \"dot\", text: Fault });\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1170,
-        "y": 310,
+        "x": 1140,
+        "y": 380,
         "wires": [
             [
                 "f16815630fb5bc06",
@@ -75407,8 +75352,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 630,
-        "y": 310,
+        "x": 600,
+        "y": 380,
         "wires": [
             [
                 "d21e2c47.59925"
@@ -75435,8 +75380,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
-        "y": 350,
+        "x": 610,
+        "y": 420,
         "wires": [
             []
         ]
@@ -75837,8 +75782,8 @@
             "ea32976ff44ab826",
             "5f79ab420985f7b2"
         ],
-        "x": 1285,
-        "y": 310,
+        "x": 1255,
+        "y": 380,
         "wires": []
     },
     {
@@ -75852,8 +75797,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1320,
-        "y": 350,
+        "x": 1290,
+        "y": 420,
         "wires": [
             [
                 "ebf423611202c084"
@@ -75878,8 +75823,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1440,
-        "y": 350,
+        "x": 1410,
+        "y": 420,
         "wires": [
             [
                 "e92736fb1766d1e0"
@@ -75896,8 +75841,8 @@
             "2da816b7.b2be9a",
             "52f1e35a6b450a62"
         ],
-        "x": 1705,
-        "y": 350,
+        "x": 1675,
+        "y": 420,
         "wires": []
     },
     {
@@ -75925,8 +75870,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1590,
-        "y": 350,
+        "x": 1560,
+        "y": 420,
         "wires": [
             [
                 "d2bf0a88cc35bf5f"
@@ -75963,7 +75908,7 @@
         "type": "function",
         "z": "dd18d94e.4b1408",
         "name": "",
-        "func": "if(msg.payload==false){\n    msg.payload = \"Falla de comunicación drive\";\n    return msg;\n}",
+        "func": "if(msg.payload==false){\n    msg.payload = \"Drive communication failure\";\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -76030,8 +75975,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 640,
-        "y": 400,
+        "x": 610,
+        "y": 470,
         "wires": [
             [
                 "be13aab248bfe2b8"
@@ -76050,8 +75995,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 400,
+        "x": 820,
+        "y": 470,
         "wires": [
             [
                 "235d78827fe0ee74"
@@ -76078,8 +76023,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1100,
-        "y": 400,
+        "x": 1070,
+        "y": 470,
         "wires": [
             []
         ]
@@ -80904,6 +80849,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1110,
         "y": 260,
         "wires": [
@@ -81154,6 +81100,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1220,
         "y": 680,
         "wires": [
@@ -82297,6 +82244,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1120,
         "y": 240,
         "wires": [
@@ -86395,6 +86343,7 @@
         ],
         "seg1": "",
         "seg2": "",
+        "className": "",
         "x": 2090,
         "y": 140,
         "wires": []
@@ -86410,7 +86359,7 @@
         "width": 4,
         "height": 2,
         "gtype": "wave",
-        "title": "Llenado",
+        "title": "Fill",
         "label": "%",
         "format": "{{value}}",
         "min": 0,
@@ -86422,7 +86371,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 2100,
+        "className": "",
+        "x": 2090,
         "y": 100,
         "wires": []
     },
@@ -86437,7 +86387,7 @@
         "width": 3,
         "height": 2,
         "gtype": "donut",
-        "title": "Nivel de Fluido Dinámico",
+        "title": "Dynamic Fluid Level",
         "label": "ft",
         "format": "{{value}}",
         "min": 0,
@@ -86449,7 +86399,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 2150,
+        "className": "",
+        "x": 2140,
         "y": 220,
         "wires": []
     },
@@ -86464,7 +86415,7 @@
         "width": 3,
         "height": 2,
         "gtype": "donut",
-        "title": "Sumergencia",
+        "title": "Submergence",
         "label": "ft",
         "format": "{{value}}",
         "min": 0,
@@ -86476,7 +86427,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 2110,
+        "className": "",
+        "x": 2120,
         "y": 260,
         "wires": []
     },
@@ -87461,7 +87413,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            // var data = [trace1,trace2];\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Surface</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Down-Hole</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagram',\n                type: 'scatter'\n            };\n            // var trace2  = {\n            //     x: [40],\n            //     y: [10],\n            //     name: 'Pump Off',\n            //     mode: 'scatter'\n            // };\n            var layout = {\n                title: 'Surface Dynagram',\n                autosize: false,\n                width: 620,\n                height: 420,\n                yaxis: {\n                    title: 'Load [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Position [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n                // images: [\n                //         {\n                //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n                //             xref: \"paper\",\n                //             yref: \"paper\",\n                //             sizing: \"stretch\",\n                //             x: 0.25,\n                //             y: 0,\n                //             sizex: 0.6,\n                //             sizey: 1,\n                //             opacity: 0.1,\n                //             xanchor: \"left\",\n                //             yanchor: \"bottom\"\n                //         }],\n            };\n            var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        \n        var layout = {\n            title: 'Down-Hole Dynagram',\n            autosize: false,\n            width: 620,\n            height: 420,\n            yaxis: {\n                title: 'Load [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Position [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 2360,
         "y": 1820,
@@ -87545,7 +87497,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Superficie</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Fondo</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n    \n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Dinagrama de Superficie',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Carga [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Posición [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Dinagrama de Fondo',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Carga [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Posición [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n<script>{{{script}}}</script>\n<style>{{{style}}}</style>\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n    {{!-- Libreria para la creacion de los PLOTs 3D --}}\n    <script src=\"http://localhost:1880/SocketRodPoint/lib/js/plotly-2.3.0.min.js\"></script>\n  </head>\n  <body>\n\n    {{!-- variables invisibles --}}\n    <div id=\"xSuperficie\" ng-bind-html=\"msg.xSuperficie\" style=\"display:none\"></div>\n    <div id=\"ySuperficie\" ng-bind-html=\"msg.ySuperficie\" style=\"display:none\"></div>\n\n    <div id=\"puntoX\" ng-bind-html=\"msg.puntoX\" style=\"display:none\"></div>\n    <div id=\"puntoY\" ng-bind-html=\"msg.puntoY\" style=\"display:none\"></div>\n\n    <div id=\"xFondo\" ng-bind-html=\"msg.xFondo\" style=\"display:none\"></div>\n    <div id=\"yFondo\" ng-bind-html=\"msg.yFondo\" style=\"display:none\"></div>\n    <div class=\"btn-group\">\n        <div id=\"demo\" onclick=\"dinagramaSuperficie()\" class=\"btn btn-light btn-sm\">Surface</div>\n        <div id=\"demo\" onclick=\"dinagramaFondo()\" class=\"btn btn-light btn-sm\">Down-Hole</div>\n    </div>\n    \n    {{!-- espacio para plotear el dinagrama de Superficie --}}\n    <div id='myDiv2'><!-- Plotly chart will be drawn inside this DIV --></div>\n    <script>//Dinagrama de Superficie\n        function dinagramaSuperficie() {\n            var x = document.getElementById(\"xSuperficie\").innerHTML;//adquision de data desde nodered\n            var y = document.getElementById(\"ySuperficie\").innerHTML;//adquision de data desde nodered\n            var x1 = x.split(\",\")\n            var y1 = y.split(\",\")\n            \n            var puntoX = document.getElementById(\"puntoX\").innerHTML;//adquision de data desde nodered\n            var puntoY = document.getElementById(\"puntoY\").innerHTML;//adquision de data desde nodered\n    \n            for(i = 0; i < x1.length; i++) {\n                x1[i] = Redondeo(x1[i]);\n                y1[i] = Redondeo(y1[i]);\n            }\n\n            var trace1  = {\n                x: x1,\n                y: y1,\n                name: 'Dynagrama',\n                type: 'scatter'\n            };\n            var trace2  = {\n                x: [puntoX],\n                y: [puntoY],\n                name: 'Pump Off',\n                mode: 'scatter'\n            };\n            var layout = {\n                title: 'Surface Dynagram',\n                autosize: false,\n                width: 490,\n                height: 320,\n                yaxis: {\n                    title: 'Load [Klb]',\n                    tickmode: 'array',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n\n                xaxis: {\n                    title: 'Position [in]',\n                    automargin: true,\n                    titlefont: { size:12 },\n                },\n            };\n            var data = [trace1,trace2];\n            // var data = [trace1];\n            Plotly.newPlot('myDiv2', data,layout);\n            // funciones utilizadas\n            function Redondeo(x) {\n                return Number.parseFloat(x).toFixed(2);\n            }\n        }\n    </script>\n\n    <script> // Dinagrama de Fondo\n    function dinagramaFondo() {\n        var x = document.getElementById(\"xFondo\").innerHTML;//adquision de data desde nodered\n        var y = document.getElementById(\"yFondo\").innerHTML;//adquision de data desde nodered\n        var x1 = x.split(\",\")\n        var y1 = y.split(\",\")\n        for(i = 0; i < x1.length; i++) {\n            x1[i] = Redondeo(x1[i]);\n            y1[i] = Redondeo(y1[i]);\n        }\n\n        var trace1  = {\n            x: x1,\n            y: y1,\n            name: 'Dynagrama',\n            type: 'scatter'\n        };\n        // var trace2  = {\n        //     x: [0],\n        //     y: [0],\n        //     name: 'Pump Off',\n        //     mode: 'scatter'\n        // };\n        var layout = {\n            title: 'Down-Hole Dynagram',\n            autosize: false,\n            width: 490,\n            height: 320,\n            yaxis: {\n                title: 'Load [Klb]',\n                tickmode: 'array',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n\n            xaxis: {\n                title: 'Position [in]',\n                automargin: true,\n                titlefont: { size:12 },\n            },\n            // images: [\n            //         {\n            //             source: \"http://localhost:1880/swcpro-images/hlogo.png\",\n            //             xref: \"paper\",\n            //             yref: \"paper\",\n            //             sizing: \"stretch\",\n            //             x: 0.25,\n            //             y: 0,\n            //             sizex: 0.6,\n            //             sizey: 1,\n            //             opacity: 0.1,\n            //             xanchor: \"left\",\n            //             yanchor: \"bottom\"\n            //         }],\n        };\n        // var data = [trace1,trace2];\n        var data = [trace1];\n        Plotly.newPlot('myDiv2', data,layout);\n        // funciones utilizadas\n        function Redondeo(x) {\n            return Number.parseFloat(x).toFixed(2);\n        }\n    }\n    </script>\n\n    <script src=\"http://localhost:1880/jquery/jquery.min.js\"></script>\n    <script src=\"http://localhost:1880/popper.js/dist/popper.min.js\"></script>\n    <script src=\"http://localhost:1880/bootstrap/dist/js/bootstrap.min.js\"></script>\n  </body>\n  \n  <style>\n    .disable-select {\n        user-select: none; /* supported by Chrome and Opera /\n        -webkit-user-select: none; / Safari /\n       -khtml-user-select: none; / Konqueror HTML /\n       -moz-user-select: none; / Firefox /\n       -ms-user-select: none; / Internet Explorer/Edge */\n    }\n  </style>\n</html>",
         "output": "str",
         "x": 2540,
         "y": 1700,
@@ -87648,8 +87600,9 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
-        "x": 940,
-        "y": 1660,
+        "outputs": 1,
+        "x": 960,
+        "y": 1380,
         "wires": [
             [
                 "aa463aa620d9836f"
@@ -87673,6 +87626,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 2040,
         "y": 1820,
         "wires": [
@@ -87698,6 +87652,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 2040,
         "y": 1740,
         "wires": [
@@ -87863,6 +87818,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1910,
         "y": 1600,
         "wires": [
@@ -88008,6 +87964,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 2310,
         "y": 1760,
         "wires": [
@@ -88903,6 +88860,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 380,
         "y": 290,
         "wires": [
@@ -89034,6 +88992,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 310,
         "y": 210,
         "wires": [
@@ -89086,6 +89045,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 520,
         "wires": [
@@ -89112,6 +89072,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 580,
         "wires": [
@@ -89138,6 +89099,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 640,
         "wires": [
@@ -89343,6 +89305,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 740,
         "wires": [
@@ -89369,6 +89332,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 800,
         "wires": [
@@ -89395,6 +89359,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 860,
         "wires": [
@@ -89421,6 +89386,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 250,
         "y": 920,
         "wires": [
@@ -89447,6 +89413,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 240,
         "y": 980,
         "wires": [
@@ -89618,6 +89585,7 @@
         "randomLast": "5",
         "randomUnits": "seconds",
         "drop": false,
+        "outputs": 1,
         "x": 1040,
         "y": 310,
         "wires": [
@@ -89664,6 +89632,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 850,
         "y": 190,
         "wires": [
@@ -89758,6 +89727,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 850,
         "y": 720,
         "wires": [
@@ -89837,6 +89807,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 850,
         "y": 780,
         "wires": [
@@ -89862,6 +89833,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 850,
         "y": 840,
         "wires": [
@@ -89909,6 +89881,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 840,
         "y": 900,
         "wires": [
@@ -90138,6 +90111,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1490,
         "y": 700,
         "wires": [
@@ -99152,6 +99126,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 360,
         "y": 1080,
         "wires": [
@@ -100456,6 +100431,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 820,
         "y": 1940,
         "wires": [
@@ -103970,8 +103946,8 @@
         "id": "0c15d438d2d45b30",
         "type": "ui_led",
         "z": "5ba456fee41e0d30",
-        "order": 2,
         "group": "cb687524409f9560",
+        "order": 2,
         "width": 5,
         "height": 1,
         "label": "{{msg.payload}}",
@@ -106258,6 +106234,7 @@
         "randomUnits": "seconds",
         "drop": false,
         "allowrate": false,
+        "outputs": 1,
         "x": 1880,
         "y": 260,
         "wires": [
@@ -106518,8 +106495,8 @@
         "variable": "",
         "program": "",
         "name": "",
-        "x": 190,
-        "y": 360,
+        "x": 160,
+        "y": 430,
         "wires": [
             [
                 "81e5738031db0190"
@@ -106555,8 +106532,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 360,
+        "x": 360,
+        "y": 430,
         "wires": [
             [
                 "8fdf7c75.8bd9d",
