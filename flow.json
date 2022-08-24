@@ -937,7 +937,9 @@
             "e39536e36180e4d8"
         ],
         "x": 1334,
-        "y": 1011.5
+        "y": 1011.5,
+        "w": 792,
+        "h": 337
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -977,7 +979,9 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119
+        "y": 119,
+        "w": 1182,
+        "h": 322
     },
     {
         "id": "fcb3da61.429db8",
@@ -1303,7 +1307,9 @@
             "c1e4f00f3ccb67bc"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 922,
+        "h": 182
     },
     {
         "id": "eed2da25.98fab8",
@@ -1350,7 +1356,9 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659
+        "y": 659,
+        "w": 882,
+        "h": 322
     },
     {
         "id": "312f680c.5a3b4",
@@ -1578,7 +1586,9 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999
+        "y": 999,
+        "w": 1242,
+        "h": 262
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1730,7 +1740,9 @@
             "8f8a192b.bb2ef8"
         ],
         "x": 28,
-        "y": 43
+        "y": 33,
+        "w": 2784,
+        "h": 1122
     },
     {
         "id": "6202107f.ed9aa",
@@ -2027,7 +2039,9 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73
+        "y": 73,
+        "w": 324,
+        "h": 324
     },
     {
         "id": "20a59349.5b554c",
@@ -2097,7 +2111,9 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459
+        "y": 459,
+        "w": 312,
+        "h": 402
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2389,7 +2405,9 @@
             "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1539
+        "y": 1539,
+        "w": 562,
+        "h": 222
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2969,7 +2987,9 @@
             "d17ceb3fc54c19b2"
         ],
         "x": 14,
-        "y": 1779
+        "y": 1779,
+        "w": 792,
+        "h": 322
     },
     {
         "id": "fd65929694c9064e",
@@ -3647,7 +3667,9 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 982,
+        "h": 202
     },
     {
         "id": "193969f706c28bf5",
@@ -3928,9 +3950,7 @@
             "206f539cabc2577b"
         ],
         "x": 574,
-        "y": 579,
-        "w": 652,
-        "h": 182
+        "y": 579
     },
     {
         "id": "bfa864e408443edc",
@@ -3947,9 +3967,7 @@
             "7a4d67c3076bb1a7"
         ],
         "x": 254,
-        "y": 579,
-        "w": 292,
-        "h": 122
+        "y": 579
     },
     {
         "id": "8a1f4d0355f4810c",
@@ -3987,9 +4005,7 @@
             "bd5e6c5eb1fe9fe9"
         ],
         "x": 254,
-        "y": 79,
-        "w": 992,
-        "h": 482
+        "y": 79
     },
     {
         "id": "3246efc26b2a7a6a",
@@ -4026,9 +4042,7 @@
             "050975e096369c5d"
         ],
         "x": 254,
-        "y": 719,
-        "w": 312,
-        "h": 122
+        "y": 719
     },
     {
         "id": "a2810e48e2e53e37",
@@ -4040,9 +4054,7 @@
         },
         "nodes": [],
         "x": 254,
-        "y": 879,
-        "w": 131,
-        "h": 40
+        "y": 879
     },
     {
         "id": "4a25e547351e4e9d",
@@ -4086,7 +4098,9 @@
             "3e8b5c9fbf5e1b80"
         ],
         "x": 1014,
-        "y": 1379
+        "y": 1379,
+        "w": 1472,
+        "h": 402
     },
     {
         "id": "b0e1bb0cbdf93ee4",
@@ -4108,7 +4122,9 @@
             "8fbfc036b1ed27be"
         ],
         "x": 14,
-        "y": 2119
+        "y": 2119,
+        "w": 542,
+        "h": 242
     },
     {
         "id": "aaa3f14076099363",
@@ -4309,9 +4325,7 @@
             "0c881cb55314626b"
         ],
         "x": 34,
-        "y": 399,
-        "w": 432,
-        "h": 242
+        "y": 399
     },
     {
         "id": "409517979a31b76e",
@@ -4330,6 +4344,24 @@
         ],
         "x": 454,
         "y": 1279
+    },
+    {
+        "id": "f6e9d58f06055c0d",
+        "type": "group",
+        "z": "d08f14e12055286a",
+        "name": "Labels de las partes del arranque automatico",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "145c97bb57cadc68",
+            "d20415cafc1691cc",
+            "2ff3eb2b0c25f0e5"
+        ],
+        "x": 494,
+        "y": 1199,
+        "w": 992,
+        "h": 82
     },
     {
         "id": "f82d188a766cf90e",
@@ -4367,7 +4399,9 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99
+        "y": 99,
+        "w": 272,
+        "h": 82
     },
     {
         "id": "931b0370.afc1b",
@@ -4388,7 +4422,9 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189
+        "y": 189,
+        "w": 272,
+        "h": 182
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -5742,10 +5778,13 @@
             "eb3c3b3196b499d2",
             "2f283ff35941d8fd",
             "c8bc621a82792de1",
-            "e5c936c9725329c6"
+            "e5c936c9725329c6",
+            "ba2bb4e805964372"
         ],
         "x": 54,
-        "y": 349
+        "y": 349,
+        "w": 1802,
+        "h": 780
     },
     {
         "id": "7aad629d.de652c",
@@ -5807,7 +5846,9 @@
             "93ed76d69e2674b6"
         ],
         "x": 54,
-        "y": 69
+        "y": 59,
+        "w": 2732,
+        "h": 292
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -5835,7 +5876,9 @@
             "4e19cfd4.3982f"
         ],
         "x": 1864,
-        "y": 359
+        "y": 359,
+        "w": 922,
+        "h": 232
     },
     {
         "id": "70a63b74.44894c",
@@ -8342,9 +8385,10 @@
         "name": "Rampas de Aceleración",
         "tab": "df82a9eeeb3d8a7c",
         "order": 3,
-        "disp": true,
+        "disp": false,
         "width": "5",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "edf097a9.5fb028",
@@ -8352,9 +8396,10 @@
         "name": "Tiempo de Rearme",
         "tab": "df82a9eeeb3d8a7c",
         "order": 4,
-        "disp": true,
+        "disp": false,
         "width": "4",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "e72670e4.f5998",
@@ -8362,9 +8407,10 @@
         "name": "No. de Intentos",
         "tab": "df82a9eeeb3d8a7c",
         "order": 5,
-        "disp": true,
+        "disp": false,
         "width": "4",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "20076456.83052c",
@@ -8479,7 +8525,7 @@
     {
         "id": "df82a9eeeb3d8a7c",
         "type": "ui_tab",
-        "name": "Otras Funciones de Control",
+        "name": "Control Function",
         "icon": "fa-play",
         "order": 2,
         "disabled": false,
@@ -25880,13 +25926,14 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 550,
         "y": 820,
         "wires": [
             [
                 "60c61f62.f5c34",
-                "8aebe900.f1cdd8",
-                "736d904a50210d65"
+                "736d904a50210d65",
+                "ba2bb4e805964372"
             ]
         ]
     },
@@ -26481,8 +26528,8 @@
         "raw": false,
         "topic": "",
         "name": "",
-        "x": 720,
-        "y": 860,
+        "x": 850,
+        "y": 880,
         "wires": []
     },
     {
@@ -26867,18 +26914,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 1 [seg]",
+        "label": "Attempts No. 1 [seg]",
         "tooltip": "",
         "group": "78b8f22f.a47d4c",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 400,
-        "y": 150,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 420,
+        "y": 140,
         "wires": [
             [
                 "ea37e9ba.aa7508"
@@ -26891,18 +26941,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 2 [seg]",
+        "label": "Attempts No. 2 [seg]",
         "tooltip": "",
         "group": "78b8f22f.a47d4c",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 400,
-        "y": 190,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 420,
+        "y": 180,
         "wires": [
             [
                 "52a8c629.843998"
@@ -26915,18 +26968,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 4 [seg]",
+        "label": "Attempts No. 4 [seg]",
         "tooltip": "",
         "group": "78b8f22f.a47d4c",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "400",
         "topic": "",
-        "x": 400,
-        "y": 270,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 420,
+        "y": 260,
         "wires": [
             [
                 "a56dfe8e.9d817"
@@ -26939,18 +26995,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 3 [seg]",
+        "label": "Attempts No. 3 [seg]",
         "tooltip": "",
         "group": "78b8f22f.a47d4c",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 400,
-        "y": 230,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 420,
+        "y": 220,
         "wires": [
             [
                 "b0e43e11.45b77"
@@ -26963,18 +27022,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 1 [min]",
+        "label": "Attempts No. 1 [min]",
         "tooltip": "",
         "group": "edf097a9.5fb028",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 2160,
-        "y": 110,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2180,
+        "y": 100,
         "wires": [
             [
                 "97729306.5f405"
@@ -26987,18 +27049,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 2 [min]",
+        "label": "Attempts No. 2 [min]",
         "tooltip": "",
         "group": "edf097a9.5fb028",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 2160,
-        "y": 150,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2180,
+        "y": 140,
         "wires": [
             [
                 "d8da080.181c0f8"
@@ -27011,18 +27076,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 3 [min]",
+        "label": "Attempts No. 3 [min]",
         "tooltip": "",
         "group": "edf097a9.5fb028",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 2160,
-        "y": 190,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2180,
+        "y": 180,
         "wires": [
             [
                 "8be14622.b08ef8"
@@ -27035,18 +27103,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "",
-        "label": "Intento No. 4 [min]",
+        "label": "Attempts No. 4 [min]",
         "tooltip": "",
         "group": "edf097a9.5fb028",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 2160,
-        "y": 230,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2180,
+        "y": 220,
         "wires": [
             [
                 "b91731c.f01b2d"
@@ -27073,8 +27144,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 150,
+        "x": 770,
+        "y": 140,
         "wires": [
             []
         ]
@@ -27099,8 +27170,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 190,
+        "x": 770,
+        "y": 180,
         "wires": [
             []
         ]
@@ -27125,8 +27196,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 230,
+        "x": 770,
+        "y": 220,
         "wires": [
             []
         ]
@@ -27151,8 +27222,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 270,
+        "x": 770,
+        "y": 260,
         "wires": [
             []
         ]
@@ -27177,8 +27248,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2500,
-        "y": 110,
+        "x": 2530,
+        "y": 100,
         "wires": [
             []
         ]
@@ -27203,8 +27274,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2500,
-        "y": 150,
+        "x": 2530,
+        "y": 140,
         "wires": [
             []
         ]
@@ -27229,8 +27300,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2500,
-        "y": 190,
+        "x": 2530,
+        "y": 180,
         "wires": [
             []
         ]
@@ -27255,8 +27326,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2500,
-        "y": 230,
+        "x": 2530,
+        "y": 220,
         "wires": [
             []
         ]
@@ -27267,18 +27338,21 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "name": "Intentos",
-        "label": "Max. Intentos",
+        "label": "Max. Attempts",
         "tooltip": "",
         "group": "e72670e4.f5998",
-        "order": 1,
+        "order": 2,
         "width": 0,
         "height": 0,
         "passthru": true,
         "mode": "number",
         "delay": "100",
         "topic": "",
-        "x": 430,
-        "y": 110,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 460,
+        "y": 100,
         "wires": [
             [
                 "2c2a7aa0.9ef0d6"
@@ -27305,8 +27379,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 740,
-        "y": 110,
+        "x": 770,
+        "y": 100,
         "wires": [
             []
         ]
@@ -27563,8 +27637,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 240,
-        "y": 150,
+        "x": 250,
+        "y": 140,
         "wires": [
             [
                 "497412a1.c5deec"
@@ -27591,8 +27665,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 240,
-        "y": 190,
+        "x": 250,
+        "y": 180,
         "wires": [
             [
                 "5df27476.8a476c"
@@ -27787,8 +27861,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1970,
-        "y": 110,
+        "x": 1980,
+        "y": 100,
         "wires": [
             [
                 "874c5aed.184488"
@@ -27815,8 +27889,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1970,
-        "y": 150,
+        "x": 1980,
+        "y": 140,
         "wires": [
             [
                 "cb991004.c84de"
@@ -27843,8 +27917,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1970,
-        "y": 190,
+        "x": 1980,
+        "y": 180,
         "wires": [
             [
                 "9b89d9af.1de058"
@@ -27871,8 +27945,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1970,
-        "y": 230,
+        "x": 1980,
+        "y": 220,
         "wires": [
             [
                 "acf47dfa.1c447"
@@ -27886,18 +27960,20 @@
         "g": "7aad629d.de652c",
         "name": "",
         "group": "e72670e4.f5998",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": false,
-        "label": "Limpiar intentos",
+        "label": "Clean Attempts",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "",
+        "topicType": "str",
         "x": 660,
         "y": 310,
         "wires": [
@@ -27954,8 +28030,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 250,
-        "y": 110,
+        "x": 260,
+        "y": 100,
         "wires": [
             [
                 "685eb5d0.f522ec"
@@ -27968,13 +28044,14 @@
         "z": "d08f14e12055286a",
         "g": "7aad629d.de652c",
         "group": "e72670e4.f5998",
-        "order": 2,
+        "order": 3,
         "width": 0,
         "height": 0,
         "name": "Mostrar Intento actual",
         "label": "",
-        "format": "Intento actual: {{msg.payload}}",
+        "format": "Current Attempt: {{msg.payload}}",
         "layout": "col-center",
+        "className": "",
         "x": 470,
         "y": 310,
         "wires": []
@@ -28080,15 +28157,17 @@
         "width": 7,
         "height": 1,
         "passthru": false,
-        "label": "Deshabilitar Arranque Automático",
+        "label": "Disable Auto Start",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 2510,
+        "topicType": "str",
+        "x": 2460,
         "y": 480,
         "wires": [
             [
@@ -28107,16 +28186,17 @@
         "width": 7,
         "height": 1,
         "passthru": false,
-        "label": "Habilitar Arranque Automático",
+        "label": "Enable Autostart",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "",
         "topicType": "str",
-        "x": 2500,
+        "x": 2460,
         "y": 440,
         "wires": [
             [
@@ -28151,8 +28231,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2790,
-        "y": 500,
+        "x": 2620,
+        "y": 440,
         "wires": [
             [
                 "4e19cfd4.3982f"
@@ -28179,8 +28259,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2800,
-        "y": 540,
+        "x": 2690,
+        "y": 520,
         "wires": [
             []
         ]
@@ -28395,8 +28475,8 @@
         "links": [
             "14c9d205.a3aa7e"
         ],
-        "x": 2885,
-        "y": 500,
+        "x": 2705,
+        "y": 440,
         "wires": []
     },
     {
@@ -29466,6 +29546,80 @@
                 "c8bc621a82792de1"
             ]
         ]
+    },
+    {
+        "id": "ba2bb4e805964372",
+        "type": "function",
+        "z": "d08f14e12055286a",
+        "g": "dad84feb.d4773",
+        "name": "msg",
+        "func": "msg.payload = \"Attempt limit reached!\";\n// Transition\nmsg.topic = \"Automatic start blocked\";\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 860,
+        "wires": [
+            [
+                "8aebe900.f1cdd8"
+            ]
+        ]
+    },
+    {
+        "id": "145c97bb57cadc68",
+        "type": "ui_text",
+        "z": "d08f14e12055286a",
+        "g": "f6e9d58f06055c0d",
+        "group": "78b8f22f.a47d4c",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "<font size =6px>Accell Ramp",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 640,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "d20415cafc1691cc",
+        "type": "ui_text",
+        "z": "d08f14e12055286a",
+        "g": "f6e9d58f06055c0d",
+        "group": "edf097a9.5fb028",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "name": "",
+        "label": "<font size =6px>Reset Time",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1000,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2ff3eb2b0c25f0e5",
+        "type": "ui_text",
+        "z": "d08f14e12055286a",
+        "g": "f6e9d58f06055c0d",
+        "group": "e72670e4.f5998",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "name": "",
+        "label": "<font size =6px># Attempts",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1340,
+        "y": 1240,
+        "wires": []
     },
     {
         "id": "4c77f9bc.81feb8",
@@ -73017,7 +73171,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS®\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73044,7 +73198,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Otras_Funciones_de_Control\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73071,7 +73225,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Otras_Funciones_de_Control\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Control_Function\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73098,7 +73252,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Otras_Funciones_de_Control\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Configuración_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Control_Function\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73819,7 +73973,7 @@
         "order": 1,
         "width": 16,
         "height": 1,
-        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ArranqueAuto-tab\" data-toggle=\"tab\"\n                href=\"#nav-ArranqueAuto\" role=\"tab\" aria-controls=\"nav-ArranqueAuto\" aria-selected=\"false\"\n                ng-click=\"send({payload:ArranqueAuto()})\">ArranqueAutomático</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:rotting()})\">Rotador tub</a>\n            <a class=\"nav-item nav-link\" id=\"nav-PumpOff-tab\" data-toggle=\"tab\" href=\"#nav-PumpOff\"\n                role=\"tab\" aria-controls=\"nav-PumpOff\" aria-selected=\"false\"\n                ng-click=\"send({payload:PumpOff()})\">PocTimered</a>\n            <a class=\"nav-item nav-link\" id=\"nav-VelocidadDoble-tab\" data-toggle=\"tab\" href=\"#nav-VelocidadDoble\"\n                role=\"tab\" aria-controls=\"nav-VelocidadDoble\" aria-selected=\"false\"\n                ng-click=\"send({payload:VelocidadDoble()})\">DobleVelocidad</a>\n            <a class=\"nav-item nav-link\" id=\"nav-surfaceControl-tab\" data-toggle=\"tab\"\n                href=\"#nav-surfaceControl\" role=\"tab\" aria-controls=\"nav-surfaceControl\" aria-selected=\"false\"\n                ng-click=\"send({payload:surfaceControl()})\">PocSuperficie</a>\n            <a class=\"nav-item nav-link\" id=\"nav-downholeControl-tab\" data-toggle=\"tab\" href=\"#nav-downholeControl\"\n                role=\"tab\" aria-controls=\"nav-downholeControl\" aria-selected=\"false\"\n                ng-click=\"send({payload:downholeControl()})\">PocFondo</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.ArranqueAuto = function() { return \"ArranqueAuto\"; };\n        this.scope.PumpOff = function() { return \"PumpOff\"; };\n        this.scope.surfaceControl = function() { return \"surfaceControl\"; };\n        this.scope.VelocidadDoble = function() { return \"VelocidadDoble\"; };\n        this.scope.downholeControl = function() { return \"downholeControl\"; };\n        this.scope.rotting = function() { return \"rotting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "format": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-ArranqueAuto-tab\" data-toggle=\"tab\"\n                href=\"#nav-ArranqueAuto\" role=\"tab\" aria-controls=\"nav-ArranqueAuto\" aria-selected=\"false\"\n                ng-click=\"send({payload:ArranqueAuto()})\">Automatic Start</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:rotting()})\">Pipe Rotator</a>\n            <a class=\"nav-item nav-link\" id=\"nav-PumpOff-tab\" data-toggle=\"tab\" href=\"#nav-PumpOff\"\n                role=\"tab\" aria-controls=\"nav-PumpOff\" aria-selected=\"false\"\n                ng-click=\"send({payload:PumpOff()})\">Timered Poc</a>\n            <a class=\"nav-item nav-link\" id=\"nav-VelocidadDoble-tab\" data-toggle=\"tab\" href=\"#nav-VelocidadDoble\"\n                role=\"tab\" aria-controls=\"nav-VelocidadDoble\" aria-selected=\"false\"\n                ng-click=\"send({payload:VelocidadDoble()})\">Double Speed</a>\n            <a class=\"nav-item nav-link\" id=\"nav-surfaceControl-tab\" data-toggle=\"tab\"\n                href=\"#nav-surfaceControl\" role=\"tab\" aria-controls=\"nav-surfaceControl\" aria-selected=\"false\"\n                ng-click=\"send({payload:surfaceControl()})\">Surface Speed</a>\n            <a class=\"nav-item nav-link\" id=\"nav-downholeControl-tab\" data-toggle=\"tab\" href=\"#nav-downholeControl\"\n                role=\"tab\" aria-controls=\"nav-downholeControl\" aria-selected=\"false\"\n                ng-click=\"send({payload:downholeControl()})\">Downhole Poc</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.ArranqueAuto = function() { return \"ArranqueAuto\"; };\n        this.scope.PumpOff = function() { return \"PumpOff\"; };\n        this.scope.surfaceControl = function() { return \"surfaceControl\"; };\n        this.scope.VelocidadDoble = function() { return \"VelocidadDoble\"; };\n        this.scope.downholeControl = function() { return \"downholeControl\"; };\n        this.scope.rotting = function() { return \"rotting\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
@@ -73857,7 +74011,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Configuración\",\t                \"Otras_Funciones_de_Control_Control\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_TendenciaPID\",\t                \"Otras_Funciones_de_Control_Límites_de_Operación\",\t                \"Otras_Funciones_de_Control_Reglas_de_Activación\",\t                \"Otras_Funciones_de_Control_Habilitar/Deshabilitar\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_downholeControl\",\t                \"Otras_Funciones_de_Control_Navbar_PID\",\t                \"Otras_Funciones_de_Control_Rotador\",\t                \"Otras_Funciones_de_Control_Tendencia\"],\t       \"show\":[ \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\"\t                ]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Control_Function_Configuración\",\t                \"Control_Function_Control\",\t                \"Control_Function_Sintonización\",\t                \"Control_Function_TendenciaPID\",\t                \"Control_Function_Límites_de_Operación\",\t                \"Control_Function_Reglas_de_Activación\",\t                \"Control_Function_Habilitar/Deshabilitar\",\t                \"Control_Function_VelocidadDoble\",\t                \"Control_Function_PumpOff\",\t                \"Control_Function_downholeControl\",\t                \"Control_Function_Navbar_PID\",\t                \"Control_Function_Rotador\",\t                \"Control_Function_Tendencia\"],\t       \"show\":[ \"Control_Function_Nav_Bar\",\t                \"Control_Function_Habilitar_AR\",\t                \"Control_Function_Habilitar_AR2\",\t                \"Control_Function_Rampas_de_Aceleración\",\t                \"Control_Function_Tiempo_de_Rearme\",\t                \"Control_Function_No._de_Intentos\"\t                ]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73951,7 +74105,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Otras_Funciones_de_Control_Habilitar_AR\",\t                \"Otras_Funciones_de_Control_Habilitar_AR2\",\t                \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t                \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t                \"Otras_Funciones_de_Control_No._de_Intentos\",\t                \"Otras_Funciones_de_Control_Sintonización\",\t                \"Otras_Funciones_de_Control_surfaceControl\",\t                \"Otras_Funciones_de_Control_VelocidadDoble\",\t                \"Otras_Funciones_de_Control_downholeControl\",\t                \"Otras_Funciones_de_Control_Rotador\"\t                ],\t       \"show\":[ \"Otras_Funciones_de_Control_PumpOff\",\t                \"Otras_Funciones_de_Control_Nav_Bar\",\t                \"Otras_Funciones_de_Control_Status_Bar\",\t                \"Otras_Funciones_de_Control_Tendencia\"]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Control_Function_Habilitar_AR\",\t                \"Control_Function_Habilitar_AR2\",\t                \"Control_Function_Rampas_de_Aceleración\",\t                \"Control_Function_Tiempo_de_Rearme\",\t                \"Control_Function_No._de_Intentos\",\t                \"Control_Function_Sintonización\",\t                \"Control_Function_surfaceControl\",\t                \"Control_Function_VelocidadDoble\",\t                \"Control_Function_downholeControl\",\t                \"Control_Function_Rotador\"\t                ],\t       \"show\":[ \"Control_Function_PumpOff\",\t                \"Control_Function_Nav_Bar\",\t                \"Control_Function_Status_Bar\",\t                \"Control_Function_Tendencia\"]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73979,7 +74133,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_Sintonización\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_downholeControl\",\t           \"Otras_Funciones_de_Control_Rotador\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Control_Function_Habilitar_AR\",\t           \"Control_Function_Habilitar_AR2\",\t           \"Control_Function_Rampas_de_Aceleración\",\t           \"Control_Function_Tiempo_de_Rearme\",\t           \"Control_Function_No._de_Intentos\",\t           \"Control_Function_Sintonización\",\t           \"Control_Function_PumpOff\",\t           \"Control_Function_VelocidadDoble\",\t           \"Control_Function_downholeControl\",\t           \"Control_Function_Rotador\"\t       ],\t       \"show\":[\t           \"Control_Function_surfaceControl\",\t           \"Control_Function_Nav_Bar\",\t           \"Control_Function_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -74007,7 +74161,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_surfaceControl\",\t           \"Otras_Funciones_de_Control_downholeControl\",\t           \"Otras_Funciones_de_Control_Rotador\"\t\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Control_Function_Habilitar_AR\",\t           \"Control_Function_Habilitar_AR2\",\t           \"Control_Function_Rampas_de_Aceleración\",\t           \"Control_Function_Tiempo_de_Rearme\",\t           \"Control_Function_No._de_Intentos\",\t           \"Control_Function_PumpOff\",\t           \"Control_Function_surfaceControl\",\t           \"Control_Function_downholeControl\",\t           \"Control_Function_Rotador\"\t\t       ],\t       \"show\":[\t           \"Control_Function_VelocidadDoble\",\t           \"Control_Function_Nav_Bar\",\t           \"Control_Function_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -74035,7 +74189,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_surfaceControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_downholeControl\",\t           \"Otras_Funciones_de_Control_Nav_Bar\",\t           \"Otras_Funciones_de_Control_Tendencia\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Control_Function_Habilitar_AR\",\t           \"Control_Function_Habilitar_AR2\",\t           \"Control_Function_Rampas_de_Aceleración\",\t           \"Control_Function_Tiempo_de_Rearme\",\t           \"Control_Function_No._de_Intentos\",\t           \"Control_Function_PumpOff\",\t           \"Control_Function_VelocidadDoble\",\t           \"Control_Function_surfaceControl\"\t       ],\t       \"show\":[\t           \"Control_Function_downholeControl\",\t           \"Control_Function_Nav_Bar\",\t           \"Control_Function_Tendencia\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -75775,7 +75929,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Otras_Funciones_de_Control_Habilitar_AR\",\t           \"Otras_Funciones_de_Control_Habilitar_AR2\",\t           \"Otras_Funciones_de_Control_Rampas_de_Aceleración\",\t           \"Otras_Funciones_de_Control_Tiempo_de_Rearme\",\t           \"Otras_Funciones_de_Control_No._de_Intentos\",\t           \"Otras_Funciones_de_Control_PumpOff\",\t           \"Otras_Funciones_de_Control_VelocidadDoble\",\t           \"Otras_Funciones_de_Control_Tendencia\",\t           \"Otras_Funciones_de_Control_surfaceControl\"\t       ],\t       \"show\":[\t           \"Otras_Funciones_de_Control_Rotador\",\t           \"Otras_Funciones_de_Control_Nav_Bar\"\t       ]\t            }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[\t           \"Control_Function_Habilitar_AR\",\t           \"Control_Function_Habilitar_AR2\",\t           \"Control_Function_Rampas_de_Aceleración\",\t           \"Control_Function_Tiempo_de_Rearme\",\t           \"Control_Function_No._de_Intentos\",\t           \"Control_Function_PumpOff\",\t           \"Control_Function_VelocidadDoble\",\t           \"Control_Function_Tendencia\",\t           \"Control_Function_surfaceControl\"\t       ],\t       \"show\":[\t           \"Control_Function_Rotador\",\t           \"Control_Function_Nav_Bar\"\t       ]\t            }\t}",
                 "tot": "jsonata"
             },
             {
@@ -105035,7 +105189,7 @@
         "type": "function",
         "z": "5ba456fee41e0d30",
         "name": "",
-        "func": "var rottingmode = global.get(\"Input.Operation.rotting\")|| \"disable\";\nvar estado = global.get(\"Control_functions.ActiveCF.rottingpipes\",\"memoryOnly\")||false;\n\nif (rottingmode == \"disable\") msg.payload = \"Deshabilitado\";\nelse if (estado) msg.payload = \"Activo\";\nelse msg.payload = \"Detenido\";\n\nreturn msg;",
+        "func": "var rottingmode = global.get(\"Input.Operation.rotting\")|| \"disable\";\nvar estado = global.get(\"Control_functions.ActiveCF.rottingpipes\",\"memoryOnly\")||false;\n\nif (rottingmode == \"disable\") msg.payload = \"Disabled\";\nelse if (estado) msg.payload = \"Active\";\nelse msg.payload = \"Stopped\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -105063,17 +105217,17 @@
         "colorForValue": [
             {
                 "color": "#ff0000",
-                "value": "Detenido",
+                "value": "Stopped",
                 "valueType": "str"
             },
             {
                 "color": "#008000",
-                "value": "Activo",
+                "value": "Active",
                 "valueType": "str"
             },
             {
                 "color": "#000000",
-                "value": "Deshabilitado",
+                "value": "Disabled",
                 "valueType": "str"
             }
         ],
@@ -105093,7 +105247,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Otras Funciones de Control",
+                "v": "Control Function",
                 "vt": "str"
             }
         ],
@@ -105159,7 +105313,7 @@
         "height": 1,
         "name": "Estado actual",
         "label": "",
-        "format": "Estado actual",
+        "format": "Actual State",
         "layout": "col-center",
         "className": "",
         "x": 1050,
@@ -105176,7 +105330,7 @@
         "height": 1,
         "name": "Ajustes de funcionamiento",
         "label": "",
-        "format": "Ajustes de funcionamiento",
+        "format": "Operation Settings",
         "layout": "col-center",
         "className": "",
         "x": 1310,
@@ -105188,7 +105342,7 @@
         "type": "ui_dropdown",
         "z": "5ba456fee41e0d30",
         "name": "",
-        "label": "modo de op.",
+        "label": "Mod Operation.",
         "tooltip": "",
         "place": "Seleccionar",
         "group": "cb687524409f9560",
@@ -105199,22 +105353,22 @@
         "multiple": false,
         "options": [
             {
-                "label": "temporizador",
+                "label": "timmer",
                 "value": "timmer",
                 "type": "str"
             },
             {
-                "label": "horario programado",
+                "label": "schedule",
                 "value": "schedule",
                 "type": "str"
             },
             {
-                "label": "VSD activo",
+                "label": "VSDActive",
                 "value": "VSDActive",
                 "type": "str"
             },
             {
-                "label": "desactivar",
+                "label": "disable",
                 "value": "disable",
                 "type": "str"
             }
@@ -105223,7 +105377,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1190,
+        "x": 1200,
         "y": 450,
         "wires": [
             [
@@ -105238,7 +105392,7 @@
         "type": "ui_table",
         "z": "5ba456fee41e0d30",
         "group": "cb687524409f9560",
-        "name": "Rutinas horario programado",
+        "name": "Scheduled Time Routines",
         "order": 16,
         "width": 10,
         "height": 4,
@@ -105276,7 +105430,7 @@
         ],
         "outputs": 1,
         "cts": true,
-        "x": 1960,
+        "x": 1950,
         "y": 540,
         "wires": [
             [
@@ -105538,7 +105692,7 @@
         "type": "ui_text_input",
         "z": "5ba456fee41e0d30",
         "name": "inicio",
-        "label": "hora encendido",
+        "label": "Power on Time",
         "tooltip": "",
         "group": "cb687524409f9560",
         "order": 7,
@@ -105565,7 +105719,7 @@
         "type": "ui_text_input",
         "z": "5ba456fee41e0d30",
         "name": "fin",
-        "label": "hora apagado",
+        "label": "Shutdown Time",
         "tooltip": "",
         "group": "cb687524409f9560",
         "order": 9,
@@ -105597,7 +105751,7 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "nuevo",
+        "label": "New",
         "tooltip": "",
         "color": "",
         "bgcolor": "gray",
@@ -105835,7 +105989,7 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "guardar",
+        "label": "Save",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
@@ -105845,7 +105999,7 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1100,
+        "x": 1090,
         "y": 1100,
         "wires": [
             [
@@ -105902,7 +106056,7 @@
         "type": "function",
         "z": "5ba456fee41e0d30",
         "name": "",
-        "func": "var pos = flow.get(\"rotadorSchedule.pos\",\"memoryOnly\")||0;\nmsg.payload = pos ==0 ? \"Añadir nueva rutina\" : (\"Modificando rutina \" + pos);\nreturn msg;",
+        "func": "var pos = flow.get(\"rotadorSchedule.pos\",\"memoryOnly\")||0;\n// msg.payload = pos ==0 ? \"Añadir nueva rutina\" : (\"Modificando rutina \" + pos);\nmsg.payload = pos == 0 ? \"Add New Routine\" : (\"Modifying routine \" + pos);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -105956,12 +106110,12 @@
         "order": 15,
         "width": 10,
         "height": 1,
-        "name": "Rutinas de horario programado",
+        "name": "Scheduled Time Routines",
         "label": "",
-        "format": "Rutinas de horario programado",
+        "format": "Scheduled Time Routines",
         "layout": "col-center",
         "className": "",
-        "x": 1780,
+        "x": 1760,
         "y": 490,
         "wires": []
     },
@@ -106022,7 +106176,7 @@
         "type": "ui_dropdown",
         "z": "5ba456fee41e0d30",
         "name": "",
-        "label": "Temporizador",
+        "label": "Timer",
         "tooltip": "",
         "place": "",
         "group": "cb687524409f9560",
@@ -106038,47 +106192,47 @@
                 "type": "str"
             },
             {
-                "label": "30 minutos",
+                "label": "30 min",
                 "value": 1,
                 "type": "num"
             },
             {
-                "label": "1 hora",
+                "label": "1 hour",
                 "value": 2,
                 "type": "num"
             },
             {
-                "label": "1 hora, 30 minutos",
+                "label": "1 hour, 30 min",
                 "value": 3,
                 "type": "num"
             },
             {
-                "label": "2 horas",
+                "label": "2 hour",
                 "value": 4,
                 "type": "num"
             },
             {
-                "label": "2 horas, 30 minutos",
+                "label": "2 hour, 30 min",
                 "value": 5,
                 "type": "num"
             },
             {
-                "label": "3 horas",
+                "label": "3 hour",
                 "value": 6,
                 "type": "num"
             },
             {
-                "label": "4 horas",
+                "label": "4 hour",
                 "value": 8,
                 "type": "num"
             },
             {
-                "label": "5 horas",
+                "label": "5 hour",
                 "value": 10,
                 "type": "num"
             },
             {
-                "label": "6 horas",
+                "label": "6 hour",
                 "value": 12,
                 "type": "num"
             }
@@ -106087,7 +106241,7 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 1350,
+        "x": 1320,
         "y": 660,
         "wires": [
             [
@@ -106100,13 +106254,13 @@
         "id": "cece46950990c294",
         "type": "ui_button",
         "z": "5ba456fee41e0d30",
-        "name": "delete",
+        "name": "Delete",
         "group": "cb687524409f9560",
         "order": 12,
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "",
+        "label": "Delete",
         "tooltip": "",
         "color": "",
         "bgcolor": "gray",
