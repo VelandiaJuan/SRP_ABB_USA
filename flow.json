@@ -3038,7 +3038,9 @@
             "7a1d4c156061f21e"
         ],
         "x": 124,
-        "y": 459
+        "y": 459,
+        "w": 1692,
+        "h": 262
     },
     {
         "id": "0935e9bf7ed9ba52",
@@ -3069,7 +3071,9 @@
             "c3c44f1ef4268496"
         ],
         "x": 134,
-        "y": 119
+        "y": 119,
+        "w": 1072,
+        "h": 322
     },
     {
         "id": "805fec7111f91b80",
@@ -3131,7 +3135,9 @@
             "30bedd91c9e9a8e9"
         ],
         "x": 1934,
-        "y": 99
+        "y": 99,
+        "w": 1662,
+        "h": 562
     },
     {
         "id": "908c9775529ae148",
@@ -3197,7 +3203,9 @@
             "94e57bc8358ca9ea"
         ],
         "x": 114,
-        "y": 739
+        "y": 739,
+        "w": 1382,
+        "h": 522
     },
     {
         "id": "31895b3f7962d5a7",
@@ -3235,7 +3243,9 @@
             "ee91a063b1e0a258"
         ],
         "x": 1354,
-        "y": 119
+        "y": 119,
+        "w": 1272,
+        "h": 282
     },
     {
         "id": "a368bb3bc2f75d5e",
@@ -3278,7 +3288,9 @@
             "34cc5388db4c5496"
         ],
         "x": 114,
-        "y": 219
+        "y": 219,
+        "w": 1182,
+        "h": 382
     },
     {
         "id": "6ec29e1e904e3bf7",
@@ -3317,7 +3329,9 @@
             "4e4b518ea3a0f9aa"
         ],
         "x": 114,
-        "y": 659
+        "y": 659,
+        "w": 802,
+        "h": 462
     },
     {
         "id": "56a5e3c9eb70369b",
@@ -3338,7 +3352,9 @@
             "7863ba86dd75e201"
         ],
         "x": 1354,
-        "y": 899
+        "y": 899,
+        "w": 912,
+        "h": 122
     },
     {
         "id": "d4858c843dfe7c0f",
@@ -3370,7 +3386,9 @@
             "bd55c3ff86ac359d"
         ],
         "x": 1354,
-        "y": 579
+        "y": 579,
+        "w": 1042,
+        "h": 302
     },
     {
         "id": "357c29994d5a0df9",
@@ -3386,7 +3404,9 @@
             "7f785a48fc21603e"
         ],
         "x": 1354,
-        "y": 479
+        "y": 479,
+        "w": 512,
+        "h": 82
     },
     {
         "id": "a33fe35eb9d7de28",
@@ -91486,7 +91506,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "Tiempo (Horas)",
+        "label": "Time (Hours)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 14,
@@ -91496,7 +91516,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2420,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2410,
         "y": 380,
         "wires": [
             [
@@ -91514,10 +91537,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Tiempo:",
+        "label": "Time : ",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 840,
+        "className": "",
+        "x": 830,
         "y": 300,
         "wires": []
     },
@@ -91527,7 +91551,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "Punto Y (%)",
+        "label": "Point Y (%)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 9,
@@ -91537,6 +91561,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 2410,
         "y": 300,
         "wires": [
@@ -91552,7 +91579,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "Punto X (%)",
+        "label": "Point X (%)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 8,
@@ -91652,10 +91679,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Estado:",
+        "label": "State : ",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 620,
+        "className": "",
+        "x": 610,
         "y": 280,
         "wires": []
     },
@@ -91778,7 +91806,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "Tiempo (Minutos)",
+        "label": "Time (Minutes)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 15,
@@ -91788,7 +91816,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2430,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2420,
         "y": 460,
         "wires": [
             [
@@ -91802,7 +91833,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "Tiempo (Segundos)",
+        "label": "Time (Seconds)",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 16,
@@ -91812,7 +91843,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 2430,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2410,
         "y": 540,
         "wires": [
             [
@@ -91826,7 +91860,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "",
-        "label": "No. de Intentos",
+        "label": "No Attempts",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 10,
@@ -91836,8 +91870,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
-        "x": 2410,
+        "x": 2400,
         "y": 620,
         "wires": [
             [
@@ -92172,15 +92208,17 @@
         "width": 4,
         "height": 1,
         "passthru": false,
-        "label": "Actualizar Datos",
+        "label": "Update Data",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "true",
         "payloadType": "bool",
         "topic": "topic",
-        "x": 930,
+        "topicType": "str",
+        "x": 920,
         "y": 620,
         "wires": [
             [
@@ -93223,7 +93261,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "908c9775529ae148",
         "name": "",
-        "label": "Activar/Desactivar Surface Control",
+        "label": "Turn Surface Control On/Off",
         "tooltip": "",
         "group": "ec6a280f37f023ec",
         "order": 2,
@@ -93232,6 +93270,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "topic",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -93241,7 +93280,9 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 420,
+        "animate": true,
+        "className": "",
+        "x": 400,
         "y": 1100,
         "wires": [
             [
@@ -93763,10 +93804,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Punto de Operación:",
+        "label": "Operation Point",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 780,
+        "className": "",
+        "x": 760,
         "y": 940,
         "wires": []
     },
@@ -93780,9 +93822,10 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Intentos:",
+        "label": "Attempts",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 740,
         "y": 980,
         "wires": []
@@ -94422,7 +94465,7 @@
         "z": "f62fcef222e9a4a3",
         "g": "805fec7111f91b80",
         "name": "Alerta % no valido",
-        "func": "if(msg.payload < 0 || msg.payload > 100){\n    msg.payload = \"Ingrese un valor % > a 0 y <= 100\";\n}\nreturn msg;",
+        "func": "if(msg.payload < 0 || msg.payload > 100){\n    msg.payload = \"Enter a % value > a 0 and <= 100\";\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -94970,7 +95013,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "31895b3f7962d5a7",
         "name": "",
-        "label": "Habilitar",
+        "label": "Enabled",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 2,
@@ -94979,6 +95022,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "topic",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -94988,6 +95032,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
+        "animate": true,
+        "className": "",
         "x": 1580,
         "y": 300,
         "wires": [
@@ -95030,7 +95076,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "Horas",
+        "label": "Hours",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 16,
@@ -95057,7 +95103,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "Minutos",
+        "label": "Minutes",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 17,
@@ -95067,6 +95113,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
         "x": 420,
         "y": 740,
@@ -95082,7 +95130,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "",
-        "label": "Segundos",
+        "label": "Seconds",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 18,
@@ -95095,7 +95143,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "str",
-        "x": 420,
+        "x": 410,
         "y": 780,
         "wires": [
             [
@@ -95218,10 +95266,11 @@
         "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "Actualizar",
+        "label": "Update",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
@@ -95380,7 +95429,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "LL",
-        "label": "Disparo LL",
+        "label": "LL Shot",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 10,
@@ -95434,7 +95483,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "L",
-        "label": "Alarma L",
+        "label": "L Alarm",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 9,
@@ -95861,7 +95910,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "d4858c843dfe7c0f",
         "name": "",
-        "label": "Simulación",
+        "label": "Simulation",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 3,
@@ -95870,6 +95919,7 @@
         "passthru": false,
         "decouple": "true",
         "topic": "topic",
+        "topicType": "str",
         "style": "",
         "onvalue": "true",
         "onvalueType": "bool",
@@ -95879,6 +95929,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
+        "animate": true,
+        "className": "",
         "x": 1590,
         "y": 740,
         "wires": [
@@ -95893,7 +95945,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "357c29994d5a0df9",
         "name": "",
-        "label": "% Simulación",
+        "label": "% Simulation",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 5,
@@ -95902,10 +95954,12 @@
         "passthru": true,
         "outs": "all",
         "topic": "topic",
+        "topicType": "str",
         "min": 0,
         "max": "100",
         "step": 1,
-        "x": 1460,
+        "className": "",
+        "x": 1450,
         "y": 520,
         "wires": [
             [
@@ -95960,7 +96014,7 @@
         "z": "a245c1e1476b1e2d",
         "g": "6ec29e1e904e3bf7",
         "name": "intentosHMI",
-        "label": "No. de Intentos",
+        "label": "No Attempts",
         "tooltip": "",
         "group": "5e71a9d14c810b9f",
         "order": 8,
@@ -96047,7 +96101,7 @@
         "width": 3,
         "height": 2,
         "gtype": "gage",
-        "title": "Llenado",
+        "title": "Fillage",
         "label": "%",
         "format": "{{value}}",
         "min": 0,
@@ -96059,7 +96113,8 @@
         ],
         "seg1": "",
         "seg2": "",
-        "x": 1800,
+        "className": "",
+        "x": 1790,
         "y": 520,
         "wires": []
     },
@@ -96187,9 +96242,10 @@
         "width": 2,
         "height": 1,
         "name": "",
-        "label": "No. de Intentos:",
+        "label": "No. de Attemps",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
+        "className": "",
         "x": 760,
         "y": 280,
         "wires": []
@@ -96204,10 +96260,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Tiempo:",
+        "label": "Time:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 870,
+        "className": "",
+        "x": 860,
         "y": 540,
         "wires": []
     },
@@ -96221,10 +96278,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Estado:",
+        "label": "State:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 570,
+        "className": "",
+        "x": 560,
         "y": 460,
         "wires": []
     },
