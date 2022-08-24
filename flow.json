@@ -3939,7 +3939,9 @@
             "2421053256f107da"
         ],
         "x": 154,
-        "y": 279
+        "y": 279,
+        "w": 742,
+        "h": 502
     },
     {
         "id": "7c4c986707b478cc",
@@ -8650,22 +8652,24 @@
     {
         "id": "e3ea45406021c442",
         "type": "ui_group",
-        "name": "Selector variables CILA2S",
+        "name": "CILA2S variable selector",
         "tab": "3dfc6e9db716aab8",
         "order": 1,
         "disp": true,
         "width": "10",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "514fcb790b3b8279",
         "type": "ui_group",
-        "name": "Selector de tiempo",
+        "name": "Time Picker",
         "tab": "3dfc6e9db716aab8",
         "order": 2,
         "disp": true,
         "width": "5",
-        "collapse": false
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "73e7292f7ff015d8",
@@ -21975,7 +21979,7 @@
         "name": "",
         "label": "",
         "tooltip": "",
-        "place": "Seleccionar una o mas variables",
+        "place": "Select one or more variables",
         "group": "e3ea45406021c442",
         "order": 0,
         "width": "5",
@@ -22078,7 +22082,7 @@
         "name": "",
         "label": "",
         "tooltip": "",
-        "place": "Seleccionar tiempo",
+        "place": "select time",
         "group": "514fcb790b3b8279",
         "order": 0,
         "width": 0,
@@ -22087,23 +22091,25 @@
         "multiple": false,
         "options": [
             {
-                "label": "Tiempo real",
+                "label": "realtime",
                 "value": "realtime",
                 "type": "str"
             },
             {
-                "label": "Última hora",
+                "label": "last hour",
                 "value": "lasthour",
                 "type": "str"
             },
             {
-                "label": "24 horas anteriores",
+                "label": "last day",
                 "value": "lastday",
                 "type": "str"
             }
         ],
         "payload": "",
         "topic": "topic",
+        "topicType": "str",
+        "className": "",
         "x": 900,
         "y": 40,
         "wires": [
@@ -22450,27 +22456,27 @@
         "multiple": false,
         "options": [
             {
-                "label": "Desplazamiento",
+                "label": "Displacement",
                 "value": "Desplazamiento",
                 "type": "str"
             },
             {
-                "label": "Carga",
+                "label": "Load",
                 "value": "Carga",
                 "type": "str"
             },
             {
-                "label": "Potencia",
+                "label": "Power",
                 "value": "Potencia",
                 "type": "str"
             },
             {
-                "label": "Velocidad",
+                "label": "Speed",
                 "value": "Velocidad",
                 "type": "str"
             },
             {
-                "label": "CT No Disponible",
+                "label": "CT Sensor",
                 "value": "CT",
                 "type": "str"
             }
