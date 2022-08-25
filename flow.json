@@ -2394,7 +2394,9 @@
             "dfdcd13d63ebc108"
         ],
         "x": 1214,
-        "y": 799
+        "y": 799,
+        "w": 532,
+        "h": 242
     },
     {
         "id": "93b8284ca58599b2",
@@ -2421,7 +2423,9 @@
             "c48671c015ff393d"
         ],
         "x": 1214,
-        "y": 499
+        "y": 499,
+        "w": 792,
+        "h": 282
     },
     {
         "id": "cae36d29c5f8f5f1",
@@ -2449,7 +2453,9 @@
             "7272dab73cde0eab"
         ],
         "x": 334,
-        "y": 79
+        "y": 79,
+        "w": 772,
+        "h": 382
     },
     {
         "id": "9bddfef0b0857da0",
@@ -2482,7 +2488,9 @@
             "d9756d5c2fdbe14c"
         ],
         "x": 1204,
-        "y": 79
+        "y": 79,
+        "w": 872,
+        "h": 402
     },
     {
         "id": "67a422f5076a03ee",
@@ -3495,7 +3503,9 @@
             "b6c7277489601eba"
         ],
         "x": 324,
-        "y": 479
+        "y": 479,
+        "w": 862,
+        "h": 422
     },
     {
         "id": "53e48d6874bd7692",
@@ -83616,7 +83626,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "name": "",
-        "label": "Diametro del Casing [in]",
+        "label": "Casing Diameter [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 6,
@@ -83626,7 +83636,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 770,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 760,
         "y": 180,
         "wires": [
             [
@@ -83640,7 +83653,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "name": "",
-        "label": "Diametro del tubing[in]",
+        "label": "Tubing Diameter [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 10,
@@ -83650,6 +83663,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 760,
         "y": 240,
         "wires": [
@@ -83664,7 +83680,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "name": "",
-        "label": "Profundidad varilla[ft]",
+        "label": "Depth Rod[ft]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 14,
@@ -83674,7 +83690,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 760,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 730,
         "y": 300,
         "wires": [
             [
@@ -83688,7 +83707,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "name": "",
-        "label": "Presión del Casing [psi]",
+        "label": "Casing Pressure [psi]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 18,
@@ -83698,7 +83717,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 770,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 760,
         "y": 360,
         "wires": [
             [
@@ -83712,7 +83734,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "cae36d29c5f8f5f1",
         "name": "",
-        "label": "Presión de Tubing [psi]",
+        "label": "Tubing Pressure [psi]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 22,
@@ -83722,7 +83744,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 770,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 760,
         "y": 420,
         "wires": [
             [
@@ -83741,8 +83766,9 @@
         "height": 1,
         "name": "Datos de Instalación",
         "label": "",
-        "format": "<font size=4px>Datos de Instalación ",
+        "format": "<font size=4px>Instalation Data",
         "layout": "row-left",
+        "className": "",
         "x": 760,
         "y": 120,
         "wires": []
@@ -83753,7 +83779,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Producción [bpd]",
+        "label": "Production [bpd]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 7,
@@ -83763,7 +83789,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1570,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1560,
         "y": 160,
         "wires": [
             [
@@ -83777,7 +83806,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Diametro de bomba [in]",
+        "label": "Pump Diameter[in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 11,
@@ -83787,7 +83816,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1580,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1560,
         "y": 200,
         "wires": [
             [
@@ -83801,7 +83833,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Longitud de émbolo [in]",
+        "label": "Plunger Length[in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 15,
@@ -83811,7 +83843,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1580,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1560,
         "y": 240,
         "wires": [
             [
@@ -83849,7 +83884,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Gravedad específica [gr/cm3]",
+        "label": "Specific Gravity [gr/cm3]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 19,
@@ -83859,6 +83894,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 1590,
         "y": 280,
         "wires": [
@@ -83873,7 +83911,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Longitud de Stroke [in]",
+        "label": "Stroke Length [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 26,
@@ -83883,7 +83921,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1580,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1570,
         "y": 360,
         "wires": [
             [
@@ -83897,7 +83938,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Constante de Amortiguamiento [1/s]",
+        "label": "Damping Constant[1/s]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 28,
@@ -83907,7 +83948,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1600,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1560,
         "y": 400,
         "wires": [
             [
@@ -83921,7 +83965,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "9bddfef0b0857da0",
         "name": "",
-        "label": "Nivel de fluido dinámico [ft]",
+        "label": "Dynamic Fluid Level [ft]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 23,
@@ -83931,7 +83975,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1590,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1580,
         "y": 320,
         "wires": [
             [
@@ -83950,8 +83997,9 @@
         "height": 1,
         "name": "Datos de Producción",
         "label": "",
-        "format": "<font size=4px>Datos de Producción",
+        "format": "<font size=4px>Production Data",
         "layout": "row-left",
+        "className": "",
         "x": 1590,
         "y": 120,
         "wires": []
@@ -83967,8 +84015,9 @@
         "height": 1,
         "name": "Datos de la Unidad de Bombeo",
         "label": "",
-        "format": "<font size=4px>Datos unidad de Bombeo",
+        "format": "<font size=4px>Pumping Unit Data",
         "layout": "row-left",
+        "className": "",
         "x": 1670,
         "y": 540,
         "wires": []
@@ -83979,7 +84028,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "93b8284ca58599b2",
         "name": "",
-        "label": "Máxima inclinación",
+        "label": "Maximun Inclination",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 8,
@@ -83989,7 +84038,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1650,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1660,
         "y": 580,
         "wires": [
             [
@@ -84003,7 +84055,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "93b8284ca58599b2",
         "name": "",
-        "label": "Desplazamiento 0°",
+        "label": "Displacement 0°",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 12,
@@ -84013,6 +84065,9 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
         "x": 1650,
         "y": 620,
         "wires": [
@@ -84027,7 +84082,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "93b8284ca58599b2",
         "name": "",
-        "label": "Min Inclinación",
+        "label": "Minimum Inclination",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 16,
@@ -84037,7 +84092,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1640,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1660,
         "y": 660,
         "wires": [
             [
@@ -84075,7 +84133,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "93b8284ca58599b2",
         "name": "",
-        "label": "Balance de estructura[lbs]",
+        "label": "Structure Balance[lbs]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 24,
@@ -84085,7 +84143,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
-        "x": 1670,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 1650,
         "y": 740,
         "wires": [
             [
@@ -84098,21 +84159,23 @@
         "type": "ui_button",
         "z": "6278f7e7f20ddc7d",
         "g": "a29dc858ae62d58f",
-        "name": "Guardar",
+        "name": "Save",
         "group": "bdb839607367176a",
         "order": 33,
         "width": 5,
         "height": 1,
         "passthru": false,
-        "label": "Guardar",
+        "label": "Save",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": " Confirm configuration data?",
         "payloadType": "str",
         "topic": "topic",
-        "x": 1300,
+        "topicType": "str",
+        "x": 1290,
         "y": 840,
         "wires": [
             [
@@ -84133,6 +84196,7 @@
         "ok": "OK",
         "cancel": "Cancel",
         "raw": false,
+        "className": "",
         "topic": "",
         "name": "Confirmar Configuración",
         "x": 1350,
@@ -84794,7 +84858,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "a29dc858ae62d58f",
         "name": "msgConfirmarData",
-        "func": "msg.payload = \"Guardando Configuración\";\nmsg.topic = \"Configuración Pozo\"\nreturn msg;",
+        "func": "msg.payload = \"Save Configuration\";\nmsg.topic = \"Well Configuration\"\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -85022,8 +85086,9 @@
         "height": 1,
         "name": "Datos SensorLess",
         "label": "",
-        "format": "<font size=4px>Datos SensorLess",
+        "format": "<font size=4px>SensorLess Data",
         "layout": "row-left",
+        "className": "",
         "x": 770,
         "y": 520,
         "wires": []
@@ -85045,22 +85110,22 @@
         "multiple": false,
         "options": [
             {
-                "label": "Llenado Cargas",
+                "label": "Filling Loads",
                 "value": 0,
                 "type": "num"
             },
             {
-                "label": "Llenado Posición",
+                "label": "Filling Position",
                 "value": 1,
                 "type": "num"
             },
             {
-                "label": "Llenado Áreas",
+                "label": "Filling Areas",
                 "value": 2,
                 "type": "num"
             },
             {
-                "label": "Llenado Ordenamiento",
+                "label": "Filling Ordering",
                 "value": 3,
                 "type": "num"
             }
@@ -85068,6 +85133,7 @@
         "payload": "",
         "topic": "topic",
         "topicType": "msg",
+        "className": "",
         "x": 740,
         "y": 560,
         "wires": [
@@ -85082,7 +85148,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Diametro Pistón[in]",
+        "label": "Piston Diameter [in]",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 9,
@@ -85092,8 +85158,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
-        "x": 770,
+        "x": 780,
         "y": 620,
         "wires": [
             [
@@ -85107,7 +85175,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Caudal Medido",
+        "label": "Measured Flow ",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 13,
@@ -85117,6 +85185,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
         "x": 760,
         "y": 660,
@@ -85132,7 +85202,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Prod Crudo",
+        "label": "Crude Production",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 17,
@@ -85142,8 +85212,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
-        "x": 750,
+        "x": 770,
         "y": 700,
         "wires": [
             [
@@ -85157,7 +85229,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Prod Agua",
+        "label": "Water Production",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 21,
@@ -85167,8 +85239,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
-        "x": 750,
+        "x": 770,
         "y": 740,
         "wires": [
             [
@@ -85207,7 +85281,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Compensación Carga Fluido",
+        "label": "Fluid Load Compensation",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 27,
@@ -85217,6 +85291,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
         "x": 800,
         "y": 820,
@@ -85232,7 +85308,7 @@
         "z": "6278f7e7f20ddc7d",
         "g": "c36ec626abdfe551",
         "name": "",
-        "label": "Longitud perforación",
+        "label": "Drilling length",
         "tooltip": "",
         "group": "bdb839607367176a",
         "order": 29,
@@ -85242,8 +85318,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
         "topicType": "str",
-        "x": 780,
+        "x": 760,
         "y": 860,
         "wires": [
             [
