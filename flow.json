@@ -1340,7 +1340,7 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 659,
+        "y": 679,
         "w": 882,
         "h": 322
     },
@@ -1578,7 +1578,7 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 999,
+        "y": 1019,
         "w": 1242,
         "h": 262
     },
@@ -1719,8 +1719,8 @@
         ],
         "x": 42,
         "y": 2797,
-        "w": 2626,
-        "h": 866
+        "w": 2696,
+        "h": 886
     },
     {
         "id": "e3aa057d.09fb18",
@@ -3819,8 +3819,8 @@
             "8d7d96325693e7e8",
             "eac942109fb23aa7"
         ],
-        "x": 2694,
-        "y": 2819,
+        "x": 2774,
+        "y": 2799,
         "w": 1292,
         "h": 612
     },
@@ -4823,10 +4823,10 @@
             "f6e2a6e0.47efb8",
             "edfe6c51.d89c68"
         ],
-        "x": 1338,
+        "x": 1428,
         "y": 2823,
-        "w": 1304,
-        "h": 814
+        "w": 1284,
+        "h": 834
     },
     {
         "id": "1306de9a.9ba341",
@@ -6822,9 +6822,11 @@
             "1850d240.8ce4c6",
             "b23d1104.2e7b8",
             "a5b71e52.d0332",
-            "bb5e3162.6feb9"
+            "bb5e3162.6feb9",
+            "c84962707c611358",
+            "cf54732de687b956"
         ],
-        "x": 1384,
+        "x": 1454,
         "y": 2849,
         "w": 1232,
         "h": 312
@@ -6859,8 +6861,8 @@
             "c435ac91a9e28118",
             "70a45bac6fb54e5c"
         ],
-        "x": 1364,
-        "y": 3169,
+        "x": 1464,
+        "y": 3189,
         "w": 742,
         "h": 442
     },
@@ -53663,7 +53665,7 @@
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
         "name": "",
-        "label": "Función",
+        "label": "Function",
         "tooltip": "",
         "place": "--",
         "group": "999747fd.0e43c8",
@@ -53674,32 +53676,27 @@
         "multiple": false,
         "options": [
             {
-                "label": "CILA2S en marcha",
+                "label": "CILA2S Active",
                 "value": "CILA2S en marcha",
                 "type": "str"
             },
             {
-                "label": "Falla general",
+                "label": "Fault General",
                 "value": "Falla general",
                 "type": "str"
             },
             {
-                "label": "Bypass filtro de armónicos",
-                "value": "Bypass filtro de armónicos",
-                "type": "str"
-            },
-            {
-                "label": "Rotador Tubería",
+                "label": "Pipe Rotator",
                 "value": "Rotador",
                 "type": "str"
             },
             {
-                "label": "Disparo breaker módulo ESD",
+                "label": "ESD module breaker trip",
                 "value": "Disparo breaker módulo ESD",
                 "type": "str"
             },
             {
-                "label": "Simulación",
+                "label": "Simulation",
                 "value": "Simulación",
                 "type": "str"
             }
@@ -53766,15 +53763,17 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "Configurar",
+        "label": "Set Up",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "SD_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 860,
+        "topicType": "str",
+        "x": 840,
         "y": 3110,
         "wires": [
             [
@@ -53805,11 +53804,12 @@
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
         "name": "Cargar configuración del canal",
-        "func": "var Canal = flow.get('SD_Config').Canal||null;\nvar ES = flow.get('ES')||null;\n\n// Concatenar Canal\nvar Canalmsg = \"Canal\" + Canal;\n\n// Estado del nodo\nnode.status({fill:\"green\",shape:\"dot\",text:Canalmsg});\n\n// Responder\nvar Resp = ES.SD[Canalmsg];\nmsg.payload = \"Canal no configurado\";\n\nif(typeof Resp !== 'undefined'){\n    msg.Funcion = {'payload':Resp.Funcion};\n    msg.Tipo = {'payload':Resp.Tipo};\n    \n}\nelse{\n    msg.Funcion = {'payload':\"Canal no configurado\"};\n    msg.Tipo =  {'payload':\"Ninguno\"};\n}\n\nreturn [msg.Funcion, msg.Tipo];",
+        "func": "var Canal = flow.get('SD_Config').Canal||null;\nvar ES = flow.get('ES')||null;\n\n// Concatenar Canal\nvar Canalmsg = \"Canal\" + Canal;\n\n// Estado del nodo\nnode.status({fill:\"green\",shape:\"dot\",text:Canalmsg});\n\n// Responder\nvar Resp = ES.SD[Canalmsg];\nmsg.payload = \"Canal no configurado\";\n\n\n\n\n\nif(typeof Resp !== 'undefined'){\n    msg.Funcion = {'payload':Resp.Funcion};\n    msg.Tipo = {'payload':Resp.Tipo};\n    \n}\nelse{\n    msg.Funcion = { 'payload':\"channel not configured\"};\n    msg.Tipo =  {'payload':\"Ninguno\"};\n}\n\nreturn [msg.Funcion, msg.Tipo];",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 450,
         "y": 2960,
         "wires": [
@@ -53853,7 +53853,7 @@
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
         "name": "",
-        "label": "Canal",
+        "label": "Chanel",
         "tooltip": "",
         "place": "--",
         "group": "999747fd.0e43c8",
@@ -53907,7 +53907,8 @@
         "payload": "",
         "topic": "",
         "topicType": "str",
-        "x": 720,
+        "className": "",
+        "x": 730,
         "y": 2890,
         "wires": [
             [
@@ -53959,14 +53960,16 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "Borrar",
+        "label": "Erase",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "ES_Config",
         "payloadType": "flow",
         "topic": "",
+        "topicType": "str",
         "x": 270,
         "y": 3150,
         "wires": [
@@ -54028,7 +54031,7 @@
         "z": "7a89175c.90f6a8",
         "g": "742e267a.cbc27",
         "name": "DO",
-        "func": "var Canal   = flow.get('ES');\nvar IO      = global.get('IO','memoryOnly');\n\nvar Funciones   = [];\nvar TipoIO      = [];\nvar Values      = [];\n\n// Entradas Digitales\nvar otro = [1, 2, 3, 4, 5, 6, 7, 8];\n\nfor(var i = 0; i<otro.length; i++){\n    var index= 'Canal'+(otro[i]+31);\n    if(typeof Canal.SD[index] != 'undefined'){\n        Funciones.push(Canal.SD[index].Funcion);\n        TipoIO.push(Canal.SD[index].Tipo);\n\n    }\n    else{\n        Funciones.push('Ninguno');\n        TipoIO.push('--');\n    }\n}\nvar data    = {};\nmsg.payload   = [];\nfor(var j = 0; j<otro.length; j++){\n    data = {\n        'Canales': otro[j], \n        'Funciones':Funciones[j],\n        'Tipo': TipoIO[j]\n    }\n    msg.payload.push(data);\n}\nreturn msg;",
+        "func": "var Canal   = flow.get('ES');\nvar IO      = global.get('IO','memoryOnly');\n\nvar Funciones   = [];\nvar TipoIO      = [];\nvar Values      = [];\n\n// Entradas Digitales\nvar otro = [1, 2, 3, 4, 5, 6, 7, 8];\n\nfor(var i = 0; i<otro.length; i++){\n    var index= 'Canal'+(otro[i]+31);\n    if(typeof Canal.SD[index] != 'undefined'){\n        Funciones.push(translate(Canal.SD[index].Funcion));\n        TipoIO.push(Canal.SD[index].Tipo);\n\n    }\n    else{\n        Funciones.push('None');\n        TipoIO.push('--');\n    }\n}\nvar data    = {};\nmsg.payload   = [];\nfor(var j = 0; j<otro.length; j++){\n    data = {\n        'Canales': otro[j], \n        'Funciones':Funciones[j],\n        'Tipo': TipoIO[j]\n    }\n    msg.payload.push(data);\n}\nreturn msg;\n\nfunction translate(value){\n    // cambio a ingles\n    var data = value; //valor actual\n    if (data == 'CILA2S en marcha') {\n        msg.payload = 'Active CILA'\n    } else if (data == 'Falla general') {\n        msg.payload = 'Fault General'\n    } else if (data == 'Rotador') {\n        msg.payload = 'Rotador'\n    } else if (data == 'Disparo breaker módulo ESD') {\n        msg.payload = 'ESD module breaker trip'\n    } else {\n        msg.payload = 'channel not configured'\n    }\n    return msg.payload;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -54138,7 +54141,7 @@
         "z": "7a89175c.90f6a8",
         "g": "f6e2a6e0.47efb8",
         "name": "",
-        "label": "Canal",
+        "label": "Chanel",
         "tooltip": "",
         "place": "--",
         "group": "2d9cedce.ac17c2",
@@ -54171,7 +54174,9 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 1600,
+        "topicType": "str",
+        "className": "",
+        "x": 1640,
         "y": 2960,
         "wires": [
             [
@@ -54196,39 +54201,41 @@
         "multiple": false,
         "options": [
             {
-                "label": "Frecuencia de salida C2S",
+                "label": "Output Frequency C2S",
                 "value": "Frecuencia de salida C2S",
                 "type": "str"
             },
             {
-                "label": "Corriente de salida",
+                "label": "Output Current",
                 "value": "Corriente de salida",
                 "type": "str"
             },
             {
-                "label": "Tensión de salida",
+                "label": "Output Voltage",
                 "value": "Tensión de salida",
                 "type": "str"
             },
             {
-                "label": "Potencia de salida",
+                "label": "Output Power",
                 "value": "Potencia de salida",
                 "type": "str"
             },
             {
-                "label": "Tensión de motor",
+                "label": "Motor Voltage",
                 "value": "Tensión de motor",
                 "type": "str"
             },
             {
-                "label": "Referencia de velocidad",
+                "label": "Speed Reference",
                 "value": "Referencia de velocidad",
                 "type": "str"
             }
         ],
         "payload": "",
         "topic": "",
-        "x": 2070,
+        "topicType": "str",
+        "className": "",
+        "x": 2140,
         "y": 2890,
         "wires": [
             [
@@ -54242,7 +54249,7 @@
         "z": "7a89175c.90f6a8",
         "g": "f6e2a6e0.47efb8",
         "name": "",
-        "label": "Rango Min",
+        "label": "Min Range",
         "tooltip": "",
         "group": "2d9cedce.ac17c2",
         "order": 6,
@@ -54252,7 +54259,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "",
-        "x": 2080,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2150,
         "y": 2940,
         "wires": [
             [
@@ -54266,7 +54276,7 @@
         "z": "7a89175c.90f6a8",
         "g": "f6e2a6e0.47efb8",
         "name": "",
-        "label": "Rango Max",
+        "label": "Max Range",
         "tooltip": "",
         "group": "2d9cedce.ac17c2",
         "order": 7,
@@ -54276,7 +54286,10 @@
         "mode": "number",
         "delay": 300,
         "topic": "",
-        "x": 2080,
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 2150,
         "y": 2990,
         "wires": [
             [
@@ -54295,15 +54308,17 @@
         "width": 4,
         "height": 1,
         "passthru": false,
-        "label": "Configurar",
+        "label": "Configurate",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "SA_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 2240,
+        "topicType": "str",
+        "x": 2310,
         "y": 3070,
         "wires": [
             [
@@ -54331,7 +54346,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1780,
+        "x": 1850,
         "y": 2960,
         "wires": [
             []
@@ -54357,7 +54372,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2290,
+        "x": 2360,
         "y": 2890,
         "wires": [
             []
@@ -54383,7 +54398,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2300,
+        "x": 2370,
         "y": 2940,
         "wires": [
             []
@@ -54409,7 +54424,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2300,
+        "x": 2370,
         "y": 2990,
         "wires": [
             []
@@ -54448,7 +54463,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 2380,
+        "x": 2450,
         "y": 3070,
         "wires": [
             [
@@ -54499,7 +54514,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2540,
+        "x": 2610,
         "y": 3000,
         "wires": [
             []
@@ -54539,7 +54554,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2540,
+        "x": 2610,
         "y": 3040,
         "wires": [
             []
@@ -54555,11 +54570,12 @@
         "width": 6,
         "height": 1,
         "name": "Función",
-        "label": "Función:",
+        "label": "Function",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 2070,
-        "y": 3030,
+        "className": "",
+        "x": 2300,
+        "y": 3020,
         "wires": []
     },
     {
@@ -54572,10 +54588,11 @@
         "width": 3,
         "height": 1,
         "name": "Rango Min",
-        "label": "Rango mínimo:",
+        "label": "Min Range:",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 2080,
+        "className": "",
+        "x": 2150,
         "y": 3070,
         "wires": []
     },
@@ -54589,10 +54606,11 @@
         "width": 3,
         "height": 1,
         "name": "Rango Max",
-        "label": "Rango máximo:",
+        "label": "max Range:",
         "format": "{{msg.payload}}",
         "layout": "row-left",
-        "x": 2080,
+        "className": "",
+        "x": 2150,
         "y": 3110,
         "wires": []
     },
@@ -54602,17 +54620,19 @@
         "z": "7a89175c.90f6a8",
         "g": "f6e2a6e0.47efb8",
         "name": "Cargar configuración del canal",
-        "func": "var Canal = flow.get('SA_Config').Canal||null;\nvar ES = flow.get('ES')||null;\n\nmsg.payload = \"Canal no configurado\";\n\n//msg.payload = ES.EA[Canal].Rango;\n//return msg;\n\nif(typeof ES.SA[Canal] !== 'undefined'){\n    msg.Funcion =  {'payload':ES.SA[Canal].Funcion};\n    msg.RangoMin = {'payload':ES.SA[Canal].Rango_Min};\n    msg.RangoMax = {'payload':ES.SA[Canal].Rango_Max};\n}\nelse{\n    msg.Funcion = {'payload':\"Canal no configurado\"};\n    msg.RangoMin =  {'payload':null};\n    msg.RangoMax = {'payload': null};\n}\n\nreturn [msg.Funcion, msg.RangoMin, msg.RangoMax];",
+        "func": "var Canal = flow.get('SA_Config').Canal||null;\nvar ES = flow.get('ES')||null;\n\nmsg.payload = \"Canal no configurado\";\n\nif(typeof ES.SA[Canal] !== 'undefined'){\n    msg.Funcion =  {'payload':ES.SA[Canal].Funcion};\n    msg.RangoMin = {'payload':ES.SA[Canal].Rango_Min};\n    msg.RangoMax = {'payload':ES.SA[Canal].Rango_Max};\n}\nelse{\n    msg.Funcion = { 'payload':\"Channel not Configured\"};\n    msg.RangoMin =  {'payload':null};\n    msg.RangoMax = {'payload': null};\n}\n\nreturn [msg.Funcion, msg.RangoMin, msg.RangoMax];",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
+        "libs": [],
+        "x": 1870,
         "y": 3010,
         "wires": [
             [
-                "84039f9a.8536f8",
-                "6cbf6e38.5582a"
+                "6cbf6e38.5582a",
+                "c84962707c611358",
+                "cf54732de687b956"
             ],
             [
                 "f387b0e2.5c86a",
@@ -54639,7 +54659,7 @@
             "bb5e3162.6feb9"
         ],
         "uncaught": false,
-        "x": 1530,
+        "x": 1600,
         "y": 3010,
         "wires": [
             [
@@ -54658,15 +54678,17 @@
         "width": 4,
         "height": 1,
         "passthru": false,
-        "label": "Borrar configuración",
+        "label": "Delete Configuration",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "ES_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 1550,
+        "topicType": "str",
+        "x": 1620,
         "y": 3060,
         "wires": [
             [
@@ -54685,7 +54707,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
+        "x": 1870,
         "y": 3060,
         "wires": []
     },
@@ -54723,7 +54745,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2540,
+        "x": 2610,
         "y": 3080,
         "wires": [
             []
@@ -54763,7 +54785,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2540,
+        "x": 2610,
         "y": 3120,
         "wires": [
             []
@@ -54789,8 +54811,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1980,
-        "y": 3480,
+        "x": 2080,
+        "y": 3500,
         "wires": [
             []
         ]
@@ -54815,8 +54837,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1980,
-        "y": 3390,
+        "x": 2080,
+        "y": 3410,
         "wires": [
             []
         ]
@@ -54841,8 +54863,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1980,
-        "y": 3300,
+        "x": 2080,
+        "y": 3320,
         "wires": [
             []
         ]
@@ -54867,8 +54889,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1980,
-        "y": 3210,
+        "x": 2080,
+        "y": 3230,
         "wires": [
             []
         ]
@@ -54884,8 +54906,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
-        "y": 3210,
+        "x": 1900,
+        "y": 3230,
         "wires": [
             [
                 "65ad9b0d.6b12ac"
@@ -54903,8 +54925,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
-        "y": 3300,
+        "x": 1900,
+        "y": 3320,
         "wires": [
             [
                 "3986e0cf.5e4f78"
@@ -54922,8 +54944,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
-        "y": 3390,
+        "x": 1900,
+        "y": 3410,
         "wires": [
             [
                 "d39a12de.5d991"
@@ -54941,8 +54963,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1800,
-        "y": 3480,
+        "x": 1900,
+        "y": 3500,
         "wires": [
             [
                 "d52f2cd1.ac7d18"
@@ -54961,8 +54983,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
-        "y": 3520,
+        "x": 1750,
+        "y": 3540,
         "wires": [
             [
                 "5cb767da.98178"
@@ -54987,8 +55009,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
-        "y": 3430,
+        "x": 1750,
+        "y": 3450,
         "wires": [
             [
                 "bc63c380.fb7a78"
@@ -55013,8 +55035,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
-        "y": 3340,
+        "x": 1750,
+        "y": 3360,
         "wires": [
             [
                 "e105d502.4aeb1"
@@ -55039,8 +55061,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
-        "y": 3250,
+        "x": 1750,
+        "y": 3270,
         "wires": [
             [
                 "f4e358da.4d49"
@@ -55071,8 +55093,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 1480,
-        "y": 3250,
+        "x": 1580,
+        "y": 3270,
         "wires": [
             [
                 "bbf3ce81.a5335",
@@ -55095,8 +55117,8 @@
             "c295a41b.c17618"
         ],
         "uncaught": false,
-        "x": 1580,
-        "y": 3570,
+        "x": 1680,
+        "y": 3590,
         "wires": [
             [
                 "23ebaedc.4ea2ba"
@@ -55114,8 +55136,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1790,
-        "y": 3570,
+        "x": 1890,
+        "y": 3590,
         "wires": [
             [
                 "10966509.4f25e3"
@@ -55135,8 +55157,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1930,
-        "y": 3570,
+        "x": 2030,
+        "y": 3590,
         "wires": []
     },
     {
@@ -57916,7 +57938,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Principal",
+                "v": "Main",
                 "vt": "str"
             }
         ],
@@ -59446,11 +59468,11 @@
         "height": 1,
         "name": "Simulación AO1",
         "label": "",
-        "format": "Simulación AO1",
+        "format": "Simulation AO1",
         "layout": "row-center",
         "className": "",
-        "x": 2800,
-        "y": 2860,
+        "x": 2880,
+        "y": 2840,
         "wires": []
     },
     {
@@ -59464,11 +59486,11 @@
         "height": 1,
         "name": "Simulación AO2",
         "label": "",
-        "format": "Simulación AO2",
+        "format": "Simulation AO2",
         "layout": "row-center",
         "className": "",
-        "x": 2970,
-        "y": 2860,
+        "x": 3050,
+        "y": 2840,
         "wires": []
     },
     {
@@ -59491,8 +59513,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2930,
-        "y": 2910,
+        "x": 3010,
+        "y": 2890,
         "wires": [
             []
         ]
@@ -59521,8 +59543,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 2780,
-        "y": 2910,
+        "x": 2860,
+        "y": 2890,
         "wires": [
             [
                 "f9db0dde.a8fef",
@@ -59550,8 +59572,8 @@
         "max": "20",
         "step": 1,
         "className": "",
-        "x": 2790,
-        "y": 3050,
+        "x": 2870,
+        "y": 3030,
         "wires": [
             [
                 "62b54556.f80694",
@@ -59571,8 +59593,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2940,
-        "y": 3050,
+        "x": 3020,
+        "y": 3030,
         "wires": [
             [
                 "af7bcd62.060f7"
@@ -59599,8 +59621,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3090,
-        "y": 3090,
+        "x": 3170,
+        "y": 3070,
         "wires": [
             []
         ]
@@ -59618,8 +59640,8 @@
         "label": "",
         "format": "{{msg.payload}} mA",
         "layout": "col-center",
-        "x": 3090,
-        "y": 3050,
+        "x": 3170,
+        "y": 3030,
         "wires": []
     },
     {
@@ -59642,8 +59664,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2970,
-        "y": 3170,
+        "x": 3050,
+        "y": 3150,
         "wires": [
             []
         ]
@@ -59672,8 +59694,8 @@
         "offvalueType": "bool",
         "officon": "",
         "offcolor": "",
-        "x": 2800,
-        "y": 3170,
+        "x": 2880,
+        "y": 3150,
         "wires": [
             [
                 "348a92f6.f6e64e",
@@ -59701,8 +59723,8 @@
         "max": "20",
         "step": 1,
         "className": "",
-        "x": 2810,
-        "y": 3310,
+        "x": 2890,
+        "y": 3290,
         "wires": [
             [
                 "05a3c17130105c3c",
@@ -59730,8 +59752,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3090,
-        "y": 3350,
+        "x": 3170,
+        "y": 3330,
         "wires": [
             []
         ]
@@ -59749,8 +59771,8 @@
         "label": "",
         "format": "{{msg.payload}} mA",
         "layout": "col-center",
-        "x": 3090,
-        "y": 3310,
+        "x": 3170,
+        "y": 3290,
         "wires": []
     },
     {
@@ -59765,8 +59787,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2960,
-        "y": 3310,
+        "x": 3040,
+        "y": 3290,
         "wires": [
             [
                 "ab756585.f8d38"
@@ -59792,8 +59814,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2910,
-        "y": 2970,
+        "x": 2990,
+        "y": 2950,
         "wires": [
             [
                 "6d3a66f90496a65e"
@@ -59823,8 +59845,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3050,
-        "y": 2990,
+        "x": 3130,
+        "y": 2970,
         "wires": [
             [
                 "df3cfb7a.40f0c",
@@ -59851,8 +59873,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2950,
-        "y": 3250,
+        "x": 3030,
+        "y": 3230,
         "wires": [
             [
                 "ea3ddd12499457ea"
@@ -59882,8 +59904,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3090,
-        "y": 3250,
+        "x": 3170,
+        "y": 3230,
         "wires": [
             [
                 "628521d7.5f7cf",
@@ -59911,8 +59933,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3200,
-        "y": 2990,
+        "x": 3280,
+        "y": 2970,
         "wires": [
             [
                 "af7bcd62.060f7"
@@ -59939,8 +59961,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3240,
-        "y": 3250,
+        "x": 3320,
+        "y": 3230,
         "wires": [
             [
                 "ab756585.f8d38"
@@ -59958,11 +59980,11 @@
         "height": 1,
         "name": "Simulación AO3",
         "label": "",
-        "format": "Simulación AO3",
+        "format": "Simulation AO3",
         "layout": "row-center",
         "className": "",
-        "x": 3480,
-        "y": 2870,
+        "x": 3560,
+        "y": 2850,
         "wires": []
     },
     {
@@ -59992,8 +60014,8 @@
         "offcolor": "",
         "animate": true,
         "className": "",
-        "x": 3460,
-        "y": 2910,
+        "x": 3540,
+        "y": 2890,
         "wires": [
             [
                 "c5a4f3e5571524d0",
@@ -60021,8 +60043,8 @@
         "max": "20",
         "step": 1,
         "className": "",
-        "x": 3450,
-        "y": 3050,
+        "x": 3530,
+        "y": 3030,
         "wires": [
             [
                 "3efb61cfcaf6244f",
@@ -60044,8 +60066,8 @@
         "format": "{{msg.payload}} mA",
         "layout": "col-center",
         "className": "",
-        "x": 3770,
-        "y": 3050,
+        "x": 3850,
+        "y": 3030,
         "wires": []
     },
     {
@@ -60068,8 +60090,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3630,
-        "y": 2910,
+        "x": 3710,
+        "y": 2890,
         "wires": [
             []
         ]
@@ -60093,8 +60115,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 3610,
-        "y": 2970,
+        "x": 3690,
+        "y": 2950,
         "wires": [
             [],
             [
@@ -60122,8 +60144,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3750,
-        "y": 2990,
+        "x": 3830,
+        "y": 2970,
         "wires": [
             [
                 "09ff8a777c5437cf",
@@ -60151,8 +60173,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3900,
-        "y": 2990,
+        "x": 3980,
+        "y": 2970,
         "wires": [
             [
                 "93acd76ff5270bfa"
@@ -60171,8 +60193,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3600,
-        "y": 3050,
+        "x": 3680,
+        "y": 3030,
         "wires": [
             [
                 "93acd76ff5270bfa"
@@ -60199,8 +60221,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3750,
-        "y": 3090,
+        "x": 3830,
+        "y": 3070,
         "wires": [
             []
         ]
@@ -60216,11 +60238,11 @@
         "height": 1,
         "name": "Simulación AO4",
         "label": "",
-        "format": "Simulación AO4",
+        "format": "Simulation AO4",
         "layout": "row-center",
         "className": "",
-        "x": 3660,
-        "y": 2870,
+        "x": 3740,
+        "y": 2850,
         "wires": []
     },
     {
@@ -60250,8 +60272,8 @@
         "offcolor": "",
         "animate": true,
         "className": "",
-        "x": 3460,
-        "y": 3170,
+        "x": 3540,
+        "y": 3150,
         "wires": [
             [
                 "3d6b9bbf155e6515",
@@ -60279,8 +60301,8 @@
         "max": "20",
         "step": 1,
         "className": "",
-        "x": 3450,
-        "y": 3330,
+        "x": 3530,
+        "y": 3310,
         "wires": [
             [
                 "3bb3056f1d3b632d",
@@ -60302,8 +60324,8 @@
         "format": "{{msg.payload}} mA",
         "layout": "col-center",
         "className": "",
-        "x": 3770,
-        "y": 3330,
+        "x": 3850,
+        "y": 3310,
         "wires": []
     },
     {
@@ -60326,8 +60348,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3630,
-        "y": 3170,
+        "x": 3710,
+        "y": 3150,
         "wires": [
             []
         ]
@@ -60351,8 +60373,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 3610,
-        "y": 3230,
+        "x": 3690,
+        "y": 3210,
         "wires": [
             [
                 "a64a075c0381525a"
@@ -60382,8 +60404,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3750,
-        "y": 3250,
+        "x": 3830,
+        "y": 3230,
         "wires": [
             [
                 "beaf4240460ac7e4",
@@ -60411,8 +60433,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3900,
-        "y": 3250,
+        "x": 3980,
+        "y": 3230,
         "wires": [
             [
                 "be81d2fd89c90d70"
@@ -60431,8 +60453,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3600,
-        "y": 3330,
+        "x": 3680,
+        "y": 3310,
         "wires": [
             [
                 "be81d2fd89c90d70"
@@ -60459,8 +60481,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3770,
-        "y": 3370,
+        "x": 3850,
+        "y": 3350,
         "wires": [
             []
         ]
@@ -60485,8 +60507,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3050,
-        "y": 2950,
+        "x": 3130,
+        "y": 2930,
         "wires": [
             [
                 "df3cfb7a.40f0c",
@@ -60514,8 +60536,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3090,
-        "y": 3210,
+        "x": 3170,
+        "y": 3190,
         "wires": [
             [
                 "628521d7.5f7cf",
@@ -60543,8 +60565,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3750,
-        "y": 3210,
+        "x": 3830,
+        "y": 3190,
         "wires": [
             [
                 "beaf4240460ac7e4",
@@ -60571,8 +60593,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2940,
-        "y": 3110,
+        "x": 3020,
+        "y": 3090,
         "wires": [
             [
                 "3f0d31a8.92e6d6"
@@ -60601,8 +60623,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2940,
-        "y": 3370,
+        "x": 3020,
+        "y": 3350,
         "wires": [
             [
                 "141d3991.af4366"
@@ -60631,8 +60653,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 3600,
-        "y": 3110,
+        "x": 3680,
+        "y": 3090,
         "wires": [
             [
                 "33048a90650cb254"
@@ -60661,8 +60683,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 3600,
-        "y": 3390,
+        "x": 3680,
+        "y": 3370,
         "wires": [
             [
                 "b540f11fa3b6fdf3"
@@ -61058,8 +61080,8 @@
         "topic": "",
         "payload": "4.1",
         "payloadType": "num",
-        "x": 1460,
-        "y": 3320,
+        "x": 1560,
+        "y": 3340,
         "wires": [
             []
         ]
@@ -61082,8 +61104,8 @@
         "topic": "",
         "payload": "19.7",
         "payloadType": "num",
-        "x": 1470,
-        "y": 3380,
+        "x": 1570,
+        "y": 3400,
         "wires": [
             []
         ]
@@ -61329,6 +61351,44 @@
         ],
         "x": 2315,
         "y": 4020,
+        "wires": []
+    },
+    {
+        "id": "c84962707c611358",
+        "type": "function",
+        "z": "7a89175c.90f6a8",
+        "g": "f6e2a6e0.47efb8",
+        "name": "English",
+        "func": "var data = msg.payload; //valor actual\nif (data == 'Frecuencia de salida C2S'){\n    msg.payload = 'Output Frequency CILA'\n} else if (data == 'Corriente de salida'){\n    msg.payload = 'Output Current '\n} else if (data == 'Tensión de salida'){\n    msg.payload = 'Output Voltage'\n} else if (data == 'Potencia de salida'){\n    msg.payload = 'Output Power'\n} else if (data == 'Tensión de motor'){\n    msg.payload = 'Motor Voltage'\n} else if (data == 'Referencia de velocidad'){\n    msg.payload = 'Speed Reference'\n}else{\n    msg.payload = 'channel not configured'\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2140,
+        "y": 3020,
+        "wires": [
+            [
+                "84039f9a.8536f8"
+            ]
+        ]
+    },
+    {
+        "id": "cf54732de687b956",
+        "type": "debug",
+        "z": "7a89175c.90f6a8",
+        "g": "f6e2a6e0.47efb8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1930,
+        "y": 2900,
         "wires": []
     },
     {
@@ -70950,7 +71010,7 @@
         "repair": false,
         "outputs": 5,
         "x": 510,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -70983,7 +71043,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 380,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "2499f70f.806ab8",
@@ -71012,7 +71072,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -71040,7 +71100,7 @@
         "to": "",
         "reg": false,
         "x": 690,
-        "y": 760,
+        "y": 780,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -71068,7 +71128,7 @@
         "to": "",
         "reg": false,
         "x": 670,
-        "y": 800,
+        "y": 820,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -71096,7 +71156,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "b0a2cd1a.ab273"
@@ -71114,7 +71174,7 @@
             "805762db.d27b7"
         ],
         "x": 855,
-        "y": 800,
+        "y": 820,
         "wires": []
     },
     {
@@ -71133,7 +71193,7 @@
         "resendOnRefresh": false,
         "templateScope": "local",
         "x": 530,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             [
                 "3031a06c.c602b",
@@ -71175,7 +71235,7 @@
         "repair": false,
         "outputs": 4,
         "x": 710,
-        "y": 1120,
+        "y": 1140,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -71212,7 +71272,7 @@
         "to": "",
         "reg": false,
         "x": 1040,
-        "y": 1060,
+        "y": 1080,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -71232,7 +71292,7 @@
             "320aa1af1a983da1"
         ],
         "x": 1215,
-        "y": 1100,
+        "y": 1120,
         "wires": []
     },
     {
@@ -71256,7 +71316,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -71284,7 +71344,7 @@
         "to": "",
         "reg": false,
         "x": 1050,
-        "y": 1140,
+        "y": 1160,
         "wires": [
             [
                 "c98bd2dc.e9d39"
@@ -71908,7 +71968,7 @@
         "repair": false,
         "outputs": 2,
         "x": 840,
-        "y": 1120,
+        "y": 1140,
         "wires": [
             [
                 "312d9def.84df32"
@@ -71946,7 +72006,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "25a8d0d2661ecaf2"
@@ -71963,7 +72023,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1115,
-        "y": 1180,
+        "y": 1200,
         "wires": []
     },
     {
@@ -71985,7 +72045,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 110,
-        "y": 1040,
+        "y": 1060,
         "wires": [
             [
                 "b9261a31b4bbd186"
@@ -72026,7 +72086,7 @@
         "repair": false,
         "outputs": 4,
         "x": 90,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             [
                 "35a52a0820bebc23"
@@ -72055,7 +72115,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Event</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarm</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1100,
+        "y": 1120,
         "wires": [
             [
                 "890323f.ee684e"
@@ -72073,7 +72133,7 @@
             "c4e5b48a61ef3ffd"
         ],
         "x": 95,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "35a52a0820bebc23"
@@ -72093,7 +72153,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Event</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarm</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1140,
+        "y": 1160,
         "wires": [
             [
                 "890323f.ee684e"
@@ -72113,7 +72173,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Event</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarm</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "f57c522aea6111e7"
@@ -72139,7 +72199,7 @@
         "repair": false,
         "outputs": 1,
         "x": 400,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "890323f.ee684e"
@@ -72157,7 +72217,7 @@
             "c4e5b48a61ef3ffd"
         ],
         "x": 855,
-        "y": 1040,
+        "y": 1060,
         "wires": [
             [
                 "c2e14be8.387158"
@@ -72277,7 +72337,7 @@
             "c4e5b48a61ef3ffd"
         ],
         "x": 535,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "c1f7c147.2e2dd"
@@ -72297,7 +72357,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 780,
+        "y": 800,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -72323,7 +72383,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 210,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "3d5229b6c4b0f5b3"
@@ -72341,7 +72401,7 @@
             "c4e5b48a61ef3ffd"
         ],
         "x": 75,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "61c5e328a04409ef"
@@ -72387,7 +72447,7 @@
         "repair": false,
         "outputs": 5,
         "x": 90,
-        "y": 820,
+        "y": 840,
         "wires": [
             [
                 "61c5e328a04409ef"
@@ -72419,7 +72479,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 820,
+        "y": 840,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -72439,7 +72499,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 860,
+        "y": 880,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -72460,7 +72520,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Dig.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Ana.</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Dig.</a>\n            <!--<a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Ana.</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 900,
+        "y": 920,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -72480,7 +72540,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
-        "y": 940,
+        "y": 960,
         "wires": [
             [
                 "461615d3.efcb8c"
@@ -73053,7 +73113,7 @@
             "20fa6985602b85a3"
         ],
         "x": 255,
-        "y": 1040,
+        "y": 1060,
         "wires": [
             [
                 "35a52a0820bebc23",
@@ -73128,7 +73188,7 @@
         "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:Eventos()})\">Event</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:Alarmas()})\">Alarm</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-EntradasAnalogicas\" role=\"tab\"\n                aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\" ng-click=\"send({payload:PQA()})\">PQA</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:Datalogger()})\">Datalogger</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.Eventos = function() { return \"Eventos\"; };\n        this.scope.Alarmas = function() { return \"Alarmas\"; };\n        this.scope.Datalogger = function() { return \"Datalogger\"; };\n        this.scope.PQA = function() { return \"PQA\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 260,
-        "y": 1220,
+        "y": 1240,
         "wires": [
             [
                 "890323f.ee684e"
@@ -73156,7 +73216,7 @@
         "to": "",
         "reg": false,
         "x": 1060,
-        "y": 1220,
+        "y": 1240,
         "wires": [
             [
                 "c98bd2dc.e9d39"
