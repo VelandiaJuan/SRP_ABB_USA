@@ -1313,22 +1313,6 @@
         "h": 202
     },
     {
-        "id": "eed2da25.98fab8",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "name": "Bypass Filtro Armónicos",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "71fd37.e2a532c8",
-            "566c907c.70175"
-        ],
-        "x": 38,
-        "y": 33
-    },
-    {
         "id": "9132da2c.b8c6b8",
         "type": "group",
         "z": "2e27dea6.c4c362",
@@ -1345,7 +1329,6 @@
             "950ebf98.9385d",
             "8916af0a.61064",
             "b0a2cd1a.ab273",
-            "8c4c4846.6ea308",
             "34d0978b94237bdb",
             "61c5e328a04409ef",
             "4fb7354230af86db",
@@ -1374,8 +1357,10 @@
             "f167459.5f028b8",
             "7c55c2ad.611734"
         ],
-        "x": 42,
-        "y": 617
+        "x": 22,
+        "y": 77,
+        "w": 3416,
+        "h": 2176
     },
     {
         "id": "9b538856.60fb38",
@@ -1715,7 +1700,9 @@
             "0465b4b302febce1"
         ],
         "x": 44,
-        "y": 3699
+        "y": 3699,
+        "w": 482,
+        "h": 232
     },
     {
         "id": "2bb641e0f5f82309",
@@ -1731,7 +1718,9 @@
             "80a9920a.43161"
         ],
         "x": 42,
-        "y": 2797
+        "y": 2797,
+        "w": 2626,
+        "h": 866
     },
     {
         "id": "e3aa057d.09fb18",
@@ -2421,7 +2410,7 @@
             "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1539,
+        "y": 1499,
         "w": 562,
         "h": 222
     },
@@ -3005,7 +2994,7 @@
             "d17ceb3fc54c19b2"
         ],
         "x": 14,
-        "y": 1779,
+        "y": 1739,
         "w": 792,
         "h": 322
     },
@@ -3749,7 +3738,9 @@
             "9a0f5cab161189fb"
         ],
         "x": 874,
-        "y": 3699
+        "y": 3699,
+        "w": 1092,
+        "h": 768
     },
     {
         "id": "81a2722aec77d40b",
@@ -3767,7 +3758,9 @@
             "abaa6d03ff45f904"
         ],
         "x": 34,
-        "y": 3979
+        "y": 3979,
+        "w": 752,
+        "h": 82
     },
     {
         "id": "a00ff6e2dc632d87",
@@ -3827,7 +3820,9 @@
             "eac942109fb23aa7"
         ],
         "x": 2694,
-        "y": 2819
+        "y": 2819,
+        "w": 1292,
+        "h": 612
     },
     {
         "id": "18a6cbbba16d2578",
@@ -3862,7 +3857,9 @@
             "60b95e5ad4a27db7"
         ],
         "x": 884,
-        "y": 4499
+        "y": 4499,
+        "w": 562,
+        "h": 82
     },
     {
         "id": "bfece4f80fac7e54",
@@ -4239,7 +4236,9 @@
             "0b7a2c38d5250104"
         ],
         "x": 2008,
-        "y": 3699
+        "y": 3699,
+        "w": 624,
+        "h": 428
     },
     {
         "id": "72721203a4d865af",
@@ -4806,7 +4805,9 @@
             "742e267a.cbc27"
         ],
         "x": 68,
-        "y": 2823
+        "y": 2823,
+        "w": 1284,
+        "h": 594
     },
     {
         "id": "80a9920a.43161",
@@ -4823,7 +4824,9 @@
             "edfe6c51.d89c68"
         ],
         "x": 1338,
-        "y": 2823
+        "y": 2823,
+        "w": 1304,
+        "h": 814
     },
     {
         "id": "1306de9a.9ba341",
@@ -5375,71 +5378,6 @@
         "y": 99
     },
     {
-        "id": "71fd37.e2a532c8",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "g": "eed2da25.98fab8",
-        "name": "Configuración",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "ec341205.42507",
-            "f45a1830.4aa818",
-            "ca8a89a5.fe94a8",
-            "6101e2c0.41d6fc",
-            "e00ed097.2bcdd",
-            "2bfa63f5.c92f2c",
-            "c8ee6da5.6ba99",
-            "927a90e3.4b638",
-            "e652eb79.a623b8",
-            "e9bea53b.440a68",
-            "a8dc214e.b7f56",
-            "c13d5700.feaa78",
-            "fd850cd.624c2f",
-            "fbfce46a.370cb8",
-            "e63ca624.4a94a8",
-            "fda9d1c0.d590d",
-            "d558f19d.c5be2",
-            "4402b8da.a316d8",
-            "4d97afba.4dc4d",
-            "5888eaa2.e36944",
-            "97a2a505.e43258",
-            "ad49eac5.1a3bb8",
-            "1bfae043.076ad",
-            "6f110bb3.d5a3c4",
-            "b2d8bf8c.b4036",
-            "ed030ba5.58dbe8",
-            "868cefce.6694a"
-        ],
-        "x": 64,
-        "y": 59
-    },
-    {
-        "id": "566c907c.70175",
-        "type": "group",
-        "z": "7a89175c.90f6a8",
-        "g": "eed2da25.98fab8",
-        "name": "Función de activación Filtro de armónicos",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "d4a5a008.b6ca1",
-            "5fa7bbbb.7ded74",
-            "117f9d35.ea0683",
-            "65bec257.67c89c",
-            "f1503b0b.316be8",
-            "a344ac6f.b0fa4",
-            "dc337b1c.735738",
-            "3f94e47b8b495988"
-        ],
-        "x": 64,
-        "y": 429
-    },
-    {
         "id": "f167459.5f028b8",
         "type": "group",
         "z": "7a89175c.90f6a8",
@@ -5454,8 +5392,10 @@
             "49c39e.d1336c64",
             "f68d7eac.63fb98"
         ],
-        "x": 68,
-        "y": 643
+        "x": 48,
+        "y": 103,
+        "w": 1704,
+        "h": 2124
     },
     {
         "id": "7c55c2ad.611734",
@@ -5472,8 +5412,10 @@
             "c4bcf1ca.3d67d",
             "f1099f615835b12b"
         ],
-        "x": 1788,
-        "y": 643
+        "x": 1768,
+        "y": 103,
+        "w": 1644,
+        "h": 1361.5
     },
     {
         "id": "b1830307.ee865",
@@ -6347,7 +6289,9 @@
             "86775cfa2b8d9339"
         ],
         "x": 974,
-        "y": 4279
+        "y": 4279,
+        "w": 632,
+        "h": 162
     },
     {
         "id": "d06a9e2c2daa09fb",
@@ -6699,7 +6643,9 @@
             "35b1635f64a43e99"
         ],
         "x": 2034,
-        "y": 3979
+        "y": 3979,
+        "w": 412,
+        "h": 122
     },
     {
         "id": "0b7a2c38d5250104",
@@ -6719,7 +6665,9 @@
             "6965289ed515042c"
         ],
         "x": 2034,
-        "y": 3799
+        "y": 3799,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "aafad2ba.dcc8b",
@@ -6839,7 +6787,9 @@
             "54b354e7737802b3"
         ],
         "x": 94,
-        "y": 2849
+        "y": 2849,
+        "w": 1232,
+        "h": 542
     },
     {
         "id": "f6e2a6e0.47efb8",
@@ -6875,7 +6825,9 @@
             "bb5e3162.6feb9"
         ],
         "x": 1384,
-        "y": 2849
+        "y": 2849,
+        "w": 1232,
+        "h": 312
     },
     {
         "id": "edfe6c51.d89c68",
@@ -6908,7 +6860,9 @@
             "70a45bac6fb54e5c"
         ],
         "x": 1364,
-        "y": 3169
+        "y": 3169,
+        "w": 742,
+        "h": 442
     },
     {
         "id": "16097ef1.129291",
@@ -7430,8 +7384,10 @@
             "c1aa521337e30c76",
             "3b8d6f41c33605f7"
         ],
-        "x": 94,
-        "y": 669
+        "x": 74,
+        "y": 129,
+        "w": 1212,
+        "h": 842
     },
     {
         "id": "49c39e.d1336c64",
@@ -7569,8 +7525,10 @@
             "c3df5a6a531467c2",
             "9a42b3bc50c233d0"
         ],
-        "x": 94,
-        "y": 1519
+        "x": 74,
+        "y": 979,
+        "w": 1652,
+        "h": 1032
     },
     {
         "id": "f68d7eac.63fb98",
@@ -7598,8 +7556,10 @@
             "079b06c4d753c468",
             "dc7c0e6833d4017c"
         ],
-        "x": 94,
-        "y": 2559
+        "x": 74,
+        "y": 2019,
+        "w": 892,
+        "h": 182
     },
     {
         "id": "d532ac68.2d5408",
@@ -7652,8 +7612,10 @@
             "fd9444712ce2d739",
             "9320f161a5d987ea"
         ],
-        "x": 1814,
-        "y": 669
+        "x": 1794,
+        "y": 129,
+        "w": 1292,
+        "h": 512
     },
     {
         "id": "c4bcf1ca.3d67d",
@@ -7698,8 +7660,10 @@
             "d42d222445fec1ba",
             "1bf8ad4dd3f8eeeb"
         ],
-        "x": 1814,
-        "y": 1189
+        "x": 1794,
+        "y": 649,
+        "w": 1032,
+        "h": 789.5
     },
     {
         "id": "a80677cf.4274c8",
@@ -7762,8 +7726,10 @@
             "8d61dc134a53f015",
             "eb27469341ade9cf"
         ],
-        "x": 2874,
-        "y": 1199
+        "x": 2854,
+        "y": 659,
+        "w": 532,
+        "h": 222
     },
     {
         "id": "be55ea76.ed4478",
@@ -8498,7 +8464,7 @@
     {
         "id": "73af030.b87b7fc",
         "type": "ui_tab",
-        "name": "Entradas y Salidas",
+        "name": "Inputs and Outputs",
         "icon": "fa-microchip",
         "order": 7,
         "disabled": false,
@@ -49568,946 +49534,12 @@
         ]
     },
     {
-        "id": "ec341205.42507",
-        "type": "ui_text_input",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "label": "Corriente nominal",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 2,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "0",
-        "topic": "",
-        "topicType": "str",
-        "x": 620,
-        "y": 100,
-        "wires": [
-            [
-                "ca8a89a5.fe94a8"
-            ]
-        ]
-    },
-    {
-        "id": "f45a1830.4aa818",
-        "type": "ui_text_input",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "label": "% Bypass",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 3,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "0",
-        "topic": "% Bypass",
-        "topicType": "str",
-        "x": 590,
-        "y": 180,
-        "wires": [
-            [
-                "e00ed097.2bcdd"
-            ]
-        ]
-    },
-    {
-        "id": "ca8a89a5.fe94a8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente nominal",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Corriente_nominal",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6101e2c0.41d6fc",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Corriente_bypass",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 830,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e00ed097.2bcdd",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. % bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Porcentaje_bypass",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 810,
-        "y": 180,
-        "wires": [
-            [
-                "2bfa63f5.c92f2c"
-            ]
-        ]
-    },
-    {
-        "id": "2bfa63f5.c92f2c",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "Cálculo Corriente",
-        "func": "var CN          = flow.get('Filtro_armonicos.Corriente_nominal')||0;\nif(msg.topic !='Corriente Bypass'){\n    msg.payload = parseInt(CN*msg.payload/100);\n    msg.topic = '% Bypass';\n    return msg;\n}\nreturn;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1040,
-        "y": 180,
-        "wires": [
-            [
-                "ed030ba5.58dbe8"
-            ]
-        ]
-    },
-    {
-        "id": "c8ee6da5.6ba99",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "Inicializar F.A",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 195,
-        "y": 140,
-        "wires": [
-            [
-                "927a90e3.4b638",
-                "e652eb79.a623b8",
-                "e9bea53b.440a68",
-                "fbfce46a.370cb8"
-            ]
-        ]
-    },
-    {
-        "id": "927a90e3.4b638",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente nominal",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Corriente_nominal",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 380,
-        "y": 100,
-        "wires": [
-            [
-                "ec341205.42507"
-            ]
-        ]
-    },
-    {
-        "id": "e652eb79.a623b8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Corriente_bypass",
-                "tot": "flow"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "% Bypass",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 380,
-        "y": 140,
-        "wires": [
-            [
-                "868cefce.6694a"
-            ]
-        ]
-    },
-    {
-        "id": "e9bea53b.440a68",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Porcentaje_bypass",
-                "tot": "flow"
-            },
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "Corriente Bypass",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 380,
-        "y": 180,
-        "wires": [
-            [
-                "f45a1830.4aa818"
-            ]
-        ]
-    },
-    {
-        "id": "a8dc214e.b7f56",
-        "type": "inject",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "true",
-        "payloadType": "bool",
-        "x": 160,
-        "y": 180,
-        "wires": [
-            [
-                "927a90e3.4b638",
-                "e652eb79.a623b8",
-                "e9bea53b.440a68",
-                "fbfce46a.370cb8"
-            ]
-        ]
-    },
-    {
-        "id": "c13d5700.feaa78",
-        "type": "ui_text_input",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "label": "Tiempo muerto Bypass (s)",
-        "tooltip": "",
-        "group": "aa8453cf.6d05a",
-        "order": 7,
-        "width": 4,
-        "height": 1,
-        "passthru": true,
-        "mode": "number",
-        "delay": "0",
-        "topic": "",
-        "topicType": "str",
-        "x": 650,
-        "y": 220,
-        "wires": [
-            [
-                "fd850cd.624c2f"
-            ]
-        ]
-    },
-    {
-        "id": "fd850cd.624c2f",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Tiempo muerto",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Tiempo_muerto",
-                "pt": "flow",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 880,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fbfce46a.370cb8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "F.A. Corriente bypass",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "Filtro_armonicos.Tiempo_muerto",
-                "tot": "flow"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 380,
-        "y": 220,
-        "wires": [
-            [
-                "c13d5700.feaa78"
-            ]
-        ]
-    },
-    {
-        "id": "e63ca624.4a94a8",
-        "type": "ui_button",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "group": "aa8453cf.6d05a",
-        "order": 11,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Habilitar bypass",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "topicType": "str",
-        "x": 760,
-        "y": 300,
-        "wires": [
-            [
-                "d558f19d.c5be2"
-            ]
-        ]
-    },
-    {
-        "id": "fda9d1c0.d590d",
-        "type": "ui_button",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "group": "aa8453cf.6d05a",
-        "order": 12,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "Deshabilitar bypass",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "topicType": "str",
-        "x": 770,
-        "y": 340,
-        "wires": [
-            [
-                "4402b8da.a316d8"
-            ]
-        ]
-    },
-    {
-        "id": "d558f19d.c5be2",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "Habilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Habilitar",
-                "pt": "flow",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 940,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4402b8da.a316d8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "Deshabilitar",
-        "rules": [
-            {
-                "t": "set",
-                "p": "Filtro_armonicos.Habilitar",
-                "pt": "flow",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 950,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4d97afba.4dc4d",
-        "type": "complete",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "scope": [
-            "d558f19d.c5be2",
-            "4402b8da.a316d8"
-        ],
-        "uncaught": false,
-        "x": 280,
-        "y": 300,
-        "wires": [
-            [
-                "5888eaa2.e36944"
-            ]
-        ]
-    },
-    {
-        "id": "5888eaa2.e36944",
-        "type": "switch",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "property": "Filtro_armonicos.Habilitar",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 430,
-        "y": 320,
-        "wires": [
-            [
-                "97a2a505.e43258",
-                "ad49eac5.1a3bb8"
-            ],
-            [
-                "6f110bb3.d5a3c4",
-                "1bfae043.076ad"
-            ]
-        ]
-    },
-    {
-        "id": "97a2a505.e43258",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "False",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 260,
-        "wires": [
-            [
-                "e63ca624.4a94a8"
-            ]
-        ]
-    },
-    {
-        "id": "ad49eac5.1a3bb8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 300,
-        "wires": [
-            [
-                "fda9d1c0.d590d"
-            ]
-        ]
-    },
-    {
-        "id": "1bfae043.076ad",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "true",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "true",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 340,
-        "wires": [
-            [
-                "e63ca624.4a94a8"
-            ]
-        ]
-    },
-    {
-        "id": "6f110bb3.d5a3c4",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "False",
-        "rules": [
-            {
-                "t": "set",
-                "p": "enabled",
-                "pt": "msg",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 580,
-        "y": 380,
-        "wires": [
-            [
-                "fda9d1c0.d590d"
-            ]
-        ]
-    },
-    {
-        "id": "b2d8bf8c.b4036",
-        "type": "link in",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "Bypass filtro armónicos",
-        "links": [
-            "ad87cee4.7dbb5"
-        ],
-        "x": 335,
-        "y": 340,
-        "wires": [
-            [
-                "5888eaa2.e36944"
-            ]
-        ]
-    },
-    {
-        "id": "ed030ba5.58dbe8",
-        "type": "rbe",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 1200,
-        "y": 180,
-        "wires": [
-            [
-                "6101e2c0.41d6fc",
-                "868cefce.6694a"
-            ]
-        ]
-    },
-    {
-        "id": "868cefce.6694a",
-        "type": "ui_text",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "71fd37.e2a532c8",
-        "group": "aa8453cf.6d05a",
-        "order": 8,
-        "width": 4,
-        "height": 1,
-        "name": "",
-        "label": "Corriente Bypass:",
-        "format": "{{msg.payload}}A",
-        "layout": "row-spread",
-        "x": 620,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "d4a5a008.b6ca1",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "Filtro de armónicos",
-        "func": "var Corriente = flow.get('Filtro_armonicos.Corriente_bypass')||0;\nvar payload = msg.payload;\nmsg.payload = TON(parseFloat(msg.payload) >= Corriente ? true:false,msg.delay);\nnode.status({fill:msg.payload === true? 'red':'green',shape:\"dot\",text: parseFloat(payload)+\" >= \"+Corriente });\nreturn msg;\n\nfunction TON(val,delay){\n    var Ant = context.get(\"Anterior\")||false;\n    // Actualizar el contexto\n    context.set(\"Anterior\", val);\n    //Flanco de subida\n    if(val === true && Ant === false){\n        context.set(\"RefTime\", Date.now());\n    }\n    else if(val === true && Ant === true){\n        if(Date.now() - context.get(\"RefTime\") >= delay*1000){\n            return true;\n        }\n    }\n    return false;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 420,
-        "y": 490,
-        "wires": [
-            [
-                "65bec257.67c89c"
-            ]
-        ]
-    },
-    {
-        "id": "5fa7bbbb.7ded74",
-        "type": "inject",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "Corriente de entrada",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "delay",
-                "v": "Filtro_armonicos.Tiempo_muerto",
-                "vt": "flow"
-            }
-        ],
-        "repeat": "0.5",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "#:(memoryOnly)::C2S.Implicit.Output_Current",
-        "payloadType": "global",
-        "x": 210,
-        "y": 490,
-        "wires": [
-            [
-                "d4a5a008.b6ca1",
-                "a344ac6f.b0fa4"
-            ]
-        ]
-    },
-    {
-        "id": "117f9d35.ea0683",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.DO.HF.Status",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 890,
-        "y": 470,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "65bec257.67c89c",
-        "type": "switch",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "Filtro Habilitado?",
-        "property": "Filtro_armonicos.Habilitar",
-        "propertyType": "flow",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 620,
-        "y": 490,
-        "wires": [
-            [
-                "117f9d35.ea0683"
-            ],
-            [
-                "f1503b0b.316be8"
-            ]
-        ]
-    },
-    {
-        "id": "f1503b0b.316be8",
-        "type": "change",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "#:(memoryOnly)::IO.Functions.DO.HF.Status",
-                "pt": "global",
-                "to": "false",
-                "tot": "bool"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 890,
-        "y": 510,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a344ac6f.b0fa4",
-        "type": "function",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "Limites",
-        "func": "var Load = global.get(\"Protections.Load\");\nmsg.control = {'min':Load.LL.Setpoint, 'max':Load.HH.Setpoint};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 540,
-        "wires": [
-            [
-                "dc337b1c.735738"
-            ]
-        ]
-    },
-    {
-        "id": "dc337b1c.735738",
-        "type": "ui_level",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "group": "aa8453cf.6d05a",
-        "order": 4,
-        "width": 4,
-        "height": 3,
-        "name": "Corriente de entrada actual",
-        "label": "Corriente Actual",
-        "colorHi": "#00b33c",
-        "colorWarn": "#00b33c",
-        "colorNormal": "#00b33c",
-        "colorOff": "#595959",
-        "min": 0,
-        "max": 100,
-        "segWarn": "",
-        "segHigh": "",
-        "unit": "A",
-        "layout": "sv",
-        "channelA": "",
-        "channelB": "",
-        "decimals": "2",
-        "animations": "soft",
-        "shape": 2,
-        "colorschema": "valuedriven",
-        "textoptions": "custom",
-        "colorText": "#eeeeee",
-        "fontLabel": "0.9",
-        "fontValue": "3",
-        "fontSmall": "0.9",
-        "colorFromTheme": true,
-        "textAnimations": false,
-        "hideValue": false,
-        "tickmode": "off",
-        "peakmode": false,
-        "property": "payload",
-        "peaktime": 3000,
-        "x": 590,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "f470fc15.8b31e8",
         "type": "ui_dropdown",
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
         "name": "",
-        "label": "Función",
+        "label": "Function",
         "tooltip": "",
         "place": "--",
         "group": "9457c46f.d710c8",
@@ -50620,8 +49652,10 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 720,
-        "y": 740,
+        "topicType": "str",
+        "className": "",
+        "x": 700,
+        "y": 200,
         "wires": [
             [
                 "cb3f9a14.d22ae"
@@ -50648,8 +49682,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 910,
-        "y": 840,
+        "x": 890,
+        "y": 300,
         "wires": [
             []
         ]
@@ -50674,8 +49708,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 920,
-        "y": 740,
+        "x": 900,
+        "y": 200,
         "wires": [
             []
         ]
@@ -50691,16 +49725,18 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "Configurar",
+        "label": "Configurate",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
+        "className": "",
         "icon": "",
         "payload": "ED_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 830,
-        "y": 1090,
+        "topicType": "str",
+        "x": 810,
+        "y": 550,
         "wires": [
             [
                 "523b81e3.a07f",
@@ -50715,7 +49751,7 @@
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
         "name": "",
-        "label": "Tipo",
+        "label": "Type",
         "tooltip": "",
         "place": "--",
         "group": "9457c46f.d710c8",
@@ -50738,8 +49774,10 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 710,
-        "y": 790,
+        "topicType": "str",
+        "className": "",
+        "x": 690,
+        "y": 250,
         "wires": [
             [
                 "3a1ce2e8.4d1856"
@@ -50766,8 +49804,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 950,
-        "y": 790,
+        "x": 930,
+        "y": 250,
         "wires": [
             []
         ]
@@ -50885,8 +49923,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 20,
-        "x": 990,
-        "y": 1090,
+        "x": 970,
+        "y": 550,
         "wires": [
             [
                 "3ba9978d.7a9e38"
@@ -50956,7 +49994,7 @@
         "z": "7a89175c.90f6a8",
         "g": "76d03353.299b94",
         "name": "",
-        "label": "Canal",
+        "label": "Chanel",
         "tooltip": "",
         "place": "--",
         "group": "9457c46f.d710c8",
@@ -51010,8 +50048,9 @@
         "payload": "",
         "topic": "",
         "topicType": "str",
-        "x": 710,
-        "y": 840,
+        "className": "",
+        "x": 700,
+        "y": 300,
         "wires": [
             [
                 "d671f08c.fac63"
@@ -51045,8 +50084,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 710,
+        "x": 1200,
+        "y": 170,
         "wires": [
             []
         ]
@@ -51078,8 +50117,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 750,
+        "x": 1200,
+        "y": 210,
         "wires": [
             []
         ]
@@ -51111,8 +50150,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 790,
+        "x": 1200,
+        "y": 250,
         "wires": [
             []
         ]
@@ -51144,8 +50183,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 830,
+        "x": 1200,
+        "y": 290,
         "wires": [
             []
         ]
@@ -51177,8 +50216,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 870,
+        "x": 1200,
+        "y": 330,
         "wires": [
             []
         ]
@@ -51210,8 +50249,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 910,
+        "x": 1200,
+        "y": 370,
         "wires": [
             []
         ]
@@ -51243,8 +50282,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 950,
+        "x": 1200,
+        "y": 410,
         "wires": [
             []
         ]
@@ -51276,8 +50315,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 990,
+        "x": 1200,
+        "y": 450,
         "wires": [
             []
         ]
@@ -51309,8 +50348,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1030,
+        "x": 1200,
+        "y": 490,
         "wires": [
             []
         ]
@@ -51335,8 +50374,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 480,
-        "y": 730,
+        "x": 460,
+        "y": 190,
         "wires": [
             []
         ]
@@ -51352,8 +50391,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 500,
-        "y": 770,
+        "x": 480,
+        "y": 230,
         "wires": [
             [
                 "f470fc15.8b31e8"
@@ -51374,8 +50413,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 620,
-        "y": 1090,
+        "x": 600,
+        "y": 550,
         "wires": []
     },
     {
@@ -51397,8 +50436,8 @@
         "payload": "ES_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 370,
-        "y": 1100,
+        "x": 350,
+        "y": 560,
         "wires": [
             [
                 "c07fb278.4e5528",
@@ -51418,8 +50457,8 @@
             "c07fb278.4e5528"
         ],
         "uncaught": false,
-        "x": 210,
-        "y": 810,
+        "x": 190,
+        "y": 270,
         "wires": [
             [
                 "a8d5423e.4c7098"
@@ -51437,8 +50476,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 240,
-        "y": 730,
+        "x": 220,
+        "y": 190,
         "wires": [
             [
                 "a4d364a6.229fd8"
@@ -51475,8 +50514,8 @@
             "808ade40.bbd5d8"
         ],
         "uncaught": false,
-        "x": 210,
-        "y": 770,
+        "x": 190,
+        "y": 230,
         "wires": [
             [
                 "a8d5423e.4c7098",
@@ -51511,8 +50550,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1070,
+        "x": 1200,
+        "y": 530,
         "wires": [
             []
         ]
@@ -51544,8 +50583,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1110,
+        "x": 1200,
+        "y": 570,
         "wires": [
             []
         ]
@@ -51577,8 +50616,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1150,
+        "x": 1200,
+        "y": 610,
         "wires": [
             []
         ]
@@ -51610,8 +50649,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1190,
+        "x": 1200,
+        "y": 650,
         "wires": [
             []
         ]
@@ -51643,8 +50682,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1230,
+        "x": 1200,
+        "y": 690,
         "wires": [
             []
         ]
@@ -51676,8 +50715,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1270,
+        "x": 1200,
+        "y": 730,
         "wires": [
             []
         ]
@@ -51709,8 +50748,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1350,
+        "x": 1200,
+        "y": 810,
         "wires": [
             []
         ]
@@ -51742,8 +50781,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1390,
+        "x": 1200,
+        "y": 850,
         "wires": [
             []
         ]
@@ -51775,8 +50814,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1430,
+        "x": 1200,
+        "y": 890,
         "wires": [
             []
         ]
@@ -51808,8 +50847,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1470,
+        "x": 1200,
+        "y": 930,
         "wires": [
             []
         ]
@@ -51858,8 +50897,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 850,
-        "y": 1130,
+        "x": 830,
+        "y": 590,
         "wires": []
     },
     {
@@ -51874,8 +50913,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 1130,
+        "x": 710,
+        "y": 590,
         "wires": [
             [
                 "e7978310592e6ac7"
@@ -51899,8 +50938,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "outputs": 1,
-        "x": 550,
-        "y": 1130,
+        "x": 530,
+        "y": 590,
         "wires": [
             [
                 "9a3c55637b414564"
@@ -51920,8 +50959,8 @@
                 "type": "num"
             }
         ],
-        "x": 170,
-        "y": 1560,
+        "x": 150,
+        "y": 1020,
         "wires": [
             [
                 "f9b834a1.6c5a5"
@@ -51939,8 +50978,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1560,
+        "x": 510,
+        "y": 1020,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -51974,8 +51013,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1560,
+        "x": 320,
+        "y": 1020,
         "wires": [
             [
                 "6f336942.c58e1"
@@ -51995,8 +51034,8 @@
                 "type": "num"
             }
         ],
-        "x": 170,
-        "y": 1610,
+        "x": 150,
+        "y": 1070,
         "wires": [
             [
                 "ec7a14d8.fa5698"
@@ -52016,8 +51055,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1660,
+        "x": 160,
+        "y": 1120,
         "wires": [
             [
                 "c52f7d3.c8a3"
@@ -52037,8 +51076,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1710,
+        "x": 160,
+        "y": 1170,
         "wires": [
             [
                 "c9d88b91.5f83a8"
@@ -52058,8 +51097,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1760,
+        "x": 160,
+        "y": 1220,
         "wires": [
             [
                 "f06a62d1.ada4d8"
@@ -52079,8 +51118,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1810,
+        "x": 160,
+        "y": 1270,
         "wires": [
             [
                 "fc8213b0.f28cc"
@@ -52100,8 +51139,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1860,
+        "x": 160,
+        "y": 1320,
         "wires": [
             [
                 "77508f33.45f12"
@@ -52121,8 +51160,8 @@
                 "type": "num"
             }
         ],
-        "x": 180,
-        "y": 1910,
+        "x": 160,
+        "y": 1370,
         "wires": [
             [
                 "5287952b.dbba9c"
@@ -52156,8 +51195,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1610,
+        "x": 320,
+        "y": 1070,
         "wires": [
             [
                 "95c053ae2c019985"
@@ -52191,8 +51230,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1660,
+        "x": 320,
+        "y": 1120,
         "wires": [
             [
                 "2e2cf12086edcf86"
@@ -52226,8 +51265,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1710,
+        "x": 320,
+        "y": 1170,
         "wires": [
             [
                 "4fe80e167740fe3b"
@@ -52261,8 +51300,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1760,
+        "x": 320,
+        "y": 1220,
         "wires": [
             [
                 "700f09d5af266f7c"
@@ -52296,8 +51335,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1810,
+        "x": 320,
+        "y": 1270,
         "wires": [
             [
                 "6f0d221e3a45b687"
@@ -52331,8 +51370,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1860,
+        "x": 320,
+        "y": 1320,
         "wires": [
             [
                 "1849f3aa0476fa69"
@@ -52366,8 +51405,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 1910,
+        "x": 320,
+        "y": 1370,
         "wires": [
             [
                 "66e2a95ab2027f24"
@@ -52390,8 +51429,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
-        "y": 2600,
+        "x": 580,
+        "y": 2060,
         "wires": [
             [
                 "737d9189cedc73ed"
@@ -52414,8 +51453,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
-        "y": 2650,
+        "x": 580,
+        "y": 2110,
         "wires": [
             [
                 "079b06c4d753c468"
@@ -52438,8 +51477,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 600,
-        "y": 2700,
+        "x": 580,
+        "y": 2160,
         "wires": [
             [
                 "dc7c0e6833d4017c"
@@ -52457,8 +51496,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 480,
-        "y": 2700,
+        "x": 460,
+        "y": 2160,
         "wires": [
             [
                 "27a840fd.42a858"
@@ -52476,8 +51515,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 480,
-        "y": 2650,
+        "x": 460,
+        "y": 2110,
         "wires": [
             [
                 "28e01967.4859fe"
@@ -52495,8 +51534,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 480,
-        "y": 2600,
+        "x": 460,
+        "y": 2060,
         "wires": [
             [
                 "dd9a0d3d.ab8378"
@@ -52521,8 +51560,8 @@
         "topic": "",
         "payload": "true",
         "payloadType": "bool",
-        "x": 190,
-        "y": 2600,
+        "x": 170,
+        "y": 2060,
         "wires": [
             [
                 "a2a2a85e.6d85f",
@@ -52590,8 +51629,8 @@
         ],
         "payload": "",
         "topic": "",
-        "x": 2550,
-        "y": 710,
+        "x": 2530,
+        "y": 170,
         "wires": [
             [
                 "1c9beea7.9ae659"
@@ -52689,8 +51728,8 @@
         "topic": "",
         "topicType": "str",
         "className": "",
-        "x": 2540,
-        "y": 760,
+        "x": 2520,
+        "y": 220,
         "wires": [
             [
                 "fab6cd4c.25aec"
@@ -52713,8 +51752,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "",
-        "x": 2550,
-        "y": 810,
+        "x": 2530,
+        "y": 270,
         "wires": [
             [
                 "bafbe273.306aa8"
@@ -52737,8 +51776,8 @@
         "mode": "number",
         "delay": 300,
         "topic": "",
-        "x": 2550,
-        "y": 860,
+        "x": 2530,
+        "y": 320,
         "wires": [
             [
                 "14396baf.99d41c"
@@ -52756,8 +51795,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2260,
-        "y": 790,
+        "x": 2240,
+        "y": 250,
         "wires": [
             [
                 "5322e804.acbe18"
@@ -52784,8 +51823,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2260,
-        "y": 830,
+        "x": 2240,
+        "y": 290,
         "wires": [
             []
         ]
@@ -52801,8 +51840,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2280,
-        "y": 880,
+        "x": 2260,
+        "y": 340,
         "wires": [
             [
                 "e59fb555.39dfe8"
@@ -52834,8 +51873,8 @@
         "payload": "ES_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 1940,
-        "y": 990,
+        "x": 1920,
+        "y": 450,
         "wires": [
             [
                 "b70a0946.953d7",
@@ -52854,8 +51893,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2280,
-        "y": 930,
+        "x": 2260,
+        "y": 390,
         "wires": []
     },
     {
@@ -52877,8 +51916,8 @@
             "842f214f.04ba7"
         ],
         "uncaught": false,
-        "x": 1990,
-        "y": 880,
+        "x": 1970,
+        "y": 340,
         "wires": [
             [
                 "82e33d5e.1187b"
@@ -52904,8 +51943,8 @@
         "payload": "EA_Config",
         "payloadType": "flow",
         "topic": "",
-        "x": 2670,
-        "y": 940,
+        "x": 2650,
+        "y": 400,
         "wires": [
             [
                 "3b6c080b.f3913",
@@ -52933,8 +51972,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2730,
-        "y": 710,
+        "x": 2710,
+        "y": 170,
         "wires": [
             []
         ]
@@ -52959,8 +51998,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2740,
-        "y": 760,
+        "x": 2720,
+        "y": 220,
         "wires": [
             []
         ]
@@ -53018,8 +52057,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 2850,
-        "y": 950,
+        "x": 2830,
+        "y": 410,
         "wires": [
             [
                 "c9557dde.602ce8"
@@ -53081,8 +52120,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 840,
+        "x": 3010,
+        "y": 300,
         "wires": [
             []
         ]
@@ -53107,8 +52146,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2770,
-        "y": 810,
+        "x": 2750,
+        "y": 270,
         "wires": [
             []
         ]
@@ -53133,8 +52172,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2770,
-        "y": 860,
+        "x": 2750,
+        "y": 320,
         "wires": [
             []
         ]
@@ -53157,8 +52196,8 @@
             "842f214f.04ba7"
         ],
         "uncaught": false,
-        "x": 1960,
-        "y": 840,
+        "x": 1940,
+        "y": 300,
         "wires": [
             [
                 "5eef4cc4.48bc2c",
@@ -53200,8 +52239,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 880,
+        "x": 3010,
+        "y": 340,
         "wires": [
             []
         ]
@@ -53240,8 +52279,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 920,
+        "x": 3010,
+        "y": 380,
         "wires": [
             []
         ]
@@ -53280,8 +52319,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 960,
+        "x": 3010,
+        "y": 420,
         "wires": [
             []
         ]
@@ -53320,8 +52359,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 800,
+        "x": 3010,
+        "y": 260,
         "wires": [
             []
         ]
@@ -53360,8 +52399,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1000,
+        "x": 3010,
+        "y": 460,
         "wires": [
             []
         ]
@@ -53400,8 +52439,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1040,
+        "x": 3010,
+        "y": 500,
         "wires": [
             []
         ]
@@ -53440,8 +52479,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3030,
-        "y": 1080,
+        "x": 3010,
+        "y": 540,
         "wires": [
             []
         ]
@@ -53457,8 +52496,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2600,
-        "y": 990,
+        "x": 2580,
+        "y": 450,
         "wires": [
             [
                 "c4e78fbf68f418d3"
@@ -53482,8 +52521,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "outputs": 1,
-        "x": 2470,
-        "y": 990,
+        "x": 2450,
+        "y": 450,
         "wires": [
             [
                 "5c9b452a467b8d49",
@@ -53545,8 +52584,8 @@
         ],
         "outputs": 0,
         "cts": false,
-        "x": 2720,
-        "y": 990,
+        "x": 2700,
+        "y": 450,
         "wires": []
     },
     {
@@ -53558,8 +52597,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 2365,
-        "y": 1020,
+        "x": 2345,
+        "y": 480,
         "wires": [
             [
                 "1b0e6f453fe679e8"
@@ -53586,8 +52625,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1400,
+        "x": 2670,
+        "y": 860,
         "wires": [
             []
         ]
@@ -53612,8 +52651,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1360,
+        "x": 2670,
+        "y": 820,
         "wires": [
             []
         ]
@@ -53638,8 +52677,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2680,
-        "y": 1320,
+        "x": 2660,
+        "y": 780,
         "wires": [
             []
         ]
@@ -53664,8 +52703,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2670,
-        "y": 1280,
+        "x": 2650,
+        "y": 740,
         "wires": [
             []
         ]
@@ -53756,8 +52795,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 15,
-        "x": 2390,
-        "y": 1840,
+        "x": 2370,
+        "y": 1300,
         "wires": [
             [
                 "cd379a79.9a98"
@@ -53811,8 +52850,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2370,
-        "y": 1230,
+        "x": 2350,
+        "y": 690,
         "wires": [
             [
                 "cd379a79.9a98"
@@ -53830,8 +52869,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2380,
-        "y": 1270,
+        "x": 2360,
+        "y": 730,
         "wires": [
             [
                 "c861991c.b55738"
@@ -53849,8 +52888,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2370,
-        "y": 1310,
+        "x": 2350,
+        "y": 770,
         "wires": [
             [
                 "62212e6.f902cd"
@@ -53868,8 +52907,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2380,
-        "y": 1350,
+        "x": 2360,
+        "y": 810,
         "wires": [
             [
                 "1d28383f.f01808"
@@ -53896,8 +52935,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2680,
-        "y": 1440,
+        "x": 2660,
+        "y": 900,
         "wires": [
             []
         ]
@@ -53913,8 +52952,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2370,
-        "y": 1390,
+        "x": 2350,
+        "y": 850,
         "wires": [
             [
                 "736848aa.a139b"
@@ -53941,8 +52980,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2670,
-        "y": 1480,
+        "x": 2650,
+        "y": 940,
         "wires": [
             []
         ]
@@ -53958,8 +52997,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2370,
-        "y": 1430,
+        "x": 2350,
+        "y": 890,
         "wires": [
             [
                 "613538c3.5a6e2"
@@ -53977,8 +53016,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2390,
-        "y": 1470,
+        "x": 2370,
+        "y": 930,
         "wires": [
             [
                 "ac13eab3.b694b8"
@@ -54005,8 +53044,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2690,
-        "y": 1520,
+        "x": 2670,
+        "y": 980,
         "wires": [
             []
         ]
@@ -54022,8 +53061,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2390,
-        "y": 1510,
+        "x": 2370,
+        "y": 970,
         "wires": [
             [
                 "8fdf8ee9.0bd3d"
@@ -54050,8 +53089,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2700,
-        "y": 1560,
+        "x": 2680,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -56101,23 +55140,6 @@
         "wires": []
     },
     {
-        "id": "3f94e47b8b495988",
-        "type": "catch",
-        "z": "7a89175c.90f6a8",
-        "d": true,
-        "g": "566c907c.70175",
-        "name": "",
-        "scope": [
-            "a344ac6f.b0fa4"
-        ],
-        "uncaught": false,
-        "x": 160,
-        "y": 540,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "95c053ae2c019985",
         "type": "function",
         "z": "7a89175c.90f6a8",
@@ -56128,8 +55150,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1610,
+        "x": 510,
+        "y": 1070,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56147,8 +55169,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1660,
+        "x": 510,
+        "y": 1120,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56166,8 +55188,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1710,
+        "x": 510,
+        "y": 1170,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56185,8 +55207,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1760,
+        "x": 510,
+        "y": 1220,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56204,8 +55226,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1810,
+        "x": 510,
+        "y": 1270,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56223,8 +55245,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1860,
+        "x": 510,
+        "y": 1320,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56242,8 +55264,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 530,
-        "y": 1910,
+        "x": 510,
+        "y": 1370,
         "wires": [
             [
                 "f26c7cd67e2a751d"
@@ -56363,8 +55385,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 20,
-        "x": 800,
-        "y": 2020,
+        "x": 780,
+        "y": 1480,
         "wires": [
             [
                 "b5ec933cfb0dbcbd"
@@ -56439,8 +55461,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1060,
-        "y": 1560,
+        "x": 1040,
+        "y": 1020,
         "wires": [
             [
                 "ec420b972b84d6ae"
@@ -56458,8 +55480,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1060,
-        "y": 1610,
+        "x": 1040,
+        "y": 1070,
         "wires": [
             [
                 "f23e7677d613999c"
@@ -56477,8 +55499,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1060,
-        "y": 1660,
+        "x": 1040,
+        "y": 1120,
         "wires": [
             [
                 "6a842bb4461218eb"
@@ -56496,8 +55518,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1070,
-        "y": 1710,
+        "x": 1050,
+        "y": 1170,
         "wires": [
             [
                 "b82e31a7ba4b9493"
@@ -56515,8 +55537,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1140,
-        "y": 1760,
+        "x": 1120,
+        "y": 1220,
         "wires": [
             [
                 "f0c4e1c284d417e4"
@@ -56534,8 +55556,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1140,
-        "y": 1810,
+        "x": 1120,
+        "y": 1270,
         "wires": [
             [
                 "e3ef249e78603d8f"
@@ -56553,8 +55575,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1130,
-        "y": 1860,
+        "x": 1110,
+        "y": 1320,
         "wires": [
             [
                 "19aea13c856153f6"
@@ -56572,8 +55594,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1140,
-        "y": 1910,
+        "x": 1120,
+        "y": 1370,
         "wires": [
             [
                 "75922f11ac8749fb"
@@ -56591,8 +55613,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1160,
-        "y": 1960,
+        "x": 1140,
+        "y": 1420,
         "wires": [
             [
                 "3fc079948c7f2493"
@@ -56610,8 +55632,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1150,
-        "y": 2010,
+        "x": 1130,
+        "y": 1470,
         "wires": [
             [
                 "a682a86850214d5f"
@@ -56629,8 +55651,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1080,
-        "y": 2060,
+        "x": 1060,
+        "y": 1520,
         "wires": [
             [
                 "42cae9fbf107f110"
@@ -56648,8 +55670,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1140,
-        "y": 2110,
+        "x": 1120,
+        "y": 1570,
         "wires": [
             [
                 "307b5601f51c9d31"
@@ -56667,8 +55689,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1120,
-        "y": 2160,
+        "x": 1100,
+        "y": 1620,
         "wires": [
             [
                 "fdb7ccf7f3ebf53e"
@@ -56686,8 +55708,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1130,
-        "y": 2210,
+        "x": 1110,
+        "y": 1670,
         "wires": [
             [
                 "dc85213a17dc9013"
@@ -56705,8 +55727,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1080,
-        "y": 2260,
+        "x": 1060,
+        "y": 1720,
         "wires": [
             [
                 "ab3e62c25ddbc9c1"
@@ -56724,8 +55746,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1110,
-        "y": 2310,
+        "x": 1090,
+        "y": 1770,
         "wires": [
             [
                 "6fed0052fdfbe6ae"
@@ -56743,8 +55765,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1130,
-        "y": 2360,
+        "x": 1110,
+        "y": 1820,
         "wires": [
             [
                 "6133d498b94e40b8"
@@ -56762,8 +55784,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1080,
-        "y": 2410,
+        "x": 1060,
+        "y": 1870,
         "wires": [
             [
                 "2ff24437b6c204db"
@@ -56781,8 +55803,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1120,
-        "y": 2460,
+        "x": 1100,
+        "y": 1920,
         "wires": [
             [
                 "d4b501a8a9462e2e"
@@ -56800,8 +55822,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1150,
-        "y": 2510,
+        "x": 1130,
+        "y": 1970,
         "wires": [
             [
                 "4389731b102c742f"
@@ -56819,8 +55841,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 360,
-        "y": 2600,
+        "x": 340,
+        "y": 2060,
         "wires": [
             [
                 "a08074ff.25fb48"
@@ -56838,8 +55860,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 360,
-        "y": 2650,
+        "x": 340,
+        "y": 2110,
         "wires": [
             [
                 "ef425222.75e11"
@@ -56857,8 +55879,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 360,
-        "y": 2700,
+        "x": 340,
+        "y": 2160,
         "wires": [
             [
                 "ac563b4d.79d9b8"
@@ -56892,8 +55914,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 2600,
+        "x": 700,
+        "y": 2060,
         "wires": [
             [
                 "81f602598a6222c1"
@@ -56907,8 +55929,8 @@
         "g": "f68d7eac.63fb98",
         "name": "",
         "env": [],
-        "x": 900,
-        "y": 2600,
+        "x": 880,
+        "y": 2060,
         "wires": [
             [],
             []
@@ -56941,8 +55963,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 2650,
+        "x": 700,
+        "y": 2110,
         "wires": [
             [
                 "81f602598a6222c1"
@@ -56976,8 +55998,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
-        "y": 2700,
+        "x": 700,
+        "y": 2160,
         "wires": [
             [
                 "81f602598a6222c1"
@@ -57085,8 +56107,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1220,
-        "y": 1310,
+        "x": 1200,
+        "y": 770,
         "wires": [
             []
         ]
@@ -57102,8 +56124,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1560,
+        "x": 1360,
+        "y": 1020,
         "wires": [
             [
                 "f441ed5865c99c7f"
@@ -57126,8 +56148,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1560,
+        "x": 1480,
+        "y": 1020,
         "wires": [
             [
                 "4f0b55e892bfb4a3"
@@ -57145,8 +56167,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1560,
+        "x": 1600,
+        "y": 1020,
         "wires": [
             [
                 "bf08332fad815da4"
@@ -57164,8 +56186,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1610,
+        "x": 1360,
+        "y": 1070,
         "wires": [
             [
                 "b2ee82111ec548a3"
@@ -57188,8 +56210,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1610,
+        "x": 1480,
+        "y": 1070,
         "wires": [
             [
                 "d7a21b76ea69a930"
@@ -57207,8 +56229,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1610,
+        "x": 1600,
+        "y": 1070,
         "wires": [
             [
                 "b8f6d05216308f2f"
@@ -57226,8 +56248,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1660,
+        "x": 1360,
+        "y": 1120,
         "wires": [
             [
                 "189c95398ca4a74d"
@@ -57250,8 +56272,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1660,
+        "x": 1480,
+        "y": 1120,
         "wires": [
             [
                 "2dcd110a422850fa"
@@ -57269,8 +56291,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1660,
+        "x": 1600,
+        "y": 1120,
         "wires": [
             [
                 "5b523df343832e42"
@@ -57288,8 +56310,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1710,
+        "x": 1360,
+        "y": 1170,
         "wires": [
             [
                 "46fe667e3d90053a"
@@ -57312,8 +56334,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1710,
+        "x": 1480,
+        "y": 1170,
         "wires": [
             [
                 "3643e1d2b5d5f9fa"
@@ -57331,8 +56353,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1710,
+        "x": 1600,
+        "y": 1170,
         "wires": [
             [
                 "7c549260263926de"
@@ -57350,8 +56372,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1760,
+        "x": 1360,
+        "y": 1220,
         "wires": [
             [
                 "04e938b98f177269"
@@ -57374,8 +56396,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1760,
+        "x": 1480,
+        "y": 1220,
         "wires": [
             [
                 "5b71991a6e96505e"
@@ -57393,8 +56415,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1760,
+        "x": 1600,
+        "y": 1220,
         "wires": [
             [
                 "a6537492cee742bb"
@@ -57412,8 +56434,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1810,
+        "x": 1360,
+        "y": 1270,
         "wires": [
             [
                 "d8c71c648cf1f608"
@@ -57436,8 +56458,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1810,
+        "x": 1480,
+        "y": 1270,
         "wires": [
             [
                 "b99e04abad6045ae"
@@ -57455,8 +56477,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1810,
+        "x": 1600,
+        "y": 1270,
         "wires": [
             [
                 "5de1f62eeac3700c"
@@ -57474,8 +56496,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1860,
+        "x": 1360,
+        "y": 1320,
         "wires": [
             [
                 "5ab703c3e911fc3e"
@@ -57498,8 +56520,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1860,
+        "x": 1480,
+        "y": 1320,
         "wires": [
             [
                 "edb17caf37c08ee9"
@@ -57517,8 +56539,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1860,
+        "x": 1600,
+        "y": 1320,
         "wires": [
             [
                 "0136783bb78db2e2"
@@ -57536,8 +56558,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1910,
+        "x": 1360,
+        "y": 1370,
         "wires": [
             [
                 "3161bcdbdf37be16"
@@ -57560,8 +56582,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1910,
+        "x": 1480,
+        "y": 1370,
         "wires": [
             [
                 "e6c20f948495f302"
@@ -57579,8 +56601,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1910,
+        "x": 1600,
+        "y": 1370,
         "wires": [
             [
                 "6d0c3c367c64344a"
@@ -57598,8 +56620,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 1960,
+        "x": 1360,
+        "y": 1420,
         "wires": [
             [
                 "1e344070d99d23c3"
@@ -57622,8 +56644,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 1960,
+        "x": 1480,
+        "y": 1420,
         "wires": [
             [
                 "40c06d2a5432c88f"
@@ -57641,8 +56663,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 1960,
+        "x": 1600,
+        "y": 1420,
         "wires": [
             [
                 "ea0a3cc6e4d6537a"
@@ -57660,8 +56682,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2010,
+        "x": 1360,
+        "y": 1470,
         "wires": [
             [
                 "c6a423374d97a37e"
@@ -57684,8 +56706,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2010,
+        "x": 1480,
+        "y": 1470,
         "wires": [
             [
                 "51b02f5772ae79a5"
@@ -57703,8 +56725,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2010,
+        "x": 1600,
+        "y": 1470,
         "wires": [
             [
                 "33cf5bad91b4412f"
@@ -57722,8 +56744,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2060,
+        "x": 1360,
+        "y": 1520,
         "wires": [
             [
                 "0220f9cd260d0dcd"
@@ -57746,8 +56768,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2060,
+        "x": 1480,
+        "y": 1520,
         "wires": [
             [
                 "7250a8f6b3cf4176"
@@ -57765,8 +56787,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2060,
+        "x": 1600,
+        "y": 1520,
         "wires": [
             [
                 "86f805b5cb28bb05"
@@ -57784,8 +56806,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2110,
+        "x": 1360,
+        "y": 1570,
         "wires": [
             [
                 "ecec3b9850b6eabb"
@@ -57808,8 +56830,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2110,
+        "x": 1480,
+        "y": 1570,
         "wires": [
             [
                 "563c0a8a176cfc41"
@@ -57827,8 +56849,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2110,
+        "x": 1600,
+        "y": 1570,
         "wires": [
             [
                 "bd92a3ae5f6e2f10"
@@ -57846,8 +56868,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2160,
+        "x": 1360,
+        "y": 1620,
         "wires": [
             [
                 "ca3af6e1d9ee34fc"
@@ -57870,8 +56892,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2160,
+        "x": 1480,
+        "y": 1620,
         "wires": [
             [
                 "6433e4e81cbe5966"
@@ -57889,8 +56911,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2160,
+        "x": 1600,
+        "y": 1620,
         "wires": [
             [
                 "2aa31c125e8aa8f1"
@@ -57908,8 +56930,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2210,
+        "x": 1360,
+        "y": 1670,
         "wires": [
             [
                 "a90a4c26744febb0"
@@ -57932,8 +56954,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2210,
+        "x": 1480,
+        "y": 1670,
         "wires": [
             [
                 "91e8a1a7b161d82c"
@@ -57951,8 +56973,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2210,
+        "x": 1600,
+        "y": 1670,
         "wires": [
             [
                 "9b11a2d4e3432956"
@@ -57970,8 +56992,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2260,
+        "x": 1360,
+        "y": 1720,
         "wires": [
             [
                 "0ad35375797d0a52"
@@ -57994,8 +57016,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2260,
+        "x": 1480,
+        "y": 1720,
         "wires": [
             [
                 "018dcb63fda2f0d3"
@@ -58013,8 +57035,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2260,
+        "x": 1600,
+        "y": 1720,
         "wires": [
             [
                 "ea1cf5c958c8fbd1"
@@ -58032,8 +57054,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2310,
+        "x": 1360,
+        "y": 1770,
         "wires": [
             [
                 "58b360b864d7d87f"
@@ -58056,8 +57078,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2310,
+        "x": 1480,
+        "y": 1770,
         "wires": [
             [
                 "d84a785289e598cd"
@@ -58075,8 +57097,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2310,
+        "x": 1600,
+        "y": 1770,
         "wires": [
             [
                 "ae81aa320575e993"
@@ -58094,8 +57116,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2360,
+        "x": 1360,
+        "y": 1820,
         "wires": [
             [
                 "c3df5a6a531467c2"
@@ -58118,8 +57140,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2360,
+        "x": 1480,
+        "y": 1820,
         "wires": [
             [
                 "9a42b3bc50c233d0"
@@ -58137,8 +57159,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2360,
+        "x": 1600,
+        "y": 1820,
         "wires": [
             [
                 "de596228ce0351bb"
@@ -58156,8 +57178,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2410,
+        "x": 1360,
+        "y": 1870,
         "wires": [
             [
                 "17a07b9ae7a7861b"
@@ -58180,8 +57202,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2410,
+        "x": 1480,
+        "y": 1870,
         "wires": [
             [
                 "b5d771a24eb13652"
@@ -58199,8 +57221,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2410,
+        "x": 1600,
+        "y": 1870,
         "wires": [
             []
         ]
@@ -58216,8 +57238,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2460,
+        "x": 1360,
+        "y": 1920,
         "wires": [
             [
                 "ab0eb95721c4a38c"
@@ -58240,8 +57262,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2460,
+        "x": 1480,
+        "y": 1920,
         "wires": [
             [
                 "b7e8c0e0211714a7"
@@ -58259,8 +57281,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2460,
+        "x": 1600,
+        "y": 1920,
         "wires": [
             [
                 "fce9ca29ea26c2ca"
@@ -58278,8 +57300,8 @@
         "start": "",
         "inout": "out",
         "property": "payload",
-        "x": 1380,
-        "y": 2510,
+        "x": 1360,
+        "y": 1970,
         "wires": [
             [
                 "eb879b75e4a754f9"
@@ -58302,8 +57324,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1500,
-        "y": 2510,
+        "x": 1480,
+        "y": 1970,
         "wires": [
             [
                 "b142564394135d0f"
@@ -58321,8 +57343,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1620,
-        "y": 2510,
+        "x": 1600,
+        "y": 1970,
         "wires": [
             [
                 "7c2016e7007063f4"
@@ -58339,8 +57361,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1705,
-        "y": 1610,
+        "x": 1685,
+        "y": 1070,
         "wires": []
     },
     {
@@ -58353,8 +57375,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1705,
-        "y": 1660,
+        "x": 1685,
+        "y": 1120,
         "wires": []
     },
     {
@@ -58367,8 +57389,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 1710,
+        "x": 1685,
+        "y": 1170,
         "wires": []
     },
     {
@@ -58381,8 +57403,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 1760,
+        "x": 1685,
+        "y": 1220,
         "wires": []
     },
     {
@@ -58395,8 +57417,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 1810,
+        "x": 1685,
+        "y": 1270,
         "wires": []
     },
     {
@@ -58409,8 +57431,8 @@
             "52f1e35a6b450a62",
             "8eacc47.e177438"
         ],
-        "x": 1705,
-        "y": 1860,
+        "x": 1685,
+        "y": 1320,
         "wires": []
     },
     {
@@ -58423,8 +57445,8 @@
             "52f1e35a6b450a62",
             "8eacc47.e177438"
         ],
-        "x": 1705,
-        "y": 1910,
+        "x": 1685,
+        "y": 1370,
         "wires": []
     },
     {
@@ -58437,8 +57459,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 1960,
+        "x": 1685,
+        "y": 1420,
         "wires": []
     },
     {
@@ -58451,8 +57473,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2010,
+        "x": 1685,
+        "y": 1470,
         "wires": []
     },
     {
@@ -58465,8 +57487,8 @@
             "52f1e35a6b450a62",
             "8eacc47.e177438"
         ],
-        "x": 1705,
-        "y": 2060,
+        "x": 1685,
+        "y": 1520,
         "wires": []
     },
     {
@@ -58479,8 +57501,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2110,
+        "x": 1685,
+        "y": 1570,
         "wires": []
     },
     {
@@ -58493,8 +57515,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2160,
+        "x": 1685,
+        "y": 1620,
         "wires": []
     },
     {
@@ -58507,8 +57529,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2210,
+        "x": 1685,
+        "y": 1670,
         "wires": []
     },
     {
@@ -58521,8 +57543,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2260,
+        "x": 1685,
+        "y": 1720,
         "wires": []
     },
     {
@@ -58535,8 +57557,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2310,
+        "x": 1685,
+        "y": 1770,
         "wires": []
     },
     {
@@ -58549,8 +57571,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2360,
+        "x": 1685,
+        "y": 1820,
         "wires": []
     },
     {
@@ -58563,8 +57585,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2460,
+        "x": 1685,
+        "y": 1920,
         "wires": []
     },
     {
@@ -58577,8 +57599,8 @@
             "2da816b7.b2be9a",
             "cbbbcd1c.7180e"
         ],
-        "x": 1705,
-        "y": 2510,
+        "x": 1685,
+        "y": 1970,
         "wires": []
     },
     {
@@ -58591,8 +57613,8 @@
             "207ea8ce.3dea68",
             "2da816b7.b2be9a"
         ],
-        "x": 1705,
-        "y": 1560,
+        "x": 1685,
+        "y": 1020,
         "wires": []
     },
     {
@@ -58608,8 +57630,8 @@
         "label": "Valor Actual:",
         "format": "{{msg.payload}} mA",
         "layout": "row-spread",
-        "x": 2810,
-        "y": 1080,
+        "x": 2790,
+        "y": 540,
         "wires": []
     },
     {
@@ -58625,8 +57647,8 @@
         "label": "Valor Escalizado:",
         "format": "{{msg.payload}}",
         "layout": "row-spread",
-        "x": 2810,
-        "y": 1140,
+        "x": 2790,
+        "y": 600,
         "wires": []
     },
     {
@@ -58707,8 +57729,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 710,
-        "y": 1220,
+        "x": 690,
+        "y": 680,
         "wires": [
             [
                 "5a4252038d4d9943"
@@ -58741,8 +57763,8 @@
         ],
         "allowColorForValueInMessage": false,
         "name": "ED",
-        "x": 850,
-        "y": 1220,
+        "x": 830,
+        "y": 680,
         "wires": []
     },
     {
@@ -58754,8 +57776,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 405,
-        "y": 1220,
+        "x": 385,
+        "y": 680,
         "wires": [
             [
                 "bed8e03b679b20a1"
@@ -58773,8 +57795,8 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 2420,
-        "y": 1080,
+        "x": 2400,
+        "y": 540,
         "wires": [
             [
                 "97df322eccd325de",
@@ -58791,8 +57813,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 2115,
-        "y": 1080,
+        "x": 2095,
+        "y": 540,
         "wires": [
             [
                 "fd9444712ce2d739"
@@ -58817,8 +57839,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 540,
-        "y": 1180,
+        "x": 520,
+        "y": 640,
         "wires": [
             [
                 "9a3c55637b414564"
@@ -58834,8 +57856,8 @@
         "links": [
             "4372d5a0.d338dc"
         ],
-        "x": 405,
-        "y": 1180,
+        "x": 385,
+        "y": 640,
         "wires": [
             [
                 "6976ac3e970219a5"
@@ -58935,8 +57957,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 405,
-        "y": 1140,
+        "x": 385,
+        "y": 600,
         "wires": [
             [
                 "f4ae677093cfe747"
@@ -58952,8 +57974,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 475,
-        "y": 840,
+        "x": 455,
+        "y": 300,
         "wires": [
             [
                 "9460f3800542cdfd"
@@ -58980,8 +58002,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 570,
-        "y": 840,
+        "x": 550,
+        "y": 300,
         "wires": [
             [
                 "89414bbc.a5514"
@@ -59043,8 +58065,8 @@
         "links": [
             "ad87cee4.7dbb5"
         ],
-        "x": 2305,
-        "y": 710,
+        "x": 2285,
+        "y": 170,
         "wires": [
             [
                 "6918ddbec17b6a14"
@@ -59071,8 +58093,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2410,
-        "y": 710,
+        "x": 2390,
+        "y": 170,
         "wires": [
             [
                 "d72d7948.167a58"
@@ -59104,8 +58126,8 @@
             "e944556b.827528"
         ],
         "uncaught": false,
-        "x": 1900,
-        "y": 1800,
+        "x": 1880,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -59284,8 +58306,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 570,
-        "y": 1040,
+        "x": 550,
+        "y": 500,
         "wires": [
             [
                 "3b8d6f41c33605f7"
@@ -59301,8 +58323,8 @@
         "links": [
             "e7cea693752dde35"
         ],
-        "x": 675,
-        "y": 1040,
+        "x": 655,
+        "y": 500,
         "wires": []
     },
     {
@@ -59356,8 +58378,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2130,
-        "y": 1740,
+        "x": 2110,
+        "y": 1200,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -59377,8 +58399,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2130,
-        "y": 1800,
+        "x": 2110,
+        "y": 1260,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -59398,8 +58420,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2130,
-        "y": 1860,
+        "x": 2110,
+        "y": 1320,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -59419,8 +58441,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2130,
-        "y": 1920,
+        "x": 2110,
+        "y": 1380,
         "wires": [
             [
                 "957a71c9.d6fe98"
@@ -59437,8 +58459,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 2015,
-        "y": 1820,
+        "x": 1995,
+        "y": 1280,
         "wires": [
             [
                 "88cf40c086d6d94c",
@@ -59460,8 +58482,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2380,
-        "y": 1550,
+        "x": 2360,
+        "y": 1010,
         "wires": [
             [
                 "8e79f1a9642157a3"
@@ -59488,8 +58510,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2640,
-        "y": 1610,
+        "x": 2620,
+        "y": 1070,
         "wires": [
             []
         ]
@@ -59506,8 +58528,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2380,
-        "y": 1590,
+        "x": 2360,
+        "y": 1050,
         "wires": [
             [
                 "1e10a31872824428"
@@ -59534,8 +58556,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2650,
-        "y": 1650,
+        "x": 2630,
+        "y": 1110,
         "wires": [
             []
         ]
@@ -59549,8 +58571,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 2175,
-        "y": 1380,
+        "x": 2155,
+        "y": 840,
         "wires": [
             [
                 "55eb0949.d6d6c8",
@@ -59580,8 +58602,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3080,
-        "y": 1320,
+        "x": 3060,
+        "y": 780,
         "wires": [
             [
                 "c7b7ebd0c74696df"
@@ -59629,8 +58651,8 @@
         ],
         "seg1": "",
         "seg2": "18",
-        "x": 3330,
-        "y": 1260,
+        "x": 3310,
+        "y": 720,
         "wires": []
     },
     {
@@ -59656,8 +58678,8 @@
         ],
         "seg1": "",
         "seg2": "18",
-        "x": 3330,
-        "y": 1300,
+        "x": 3310,
+        "y": 760,
         "wires": []
     },
     {
@@ -59683,8 +58705,8 @@
         ],
         "seg1": "",
         "seg2": "18",
-        "x": 3330,
-        "y": 1340,
+        "x": 3310,
+        "y": 800,
         "wires": []
     },
     {
@@ -59710,8 +58732,8 @@
         ],
         "seg1": "",
         "seg2": "18",
-        "x": 3330,
-        "y": 1380,
+        "x": 3310,
+        "y": 840,
         "wires": []
     },
     {
@@ -59723,8 +58745,8 @@
         "links": [
             "ecf98f3f.4a704"
         ],
-        "x": 2915,
-        "y": 1240,
+        "x": 2895,
+        "y": 700,
         "wires": [
             [
                 "eb27469341ade9cf"
@@ -59749,8 +58771,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 3050,
-        "y": 1240,
+        "x": 3030,
+        "y": 700,
         "wires": [
             [
                 "937307cb5cbbbd01"
@@ -59769,8 +58791,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2600,
-        "y": 1080,
+        "x": 2580,
+        "y": 540,
         "wires": [
             [
                 "d084fb814fbc81c7"
@@ -59789,8 +58811,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2600,
-        "y": 1140,
+        "x": 2580,
+        "y": 600,
         "wires": [
             [
                 "2279f26cd0212d82"
@@ -59815,8 +58837,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2250,
-        "y": 1080,
+        "x": 2230,
+        "y": 540,
         "wires": [
             [
                 "9045b8b8f1b4cb30"
@@ -61733,8 +60755,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2380,
-        "y": 1640,
+        "x": 2360,
+        "y": 1100,
         "wires": [
             [
                 "6980c2cc38c45434"
@@ -61750,8 +60772,8 @@
         "links": [
             "6ac7f233b494a2f5"
         ],
-        "x": 2725,
-        "y": 1040,
+        "x": 2705,
+        "y": 500,
         "wires": []
     },
     {
@@ -61955,8 +60977,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2630,
-        "y": 1740,
+        "x": 2610,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -61973,8 +60995,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2370,
-        "y": 1680,
+        "x": 2350,
+        "y": 1140,
         "wires": [
             [
                 "d42d222445fec1ba"
@@ -71942,9 +70964,7 @@
             [
                 "8916af0a.61064"
             ],
-            [
-                "8c4c4846.6ea308"
-            ]
+            []
         ]
     },
     {
@@ -71982,7 +71002,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Inputs_and_Outputs_Configuración_E.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.A.\",\t                \"Inputs_and_Outputs_Configuración_S.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.D.\",\t                \"Inputs_and_Outputs_Configuración_S.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.A.\",\t                \"Inputs_and_Outputs_FiltroArmonicos\"],\t       \"show\":[ \"Inputs_and_Outputs_Nav_Bar\",\t                \"Inputs_and_Outputs_Configuración_E.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.D.\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -72010,7 +71030,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Inputs_and_Outputs_Configuración_E.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.D.\",\t                \"Inputs_and_Outputs_Configuración_S.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.D.\",\t                \"Inputs_and_Outputs_Configuración_S.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.A.\",\t                \"Inputs_and_Outputs_FiltroArmonicos\"],\t       \"show\":[ \"Inputs_and_Outputs_Nav_Bar\",\t                \"Inputs_and_Outputs_Configuración_E.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.A.\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -72038,7 +71058,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\",\t                \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Inputs_and_Outputs_Configuración_E.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.A.\",\t                \"Inputs_and_Outputs_Configuración_E.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.D.\",\t                \"Inputs_and_Outputs_Configuración_S.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.A.\",\t                \"Inputs_and_Outputs_FiltroArmonicos\"],\t       \"show\":[ \"Inputs_and_Outputs_Nav_Bar\",\t                \"Inputs_and_Outputs_Configuración_S.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.D.\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -72066,7 +71086,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\",\t                \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Inputs_and_Outputs_Configuración_E.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.A.\",\t                \"Inputs_and_Outputs_Configuración_S.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.D.\",\t                \"Inputs_and_Outputs_Configuración_E.D.\",\t                \"Inputs_and_Outputs_Información_del_canal_E.D.\",\t                \"Inputs_and_Outputs_FiltroArmonicos\"],\t       \"show\":[ \"Inputs_and_Outputs_Nav_Bar\",\t                \"Inputs_and_Outputs_Configuración_S.A.\",\t                \"Inputs_and_Outputs_Información_del_canal_S.A.\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -72096,35 +71116,6 @@
         "x": 855,
         "y": 800,
         "wires": []
-    },
-    {
-        "id": "8c4c4846.6ea308",
-        "type": "change",
-        "z": "2e27dea6.c4c362",
-        "d": true,
-        "g": "9132da2c.b8c6b8",
-        "name": "Filtro armónicos",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Entradas_y_Salidas_Configuración_E.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.A.\",\t                \"Entradas_y_Salidas_Configuración_S.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.D.\",\t                \"Entradas_y_Salidas_Configuración_E.D.\",\t                \"Entradas_y_Salidas_Información_del_canal_E.D.\",\t                \"Entradas_y_Salidas_Configuración_S.A.\",\t                \"Entradas_y_Salidas_Información_del_canal_S.A.\"],\t       \"show\":[ \"Entradas_y_Salidas_Nav_Bar\",\t                \"Entradas_y_Salidas_FiltroArmonicos\"]\t   }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 670,
-        "y": 880,
-        "wires": [
-            [
-                "b0a2cd1a.ab273"
-            ]
-        ]
     },
     {
         "id": "890323f.ee684e",
@@ -73303,7 +72294,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 780,
@@ -73425,7 +72416,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 820,
@@ -73445,7 +72436,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 860,
@@ -73486,7 +72477,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Entradas Digitales</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Entradas Analógicas</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Salidas Digitales</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Salidas Analógicas</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
+        "template": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <!-- Bootstrap CSS -->\n    <link rel=\"stylesheet\" href=\"http://localhost:1880/bootstrap/dist/css/bootstrap.min.css\">\n\n</head>\n\n<body>\n    <!-- Navigation bar -->\n    <nav>\n        <div class=\"nav nav-pills nav-fill\" id=\"nav-tab\" role=\"tablist\">\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasDigitales-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasDigitales\" role=\"tab\" aria-controls=\"nav-EntradasDigitales\" aria-selected=\"true\"\n                ng-click=\"send({payload:EntradasDigitales()})\">Digital Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-EntradasAnalogicas-tab\" data-toggle=\"tab\"\n                href=\"#nav-EntradasAnalogicas\" role=\"tab\" aria-controls=\"nav-EntradasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:EntradasAnalogicas()})\">Analog Imputs</a>\n            <a class=\"nav-item nav-link\" id=\"nav-SalidasDigitales-tab\" data-toggle=\"tab\" href=\"#nav-SalidasDigitales\"\n                role=\"tab\" aria-controls=\"nav-SalidasDigitales\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasDigitales()})\">Digital Outputs</a>\n            <!--<a class=\"nav-item nav-link\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:FiltroArmonicos()})\">Filtro armónicos</a>-->\n            <a class=\"nav-item nav-link active\" id=\"nav-SalidasAnalogicas-tab\" data-toggle=\"tab\" href=\"#nav-SalidasAnalogicas\"\n                role=\"tab\" aria-controls=\"nav-SalidasAnalogicas\" aria-selected=\"false\"\n                ng-click=\"send({payload:SalidasAnalogicas()})\">Analog Output</a>\n        </div>\n    </nav>\n\n    <script>\n        this.scope.EntradasDigitales = function() { return \"EntradasDigitales\"; };\n        this.scope.EntradasAnalogicas = function() { return \"EntradasAnalogicas\"; };\n        this.scope.SalidasDigitales = function() { return \"SalidasDigitales\"; };\n        this.scope.SalidasAnalogicas = function() { return \"SalidasAnalogicas\"; };\n        //this.scope.FiltroArmonicos = function() { return \"FiltroArmonicos\"; };\n    </script>\n\n    <!-- Optional JavaScript -->\n    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n</body>\n\n</html>",
         "output": "str",
         "x": 220,
         "y": 940,
@@ -74228,7 +73219,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 110,
-        "y": 1620,
+        "y": 1580,
         "wires": [
             [
                 "f258f142685365f9"
@@ -74264,7 +73255,7 @@
         "repair": false,
         "outputs": 3,
         "x": 250,
-        "y": 1620,
+        "y": 1580,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -74288,7 +73279,7 @@
             "805762db.d27b7"
         ],
         "x": 535,
-        "y": 1620,
+        "y": 1580,
         "wires": []
     },
     {
@@ -74312,7 +73303,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 1620,
+        "y": 1580,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -74340,7 +73331,7 @@
         "to": "",
         "reg": false,
         "x": 400,
-        "y": 1580,
+        "y": 1540,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -74368,7 +73359,7 @@
         "to": "",
         "reg": false,
         "x": 420,
-        "y": 1660,
+        "y": 1620,
         "wires": [
             [
                 "10d0df396dc90c03"
@@ -74385,7 +73376,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 255,
-        "y": 1580,
+        "y": 1540,
         "wires": [
             [
                 "b3c56d84218b82e9"
@@ -74409,7 +73400,7 @@
         "templateScope": "local",
         "className": "",
         "x": 180,
-        "y": 1900,
+        "y": 1860,
         "wires": [
             [
                 "83caa36b0ccc7f7a"
@@ -74426,7 +73417,7 @@
             "8a17d991.081178"
         ],
         "x": 765,
-        "y": 1900,
+        "y": 1860,
         "wires": []
     },
     {
@@ -74450,7 +73441,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 1850,
+        "y": 1810,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -74501,7 +73492,7 @@
         "repair": false,
         "outputs": 6,
         "x": 410,
-        "y": 1900,
+        "y": 1860,
         "wires": [
             [
                 "829923af7edccaf9"
@@ -74544,7 +73535,7 @@
         "to": "",
         "reg": false,
         "x": 560,
-        "y": 1900,
+        "y": 1860,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -74572,7 +73563,7 @@
         "to": "",
         "reg": false,
         "x": 580,
-        "y": 1940,
+        "y": 1900,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -74600,7 +73591,7 @@
         "to": "",
         "reg": false,
         "x": 580,
-        "y": 1980,
+        "y": 1940,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -74628,7 +73619,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 2020,
+        "y": 1980,
         "wires": [
             [
                 "cc8f19affa0bda6f"
@@ -74645,7 +73636,7 @@
             "ad87cee4.7dbb5"
         ],
         "x": 415,
-        "y": 1820,
+        "y": 1780,
         "wires": [
             [
                 "829923af7edccaf9"
@@ -74668,7 +73659,7 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "x": 120,
-        "y": 1720,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -75817,7 +74808,7 @@
         "to": "",
         "reg": false,
         "x": 550,
-        "y": 2060,
+        "y": 2020,
         "wires": [
             [
                 "cc8f19affa0bda6f"
