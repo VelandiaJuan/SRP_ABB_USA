@@ -452,7 +452,7 @@
         ],
         "out": [
             {
-                "x": 930,
+                "x": 980,
                 "y": 40,
                 "wires": [
                     {
@@ -462,8 +462,8 @@
                 ]
             },
             {
-                "x": 930,
-                "y": 90,
+                "x": 980,
+                "y": 100,
                 "wires": [
                     {
                         "id": "818e472f7d541380",
@@ -1433,7 +1433,9 @@
             "8be7ccc2c2213c37"
         ],
         "x": 84,
-        "y": 231.5
+        "y": 231.5,
+        "w": 3442,
+        "h": 237
     },
     {
         "id": "deaa6892.b3d988",
@@ -1449,7 +1451,9 @@
             "31895ea6.22f372"
         ],
         "x": 88,
-        "y": 13
+        "y": 13,
+        "w": 1684,
+        "h": 214
     },
     {
         "id": "1dd5b051.a95e6",
@@ -1535,7 +1539,9 @@
             "0b62d9b206554cfd"
         ],
         "x": 74,
-        "y": 479
+        "y": 479,
+        "w": 2472,
+        "h": 512
     },
     {
         "id": "f7ed166d.1aa528",
@@ -1958,7 +1964,9 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33
+        "y": 33,
+        "w": 1004,
+        "h": 1854
     },
     {
         "id": "b3942c43115e460d",
@@ -1973,8 +1981,10 @@
             "99671f60976b1d2a",
             "dbdc491cb6e9eee5"
         ],
-        "x": 1478,
-        "y": -7
+        "x": 1488,
+        "y": -7,
+        "w": 1264,
+        "h": 1294
     },
     {
         "id": "0474082dbe49e1c2",
@@ -2061,7 +2071,9 @@
             "5a8731ef.91be5"
         ],
         "x": 1774,
-        "y": 19
+        "y": 19,
+        "w": 852,
+        "h": 132
     },
     {
         "id": "1178951067fce7a4",
@@ -2206,7 +2218,9 @@
             "349d154921de6aca"
         ],
         "x": 84,
-        "y": 999
+        "y": 999,
+        "w": 1272,
+        "h": 402
     },
     {
         "id": "ef99c8bf39cb12ee",
@@ -2323,7 +2337,9 @@
             "65668775670971ab"
         ],
         "x": 1394,
-        "y": 1019
+        "y": 1019,
+        "w": 1992,
+        "h": 1102
     },
     {
         "id": "b41ee12005a32e8e",
@@ -3615,7 +3631,9 @@
             "019e3edf07e3bcea"
         ],
         "x": 94,
-        "y": 1439
+        "y": 1439,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "9648249e35aead30",
@@ -4435,8 +4453,10 @@
             "7376a141c02b6db1",
             "4b7ccd69bee4595c"
         ],
-        "x": 1504,
-        "y": 299
+        "x": 1514,
+        "y": 299,
+        "w": 1212,
+        "h": 962
     },
     {
         "id": "99671f60976b1d2a",
@@ -4463,7 +4483,9 @@
             "6a229694c9c0fbca"
         ],
         "x": 1514,
-        "y": 19
+        "y": 19,
+        "w": 992,
+        "h": 212
     },
     {
         "id": "95daead77be77494",
@@ -4511,7 +4533,9 @@
             "bde48f770f85aba2"
         ],
         "x": 384,
-        "y": 1129
+        "y": 1129,
+        "w": 532,
+        "h": 732
     },
     {
         "id": "87fca62744442ad4",
@@ -4547,7 +4571,9 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229
+        "y": 229,
+        "w": 702,
+        "h": 272
     },
     {
         "id": "a7f58aaec292b159",
@@ -4589,7 +4615,9 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509
+        "y": 509,
+        "w": 952,
+        "h": 272
     },
     {
         "id": "37b64a70f39dda06",
@@ -4629,7 +4657,9 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789
+        "y": 789,
+        "w": 812,
+        "h": 322
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -4655,7 +4685,9 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59
+        "y": 59,
+        "w": 802,
+        "h": 162
     },
     {
         "id": "b079c206d161b62c",
@@ -5467,7 +5499,9 @@
             "afa7cc8cdf628598"
         ],
         "x": 114,
-        "y": 39
+        "y": 39,
+        "w": 812,
+        "h": 162
     },
     {
         "id": "31895ea6.22f372",
@@ -5493,7 +5527,9 @@
             "6b1feb88ad4eaa12"
         ],
         "x": 934,
-        "y": 39
+        "y": 39,
+        "w": 812,
+        "h": 162
     },
     {
         "id": "f3c2e7cf.5ed158",
@@ -8444,7 +8480,7 @@
     {
         "id": "fe41bc20.3ab56",
         "type": "ui_tab",
-        "name": "Protecciones",
+        "name": "Protection",
         "icon": "fa-shield",
         "order": 6,
         "disabled": false,
@@ -16104,7 +16140,7 @@
         "type": "function",
         "z": "a52b5a046f4fd02f",
         "name": "Protections HH/LL",
-        "func": "var Prot        = env.get('protection') || \"test\";\nvar ProtESP     = {\n    Load: \"'Corriente VSD'\",\n    MotorLoad: \"Corriente de motor\",\n    THP: \"'THP'\",\n    THT: \"'THT'\",\n    CARGA: \"'CARGA'\",\n    VibrationGeneral: \"'Vibración general'\",\n    CurrentLeakage: \"'Corriente de fuga'\",\n    IntakePressure: \"'Presión de entrada'\",\n    DischargePressure: \"'Presión de descarga'\",\n    IntakeTemperature: \"'Temperatura de entrada'\",\n    MotorTemperature: \"'Temperatura de motor'\",\n    Voltage:\"'Tensión de entrada'\",\n    BusDC:\"'Bus DC'\",\n    DynamicFluidLevel: \"Nivel de fluido dinámico\"\n}\nif (msg.Mensaje == \"Trigger by HH Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".HH\";\n    msg.payload = \"Disparo por protección \" + ProtESP[Prot]+ \" HH\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nelse if (msg.Mensaje == \"Trigger by LL Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".LL\";\n    msg.payload = \"Disparo por protección \" + ProtESP[Prot] + \" LL\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nreturn msg;",
+        "func": "var Prot        = env.get('protection') || \"test\";\nvar ProtESP = {\n    Load: \"Current VSD'\",\n    MotorLoad: \"Current de motor\",\n    THP: \"'THP'\",\n    THT: \"'THT'\",\n    CARGA: \"'Load'\",\n    VibrationGeneral: \"'overall vibration'\",\n    CurrentLeakage: \"'leakage current'\",\n    IntakePressure: \"'Inlet Pressure'\",\n    DischargePressure: \"'Discharge Pressure'\",\n    IntakeTemperature: \"'inlet temperature'\",\n    MotorTemperature: \"'Motor Temperature'\",\n    Voltage: \"'In Voltage'\",\n    BusDC: \"'Bus DC'\",\n    DynamicFluidLevel: \"Dynamic Fluid Level\"\n}\n// var ProtESP     = {\n//     Load: \"'Corriente VSD'\",\n//     MotorLoad: \"Corriente de motor\",\n//     THP: \"'THP'\",\n//     THT: \"'THT'\",\n//     CARGA: \"'CARGA'\",\n//     VibrationGeneral: \"'Vibración general'\",\n//     CurrentLeakage: \"'Corriente de fuga'\",\n//     IntakePressure: \"'Presión de entrada'\",\n//     DischargePressure: \"'Presión de descarga'\",\n//     IntakeTemperature: \"'Temperatura de entrada'\",\n//     MotorTemperature: \"'Temperatura de motor'\",\n//     Voltage:\"'Tensión de entrada'\",\n//     BusDC:\"'Bus DC'\",\n//     DynamicFluidLevel: \"Nivel de fluido dinámico\"\n// }\nif (msg.Mensaje == \"Trigger by HH Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".HH\";\n    msg.payload = \"Protection shot \" + ProtESP[Prot]+ \" HH\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nelse if (msg.Mensaje == \"Trigger by LL Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".LL\";\n    msg.payload = \"Protection Shot \" + ProtESP[Prot] + \" LL\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16236,7 +16272,7 @@
         "type": "function",
         "z": "a52b5a046f4fd02f",
         "name": "Protections H/L",
-        "func": "var Prot        = env.get('protection') || \"test\";\nvar ProtESP = {\n    Load: \"'Corriente VSD'\",\n    MotorLoad: \"Corriente de motor\",\n    THP: \"'THP'\",\n    THT: \"'THT'\",\n    CARGA: \"'CARGA'\",\n    VibrationGeneral: \"'Vibración general'\",\n    CurrentLeakage: \"'Corriente de fuga'\",\n    IntakePressure: \"'Presión de entrada'\",\n    DischargePressure: \"'Presión de descarga'\",\n    IntakeTemperature: \"'Temperatura de entrada'\",\n    MotorTemperature: \"'Temperatura de motor'\",\n    Voltage: \"'Tensión de entrada'\",\n    BusDC: \"'Bus DC'\",\n    DynamicFluidLevel: \"Nivel de fluido dinámico\"\n}\n\nif (msg.Mensaje == \"Alarm by H Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".H\";\n    msg.payload = \"Alarma por protección \" + ProtESP[Prot] + \" H\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nelse if (msg.Mensaje == \"Alarm by L Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".L\";\n    msg.payload = \"Alarma por protección \" + ProtESP[Prot] + \" L\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\n\ndispQuery = \"Protections.\" + Prot + \".HH\";\nglobal.set(dispQuery, false, \"memoryOnly\");\ndispQuery = \"Protections.\" + Prot + \".LL\";\nglobal.set(dispQuery, false, \"memoryOnly\");\n\nreturn msg;",
+        "func": "var Prot        = env.get('protection') || \"test\";\nvar ProtESP = {\n    Load: \"Current VSD'\",\n    MotorLoad: \"Current de motor\",\n    THP: \"'THP'\",\n    THT: \"'THT'\",\n    CARGA: \"'Load'\",\n    VibrationGeneral: \"'overall vibration'\",\n    CurrentLeakage: \"'leakage current'\",\n    IntakePressure: \"'Inlet Pressure'\",\n    DischargePressure: \"'Discharge Pressure'\",\n    IntakeTemperature: \"'inlet temperature'\",\n    MotorTemperature: \"'Motor Temperature'\",\n    Voltage: \"'In Voltage'\",\n    BusDC: \"'Bus DC'\",\n    DynamicFluidLevel: \"Dynamic Fluid Level\"\n}\n\nif (msg.Mensaje == \"Alarm by H Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".H\";\n    msg.payload = \"Alarm by Protection \" + ProtESP[Prot] + \" H\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\nelse if (msg.Mensaje == \"Alarm by L Protection\"){\n    var dispQuery = \"Protections.\" + Prot + \".L\";\n    msg.payload = \"Alarm by Protection \" + ProtESP[Prot] + \" L\";\n    global.set(dispQuery, true, \"memoryOnly\");\n}\n\ndispQuery = \"Protections.\" + Prot + \".HH\";\nglobal.set(dispQuery, false, \"memoryOnly\");\ndispQuery = \"Protections.\" + Prot + \".LL\";\nglobal.set(dispQuery, false, \"memoryOnly\");\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -29837,12 +29873,12 @@
         "multiple": false,
         "options": [
             {
-                "label": "Tensión",
+                "label": "Voltage",
                 "value": "Voltage",
                 "type": "str"
             },
             {
-                "label": "Corriente VSD",
+                "label": "Load VSD",
                 "value": "Load",
                 "type": "str"
             },
@@ -29852,57 +29888,57 @@
                 "type": "str"
             },
             {
-                "label": "Presión THP",
+                "label": "Pressure THP",
                 "value": "THP",
                 "type": "str"
             },
             {
-                "label": "Temperatura THT",
+                "label": "Temperature THT",
                 "value": "THT",
                 "type": "str"
             },
             {
-                "label": "Vibración",
+                "label": "Vibration",
                 "value": "VibrationGeneral",
                 "type": "str"
             },
             {
-                "label": "Corriente de fuga",
+                "label": "Leakage current",
                 "value": "CurrentLeakage",
                 "type": "str"
             },
             {
-                "label": "Presión de entrada",
+                "label": "PIP",
                 "value": "IntakePressure",
                 "type": "str"
             },
             {
-                "label": "Presión de descarga",
+                "label": "Discharge Pressure",
                 "value": "DischargePressure",
                 "type": "str"
             },
             {
-                "label": "Temperatura de entrada",
+                "label": "Intake Temperature",
                 "value": "IntakeTemperature",
                 "type": "str"
             },
             {
-                "label": "Temperatura de motor",
+                "label": "Motor Temperature",
                 "value": "MotorTemperature",
                 "type": "str"
             },
             {
-                "label": "Temperatura de descarga",
+                "label": "Discharge Temperature",
                 "value": "DischargeTemperature",
                 "type": "str"
             },
             {
-                "label": "Nivel de fluido dinámico",
+                "label": "Dynamic Fluid Level",
                 "value": "DynamicFluidLevel",
                 "type": "str"
             },
             {
-                "label": "Carga Barra Pulida",
+                "label": "Load Polished",
                 "value": "CARGA",
                 "type": "str"
             }
@@ -29932,7 +29968,7 @@
         "columns": [
             {
                 "field": "protec",
-                "title": "Protección",
+                "title": "Protection",
                 "width": "65%",
                 "align": "left",
                 "formatter": "html",
@@ -29942,7 +29978,7 @@
             },
             {
                 "field": "condic",
-                "title": "Condición",
+                "title": "Condition",
                 "width": "35%",
                 "align": "left",
                 "formatter": "html",
@@ -30290,6 +30326,7 @@
         "label": "",
         "format": "{{msg.payload}}Enable",
         "layout": "row-center",
+        "className": "",
         "x": 730,
         "y": 270,
         "wires": []
@@ -30305,8 +30342,9 @@
         "height": 1,
         "name": "valor",
         "label": "",
-        "format": "Valor",
+        "format": "Value:",
         "layout": "row-center",
+        "className": "",
         "x": 720,
         "y": 550,
         "wires": []
@@ -30322,8 +30360,9 @@
         "height": 1,
         "name": "Tiempo muerto",
         "label": "",
-        "format": "T. Muerto",
+        "format": "Time Out",
         "layout": "row-center",
+        "className": "",
         "x": 810,
         "y": 830,
         "wires": []
@@ -30334,7 +30373,7 @@
         "z": "9941a439.4b17c8",
         "g": "ee5753bdd6eedb72",
         "name": "a Tabla",
-        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\", \"Load\", \"BusDC\", \"THP\", \"THT\", \"VibrationGeneral\", \"CurrentLeakage\", \"IntakePressure\", \"DischargePressure\", \"IntakeTemperature\", \"MotorTemperature\", \"DischargeTemperature\", \"DynamicFluidLevel\", \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Tension\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Corriente VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Presión THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temperatura THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibración\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>Corriente de fuga\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Presión de entrada\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Presión de descarga\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Temperatura de entrada\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Temperatura de motor\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Temperatura de descarga\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Nivel de fluido dinámico\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>Carga\", 'condic': estadoprot[13] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarma L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Disparo LL<b>\";\n                }\n            }\n        }\n    }\n}",
+        "func": "var protecciones = global.get(\"Protections\") || null;\nvar statusprot = global.get(\"Protections\", \"memoryOnly\") || null;\nvar labelprot = [\"Voltage\", \"Load\", \"BusDC\", \"THP\", \"THT\", \"VibrationGeneral\", \"CurrentLeakage\", \"IntakePressure\", \"DischargePressure\", \"IntakeTemperature\", \"MotorTemperature\", \"DischargeTemperature\", \"DynamicFluidLevel\", \"CARGA\"];\nvar estadoprot = [];\nvar i;\n\nevaluarhab();\nif (statusprot != null) evalstatus();\n\nmsg.payload = [{ 'protec': \"<font size = 4px>Voltage\", 'condic': estadoprot[0] },\n{ 'protec': \"<font size = 4px>Current VSD\", 'condic': estadoprot[1] },\n{ 'protec': \"<font size = 4px>Bus DC\", 'condic': estadoprot[2] },\n{ 'protec': \"<font size = 4px>Pressure THP\", 'condic': estadoprot[3] },\n{ 'protec': \"<font size = 4px>Temp THT\", 'condic': estadoprot[4] },\n{ 'protec': \"<font size = 4px>Vibration\", 'condic': estadoprot[5] },\n{ 'protec': \"<font size = 4px>leakage current\", 'condic': estadoprot[6] },\n{ 'protec': \"<font size = 4px>Inlet pressure\", 'condic': estadoprot[7] },\n{ 'protec': \"<font size = 4px>Discharge pressure\", 'condic': estadoprot[8] },\n{ 'protec': \"<font size = 4px>Inlet temperature\", 'condic': estadoprot[9] },\n{ 'protec': \"<font size = 4px>Motor Temperature\", 'condic': estadoprot[10] },\n{ 'protec': \"<font size = 4px>Discharge Temperature\", 'condic': estadoprot[11] },\n{ 'protec': \"<font size = 4px>Dynamic Fluid Level\", 'condic': estadoprot[12] },\n{ 'protec': \"<font size = 4px>Load\", 'condic': estadoprot[13] }\n];\nreturn msg;\nfunction evaluarhab() {\n    for (i = 0; i < labelprot.length; i++) {\n        var acu = 0;\n        if (protecciones != null) {\n            if (typeof protecciones[labelprot[i]] != 'undefined') {\n                if (typeof protecciones[labelprot[i]].HH != 'undefined') {\n                    if (protecciones[labelprot[i]].HH.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].H != 'undefined') {\n                    if (protecciones[labelprot[i]].H.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].L != 'undefined') {\n                    if (protecciones[labelprot[i]].L.EN == true)\n                        acu++;\n                }\n                if (typeof protecciones[labelprot[i]].LL != 'undefined') {\n                    if (protecciones[labelprot[i]].LL.EN == true)\n                        acu++;\n                }\n                if (acu > 0)\n                    estadoprot.push(\"<font size = 4px><font color = green>Normal\");\n                else\n                    estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n            }\n            else\n                estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n        }\n        else\n            estadoprot.push(\"<font size = 4px><font color = gray>-----\");\n    }\n}\n\nfunction evalstatus() {\n    for (i = 0; i < labelprot.length; i++) {\n        if (statusprot != null) {\n            if (estadoprot[i] == \"<font size = 4px><font color = green>Normal\") {\n                if (typeof statusprot[labelprot[i]] != 'undefined') {\n                    if (statusprot[labelprot[i]].H == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarm H<b>\";\n                    if (statusprot[labelprot[i]].L == true)\n                        estadoprot[i] = \"<font size = 4px><font color = orange><b>Alarm L<b>\";\n                    if (statusprot[labelprot[i]].HH == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Trigger HH<b>\";\n                    if (statusprot[labelprot[i]].LL == true)\n                        estadoprot[i] = \"<font size = 4px><font color = red><b>Trigger LL<b>\";\n                }\n            }\n        }\n    }\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -30359,7 +30398,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Protecciones",
+                "v": "Protection",
                 "vt": "str"
             }
         ],
@@ -30725,15 +30764,17 @@
         "width": 2,
         "height": 1,
         "passthru": false,
-        "label": "Guardar",
+        "label": "Save",
         "tooltip": "",
         "color": "",
         "bgcolor": "#32499d",
+        "className": "",
         "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "",
-        "x": 470,
+        "topicType": "str",
+        "x": 460,
         "y": 1450,
         "wires": [
             [
@@ -32429,7 +32470,7 @@
         "rules": [
             {
                 "t": "eq",
-                "v": "Protecciones",
+                "v": "Protection",
                 "vt": "str"
             }
         ],
@@ -32506,9 +32547,10 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Valor actual",
+        "label": "Actual Value",
         "format": "<font size = 5px>{{msg.payload}}",
         "layout": "col-center",
+        "className": "",
         "x": 2070,
         "y": 1080,
         "wires": []
@@ -33011,11 +33053,12 @@
         "z": "9941a439.4b17c8",
         "g": "99671f60976b1d2a",
         "name": "",
-        "func": "msg.payload = \"Detención del equipo por disparo de protección\";\nreturn msg;",
+        "func": "msg.payload = \"Equipment shutdown due to protection trip\";\nmsg.topic = 'Protection activated'\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 2240,
         "y": 100,
         "wires": [
@@ -33082,7 +33125,7 @@
         "z": "9941a439.4b17c8",
         "g": "37b64a70f39dda06",
         "name": "",
-        "label": "Disparo de breaker",
+        "label": "Breaker Shot",
         "tooltip": "",
         "group": "4b33f8ea.b34188",
         "order": 19,
@@ -33103,7 +33146,7 @@
         "offcolor": "",
         "animate": true,
         "className": "",
-        "x": 670,
+        "x": 650,
         "y": 1070,
         "wires": [
             [
@@ -33847,7 +33890,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "Guardando ajustes de protección por +++",
+                "to": "Saving protection settings by +++",
                 "tot": "str"
             },
             {
@@ -33863,7 +33906,7 @@
                 "t": "set",
                 "p": "topic",
                 "pt": "msg",
-                "to": "Guardando",
+                "to": "Saving",
                 "tot": "str"
             }
         ],
@@ -64889,10 +64932,11 @@
         "width": 3,
         "height": 1,
         "name": "",
-        "label": "Última detención",
+        "label": "Last Stop Motor",
         "format": "{{msg.payload}}",
         "layout": "col-center",
-        "x": 2460,
+        "className": "",
+        "x": 2450,
         "y": 60,
         "wires": []
     },
@@ -73556,7 +73600,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"Protection\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73583,7 +73627,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protection\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73610,7 +73654,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Control_Function\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Control_Function\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73637,7 +73681,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protecciones\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Control_Function\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Entradas_y_Salidas\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Control_Function\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
