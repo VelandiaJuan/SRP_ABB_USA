@@ -14,5 +14,6 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Online' ">
     <OutputPath>bin\Online\</OutputPath>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Simulation' " />
   <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\ISaGRAF.ISaGRAF5.targets" />
 </Project>
