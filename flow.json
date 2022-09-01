@@ -4261,7 +4261,7 @@
         "x": 214,
         "y": 273,
         "w": 1442,
-        "h": 1474
+        "h": 1594
     },
     {
         "id": "9c347c7fce78057a",
@@ -6225,8 +6225,8 @@
             "aa463aa620d9836f",
             "1d8939469bf38097"
         ],
-        "x": 454,
-        "y": 1499,
+        "x": 464,
+        "y": 1619,
         "w": 952,
         "h": 122
     },
@@ -6327,7 +6327,7 @@
             "11ef0a743969f2c0"
         ],
         "x": 454,
-        "y": 1639,
+        "y": 1759,
         "w": 512,
         "h": 82
     },
@@ -21921,11 +21921,12 @@
         "z": "902fc438.e5d758",
         "g": "fcb3da61.429db8",
         "name": "Estado fun. de control",
-        "func": "var arauto = global.get(\"Control_functions.ActiveCF.AutomaticRestart\", \"memoryOnly\") || false;\nvar prolongada = global.get(\"Control_functions.ActiveCF.Prolonged_Reference\", \"memoryOnly\") || false;\nvar escalonado = global.get(\"Control_functions.ActiveCF.Staggered_start\", \"memoryOnly\") || false;\nvar PIDController = global.get(\"Control_functions.ActiveCF.PIDController\", \"memoryOnly\") || false;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\nvar auxt;\n\nvar contreg = global.get(\"Control_functions.ActiveCF.Conteo\", \"memoryOnly\") || 0;\nif (contreg != 0) {\n    auxt = \" en \" + contreg.toFixed(0) + \" s\";\n    global.set(\"Control_functions.ActiveCF.Conteo\", contreg - 0.5, \"memoryOnly\")\n}\nelse\n    auxt = \"\";\n\nif (count == 4)\n    count = 0;\n\nif (PIDController)\n    msg.payload = \"Modo de control PID\";\n\nelse if (arauto)\n    msg.payload = \"Ejecutando arranque automático\" + auxt;\n\nelse if (escalonado)\n    msg.payload = \"Ejecutando Arranque escalonado\";\n\nelse if (prolongada)\n    msg.payload = \"Ejecutando referencia prolongada\";\n\nelse\n    msg.payload = \"\";\n\nif (count > 2)\n    msg.payload = \"\";\n\ncontext.set(\"count\", count + 1, \"memoryOnly\");\n\nreturn msg;\n",
+        "func": "var arauto = global.get(\"Control_functions.ActiveCF.AutomaticRestart\", \"memoryOnly\") || false;\nvar prolongada = global.get(\"Control_functions.ActiveCF.Prolonged_Reference\", \"memoryOnly\") || false;\nvar escalonado = global.get(\"Control_functions.ActiveCF.Staggered_start\", \"memoryOnly\") || false;\nvar PIDController = global.get(\"Control_functions.ActiveCF.PIDController\", \"memoryOnly\") || false;\nvar count = context.get(\"count\", \"memoryOnly\") || 0;\nvar auxt;\n\nvar contreg = global.get(\"Control_functions.ActiveCF.Conteo\", \"memoryOnly\") || 0;\nif (contreg != 0) {\n    auxt = \" en \" + contreg.toFixed(0) + \" s\";\n    global.set(\"Control_functions.ActiveCF.Conteo\", contreg - 0.5, \"memoryOnly\")\n}\nelse\n    auxt = \"\";\n\nif (count == 4)\n    count = 0;\n\nif (PIDController)\n    msg.payload = \"Modo de control PID\";\n\nelse if (arauto)\n    msg.payload = \"Running autostart : \" + auxt;\n\nelse if (escalonado)\n    msg.payload = \"Ejecutando Arranque escalonado\";\n\nelse if (prolongada)\n    msg.payload = \"Ejecutando referencia prolongada\";\n\nelse\n    msg.payload = \"\";\n\nif (count > 2)\n    msg.payload = \"\";\n\ncontext.set(\"count\", count + 1, \"memoryOnly\");\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 410,
         "y": 840,
         "wires": [
@@ -89785,8 +89786,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
-        "y": 1540,
+        "x": 1250,
+        "y": 1660,
         "wires": [
             []
         ]
@@ -89801,8 +89802,8 @@
             "4456b445ce3c4dfc",
             "ad87cee4.7dbb5"
         ],
-        "x": 575,
-        "y": 1540,
+        "x": 585,
+        "y": 1660,
         "wires": [
             [
                 "1d8939469bf38097"
@@ -89821,8 +89822,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 550,
-        "y": 1580,
+        "x": 560,
+        "y": 1700,
         "wires": [
             [
                 "1d8939469bf38097"
@@ -89847,8 +89848,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 940,
-        "y": 1560,
+        "x": 950,
+        "y": 1680,
         "wires": [
             [
                 "aa463aa620d9836f"
@@ -89931,7 +89932,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 550,
-        "y": 1680,
+        "y": 1800,
         "wires": [
             [
                 "f9bc6c1e0ee8166f"
@@ -89957,7 +89958,7 @@
         "to": "",
         "reg": false,
         "x": 800,
-        "y": 1680,
+        "y": 1800,
         "wires": [
             []
         ]
@@ -90447,8 +90448,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 760,
-        "y": 1540,
+        "x": 770,
+        "y": 1660,
         "wires": [
             [
                 "5c4af827690ff74e"
