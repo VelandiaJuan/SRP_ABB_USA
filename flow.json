@@ -1652,9 +1652,7 @@
             "98ca0b1c.cda4f8"
         ],
         "x": 24,
-        "y": 29,
-        "w": 942,
-        "h": 202
+        "y": 29
     },
     {
         "id": "57eba231.4d56dc",
@@ -1674,9 +1672,7 @@
             "e9e93a2c.deeb18"
         ],
         "x": 28,
-        "y": 243,
-        "w": 374,
-        "h": 304
+        "y": 243
     },
     {
         "id": "2fa4e5be63ea61ce",
@@ -2814,8 +2810,6 @@
         ],
         "x": 734,
         "y": 51.5,
-        "w": 652,
-        "h": 307,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2845,9 +2839,7 @@
             "0832a6b33e1f520c"
         ],
         "x": 134,
-        "y": 379,
-        "w": 538,
-        "h": 649.5
+        "y": 379
     },
     {
         "id": "23c99fd.b16886",
@@ -2871,8 +2863,6 @@
         ],
         "x": 134,
         "y": 51.5,
-        "w": 572,
-        "h": 287,
         "info": "# Condiciones\nSólo funciona si el nombre del proyecto es \"CILA2S-ESP-SWCPRO_AFE\""
     },
     {
@@ -2891,9 +2881,7 @@
             "5e35a538.cad0cc"
         ],
         "x": 734,
-        "y": 391.5,
-        "w": 432,
-        "h": 157
+        "y": 391.5
     },
     {
         "id": "0b2810c6ae6bfc8d",
@@ -3571,9 +3559,7 @@
             "c1a0f15034a2446e"
         ],
         "x": 734,
-        "y": 579,
-        "w": 512,
-        "h": 369.5
+        "y": 579
     },
     {
         "id": "a97cd0a5989cf9c4",
@@ -3848,9 +3834,7 @@
             "acfd4e6c8990af6f"
         ],
         "x": 1414,
-        "y": 51.5,
-        "w": 472,
-        "h": 237
+        "y": 51.5
     },
     {
         "id": "5d518c95ba8096ba",
@@ -4172,9 +4156,7 @@
             "846fb01661b6d7ee"
         ],
         "x": 1314,
-        "y": 591.5,
-        "w": 472,
-        "h": 157
+        "y": 591.5
     },
     {
         "id": "8594dcc8d0ea67bc",
@@ -4273,7 +4255,8 @@
             "f82d188a766cf90e",
             "cec17947a6630962",
             "c04812a5883d7878",
-            "52fba370030a92a6"
+            "52fba370030a92a6",
+            "5e56e6c1e9d50c6a"
         ],
         "x": 214,
         "y": 273,
@@ -5567,9 +5550,7 @@
             "f0c186466f456fd2"
         ],
         "x": 54,
-        "y": 269,
-        "w": 322,
-        "h": 122
+        "y": 269
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -5589,9 +5570,7 @@
             "37f2db57.b831c4"
         ],
         "x": 54,
-        "y": 399,
-        "w": 322,
-        "h": 122
+        "y": 399
     },
     {
         "id": "dad84feb.d4773",
@@ -5917,9 +5896,7 @@
             "351eccb8791a5abd"
         ],
         "x": 374,
-        "y": 411.5,
-        "w": 272,
-        "h": 277
+        "y": 411.5
     },
     {
         "id": "4e3c5a17481ed180",
@@ -8487,7 +8464,7 @@
     {
         "id": "fdffe6bc.86dd78",
         "type": "ui_tab",
-        "name": "Event and Datalog",
+        "name": "Events and Datalog",
         "icon": "fa-calendar",
         "order": 3,
         "disabled": false,
@@ -71768,7 +71745,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Event_and_Datalog_Alarmas\",\t                \"Event_and_Datalog_Settings\",\t                \"Event_and_Datalog_PQAevents\",\t                \"Event_and_Datalog_Smart_Datalogger®\",\t                \"Event_and_Datalog_Buttons\"],\t       \"show\":[ \"Event_and_Datalog_Nav_Bar_User\",\t                \"Event_and_Datalog_Eventos\",\t                \"Event_and_Datalog_Memorias_USB\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Events_and_Datalog_Alarmas\",\t                \"Events_and_Datalog_Settings\",\t                \"Events_and_Datalog_PQAevents\",\t                \"Events_and_Datalog_Smart_Datalogger®\",\t                \"Events_and_Datalog_Buttons\"],\t       \"show\":[ \"Events_and_Datalog_Nav_Bar_User\",\t                \"Events_and_Datalog_Eventos\",\t                \"Events_and_Datalog_Memorias_USB\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -71812,7 +71789,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Event_and_Datalog_Eventos\",\t                \"Event_and_Datalog_Settings\",\t                \"Event_and_Datalog_PQAevents\",\t                \"Event_and_Datalog_Smart_Datalogger®\",\t                \"Event_and_Datalog_Buttons\"],\t       \"show\":[ \"Event_and_Datalog_Nav_Bar_User\",\t                \"Event_and_Datalog_Alarmas\",\t                \"Event_and_Datalog_Memorias_USB\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Events_and_Datalog_Eventos\",\t                \"Events_and_Datalog_Settings\",\t                \"Events_and_Datalog_PQAevents\",\t                \"Events_and_Datalog_Smart_Datalogger®\",\t                \"Events_and_Datalog_Buttons\"],\t       \"show\":[ \"Events_and_Datalog_Nav_Bar_User\",\t                \"Events_and_Datalog_Alarmas\",\t                \"Events_and_Datalog_Memorias_USB\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -71840,7 +71817,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Event_and_Datalog_Eventos\",\t                \"Event_and_Datalog_Alarmas\",\t                \"Event_and_Datalog_Memorias_USB\",\t                \"Event_and_Datalog_PQAevents\"\t                ],\t       \"show\":[ \"Event_and_Datalog_Nav_Bar_User\",\t                \"Event_and_Datalog_Settings\",\t                \"Event_and_Datalog_Smart_Datalogger®\",\t                \"Event_and_Datalog_Buttons\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Events_and_Datalog_Eventos\",\t                \"Events_and_Datalog_Alarmas\",\t                \"Events_and_Datalog_Memorias_USB\",\t                \"Events_and_Datalog_PQAevents\"\t                ],\t       \"show\":[ \"Events_and_Datalog_Nav_Bar_User\",\t                \"Events_and_Datalog_Settings\",\t                \"Events_and_Datalog_Smart_Datalogger®\",\t                \"Events_and_Datalog_Buttons\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73157,7 +73134,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS\",\t        \"Control_Function\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [],\t    \"show\":\t        [\"Main\",\t        \"Events_and_Datalog\",\t        \"Trend\",\t        \"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"User\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"AVAS\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73184,7 +73161,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"SWC\",\t        \"Sensor_de_Fondo\"],\t    \"show\":\t        [\"Main\",\t        \"Events_and_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"User\",\t        \"AVAS®\",\t        \"Control_Function\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73211,7 +73188,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Control_Function\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\"],\t    \"show\":\t        [\"Main\",\t        \"Events_and_Datalog\",\t        \"Settings\",\t        \"Trend\",\t        \"Control_Function\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73238,7 +73215,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Control_Function\"],\t    \"show\":\t        [\"Main\",\t        \"Eventos_y_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
+                "to": "{\"tabs\":\t    {\"hide\":\t        [\"Protection\",\t        \"Inputs_and_Outputs\",\t        \"Config_VSD\",\t        \"Sensor_de_Fondo\",\t        \"SWC\",\t        \"Settings\",\t        \"Control_Function\"],\t    \"show\":\t        [\"Main\",\t        \"Events_and_Datalog\",\t        \"Trend\",\t        \"AVAS®\",\t        \"User\"]\t    }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -73712,7 +73689,7 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "{\t   \"group\":{\t       \"hide\":[ \"Event_and_Datalog_Eventos\",\t                \"Event_and_Datalog_Alarmas\",\t                \"Event_and_Datalog_Settings\",\t                \"Event_and_Datalog_Buttons\",\t                \"Event_and_Datalog_Smart_Datalogger®\",\t                \"Event_and_Datalog_Memorias_USB\"\t                ],\t       \"show\":[ \"Event_and_Datalog_Nav_Bar_User\",\t                \"Event_and_Datalog_PQAevents\"]\t   }\t}",
+                "to": "{\t   \"group\":{\t       \"hide\":[ \"Events_and_Datalog_Eventos\",\t                \"Events_and_Datalog_Alarmas\",\t                \"Events_and_Datalog_Settings\",\t                \"Events_and_Datalog_Buttons\",\t                \"Events_and_Datalog_Smart_Datalogger®\",\t                \"Events_and_Datalog_Memorias_USB\"\t                ],\t       \"show\":[ \"Events_and_Datalog_Nav_Bar_User\",\t                \"Events_and_Datalog_PQAevents\"]\t   }\t}",
                 "tot": "jsonata"
             }
         ],
@@ -91162,7 +91139,8 @@
         "y": 1380,
         "wires": [
             [
-                "655fc1d0311b4b60"
+                "655fc1d0311b4b60",
+                "c04812a5883d7878"
             ]
         ]
     },
@@ -91242,7 +91220,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1030,
         "y": 1440,
         "wires": [
             [
@@ -91254,6 +91232,7 @@
         "id": "5e56e6c1e9d50c6a",
         "type": "inject",
         "z": "6a1ef6a7aef873a7",
+        "g": "72721203a4d865af",
         "name": "",
         "props": [],
         "repeat": "",
@@ -91262,8 +91241,8 @@
         "onceDelay": 0.1,
         "topic": "",
         "payloadType": "str",
-        "x": 930,
-        "y": 1440,
+        "x": 850,
+        "y": 1460,
         "wires": [
             [
                 "c04812a5883d7878"
@@ -91282,7 +91261,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1260,
+        "x": 1220,
         "y": 1440,
         "wires": [
             [
@@ -91296,13 +91275,13 @@
         "z": "6a1ef6a7aef873a7",
         "g": "72721203a4d865af",
         "name": "jose's Function",
-        "func": "var vector = global.get(\"Dinagrama.superficie.Desp_CD\") || [];\n\nvar vOrganizado=organizarVector(vector,1)\n\n// global.set(\"Dinagrama.superficie.Desp_CD\", vOrganizado);\n\nvar variables ={\n    vector:vector,\n    vOrganizado:vOrganizado,\n}\ncontext.set('variables',variables,'memoryOnly');\nreturn msg;\n\n// función que organiza el vector de posicion para el \n// stroke perfecto\nfunction organizarVector(vector, a = 1){\n    // #a: 1 para minimos y 2 para máximos\n    var Aux = 999999, indAux = 0;\n    if(a == 1){\n        for (let i = 0; i < vector.length; i++) {\n            if(vector[i] < Aux){\n                Aux = vector[i];\n                indAux = i;\n            }    \n        }\n    }else if(a == 2){\n        Aux = 0,indAux = 0;\n        for (let i = 0; i < vector.length; i++) {\n            if(vector[i] > Aux){\n                Aux = vector[i];\n                indAux = i;\n            }\n        }\n    }\n    var n = 2 //Duplicidad del vector \n    var Veldup = Array(n * (vector.length)).fill(0)\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < vector.length; j++) {\n            Veldup[j + i * (vector.length)] = vector[j];\n        }\n        \n    }\n    // Acotar el vector al indicado\n    \n    var vectorAux = { ...Veldup }//clonar lo que hay\n    vectorAux = Object.values(vectorAux);//creando el array\n    \n    // corrimiento del vecto a posición de los indices\n    vectorAux.splice(indAux - 5, vector.length + indAux);\n\n    return vectorAux;\n\n}",
+        "func": "var vector = global.get(\"Dinagrama.superficie.Desp_CD\") || [];\n\nvar vOrganizado=organizarVector(vector,1)\n\n// global.set(\"Dinagrama.superficie.Desp_CD\", vOrganizado);\n\nvar variables ={\n    vector:vector,\n    vOrganizado:vOrganizado,\n}\ncontext.set('variables',variables,'memoryOnly');\nreturn msg;\n\n\n// funcion desarrollada por el Ing José Contreras \n// date of 01/09/2022\n// con mucho cariño\nfunction organizarVector(vector, a = 1){\n    // #a: 1 para minimos y 2 para máximos\n    var Aux = 999999, indAux = 0;\n    if(a == 1){\n        for (let i = 0; i < vector.length; i++) {\n            if(vector[i] < Aux){\n                Aux = vector[i];\n                indAux = i;\n            }    \n        }\n    }else if(a == 2){\n        Aux = 0,indAux = 0;\n        for (let i = 0; i < vector.length; i++) {\n            if(vector[i] > Aux){\n                Aux = vector[i];\n                indAux = i;\n            }\n        }\n    }\n    var n = 2 //Duplicidad del vector \n    var Veldup = Array(n * (vector.length)).fill(0)\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < vector.length; j++) {\n            Veldup[j + i * (vector.length)] = vector[j];\n        }\n        \n    }\n    // Acotar el vector al indicado\n    \n    // var vectorAux = { ...Veldup }//clonar lo que hay\n    // vectorAux = Object.values(vectorAux);//creando el array\n    \n    // // corrimiento del vecto a posición de los indices\n    // vectorAux.splice(indAux, vector.length + indAux);\n    var voutput = [];\n\n    for (let i = indAux; i < (vector.length + indAux); i++) {\n        voutput.push(Veldup[i]);\n    }\n\n\n    return { voutput, Veldup};\n\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1460,
+        "x": 1420,
         "y": 1440,
         "wires": [
             []
