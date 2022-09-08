@@ -1,0 +1,10 @@
+Parametrizacion AFE
+Cambio de Fase OutPhase parametro in Phase LossActn 289 ignorar para perdida de fase
+
+Fuente de la referencia 
+port 10 parametro 18001, se debe definir por el puerto Port 0: Emb Enet Ref [internal value 211]
+
+Fuente para permitir Arranques desde las puertos:
+Port 0 parámetro 41 Logic Mask [internal value 33407]
+
+
