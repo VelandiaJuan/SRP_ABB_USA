@@ -395,7 +395,7 @@
                 "y": 100,
                 "wires": [
                     {
-                        "id": "e48d938d587a3f78"
+                        "id": "2031c79602123115"
                     }
                 ]
             }
@@ -777,22 +777,22 @@
         "category": "conversion",
         "in": [
             {
-                "x": 40,
-                "y": 80,
+                "x": 120,
+                "y": 200,
                 "wires": [
                     {
-                        "id": "478982728f47abd2"
+                        "id": "fbd5fadc526407b5"
                     }
                 ]
             }
         ],
         "out": [
             {
-                "x": 360,
-                "y": 80,
+                "x": 460,
+                "y": 200,
                 "wires": [
                     {
-                        "id": "478982728f47abd2",
+                        "id": "fbd5fadc526407b5",
                         "port": 0
                     }
                 ]
@@ -803,7 +803,17 @@
             "module": "ConversionSPM",
             "type": "conversion"
         },
-        "color": "#DDAA99"
+        "color": "#DDAA99",
+        "status": {
+            "x": 580,
+            "y": 240,
+            "wires": [
+                {
+                    "id": "fc39020cf8bef826",
+                    "port": 0
+                }
+            ]
+        }
     },
     {
         "id": "9bea73f1dc0532c9",
@@ -975,9 +985,7 @@
             "e39536e36180e4d8"
         ],
         "x": 1334,
-        "y": 1011.5,
-        "w": 792,
-        "h": 337
+        "y": 1011.5
     },
     {
         "id": "82fde41a.c6f8d8",
@@ -1017,9 +1025,7 @@
             "77cd4010fe016c65"
         ],
         "x": 14,
-        "y": 119,
-        "w": 1182,
-        "h": 322
+        "y": 119
     },
     {
         "id": "fcb3da61.429db8",
@@ -1179,9 +1185,7 @@
             "cae90cc36eb53039"
         ],
         "x": 14,
-        "y": 679,
-        "w": 882,
-        "h": 322
+        "y": 679
     },
     {
         "id": "312f680c.5a3b4",
@@ -1409,9 +1413,7 @@
             "34c5a0aa2b3d052d"
         ],
         "x": 14,
-        "y": 1019,
-        "w": 1242,
-        "h": 262
+        "y": 1019
     },
     {
         "id": "3ae9fbe60d6132ea",
@@ -1433,9 +1435,7 @@
             "a553cb02d3dd2a37"
         ],
         "x": 44,
-        "y": 439,
-        "w": 522,
-        "h": 242
+        "y": 439
     },
     {
         "id": "6abd418f.d175b",
@@ -1449,9 +1449,7 @@
             "b2f2659a.67f648"
         ],
         "x": 48,
-        "y": 33,
-        "w": 1094,
-        "h": 234
+        "y": 33
     },
     {
         "id": "8c207e440fb46f33",
@@ -1467,9 +1465,7 @@
             "9f77b0d829ad914b"
         ],
         "x": 44,
-        "y": 719,
-        "w": 282,
-        "h": 82
+        "y": 719
     },
     {
         "id": "e29eaee41e038edd",
@@ -1569,9 +1565,7 @@
             "8f8a192b.bb2ef8"
         ],
         "x": 28,
-        "y": 33,
-        "w": 2784,
-        "h": 1122
+        "y": 33
     },
     {
         "id": "6202107f.ed9aa",
@@ -1800,9 +1794,7 @@
             "ee5753bdd6eedb72"
         ],
         "x": 78,
-        "y": 33,
-        "w": 1004,
-        "h": 1854
+        "y": 33
     },
     {
         "id": "b3942c43115e460d",
@@ -1818,9 +1810,7 @@
             "dbdc491cb6e9eee5"
         ],
         "x": 1478,
-        "y": -7,
-        "w": 1274,
-        "h": 1294
+        "y": -7
     },
     {
         "id": "08ae5a87c119f624",
@@ -1836,9 +1826,7 @@
             "d929d138.3b512"
         ],
         "x": 1248,
-        "y": 73,
-        "w": 324,
-        "h": 324
+        "y": 73
     },
     {
         "id": "20a59349.5b554c",
@@ -1908,9 +1896,7 @@
             "2302ffda8592e4b4"
         ],
         "x": 974,
-        "y": 459,
-        "w": 312,
-        "h": 402
+        "y": 459
     },
     {
         "id": "a55fe2f884c89e71",
@@ -2177,9 +2163,7 @@
             "952d3fda01cda076"
         ],
         "x": 14,
-        "y": 1499,
-        "w": 562,
-        "h": 222
+        "y": 1499
     },
     {
         "id": "a29dc858ae62d58f",
@@ -2761,9 +2745,7 @@
             "d17ceb3fc54c19b2"
         ],
         "x": 14,
-        "y": 1739,
-        "w": 792,
-        "h": 322
+        "y": 1739
     },
     {
         "id": "fd65929694c9064e",
@@ -3441,9 +3423,7 @@
             "950ba8d14ba2185d"
         ],
         "x": 14,
-        "y": 1279,
-        "w": 982,
-        "h": 202
+        "y": 1279
     },
     {
         "id": "193969f706c28bf5",
@@ -3673,9 +3653,7 @@
             "2421053256f107da"
         ],
         "x": 154,
-        "y": 279,
-        "w": 742,
-        "h": 502
+        "y": 279
     },
     {
         "id": "7c4c986707b478cc",
@@ -3837,7 +3815,6 @@
             "7b1c67951e40ce3f",
             "65e1c255c4b5cfed",
             "cb9c791c9a8afbfa",
-            "a3a4c85539b7397e",
             "6aec94b6b9f9199a",
             "8e9215fc30356384",
             "662ccfab1a84515d",
@@ -3847,7 +3824,6 @@
             "38b68448ab2af13c",
             "17285aebf1343757",
             "2fcf255ca51ca0b5",
-            "372927f0c52ea142",
             "5b3e0e51c1c7f5d0",
             "3e8b5c9fbf5e1b80",
             "4720d86ad9a94382",
@@ -3858,13 +3834,10 @@
             "00bcf35fa11c2460",
             "b7e15b5a64102c4a",
             "951e58014d8150ee",
-            "7465d854041a10e6",
             "f218df3267557724"
         ],
         "x": 1014,
-        "y": 1359,
-        "w": 1472,
-        "h": 422
+        "y": 1359
     },
     {
         "id": "b0e1bb0cbdf93ee4",
@@ -3886,9 +3859,7 @@
             "8fbfc036b1ed27be"
         ],
         "x": 14,
-        "y": 2119,
-        "w": 542,
-        "h": 242
+        "y": 2119
     },
     {
         "id": "aaa3f14076099363",
@@ -4045,9 +4016,7 @@
             "7d4a3219ee6babb3"
         ],
         "x": 594,
-        "y": 439,
-        "w": 412,
-        "h": 242
+        "y": 439
     },
     {
         "id": "9f921275daf0bbd3",
@@ -4082,9 +4051,7 @@
             "2ff3eb2b0c25f0e5"
         ],
         "x": 494,
-        "y": 1199,
-        "w": 992,
-        "h": 82
+        "y": 1199
     },
     {
         "id": "c0ec429a0e1e6f46",
@@ -4130,9 +4097,7 @@
             "8c419976cbdc4f7f"
         ],
         "x": 604,
-        "y": 279,
-        "w": 782,
-        "h": 142
+        "y": 279
     },
     {
         "id": "f82d188a766cf90e",
@@ -4170,9 +4135,7 @@
             "4372d5a0.d338dc"
         ],
         "x": 1274,
-        "y": 99,
-        "w": 272,
-        "h": 82
+        "y": 99
     },
     {
         "id": "931b0370.afc1b",
@@ -4193,9 +4156,7 @@
             "52f1e35a6b450a62"
         ],
         "x": 1274,
-        "y": 189,
-        "w": 272,
-        "h": 182
+        "y": 189
     },
     {
         "id": "dbdc491cb6e9eee5",
@@ -4248,9 +4209,7 @@
             "4b7ccd69bee4595c"
         ],
         "x": 1504,
-        "y": 299,
-        "w": 1222,
-        "h": 962
+        "y": 299
     },
     {
         "id": "99671f60976b1d2a",
@@ -4277,9 +4236,7 @@
             "6a229694c9c0fbca"
         ],
         "x": 1514,
-        "y": 19,
-        "w": 1002,
-        "h": 212
+        "y": 19
     },
     {
         "id": "95daead77be77494",
@@ -4327,9 +4284,7 @@
             "bde48f770f85aba2"
         ],
         "x": 384,
-        "y": 1129,
-        "w": 532,
-        "h": 732
+        "y": 1129
     },
     {
         "id": "87fca62744442ad4",
@@ -4365,9 +4320,7 @@
             "19a66bb9.eaa504"
         ],
         "x": 104,
-        "y": 229,
-        "w": 702,
-        "h": 272
+        "y": 229
     },
     {
         "id": "a7f58aaec292b159",
@@ -4409,9 +4362,7 @@
             "e08e4b7c2b9e63c1"
         ],
         "x": 104,
-        "y": 509,
-        "w": 952,
-        "h": 272
+        "y": 509
     },
     {
         "id": "37b64a70f39dda06",
@@ -4451,9 +4402,7 @@
             "fc3f919b2e15cdc9"
         ],
         "x": 104,
-        "y": 789,
-        "w": 812,
-        "h": 322
+        "y": 789
     },
     {
         "id": "ee5753bdd6eedb72",
@@ -4479,9 +4428,7 @@
             "5ab224aea45fee3e"
         ],
         "x": 104,
-        "y": 59,
-        "w": 802,
-        "h": 162
+        "y": 59
     },
     {
         "id": "b079c206d161b62c",
@@ -4806,9 +4753,7 @@
             "0935425fec2ba178"
         ],
         "x": 74,
-        "y": 59,
-        "w": 1042,
-        "h": 182
+        "y": 59
     },
     {
         "id": "e2589faa.5b6d2",
@@ -4950,9 +4895,7 @@
             "ba2bb4e805964372"
         ],
         "x": 54,
-        "y": 349,
-        "w": 1802,
-        "h": 780
+        "y": 349
     },
     {
         "id": "7aad629d.de652c",
@@ -5014,9 +4957,7 @@
             "93ed76d69e2674b6"
         ],
         "x": 54,
-        "y": 59,
-        "w": 2732,
-        "h": 292
+        "y": 59
     },
     {
         "id": "8f8a192b.bb2ef8",
@@ -5044,9 +4985,7 @@
             "4e19cfd4.3982f"
         ],
         "x": 1864,
-        "y": 359,
-        "w": 922,
-        "h": 232
+        "y": 359
     },
     {
         "id": "70a63b74.44894c",
@@ -7245,17 +7184,6 @@
         "collapse": false
     },
     {
-        "id": "02cbe3fdab13693b",
-        "type": "ui_group",
-        "name": "Gear Box",
-        "tab": "",
-        "order": 18,
-        "disp": true,
-        "width": "16",
-        "collapse": false,
-        "className": ""
-    },
-    {
         "id": "c4af1abf6fb99202",
         "type": "ui_group",
         "name": "ParametrosSarta",
@@ -8293,7 +8221,7 @@
         "type": "ui_spacer",
         "z": "902fc438.e5d758",
         "name": "spacer",
-        "group": "02cbe3fdab13693b",
+        "group": "",
         "order": 5,
         "width": 1,
         "height": 1
@@ -8303,7 +8231,7 @@
         "type": "ui_spacer",
         "z": "902fc438.e5d758",
         "name": "spacer",
-        "group": "02cbe3fdab13693b",
+        "group": "",
         "order": 9,
         "width": 8,
         "height": 1
@@ -10386,20 +10314,6 @@
         ]
     },
     {
-        "id": "e48d938d587a3f78",
-        "type": "subflow:19141afc5f219503",
-        "z": "1fbf295f73cccb97",
-        "name": "",
-        "env": [],
-        "x": 230,
-        "y": 100,
-        "wires": [
-            [
-                "2031c79602123115"
-            ]
-        ]
-    },
-    {
         "id": "521caa2fc4efa734",
         "type": "function",
         "z": "a52b5a046f4fd02f",
@@ -11672,8 +11586,44 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 200,
-        "y": 80,
+        "x": 280,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbd5fadc526407b5",
+        "type": "function",
+        "z": "222e9a8dc8f57193",
+        "name": "conversionRPM",
+        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\")||0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\")||0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\")||0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\")||0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\")||0;\nvar RpmSalida = 0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\ncontext.set(\"relSRP1\", relSRP1, \"memoryOnly\");\ncontext.set(\"relSRP2\", relSRP2, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor!= 0){\n    node.status({fill:\"green\",shape:\"dot\",text:\"Configurado\"});\n    var relSRP1 = spm*PoleaGrande*RGB*HertzMotor;\n    var relSRP2 = RPM*PoleaPequena\n    if(relSRP2 != 0){//ejecute si la relacion de SRP2 está correcta\n        var hz = relSRP1/relSRP2;\n        hz = parseFloat(hz.toFixed(4));//redondeo a 4 cifras\n        RpmSalida = parseInt((hz * RPM)/HertzMotor);\n        msg.payload = RpmSalida;\n        context.set(\"hz\", hz, \"memoryOnly\");\n        // setea la variable global\n        global.set(\"Input.Operation.Reference\", hz, \"memoryOnly\");\n        global.set(\"C2S.Last_Reference.Value\", hz, \"memoryOnly\");\n        global.set(\"Input.Operation.spm\", spm, \"memoryOnly\");\n        global.set(\"Input.Operation.rpm\", RpmSalida, \"memoryOnly\");\n        return msg;\n    }\n\n}else{\n    node.status({fill:\"red\",shape:\"dot\",text:\"NoConfigurado\"});\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "fc39020cf8bef826"
+            ]
+        ]
+    },
+    {
+        "id": "fc39020cf8bef826",
+        "type": "function",
+        "z": "222e9a8dc8f57193",
+        "name": "Status",
+        "func": "var spm = msg.payload;//spm seteada por la entrada\nvar PoleaGrande = global.get(\"C2S.Motor_Control.Nameplate.PoleaGrande\")||0;\nvar PoleaPequena = global.get(\"C2S.Motor_Control.Nameplate.PoleaPequena\")||0;\nvar RGB = global.get(\"C2S.Motor_Control.Nameplate.RGB\")||0;\nvar RPM = global.get(\"C2S.Motor_Control.Nameplate.RPM\")||0;\nvar HertzMotor = global.get(\"C2S.Motor_Control.Nameplate.Hertz\")||0;\nvar RpmSalida = 0;\n\n// guardar las variables\ncontext.set(\"spm\", spm, \"memoryOnly\");\ncontext.set(\"PoleaGrande\", PoleaGrande, \"memoryOnly\");\ncontext.set(\"PoleaPequena\", PoleaPequena, \"memoryOnly\");\ncontext.set(\"RGB\", RGB, \"memoryOnly\");\ncontext.set(\"HertzMotor\", HertzMotor, \"memoryOnly\");\ncontext.set(\"RPM\", RPM, \"memoryOnly\");\n\nif ((PoleaGrande != 0) && (RGB != 0) && (RPM != 0) && HertzMotor!= 0){\n    msg.payload = \"configurado\" + \" Valor SPM \" + spm;\n}else{\n    msg.payload = \"No configurado\" + \" Valor SPM \" + spm;\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 240,
         "wires": [
             []
         ]
@@ -55503,18 +55453,6 @@
         "wires": []
     },
     {
-        "id": "0e8a174408cf018f",
-        "type": "subflow:19141afc5f219503",
-        "z": "dd18d94e.4b1408",
-        "name": "",
-        "env": [],
-        "x": 930,
-        "y": 840,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "5c5b638c.a8f91c",
         "type": "change",
         "z": "2858ae04397c7488",
@@ -56776,7 +56714,7 @@
         "name": "",
         "label": "Ct1",
         "tooltip": "",
-        "group": "02cbe3fdab13693b",
+        "group": "",
         "order": 7,
         "width": 2,
         "height": 1,
@@ -56803,7 +56741,7 @@
         "name": "",
         "label": "Ct2",
         "tooltip": "",
-        "group": "02cbe3fdab13693b",
+        "group": "",
         "order": 8,
         "width": 2,
         "height": 1,
@@ -56901,7 +56839,7 @@
         "type": "ui_text",
         "z": "2858ae04397c7488",
         "g": "70a63b74.44894c",
-        "group": "02cbe3fdab13693b",
+        "group": "",
         "order": 6,
         "width": 4,
         "height": 1,
