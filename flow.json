@@ -9963,6 +9963,1521 @@
                 },
                 "SWC.entradasAnalogas[3]": {
                     "type": "REAL"
+                },
+                "SWC.Dinagrama.tMuestreo": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.NumeroMuestras": {
+                    "type": "INT"
+                },
+                "SWC.Dinagrama.enabled": {
+                    "type": "BOOL"
+                },
+                "SWC.Dinagrama.captura": {
+                    "type": "BOOL"
+                },
+                "SWC.Dinagrama.resetVector": {
+                    "type": "BOOL"
+                },
+                "SWC.Dinagrama.vPosicion[0]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[1]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[2]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[3]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[4]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[5]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[6]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[7]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[8]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[9]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[10]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[11]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[12]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[13]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[14]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[15]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[16]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[17]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[18]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[19]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[20]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[21]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[22]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[23]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[24]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[25]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[26]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[27]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[28]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[29]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[30]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[31]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[32]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[33]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[34]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[35]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[36]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[37]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[38]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[39]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[40]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[41]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[42]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[43]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[44]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[45]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[46]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[47]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[48]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[49]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[50]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[51]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[52]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[53]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[54]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[55]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[56]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[57]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[58]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[59]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[60]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[61]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[62]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[63]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[64]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[65]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[66]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[67]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[68]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[69]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[70]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[71]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[72]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[73]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[74]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[75]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[76]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[77]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[78]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[79]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[80]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[81]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[82]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[83]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[84]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[85]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[86]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[87]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[88]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[89]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[90]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[91]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[92]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[93]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[94]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[95]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[96]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[97]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[98]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[99]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[100]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[101]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[102]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[103]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[104]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[105]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[106]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[107]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[108]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[109]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[110]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[111]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[112]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[113]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[114]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[115]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[116]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[117]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[118]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[119]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[120]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[121]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[122]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[123]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[124]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[125]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[126]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[127]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[128]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[129]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[130]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[131]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[132]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[133]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[134]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[135]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[136]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[137]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[138]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[139]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[140]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[141]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[142]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[143]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[144]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[145]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[146]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[147]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[148]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[149]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[150]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[151]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[152]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[153]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[154]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[155]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[156]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[157]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[158]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[159]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[160]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[161]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[162]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[163]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[164]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[165]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[166]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[167]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[168]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[169]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[170]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[171]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[172]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[173]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[174]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[175]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[176]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[177]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[178]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[179]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[180]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[181]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[182]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[183]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[184]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[185]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[186]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[187]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[188]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[189]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[190]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[191]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[192]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[193]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[194]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[195]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[196]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[197]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[198]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[199]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[200]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[201]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[202]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[203]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[204]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[205]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[206]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[207]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[208]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[209]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[210]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[211]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[212]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[213]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[214]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[215]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[216]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[217]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[218]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[219]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[220]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[221]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[222]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[223]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[224]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[225]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[226]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[227]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[228]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[229]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[230]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[231]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[232]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[233]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[234]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[235]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[236]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[237]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[238]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[239]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[240]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[241]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[242]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[243]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[244]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[245]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[246]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[247]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[248]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[249]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[250]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[251]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[252]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[253]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[254]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[255]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[256]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[257]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[258]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[259]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[260]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[261]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[262]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[263]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[264]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[265]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[266]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[267]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[268]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[269]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[270]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[271]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[272]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[273]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[274]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[275]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[276]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[277]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[278]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[279]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[280]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[281]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[282]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[283]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[284]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[285]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[286]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[287]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[288]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[289]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[290]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[291]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[292]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[293]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[294]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[295]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[296]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[297]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[298]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[299]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[300]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[301]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[302]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[303]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[304]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[305]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[306]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[307]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[308]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[309]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[310]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[311]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[312]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[313]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[314]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[315]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[316]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[317]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[318]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[319]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[320]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[321]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[322]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[323]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[324]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[325]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[326]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[327]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[328]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[329]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[330]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[331]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[332]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[333]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[334]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[335]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[336]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[337]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[338]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[339]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[340]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[341]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[342]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[343]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[344]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[345]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[346]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[347]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[348]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[349]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[350]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[351]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[352]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[353]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[354]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[355]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[356]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[357]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[358]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[359]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[360]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[361]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[362]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[363]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[364]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[365]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[366]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[367]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[368]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[369]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[370]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[371]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[372]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[373]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[374]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[375]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[376]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[377]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[378]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[379]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[380]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[381]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[382]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[383]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[384]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[385]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[386]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[387]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[388]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[389]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[390]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[391]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[392]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[393]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[394]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[395]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[396]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[397]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[398]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[399]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[400]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[401]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[402]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[403]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[404]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[405]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[406]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[407]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[408]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[409]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[410]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[411]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[412]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[413]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[414]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[415]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[416]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[417]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[418]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[419]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[420]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[421]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[422]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[423]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[424]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[425]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[426]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[427]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[428]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[429]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[430]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[431]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[432]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[433]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[434]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[435]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[436]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[437]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[438]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[439]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[440]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[441]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[442]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[443]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[444]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[445]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[446]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[447]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[448]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[449]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[450]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[451]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[452]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[453]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[454]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[455]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[456]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[457]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[458]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[459]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[460]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[461]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[462]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[463]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[464]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[465]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[466]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[467]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[468]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[469]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[470]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[471]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[472]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[473]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[474]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[475]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[476]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[477]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[478]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[479]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[480]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[481]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[482]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[483]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[484]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[485]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[486]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[487]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[488]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[489]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[490]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[491]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[492]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[493]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[494]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[495]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[496]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[497]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[498]": {
+                    "type": "REAL"
+                },
+                "SWC.Dinagrama.vPosicion[499]": {
+                    "type": "REAL"
                 }
             }
         }
@@ -10260,6 +11775,7 @@
     {
         "id": "7a801697e98d5da6",
         "type": "eth-ip endpoint",
+        "d": true,
         "address": "192.168.2.41",
         "slot": "0",
         "cycletime": "500",
@@ -42302,7 +43818,7 @@
         "z": "7a89175c.90f6a8",
         "g": "95d08799269cfb19",
         "name": "",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
